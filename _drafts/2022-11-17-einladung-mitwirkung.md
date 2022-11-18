@@ -10,7 +10,7 @@ ich hoffe bei euch ist alles gut. Ich schreibe euch hier in meiner Rolle als Stu
 
 Wir steigen gerade in den Prozess der Reakkreditierung der Studiengänge Medieninformatik Bachelor & Master ein. Dieser wird von Susanne Götzen vom ZLE moderiert. Juchuu!
 
-Ich schreibe euch an, weil ich im ersten Schritt abfragen möchte, inwieweit ihr in den Prozess integriert werden wollt. Es wird drei Gruppen/ Arbeitskreise geben und ich würde euch bitten in der verlinkten Liste zu markieren, ob und wo ihr euch zuordnen würdet. Dies bitte bis zum 27.11. erledigen. Bei Fragen: fragen :) Hier die derzeitige Beschreibung der Gruppen:
+Ich schreibe euch an, weil ich im ersten Schritt abfragen möchte, inwieweit ihr in den Prozess integriert werden wollt. Es wird drei Gruppen/ Arbeitskreise geben und ich würde euch bitten in der verlinkten Liste zu markieren, ob und wo ihr euch zuordnen würdet. Dies bitte bis zum 25.11. erledigen. Bei Fragen: fragen :) Hier die derzeitige Beschreibung der Gruppen:
 
 Entwicklungsteam: Prozesseigner und verantwortlich dafür, dass alles läuft und die Reakkreditierung zielgerichtet und termingerecht durchgeführt wird. Um hier handlungsfähig zu sein, ca. 6 Personen, von denen zwei aus dem Mittelbau kommen. Die (zukünftigen) Studiengangsleiter:innen sollten im besten Fall Teil des Teams sein. geschätzter Aufwand: ca. 20 Meetings und einiges an Arbeit
 
