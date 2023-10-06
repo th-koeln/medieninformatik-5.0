@@ -1,0 +1,41 @@
+name: 11ty Build
+
+on:
+  push:
+    branches: ['main']
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: string
+        default: prod
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: ['19']
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Run npm build
+        run: npm run build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: docs 
+          publish_branch: gh-pages
+          deploy_key: ${{ secrets.ARLEBNISPAFDE_ACTIONS_DEPLOY_KEY }}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ site.data.settings.basic_settings.site_title }} // {% if page.title %}{{ page.title }} – {% endif %}</title>
+
+		<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles/main.css">
+
+  </head>
+
+  <body class="{{ page.layout }}">
+    {% include header.html %}
+	  
+    {{ content }}
+
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+
+</html>

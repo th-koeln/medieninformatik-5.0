@@ -1,0 +1,26 @@
+/* Main Header
+###########################################################################  */
+
+.main-header{
+  display: flex;
+
+  align-items: baseline;
+  
+  .back-button{
+    display: inline-block;
+    width: var(--m);
+    font-size: var(--xl);
+
+    &.is-hidden{
+      display: none;
+    }
+  }
+
+  & > *{
+    margin: var(--s);
+  }
+
+  h1{
+    flex-grow: 2;
+  }
+}

@@ -1,0 +1,22 @@
+/* Main Header
+###########################################################################  */
+
+.main-header {
+  padding-left: var(--fluid-space-m);
+  margin: 0;
+  background-color: var(--darkest);
+
+  ul{
+    margin: 0;
+    padding: 0;
+    
+    li{
+      font-size: var(--l);
+      padding: var(--s);
+
+      &::before{
+        content: "";
+      }
+    }
+  }
+}

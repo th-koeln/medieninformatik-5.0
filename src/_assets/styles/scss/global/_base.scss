@@ -1,0 +1,86 @@
+* {
+  /* TODO: Zeigen */
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--ff-normal);
+  font-size: var(--m);
+  font-weight: var(--fw-normal);
+  hyphens: auto;
+  line-height: var(--lh-normal);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-headline);
+  font-family: var(--ff-headline);
+  font-weight: var(--fw-normal);
+  line-height: var(--lh-tight);
+  hyphens: none;
+  margin-bottom: var(--s);
+}
+
+
+h1{
+  font-size: var(--xxl);
+}
+
+h2{
+  font-size: var(--xl);
+}
+
+h3{
+  font-size: var(--l);
+}
+
+h4, h5, h6{
+  font-size: var(--m);
+}
+
+p, div {
+  hyphens: auto;
+
+  & > strong{
+    color: var(--mi-lila);
+  }
+
+  & > mark, & > em{
+    font-weight: var(--fw-medium);
+    background-color: transparent;
+  }
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+small{
+  opacity: var(--op-medium);
+  font-size: 80%;
+}
+
+p + p {
+  margin-top: var(--s);
+}
+
+
+p + h2{
+  margin-top: var(--xxl);
+}
+
+p + h3,
+p + h4{
+  margin-top: var(--xl);
+}

@@ -1,0 +1,96 @@
+/* Tables
+###########################################################################  */
+
+table{
+  th{
+    text-align: left;
+  }
+
+  th, td{
+    padding: var(--xs);
+  }
+
+  tbody{
+    tr td,
+    tr th{
+      border-top: solid var(--border-width-s) var(--darken);
+    }
+  }
+
+  &.is-narrow{
+    th, td{
+      padding: var(--quat);
+    }
+  }
+}
+
+/* Table Module List
+###########################################################################  */
+
+.table-module-list{
+
+  *{
+    line-height: var(--lh-semi-tight);
+    vertical-align: top;
+  }
+
+  .module-title{
+    font-weight: var(--fw-light);
+    margin-bottom: var(--quat);
+    font-size: var(--m);
+  }
+
+  .module-exam{
+    margin-bottom: 0;
+  }
+
+  p{
+    margin-bottom: var(--half);
+  }
+
+  .is-small{
+    font-size: smaller;
+  }
+
+  th:first-child, td:first-child{
+    padding-left: 0;
+  }
+}
+
+/* Table Curriculum
+###########################################################################  */
+
+.table-curriculum{
+
+  width: 100%;
+
+  thead{
+    background-color: var(--darkest);
+
+    *{
+      color: var(--lighter);
+    }
+  }
+
+  .unit{
+    background-color: var(--darker);
+
+    *{
+      color: var(--lighter);
+    }
+  }
+
+  th{
+    font-weight: var(--fw-normal);
+  }
+
+  td{
+    text-align: center;
+  }
+
+  .is-fs-1,
+  .is-fs-3,
+  .is-fs-5{
+    background-color: var(--darken);
+  }
+}

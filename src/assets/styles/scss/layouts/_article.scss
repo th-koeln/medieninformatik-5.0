@@ -1,0 +1,35 @@
+/* Article
+############################################################################ */
+
+.article{
+  main > *,
+  aside > *{
+    max-width: var(--max-width-content);
+  }
+
+  aside{
+    background-color: var(--darken);
+    margin-top: 0;
+    padding-top: var(--fluid-space-m);
+  }
+
+  @media screen and (min-width: 60rem){
+    display: flex;
+    padding-right: 0;
+
+    main, aside{
+      padding-right: var(--fluid-space-m);
+      margin-bottom: 0;
+      flex-grow: 1;
+    }
+
+    main{
+      width: 80%;
+    }
+
+    aside{
+      font-size: var(--s);
+      line-height: var(--lh-normal);
+    }
+  }
+}

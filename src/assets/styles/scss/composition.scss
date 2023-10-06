@@ -1,0 +1,11 @@
+body > * {
+  margin: var(--fluid-space-m);
+}
+
+main, aside{
+  padding-bottom: var(--fluid-space-l);
+}
+
+section{
+  padding-bottom: var(--fluid-space-m);
+}

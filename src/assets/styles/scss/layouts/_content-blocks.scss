@@ -1,0 +1,33 @@
+/* Content Blocks
+############################################################################ */
+
+.content-blocks {
+
+  section {
+
+    .content{
+      padding-top: calc(var(--fluid-space-s) * 1);
+      padding-right: var(--fluid-space-s);
+      margin-bottom: var(--fluid-space-s);
+
+      & > *{
+        max-width: var(--max-width-content);
+      }
+    }
+
+    &.has-seperator{
+      .content{
+
+        padding-top: 0;
+
+        &::before {
+          display: block;
+          width: 10%;
+          border-top: solid var(--border-width-l) var(--mi-blau);
+          margin-bottom: var(--fluid-space-m);
+          content: "";
+        }
+      }
+    }
+  }
+}

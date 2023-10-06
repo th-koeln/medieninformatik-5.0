@@ -1,0 +1,55 @@
+{
+  "name": "medieninformatik-5.0",
+  "version": "0.0.1",
+  "description": "Static Page Generation für die Reakkreditierung der Medieninformatik an der TH Köln",
+  "main": "index.js",
+  "scripts": {
+    "lint:css": "stylelint src/assets/styles/**/*.scss",
+    "lint:css:fix": "stylelint src/assets/styles/**/*.scss --fix",
+    "lint:js": "eslint src/scripts/**/*.js",
+    "lint:js:fix": "eslint src/scripts/**/*.js --fix",
+    "dev:css": "sass src/assets/styles/scss/main.scss:src/assets/styles/main.css",
+    "watch:sass": "sass --update --watch src/assets/styles/scss/main.scss:src/compiled-assets/main.css",
+    "watch": "npm-run-all --parallel dev:css watch:*",
+    "build:css": "sass --load-path  src/assets/styles/scss src/assets/styles/scss/main.scss src/compiled-assets/main.css --style compressed",
+    "build:site": "npx cross-env ELEVENTY_ENV=production npx eleventy",
+    "del:docs": "rimraf ./docs",
+    "del:assets": "rimraf ./src/compiled-assets",
+    "serve:11ty": "npx cross-env ELEVENTY_ENV=development npx eleventy --serve --watch --port=8080",
+    "serve:prod": "serve ./docs/",
+    "dev": "npm-run-all del:docs build:css --parallel watch serve:11ty",
+    "build": "npm-run-all del:docs del:assets build:css build:site",
+    "live": "npm run build && npm run serve:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnoss/fd-2021.git"
+  },
+  "author": "Christian Noss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnoss/fd-2021/issues"
+  },
+  "homepage": "https://github.com/cnoss/fd-2021#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "concat-glob-cli": "^0.1.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "html-minifier": "^4.0.0",
+    "md5-file": "^5.0.0",
+    "npm-run-all": "^4.1.5",
+    "reveal.js": "^4.1.3",
+    "rimraf": "^3.0.2",
+    "sass": "^1.35.1",
+    "stylelint": "^15.10.3",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-scss": "^5.2.1",
+    "js-yaml": "^4.1.0"
+  }
+}

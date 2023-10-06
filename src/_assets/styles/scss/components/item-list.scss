@@ -1,0 +1,34 @@
+/* Overview
+############################################################################ */
+
+.overview, .path{
+  margin: 0;
+  padding: 0;
+
+  & li{
+    position: relative;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    z-index: 0;
+    
+    & > a{
+      position: relative;
+      display: block;
+      padding: calc(var(--l) * 4) var(--s) var(--s) var(--s);
+      z-index: 2;
+    }
+
+    &::before{
+      position: absolute;
+      display: block;
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.9) 100%);
+      z-index: 1;
+    }
+  }
+}

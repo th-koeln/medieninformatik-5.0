@@ -1,0 +1,69 @@
+:root {
+
+  --bfs: 1.2rem;
+  --half: calc(var(--bfs) / 2); // halbes geviert
+  --quat: calc(var(--bfs) / 4); // viertel geviert
+  --xxs: calc(var(--bfs) * 0.4);
+  --xs: calc(var(--bfs) * 0.6);
+  --s: calc(var(--bfs) * 0.8);
+  --m: calc(var(--bfs) * 1);
+  --l: calc(var(--bfs) * 1.2);
+  --xl: calc(var(--bfs) * 1.4);
+  --xxl: calc(var(--bfs) * 1.6);
+  --xxxl: calc(var(--bfs) * 1.8);
+  --xxxxl: calc(var(--bfs) * 2);
+
+  --light: #ccc;
+  --lighter: #eee;
+  --lightest: #fff;
+  --lighten: rgba(255,255,255,0.5);
+  --lighten-strong: rgba(255,255,255,0.8);
+  
+  --dark: #888;
+  --darker: #111;
+  --darkest: #000;
+  --darken: rgba(0, 0, 0, 0.1);
+
+  --obk-gelb: #F2CB05;
+  --obk-grau: #666666;
+  
+  --color-text: var(--lighter);
+  --color-headline: var(--light);
+  --color-accent: var(--obk-gelb);
+  --color-decoration: var(--obk-grau);
+  --color-background: var(--darkest);
+  
+  --ff-normal: 'Roboto', sans-serif;
+  --ff-serif: 'Roboto', serif;
+  --ff-code: 'RobotoCode', monospace;
+  --ff-headline: 'Roboto', monospace;
+  --ff-icons: 'MaterialIcons', serif;
+
+  --fw-normal: 200;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --lh-normal: 140%;
+  --lh-tight: 110%;
+  --lh-loose: 150%;
+
+  --tr-fast: 0.2s;
+  --tr-slow: 0.6s;
+  --tr-delay: 1.2s;
+
+  --op-low: 0.4;
+  --op-medium: 0.6;
+
+  --shadow-l: 0 0 var(--xs) rgba(0, 0, 0, 0.5);
+  --shadow-xl: var(--half) var(--half) var(--m) rgba(0, 0, 0, 0.3);
+
+  --border-width-s: 1px;
+  --border-width-m: 3px;
+  --border-width-l: 6px;
+
+  --border-radius-s: 3px;
+}
+
+/* Viewportgrößen für Media Queries
+   Hier greifen Custom Properties nicht. */
+$vp-large: 1400px;

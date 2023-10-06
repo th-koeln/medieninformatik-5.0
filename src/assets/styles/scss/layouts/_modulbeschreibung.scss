@@ -1,0 +1,42 @@
+/* Modulbeschreibung
+############################################################################ */
+
+.modulbeschreibung{
+  .content{
+    max-width: var(--max-width-content);
+  }
+
+  h2{
+    margin-bottom: var(--s);
+  }
+
+  .module-core-data{
+
+    dl{
+  
+      dt {
+        display: block;
+        float: left;
+        min-width: 5ch;
+        padding: var(--half) 0;
+        font-weight: var(--fw-normal);
+        color: var(--color-highlight);
+  
+        &::after {
+          content: ":";
+          display: inline-block;
+          padding-right: var(--half);
+        }
+      }
+  
+      dd {
+        border-bottom: solid var(--border-width-s) var(--darken);
+        padding: var(--half) 0;
+      }
+  
+    }
+  }
+
+}
+
+

@@ -1,0 +1,388 @@
+il:
+    id: il
+    status: prof
+    name: 'Prof. Dr. Irma Lindt'
+    avatar: '/img/professoren/lindt.png'
+    personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
+    mi: true
+moe:
+    id: moe
+    status: prof
+    name: 'Prof. Dr. Monika Engelen'
+    avatar: '/img/professoren/engelen.png'
+    personenseite: 'https://www.th-koeln.de/personen/monika.engelen/'
+    mi: true
+fn:
+    id: fn
+    status: prof
+    name: 'Prof. Dr. Florian Niebling'
+    personenseite: 'https://www.th-koeln.de/personen/florian.niebling/'
+    avatar: '/img/professoren/niebling.jpg'
+    email: 'florian.niebling@th-koeln.de'
+    mi: true
+pb:
+    id: pb
+    status: wma
+    name: 'Paul Bagiu'
+    personenseite: 'https://www.th-koeln.de/personen/paul.bagiu/'
+    mi: false
+alh:
+    id: alh
+    status: wma
+    name: 'Albert Hamidullin'
+    avatar: 'https://www.th-koeln.de/pseimg/37112da67e779928c205975420d7f0174a3b459d.png'
+    personenseite: 'https://www.th-koeln.de/personen/albert.hamidullin/'
+    mi: false
+cn:
+    id: cn
+    status: prof
+    name: 'Prof. Christian Noss'
+    avatar: '/img/professoren/noss.png'
+    personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
+    mi: true
+vos:
+    id: vos
+    status: wma
+    name: 'Volker Schäfer'
+    avatar: 'https://www.th-koeln.de/pseimg/968345007305db8e1992c660d36eac653a459623.png'
+    personenseite: 'https://www.th-koeln.de/personen/volker.schaefer/'
+    mi: true
+kf:
+    id: kf
+    status: prof
+    name: 'Prof. Dr. Kristian Fischer'
+    avatar: '/img/professoren/fischer.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/kristian.fischer/'
+    mi: false
+nag:
+    id: nag
+    status: wma
+    name: 'Ngoc-Anh Gabriel'
+    personenseite: 'https://www.th-koeln.de/personen/ngoc.gabriel/'
+    mi: true
+rog:
+    id: rog
+    status: wma
+    name: 'Robert Gabriel'
+    personenseite: 'https://www.th-koeln.de/personen/robert.gabriel/'
+    mi: true
+cok:
+    id: cok
+    status: wma
+    name: 'Corinna Sofie Klein'
+    personenseite: 'https://www.th-koeln.de/personen/corinna_sofie.klein/'
+    mi: true
+maa:
+    id: maa
+    status: wma
+    name: 'Markus Christopher Alterauge'
+    personenseite: 'https://www.th-koeln.de/personen/markus.alterauge/'
+    mi: true
+jkus:
+    id: jkus
+    status: lehrauftrag
+    name: 'Jan Kus'
+    avatar: '/img/lehrbeauftragte/jan-kus.jpeg'
+    personenseite: 'https://www.th-koeln.de/personen/jan.kus/'
+    mi: true
+perasmus:
+    id: perasmus
+    status: lehrauftrag
+    name: 'Patrick Erasmus'
+    avatar: '/img/lehrbeauftragte/patrick-erasmus.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/patrick.erasmus/'
+    mi: true
+ck:
+    id: ck
+    status: prof
+    name: 'Prof. Dr. Christian Kohls'
+    avatar: '/img/professoren/kohls.png'
+    personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
+    mi: true
+mak:
+    id: mak
+    status: wma
+    name: 'Manuel André Krischer'
+    personenseite: 'https://www.th-koeln.de/personen/manuel.krischer/'
+    mi: true
+ald:
+    id: ald
+    status: wma
+    name: 'Alexander Dobrynin'
+    personenseite: 'https://www.th-koeln.de/personen/alexander.dobrynin/'
+    avatar: 'https://www.th-koeln.de/pseimg/e1676cb0ca4b76df2d2c5205d8901190f067fe99.png'
+    mi: true
+gh:
+    id: gh
+    status: prof
+    name: 'Prof. Dr. Gerhard Hartmann'
+    personenseite: 'https://www.th-koeln.de/personen/gerhard.hartmann/'
+    avatar: '/img/professoren/hartmann.png'
+    mi: true
+hk:
+    id: hk
+    status: prof
+    name: 'Prof. Hans Kornacher'
+    avatar: '/img/professoren/kornacher.png'
+    personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
+    mi: true
+erw:
+    id: erw
+    status: wma
+    name: 'Ernestine Wassermann'
+    personenseite: 'https://www.th-koeln.de/personen/ernestine.wassermann/'
+    mi: true
+mw:
+    id: mw
+    status: prof
+    name: 'Prof. Dr. Mario Winter'
+    avatar: '/img/professoren/winter.png'
+    personenseite: 'https://www.th-koeln.de/personen/mario.winter/'
+    mi: true
+alm:
+    id: alm
+    status: wma
+    name: 'Alex Maier'
+    personenseite: 'https://www.th-koeln.de/personen/alex.maier/'
+    mi: true
+me:
+    id: me
+    status: prof
+    name: 'Prof. Dr. Martin Eisemann'
+    avatar: '/img/professoren/eisemann.png'
+    personenseite: 'https://www.th-koeln.de/personen/martin.eisemann/'
+    mi: false
+bem:
+    id: bem
+    status: wma
+    name: 'Dr. Benjamin Meyer'
+    personenseite: 'https://www.th-koeln.de/personen/benjamin.meyer/'
+    mi: true
+viet:
+    id: viet
+    status: prof
+    name: 'Prof. Dr. Hoai Viet Nguyen'
+    personenseite: 'https://www.th-koeln.de/personen/viet.nguyen/'
+    avatar: '/img/professoren/viet.jpg'
+    email: 'viet.nguyen@th-koeln.de'
+    mi: true
+uwm:
+    id: uwm
+    status: wma
+    name: 'Uwe Müsse'
+    avatar: '/img/wissmas/uwe-muesse.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/uwe.muesse/'
+    mi: true
+mag:
+    id: mag
+    status: wma
+    name: 'Matthias Groß'
+    avatar: '/img/wissmas/matze-gross.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/matthias.gross2/'
+    mi: true
+chh:
+    id: chh
+    status: wma
+    name: 'Christian Hahn'
+    avatar: 'https://www.th-koeln.de/pseimg/91dc1a78351336bdd58bb06aba518965bafcf350.png'
+    personenseite: 'https://www.th-koeln.de/personen/christian.hahn1/'
+    mi: true
+dbreuer:
+    id: dbreuer
+    status: lehrauftrag
+    name: 'Dirk Breuer'
+    avatar: '/img/lehrbeauftragte/dirk-breuer.png'
+    personenseite: 'https://www.th-koeln.de/personen/dirk.breuer/'
+    mi: true
+fv:
+    id: fv
+    status: prof
+    name: 'Prof. Dr. Frank Victor'
+    avatar: '/img/professoren/victor.png'
+    personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
+    mi: true
+lk:
+    id: lk
+    status: prof
+    name: 'Prof. Dr. Lutz Köhler'
+    personenseite: 'https://www.th-koeln.de/personen/lutz.koehler/'
+mboehmer:
+    id: mboehmer
+    status: prof
+    name: 'Prof. Dr. Matthias Böhmer'
+    avatar: '/img/professoren/boehmer.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/matthias.boehmer/'
+    mi: true
+edg:
+    id: edg
+    status: wma
+    name: 'Edgar Gellert'
+    personenseite: 'https://www.th-koeln.de/personen/edgar.gellert/'
+    mi: true
+ab:
+    id: ab
+    status: prof
+    name: 'Prof. Dr. Arno Bitzer'
+    personenseite: 'https://www.th-koeln.de/personen/arno.bitzer/'
+    mi: false
+bb:
+    id: bb
+    status: prof
+    name: 'Prof. Dr. Birgit Bertelsmeier'
+    avatar: '/img/professoren/bertelsmeier.png'
+    personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
+    mi: true
+hfw:
+    id: hfw
+    status: prof
+    name: 'Prof. Dr. Heide Faeskorn-Woyke'
+    avatar: '/img/professoren/faeskorn.png'
+    personenseite: 'https://www.th-koeln.de/personen/heide.faeskorn-woyke/'
+    mi: false
+dag:
+    id: dag
+    status: wma
+    name: 'Damian Gawenda'
+    personenseite: 'https://www.th-koeln.de/personen/damian.gawenda/'
+    mi: true
+kod:
+    id: kod
+    status: wma
+    name: 'Konstantinos Dimitriou'
+    personenseite: 'https://www.th-koeln.de/personen/konstantinos.dimitriou/'
+    mi: true
+sk:
+    id: sk
+    status: prof
+    name: 'Prof. Dr. Stefan Karsch'
+    personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
+    avatar: '/img/professoren/karsch.jpg'
+    mi: true
+hls:
+    id: hls
+    status: prof
+    name: 'Prof. Dr. Hans L. Stahl'
+    avatar: '/img/professoren/stahl.png'
+    personenseite: 'https://www.th-koeln.de/personen/hans.stahl/'
+    mi: true
+jjb:
+    id: jjb
+    status: wma
+    name: 'Johannes-Josef Bungart'
+    personenseite: 'https://www.th-koeln.de/personen/johannes-josef.bungart/'
+    mi: true
+rab:
+    id: rab
+    status: wma
+    name: 'Raphaela Butz'
+    personenseite: 'https://www.th-koeln.de/personen/raphaela.butz/'
+    mi: true
+dej:
+    id: dej
+    status: wma
+    name: 'Dennis Jaeger'
+    personenseite: 'https://www.th-koeln.de/personen/dennis.jaeger/'
+    mi: true
+wk:
+    id: wk
+    status: prof
+    name: 'Prof. Dr. Wolfgang Konen'
+    avatar: '/img/professoren/konen.png'
+    personenseite: 'https://www.th-koeln.de/personen/wolfgang.konen/'
+    mi: true
+as:
+    id: as
+    status: wma
+    name: 'Dr. Ane Schmitter'
+    personenseite: 'https://www.th-koeln.de/personen/ane.schmitter/'
+    mi: true
+pew:
+    id: pew
+    status: wma
+    name: 'Peter Wagner'
+    personenseite: 'https://www.th-koeln.de/personen/peter.wagner/'
+    mi: true
+hg:
+    id: hg
+    status: prof
+    name: 'Prof. Dr. Holger Günther'
+    personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
+    avatar: '/img/professoren/guenther.jpg'
+    mi: false
+mas:
+    id: mas
+    status: wma
+    name: 'Marc Schwede'
+    personenseite: 'https://www.th-koeln.de/personen/marc.schwede/'
+    mi: true
+db:
+    id: db
+    status: wma
+    name: 'Dipl.-Inform. (FH) Dennis Buderus'
+    avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
+    personenseite: 'https://www.th-koeln.de/personen/dennis.buderus/'
+bn:
+    id: bn
+    status: prof
+    name: 'Prof. Dr. Boris Naujoks'
+    personenseite: 'https://www.th-koeln.de/personen/boris.naujoks/'
+    avatar: 'https://www.th-koeln.de/pseimg/1d05f6bc68d5d3beee69fc0879358be1b953ac29.png'
+mbluemm: 
+    id: mbluemm
+    status: prof
+    name: 'Prof. Dr. Mirjam Blümm'
+    personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
+    avatar: '/img/professoren/bluemm.png'
+    mi: true
+akarge:
+    id: akarge
+    status: lehrauftrag
+    name: 'Andreas Karge'
+    avatar: '/img/lehrbeauftragte/andreas-karge.png'
+    personenseite: 'https://www.th-koeln.de/en/person/andreas.karge/'
+    mi: true
+petru:
+    id: petru
+    status: lehrauftrag
+    name: 'Dr. Petru Nicolaescu'
+    personenseite: 'https://www.th-koeln.de/personen/petru.nicolaescu/'
+    mi: true
+sheree:
+    id: sheree
+    status: lehrauftrag
+    name: 'Sheree Saßmannshausen'
+    avatar: '/img/lehrbeauftragte/sheree.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/sheree.sassmannshausen/'
+    mi: true
+dgaida:
+    id: dgaida
+    status: prof
+    name: 'Prof. Dr. Daniel Gaida'
+    avatar: '/img/professoren/gaida.png'
+    personenseite: 'https://www.th-koeln.de/personen/daniel.gaida/'
+    mi: false
+hs:
+    id: hs
+    status: prof
+    name: 'Prof. Dr. Horst Stenzel'
+    avatar: '/img/lehrbeauftragte/horststenzel.png'
+    personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
+    mi: false
+
+jschaible:
+    id: jschaible
+    status: prof
+    name: 'Prof. Dr. Johann Schaible'
+    avatar: '/img/professoren/johann-schaible.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/johann.schaible/'
+    mi: true
+
+mi:
+    id: mi
+    name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter'
+all:
+    id: all
+    name: 'alle Professor:innen der TH Köln'
+eingesetzterPruefer:
+    id: eingesetzterPruefer
+    name: vom Prüfungsausschuss eingesetzte:r Prüfer:in

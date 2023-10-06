@@ -1,0 +1,39 @@
+/* POI
+############################################################################ */
+
+.poi{
+
+  .core-info{
+    img{
+      display: block;
+      margin-bottom: var(--s);
+    }
+
+    figcaption{
+      padding: var(--m) var(--s);
+      font-weight: var(--fw-normal);
+
+      p + p {
+        margin-top: var(--xs);
+      }
+    }
+  }
+
+  .maps-link{
+    padding: var(--m) var(--s);
+
+    display: flex;
+    gap: var(--quat);
+    align-items: baseline;
+
+    & > *{
+      display: block;
+    }
+  }
+
+  .ar-desc{
+    padding: var(--m) var(--s);
+    display: flex;
+    gap: var(--quat);
+  }
+}

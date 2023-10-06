@@ -1,0 +1,28 @@
+@font-face {
+  font-display: swap;
+  font-family: Atkinson;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../assets/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Atkinson;
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Bold.ttf");
+}
+
+@font-face {
+  font-family: MaterialIcons;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.eot"); /* For IE6-8 */
+  src:
+    local("Material Icons"),
+    local("MaterialIcons-Regular"),
+    url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.woff2") format("woff2"),
+    url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.woff") format("woff"),
+    url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.ttf") format("truetype");
+}
