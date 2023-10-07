@@ -1,5 +1,15 @@
-body > * {
-  margin: var(--fluid-space-m);
+body{
+
+  display: flex;
+  flex-direction: column;
+
+  & > *:not(.main-footer, .main-header) {
+    margin: var(--fluid-space-m);
+  }
+
+  main{
+    flex-grow: 2;
+  }
 }
 
 main, aside{

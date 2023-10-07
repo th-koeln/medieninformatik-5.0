@@ -14,7 +14,9 @@ exports.getPageFooter = (eleventy, data) => {
   return `
     <footer class="main-footer">
       ${tocContent}
-      ${date}.${month}.${year} // ${hours}:${minutes}:${seconds}
+      <p class="info">
+        ${date}.${month}.${year} // ${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}
+      </p>
     </footer>
   `;
 };

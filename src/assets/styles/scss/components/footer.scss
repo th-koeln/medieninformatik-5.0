@@ -1,0 +1,17 @@
+/* Footer
+############################################################################ */
+
+.main-footer{
+  background-color: var(--darken);
+  border-top: solid var(--mi-lila) var(--border-width-l);
+
+  nav{
+    padding: var(--m) var(--fluid-space-m) var(--l);
+  }
+
+  .info{
+    padding: var(--m) var(--fluid-space-m) var(--l);
+    background-color: var(--darken);
+    margin-bottom: 0;
+  }
+}
