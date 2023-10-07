@@ -37,11 +37,14 @@ exports.getPeopleList = (obj) => {
         </li>
       `;
     });
+    const personName = data.people[person].personenseite 
+      ? `<a href=${data.people[person].personenseite}"">${data.people[person].name}</a>`
+      : data.people[person].name;
 
     return `
       <tr>
         <td>${data.people[person].id}</td>
-        <td><a href=${data.people[person].personenseite}"">${data.people[person].name}</a></td>
+        <td>${personName}</td>
         <td>
           <ul>
             ${personModulsList.join("\n")}
@@ -62,7 +65,7 @@ exports.getPeopleList = (obj) => {
         </tr>
       </thead>
       <tbody>
-        ${peopleList}
+        ${peopleList.join("\n")}
       </tbody>
     </table>
   `;

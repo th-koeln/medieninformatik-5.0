@@ -202,7 +202,7 @@ module.exports = function (eleventyConfig) {
 
   if (process.env.ELEVENTY_ENV === 'production') {
     eleventyConfig.addTransform('htmlmin', (content, outputPath) => {
-      if (outputPath.endsWith('.html')) {
+      /*if (outputPath.endsWith('.html')) {
         return minified = htmlmin.minify(content, {
           collapseInlineTagWhitespace: false,
           collapseWhitespace: true,
@@ -210,7 +210,7 @@ module.exports = function (eleventyConfig) {
           sortClassName: true,
           useShortDoctype: true,
         });
-      }
+      }*/
 
       return content;
     });
