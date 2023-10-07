@@ -49,14 +49,14 @@ module.exports = {
 
 		return `
 			<main>
-				<section class="section module-core-data">
+				<section class="module-core-data">
 					<header>
 						<h1>${data.title} <a href="${editUrl}"><span class="icon icon--inline">edit</span></a></h1>
 					</header>
 					${coreData}
 				</section>
 
-				<section class="section content">
+				<section class="content">
 					${data.content}
 				</section>
 

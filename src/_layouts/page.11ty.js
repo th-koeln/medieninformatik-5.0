@@ -14,6 +14,9 @@ exports.render = function (data) {
     <body class="page ${data.bodyClass}">
       ${pageHead}
       <main>
+        <header>
+          <h1>${data.title}</a></h1>
+        </header>
         ${data.content}
       </main>
       ${pageFoot}
