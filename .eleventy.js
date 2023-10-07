@@ -2,7 +2,7 @@ const htmlmin = require('html-minifier');
 const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
 
-const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "" : "";
+const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "medieninformatik-5.0ty" : "";
 const ghPagesFolder = "docs";
 
 const md = new markdownIt({
