@@ -8,7 +8,8 @@ module.exports = {
     const peopleTools = require('./components/peopleTools.11ty.js');
     const peopleList = peopleTools.getPeopleList({
       moduls: data.collections.modulsBPO5,
-      data
+      data,
+			eleventy: this
     });
 
 		return `

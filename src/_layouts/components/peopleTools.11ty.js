@@ -21,12 +21,9 @@ exports.resolvePerson = (people, modulverantwortliche) => {
 ############################################################################ */
 
 exports.getPeopleList = (obj) => {
-
-  const moduleTools = require('../components/moduleTools.11ty');
-  const peopleTools = require('../components/peopleTools.11ty');
-
   const { moduls } = obj;
   const { data } = obj;
+  const { eleventy } = obj;
 
   const peopleList = Object.keys(data.people).map((person) => {
     const personModulsSummerTerm = moduls.filter((modul) => modul.data.modulverantwortlich == person && modul.data.studiensemester % 2 === 0);
@@ -35,7 +32,7 @@ exports.getPeopleList = (obj) => {
     const personModulsListWinterTerm = personModulsWinterTerm.map((modul) => {
       return `
         <li>
-          <a href="${modul.url}">${modul.data.title}</a>
+          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
         </li>
       `;
     });
@@ -43,7 +40,7 @@ exports.getPeopleList = (obj) => {
     const personModulsListSummerTerm = personModulsSummerTerm.map((modul) => {
       return `
         <li>
-          <a href="${modul.url}">${modul.data.title}</a>
+          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
         </li>
       `;
     });

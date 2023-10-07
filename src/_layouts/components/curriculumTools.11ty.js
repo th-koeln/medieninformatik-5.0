@@ -9,7 +9,8 @@ exports.getCurriculumList = (obj) => {
   const { moduls } = obj;
   const { terms } = obj;
   const { data } = obj;
-  
+  const { eleventy } = obj;
+
   let cps = 0;
 
   const listByTerm = terms.map((term) => {
@@ -31,7 +32,7 @@ exports.getCurriculumList = (obj) => {
       return `
         <tr>
           <td>
-            <h3 class="module-title"><a href="${modul.url}">${modul.data.title}</a></h3>
+            <h3 class="module-title"><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></h3>
             ${examInfo}
           </td>
           <td class="no-wrap">${modul.data.kuerzel}</td>
@@ -84,6 +85,7 @@ exports.getCurriculumTable = (obj) => {
   const { terms } = obj;
   const { groups } = obj;
   const { maxCPS } = obj;
+  const { eleventy } = obj;
 
   const modulsForGroup = (group) =>  {
     let cps = 0;
@@ -100,7 +102,7 @@ exports.getCurriculumTable = (obj) => {
 
       return `
         <tr>
-          <th><a href="${modul.url}">${modul.data.title}</a></th>
+          <th><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></th>
           <td>${pvl}</td>
           <td>${modul.data.kreditpunkte}</td>
           ${terms.map((term) => {

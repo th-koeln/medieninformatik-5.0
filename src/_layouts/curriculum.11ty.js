@@ -10,14 +10,16 @@ module.exports = {
       moduls: data.collections[collection],
       terms: data.terms,
       maxCPS: data.maxCPS,
-      data
+      data,
+      eleventy: this
     });
     const curriculumTable = curriculumTools.getCurriculumTable({
       moduls: data.collections[collection],
       terms: data.terms,
       groups: data.groups,
       maxCPS: data.maxCPS,
-      data
+      data,
+      eleventy: this
     });
 
 		return `
