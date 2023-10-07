@@ -38,4 +38,4 @@ jobs:
         with:
           publish_dir: docs 
           publish_branch: gh-pages
-          deploy_key: ${{ secrets.ARLEBNISPAFDE_ACTIONS_DEPLOY_KEY }}
+          deploy_key: ${{ secrets.MI_DEPLOY_KEY }}
