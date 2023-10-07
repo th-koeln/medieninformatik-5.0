@@ -83,8 +83,7 @@ exports.getCurriculumTable = (obj) => {
   const { moduls } = obj;
   const { terms } = obj;
   const { groups } = obj;
-  
-
+  const { maxCPS } = obj;
 
   const modulsForGroup = (group) =>  {
     let cps = 0;
@@ -153,7 +152,7 @@ exports.getCurriculumTable = (obj) => {
       <tfoot>
         <tr>
           <th colspan="2">Summe Leistungspunkte</th>
-          <td>210</td>
+          <td>${maxCPS}</td>
           ${terms.map((term) => `<td class="is-fs-${term}">30</td>`).join("\n")}
         </tr>
   </tfoot>

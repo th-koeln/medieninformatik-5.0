@@ -343,8 +343,15 @@ blockquote {
   white-space: nowrap;
 }
 
-body > * {
+body {
+  display: flex;
+  flex-direction: column;
+}
+body > *:not(.main-footer, .main-header) {
   margin: var(--fluid-space-m);
+}
+body main {
+  flex-grow: 2;
 }
 
 main, aside {
@@ -358,7 +365,9 @@ section {
 /* Main Header
 ###########################################################################  */
 .main-header {
-  padding-left: var(--fluid-space-m);
+  position: sticky;
+  top: 0;
+  padding: var(--xs) var(--fluid-space-m);
   margin: 0;
   background-color: var(--darkest);
 }
@@ -368,10 +377,24 @@ section {
 }
 .main-header ul li {
   font-size: var(--l);
-  padding: var(--s);
 }
 .main-header ul li::before {
   content: "";
+}
+
+/* Footer
+############################################################################ */
+.main-footer {
+  background-color: var(--darken);
+  border-top: solid var(--mi-lila) var(--border-width-l);
+}
+.main-footer nav {
+  padding: var(--m) var(--fluid-space-m) var(--l);
+}
+.main-footer .info {
+  padding: var(--m) var(--fluid-space-m) var(--l);
+  background-color: var(--darken);
+  margin-bottom: 0;
 }
 
 /* Comments
@@ -559,6 +582,18 @@ table.is-narrow th, table.is-narrow td {
 .curriculum .next-term th, .curriculum .next-term td {
   border-top: none;
   padding-top: var(--fluid-space-s);
+}
+
+/* Personenliste
+############################################################################ */
+.people-list .module-list h3 {
+  font-size: var(--m);
+  margin-bottom: 0;
+  margin-top: var(--s);
+}
+.people-list .module-list ul {
+  margin-top: var(--quat);
+  margin-bottom: var(--quat);
 }
 
 /*# sourceMappingURL=main.css.map */

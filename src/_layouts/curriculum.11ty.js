@@ -4,17 +4,19 @@ module.exports = {
 		bodyClass: "curriculum",
 	},
 	render(data) {
-    
+    const { collection } = data;
     const curriculumTools = require('./components/curriculumTools.11ty.js');
     const curriculumList = curriculumTools.getCurriculumList({
-      moduls: data.collections.modulsBPO5,
-      terms: [1,2,3,4,5,6,7],
+      moduls: data.collections[collection],
+      terms: data.terms,
+      maxCPS: data.maxCPS,
       data
     });
     const curriculumTable = curriculumTools.getCurriculumTable({
-      moduls: data.collections.modulsBPO5,
-      terms: [1,2,3,4,5,6,7],
-      groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung'],
+      moduls: data.collections[collection],
+      terms: data.terms,
+      groups: data.groups,
+      maxCPS: data.maxCPS,
       data
     });
 

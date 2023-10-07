@@ -163,12 +163,27 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("pagesInToc", function (collection) {
     clearRequireCache();
-    return collection.getAll().filter(item => item.data.inToc);
+    return collection.getAll().filter(item => item.data.inToc).sort((a, b) => {
+
+      if (a.data.title > b.data.title) return 1;
+      else if (a.data.title < b.data.title) return -1;
+      else return 0;
+    });
   });
 
   eleventyConfig.addCollection("modulsBPO5", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/modulbeschreibungen-bachelor-bpo5/*.md").sort((a, b) => {
+
+      if (a.data.title > b.data.title) return 1;
+      else if (a.data.title < b.data.title) return -1;
+      else return 0;
+    });
+  });
+
+  eleventyConfig.addCollection("modulsMPO5", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/modulbeschreibungen-master-mpo5/*.md").sort((a, b) => {
 
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
