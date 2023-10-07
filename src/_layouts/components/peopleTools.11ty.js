@@ -29,26 +29,40 @@ exports.getPeopleList = (obj) => {
   const { data } = obj;
 
   const peopleList = Object.keys(data.people).map((person) => {
-    const personModuls = moduls.filter((modul) => modul.data.modulverantwortlich == person);
-    const personModulsList = personModuls.map((modul) => {
+    const personModulsSummerTerm = moduls.filter((modul) => modul.data.modulverantwortlich == person && modul.data.studiensemester % 2 === 0);
+    const personModulsWinterTerm = moduls.filter((modul) => modul.data.modulverantwortlich == person && modul.data.studiensemester % 2 === 1);
+    
+    const personModulsListWinterTerm = personModulsWinterTerm.map((modul) => {
       return `
         <li>
           <a href="${modul.url}">${modul.data.title}</a>
         </li>
       `;
     });
+
+    const personModulsListSummerTerm = personModulsSummerTerm.map((modul) => {
+      return `
+        <li>
+          <a href="${modul.url}">${modul.data.title}</a>
+        </li>
+      `;
+    });
+
     const personName = data.people[person].personenseite 
-      ? `<a href=${data.people[person].personenseite}"">${data.people[person].name}</a>`
+      ? `<a href="${data.people[person].personenseite}">${data.people[person].name}</a>`
       : data.people[person].name;
 
     return `
       <tr>
         <td>${data.people[person].id}</td>
         <td>${personName}</td>
-        <td>
-          <ul>
-            ${personModulsList.join("\n")}
-          </ul>
+        <td class="module-list">
+          ${personModulsListWinterTerm.length > 0
+            ? `<h3>Wintersemester</h3><ul>${personModulsListWinterTerm.join("\n")}</ul>`
+            : ``}
+          ${personModulsListSummerTerm.length > 0
+            ? `<h3>Sommersemester</h3><ul>${personModulsListSummerTerm.join("\n")}</ul>`
+            : ``}
         </td>
       </tr>
     `;
