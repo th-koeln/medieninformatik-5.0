@@ -4,6 +4,7 @@
 exports.getCurriculumList = (obj) => {
 
   const moduleTools = require('../components/moduleTools.11ty');
+  const peopleTools = require('../components/peopleTools.11ty');
 
   const { moduls } = obj;
   const { terms } = obj;
@@ -21,7 +22,7 @@ exports.getCurriculumList = (obj) => {
         ? ''
         : `<p class="module-exam is-small">${moduleTools.resolveExamInfoSimple(modul.data.studienleistungen)}</p>`;
       const modulverantwortlich = modul.data.modulverantwortlich 
-			  ? moduleTools.resolvePerson(data.people, modul.data.modulverantwortlich)
+			  ? peopleTools.resolvePerson(data.people, modul.data.modulverantwortlich)
         : '';
 
       cps += parseInt(modul.data.kreditpunkte);

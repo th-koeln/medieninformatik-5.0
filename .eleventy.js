@@ -168,7 +168,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("modulsBPO5", function (collection) {
     clearRequireCache();
-    return collection.getFilteredByGlob("./src/_modulbeschreibungen-bachelor-bpo5/*.md").sort((a, b) => {
+    return collection.getFilteredByGlob("./src/modulbeschreibungen-bachelor-bpo5/*.md").sort((a, b) => {
 
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;

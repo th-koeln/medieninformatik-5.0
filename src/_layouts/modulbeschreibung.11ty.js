@@ -6,6 +6,7 @@ module.exports = {
 	render(data) {
 
 		const moduleTools = require('./components/moduleTools.11ty');
+		const peopleTools = require('./components/peopleTools.11ty');
 
 		const createRow = (label, value) => {
 			if(!value) return "";
@@ -23,7 +24,7 @@ module.exports = {
 	
 		const modulverantwortlich = !data.modulverantwortlich 
 			? '' 
-			: moduleTools.resolvePerson(data.people, data.modulverantwortlich);
+			: peopleTools.resolvePerson(data.people, data.modulverantwortlich);
 
 		const coreData = `
 			<table class="core-data">

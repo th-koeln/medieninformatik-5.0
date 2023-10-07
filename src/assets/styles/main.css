@@ -554,4 +554,11 @@ table.is-narrow th, table.is-narrow td {
   padding: var(--half) 0;
 }
 
+/* Curriculum
+############################################################################ */
+.curriculum .next-term th, .curriculum .next-term td {
+  border-top: none;
+  padding-top: var(--fluid-space-s);
+}
+
 /*# sourceMappingURL=main.css.map */
