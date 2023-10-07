@@ -128,7 +128,12 @@ select {
 }
 .icon--inline {
   margin-right: var(--xs);
-  font-size: var(--m);
+  transition: all var(--tr-fast);
+  transform: scale(0.7);
+  vertical-align: text-bottom;
+}
+.icon--inline:hover {
+  transform: scale(1);
 }
 .icon::before {
   content: attr(data-icon);
@@ -179,7 +184,7 @@ select {
   --fw-medium: 500;
   --fw-bold: 700;
   --lh-normal: 140%;
-  --lh-tight: 100%;
+  --lh-tight: 115%;
   --lh-semi-tight: 110%;
   --lh-loose: 150%;
   --tr-fast: 0.2s;
