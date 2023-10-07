@@ -10,7 +10,7 @@ kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: siehe Abschnitt «Voraussetzungen»
 published: true
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 infourl: https://th-koeln.github.io/mi-master-wtw/web-technologien/
 typ: wpm
 parent: 

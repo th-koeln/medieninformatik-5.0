@@ -9,7 +9,7 @@ kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Audiovisuelles Medienprojekt (Bachelor)
 published: true
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: spm
 parent: SPM1
 schwerpunkt: vc

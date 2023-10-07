@@ -11,7 +11,7 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), einschlägige Entwicklungskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
 infourl: 
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: spp
 parent: false
 studienleistungen:

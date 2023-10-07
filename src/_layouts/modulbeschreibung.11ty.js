@@ -45,11 +45,13 @@ module.exports = {
 			</table>
 		`;
 
+		const editUrl = `${data.settings.repoEditUrl}${data.page.inputPath.replace('./src/', 'src/')}`;
+
 		return `
 			<main>
 				<section class="section module-core-data">
 					<header>
-						<h1>${data.title}</h1>
+						<h1>${data.title} <a href="${editUrl}"><span class="icon icon--inline">edit</span></a></h1>
 					</header>
 					${coreData}
 				</section>

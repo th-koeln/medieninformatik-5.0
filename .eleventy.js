@@ -140,7 +140,6 @@ module.exports = function (eleventyConfig) {
   /* Filter
  ########################################################################## */
 
-
   eleventyConfig.addFilter("contentByTopic", function (topic) {
     eleventyConfig.addCollection(topic, (collection) => {
       clearRequireCache();
@@ -174,9 +173,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("modulsBPO5", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/modulbeschreibungen-bachelor-bpo5/*.md").sort((a, b) => {
-
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
+      else return 0;
+    });
+  });
+
+  eleventyConfig.addCollection("itemsKurzbericht", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/kurzbericht/*.md").sort((a, b) => {
+      if (a.fileSlug > b.fileSlug) return 1;
+      else if (a.fileSlug < b.fileSlug) return -1;
       else return 0;
     });
   });
@@ -184,7 +191,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("modulsMPO5", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/modulbeschreibungen-master-mpo5/*.md").sort((a, b) => {
-
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;

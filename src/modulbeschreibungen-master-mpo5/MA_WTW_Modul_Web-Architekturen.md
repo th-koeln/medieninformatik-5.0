@@ -10,7 +10,7 @@ kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1 (Bachelor), Alogrithmen und Programmierung 2 (Bachelor), Paradigmen der Programmierung (Bachelor), Kommunikationstechnik und Netze (Bachelor); Datenbanken (Bachelor); Grundlagen des Webs (Bachelor); Frameworks, Daten und Dienste im Web (Bachelor); Praktische IT-Sicherheit (Bachelor)
 published: true
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 
 typ: spm
 parent: SPM2

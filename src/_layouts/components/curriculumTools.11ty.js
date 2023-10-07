@@ -31,7 +31,7 @@ exports.getCurriculumList = (obj) => {
       return `
         <tr>
           <td>
-            <h3 class="module-title"><a href="${modul.data.url}">${modul.data.title}</a></h3>
+            <h3 class="module-title"><a href="${modul.url}">${modul.data.title}</a></h3>
             ${examInfo}
           </td>
           <td class="no-wrap">${modul.data.kuerzel}</td>

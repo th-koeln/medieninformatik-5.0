@@ -10,7 +10,7 @@ kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), BWL I - Grundlagen (Bachelor)
 published: true
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: tm
 parent: MIMP-V
 infourl: 

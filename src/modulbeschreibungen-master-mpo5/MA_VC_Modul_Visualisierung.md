@@ -10,7 +10,7 @@ kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Web Architekturen (Bachelor) bzw. Kenntnisse in HTML
 published: true
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: spm
 parent: SPM3
 schwerpunkt: vc

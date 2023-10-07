@@ -7,7 +7,7 @@ sprache: deutsch
 kreditpunkte: 30
 voraussetzungenNachPruefungsordnung: Zur Masterarbeit kann zugelassen werden, wer die Zulassungsvoraussetzungen gemäß § 17 Abs. 2 und 5 erfüllt und aus den nach § 24 vorgeschriebenen Prüfungen insgesamt mindestens 75 Leistungspunkte gem. § 12 erreicht hat.
 published: true
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 kategorie: spezialisierung
 typ: pm
 infourl: 

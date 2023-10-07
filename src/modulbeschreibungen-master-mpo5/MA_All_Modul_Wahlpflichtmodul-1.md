@@ -11,7 +11,7 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 zielmedium: web
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: pm
 studienleistungen:
   Einzelleistung:

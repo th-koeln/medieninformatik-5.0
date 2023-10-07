@@ -43,7 +43,13 @@
 
   &--inline {
     margin-right: var(--xs);
-    font-size: var(--m);
+    transition: all var(--tr-fast);
+    transform: scale(0.7);
+    vertical-align: text-bottom;
+
+    &:hover{
+      transform: scale(1);
+    }
   }
 
   &::before {

@@ -12,7 +12,7 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Basismodul Mensch-Computer Interaktion, so wie durch die GI e.V. publiziert
 published: true
 infourl: 
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: spm
 parent: SPM2
 schwerpunkt: hci, mpd

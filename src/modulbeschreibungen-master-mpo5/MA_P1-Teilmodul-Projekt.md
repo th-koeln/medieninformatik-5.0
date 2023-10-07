@@ -11,7 +11,7 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Einführung in die Medieninformatik (Bachelor), Mensch-Computer Interaktion (Bachelor), einschlägige Konzeptionskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
 infourl: 
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: tm
 parent: MIMP-K
 studienleistungen:

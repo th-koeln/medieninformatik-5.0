@@ -11,7 +11,7 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 published: true
 infourl: 
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: spm
 parent: SPM2
 schwerpunkt: sc

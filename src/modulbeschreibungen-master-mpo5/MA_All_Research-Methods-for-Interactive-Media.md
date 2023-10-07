@@ -9,7 +9,7 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 kategorie: spezialisierung
 published: true
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 typ: pm
 infourl: 
 studienleistungen:

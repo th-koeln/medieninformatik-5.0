@@ -9,7 +9,7 @@ kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: false
-layout: modulbeschreibung
+layout: modulbeschreibung.11ty.js
 
 typ: wpm
 parent: 
