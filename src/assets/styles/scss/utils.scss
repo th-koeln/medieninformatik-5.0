@@ -1,12 +1,21 @@
+/* Vertikal zentriert
+############################################################################ */
+
 .is-vertical-centered {
   display: flex;
   align-items: center;
   flex-grow: 1;
 }
 
+/* No Wrap
+############################################################################ */
+
 .no-wrap {
   white-space: nowrap;
 }
+
+/* Seperator
+############################################################################ */
 
 .has-seperator {
 
@@ -20,6 +29,9 @@
     content: "";
   }
 }
+
+/* Handliungsfelder
+############################################################################ */
 
 .is-dev{
   background-color: var(--mi-blau);
@@ -59,4 +71,16 @@
   display: inline-block;
   padding-left: var(--quat);
   padding-right: var(--quat);
+}
+
+/* Status
+############################################################################ */
+
+.status{
+  color: var(--color-wip);
+  font-weight: var(--fw-bold);
+  &:hover{
+    cursor: pointer;
+    transform: rotate(90deg);
+  }
 }
