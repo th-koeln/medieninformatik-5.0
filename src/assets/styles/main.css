@@ -140,7 +140,7 @@ select {
 }
 
 :root {
-  --bfs: clamp(1rem, calc(0.5rem + 0.8vw), 2.5rem);
+  --bfs: clamp(1rem, calc(0.5rem + 0.5vw), 2.5rem);
   --half: calc(var(--bfs) / 2);
   --quat: calc(var(--bfs) / 4);
   --xxs: calc(var(--bfs) * 0.4);
@@ -152,12 +152,14 @@ select {
   --xxl: calc(var(--bfs) * 2.5);
   --xxxl: calc(var(--bfs) * 3);
   --xxxxl: calc(var(--bfs) * 4);
-  --fluid-space-s: calc(var(--s) + 1vw);
-  --fluid-space-m: calc(var(--m) + 2vw);
-  --fluid-space-l: calc(var(--l) + 3vw);
+  --fluid-space-s: calc(var(--s) + 0.5vw);
+  --fluid-space-m: calc(var(--m) + 1vw);
+  --fluid-space-l: calc(var(--l) + 1.5vw);
   --max-width-content: calc(var(--m) * 40);
+  --max-width-table: calc(var(--m) * 80);
   --mi-lila: #9313ce;
   --mi-gruen: #00ad2f;
+  --mi-orange: #F58700;
   --mi-pink: #d16;
   --mi-blau: #4952e1;
   --light: #ccc;
@@ -348,6 +350,57 @@ blockquote {
   white-space: nowrap;
 }
 
+.has-seperator {
+  padding-top: 0;
+}
+.has-seperator::before {
+  display: block;
+  width: 10%;
+  border-top: solid var(--border-width-l) var(--mi-blau);
+  margin-bottom: var(--fluid-space-m);
+  content: "";
+}
+
+.is-dev {
+  background-color: var(--mi-blau);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-dux {
+  background-color: var(--mi-pink);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-crea {
+  background-color: var(--mi-gruen);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-exa {
+  background-color: var(--mi-lila);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-indi {
+  background-color: var(--mi-orange);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -365,6 +418,10 @@ main, aside {
 
 section {
   padding-bottom: var(--fluid-space-m);
+}
+
+table {
+  max-width: var(--max-width-table);
 }
 
 /* Main Header
@@ -514,16 +571,6 @@ table.is-narrow th, table.is-narrow td {
 }
 .content-blocks section .content > * {
   max-width: var(--max-width-content);
-}
-.content-blocks section.has-seperator .content {
-  padding-top: 0;
-}
-.content-blocks section.has-seperator .content::before {
-  display: block;
-  width: 10%;
-  border-top: solid var(--border-width-l) var(--mi-blau);
-  margin-bottom: var(--fluid-space-m);
-  content: "";
 }
 
 /* Article

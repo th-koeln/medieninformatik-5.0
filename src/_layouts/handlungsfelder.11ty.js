@@ -7,7 +7,7 @@ module.exports = {
 
     const tocTools = require('./components/tocTools.11ty.js');
 
-    const kurzberichtList = data.collections.itemsKurzbericht.map((item) => {
+    const handlungsfelderList = data.collections.handlungsfelder.map((item) => {
       const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
       return `
         <section class="${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
@@ -31,8 +31,8 @@ module.exports = {
           <nav>
             ${tocTools.getPageTOC({
               eleventy: this,
-              collection: data.collections.itemsKurzbericht,
-              maxLevel: 2
+              collection: data.collections.handlungsfelder,
+              maxLevel: 1
             })}
           </nav>
         </section>
@@ -40,7 +40,7 @@ module.exports = {
         ${data.content}
 
         <section>
-          ${kurzberichtList.join("\n")}
+          ${handlungsfelderList.join("\n")}
         </section>
 			</main>
 		`;

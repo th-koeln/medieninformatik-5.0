@@ -1,5 +1,5 @@
 :root {
-  --bfs: clamp(1rem, calc(0.5rem + 0.8vw), 2.5rem);
+  --bfs: clamp(1rem, calc(0.5rem + 0.5vw), 2.5rem);
   --half: calc(var(--bfs) / 2); // halbes geviert
   --quat: calc(var(--bfs) / 4); // viertel geviert
   --xxs: calc(var(--bfs) * 0.4);
@@ -11,13 +11,14 @@
   --xxl: calc(var(--bfs) * 2.5);
   --xxxl: calc(var(--bfs) * 3);
   --xxxxl: calc(var(--bfs) * 4);
-  --fluid-space-s: calc(var(--s) + 1vw);
-  --fluid-space-m: calc(var(--m) + 2vw);
-  --fluid-space-l: calc(var(--l) + 3vw);
+  --fluid-space-s: calc(var(--s) + 0.5vw);
+  --fluid-space-m: calc(var(--m) + 1vw);
+  --fluid-space-l: calc(var(--l) + 1.5vw);
   --max-width-content: calc(var(--m) * 40);
   --max-width-table: calc(var(--m) * 80);
   --mi-lila: #9313ce;
   --mi-gruen: #00ad2f;
+  --mi-orange: #F58700;
   --mi-pink: #d16;
   --mi-blau: #4952e1;
   --light: #ccc;

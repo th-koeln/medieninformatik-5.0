@@ -1,6 +1,6 @@
 exports.getPageFooter = (eleventy, data) => {
 
-  const toc = require('../components/toc.11ty.js');
+  const toc = require('../components/tocTools.11ty.js');
   const tocContent = toc.getTocContent(eleventy, data);
 
   const date_ob = new Date();

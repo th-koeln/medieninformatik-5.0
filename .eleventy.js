@@ -196,6 +196,15 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("handlungsfelder", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/handlungsfelder/*.md").sort((a, b) => {
+      if (a.data.title > b.data.title) return 1;
+      else if (a.data.title < b.data.title) return -1;
+      else return 0;
+    });
+  });
+
   eleventyConfig.addCollection("sorted", function (collection) {
     clearRequireCache();
     return POIs = collection.getFilteredByGlob("./src/**/*.md").sort((a, b) => {

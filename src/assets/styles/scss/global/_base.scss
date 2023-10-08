@@ -96,11 +96,27 @@ ul {
   
   & > li {
     display: block;
+    margin-left: 1.5ch;
 
     &::before {
       color: var(--dark);
-      content: "» ";
+      content: "»";
+      display: inline-block;
+      width: 1.5ch;
+      margin-left: -1.5ch;
     }
+
+    & + li {
+      margin-top: var(--quat);
+    }
+  }
+
+}
+
+ul.is-tight {
+
+  li + li{
+    margin-top: 0;
   }
 }
 

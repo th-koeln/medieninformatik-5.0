@@ -19,5 +19,44 @@
     margin-bottom: var(--fluid-space-m);
     content: "";
   }
+}
 
+.is-dev{
+  background-color: var(--mi-blau);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-dux{
+  background-color: var(--mi-pink);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-crea{
+  background-color: var(--mi-gruen);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-exa{
+  background-color: var(--mi-lila);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
+}
+
+.is-indi{
+  background-color: var(--mi-orange);
+  color: var(--lightest);
+  display: inline-block;
+  padding-left: var(--quat);
+  padding-right: var(--quat);
 }
