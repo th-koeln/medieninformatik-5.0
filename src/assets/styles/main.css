@@ -177,6 +177,7 @@ select {
   --color-highlight: var(--mi-lila);
   --color-decoration: var(--dark);
   --color-background: var(--lighter);
+  --color-wip: var(--darker);
   --ff-normal: "Atkinson", sans-serif;
   --ff-serif: "Atkinson", serif;
   --ff-code: "Atkinson", monospace;
@@ -351,16 +352,22 @@ blockquote {
   aspect-ratio: 1/1;
 }
 
+/* Vertikal zentriert
+############################################################################ */
 .is-vertical-centered {
   display: flex;
   align-items: center;
   flex-grow: 1;
 }
 
+/* No Wrap
+############################################################################ */
 .no-wrap {
   white-space: nowrap;
 }
 
+/* Seperator
+############################################################################ */
 .has-seperator {
   padding-top: 0;
 }
@@ -372,6 +379,8 @@ blockquote {
   content: "";
 }
 
+/* Handliungsfelder
+############################################################################ */
 .is-dev {
   background-color: var(--mi-blau);
   color: var(--lightest);
@@ -410,6 +419,17 @@ blockquote {
   display: inline-block;
   padding-left: var(--quat);
   padding-right: var(--quat);
+}
+
+/* Status
+############################################################################ */
+.status {
+  color: var(--color-wip);
+  font-weight: var(--fw-bold);
+}
+.status:hover {
+  cursor: pointer;
+  transform: rotate(90deg);
 }
 
 body {
@@ -571,6 +591,15 @@ table.is-narrow th, table.is-narrow td {
 .title + .subtitle {
   margin-top: calc(var(--fluid-space-m) * -1);
   color: var(--darker);
+}
+
+/* Image
+############################################################################ */
+figure.image figcaption {
+  padding: var(--m) 0 var(--xl);
+}
+figure.image figcaption strong {
+  display: block;
 }
 
 /* Content Blocks

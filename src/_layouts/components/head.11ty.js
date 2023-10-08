@@ -24,6 +24,11 @@ exports.getHeader = (eleventy, data) => {
 
       <link href="${eleventy.url('/compiled-assets/main.css')}" rel="stylesheet">
       <script src="${eleventy.url('/assets/scripts/main.js')}" defer></script>
+      <script>
+        const settings = {
+          pathPrefix: "${eleventy.url('/')}",
+        };
+      </script>
 
     </head>
   `;
