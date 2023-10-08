@@ -1,0 +1,14 @@
+/* Image
+############################################################################ */
+
+figure.image{
+
+  figcaption{
+
+    padding: var(--m) 0 var(--xl);
+
+    strong{
+      display: block;
+    }
+  }
+}

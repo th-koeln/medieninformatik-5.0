@@ -301,10 +301,21 @@ ul {
 }
 ul > li {
   display: block;
+  margin-left: 1.5ch;
 }
 ul > li::before {
   color: var(--dark);
-  content: "» ";
+  content: "»";
+  display: inline-block;
+  width: 1.5ch;
+  margin-left: -1.5ch;
+}
+ul > li + li {
+  margin-top: var(--quat);
+}
+
+ul.is-tight li + li {
+  margin-top: 0;
 }
 
 /* Blockquote
@@ -451,10 +462,10 @@ table {
   border-top: solid var(--mi-lila) var(--border-width-l);
 }
 .main-footer nav {
-  padding: var(--m) var(--fluid-space-m) var(--l);
+  padding: var(--m) var(--fluid-space-m) var(--xl);
 }
 .main-footer .info {
-  padding: var(--m) var(--fluid-space-m) var(--l);
+  padding: var(--m) var(--fluid-space-m) var(--xl);
   background-color: var(--darken);
   margin-bottom: 0;
 }

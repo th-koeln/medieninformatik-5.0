@@ -98,6 +98,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.fset");
   eleventyConfig.addPassthroughCopy("src/**/*.fset3");
   eleventyConfig.addPassthroughCopy("src/**/*.iset");
+  eleventyConfig.addPassthroughCopy("src/**/*.png");
 
   // Copy Media
   eleventyConfig.addPassthroughCopy("src/**/*.mp4");
@@ -199,6 +200,15 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("handlungsfelder", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/handlungsfelder/*.md").sort((a, b) => {
+      if (a.data.title > b.data.title) return 1;
+      else if (a.data.title < b.data.title) return -1;
+      else return 0;
+    });
+  });
+
+  eleventyConfig.addCollection("jobOffers", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/analyse/stellenausschreibungen/*.md").sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;

@@ -7,6 +7,4 @@ bodyClass: home
 
 **Work in Progress:** Unterlagen, Ideen, Snippets und mehr zur Reakkreditierung der Medieninformatik Studiengänge der TH Köln. 
 
-<script>
-addEventListener("DOMContentLoaded", (event) => getContentSnippet());
-</script>
+<div data-js-inject-content="/analysen/stellenausschreibungen/jobs-wordcloud-mengentexte/index.html"></div>

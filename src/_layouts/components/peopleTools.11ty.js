@@ -55,10 +55,10 @@ exports.getPeopleList = (obj) => {
         <td>${personName}</td>
         <td class="module-list">
           ${personModulsListWinterTerm.length > 0
-            ? `<h3>Wintersemester</h3><ul>${personModulsListWinterTerm.join("\n")}</ul>`
+            ? `<h3>Wintersemester</h3><ul class="is-tight">${personModulsListWinterTerm.join("\n")}</ul>`
             : ``}
           ${personModulsListSummerTerm.length > 0
-            ? `<h3>Sommersemester</h3><ul>${personModulsListSummerTerm.join("\n")}</ul>`
+            ? `<h3>Sommersemester</h3><ul class="is-tight">${personModulsListSummerTerm.join("\n")}</ul>`
             : ``}
         </td>
       </tr>
