@@ -584,6 +584,9 @@ table.is-narrow th, table.is-narrow td {
 
 /* Curriculum
 ############################################################################ */
+.curriculum .content {
+  max-width: var(--max-width-content);
+}
 .curriculum .next-term th, .curriculum .next-term td {
   border-top: none;
   padding-top: var(--fluid-space-s);
