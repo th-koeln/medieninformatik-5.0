@@ -7,7 +7,7 @@ module.exports = {
     
     const peopleTools = require('./components/peopleTools.11ty.js');
     const peopleList = peopleTools.getPeopleList({
-      moduls: data.collections.modulsBPO5,
+      moduls: data.collections.allModuls,
       data,
 			eleventy: this
     });

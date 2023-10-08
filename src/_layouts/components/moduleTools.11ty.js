@@ -27,5 +27,3 @@ exports.resolveExamInfoSimple = (examInfo) => {
 
   return extractExamInfo(examInfo);
 };
-
-

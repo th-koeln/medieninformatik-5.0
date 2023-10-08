@@ -1,9 +1,8 @@
 ---
 title: Web Technologien
 modulverantwortlich: cn
-kuerzel: WTW-WD
-studiensemesterWs: 2
-studiensemesterSs: 3
+kuerzel: WT
+studiensemester: 2
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
@@ -13,8 +12,8 @@ published: true
 layout: modulbeschreibung.11ty.js
 infourl: https://th-koeln.github.io/mi-master-wtw/web-technologien/
 typ: wpm
-parent: 
-schwerpunkt: wtw
+parent: SWPM
+schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
     art: Lernportfolio und mündliche Prüfung

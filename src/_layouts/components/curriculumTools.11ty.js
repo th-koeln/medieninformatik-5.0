@@ -167,9 +167,6 @@ exports.getCurriculumTable = (obj) => {
 
 exports.getAllModuls = (obj) => {
 
-  const moduleTools = require('../components/moduleTools.11ty');
-  const peopleTools = require('../components/peopleTools.11ty');
-
   const { moduls } = obj;
   const { eleventy } = obj;
 
@@ -185,5 +182,35 @@ exports.getAllModuls = (obj) => {
     <ul>
       ${modulList.join("\n")}
     </ul>
+  `;
+};
+
+
+/* Liste aller Kind Module eines Moduls
+############################################################################ */
+
+exports.getChildModulList = (data, headlineChilds) => {
+
+  const childModuls = data.collections.allModuls.filter((modul) => modul.data.parent === data.kuerzel);
+  const childModulsList = childModuls.map((modul) => {
+
+    const schwerpunkt = modul.data.schwerpunkt 
+      ? `, <span class="tag is-schwerpunkt">Schwerpunkt ${modul.data.schwerpunkt}</span>`
+      : '';
+
+    return `
+      <li>
+        <a href="${modul.url}">${modul.data.title}</a>${schwerpunkt}
+      </li>
+    `;
+  });
+  
+  return `
+    <section class="module-childs">
+      <h2>${headlineChilds}</h2>
+      <ul>
+        ${childModulsList.join("\n")}
+      </ul>
+    </section>
   `;
 };

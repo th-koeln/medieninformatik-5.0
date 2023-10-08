@@ -7,6 +7,7 @@ module.exports = {
 
 		const moduleTools = require('./components/moduleTools.11ty');
 		const peopleTools = require('./components/peopleTools.11ty');
+		const curriculumTools = require('./components/curriculumTools.11ty');
 
 		const createRow = (label, value) => {
 			if(!value) return "";
@@ -59,6 +60,8 @@ module.exports = {
 				<section class="content">
 					${data.content}
 				</section>
+
+				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module') : ''}
 
 			</main>
 		`;
