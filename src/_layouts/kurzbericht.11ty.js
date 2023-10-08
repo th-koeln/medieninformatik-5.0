@@ -25,9 +25,7 @@ module.exports = {
 					</header>
 				</section>
 
-        <section class="content">
-          ${data.content}
-        </section>
+        ${data.content}
 
         <section>
           ${kurzberichtList.join("\n")}

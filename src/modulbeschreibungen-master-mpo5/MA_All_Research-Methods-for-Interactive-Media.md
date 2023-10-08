@@ -7,7 +7,7 @@ sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
-kategorie: spezialisierung
+kategorie: pflicht
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm

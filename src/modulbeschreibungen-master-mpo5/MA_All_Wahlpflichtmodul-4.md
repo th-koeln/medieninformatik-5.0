@@ -1,9 +1,8 @@
 ---
-title: Wahlpflichtmodul 2
+title: Wahlpflichtmodul 4
 modulverantwortlich: all
 kuerzel: WPM
-studiensemesterWs: 3
-studiensemesterSs: 3
+studiensemester: 2
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
@@ -12,13 +11,14 @@ published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
+kategorie: wahl
 typ: pm
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls
     erstpruefer: 
-    zweitpruefer:
-    datum: ende
+    zweitpruefer: 
+    datum:
 ---
 
 ## Kurzbeschreibung

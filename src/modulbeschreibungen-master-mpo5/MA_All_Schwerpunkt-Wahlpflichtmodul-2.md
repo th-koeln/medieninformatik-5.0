@@ -1,33 +1,29 @@
 ---
-title: Interactive Media Products
-modulverantwortlich: 
-kuerzel: IMP
+title: Schwerpunkt Wahlpflichtmodul 2
+modulverantwortlich: all
+kuerzel: SWPM
 studiensemester: 2
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
-kategorie: pflicht
 published: true
-layout: modulbeschreibung.11ty.js
-typ: pm
 infourl: 
+zielmedium: web
+layout: modulbeschreibung.11ty.js
+kategorie: schwerpunkt
+typ: pm
 studienleistungen:
   Einzelleistung:
-    art: 
+    art: siehe Modulbeschreibung des gewählten Moduls
     erstpruefer: 
     zweitpruefer: 
-    datum: 19.07.23
+    datum:
 ---
 
-## Lehrform/SWS
+## Kurzbeschreibung
+Frei aus dem Katalog der Wahlmodule für die jeweiligen Schwerpunkte.
 
 ## Arbeitsaufwand
+180 Stunden
 
-## Angestrebte Lernergebnisse
-
-## Inhalt
-
-## Medienformen
-
-## Literatur

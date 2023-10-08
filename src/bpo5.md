@@ -8,3 +8,4 @@ groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung']
 maxCPS: 90
 ---
 
+Der Bachelor Studiengang Medieninformatik ist ein berufsqualifizierendes grundständiges Studium und führt zum ersten Hochschulabschluss. Die Regelstudienzeit des anwendungsorientierten Informatikstudiengangs beträgt 7 Semester. Die Einschreibung ist ausschließlich zum Wintersemester möglich.

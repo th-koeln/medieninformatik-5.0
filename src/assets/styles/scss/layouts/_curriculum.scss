@@ -3,6 +3,10 @@
 
 .curriculum{
 
+  .content{
+    max-width: var(--max-width-content);
+  }
+
   .next-term{
     th, td{
       border-top: none;

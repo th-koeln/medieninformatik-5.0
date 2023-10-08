@@ -1,33 +1,28 @@
 ---
-title: Interactive Media Products
-modulverantwortlich: 
-kuerzel: IMP
+title: Schwerpunkt Guided Project
+modulverantwortlich: all
+kuerzel: SGP
 studiensemester: 2
 sprache: deutsch
-kreditpunkte: 6
+kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
-kategorie: pflicht
 published: true
-layout: modulbeschreibung.11ty.js
-typ: pm
 infourl: 
+zielmedium: web
+layout: modulbeschreibung.11ty.js
+kategorie: schwerpunkt
+typ: pm
 studienleistungen:
   Einzelleistung:
-    art: 
+    art: siehe Modulbeschreibung des gewählten Moduls
     erstpruefer: 
     zweitpruefer: 
-    datum: 19.07.23
+    datum:
 ---
 
-## Lehrform/SWS
+## Kurzbeschreibung
 
 ## Arbeitsaufwand
+360 Stunden
 
-## Angestrebte Lernergebnisse
-
-## Inhalt
-
-## Medienformen
-
-## Literatur
