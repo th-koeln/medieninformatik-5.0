@@ -1,8 +1,8 @@
 ---
-title: Wahlpflichtmodul 2
+title: Wahlpflichtmodul 5
 modulverantwortlich: all
 kuerzel: WPM
-studiensemester: 1
+studiensemesterVierSemestrig: 3
 dreiSemestrig: true
 sprache: deutsch
 kreditpunkte: 6

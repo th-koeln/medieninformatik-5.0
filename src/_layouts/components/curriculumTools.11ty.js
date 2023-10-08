@@ -13,12 +13,16 @@ exports.getCurriculumList = (obj) => {
 
   let cps = 0;
 
+  const keyStudiensemester = data.variant ? `studiensemester${data.variant}` : 'studiensemester';
+
   const listByTerm = terms.map((term) => {
-    const termModuls = moduls.filter((modul) => modul.data.studiensemester == term);
+
+    const termModuls = moduls.filter((modul) => modul.data[keyStudiensemester] === term || modul.data.studiensemester === term);
     let cpsPerTerm = 0;
 
     const termModulsList = termModuls.map((modul) => {
       
+      if(modul.data[keyStudiensemester] && modul.data[keyStudiensemester] !== term) return '';
       const examInfo = modul.data.studienleistungen === null
         ? ''
         : `<p class="module-exam is-small">${moduleTools.resolveExamInfoSimple(modul.data.studienleistungen)}</p>`;
@@ -184,7 +188,6 @@ exports.getAllModuls = (obj) => {
     </ul>
   `;
 };
-
 
 /* Liste aller Kind Module eines Moduls
 ############################################################################ */

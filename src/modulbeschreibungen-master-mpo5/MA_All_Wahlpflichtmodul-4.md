@@ -3,6 +3,7 @@ title: Wahlpflichtmodul 4
 modulverantwortlich: all
 kuerzel: WPM
 studiensemester: 2
+dreiSemestrig: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

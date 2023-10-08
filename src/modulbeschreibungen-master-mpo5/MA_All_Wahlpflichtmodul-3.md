@@ -3,6 +3,7 @@ title: Wahlpflichtmodul 3
 modulverantwortlich: all
 kuerzel: WPM
 studiensemester: 1
+dreiSemestrig: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
