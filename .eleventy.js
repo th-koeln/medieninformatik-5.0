@@ -17,16 +17,6 @@ const clearRequireCache = () => {
   });
 }
 
-const getPOIData = (collection, pattern) => {
-  const allSlides = collection.getFilteredByGlob(pattern);
-
-  return allSlides.sort((a, b) => {
-    if (a.fileSlug > b.fileSlug) return 1;
-    else a.fileSlug < b.fileSlug
-    return -1;
-  });
-}
-
 module.exports = function (eleventyConfig) {
   eleventyConfig.setWatchThrottleWaitTime(100);
   eleventyConfig.setUseGitIgnore(false);

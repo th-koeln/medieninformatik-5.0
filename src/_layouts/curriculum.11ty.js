@@ -6,6 +6,7 @@ module.exports = {
 	render(data) {
     const { collection } = data;
     const curriculumTools = require('./components/curriculumTools.11ty.js');
+
     const curriculumList = curriculumTools.getCurriculumList({
       moduls: data.collections[collection],
       terms: data.terms,
@@ -13,11 +14,18 @@ module.exports = {
       data,
       eleventy: this
     });
+
     const curriculumTable = curriculumTools.getCurriculumTable({
       moduls: data.collections[collection],
       terms: data.terms,
       groups: data.groups,
       maxCPS: data.maxCPS,
+      data,
+      eleventy: this
+    });
+
+    const allModuls = curriculumTools.getAllModuls({
+      moduls: data.collections[collection],
       data,
       eleventy: this
     });
@@ -40,6 +48,11 @@ module.exports = {
 
         <section>
           ${curriculumTable}
+        </section>
+
+        <section class="has-seperator">
+          <h2>Alle Module</h2>
+          ${allModuls}
         </section>
 			</main>
 		`;

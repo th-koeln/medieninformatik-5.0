@@ -1,9 +1,23 @@
-.is-vertical-centered{
+.is-vertical-centered {
   display: flex;
   align-items: center;
   flex-grow: 1;
 }
 
-.no-wrap{
+.no-wrap {
   white-space: nowrap;
+}
+
+.has-seperator {
+
+  padding-top: 0;
+
+  &::before {
+    display: block;
+    width: 10%;
+    border-top: solid var(--border-width-l) var(--mi-blau);
+    margin-bottom: var(--fluid-space-m);
+    content: "";
+  }
+
 }

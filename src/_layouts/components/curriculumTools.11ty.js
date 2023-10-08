@@ -1,4 +1,4 @@
-/* Liste der Module eines Studiengangs
+/* Liste der Module eines Studiengangs im Curriculum
 ############################################################################ */
 
 exports.getCurriculumList = (obj) => {
@@ -159,5 +159,31 @@ exports.getCurriculumTable = (obj) => {
         </tr>
   </tfoot>
 </table>
+  `;
+};
+
+/* Liste ALLER Module eines Studiengangs
+############################################################################ */
+
+exports.getAllModuls = (obj) => {
+
+  const moduleTools = require('../components/moduleTools.11ty');
+  const peopleTools = require('../components/peopleTools.11ty');
+
+  const { moduls } = obj;
+  const { eleventy } = obj;
+
+  const modulList = moduls.map((modul) => {
+    return `
+      <li>
+        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+      </li>
+    `;
+  });
+
+  return `
+    <ul>
+      ${modulList.join("\n")}
+    </ul>
   `;
 };

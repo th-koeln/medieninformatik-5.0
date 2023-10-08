@@ -14,20 +14,5 @@
         max-width: var(--max-width-content);
       }
     }
-
-    &.has-seperator{
-      .content{
-
-        padding-top: 0;
-
-        &::before {
-          display: block;
-          width: 10%;
-          border-top: solid var(--border-width-l) var(--mi-blau);
-          margin-bottom: var(--fluid-space-m);
-          content: "";
-        }
-      }
-    }
   }
 }
