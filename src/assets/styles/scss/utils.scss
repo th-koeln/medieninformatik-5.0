@@ -84,3 +84,14 @@
     transform: rotate(90deg);
   }
 }
+
+
+/* Has Interaction
+############################################################################ */
+
+.has-interaction{
+  color: var(--color-accent);
+  &:hover{
+    cursor: pointer;
+  }
+}
