@@ -195,15 +195,22 @@ exports.getAllModuls = (obj) => {
 exports.getChildModulList = (data, headlineChilds) => {
 
   const childModuls = data.collections.allModuls.filter((modul) => modul.data.parent === data.kuerzel);
+  const {schwerpunkte} = data.collections;
+
+  const resolveSchwerpunkt = (id) => {
+    if(!id) return ''; 
+    
+    const schwerpunkt = schwerpunkte.find((schwerpunkt) => schwerpunkt.data.kuerzel === id);
+    if(!schwerpunkt) return '';
+
+    const schwerpunktUrl = schwerpunkt.url;
+    return `, <span class="tag is-schwerpunkt">Schwerpunkt <a href="${schwerpunktUrl}">«${schwerpunkt.data.title}»</a></span>`;
+  };
+
   const childModulsList = childModuls.map((modul) => {
-
-    const schwerpunkt = modul.data.schwerpunkt 
-      ? `, <span class="tag is-schwerpunkt">Schwerpunkt ${modul.data.schwerpunkt}</span>`
-      : '';
-
     return `
       <li>
-        <a href="${modul.url}">${modul.data.title}</a>${schwerpunkt}
+        <a href="${modul.url}">${modul.data.title}</a>${resolveSchwerpunkt(modul.data.schwerpunkt)}
       </li>
     `;
   });

@@ -432,6 +432,15 @@ blockquote {
   transform: rotate(90deg);
 }
 
+/* Has Interaction
+############################################################################ */
+.has-interaction {
+  color: var(--color-accent);
+}
+.has-interaction:hover {
+  cursor: pointer;
+}
+
 body {
   display: flex;
   flex-direction: column;
