@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: CP
 untertitel:
 studiensemester: 2
-kategorie: vertiefung
+kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine

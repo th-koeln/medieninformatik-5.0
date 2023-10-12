@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: MP
 untertitel:
 studiensemester: 4
-kategorie: grundlagen
+kategorie: Vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine

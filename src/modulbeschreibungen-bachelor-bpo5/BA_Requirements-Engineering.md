@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: REENG
 untertitel:
 studiensemester: 3
-kategorie: grundlagen
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
