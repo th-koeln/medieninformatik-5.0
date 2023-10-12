@@ -8,7 +8,7 @@ module.exports = {
     const curriculumTools = require('./components/curriculumTools.11ty.js');
 
     const curriculumList = curriculumTools.getCurriculumList({
-      moduls: data.collections[collection],
+      moduls: data.collections[collection].filter(item=>item.data.typ==='pm'),
       terms: data.terms,
       maxCPS: data.maxCPS,
       data,

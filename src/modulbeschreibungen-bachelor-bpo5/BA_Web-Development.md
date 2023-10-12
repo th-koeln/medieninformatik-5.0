@@ -1,10 +1,10 @@
 ---
-title: Grundlagen des Web
+title: Web Development
 modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: GW
 untertitel:
-studiensemester: 3
+studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

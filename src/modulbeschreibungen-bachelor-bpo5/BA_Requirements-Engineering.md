@@ -4,7 +4,7 @@ modulverantwortlich: il
 modulniveau: bachelor
 kuerzel: REENG
 untertitel:
-studiensemester: 1
+studiensemester: 3
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5

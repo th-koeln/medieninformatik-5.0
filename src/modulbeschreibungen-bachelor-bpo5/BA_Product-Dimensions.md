@@ -4,7 +4,7 @@ modulverantwortlich:
 modulniveau: bachelor
 kuerzel: ASP
 untertitel:
-studiensemester: 3
+studiensemester: 2
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

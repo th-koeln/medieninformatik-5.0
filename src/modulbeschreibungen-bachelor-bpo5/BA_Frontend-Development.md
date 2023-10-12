@@ -13,7 +13,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, MCI, Screendesig
 published: true
 infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment/frontend-development/
 layout: modulbeschreibung.11ty.js
-typ: pm
+typ: wpf
 veranstaltungsform: 
 parent: WD
 studienleistungen:

@@ -4,7 +4,7 @@ modulverantwortlich: cn
 modulniveau: bachelor
 kuerzel: SD
 untertitel:
-studiensemester: 2
+studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5

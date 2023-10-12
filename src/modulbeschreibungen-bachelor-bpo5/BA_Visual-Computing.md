@@ -1,5 +1,5 @@
 ---
-title: Computergrafik
+title: Visual Computing
 modulverantwortlich: fn
 kuerzel: CG
 untertitel:

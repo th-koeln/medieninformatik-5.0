@@ -4,7 +4,7 @@ modulverantwortlich:
 modulniveau: bachelor
 kuerzel: CP
 untertitel:
-studiensemester: 4
+studiensemester: 2
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

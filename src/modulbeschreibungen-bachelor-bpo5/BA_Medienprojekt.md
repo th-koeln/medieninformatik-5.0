@@ -4,7 +4,7 @@ modulverantwortlich: hk
 modulniveau: bachelor
 kuerzel: MP
 untertitel:
-studiensemester: 2
+studiensemester: 4
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5

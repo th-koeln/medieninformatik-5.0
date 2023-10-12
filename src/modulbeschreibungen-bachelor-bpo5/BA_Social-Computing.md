@@ -1,6 +1,6 @@
 ---
-title: Computerethik
-modulverantwortlich: 
+title: Social Computing
+modulverantwortlich: ck
 modulniveau: bachelor
 kuerzel: CE
 untertitel:
