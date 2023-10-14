@@ -1,7 +1,7 @@
 ---
 title: eher geringer BWL-Anteil
 tags:
-  - Inhalte
-  - Quelle: Forschungseinrichtungen
+  - Handlungsbereich: Inhalte
+  - Von: Forschungseinrichtungen
   - Themenfeld: Gewichtung von Inhalten
 ---

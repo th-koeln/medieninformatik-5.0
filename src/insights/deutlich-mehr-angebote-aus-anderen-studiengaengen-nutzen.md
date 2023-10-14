@@ -1,8 +1,8 @@
 ---
 title: deutlich mehr Angebote aus anderen Studiengängen nutzen
 tags:
-  - Reak
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Reak
+  - Von: Lehrende/ MA
   - Themenfeld: Organisation
   - Bachelor
   - Master

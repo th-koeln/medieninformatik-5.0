@@ -1,8 +1,8 @@
 ---
 title: Media-Art
 tags:
-  - Inhalte
-  - Quelle: Reak Team
+  - Handlungsbereich: Inhalte
+  - Von: Reak Team
   - Themenfeld: Curriculare Wünsche Master
   - Master
 ---

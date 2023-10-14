@@ -1,8 +1,8 @@
 ---
 title: Teilmodule im Vertiefungsmodul als WFPs  öffnen
 tags:
-  - Orga
-  - Quelle: Dekanat
+  - Handlungsbereich: Orga
+  - Von: Dekanat
   - Themenfeld: WPFs / Schwerpunkte / Vertiefung
   - Bachelor
 ---

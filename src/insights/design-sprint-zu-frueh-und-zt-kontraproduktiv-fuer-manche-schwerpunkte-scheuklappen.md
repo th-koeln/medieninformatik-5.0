@@ -1,8 +1,8 @@
 ---
 title: Design Sprint zu früh und z.T. kontraproduktiv für manche Schwerpunkte #Scheuklappen
 tags:
-  - Reak
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Reak
+  - Von: Lehrende/ MA
   - Themenfeld: Organisation
   - Master
 ---

@@ -1,8 +1,8 @@
 ---
 title: "T Shaped Profile: Consulting und Business (keine Ahnung, was es schon gibt)"
 tags:
-  - Inhalte
-  - Quelle: Reak Team
+  - Handlungsbereich: Inhalte
+  - Von: Reak Team
   - Themenfeld: Softskills
   - Bachelor
   - Master

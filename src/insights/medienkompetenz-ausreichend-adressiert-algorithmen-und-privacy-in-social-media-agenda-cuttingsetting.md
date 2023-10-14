@@ -1,9 +1,9 @@
 ---
 title: "Medienkompetenz ausreichend adressiert? (Algorithmen und Privacy in «Social Media», Agenda Cutting/Setting, etc.?)"
 tags:
-  - Reak
-  - Inhalte
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Inhalte
+  - Von: Lehrende/ MA
   - Themenfeld: Medien
   - Bachelor
   - Master

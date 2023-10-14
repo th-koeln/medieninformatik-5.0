@@ -1,8 +1,8 @@
 ---
 title: Wie Übergang Bachelor-Master hinsichtlich Fristen einfacher gestalten
 tags:
-  - Orga
-  - Quelle: Reak Team
+  - Handlungsbereich: Orga
+  - Von: Reak Team
   - Themenfeld: Organisation
   - Master
 ---

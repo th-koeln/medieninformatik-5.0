@@ -1,8 +1,8 @@
 ---
 title: 5 CP BWL Inhalt ist zu wenig
 tags:
-  - Inhalte
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Inhalte
+  - Von: Lehrende/ MA
   - Themenfeld: Curriculare Kritik Bachelor
   - Bachelor
 ---

@@ -1,9 +1,9 @@
 ---
 title: "Drop: Fand AVM irgendwie nicht so passend für die Allgemeinheit, vielleicht lieber in einer Vertiefung"
 tags:
-  - Reak
-  - Inhalte
-  - Quelle: Alumni Bachelor
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Inhalte
+  - Von: Alumni Bachelor
   - Themenfeld: Curriculare Kritik Bachelor
   - Bachelor
 ---

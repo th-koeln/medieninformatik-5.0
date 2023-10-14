@@ -1,8 +1,8 @@
 ---
 title: Schwerpunkt HCI erhalten
 tags:
-  - Reak
-  - Quelle: Reak Team
+  - Handlungsbereich: Reak
+  - Von: Reak Team
   - Themenfeld: Curriculare Wünsche Master
   - Master
 ---

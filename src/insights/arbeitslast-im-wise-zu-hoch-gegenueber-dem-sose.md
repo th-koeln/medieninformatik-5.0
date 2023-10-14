@@ -1,9 +1,9 @@
 ---
 title: Arbeitslast im WiSe zu hoch gegenüber dem SoSe
 tags:
-  - Reak
-  - Orga
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Orga
+  - Von: Lehrende/ MA
   - Themenfeld: Workload
   - Bachelor
   - Master

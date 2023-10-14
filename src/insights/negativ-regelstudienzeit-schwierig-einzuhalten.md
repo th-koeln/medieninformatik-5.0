@@ -1,8 +1,8 @@
 ---
 title: "Negativ: Regelstudienzeit schwierig einzuhalten"
 tags:
-  - Reak
-  - Quelle: StudyCheck Bachelor
+  - Handlungsbereich: Reak
+  - Von: StudyCheck Bachelor
   - Themenfeld: Organisation
   - Bachelor
 ---

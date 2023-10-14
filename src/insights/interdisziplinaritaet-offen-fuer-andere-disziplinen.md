@@ -1,8 +1,8 @@
 ---
 title: Interdisziplinarität, offen für andere Disziplinen
 tags:
-  - Inhalte
-  - Quelle: Forschungseinrichtungen
+  - Handlungsbereich: Inhalte
+  - Von: Forschungseinrichtungen
   - Themenfeld: Softskills
   - Bachelor
   - Master

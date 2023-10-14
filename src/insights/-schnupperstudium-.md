@@ -1,7 +1,7 @@
 ---
 title: Schnupperstudium??
 tags:
-  - BackLog
-  - Quelle: Stakeholder Analyse
+  - Handlungsbereich: BackLog
+  - Von: Stakeholder Analyse
   - Themenfeld: Außendarstellung // Alleinstellung
 ---

@@ -1,7 +1,7 @@
 ---
 title: PP-Seminar #Stärke
 tags:
-  - Inhalte
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Inhalte
+  - Von: Lehrende/ MA
   - Themenfeld: Curriculare Wünsche Bachelor
 ---

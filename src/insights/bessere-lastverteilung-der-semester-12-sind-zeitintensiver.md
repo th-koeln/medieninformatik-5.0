@@ -1,8 +1,8 @@
 ---
 title: Bessere Lastverteilung der Semester (1-2 sind zeitintensiver)
 tags:
-  - Reak
-  - Quelle: Aktive Studies Master
+  - Handlungsbereich: Reak
+  - Von: Aktive Studies Master
   - Themenfeld: Workload
   - Master
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Try: Praktikum innerhalb des Studiums"
 tags:
-  - Reak
-  - Quelle: Alumni Bachelor
+  - Handlungsbereich: Reak
+  - Von: Alumni Bachelor
   - Themenfeld: Praxis
   - Bachelor
 ---

@@ -1,9 +1,9 @@
 ---
 title: Vertiefungen und Schwerpunkte erzeugen enormen Workload für die Lehrenden
 tags:
-  - Reak
-  - Orga
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Orga
+  - Von: Lehrende/ MA
   - Themenfeld: Workload
   - Bachelor
   - Master

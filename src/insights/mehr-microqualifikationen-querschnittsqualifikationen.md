@@ -1,9 +1,9 @@
 ---
 title: mehr Microqualifikationen - Querschnitts-qualifikationen
 tags:
-  - Reak
-  - Inhalte
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Inhalte
+  - Von: Lehrende/ MA
   - Themenfeld: Curriculare Kritik Bachelor
   - Bachelor
   - Master

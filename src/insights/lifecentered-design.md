@@ -1,8 +1,8 @@
 ---
 title: Life-Centered Design?
 tags:
-  - Inhalte
-  - Quelle: Reak Team
+  - Handlungsbereich: Inhalte
+  - Von: Reak Team
   - Themenfeld: Softskills
   - Bachelor
   - Master

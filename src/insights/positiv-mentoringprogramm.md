@@ -1,7 +1,7 @@
 ---
 title: "Positiv: Mentoringprogramm"
 tags:
-  - BackLog
-  - Quelle: StudyCheck Bachelor
+  - Handlungsbereich: BackLog
+  - Von: StudyCheck Bachelor
   - Themenfeld: Organisation
 ---

@@ -1,8 +1,8 @@
 ---
 title: Mobilitätsfenster für Austauschsemester integrieren
 tags:
-  - Reak
-  - Quelle: Reak Team
+  - Handlungsbereich: Reak
+  - Von: Reak Team
   - Themenfeld: Organisation
   - Bachelor
   - Master

@@ -1,8 +1,8 @@
 ---
 title: "Try: Mehr Möglichkeiten WPFs zu wählen"
 tags:
-  - Reak
-  - Quelle: Alumni Bachelor
+  - Handlungsbereich: Reak
+  - Von: Alumni Bachelor
   - Themenfeld: WPFs / Schwerpunkte / Vertiefung
   - Bachelor
 ---

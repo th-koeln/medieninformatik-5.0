@@ -1,9 +1,9 @@
 ---
 title: Vielfalt (insb. Veranstaltungen und Bereiche)
 tags:
-  - Reak
-  - Inhalte
-  - Quelle: Visions Workshop
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Inhalte
+  - Von: Visions Workshop
   - Themenfeld: Curriculare Wünsche Bachelor
   - Bachelor
   - Master

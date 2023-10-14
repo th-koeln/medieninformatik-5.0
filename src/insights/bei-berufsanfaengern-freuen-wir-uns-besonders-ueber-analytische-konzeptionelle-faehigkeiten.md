@@ -1,9 +1,9 @@
 ---
 title: "Bei Berufsanfängern freuen wir uns besonders über: analytische, konzeptionelle Fähigkeiten"
 tags:
-  - 1
-  - Inhalte
-  - Quelle: Unternehmen
+  
+  - Handlungsbereich: Inhalte
+  - Von: Unternehmen
   - Themenfeld: Kompetenzen
   - Bachelor
   - Master

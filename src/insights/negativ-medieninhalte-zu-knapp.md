@@ -1,8 +1,8 @@
 ---
 title: "Negativ: Medieninhalte zu knapp"
 tags:
-  - Inhalte
-  - Quelle: StudyCheck Bachelor
+  - Handlungsbereich: Inhalte
+  - Von: StudyCheck Bachelor
   - Themenfeld: Medien
   - Bachelor
   - Master

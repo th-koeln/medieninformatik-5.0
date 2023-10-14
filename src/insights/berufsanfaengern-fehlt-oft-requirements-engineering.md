@@ -1,9 +1,9 @@
 ---
 title: "Berufsanfängern fehlt oft: Requirements Engineering"
 tags:
-  - 1
-  - Inhalte
-  - Quelle: Unternehmen
+  
+  - Handlungsbereich: Inhalte
+  - Von: Unternehmen
   - Themenfeld: Kritik an Erreichbarkeit von Kompetenzen
   - Bachelor
 ---

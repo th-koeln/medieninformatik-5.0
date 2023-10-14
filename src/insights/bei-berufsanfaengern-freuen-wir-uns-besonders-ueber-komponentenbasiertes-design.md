@@ -1,9 +1,9 @@
 ---
 title: "Bei Berufsanfängern freuen wir uns besonders über: Komponentenbasiertes Design"
 tags:
-  - 3
-  - Inhalte
-  - Quelle: Unternehmen
+  
+  - Handlungsbereich: Inhalte
+  - Von: Unternehmen
   - Themenfeld: Coding Skills
   - Bachelor
   - Master

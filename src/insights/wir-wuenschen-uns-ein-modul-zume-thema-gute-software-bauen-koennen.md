@@ -1,9 +1,9 @@
 ---
 title: "Wir wünschen uns ein Modul zume Thema: Gute Software bauen können"
 tags:
-  - 3
-  - Inhalte
-  - Quelle: Unternehmen
+  
+  - Handlungsbereich: Inhalte
+  - Von: Unternehmen
   - Themenfeld: Coding Skills
   - Bachelor
   - Master

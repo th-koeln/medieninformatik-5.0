@@ -1,9 +1,9 @@
 ---
 title: Informatik nah am Menschen
 tags:
-  - Reak
-  - Orga
-  - Quelle: Visions Workshop
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Orga
+  - Von: Visions Workshop
   - Themenfeld: Wertschätzung Kompetenzen
   - Bachelor
   - Master

@@ -1,7 +1,7 @@
 ---
 title: Freundlichkeit
 tags:
-  - BackLog
-  - Quelle: Visions Workshop
+  - Handlungsbereich: BackLog
+  - Von: Visions Workshop
   - Themenfeld: Externe Kooperation
 ---

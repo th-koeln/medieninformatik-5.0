@@ -1,7 +1,7 @@
 ---
 title: Wie können wir Kooperation mit Industrie // Formate neu denken?
 tags:
-  - BackLog
-  - Quelle: Reak Team
+  - Handlungsbereich: BackLog
+  - Von: Reak Team
   - Themenfeld: Externe Kooperation
 ---

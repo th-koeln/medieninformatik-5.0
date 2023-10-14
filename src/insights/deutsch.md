@@ -1,8 +1,8 @@
 ---
 title: Deutsch
 tags:
-  - Inhalte
-  - Quelle: Stellenausschreibungen
+  - Handlungsbereich: Inhalte
+  - Von: Stellenausschreibungen
   - Themenfeld: Softskills
   - Bachelor
   - Master

@@ -1,7 +1,7 @@
 ---
 title: Kooperationen mit Firmen & Universitäten
 tags:
-  - BackLog
-  - Quelle: Aktive Studies Master
+  - Handlungsbereich: BackLog
+  - Von: Aktive Studies Master
   - Themenfeld: Externe Kooperation
 ---

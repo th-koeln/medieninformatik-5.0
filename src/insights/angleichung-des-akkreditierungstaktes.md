@@ -1,8 +1,8 @@
 ---
 title: Angleichung des Akkreditierungstaktes
 tags:
-  - Reak
-  - Quelle: Dekanat
+  - Handlungsbereich: Reak
+  - Von: Dekanat
   - Themenfeld: Organisation
   - Bachelor
   - Master

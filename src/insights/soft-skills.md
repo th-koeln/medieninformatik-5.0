@@ -1,11 +1,11 @@
 ---
 title: Soft Skills
 tags:
-  - 3
-  - 2
-  - Reak
-  - Inhalte
-  - Quelle: Unternehmen
+  
+  
+  - Handlungsbereich: Reak
+  - Handlungsbereich: Inhalte
+  - Von: Unternehmen
   - Themenfeld: Softskills
   - Bachelor
   - Master

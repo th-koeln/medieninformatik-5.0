@@ -1,8 +1,8 @@
 ---
 title: fehlendes Mobilitätsfenster
 tags:
-  - Reak
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Reak
+  - Von: Lehrende/ MA
   - Themenfeld: Flexibilität
   - Bachelor
   - Master

@@ -1,8 +1,8 @@
 ---
 title: Abschlussarbeiten gehen total unter ... gemeinsame Präsentationsforen fehlen
 tags:
-  - Orga
-  - Quelle: Lehrende/ MA
+  - Handlungsbereich: Orga
+  - Von: Lehrende/ MA
   - Themenfeld: Organisation
   - Bachelor
   - Master

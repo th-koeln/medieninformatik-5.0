@@ -1,8 +1,8 @@
 ---
 title: Einblick in viele verschiedene Gebiete
 tags:
-  - Reak
-  - Quelle: Aktive Studies Bachelor
+  - Handlungsbereich: Reak
+  - Von: Aktive Studies Bachelor
   - Themenfeld: Inhalte
   - Bachelor
 ---

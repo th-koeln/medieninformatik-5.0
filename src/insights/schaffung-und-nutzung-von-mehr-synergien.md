@@ -1,8 +1,8 @@
 ---
 title: Schaffung und Nutzung von mehr Synergien
 tags:
-  - Reak
-  - Quelle: Dekanat
+  - Handlungsbereich: Reak
+  - Von: Dekanat
   - Themenfeld: Organisation
   - Bachelor
   - Master

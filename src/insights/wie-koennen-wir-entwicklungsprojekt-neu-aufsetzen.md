@@ -1,8 +1,8 @@
 ---
 title: Wie können wir Entwicklungsprojekt neu aufsetzen
 tags:
-  - Reak
-  - Quelle: Reak Team
+  - Handlungsbereich: Reak
+  - Von: Reak Team
   - Themenfeld: Organisation
   - Bachelor
 ---

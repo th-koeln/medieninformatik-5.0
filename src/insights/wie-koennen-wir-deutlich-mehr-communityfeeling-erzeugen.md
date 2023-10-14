@@ -1,7 +1,7 @@
 ---
 title: "Wie können wir «Deutlich mehr Communityfeeling» erzeugen?"
 tags:
-  - BackLog
-  - Quelle: Reak Team
+  - Handlungsbereich: BackLog
+  - Von: Reak Team
   - Themenfeld: Community
 ---

@@ -2,8 +2,8 @@
 title: P1-P3 in größere Projekte/Forschungsprojekte einbinden
 tags:
   - TRY
-  - Orga
-  - Quelle: Alumni Master
+  - Handlungsbereich: Orga
+  - Von: Alumni Master
   - Themenfeld: Forschungsbezug
   - Master
 ---
