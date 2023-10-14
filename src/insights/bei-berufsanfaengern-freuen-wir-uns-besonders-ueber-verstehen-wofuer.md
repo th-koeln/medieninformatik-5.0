@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: Verstehen wofür
+title: "Bei Berufsanfängern freuen wir uns besonders über: Verstehen wofür"
 tags:
   - 2
   - Inhalte

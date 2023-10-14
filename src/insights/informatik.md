@@ -1,5 +1,5 @@
 ---
-titel: Informatik
+title: Informatik
 tags:
   - BackLog
   - Inhalte

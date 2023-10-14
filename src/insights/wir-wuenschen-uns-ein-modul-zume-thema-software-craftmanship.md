@@ -1,5 +1,5 @@
 ---
-titel: Wir wünschen uns ein Modul zume Thema: Software Craftmanship
+title: "Wir wünschen uns ein Modul zume Thema: Software Craftmanship"
 tags:
   - 5
   - Inhalte

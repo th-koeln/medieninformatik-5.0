@@ -1,5 +1,5 @@
 ---
-titel: notwendige Mathematikkenntnisse werden nicht vermittelt  #GI
+title: notwendige Mathematikkenntnisse werden nicht vermittelt  #GI
 tags:
   - Reak
   - Inhalte

@@ -1,5 +1,5 @@
 ---
-titel: Wie können wir mehr Sichtbarkeit für Abschlussarbeiten, Kolloqien, etc. schaffen?
+title: Wie können wir mehr Sichtbarkeit für Abschlussarbeiten, Kolloqien, etc. schaffen?
 tags:
   - Reak
   - Orga

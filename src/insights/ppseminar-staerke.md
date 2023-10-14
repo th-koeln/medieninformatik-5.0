@@ -1,5 +1,5 @@
 ---
-titel: PP-Seminar #Stärke
+title: PP-Seminar #Stärke
 tags:
   - Inhalte
   - Quelle: Lehrende/ MA

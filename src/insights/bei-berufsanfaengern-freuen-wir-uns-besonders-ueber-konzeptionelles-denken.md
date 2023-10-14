@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: konzeptionelles Denken
+title: "Bei Berufsanfängern freuen wir uns besonders über: konzeptionelles Denken"
 tags:
   - 3
   - Inhalte

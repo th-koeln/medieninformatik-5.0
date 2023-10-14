@@ -1,5 +1,5 @@
 ---
-titel: Vertiefungen und Schwerpunkte erzeugen enormen Workload für die Lehrenden
+title: Vertiefungen und Schwerpunkte erzeugen enormen Workload für die Lehrenden
 tags:
   - Reak
   - Orga

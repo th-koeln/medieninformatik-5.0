@@ -1,5 +1,5 @@
 ---
-titel: mehr Advanced Media
+title: mehr Advanced Media
 tags:
   - Inhalte
   - Quelle: Reak Team

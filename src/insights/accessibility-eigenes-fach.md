@@ -1,5 +1,5 @@
 ---
-titel: Accessibility? eigenes Fach?
+title: Accessibility? eigenes Fach?
 tags:
   - Inhalte
   - Quelle: Reak Team

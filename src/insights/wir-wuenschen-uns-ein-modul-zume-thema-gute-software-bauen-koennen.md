@@ -1,5 +1,5 @@
 ---
-titel: Wir wünschen uns ein Modul zume Thema: Gute Software bauen können
+title: "Wir wünschen uns ein Modul zume Thema: Gute Software bauen können"
 tags:
   - 3
   - Inhalte

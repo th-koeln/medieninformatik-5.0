@@ -1,5 +1,5 @@
 ---
-titel: Kooperation
+title: Kooperation
 tags:
   - BackLog
   - Quelle: Visions Workshop

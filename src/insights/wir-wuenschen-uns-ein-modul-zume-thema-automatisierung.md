@@ -1,5 +1,5 @@
 ---
-titel: Wir wünschen uns ein Modul zume Thema: Automatisierung
+title: "Wir wünschen uns ein Modul zume Thema: Automatisierung"
 tags:
   - 3
   - 2

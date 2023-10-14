@@ -1,5 +1,5 @@
 ---
-titel: Orientierungssemester anstelle von Vertiefungen
+title: Orientierungssemester anstelle von Vertiefungen
 tags:
   - Reak
   - Quelle: Reak Team

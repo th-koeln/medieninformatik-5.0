@@ -1,5 +1,5 @@
 ---
-titel: Interdisziplinarität, offen für andere Disziplinen
+title: Interdisziplinarität, offen für andere Disziplinen
 tags:
   - Inhalte
   - Quelle: Forschungseinrichtungen

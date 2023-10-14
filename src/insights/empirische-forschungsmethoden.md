@@ -1,5 +1,5 @@
 ---
-titel: empirische Forschungsmethoden
+title: empirische Forschungsmethoden
 tags:
   - Inhalte
   - Quelle: Forschungseinrichtungen

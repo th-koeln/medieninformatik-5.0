@@ -1,5 +1,5 @@
 ---
-titel: "sprengt den Rahmen (im positiven Sinn von auch mal ""links und rechts gucken"""
+title: "sprengt den Rahmen (im positiven Sinn von auch mal «links und rechts gucken»"
 tags:
   - Reak
   - BackLog

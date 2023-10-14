@@ -1,5 +1,5 @@
 ---
-titel: Schwerpunkt HCI erhalten
+title: Schwerpunkt HCI erhalten
 tags:
   - Reak
   - Quelle: Reak Team

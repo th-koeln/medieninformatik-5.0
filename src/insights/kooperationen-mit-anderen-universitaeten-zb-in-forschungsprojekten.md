@@ -1,5 +1,5 @@
 ---
-titel: Kooperationen mit anderen Universitäten (zB in Forschungsprojekten)
+title: Kooperationen mit anderen Universitäten (zB in Forschungsprojekten)
 tags:
   - TRY
   - BackLog

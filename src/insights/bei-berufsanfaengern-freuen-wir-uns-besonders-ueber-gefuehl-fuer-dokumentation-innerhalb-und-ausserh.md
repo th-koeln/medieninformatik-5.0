@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: Gefühl für Dokumentation (innerhalb und außerhalb des Codes)
+title: "Bei Berufsanfängern freuen wir uns besonders über: Gefühl für Dokumentation (innerhalb und außerhalb des Codes)"
 tags:
   - 2
   - Inhalte

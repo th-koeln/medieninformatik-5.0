@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: Komponentenbasiertes Design
+title: "Bei Berufsanfängern freuen wir uns besonders über: Komponentenbasiertes Design"
 tags:
   - 3
   - Inhalte

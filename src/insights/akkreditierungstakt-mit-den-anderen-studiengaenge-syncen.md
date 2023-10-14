@@ -1,5 +1,5 @@
 ---
-titel: Akkreditierungstakt mit den anderen Studiengänge syncen
+title: Akkreditierungstakt mit den anderen Studiengänge syncen
 tags:
   - Reak
   - Quelle: Reak Team

@@ -1,5 +1,5 @@
 ---
-titel: In Social Computing fehlt DEV Anteil.
+title: In Social Computing fehlt DEV Anteil.
 tags:
   - Reak
   - Quelle: Dekanat

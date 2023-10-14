@@ -1,5 +1,5 @@
 ---
-titel: sich auch mit Sachen beschäftigen, die nicht klein und rechteckig mit Display sind
+title: sich auch mit Sachen beschäftigen, die nicht klein und rechteckig mit Display sind
 tags:
   - Inhalte
   - Quelle: Visions Workshop

@@ -1,5 +1,5 @@
 ---
-titel: Try: Mehr Möglichkeiten WPFs zu wählen
+title: "Try: Mehr Möglichkeiten WPFs zu wählen"
 tags:
   - Reak
   - Quelle: Alumni Bachelor

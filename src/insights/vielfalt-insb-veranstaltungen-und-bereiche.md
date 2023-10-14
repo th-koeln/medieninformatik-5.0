@@ -1,5 +1,5 @@
 ---
-titel: Vielfalt (insb. Veranstaltungen und Bereiche)
+title: Vielfalt (insb. Veranstaltungen und Bereiche)
 tags:
   - Reak
   - Inhalte

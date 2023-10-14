@@ -1,5 +1,5 @@
 ---
-titel: Mehr System Thinking
+title: Mehr System Thinking
 tags:
   - Inhalte
   - Quelle: Reak Team

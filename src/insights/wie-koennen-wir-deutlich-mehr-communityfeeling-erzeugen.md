@@ -1,5 +1,5 @@
 ---
-titel: "Wie können wir ""Deutlich mehr Communityfeeling"" erzeugen?"
+title: "Wie können wir «Deutlich mehr Communityfeeling» erzeugen?"
 tags:
   - BackLog
   - Quelle: Reak Team

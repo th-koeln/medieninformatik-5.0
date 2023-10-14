@@ -1,5 +1,5 @@
 ---
-titel: (fehlende?) Profilierung ggü. anderen Studiengängen in Richtung Medien?
+title: (fehlende?) Profilierung ggü. anderen Studiengängen in Richtung Medien?
 tags:
   - Reak
   - Quelle: Lehrende/ MA

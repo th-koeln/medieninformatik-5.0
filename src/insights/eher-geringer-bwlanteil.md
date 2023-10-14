@@ -1,5 +1,5 @@
 ---
-titel: eher geringer BWL-Anteil
+title: eher geringer BWL-Anteil
 tags:
   - Inhalte
   - Quelle: Forschungseinrichtungen

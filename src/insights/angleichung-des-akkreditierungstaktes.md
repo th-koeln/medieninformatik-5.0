@@ -1,5 +1,5 @@
 ---
-titel: Angleichung des Akkreditierungstaktes
+title: Angleichung des Akkreditierungstaktes
 tags:
   - Reak
   - Quelle: Dekanat

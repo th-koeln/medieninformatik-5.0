@@ -1,5 +1,5 @@
 ---
-titel: ??? Schnupperstudium ???
+title: Schnupperstudium??
 tags:
   - BackLog
   - Quelle: Stakeholder Analyse

@@ -1,5 +1,5 @@
 ---
-titel: Bessere Lastverteilung der Semester (1-2 sind zeitintensiver)
+title: Bessere Lastverteilung der Semester (1-2 sind zeitintensiver)
 tags:
   - Reak
   - Quelle: Aktive Studies Master

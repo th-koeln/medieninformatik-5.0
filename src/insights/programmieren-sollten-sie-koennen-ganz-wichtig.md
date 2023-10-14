@@ -1,5 +1,5 @@
 ---
-titel: Programmieren sollten sie können, ganz wichtig
+title: Programmieren sollten sie können, ganz wichtig
 tags:
   - Reak
   - Quelle: Forschungseinrichtungen

@@ -1,5 +1,5 @@
 ---
-titel: Keep Anfängerfreundlicher Einstieg in den Bereich Informatik, der auch ohne Vorkenntnisse in dem Bereich absolviert werden konnte
+title: Keep Anfängerfreundlicher Einstieg in den Bereich Informatik, der auch ohne Vorkenntnisse in dem Bereich absolviert werden konnte
 tags:
   - Inhalte
   - Quelle: Alumni Bachelor

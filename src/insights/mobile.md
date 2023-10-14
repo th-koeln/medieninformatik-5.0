@@ -1,5 +1,5 @@
 ---
-titel: Mobile
+title: Mobile
 tags:
   - Inhalte
   - Quelle: Reak Team

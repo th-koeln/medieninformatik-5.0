@@ -1,5 +1,5 @@
 ---
-titel: Bachelor-Master-Promotion-Programm integriert und konsekutiv gestalten
+title: Bachelor-Master-Promotion-Programm integriert und konsekutiv gestalten
 tags:
   - Reak
   - Quelle: Reak Team

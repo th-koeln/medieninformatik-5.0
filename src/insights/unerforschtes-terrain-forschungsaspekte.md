@@ -1,5 +1,5 @@
 ---
-titel: unerforschtes Terrain / Forschungsaspekte
+title: unerforschtes Terrain / Forschungsaspekte
 tags:
   - Reak
   - BackLog

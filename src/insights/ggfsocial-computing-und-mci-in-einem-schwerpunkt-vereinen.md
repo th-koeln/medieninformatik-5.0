@@ -1,5 +1,5 @@
 ---
-titel: Ggf. Social Computing und MCI in einem Schwerpunkt vereinen
+title: Ggf. Social Computing und MCI in einem Schwerpunkt vereinen
 tags:
   - Reak
   - Quelle: Dekanat

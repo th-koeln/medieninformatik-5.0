@@ -1,5 +1,5 @@
 ---
-titel: negativ Dozenten unwissend über Workload
+title: negativ Dozenten unwissend über Workload
 tags:
   - Orga
   - Quelle: StudyCheck Master

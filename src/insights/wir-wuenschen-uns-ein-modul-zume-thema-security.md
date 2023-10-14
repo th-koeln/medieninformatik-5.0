@@ -1,5 +1,5 @@
 ---
-titel: Wir wünschen uns ein Modul zume Thema: Security
+title: "Wir wünschen uns ein Modul zume Thema: Security"
 tags:
   - 1
   - 2

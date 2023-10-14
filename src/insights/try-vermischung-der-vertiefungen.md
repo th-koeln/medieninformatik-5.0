@@ -1,5 +1,5 @@
 ---
-titel: Try: Vermischung der Vertiefungen
+title: "Try: Vermischung der Vertiefungen"
 tags:
   - Reak
   - Quelle: Alumni Bachelor

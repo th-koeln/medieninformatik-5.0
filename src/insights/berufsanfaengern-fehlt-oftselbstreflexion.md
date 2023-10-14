@@ -1,5 +1,5 @@
 ---
-titel: Berufsanfängern fehlt oft:Selbstreflexion
+title: "Berufsanfängern fehlt oft:Selbstreflexion"
 tags:
   - 5
   - Inhalte

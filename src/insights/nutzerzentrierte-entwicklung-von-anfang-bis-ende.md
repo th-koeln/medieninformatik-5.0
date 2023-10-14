@@ -1,5 +1,5 @@
 ---
-titel: """Nutzerzentrierte Entwicklung"" von Anfang bis Ende"
+title: «Nutzerzentrierte Entwicklung» von Anfang bis Ende"
 tags:
   - Inhalte
   - Quelle: Forschungseinrichtungen

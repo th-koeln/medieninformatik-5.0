@@ -1,5 +1,5 @@
 ---
-titel: Arbeitslast im WiSe zu hoch gegenüber dem SoSe
+title: Arbeitslast im WiSe zu hoch gegenüber dem SoSe
 tags:
   - Reak
   - Orga

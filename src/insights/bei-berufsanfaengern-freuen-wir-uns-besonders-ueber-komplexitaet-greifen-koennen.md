@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: Komplexität greifen können
+title: "Bei Berufsanfängern freuen wir uns besonders über: Komplexität greifen können"
 tags:
   - 1
   - Inhalte

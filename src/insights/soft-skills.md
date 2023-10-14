@@ -1,5 +1,5 @@
 ---
-titel: Soft Skills
+title: Soft Skills
 tags:
   - 3
   - 2

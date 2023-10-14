@@ -1,5 +1,5 @@
 ---
-titel: Praktika zu theoretisch (Praxisorientierung - in Bezug auf gesamtes Studium)
+title: Praktika zu theoretisch (Praxisorientierung - in Bezug auf gesamtes Studium)
 tags:
   - Inhalte
   - Quelle: Aktive Studies Bachelor

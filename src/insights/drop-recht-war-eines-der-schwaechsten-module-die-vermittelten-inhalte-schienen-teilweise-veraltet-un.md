@@ -1,5 +1,5 @@
 ---
-titel: Drop: Recht war eines der Schwächsten Module. Die Vermittelten Inhalte schienen teilweise Veraltet und aktuelle, relevante Inhalte wurden ausgelassen.
+title: "Drop: Recht war eines der Schwächsten Module. Die Vermittelten Inhalte schienen teilweise Veraltet und aktuelle, relevante Inhalte wurden ausgelassen."
 tags:
   - Reak
   - Inhalte

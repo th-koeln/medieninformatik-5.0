@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: Selbstverständnis für Sicherheit und Datenschutz
+title: "Bei Berufsanfängern freuen wir uns besonders über: Selbstverständnis für Sicherheit und Datenschutz"
 tags:
   - 2
   - Inhalte

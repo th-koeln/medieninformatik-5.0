@@ -1,5 +1,5 @@
 ---
-titel: Umfang und Erwartung der Begleitenden Module war auch nicht Eindeutig
+title: Umfang und Erwartung der Begleitenden Module war auch nicht Eindeutig
 tags:
   - DROP
   - Reak

@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: analytische, konzeptionelle Fähigkeiten
+title: "Bei Berufsanfängern freuen wir uns besonders über: analytische, konzeptionelle Fähigkeiten"
 tags:
   - 1
   - Inhalte

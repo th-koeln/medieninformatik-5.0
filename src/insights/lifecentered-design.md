@@ -1,5 +1,5 @@
 ---
-titel: Life-Centered Design?
+title: Life-Centered Design?
 tags:
   - Inhalte
   - Quelle: Reak Team

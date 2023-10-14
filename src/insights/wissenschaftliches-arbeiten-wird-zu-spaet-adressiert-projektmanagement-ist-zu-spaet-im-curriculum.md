@@ -1,5 +1,5 @@
 ---
-titel: Wissenschaftliches Arbeiten wird zu spät adressiert -  Projektmanagement ist zu spät im Curriculum
+title: Wissenschaftliches Arbeiten wird zu spät adressiert -  Projektmanagement ist zu spät im Curriculum
 tags:
   - Reak
   - Quelle: Lehrende/ MA

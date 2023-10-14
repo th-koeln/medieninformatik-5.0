@@ -1,5 +1,5 @@
 ---
-titel: 5 CP BWL Inhalt ist zu wenig
+title: 5 CP BWL Inhalt ist zu wenig
 tags:
   - Inhalte
   - Quelle: Lehrende/ MA

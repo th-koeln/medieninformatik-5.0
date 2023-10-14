@@ -1,5 +1,5 @@
 ---
-titel: zeitnahe, relevante und korrekte Kommunikation von (organisatorischen, prüfungsrelevanten) Informationen (Professorium) #EP #PM #AP1&2
+title: zeitnahe, relevante und korrekte Kommunikation von (organisatorischen, prüfungsrelevanten) Informationen (Professorium) #EP #PM #AP1&2
 tags:
   - Reak
   - Orga

@@ -1,7 +1,7 @@
 ---
-titel: "Modellierung, Modellbildung
+title: "Modellierung, Modellbildung, Prozesmodelle erstellen"
 tags:
-  - Prozesmodelle erstellen";Inhalte
+  - Inhalte
   - Quelle: Forschungseinrichtungen
   - Themenfeld: Kompetenzen
   - Bachelor

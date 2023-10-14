@@ -1,5 +1,5 @@
 ---
-titel: Informatik nah am Menschen
+title: Informatik nah am Menschen
 tags:
   - Reak
   - Orga

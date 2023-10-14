@@ -1,5 +1,5 @@
 ---
-titel: flexibles Curriculum nach Interessenschwerpunkt
+title: flexibles Curriculum nach Interessenschwerpunkt
 tags:
   - Reak
   - Orga

@@ -1,5 +1,5 @@
 ---
-titel: Intelligent User Interfaces
+title: Intelligent User Interfaces
 tags:
   - Inhalte
   - Quelle: Reak Team

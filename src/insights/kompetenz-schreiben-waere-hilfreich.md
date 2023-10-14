@@ -1,5 +1,5 @@
 ---
-titel: "Kompetenz ""Schreiben"" wäre hilfreich"
+title: "Kompetenz «Schreiben» wäre hilfreich"
 tags:
   - Inhalte
   - Quelle: Forschungseinrichtungen

@@ -1,5 +1,5 @@
 ---
-titel: Arbeitslast im Team sehr hoch durch Vertiefungen & Entwicklungsprojekt
+title: Arbeitslast im Team sehr hoch durch Vertiefungen & Entwicklungsprojekt
 tags:
   - Reak
   - Orga

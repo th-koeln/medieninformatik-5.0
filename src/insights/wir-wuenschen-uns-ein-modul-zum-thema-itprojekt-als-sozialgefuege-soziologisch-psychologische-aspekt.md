@@ -1,5 +1,5 @@
 ---
-titel: Wir wünschen uns ein Modul zum Thema: IT-Projekt als Sozialgefüge (soziologisch, psychologische Aspekte, Kritikfähigkeit
+title: "Wir wünschen uns ein Modul zum Thema: IT-Projekt als Sozialgefüge (soziologisch, psychologische Aspekte, Kritikfähigkeit"
 tags:
   - 4
   - Inhalte

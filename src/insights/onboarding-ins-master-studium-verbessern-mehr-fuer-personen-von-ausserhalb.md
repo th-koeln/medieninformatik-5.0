@@ -1,5 +1,5 @@
 ---
-titel: Onboarding ins Master Studium verbessern (mehr für Personen von außerhalb)
+title: Onboarding ins Master Studium verbessern (mehr für Personen von außerhalb)
 tags:
   - Orga
   - BackLog

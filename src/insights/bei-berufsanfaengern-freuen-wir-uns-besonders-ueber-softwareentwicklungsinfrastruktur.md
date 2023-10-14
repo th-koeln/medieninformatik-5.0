@@ -1,5 +1,5 @@
 ---
-titel: Bei Berufsanfängern freuen wir uns besonders über: Softwareentwicklungsinfrastruktur
+title: "Bei Berufsanfängern freuen wir uns besonders über: Softwareentwicklungsinfrastruktur"
 tags:
   - 2
   - Inhalte

@@ -1,5 +1,5 @@
 ---
-titel: (Serious) Games als Medium / Abgrenzung Gamelab?
+title: (Serious) Games als Medium / Abgrenzung Gamelab?
 tags:
   - Inhalte
   - Quelle: Reak Team

@@ -1,5 +1,5 @@
 ---
-titel: Die Reihenfolge der projektbegleitenden Module könnte besser an den Inhalt angepasst werden
+title: Die Reihenfolge der projektbegleitenden Module könnte besser an den Inhalt angepasst werden
 tags:
   - DROP
   - Reak

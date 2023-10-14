@@ -1,5 +1,5 @@
 ---
-titel: Spezielle Gebiete der Mathematik als Pflichtmodul
+title: Spezielle Gebiete der Mathematik als Pflichtmodul
 tags:
   - KEEP
   - Reak

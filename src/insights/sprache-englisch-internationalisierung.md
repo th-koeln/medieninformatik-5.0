@@ -1,5 +1,5 @@
 ---
-titel: Sprache Englisch, Internationalisierung
+title: Sprache Englisch, Internationalisierung
 tags:
   - Reak
   - Quelle: Reak Team

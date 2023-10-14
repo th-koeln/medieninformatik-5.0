@@ -1,5 +1,5 @@
 ---
-titel: IoT/UbiComp
+title: IoT/UbiComp
 tags:
   - Inhalte
   - Quelle: Reak Team

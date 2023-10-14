@@ -1,5 +1,5 @@
 ---
-titel: rechtzeitige und vorausschauende Koordinationsgespräche zwischen Modulverantwortlichen eines Fachsemesters (inkl. Lehrbeauftragten und WiMAs)
+title: rechtzeitige und vorausschauende Koordinationsgespräche zwischen Modulverantwortlichen eines Fachsemesters (inkl. Lehrbeauftragten und WiMAs)
 tags:
   - Reak
   - Orga

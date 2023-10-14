@@ -1,5 +1,5 @@
 ---
-titel: Berufsanfängern fehlt oft: agiles Mindset
+title: "Berufsanfängern fehlt oft: agiles Mindset"
 tags:
   - 5
   - Inhalte

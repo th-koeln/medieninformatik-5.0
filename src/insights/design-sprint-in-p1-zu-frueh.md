@@ -1,5 +1,5 @@
 ---
-titel: Design Sprint in P1 zu früh
+title: Design Sprint in P1 zu früh
 tags:
   - Orga
   - Quelle: Aktive Studies Master

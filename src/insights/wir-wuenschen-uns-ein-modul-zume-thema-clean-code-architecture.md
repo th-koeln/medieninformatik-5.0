@@ -1,5 +1,5 @@
 ---
-titel: Wir wünschen uns ein Modul zume Thema: Clean Code & Architecture
+title: "Wir wünschen uns ein Modul zume Thema: Clean Code & Architecture"
 tags:
   - 5
   - Inhalte

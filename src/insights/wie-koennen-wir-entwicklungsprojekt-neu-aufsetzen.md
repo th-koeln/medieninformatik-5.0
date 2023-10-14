@@ -1,5 +1,5 @@
 ---
-titel: Wie können wir Entwicklungsprojekt neu aufsetzen
+title: Wie können wir Entwicklungsprojekt neu aufsetzen
 tags:
   - Reak
   - Quelle: Reak Team

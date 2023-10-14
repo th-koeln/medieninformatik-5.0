@@ -1,5 +1,5 @@
 ---
-titel: Wie können wir Forschung/Promotionen mitdenken
+title: Wie können wir Forschung/Promotionen mitdenken
 tags:
   - Reak
   - Quelle: Reak Team

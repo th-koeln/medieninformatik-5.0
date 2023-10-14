@@ -1,5 +1,5 @@
 ---
-titel: Schaffung und Nutzung von mehr Synergien
+title: Schaffung und Nutzung von mehr Synergien
 tags:
   - Reak
   - Quelle: Dekanat

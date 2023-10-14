@@ -1,5 +1,5 @@
 ---
-titel: negativ Regelstudienzeit schwierig einzuhalten
+title: negativ Regelstudienzeit schwierig einzuhalten
 tags:
   - Reak
   - Quelle: StudyCheck Bachelor

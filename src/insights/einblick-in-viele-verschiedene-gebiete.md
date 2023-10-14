@@ -1,5 +1,5 @@
 ---
-titel: Einblick in viele verschiedene Gebiete
+title: Einblick in viele verschiedene Gebiete
 tags:
   - Reak
   - Quelle: Aktive Studies Bachelor

@@ -1,5 +1,5 @@
 ---
-titel: Master Kolloquium mit 30min ist deutlich zu kurz
+title: Master Kolloquium mit 30min ist deutlich zu kurz
 tags:
   - Reak
   - Quelle: Lehrende/ MA

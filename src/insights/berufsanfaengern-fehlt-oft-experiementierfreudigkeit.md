@@ -1,5 +1,5 @@
 ---
-titel: Berufsanfängern fehlt oft: Experiementierfreudigkeit
+title: "Berufsanfängern fehlt oft: Experiementierfreudigkeit"
 tags:
   - 5
   - Reak

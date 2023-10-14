@@ -1,5 +1,5 @@
 ---
-titel: Teilmodule im Vertiefungsmodul als WFPs  öffnen
+title: Teilmodule im Vertiefungsmodul als WFPs  öffnen
 tags:
   - Orga
   - Quelle: Dekanat

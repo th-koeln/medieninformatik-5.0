@@ -1,5 +1,5 @@
 ---
-titel: Kooperationen mit Arbeitgebern
+title: Kooperationen mit Arbeitgebern
 tags:
   - TRY
   - BackLog

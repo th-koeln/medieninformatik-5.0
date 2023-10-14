@@ -1,5 +1,5 @@
 ---
-titel: Abschlussarbeiten gehen total unter ... gemeinsame Präsentationsforen fehlen
+title: Abschlussarbeiten gehen total unter ... gemeinsame Präsentationsforen fehlen
 tags:
   - Orga
   - Quelle: Lehrende/ MA

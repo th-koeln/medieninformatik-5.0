@@ -1,5 +1,5 @@
 ---
-titel: Deutsch
+title: Deutsch
 tags:
   - Inhalte
   - Quelle: Stellenausschreibungen

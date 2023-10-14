@@ -1,5 +1,5 @@
 ---
-titel: auffbauenden Projektmodule im Master konzeptionell gut, aber schwer umsetzbar, Koppelung an die Schwerpunkte erschwert Forschungsprojekte
+title: auffbauenden Projektmodule im Master konzeptionell gut, aber schwer umsetzbar, Koppelung an die Schwerpunkte erschwert Forschungsprojekte
 tags:
   - Reak
   - Quelle: Dekanat

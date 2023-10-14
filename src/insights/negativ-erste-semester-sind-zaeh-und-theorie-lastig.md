@@ -1,5 +1,5 @@
 ---
-titel: negativ erste Semester sind zäh und Theorie lastig
+title: negativ erste Semester sind zäh und Theorie lastig
 tags:
   - Reak
   - Quelle: StudyCheck Bachelor

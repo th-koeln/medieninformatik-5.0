@@ -1,5 +1,5 @@
 ---
-titel: "Thema ""Wissenschaftliches Arbeiten"" sollte bereits früher behandelt werden"
+title: "Thema «Wissenschaftliches Arbeiten» sollte bereits früher behandelt werden"
 tags:
   - Reak
   - Inhalte

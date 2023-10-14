@@ -1,5 +1,5 @@
 ---
-titel: Keep HCI so früh im Studienverlaufsplan
+title: Keep HCI so früh im Studienverlaufsplan
 tags:
   - Reak
   - Inhalte

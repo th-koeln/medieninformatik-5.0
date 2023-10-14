@@ -1,5 +1,5 @@
 ---
-titel: Wir wünschen uns ein Modul zume Thema: freie Software, Open Source
+title: "Wir wünschen uns ein Modul zume Thema: freie Software, Open Source"
 tags:
   - 3
   - Inhalte

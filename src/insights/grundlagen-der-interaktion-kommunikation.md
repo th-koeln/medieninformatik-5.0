@@ -1,5 +1,5 @@
 ---
-titel: Grundlagen der Interaktion & Kommunikation
+title: Grundlagen der Interaktion & Kommunikation
 tags:
   - Inhalte
   - Quelle: Reak Team

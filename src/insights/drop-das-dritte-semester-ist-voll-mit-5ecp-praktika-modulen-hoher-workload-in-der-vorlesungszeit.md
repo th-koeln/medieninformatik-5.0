@@ -1,5 +1,5 @@
 ---
-titel: Drop: Das dritte Semester ist voll mit 5ECP + Praktika Modulen (=> hoher Workload in der Vorlesungszeit)
+title: "Drop: Das dritte Semester ist voll mit 5ECP + Praktika Modulen (=> hoher Workload in der Vorlesungszeit)"
 tags:
   - Reak
   - Orga

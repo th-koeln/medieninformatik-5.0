@@ -1,5 +1,5 @@
 ---
-titel: Thema Storytelling sollte erhalten bleiben
+title: Thema Storytelling sollte erhalten bleiben
 tags:
   - Inhalte
   - Quelle: Dekanat

@@ -1,5 +1,5 @@
 ---
-titel: ggf. zu kleine Schwerpunkte (Studierendenzahlen)
+title: ggf. zu kleine Schwerpunkte (Studierendenzahlen)
 tags:
   - Reak
   - Quelle: Aktive Studies Master

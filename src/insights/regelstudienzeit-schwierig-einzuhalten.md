@@ -1,5 +1,5 @@
 ---
-titel: Regelstudienzeit schwierig einzuhalten
+title: Regelstudienzeit schwierig einzuhalten
 tags:
   - Reak
   - Quelle: Aktive Studies Bachelor

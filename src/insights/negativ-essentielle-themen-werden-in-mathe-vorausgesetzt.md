@@ -1,5 +1,5 @@
 ---
-titel: negativ Essentielle Themen werden in Mathe vorausgesetzt
+title: negativ Essentielle Themen werden in Mathe vorausgesetzt
 tags:
   - Inhalte
   - Quelle: StudyCheck Bachelor

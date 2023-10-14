@@ -1,5 +1,5 @@
 ---
-titel: "HCI keine ""explizite""Vertiefung"
+title: "HCI keine «explizite» Vertiefung"
 tags:
   - Reak
   - Inhalte

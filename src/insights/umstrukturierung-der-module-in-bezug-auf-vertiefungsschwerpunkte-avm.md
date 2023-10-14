@@ -1,5 +1,5 @@
 ---
-titel: Umstrukturierung der Module in Bezug auf Vertiefungsschwerpunkte #AVM
+title: Umstrukturierung der Module in Bezug auf Vertiefungsschwerpunkte #AVM
 tags:
   - Reak
   - Quelle: Aktive Studies Bachelor

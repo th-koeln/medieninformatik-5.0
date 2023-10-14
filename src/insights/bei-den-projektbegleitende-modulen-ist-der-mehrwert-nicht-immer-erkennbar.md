@@ -1,5 +1,5 @@
 ---
-titel: Bei den projektbegleitende Modulen ist der Mehrwert nicht immer erkennbar
+title: "Bei den projektbegleitende Modulen ist der Mehrwert nicht immer erkennbar"
 tags:
   - DROP
   - Reak

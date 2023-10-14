@@ -1,5 +1,5 @@
 ---
-titel: Try: HCI als Vertiefungsschwerpunkt? (Bachelor)
+title: "Try: HCI als Vertiefungsschwerpunkt? (Bachelor)"
 tags:
   - Reak
   - Inhalte

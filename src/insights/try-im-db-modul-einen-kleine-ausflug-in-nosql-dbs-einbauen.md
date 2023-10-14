@@ -1,5 +1,5 @@
 ---
-titel: Try: Im DB Modul einen kleine Ausflug in NoSql dbs einbauen
+title: "Try: Im DB Modul einen kleine Ausflug in NoSql dbs einbauen"
 tags:
   - Inhalte
   - Quelle: Alumni Bachelor

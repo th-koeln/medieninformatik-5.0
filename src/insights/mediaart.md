@@ -1,5 +1,5 @@
 ---
-titel: Media-Art
+title: Media-Art
 tags:
   - Inhalte
   - Quelle: Reak Team

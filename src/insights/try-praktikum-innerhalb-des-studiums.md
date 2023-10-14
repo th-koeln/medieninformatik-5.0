@@ -1,5 +1,5 @@
 ---
-titel: Try: Praktikum innerhalb des Studiums
+title: "Try: Praktikum innerhalb des Studiums"
 tags:
   - Reak
   - Quelle: Alumni Bachelor

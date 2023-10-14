@@ -1,5 +1,5 @@
 ---
-titel: mehr Microqualifikationen - Querschnitts-qualifikationen
+title: mehr Microqualifikationen - Querschnitts-qualifikationen
 tags:
   - Reak
   - Inhalte

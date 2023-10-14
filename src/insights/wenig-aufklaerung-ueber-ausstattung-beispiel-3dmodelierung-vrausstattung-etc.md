@@ -1,5 +1,5 @@
 ---
-titel: Wenig Aufklärung über Ausstattung (Beispiel 3D-Modelierung, VR-Ausstattung etc.)
+title: Wenig Aufklärung über Ausstattung (Beispiel 3D-Modelierung, VR-Ausstattung etc.)
 tags:
   - Orga
   - BackLog

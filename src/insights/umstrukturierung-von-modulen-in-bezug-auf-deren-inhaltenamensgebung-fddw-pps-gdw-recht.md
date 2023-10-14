@@ -1,5 +1,5 @@
 ---
-titel: Umstrukturierung von Modulen in Bezug auf deren Inhalte/Namensgebung #FDDW #PPS #GdW? #Recht
+title: Umstrukturierung von Modulen in Bezug auf deren Inhalte/Namensgebung #FDDW #PPS #GdW? #Recht
 tags:
   - Reak
   - Quelle: Aktive Studies Bachelor

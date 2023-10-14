@@ -1,5 +1,5 @@
 ---
-titel: Die Klarheit und Sichtbarkeit der Vertiefungen/ Schwerpunkte gut!
+title: Die Klarheit und Sichtbarkeit der Vertiefungen/ Schwerpunkte gut!
 tags:
   - Reak
   - Orga

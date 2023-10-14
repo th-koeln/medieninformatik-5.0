@@ -1,5 +1,5 @@
 ---
-titel: Freundlichkeit
+title: Freundlichkeit
 tags:
   - BackLog
   - Quelle: Visions Workshop
