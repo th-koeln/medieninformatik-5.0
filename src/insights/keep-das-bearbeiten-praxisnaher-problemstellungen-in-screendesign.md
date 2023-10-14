@@ -1,5 +1,5 @@
 ---
-title: Keep Das Bearbeiten Praxisnaher Problemstellungen in Screendesign
+title: "Keep: Das Bearbeiten Praxisnaher Problemstellungen in Screendesign"
 tags:
   - Inhalte
   - Quelle: Alumni Bachelor

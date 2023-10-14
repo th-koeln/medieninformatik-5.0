@@ -6,19 +6,34 @@ module.exports = {
 	render(data) {
 
     const insightsList = data.collections.insights.map((item) => {
-      
+
+      Number.prototype.map = function (in_min, in_max, out_min, out_max) {
+        return (this - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+      }
+
+      let color = "black";
+
       const tags = item.data.tags.map((tag) => {
         if(typeof tag === "object" && tag["Themenfeld"]){
-          return `<span class="tag">Themenfeld: ${tag["Themenfeld"]}</span>`;
+          return `<span class="tag" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>Themenfeld: ${tag["Themenfeld"]}</span>`;
         }
         if(typeof tag === "object" && tag["Quelle"]){
-          return `<span class="tag">Quelle: ${tag["Quelle"]}</span>`;
+          color = tag["Quelle"].length.map(0, 20, 0, 360);
+          return `<span class="tag" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>Quelle: ${tag["Quelle"]}</span>`;
         }
-        return `<span class="tag">${tag}</span>`;
+        return `<span class="tag" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>${tag}</span>`;
       }).join("\n");
 
+      const borderColor = `border-color: hsl(${color}, 60%, 50%)`;
+
+      const dataObject = {
+        tags: item.data.tags,
+        title: item.data.title,
+        src: item.url,
+      };
+
       return `
-        <li class="insight">
+        <li class="insight" style="${borderColor}" data-js-list-interaction-item='${JSON.stringify(dataObject)}'>
           <h3>${item.data.title}</h3>
           ${tags}
         </li>
@@ -42,9 +57,15 @@ module.exports = {
         ${data.content}
 
         <section>
-          <ul class="insight-overview">
-            ${insightsList.join("\n")}
-          </ul>
+          <div data-js-list-interactions>
+            <header>
+              <h3 data-js-list-interaction-header>${insightsList.length} Einträge</h3>
+            </header>
+
+            <ul class="insight-overview ">
+              ${insightsList.join("\n")}
+            </ul>
+          </div>
         </section>
 			</main>
 		`;

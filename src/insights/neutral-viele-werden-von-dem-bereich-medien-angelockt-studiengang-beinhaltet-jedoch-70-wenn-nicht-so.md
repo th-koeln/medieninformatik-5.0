@@ -1,5 +1,5 @@
 ---
-title: neutral viele werden von dem Bereich „Medien” angelockt. Studiengang beinhaltet jedoch 70% wenn nicht sogar 80% Informatik.
+title: "Neutral: viele werden von dem Bereich „Medien” angelockt. Studiengang beinhaltet jedoch 70% wenn nicht sogar 80% Informatik."
 tags:
   - Reak
   - Inhalte

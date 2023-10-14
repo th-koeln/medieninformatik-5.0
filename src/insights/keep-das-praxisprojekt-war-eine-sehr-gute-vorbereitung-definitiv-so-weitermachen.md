@@ -1,5 +1,5 @@
 ---
-title: Keep Das Praxisprojekt war eine sehr gute Vorbereitung. Definitiv so weitermachen.
+title: "Keep: Das Praxisprojekt war eine sehr gute Vorbereitung. Definitiv so weitermachen."
 tags:
   - Reak
   - Inhalte

@@ -157,6 +157,7 @@ select {
   --fluid-space-l: calc(var(--l) + 1.5vw);
   --max-width-content: calc(var(--m) * 40);
   --max-width-table: calc(var(--m) * 80);
+  --max-width-card: calc(var(--m) * 20);
   --mi-lila: #9313ce;
   --mi-gruen: #00ad2f;
   --mi-orange: #F58700;
@@ -201,6 +202,7 @@ select {
   --border-width-m: 3px;
   --border-width-l: 6px;
   --border-radius-s: 3px;
+  --border-radius-m: 0.5ch;
 }
 
 /* Viewportgrößen für Media Queries
@@ -698,6 +700,45 @@ figure.image figcaption strong {
 .people-list .module-list ul {
   margin-top: var(--quat);
   margin-bottom: var(--quat);
+}
+
+/* Insights
+############################################################################ */
+.insights .insight-overview {
+  display: grid;
+  gap: var(--fluid-space-s);
+  grid-template-columns: repeat(auto-fill, minmax(var(--max-width-card), 1fr));
+}
+.insights .insight {
+  border-top: solid var(--border-radius-l) var(--dark);
+  margin-left: 0;
+}
+.insights .insight::before {
+  content: "";
+}
+.insights .insight h3 {
+  margin-bottom: var(--half);
+}
+.insights .insight .tag {
+  border: solid var(--border-width-s) var(--color-accent);
+  display: inline-block;
+  margin-right: var(--quat);
+  margin-bottom: var(--half);
+  padding: 0 var(--quat);
+  border-radius: var(--border-radius-m);
+  position: relative;
+  z-index: 1;
+}
+.insights .insight .tag::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-accent);
+  opacity: 0.1;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

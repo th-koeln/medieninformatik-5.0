@@ -1,5 +1,5 @@
 ---
-title: negativ Medieninhalte zu knapp
+title: "Negativ: Medieninhalte zu knapp"
 tags:
   - Inhalte
   - Quelle: StudyCheck Bachelor

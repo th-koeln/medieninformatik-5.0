@@ -1,5 +1,5 @@
 ---
-title: Keep EMI als Erstsemestermodul um in ganzheitliche Entwicklung einzutauchen
+title: "Keep: EMI als Erstsemestermodul um in ganzheitliche Entwicklung einzutauchen"
 tags:
   - Reak
   - Quelle: Alumni Bachelor

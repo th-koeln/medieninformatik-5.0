@@ -11,14 +11,24 @@
 
   .insight{
 
+    border-top: solid var(--border-width-l) var(--light);
     margin-left: 0;
+    padding-bottom: var(--s);
+
+    & + .insight{
+      margin-top: 0;
+    }
 
     &::before{
       content: "";
     }
 
     h3{
-      margin-bottom: var(--half);
+      margin-bottom: var(--l);
+    }
+
+    &.is-hidden{
+      display: none;
     }
 
     .tag{
@@ -30,6 +40,21 @@
       border-radius: var(--border-radius-m);
       position: relative;
       z-index: 1;
+      color: var(--darkest);
+      
+      &:hover{
+        cursor: pointer;
+      }
+
+      &.is-active{
+
+        color: var(--lightest);
+
+        &::before{
+          background-color: var(--darkest);
+          opacity: 1;
+        }
+      }
 
       &::before{
         content: "";
@@ -40,7 +65,7 @@
         bottom: 0;
         background-color: var(--color-accent);
         opacity: 0.1;
-        z-index: 0;
+        z-index: -1;
       }
     }
   }

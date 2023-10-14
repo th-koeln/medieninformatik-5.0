@@ -1,5 +1,5 @@
 ---
-title: negativ hoher Aufwand durch parallele Abgaben
+title: "Negativ: hoher Aufwand durch parallele Abgaben"
 tags:
   - Orga
   - Quelle: StudyCheck Bachelor
