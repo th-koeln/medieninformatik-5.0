@@ -23,8 +23,10 @@
       content: "";
     }
 
-    h3{
+    p{
       margin-bottom: var(--l);
+      font-size: var(--l);
+      font-weight: var(--fw-bold);
     }
 
     &.is-hidden{

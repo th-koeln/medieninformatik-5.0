@@ -19,7 +19,7 @@ module.exports = {
         }
         if(typeof tag === "object" && tag["Quelle"]){
           color = tag["Quelle"].length.map(0, 20, 0, 360);
-          return `<span class="tag" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>Quelle: ${tag["Quelle"]}</span>`;
+          return `<span class="tag" style="color: #ffffff; background-color: hsla(${color}, 60%, 50%,100%); border-color: hsla(${color}, 60%, 50%,100%);" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>Quelle: ${tag["Quelle"]}</span>`;
         }
         return `<span class="tag" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>${tag}</span>`;
       }).join("\n");
@@ -34,7 +34,7 @@ module.exports = {
 
       return `
         <li class="insight" style="${borderColor}" data-js-list-interaction-item='${JSON.stringify(dataObject)}'>
-          <h3>${item.data.title}</h3>
+          <p>${item.data.title}</p>
           ${tags}
         </li>
       `;
