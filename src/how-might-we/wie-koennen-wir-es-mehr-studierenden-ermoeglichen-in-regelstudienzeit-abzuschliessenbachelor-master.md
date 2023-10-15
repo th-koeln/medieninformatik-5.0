@@ -3,4 +3,5 @@ title: "Wie können wir es mehr Studierenden ermöglichen in Regelstudienzeit ab
 tags:
   - Bachelor
   - Master
+  - Bewertung: 1
 ---

@@ -13,7 +13,7 @@ module.exports = {
         tagList[itemAsString] = true;
       });
   
-      return Object.keys(tagList).map((item) => {
+      return Object.keys(tagList).sort().map((item) => {
         return JSON.parse(item);
       });
     };

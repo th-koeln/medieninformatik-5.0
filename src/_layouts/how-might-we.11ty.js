@@ -4,6 +4,42 @@ module.exports = {
 		bodyClass: "how-might-we",
 	},
 	render(data) {
+    
+    const getTagList = (tagData) => {
+      const allTags = [...new Set(tagData.flat())].sort();
+      let tagList = [];
+      allTags.map((item) => {
+        const itemAsString = JSON.stringify(item);
+        tagList[itemAsString] = true;
+      });
+  
+      return Object.keys(tagList).sort().reverse().map((item) => {
+        return JSON.parse(item);
+      });
+    };
+
+
+    const getFilterGroup = (filterName) => {
+      const tagData = data.collections.howMightWe.map((item) => {
+        return item.data.tags;
+      });
+
+      const tagList = getTagList(tagData, filterName);
+      const tagListForFilter = tagList.map((item) => {
+        if(typeof item === "object" && item[filterName]){
+          return `
+            <li class="tag" 
+              data-js-list-interaction-item-trigger='${JSON.stringify(item)}'>${item[filterName]}</li>
+          `;
+        }
+      });
+
+      return `
+        <ul class="filter-group">
+          ${tagListForFilter.join("\n")}
+        </ul>
+      `;
+    };
 
     const howMightWeList = data.collections.howMightWe.map((item) => {
 
@@ -38,6 +74,13 @@ module.exports = {
 						<h1>${data.title}</h1>
 					</header>
 				</section>
+
+        <section>
+          <div class="hero-text">
+            <p>Die Anforderungen/ Ideen/ Aussagen aus den <a href="../insights/">Insights</a> wurden verschiedenen Themenfeldern zugeordnet und daraus wurden How-might-we-Fragen abgeleitet. Diese wurden durch das Studiengangs- und das Entwicklungsteam gewichtet. Dabei ergaben sich folgende Gewichte/ Bewertungen:</p>
+          </div>
+          ${getFilterGroup("Bewertung")}
+        </section>
 
         <section>
           <div class="insight-meta" data-js-list-interactions>

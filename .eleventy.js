@@ -218,8 +218,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("howMightWe", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/how-might-we/*.md").sort((a, b) => {
-      if (a.data.title > b.data.title) return 1;
-      else if (a.data.title < b.data.title) return -1;
+      const bewertungA = a.data.tags.find(tag => tag.Bewertung);
+      const bewertungB = b.data.tags.find(tag => tag.Bewertung);
+      if (bewertungA > bewertungB) return 1;
+      else if (bewertungA < bewertungB) return -1;
       else return 0;
     });
   });
