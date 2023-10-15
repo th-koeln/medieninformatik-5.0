@@ -75,8 +75,14 @@ const addListInteractions = () => {
     } else {
       filterTags.push(tagTriggerElementValueAsString);
     }
+  };
 
-    console.log(filterTags);
+  const removeFilterTag = (tagTriggerElement) => {
+    const tagTriggerElementValue = tagTriggerElement.dataset.jsListInteractionItemTrigger;
+    const tagTriggerElementValueAsObject = JSON.parse(tagTriggerElementValue);
+    const tagTriggerElementValueAsString = JSON.stringify(tagTriggerElementValueAsObject);
+
+    filterTags.splice(filterTags.indexOf(tagTriggerElementValueAsString), 1);
   };
 
   const addResultCount = (count) => {
@@ -135,6 +141,14 @@ const addListInteractions = () => {
       event.preventDefault();
       event.stopPropagation();
 
+      const parentWithMode = event.target.closest("[data-js-list-interaction-mode]");
+      if(parentWithMode && parentWithMode.dataset.jsListInteractionMode === "single-choice"){
+        const activeTagTriggerElements = parentWithMode.querySelectorAll("[data-js-list-interaction-item-trigger].is-active");
+        activeTagTriggerElements.forEach((activeTagTriggerElement) => {
+          activeTagTriggerElement.classList.remove("is-active");
+          removeFilterTag(activeTagTriggerElement);
+        });
+      }
       addOrRemoveFilterTag(tagTriggerElement);
       filterItems(tagTriggerElement, event);
     });
