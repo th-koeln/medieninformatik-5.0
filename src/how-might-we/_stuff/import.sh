@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Path to the CSV file
-csv_file="/Users/volker/projects/test/source.csv"
-output_directory="/Users/volker/projects/test/markdown_output/"
+csv_file="/Users/cnoss/git/mi/medieninformatik-5.0/src/how-might-we/_stuff/how-might-we.csv"
+output_directory="/Users/cnoss/git/mi/medieninformatik-5.0/src/how-might-we/"
 
 # Check if the output directory exists, create if not
 if [ ! -d "$output_directory" ]; then
@@ -34,7 +34,7 @@ do
     
     # Create markdown file and add frontmatter
     echo "---" > "$markdown_file"
-    echo "title: \"$column1\"" >> "$markdown_file"
+    echo "title: $column1" >> "$markdown_file"
     echo "tags:" >> "$markdown_file"
     IFS=',' read -ra tags <<< "$column2"
     for tag in "${tags[@]}"; do

@@ -215,6 +215,15 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("howMightWe", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/how-might-we/*.md").sort((a, b) => {
+      if (a.data.title > b.data.title) return 1;
+      else if (a.data.title < b.data.title) return -1;
+      else return 0;
+    });
+  });
+
   eleventyConfig.addCollection("schwerpunkte", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/master-schwerpunkte/*.md").sort((a, b) => {

@@ -1,0 +1,44 @@
+/* Tags
+############################################################################ */
+
+.tag {
+  border: solid var(--border-width-s) var(--color-accent);
+  display: inline-block;
+  margin-right: var(--quat);
+  margin-bottom: var(--half);
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0 var(--quat);
+  border-radius: var(--border-radius-m);
+  position: relative;
+  z-index: 1;
+  color: var(--darkest);
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.is-active {
+
+    color: var(--lightest);
+
+    &::before {
+      background-color: var(--darkest);
+      opacity: 1;
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-accent);
+    opacity: 0.1;
+    z-index: -1;
+    margin-left: 0;
+    width: 100%;
+  }
+}

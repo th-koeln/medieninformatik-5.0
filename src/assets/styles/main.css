@@ -474,6 +474,7 @@ table {
   padding: var(--xs) var(--fluid-space-m);
   margin: 0;
   background-color: var(--darkest);
+  z-index: 100;
 }
 .main-header ul {
   margin: 0;
@@ -613,6 +614,45 @@ figure.image figcaption strong {
   display: block;
 }
 
+/* Tags
+############################################################################ */
+.tag {
+  border: solid var(--border-width-s) var(--color-accent);
+  display: inline-block;
+  margin-right: var(--quat);
+  margin-bottom: var(--half);
+  margin-left: 0;
+  margin-top: 0;
+  padding: 0 var(--quat);
+  border-radius: var(--border-radius-m);
+  position: relative;
+  z-index: 1;
+  color: var(--darkest);
+}
+.tag:hover {
+  cursor: pointer;
+}
+.tag.is-active {
+  color: var(--lightest);
+}
+.tag.is-active::before {
+  background-color: var(--darkest);
+  opacity: 1;
+}
+.tag::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-accent);
+  opacity: 0.1;
+  z-index: -1;
+  margin-left: 0;
+  width: 100%;
+}
+
 /* Content Blocks
 ############################################################################ */
 .content-blocks section .content {
@@ -704,41 +744,61 @@ figure.image figcaption strong {
 
 /* Insights
 ############################################################################ */
+.insights .insight-meta {
+  border-top: solid var(--border-width-l) var(--darker);
+  padding-top: var(--m);
+}
+.insights .filter-group li {
+  display: inline-block;
+}
 .insights .insight-overview {
   display: grid;
   gap: var(--fluid-space-s);
   grid-template-columns: repeat(auto-fill, minmax(var(--max-width-card), 1fr));
 }
 .insights .insight {
-  border-top: solid var(--border-radius-l) var(--dark);
+  border-top: solid var(--border-width-l) var(--light);
   margin-left: 0;
+  padding-bottom: var(--s);
+}
+.insights .insight + .insight {
+  margin-top: 0;
 }
 .insights .insight::before {
   content: "";
 }
-.insights .insight h3 {
-  margin-bottom: var(--half);
+.insights .insight p {
+  margin-bottom: var(--l);
+  font-size: var(--l);
+  font-weight: var(--fw-bold);
 }
-.insights .insight .tag {
-  border: solid var(--border-width-s) var(--color-accent);
-  display: inline-block;
-  margin-right: var(--quat);
-  margin-bottom: var(--half);
-  padding: 0 var(--quat);
-  border-radius: var(--border-radius-m);
-  position: relative;
-  z-index: 1;
+.insights .insight.is-hidden {
+  display: none;
 }
-.insights .insight .tag::before {
+
+/* How might we Fragen
+############################################################################ */
+.how-might-we .question-overview {
+  display: grid;
+  gap: var(--fluid-space-s);
+  grid-template-columns: repeat(auto-fill, minmax(var(--max-width-card), 1fr));
+}
+.how-might-we .question {
+  border-top: solid var(--border-width-l) var(--light);
+  margin-left: 0;
+  padding-bottom: var(--s);
+}
+.how-might-we .question + .insight {
+  margin-top: 0;
+}
+.how-might-we .question::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--color-accent);
-  opacity: 0.1;
-  z-index: 0;
+}
+.how-might-we .question h3 + p {
+  margin-top: calc(var(--m) * -1);
+}
+.how-might-we .question.is-hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
