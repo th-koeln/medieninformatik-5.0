@@ -5,7 +5,7 @@ status: wip
 level: 1
 ---
 
-Wie bauen wir das überhaupt?
+Wie werden Softwaresysteme und -produkte gebaut.
 
 
 ### Technologie
@@ -15,13 +15,13 @@ Wie bauen wir das überhaupt?
 - Können hardware-basierte Technologien zur Interaktion mit Computern in verschiedenen Modalitäten einsetzen (bspw. sprachbasierte Interaktion, Tangible Computing, Physical Computing, Sensoren und Aktoren).
 
 ### Entwurf
-- verstehen formale Strukturen
-- logisches Denken
-- computational thinking
-- Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können
+- Verstehen formale Strukturen.
+- Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.
+- Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.
+- Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können.
 
 ### Implementierung
-- Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse kennen und handwerklich und praktisch nutzen können (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager)
-- (Komplexe) Software im Team entwickeln können. / Mittelgroße Softwaresysteme entwickeln können
-- Kennen Grundkonzepte agiler Entwicklung und agilen Arbeitens wie iterative und inkrementelle Entwicklung, Selbstorganisierte Teams, Transparente Kommunikation, etc. und können diese in Projekten anwenden.
+- Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).
+- Können (komplexe) Softwaresysteme im Team entwickeln.
+- Kennen Grundkonzepte agiler Entwicklung und agilen Arbeitens wie iterative und inkrementelle Entwicklung, selbstorganisierte Teams, Transparente Kommunikation, etc. und können diese in Projekten anwenden.
 - Können digitale Produkte und verschiedene Software-Artefakte zur Evaluation und zur Nutzung auf typischen Distributionswegen (bspw. Clickdummy, Web-Deployment, App Store) für verschiedene Zielgruppen bereit stellen (lauffähig, sicher und gebrauchstauglich).

@@ -7,25 +7,25 @@ level: 1
 
 Leitfrage: Haben wir etwas sinnvolles gebaut und wie gut ist es?
 
-### Analyse und Reflexion
-- Reflektierend
-- analytisch
-- Können Daten aus verschiedenen Quellen sammeln, analysieren und auf ihrer Basis fundierte Schlussfolgerungen ziehen zu können (Data Literacy).
-- Recherche- und Analysefähigkeiten: Informationen recherchieren, relevante Daten und Erkenntnisse sammeln und fundierte Entscheidungen treffen und argumentieren.
 
-### Studien und Experimente
-- Studiendesign Experimente
-- Verschiedene Methoden der Benutzerforschung kennen, einordnen und anwenden können (z.B. Interviews, Umfragen, Beobachtungen, Experience Sampling)
+### Analyse, Studien und Experimente
+- Kennen verschiedene Methoden der Benutzerforschung, können diese einordnen und anwenden (z.B. Interviews, Umfragen, Beobachtungen, Experience Sampling).
 - Können schließende Statistik anwenden um Hypothesen in Experimenten zu überprüfen und statistische Zusammenhänge in empirischen Daten auszuwerten.
-- Situated Interaction
-- Kenntnisse und Erfahrung in der Anwendung verschiedener Forschungsmethoden zur Erhebung und Auswertung von Daten und dem Ableiten von Erkenntnissen sowie  gängiger Tools und Technologien zur Datenerhebung und -analyse.
+- Sind erfahren und geübt Kooperation und Umgang mit Stakeholdern und zukünftigen Nutzer:innen.
+
+### Situated Interaction
+- Haben ein tiefes Verständnis für die Bedürfnisse, Verhaltensweisen und Erwartungen der Benutzer:innen.
+- Können technologische Aspekte, die bei der Implementierung situierter Interaktion eine Rolle spielen, berücksichtigen, dies beinhaltet Kenntnisse über Sensortechnologien, Datenverarbeitung, maschinelles Lernen und die Integration von Software in physische Umgebungen.
+- Haben die Fähigkeit den Kontext von Interaktionen zu verstehen und darauf zu reagieren. 
+- Können Sensoren und anderen Technologien integrieren, um den aktuellen Kontext, wie den physischen Standort oder die Umweltbedingungen, zu erfassen, um damit umgehen zu können.
 
 ### Ethik und Recht
-- Können Interaktion auf Mikro- (Mensch-Produkt), Meso- (Mensch-Unternehmen/Institution) und Makro-Ebene (Mensch-Gesellschaft) wahrnehmen und gestalten.
+- Können Interaktion auf Mikro- (Mensch-Produkt), Meso- (Mensch-Unternehmen/ Institution) und Makro-Ebene (Mensch-Gesellschaft) wahrnehmen und gestalten.
 - Haben ein Verständnis von ethischen Richtlinien, Standards sowie dem Schutz der Privatsphäre zum Wohlergehen der Nutzer:innen und können dieses in eigenes Handeln integrieren.
-- Ethische Standards und Datenschutzbestimmungen kennen und einhalten können.
-- Können die Wirkung etablierter und neu entwickelter Medien auf die Gesellschaft reflektieren und in der eigenen Entwicklung berücksichtigen.
+- Können die Wirkung etablierter und neu entwickelter (interaktiver) Medien auf die Gesellschaft reflektieren und in der eigenen Entwicklung berücksichtigen.
 
 ### Selbstlernen
-- wissenschaftliches Arbeiten und wissenschaftliches Schreiben (gerne schon sehr früh im Bachelor als Grundlage)
+- Können wissenschaftlich Arbeiten und Schreiben.
 - Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.
+
+

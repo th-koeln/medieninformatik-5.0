@@ -9,20 +9,20 @@ Leitfrage: Was geht noch so? *bling* *bling*
 
 
 ### Medien
-- Vertiefende Kenntnisse im Bereich Interaktionsdesign: z.B. multimodaler Interaktion, gestenbasiertem Design, taktilem Feedback, Berührungsschnittstellen oder natürlicher sowie greifbarer Benutzungsschnittstellen.
-- Immersive und interaktive Erfahrungen in virtuellen oder erweiterten Umgebungen entwerfen und entwickeln können.
-- Dreidimensionale Modelle erstellen und diese für Animationen, Visualisierungen oder Augmented/Mixed/Virtual-Reality anwenden können, inkl. Tools und -Software.
-- Fortgeschrittene Fähigkeiten in der Erstellung von 3D-Modellen, Animationen und visuellen Effekten entwickeln
-- Fortgeschrittene Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen: z.B. Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung
-- Fähigkeiten in der Darstellung und Visualisierung großer Datenmengen um komplexe Daten auf verständliche und ansprechende Weise zu präsentieren
-- Serious Games oder gamifizierte Anwendungen konzipieren und entwickeln können, die Lern- oder Trainingsziele unterstützen: z.B. Integration von Spielmechaniken, Puzzles oder Belohnungssystemen in interaktive Medien ...
+- Verfügen über tiefe Kenntnisse im Bereich Interaktionsdesign: z.B. multimodaler Interaktion, gestenbasiertem Design, taktilem Feedback, Berührungsschnittstellen oder natürlicher sowie greifbarer Benutzungsschnittstellen.
+- Können immersive und interaktive Erfahrungen in virtuellen oder erweiterten Umgebungen entwerfen und entwickeln.
+- Können dreidimensionale Modelle erstellen und diese für Animationen, Visualisierungen oder Augmented/ Mixed/ Virtual-Reality anwenden und kennen und beherrschend dazu erforderliche Tools und Software.
+- Haben vertiefte Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen z.B. in der Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung.
+- Haben die Fähigkeit zur Darstellung und Visualisierung großer Datenmengen, um komplexe Daten auf verständliche und ansprechende Weise zu präsentieren.
+- Können Serious Games oder gamifizierte Anwendungen konzipieren und entwickeln, die Lern- oder Trainingsziele unterstützen: z.B. Integration von Spielmechaniken, Puzzles oder Belohnungssystemen in interaktive Medien.
 
-### Exploration?
-- erfinden / explorativ / experiementell
-- das Fördern eines offenen und experimentellen Denkens
-
-### Kreativität?
-- Kreativität und Innovationsfähigkeit; Absolvent:innnen sollten in der Lage sein, neue Ideen zu generieren, verschiedene Ansätze auszuprobieren und innovative Lösungen für Designherausforderungen zu finden.
+### Exploration & Kreativität
+- Können neue und unkonventionelle Ideen generieren, diese (systematisch) variieren und weiter entwickeln.
+- Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.
+- Haben eine offene Fehlerkultur in der Fehler nicht als Endpunkt betrachtet, sondern als Teil des Lernprozesses verstanden und genutzt werden, um Prozesse zu verbessern, zukünftige Fehler zu vermeiden und exploratives Handeln zu fördern.
+- Haben die Fähigkeit zur Selbstreflexion um Handlungen und Entscheidungen evaluieren und iterieren zu können.
+- Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.
 
 ### Prototyping
-- Prototyping zum frühzeitigen Einholen von Feedback beherrschen und iterative Entwicklungsmethoden oder agile Entwicklungsmethoden anwenden können.
+- Beherrschen verschiedene Formen von Prototyping zum frühzeitigen Einholen von Feedback und zum Erklären, Erkunden und erlebbar machen von Ideen und Ansätzen.
+- Können angemessene Prototypen für die jeweilige Fragestellung und Entwicklungsphase entwickeln und effizient einsetzen.
