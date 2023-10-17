@@ -10,8 +10,8 @@ Wofür bauen wir etwas? Was überhaupt, wie sieht es aus, wie fühlt es sich an 
 
 ### Anforderungen und Bedarfe
 - Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.
-- Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.
-- Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.
+- Wissen über Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden und diese anwenden können.
+- Analyse von Nutzungs- und Unternehmenskontexte und deren Auswirkungen auf die Medienwahl und -ausgestaltung erörtern können.
 
 ### Konzepte
 - Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.
