@@ -1,6 +1,6 @@
 ---
 title: Communityprojekt
-modulverantwortlich: 
+modulverantwortlich: cn
 modulniveau: bachelor
 kuerzel: CP
 untertitel:
