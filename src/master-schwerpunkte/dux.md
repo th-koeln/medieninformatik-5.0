@@ -1,6 +1,6 @@
 ---
 title: "Designing for User Experiences"
-kuerzel: DUV
+kuerzel: DUX
 layout: page.11ty.js
 level: 1
 ---

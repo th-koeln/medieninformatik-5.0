@@ -11,9 +11,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
 published: true
 layout: modulbeschreibung.11ty.js
-typ: spm
-parent: SPM2
-schwerpunkt: vc
+typ: wpm
+parent: SWPM, WPM
+schwerpunkt: EXA
 infourl: https://ilu.th-koeln.de/ilias.php?ref_id=87680&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=xp&baseClass=ilRepositoryGUI
 studienleistungen:
   Einzelleistung:

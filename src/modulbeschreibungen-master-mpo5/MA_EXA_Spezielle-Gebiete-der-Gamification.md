@@ -10,10 +10,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen z
 empfohleneVoraussetzungen: Basismodul Mensch-Computer-Interaktion
 published: true
 layout: modulbeschreibung.11ty.js
-
 typ: wpm
-parent: WPM
-schwerpunkt: 
+parent: SWPM, WPM
+schwerpunkt: EXA
 studienleistungen:
   Einzelleistung:
     art: Projektpräsentation (30%), Projektdokumentation (70%)

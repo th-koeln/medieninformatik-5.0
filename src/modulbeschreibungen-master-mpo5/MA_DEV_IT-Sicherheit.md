@@ -11,10 +11,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
-
-typ: spm
-parent: SPM1
-schwerpunkt: wtw, sc, mpd
+typ: wpm
+parent: SWPM, WPM
+schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (25%), schriftliche Ausarbeitung (25%) und mündliche Prüfung (50%) (im SoSe 2020 entfällt die mündliche Prüfung, welche auf Anfrage zur Notenverbesserung optional genutzt werden kann)

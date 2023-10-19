@@ -10,9 +10,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Audiovisuelles Medienprojekt (Bachelor)
 published: true
 layout: modulbeschreibung.11ty.js
-typ: spm
-parent: SPM1
-schwerpunkt: vc
+typ: wpm
+parent: SWPM, WPM
+schwerpunkt: EXA
 infourl: 
 studienleistungen:
   Einzelleistung:

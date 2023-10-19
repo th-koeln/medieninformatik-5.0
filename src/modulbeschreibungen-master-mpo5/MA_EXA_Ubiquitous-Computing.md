@@ -11,9 +11,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
-
 typ: wpm
-parent: WPM
+parent: SWPM, WPM
+schwerpunkt: EXA
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)

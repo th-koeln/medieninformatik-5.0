@@ -12,9 +12,9 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 layout: modulbeschreibung.11ty.js
-typ: spm
-parent: SPM2
-schwerpunkt: sc
+typ: wpm
+parent: SWPM, WPM
+schwerpunkt: DUX
 studienleistungen:
   Einzelleistung:
     art: schriftliche Ausarbeitung (100%)

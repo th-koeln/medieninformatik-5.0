@@ -12,8 +12,8 @@ empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen 
 published: false
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: WPM
-schwerpunkt: vc
+parent: SWPM, WPM
+schwerpunkt: EXA
 infourl: 
 studienleistungen:
   Einzelleistung:

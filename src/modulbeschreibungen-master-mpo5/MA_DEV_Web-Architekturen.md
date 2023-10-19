@@ -11,10 +11,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1 (Bachelor), Alogrithmen und Programmierung 2 (Bachelor), Paradigmen der Programmierung (Bachelor), Kommunikationstechnik und Netze (Bachelor); Datenbanken (Bachelor); Grundlagen des Webs (Bachelor); Frameworks, Daten und Dienste im Web (Bachelor); Praktische IT-Sicherheit (Bachelor)
 published: true
 layout: modulbeschreibung.11ty.js
-
-typ: spm
-parent: SPM2
-schwerpunkt: wtw
+typ: wpm
+parent: SWPM, WPM
+schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
     art: Fachgespräch (50%), Projektarbeit (50%)

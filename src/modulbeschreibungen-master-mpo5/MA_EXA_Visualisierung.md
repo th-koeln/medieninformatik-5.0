@@ -11,9 +11,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Web Architekturen (Bachelor) bzw. Kenntnisse in HTML
 published: true
 layout: modulbeschreibung.11ty.js
-typ: spm
-parent: SPM3
-schwerpunkt: vc
+typ: wpm
+parent: SWPM, WPM
+schwerpunkt: EXA
 infourl: 
 studienleistungen:
   Einzelleistung:

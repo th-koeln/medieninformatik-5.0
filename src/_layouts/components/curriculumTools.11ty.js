@@ -1,3 +1,14 @@
+
+const getChildModulList = (data) => {
+  return  data.collections.allModuls.filter((modul) => {
+    if(modul.data.parent === null || modul.data.parent === undefined) return false;
+    const parents = modul.data.parent.replace(/ /g, '').split(',');
+    return parents.find((parent) => parent === data.kuerzel);
+  });
+
+};
+
+
 /* Liste der Module eines Studiengangs im Curriculum
 ############################################################################ */
 
@@ -194,7 +205,9 @@ exports.getAllModuls = (obj) => {
 
 exports.getChildModulList = (data, headlineChilds) => {
 
-  const childModuls = data.collections.allModuls.filter((modul) => modul.data.parent === data.kuerzel);
+  if(data.kuerzel === 'SWPM') return '';
+
+  const childModuls = getChildModulList(data);
   const {schwerpunkte} = data.collections;
 
   const resolveSchwerpunkt = (id) => {
@@ -204,7 +217,7 @@ exports.getChildModulList = (data, headlineChilds) => {
     if(!schwerpunkt) return '';
 
     const schwerpunktUrl = schwerpunkt.url;
-    return `, <span class="tag is-schwerpunkt">Schwerpunkt <a href="${schwerpunktUrl}">«${schwerpunkt.data.title}»</a></span>`;
+    return `, <span class="is-small is-schwerpunkt">Schwerpunkt <a href="${schwerpunktUrl}">«${schwerpunkt.data.title}»</a></span>`;
   };
 
   const childModulsList = childModuls.map((modul) => {
@@ -220,6 +233,46 @@ exports.getChildModulList = (data, headlineChilds) => {
       <h2>${headlineChilds}</h2>
       <ul>
         ${childModulsList.join("\n")}
+      </ul>
+    </section>
+  `;
+};
+
+/* Liste aller Kind Module eines Moduls nach Schwerpunkt
+############################################################################ */
+
+exports.getChildModulListBySchwerpunkt = (data, headlineChilds) => {
+
+  if(data.kuerzel === 'WPM') return '';
+
+  const childModuls = getChildModulList(data);
+  const {schwerpunkte} = data.collections;
+
+  const schwerpunkteList = schwerpunkte.map((schwerpunkt) => {
+
+    const childModulsList = childModuls.filter((modul) => modul.data.schwerpunkt === schwerpunkt.data.kuerzel).map((modul) => {
+      return `
+        <li>
+          <a href="${modul.url}">${modul.data.title}</a>
+        </li>
+      `;
+    });
+
+    return childModulsList.length === 0 ? null :`
+        <h3>Schwerpunkt «${schwerpunkt.data.title}»</h3>
+        <ul>
+          ${childModulsList.join("\n")}
+        </ul>
+    `;
+  });
+
+  const schwerpunkteListFiltered = schwerpunkteList.filter((schwerpunkt) => schwerpunkt !== null);
+
+  return schwerpunkteListFiltered.length === 0 ? '' : `
+    <section class="module-childs">
+      <h2>${headlineChilds}</h2>
+      <ul>
+        ${schwerpunkteListFiltered.join("\n")}
       </ul>
     </section>
   `;

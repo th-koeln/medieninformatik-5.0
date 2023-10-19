@@ -297,6 +297,11 @@ ul + h4 {
   margin-top: var(--fluid-space-m);
 }
 
+hr {
+  margin-top: var(--fluid-space-l);
+  margin-bottom: var(--fluid-space-l);
+}
+
 /* Lists
 ############################################################################ */
 ul {
