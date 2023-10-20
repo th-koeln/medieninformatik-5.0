@@ -32,6 +32,16 @@ Steffen Scheerer, Abteilungsleiter IT Projekt-Services
 28. Februar 2023  
 von Christian Noss
 
+[Rewe Digital](https://www.rewe-digital.com/de)
+Bettina Meyer, User Experience Design
+20. April 2023
+von Raphaela Groten
+
+[Obi next](https://jobs.obi.de)
+Dr. Nils O. Ommen, Vice President Digital Solution Offer
+20. April 2023
+von Raphaela Groten
+
 ## Forschungseinrichtungen
 [Deutsches Zentrum für Luft- und Raumfahrt](https://www.dlr.de/de)  
 Dr. Andreas Schreiber, Dr. Sabine Theis  
