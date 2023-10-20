@@ -1,5 +1,5 @@
 ---
-title: Schwerpunkt Guided Project
+title: Guided Project im Schwerpunkt
 modulverantwortlich: all
 kuerzel: SGP
 studiensemester: 2
