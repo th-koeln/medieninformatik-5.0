@@ -228,7 +228,7 @@ exports.getChildModulList = (data, headlineChilds) => {
     `;
   });
   
-  return `
+  return childModulsList.length === 0 ? '' : `
     <section class="module-childs">
       <h2>${headlineChilds}</h2>
       <ul>

@@ -448,6 +448,12 @@ blockquote {
   cursor: pointer;
 }
 
+/* Small Text
+############################################################################ */
+.is-small {
+  font-size: small;
+}
+
 body {
   display: flex;
   flex-direction: column;

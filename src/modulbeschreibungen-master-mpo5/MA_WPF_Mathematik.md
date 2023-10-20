@@ -13,7 +13,9 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 layout: modulbeschreibung.11ty.js
-typ: pm
+typ: wpm
+parent: WPM
+schwerpunkt:
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
