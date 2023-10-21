@@ -23,6 +23,8 @@ studienleistungen:
     datum: ws-2
 meta:
   status: rfreview    
+  authors: Florian
+  reviewers: Florian
 ---
 
 ## Sprache

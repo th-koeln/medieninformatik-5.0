@@ -1,6 +1,6 @@
 ---
 title: Visualisierung
-modulverantwortlich: chh
+modulverantwortlich: fn
 kuerzel: VI
 studiensemester: 2
 sprache: wahlweise deutsch oder englisch
@@ -22,6 +22,8 @@ studienleistungen:
     datum: ende
 meta:
   status: rfreview     
+  authors: Florian
+  reviewers: Florian
 ---
 
 ## Kurzbeschreibung

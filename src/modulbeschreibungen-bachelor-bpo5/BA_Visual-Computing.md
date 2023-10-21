@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: hk
     datum: ende
 meta:
-  status: tbd    
+  status: tbd
+  authors: Florian
+  reviewers: Florian
 ---
 
 ## Sprache
