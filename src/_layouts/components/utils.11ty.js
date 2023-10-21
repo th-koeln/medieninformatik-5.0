@@ -1,7 +1,7 @@
 /* Metadaten für Content anzeigen
 ############################################################################ */
 
-exports.getContentMeta = (meta) => {
+exports.getContentMeta = (eleventy, meta) => {
   if(!meta) return '';
   if(meta.status === 'ok') return '';
 
@@ -24,7 +24,7 @@ exports.getContentMeta = (meta) => {
   };
 
   const statusIcon = meta.status === 'fertig' || meta.status === 'wip'  || meta.status === 'review' 
-    ? '' : `<img class="animated-icon" src="/assets/images/tapping-foot-om-nelle.gif">`;
+    ? '' : `<img class="animated-icon" src="${eleventy.url('/assets/images/tapping-foot-om-nelle.gif')}">`;
   const status = meta.status ? `<li class="content-meta__status"><strong>Status:</strong> ${statusMap[meta.status]}${statusIcon}</li>` : '';
   const authors = meta.authors ? `<li class="content-meta__authors"><strong>AutorIn(en):</strong> ${meta.authors}</li>` : '';
   const reviewers = meta.reviewers ? `<li class="content-meta__reviewers"><strong>ReviewerIn(en):</strong> ${meta.reviewers}</li>` : '';

@@ -49,7 +49,7 @@ module.exports = {
 
 		const editUrl = `${data.settings.repoEditUrl}${data.page.inputPath.replace('./src/', 'src/')}`;
 		const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
-		const meta = utils.getContentMeta(data.meta);
+		const meta = utils.getContentMeta(this, data.meta);
 
 		return `
 			<main>

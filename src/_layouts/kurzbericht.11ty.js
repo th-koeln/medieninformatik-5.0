@@ -9,7 +9,7 @@ module.exports = {
     const utils = require('./components/utils.11ty.js');
 
     const kurzberichtList = data.collections.itemsKurzbericht.map((item) => {
-      const meta = utils.getContentMeta(item.data.meta);
+      const meta = utils.getContentMeta(this, item.data.meta);
       const status = item.data.meta && item.data.meta.status ? `is-${item.data.meta.status}` : '';
 
       return `

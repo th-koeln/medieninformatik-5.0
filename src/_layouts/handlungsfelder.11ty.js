@@ -36,7 +36,7 @@ module.exports = {
     const handlungsfelderList = data.collections.handlungsfelder.map((item) => {
       const status = item.data.meta && item.data.meta.status ? `is-${item.data.meta.status}` : '';
       const competencies = getCompetencies(item.data.competencies, item.page.fileSlug)
-      const meta = utils.getContentMeta(item.data.meta);
+      const meta = utils.getContentMeta(this, item.data.meta);
       
       return `
         <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
