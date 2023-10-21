@@ -22,7 +22,9 @@ studienleistungen:
     zweitpruefer: aschmitter
     datum: ws-1
 meta:
-  status: rfreview    
+  status: rfreview  
+  authors: Wolfgang
+  reviewers: Wolfgang  
 ---
 
 ## Sprache
