@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: bb
     datum: ws-2
 meta:
-  status: rfreview    
+  status: rfreview  
+  authors: Wanja
+  reviewers: Wanja
 ---
 
 ## Sprache
