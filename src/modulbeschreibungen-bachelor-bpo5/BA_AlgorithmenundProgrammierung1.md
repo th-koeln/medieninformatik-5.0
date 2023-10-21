@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: ck
     datum: ws-1
 meta:
-  status: rfreview    
+  status: rfreview
+  authors: Frank
+  reviewers: Frank
 ---
 
 ## Sprache
