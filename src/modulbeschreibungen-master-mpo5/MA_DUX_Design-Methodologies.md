@@ -21,7 +21,9 @@ studienleistungen:
     zweitpruefer: gh
     datum: ende
 meta:
-  status: rfreview     
+  status: rfreview  
+  authors: Christian Kohls
+  reviewers: Christian Kohls  
 ---
 
 ## Lehrform/SWS
