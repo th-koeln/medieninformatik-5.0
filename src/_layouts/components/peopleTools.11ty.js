@@ -31,7 +31,9 @@ exports.getPeopleList = (obj) => {
     return modulverantwortliche.includes(person);
   };
 
-  const peopleList = Object.keys(data.people).map((person) => {
+  const peopleList = Object.keys(data.people).filter((person) => person !== 'eingesetzterPruefer').sort().map((person) => {
+
+
     const personModulsSummerTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.studiensemester % 2 === 0);
     const personModulsWinterTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.studiensemester % 2 === 1);
     
