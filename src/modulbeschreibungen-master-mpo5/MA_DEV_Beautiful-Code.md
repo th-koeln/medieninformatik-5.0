@@ -20,6 +20,8 @@ studienleistungen:
     art: Schriftliche Ausarbeitung (100%)
     erstpruefer: ck
     zweitpruefer: 
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

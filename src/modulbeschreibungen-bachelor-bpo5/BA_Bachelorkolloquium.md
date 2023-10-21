@@ -20,6 +20,8 @@ studienleistungen:
     erstpruefer: eingesetzterPruefer
     zweitpruefer: mas
     datum: antrag
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: il
     zweitpruefer: rgroten
     datum: 03.07.2023
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: hk, nkuhn, cn, mbl
     zweitpruefer: uwm, vos, maa, simonschulte
     datum: ende
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

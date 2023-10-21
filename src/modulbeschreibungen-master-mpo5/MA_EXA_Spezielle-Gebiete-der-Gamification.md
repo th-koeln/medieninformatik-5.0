@@ -19,6 +19,8 @@ studienleistungen:
     erstpruefer: uwm
     zweitpruefer: ck 
     datum: ende
+meta:
+  status: rfreview     
 ---
 
 ## Kurzbeschreibung

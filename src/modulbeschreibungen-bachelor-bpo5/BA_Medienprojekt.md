@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: hk
     zweitpruefer: cn
     datum: ende
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

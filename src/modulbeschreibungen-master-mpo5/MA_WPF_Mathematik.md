@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: wk, dz
     zweitpruefer: wk, dz
     datum: vereinbarung
+meta:
+  status: rfreview     
 ---
 
 ## Kurzbeschreibung

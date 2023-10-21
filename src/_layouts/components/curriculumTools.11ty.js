@@ -43,9 +43,10 @@ exports.getCurriculumList = (obj) => {
 
       cps += parseInt(modul.data.kreditpunkte);
       cpsPerTerm += parseInt(modul.data.kreditpunkte);
+      const status = modul.data.meta && modul.data.meta.status ? `is-${modul.data.meta.status}` : '';
 
       return `
-        <tr>
+        <tr class="${status}">
           <td>
             <h3 class="module-title"><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></h3>
             ${examInfo}
@@ -112,11 +113,12 @@ exports.getCurriculumTable = (obj) => {
     });
     const termModulsList = termModulsSortedByTerm.map((modul) => { 
 
+      const status = modul.data.meta && modul.data.meta.status ? `is-${modul.data.meta.status}` : '';
       const pvl = modul.data.pvl === true ? "TN" : "-";
       cps += parseInt(modul.data.kreditpunkte);
 
       return `
-        <tr>
+        <tr class="${status}">
           <th><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></th>
           <td>${pvl}</td>
           <td>${modul.data.kreditpunkte}</td>
@@ -186,8 +188,11 @@ exports.getAllModuls = (obj) => {
   const { eleventy } = obj;
 
   const modulList = moduls.map((modul) => {
+
+    const status = modul.data.meta && modul.data.meta.status ? `<span class="is-${modul.data.meta.status}"></span>` : '';
+
     return `
-      <li>
+      <li>${status}
         <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
       </li>
     `;

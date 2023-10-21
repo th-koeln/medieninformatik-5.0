@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: rgroten
     zweitpruefer: gh
     datum: vereinbarung
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

@@ -18,6 +18,8 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: 
     datum: 19.07.23
+meta:
+  status: tbd      
 ---
 
 ## Sprache
@@ -41,17 +43,3 @@ studienleistungen:
 ## Verwendung des Moduls in weiteren Studiengängen
 
 ## Besonderheiten
-
----
-
-## Lehrform/SWS
-
-## Arbeitsaufwand
-
-## Angestrebte Lernergebnisse
-
-## Inhalt
-
-## Medienformen
-
-## Literatur

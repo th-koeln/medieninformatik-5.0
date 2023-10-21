@@ -21,6 +21,32 @@ studienleistungen:
     erstpruefer: cn
     zweitpruefer: sb
     datum: 26.09.2023
+meta:
+  status: rfreview 
+---
+
+## Sprache
+
+## Häufigkeit des Angebots
+
+## Dozierende
+
+## Learning Outcome
+
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
 ---
 
 ## Kurzbeschreibung

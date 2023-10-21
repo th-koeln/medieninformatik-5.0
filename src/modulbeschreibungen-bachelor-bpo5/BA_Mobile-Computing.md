@@ -27,6 +27,8 @@ studienleistungen:
     erstpruefer: mboehmer
     zweitpruefer: dpetersen
     datum: ende
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

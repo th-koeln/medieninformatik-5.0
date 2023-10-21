@@ -8,6 +8,7 @@ module.exports = {
 		const moduleTools = require('./components/moduleTools.11ty');
 		const peopleTools = require('./components/peopleTools.11ty');
 		const curriculumTools = require('./components/curriculumTools.11ty');
+		const utils = require('./components/utils.11ty.js');
 
 		const createRow = (label, value) => {
 			if(!value) return "";
@@ -47,13 +48,16 @@ module.exports = {
 		`;
 
 		const editUrl = `${data.settings.repoEditUrl}${data.page.inputPath.replace('./src/', 'src/')}`;
+		const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
+		const meta = utils.getContentMeta(data.meta);
 
 		return `
 			<main>
-				<section class="module-core-data">
+				<section class="${status} module-core-data">
 					<header>
 						<h1>${data.title} <a href="${editUrl}"><span class="icon icon--inline">edit</span></a></h1>
 					</header>
+					${meta}
 					${coreData}
 				</section>
 

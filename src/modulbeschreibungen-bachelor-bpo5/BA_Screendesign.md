@@ -26,6 +26,8 @@ studienleistungen:
     erstpruefer: cn
     zweitpruefer: vos
     datum: ende
+meta:
+  status: rfreview
 ---
 
 ## Sprache

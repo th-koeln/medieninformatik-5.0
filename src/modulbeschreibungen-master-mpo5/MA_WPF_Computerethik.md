@@ -20,6 +20,8 @@ studienleistungen:
     erstpruefer: mbluemm
     zweitpruefer: ck
     datum: 19.07.23
+meta:
+  status: rfreview     
 ---
 
 ## Lehrform/SWS

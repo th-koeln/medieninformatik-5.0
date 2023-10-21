@@ -20,6 +20,8 @@ studienleistungen:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
     erstpruefer: ck
     zweitpruefer: gh
+meta:
+  status: rfreview     
 ---
 
 ## Kurzbeschreibung

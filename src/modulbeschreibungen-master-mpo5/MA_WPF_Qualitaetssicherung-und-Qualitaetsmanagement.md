@@ -24,6 +24,8 @@ studienleistungen:
     erstpruefer: mw
     zweitpruefer: alm
     datum:
+meta:
+  status: rfreview     
 ---
 
 ## Kurzbeschreibung

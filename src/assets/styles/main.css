@@ -158,6 +158,7 @@ select {
   --max-width-content: calc(var(--m) * 40);
   --max-width-table: calc(var(--m) * 80);
   --max-width-card: calc(var(--m) * 20);
+  --max-width-navigation: calc(var(--m) * 20);
   --mi-lila: #9313ce;
   --mi-gruen: #00ad2f;
   --mi-orange: #F58700;
@@ -329,9 +330,10 @@ ul.is-tight li + li {
 /* Blockquote
 ############################################################################ */
 blockquote {
-  padding-left: var(--fluid-space-s);
-  border-left: solid var(--border-width-l) var(--light);
+  padding: var(--s) var(--s) var(--quat) var(--s);
+  border-left: solid var(--border-width-m) var(--mi-lila);
   margin-bottom: var(--fluid-space-m);
+  background-color: var(--darken);
 }
 
 /* Button
@@ -439,6 +441,36 @@ blockquote {
   transform: rotate(90deg);
 }
 
+.is-tbd {
+  background-color: rgba(255, 153, 153, 0.5);
+  border-left: solid var(--border-width-l) red;
+  padding-left: var(--fluid-space-s);
+}
+
+.is-wip {
+  background-color: rgba(255, 153, 153, 0.3);
+  border-left: solid var(--border-width-l) #ff9999;
+  padding-left: var(--fluid-space-s);
+}
+
+.is-rfreview {
+  background-color: rgba(255, 255, 153, 0.5);
+  border-left: solid var(--border-width-l) yellow;
+  padding-left: var(--fluid-space-s);
+}
+
+.is-review {
+  background-color: rgba(255, 255, 153, 0.3);
+  border-left: solid var(--border-width-l) #cccc00;
+  padding-left: var(--fluid-space-s);
+}
+
+.is-refactor {
+  background-color: rgba(255, 153, 221, 0.3);
+  border-left: solid var(--border-width-l) #cc0088;
+  padding-left: var(--fluid-space-s);
+}
+
 /* Has Interaction
 ############################################################################ */
 .has-interaction {
@@ -477,6 +509,23 @@ table {
   max-width: var(--max-width-table);
 }
 
+/* Aside
+############################################################################ */
+@media screen and (min-width: 180ch) {
+  main:has(aside) {
+    display: grid;
+    gap: var(--fluid-space-m);
+    grid-template-columns: var(--max-width-navigation) 1fr;
+  }
+  main:has(aside) aside {
+    padding-right: var(--xl);
+    font-size: var(--s);
+  }
+  main:has(aside) aside nav {
+    position: sticky;
+    top: calc(var(--fluid-space-l) * 1.5);
+  }
+}
 /* Main Header
 ###########################################################################  */
 .main-header {
@@ -672,6 +721,36 @@ figure.image figcaption strong {
   max-width: var(--max-width-content);
 }
 
+/* Content Meta
+############################################################################ */
+ul.content-meta {
+  margin-bottom: var(--m);
+  border-bottom: dotted var(--border-width-m) var(--darken);
+  padding-bottom: var(--m);
+  position: relative;
+}
+ul.content-meta > li {
+  margin-left: 0;
+  padding-right: var(--fluid-space-l);
+}
+ul.content-meta > li:before {
+  content: "";
+}
+ul.content-meta .content-meta__comments li {
+  padding-left: 1ch;
+}
+ul.content-meta .animated-icon {
+  max-width: var(--fluid-space-l);
+  max-height: var(--fluid-space-l);
+  position: absolute;
+  right: 0;
+  top: calc(var(--m) * -1);
+  transition: all var(--tr-slow);
+}
+ul.content-meta .animated-icon:hover {
+  transform: scale(10);
+}
+
 /* Content Blocks
 ############################################################################ */
 .content-blocks section .content {
@@ -681,6 +760,15 @@ figure.image figcaption strong {
 }
 .content-blocks section .content > * {
   max-width: var(--max-width-content);
+}
+@media screen and (min-width: 160ch) {
+  .content-blocks section .content blockquote {
+    position: absolute;
+    margin-left: calc(var(--max-width-content) + var(--fluid-space-s));
+    max-width: calc(var(--max-width-content) / 2);
+    font-size: var(--s);
+    line-height: var(--lh-normal);
+  }
 }
 
 /* Article
@@ -819,5 +907,8 @@ figure.image figcaption strong {
 .how-might-we .question.is-hidden {
   display: none;
 }
+
+/* Page
+############################################################################ */
 
 /*# sourceMappingURL=main.css.map */

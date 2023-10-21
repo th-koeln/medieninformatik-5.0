@@ -11,6 +11,11 @@
   }
 
   .module-core-data{
+    
+    &[class*=is-]{
+      padding-top: var(--fluid-space-s);
+      margin-bottom: var(--fluid-space-m);
+    }
 
     dl{
   
@@ -37,6 +42,13 @@
     }
   }
 
+  ul.content-meta{
+    border-bottom: none;
+
+    li{
+      padding-left: var(--xs);
+    }
+  }
 }
 
 

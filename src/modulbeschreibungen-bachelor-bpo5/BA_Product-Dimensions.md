@@ -21,6 +21,11 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: cn
     datum: ende
+meta:
+  status: rfreview
+  comments:
+    - "cn: Das ist jetzt ins zweite Semester gerutscht. Ich hoffe das passt trotzdem. Sonst bitte melden."
+    - "cn: Der Modulname ist WIP. Falls der passt: gut … falls nicht: gerne etwas anderes vorschlagen."
 ---
 
 ## Sprache

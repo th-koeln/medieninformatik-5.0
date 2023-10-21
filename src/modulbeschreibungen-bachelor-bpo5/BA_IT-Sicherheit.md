@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: sk
     zweitpruefer: hls
     datum: vereinbarung
+meta:
+  status: tbd    
 ---
 
 ## Sprache

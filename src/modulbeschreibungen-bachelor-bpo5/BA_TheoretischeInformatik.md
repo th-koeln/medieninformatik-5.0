@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: fn
     zweitpruefer: il
     datum: ws-2
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

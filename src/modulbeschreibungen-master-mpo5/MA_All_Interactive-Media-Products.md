@@ -18,6 +18,8 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: 
     datum: 19.07.23
+meta:
+  status: tbd    
 ---
 
 ## Sprache

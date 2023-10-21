@@ -1,6 +1,6 @@
 ---
 title: Advanced Seminar (Projekt)
-modulverantwortlich: 
+modulverantwortlich: mbluemm
 modulniveau: bachelor
 kuerzel: ASP
 untertitel:
@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: cn
     datum: ende
+meta:
+  status: tbd    
 ---
 
 ## Sprache

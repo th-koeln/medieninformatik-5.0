@@ -19,6 +19,8 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: 
     datum:
+meta:
+  status: tbd    
 ---
 
 ## Sprache
@@ -44,9 +46,3 @@ studienleistungen:
 ## Besonderheiten
 
 ---
-
-## Kurzbeschreibung
-
-## Arbeitsaufwand
-360 Stunden
-

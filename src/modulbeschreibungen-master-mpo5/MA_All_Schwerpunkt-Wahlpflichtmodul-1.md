@@ -19,6 +19,8 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: 
     datum:
+meta:
+  status: tbd    
 ---
 
 ## Sprache
@@ -43,11 +45,4 @@ studienleistungen:
 
 ## Besonderheiten
 
----
-
-## Kurzbeschreibung
-Frei aus dem Katalog der Wahlmodule für die jeweiligen Schwerpunkte.
-
-## Arbeitsaufwand
-180 Stunden
 

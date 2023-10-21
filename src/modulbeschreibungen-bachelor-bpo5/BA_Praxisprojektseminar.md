@@ -23,6 +23,8 @@ studienleistungen:
     erstpruefer: cn
     zweitpruefer: all
     datum: vereinbarung
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

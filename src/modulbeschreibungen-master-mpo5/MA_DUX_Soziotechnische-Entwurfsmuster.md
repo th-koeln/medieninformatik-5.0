@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: ck
     zweitpruefer: 
     datum: vereinbarung
+meta:
+  status: rfreview     
 ---
 
 ## Lehrform/SWS

@@ -20,6 +20,8 @@ studienleistungen:
     erstpruefer: hk
     zweitpruefer: simonporten
     datum: vereinbarung
+meta:
+  status: rfreview     
 ---
 
 ## Kurzbeschreibung

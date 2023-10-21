@@ -25,7 +25,9 @@ studienleistungen:
     art: Projektarbeit
     erstpruefer: viet
     zweitpruefer: maa, nkuhn, mfaske
-    datum: ende    
+    datum: ende
+meta:
+  status: tbd    
 ---
 
 ## Sprache

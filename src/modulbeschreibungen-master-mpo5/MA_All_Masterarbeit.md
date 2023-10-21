@@ -18,6 +18,8 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: 
     datum: antrag
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

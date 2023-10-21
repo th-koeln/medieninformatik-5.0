@@ -20,6 +20,8 @@ studienleistungen:
     art: abhängig vom jeweiligen WPF
     erstpruefer: all
     zweitpruefer: all
+meta:
+  status: tbd    
 ---
 
 ## Sprache

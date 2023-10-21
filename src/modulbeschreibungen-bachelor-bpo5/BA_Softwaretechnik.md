@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: mw
     zweitpruefer: sb
     datum: ss-2
+meta:
+  status: tbd    
 ---
 
 ## Sprache

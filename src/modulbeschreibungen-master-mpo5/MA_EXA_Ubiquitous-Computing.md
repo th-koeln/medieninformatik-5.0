@@ -20,6 +20,8 @@ studienleistungen:
     erstpruefer: mboehmer
     zweitpruefer: 
     datum:
+meta:
+  status: rfreview     
 ---
 
 ## Kurzbeschreibung

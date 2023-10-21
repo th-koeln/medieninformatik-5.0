@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: ck, mbluemm, uwm
     zweitpruefer: ck, mbluemm, uwm, simonschulte
     datum: ende
+meta:
+  status: tbd    
 ---
 
 ## Sprache

@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: fn
     zweitpruefer: hk
     datum: ende
+meta:
+  status: tbd    
 ---
 
 ## Sprache

@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: gh
     zweitpruefer: nkuhn
     datum: vereinbarung
+meta:
+  status: rfreview     
 ---
 
 ## Lehrform/SWS

@@ -20,6 +20,8 @@ studienleistungen:
     erstpruefer: sk
     zweitpruefer: 
     datum: vereinbarung
+meta:
+  status: rfreview     
 ---
 
 ## Sprache

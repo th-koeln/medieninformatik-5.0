@@ -20,6 +20,8 @@ studienleistungen:
     erstpruefer: viet
     zweitpruefer: cn
     datum: vereinbarung
+meta:
+  status: rfreview     
 ---
 
 ## Sprache

@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: wk
     zweitpruefer: aschmitter
     datum: ss-2
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

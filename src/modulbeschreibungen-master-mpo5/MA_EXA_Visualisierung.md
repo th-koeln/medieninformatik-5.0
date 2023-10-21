@@ -21,6 +21,8 @@ studienleistungen:
     erstpruefer: chh
     zweitpruefer: gh
     datum: ende
+meta:
+  status: rfreview     
 ---
 
 ## Kurzbeschreibung

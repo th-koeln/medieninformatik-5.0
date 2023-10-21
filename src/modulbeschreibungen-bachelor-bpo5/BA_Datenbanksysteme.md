@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: jschaible
     zweitpruefer: bb
     datum: ws-2
+meta:
+  status: rfreview    
 ---
 
 ## Sprache

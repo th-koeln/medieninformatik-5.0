@@ -22,6 +22,8 @@ studienleistungen:
     erstpruefer: fv
     zweitpruefer: ck
     datum: ws-1
+meta:
+  status: rfreview    
 ---
 
 ## Sprache
