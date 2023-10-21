@@ -1,6 +1,6 @@
 ---
 title: Product Dimensions
-modulverantwortlich: 
+modulverantwortlich: mlinden
 modulniveau: bachelor
 kuerzel: ASP
 untertitel:
