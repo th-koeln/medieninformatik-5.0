@@ -24,6 +24,8 @@ studienleistungen:
     datum: 
 meta:
   status: tbd    
+  authors: Christian Kohls
+  reviewers: Christian Kohls
 ---
 
 ## Sprache
