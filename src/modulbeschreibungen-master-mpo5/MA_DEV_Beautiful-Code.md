@@ -21,6 +21,8 @@ studienleistungen:
     zweitpruefer: 
 meta:
   status: rfreview    
+  authors: Christian Kohls
+  reviewers: Christian Kohls
 ---
 
 ## Sprache
