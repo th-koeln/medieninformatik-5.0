@@ -23,7 +23,9 @@ exports.getContentMeta = (meta) => {
       : `<strong>Kommentare</strong> <ul>${commentsList.join("\n")}</ul>`;
   };
 
-  const status = meta.status ? `<li class="content-meta__status"><strong>Status:</strong> ${statusMap[meta.status]}</li>` : '';
+  const statusIcon = meta.status === 'fertig' || meta.status === 'wip'  || meta.status === 'review' 
+    ? '' : `<img class="animated-icon" src="/assets/images/tapping-foot-om-nelle.gif">`;
+  const status = meta.status ? `<li class="content-meta__status"><strong>Status:</strong> ${statusMap[meta.status]}${statusIcon}</li>` : '';
   const authors = meta.authors ? `<li class="content-meta__authors"><strong>AutorIn(en):</strong> ${meta.authors}</li>` : '';
   const reviewers = meta.reviewers ? `<li class="content-meta__reviewers"><strong>ReviewerIn(en):</strong> ${meta.reviewers}</li>` : '';
   const purpose = meta.purpose ? `<li class="content-meta__purpose"><strong>Funktion des Snippets:</strong> ${meta.purpose}</li>` : '';
