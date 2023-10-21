@@ -1,11 +1,14 @@
 ---
 title: Enhancing Interactions on Different Scales
 kuerzel: indi
+layout: page.11ty.js
 level: 1
 meta:
-  status: rfreview
+  status: refactor
   authors: Entwicklungsteam
   reviewers: 
+  comments:
+    - "cn: Es wäre gut die Kompetenzen ins Front Matter zu überführen wie bei CREA, damit sie später adressiert werden können."
 ---
 
 Leitfrage: Haben wir etwas sinnvolles gebaut und wie gut ist es?

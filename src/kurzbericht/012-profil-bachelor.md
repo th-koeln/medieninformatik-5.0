@@ -1,5 +1,6 @@
 ---
 title: Medieninformatik Bachelor
+layout: page.11ty.js
 level: 2
 meta:
   status: rfreview

@@ -9,14 +9,14 @@ module.exports = {
     const utils = require('./components/utils.11ty.js');
 
     const kurzberichtList = data.collections.itemsKurzbericht.map((item) => {
-      const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
       const meta = utils.getContentMeta(item.data.meta);
       const status = item.data.meta && item.data.meta.status ? `is-${item.data.meta.status}` : '';
 
       return `
         <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
-            <h${item.data.level + 1} id="${this.slugify(item.data.title)}">${item.data.title} <a href="${editUrl}" title="Inhalt ändern"><span class="icon icon--inline">edit</span></a></h${item.data.level + 1}>
+            <h${item.data.level + 1} id="${this.slugify(item.data.title)}">${item.data.title} 
+            ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
             ${meta}
             ${item.content}
           </div>

@@ -102,12 +102,18 @@
   border-left: solid var(--border-width-l) hsla(60, 100%, 50%, 1);
   padding-left: var(--fluid-space-s);
 }
+
 .is-review{
   background-color: hsla(60, 100%, 80%, 0.3);
   border-left: solid var(--border-width-l) hsla(60, 100%, 40%, 1);
   padding-left: var(--fluid-space-s);
 }
 
+.is-refactor{
+  background-color: hsla(320, 100%, 80%, 0.3);
+  border-left: solid var(--border-width-l) hsla(320, 100%, 40%, 1);
+  padding-left: var(--fluid-space-s);
+}
 
 /* Has Interaction
 ############################################################################ */

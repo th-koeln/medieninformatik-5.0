@@ -1,6 +1,6 @@
 ---
 title: Profil der Studiengänge
-status: wip
+layout: page.11ty.js
 level: 1
 meta:
   status: wip

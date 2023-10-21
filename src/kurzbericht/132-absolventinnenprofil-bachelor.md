@@ -1,5 +1,6 @@
 ---
 title: Absolvent:innenprofil Medieninformatik Bachelor
+layout: page.11ty.js
 level: 3
 meta:
   status: rfreview

@@ -1,11 +1,14 @@
 ---
 title: Exploring Advanced Interactive Media
 kuerzel: exa
+layout: page.11ty.js
 level: 1
 meta:
-  status: rfreview
+  status: refactor
   authors: Entwicklungsteam
   reviewers: 
+  comments:
+    - "cn: Es wäre gut die Kompetenzen ins Front Matter zu überführen wie bei CREA, damit sie später adressiert werden können."
 ---
 
 Leitfrage: Was geht noch so? *bling* *bling* 

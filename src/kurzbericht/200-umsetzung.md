@@ -1,5 +1,6 @@
 ---
 title: Umsetzung Studiengangkriterien, Studierbarkeit, Forschungsaktivitäten in Masterstudiengängen
+layout: page.11ty.js
 level: 1
 meta:
   status: tbd

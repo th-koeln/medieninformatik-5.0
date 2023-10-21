@@ -10,13 +10,24 @@ exports.getContentMeta = (meta) => {
     'tbd': 'to be done',
     'rfreview': 'wartet auf Review',
     'review': 'im Review',
+    'refactor':	'Überarbeitung erforderlich',
     'ok': 'Fertig'
   };
 
-  const status = meta.status ? `<li class="content-meta__status">Status: ${statusMap[meta.status]}</li>` : '';
-  const authors = meta.authors ? `<li class="content-meta__authors">AutorIn(en): ${meta.authors}</li>` : '';
-  const reviewers = meta.reviewers ? `<li class="content-meta__reviewers">ReviewerIn(en):${meta.reviewers}</li>` : '';
-  const purpose = meta.purpose ? `<li class="content-meta__purpose">Funktion des Snippets: ${meta.purpose}</li>` : '';
+  const getComments = (comments) => {
+    if(!comments) return '';
+
+    const commentsList = comments.map(item => `<li>${item}</li>`);
+
+    return commentsList.length === 0 ? '' 
+      : `<strong>Kommentare</strong> <ul>${commentsList.join("\n")}</ul>`;
+  };
+
+  const status = meta.status ? `<li class="content-meta__status"><strong>Status:</strong> ${statusMap[meta.status]}</li>` : '';
+  const authors = meta.authors ? `<li class="content-meta__authors"><strong>AutorIn(en):</strong> ${meta.authors}</li>` : '';
+  const reviewers = meta.reviewers ? `<li class="content-meta__reviewers"><strong>ReviewerIn(en):</strong> ${meta.reviewers}</li>` : '';
+  const purpose = meta.purpose ? `<li class="content-meta__purpose"><strong>Funktion des Snippets:</strong> ${meta.purpose}</li>` : '';
+  const comments = meta.comments ? `<li class="content-meta__comments">${getComments(meta.comments)}</li>` : '';
   
   return `
     <ul class="content-meta">
@@ -24,6 +35,27 @@ exports.getContentMeta = (meta) => {
       ${authors}
       ${reviewers}
       ${purpose}
+      ${comments}
     </ul>
   `;
 };
+
+/* Edit Link für Content erzeugen 
+############################################################################ */
+
+exports.getEditLink = (item, data) => {
+  const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
+  const editElement = `<a href="${editUrl}" title="Inhalt ändern"><span class="icon icon--inline">edit</span></a>`;
+
+  return editElement;
+};
+
+/* Open in New Window Link für Content erzeugen 
+############################################################################ */
+
+exports.getOpenInNewWindowLink = (item) => {
+  console.log(item.page);
+  const url = `${item.url}`;
+  return `<a href="${url}" title="Inhalt in neuem Fenster öffnen"><span class="icon icon--inline">open_in_new</span></a>`;
+};
+

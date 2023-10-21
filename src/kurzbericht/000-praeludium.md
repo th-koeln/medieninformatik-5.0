@@ -1,8 +1,9 @@
 ---
 title: Präludium
-status: wip
-comments_id: 1
+layout: page.11ty.js
 level: 1
+meta:
+  status: ok
 ---
 
 ### Entwicklungsteam

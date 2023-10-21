@@ -1,11 +1,14 @@
 ---
 title: Developing Interactive and Distributed Systems
 kuerzel: dev
+layout: page.11ty.js
 level: 1
 meta:
-  status: rfreview
+  status: refactor
   authors: Entwicklungsteam
   reviewers: 
+  comments:
+    - "cn: Es wäre gut die Kompetenzen ins Front Matter zu überführen wie bei CREA, damit sie später adressiert werden können."
 ---
 
 Wie werden Softwaresysteme und -produkte gebaut.

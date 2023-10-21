@@ -7,7 +7,7 @@ module.exports = {
 
     const tocTools = require('./components/tocTools.11ty.js');
     const utils = require('./components/utils.11ty.js');
-    
+
     const getCompetencies = (competencies, parentId) => {
       if(!competencies) return '';
 
@@ -34,17 +34,17 @@ module.exports = {
     };
 
     const handlungsfelderList = data.collections.handlungsfelder.map((item) => {
-      const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
       const status = item.data.meta && item.data.meta.status ? `is-${item.data.meta.status}` : '';
       const competencies = getCompetencies(item.data.competencies, item.page.fileSlug)
       const meta = utils.getContentMeta(item.data.meta);
-
+      
       return `
         <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
-            <h${item.data.level + 1} id="${this.slugify(item.data.title)}">${item.data.title} <a href="${editUrl}" title="Inhalt ändern"><span class="icon icon--inline">edit</span></a></h${item.data.level + 1}>
+            <h${item.data.level + 1} id="${this.slugify(item.data.title)}">${item.data.title}
+              ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
             ${meta}
-            ${item.content}
+           ${item.content}
             ${competencies}
           </div>
         </section>

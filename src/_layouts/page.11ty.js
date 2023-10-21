@@ -3,6 +3,7 @@ exports.render = function (data) {
   const documentHeader = require('./components/head.11ty');
   const pageHeader = require('./components/page-header.11ty');
   const pageFooter = require('./components/page-footer.11ty');
+  const utils = require('./components/utils.11ty.js');
 
   const documentHead = documentHeader.getHeader(this, data);
   const pageHead = pageHeader.getPageHeader(this, data);
@@ -15,7 +16,7 @@ exports.render = function (data) {
       ${pageHead}
       <main>
         <header>
-          <h1>${data.title}</a></h1>
+          <h1>${data.title}${utils.getEditLink(data, data)}</h1>
         </header>
         ${data.content}
       </main>

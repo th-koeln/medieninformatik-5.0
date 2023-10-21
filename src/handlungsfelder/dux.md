@@ -1,11 +1,14 @@
 ---
 title: Designing for User Experiences
 kuerzel: dux
+layout: page.11ty.js
 level: 1
 meta:
-  status: rfreview
+  status: refactor
   authors: Entwicklungsteam
-  reviewers: 
+  reviewers:
+  comments:
+    - "cn: Es wäre gut die Kompetenzen ins Front Matter zu überführen wie bei CREA, damit sie später adressiert werden können."
 ---
 
 Wofür bauen wir etwas? Was überhaupt, wie sieht es aus, wie fühlt es sich an und wie soll es funktionieren?
