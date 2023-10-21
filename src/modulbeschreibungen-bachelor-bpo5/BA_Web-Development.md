@@ -28,6 +28,8 @@ studienleistungen:
     datum: ende
 meta:
   status: tbd    
+  authors: viet
+  reviewers: viet
 ---
 
 ## Sprache
