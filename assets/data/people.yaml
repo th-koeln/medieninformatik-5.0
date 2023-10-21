@@ -201,7 +201,7 @@ hs:
     avatar: '/img/lehrbeauftragte/horststenzel.png'
     personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
     mi: false
-    
+
 dz:
     id: dz
     status: prof
@@ -224,6 +224,14 @@ rgroten:
     name: 'Prof. Dr. Raphaela Groten'
     avatar: '/img/professoren/raphaela-groten.jpg'
     personenseite: 'https://www.th-koeln.de/personen/raphaela.groten/'
+    mi: true
+
+mlinden:
+    id: mlinden
+    status: prof
+    name: 'Prof. Dr. Markus Linden'
+    avatar: '/img/professoren/markus-linden.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/markus.linden/'
     mi: true
 
 mi:
