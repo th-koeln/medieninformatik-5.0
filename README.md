@@ -2,6 +2,15 @@
 
 Nutzt [11ty](https://www.11ty.dev) für die strukturierte Ablage von Content.
 
+## Status von Dokumenten
+
+| Kürzel | Bedeutung | Was ist zu tun? |
+| --- | --- | --- | --- |
+| wip | in Arbeit | nix |
+| rfreview | Wartet auf Review | Review machen |
+| review | im Review | nix |
+| ok | Fertig | nix |
+
 ## Ordnerstruktur
 
 ### `/docs`

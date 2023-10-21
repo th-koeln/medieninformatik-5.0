@@ -85,6 +85,12 @@
   }
 }
 
+.is-wip{
+  background-color: hsla(0, 100%, 80%, 0.3);
+  border-left: solid var(--border-width-l) hsla(0, 100%, 80%, 1);
+  padding-left: var(--fluid-space-s);
+}
+
 
 /* Has Interaction
 ############################################################################ */

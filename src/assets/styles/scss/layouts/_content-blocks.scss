@@ -14,5 +14,17 @@
         max-width: var(--max-width-content);
       }
     }
+
+    @media screen and (min-width: 160ch) {
+      .content{
+        blockquote{
+          position: absolute;
+          margin-left: calc(var(--max-width-content) + var(--fluid-space-s));
+          max-width: calc(var(--max-width-content) / 2);
+          font-size: var(--s);
+          line-height: var(--lh-normal);
+        }
+      }
+    }
   }
 }

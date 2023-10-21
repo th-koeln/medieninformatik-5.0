@@ -129,7 +129,8 @@ ul.is-tight {
 ############################################################################ */
 
 blockquote {
-  padding-left: var(--fluid-space-s);
-  border-left: solid var(--border-width-l) var(--light);
+  padding: var(--s) var(--s) var(--quat) var(--s);
+  border-left: solid var(--border-width-m) var(--mi-lila);
   margin-bottom: var(--fluid-space-m);
+  background-color: var(--darken);
 }

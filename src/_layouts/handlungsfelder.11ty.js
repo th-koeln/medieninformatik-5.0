@@ -6,8 +6,7 @@ module.exports = {
 	render(data) {
 
     const tocTools = require('./components/tocTools.11ty.js');
-    const utils = require('./components/utils.11ty.js');
-
+    
     const getCompetencies = (competencies, parentId) => {
       if(!competencies) return '';
 
@@ -35,7 +34,7 @@ module.exports = {
 
     const handlungsfelderList = data.collections.handlungsfelder.map((item) => {
       const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
-      const status = utils.showStatus(item.data.status);
+      const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
       const competencies = getCompetencies(item.data.competencies, item.page.fileSlug)
 
       return `

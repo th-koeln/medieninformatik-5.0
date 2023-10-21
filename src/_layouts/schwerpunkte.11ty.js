@@ -7,11 +7,10 @@ module.exports = {
 
     const tocTools = require('./components/tocTools.11ty.js');
     const curriculumTools = require('./components/curriculumTools.11ty.js');
-    const utils = require('./components/utils.11ty.js');
-
+    
     const schwerpunkteList = data.collections.schwerpunkte.map((item) => {
       const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
-      const status = utils.showStatus(item.data.status);
+      const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
       
       const moduls = curriculumTools.getAllModuls({
         moduls: data.collections.modulsMPO5.filter(modul => modul.data.schwerpunkt === item.data.kuerzel),
