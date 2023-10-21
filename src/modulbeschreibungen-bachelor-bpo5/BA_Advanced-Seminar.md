@@ -22,7 +22,9 @@ studienleistungen:
     zweitpruefer: cn
     datum: ende
 meta:
-  status: tbd    
+  status: tbd  
+  authors: Mirjam
+  reviewers: Mirjam
 ---
 
 ## Sprache
