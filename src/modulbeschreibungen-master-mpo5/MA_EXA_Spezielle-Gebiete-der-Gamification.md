@@ -19,7 +19,9 @@ studienleistungen:
     zweitpruefer: ck 
     datum: ende
 meta:
-  status: rfreview     
+  status: rfreview    
+  authors: uwe
+  reviewers: uwe
 ---
 
 ## Kurzbeschreibung
