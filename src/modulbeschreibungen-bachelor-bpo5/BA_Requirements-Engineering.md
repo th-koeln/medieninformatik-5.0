@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: rgroten
     datum: 03.07.2023
 meta:
-  status: rfreview    
+  authors: Irma
+  reviewers: Irma
+  status: rfreview
 ---
 
 ## Sprache

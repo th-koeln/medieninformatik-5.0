@@ -201,6 +201,14 @@ hs:
     avatar: '/img/lehrbeauftragte/horststenzel.png'
     personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
     mi: false
+    
+dz:
+    id: dz
+    status: prof
+    name: 'Prof. Dr. Dietlind Zühlke'
+    avatar: '/img/professoren/dietlind.png'
+    personenseite: 'https://www.th-koeln.de/personen/dietlind.zuehlke/'
+    mi: false    
 
 jschaible:
     id: jschaible

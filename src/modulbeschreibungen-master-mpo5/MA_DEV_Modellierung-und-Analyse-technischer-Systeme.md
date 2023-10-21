@@ -2,8 +2,7 @@
 title: Modellierung und Analyse technischer Systeme
 modulverantwortlich: mw
 kuerzel: WPF-MATS
-studiensemesterWs: 3
-studiensemesterSs: 2
+studiensemester: 1
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden

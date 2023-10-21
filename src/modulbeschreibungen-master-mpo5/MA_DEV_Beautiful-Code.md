@@ -2,8 +2,7 @@
 title: Beautiful Code
 modulverantwortlich: ck
 kuerzel: 
-studiensemesterWs: 2
-studiensemesterSs: 3
+studiensemester: 2
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 3

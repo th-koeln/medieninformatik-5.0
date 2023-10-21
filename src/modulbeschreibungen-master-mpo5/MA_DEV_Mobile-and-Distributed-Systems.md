@@ -2,8 +2,7 @@
 title: Mobile and Distributed Systems
 modulverantwortlich: 
 kuerzel: WTW-WBA
-studiensemesterWs: 1
-studiensemesterSs: 2
+studiensemester: 1
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6

@@ -2,8 +2,7 @@
 title: Computerethik
 modulverantwortlich: mbluemm
 kuerzel: CE
-studiensemesterWs: 2
-studiensemesterSs: 1
+studiensemester: 2
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

@@ -809,6 +809,10 @@ ul.content-meta .animated-icon:hover {
 .modulbeschreibung h2 {
   margin-bottom: var(--s);
 }
+.modulbeschreibung .module-core-data[class*=is-] {
+  padding-top: var(--fluid-space-s);
+  margin-bottom: var(--fluid-space-m);
+}
 .modulbeschreibung .module-core-data dl dt {
   display: block;
   float: left;
@@ -826,6 +830,12 @@ ul.content-meta .animated-icon:hover {
   border-bottom: solid var(--border-width-s) var(--darken);
   padding: var(--half) 0;
 }
+.modulbeschreibung ul.content-meta {
+  border-bottom: none;
+}
+.modulbeschreibung ul.content-meta li {
+  padding-left: var(--xs);
+}
 
 /* Curriculum
 ############################################################################ */
@@ -835,6 +845,12 @@ ul.content-meta .animated-icon:hover {
 .curriculum .next-term th, .curriculum .next-term td {
   border-top: none;
   padding-top: var(--fluid-space-s);
+}
+.curriculum .table-module-list {
+  border-collapse: collapse;
+}
+.curriculum .table-module-list tr[class*=is-] td:first-child {
+  padding-left: var(--half);
 }
 
 /* Personenliste

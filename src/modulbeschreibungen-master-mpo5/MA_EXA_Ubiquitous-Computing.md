@@ -2,8 +2,7 @@
 title: Ubiquitous Computing
 modulverantwortlich: mboehmer
 kuerzel: UC
-studiensemesterWs: 3
-studiensemesterSs: 2
+studiensemester: 1
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

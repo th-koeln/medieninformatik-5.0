@@ -2,8 +2,7 @@
 title: Spezielle Gebiete der Mathematik
 modulverantwortlich: wk, dz
 kuerzel: SGM-D
-studiensemesterWs: 1
-studiensemesterSs: 2
+studiensemester: 1
 informatik-master: ws
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan

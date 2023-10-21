@@ -2,8 +2,7 @@
 title: Spezielle Gebiete der Gamification
 modulverantwortlich: uwm
 kuerzel: WPF-SGG
-studiensemesterWs: 3
-studiensemesterSs: 2
+studiensemester: 1
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden

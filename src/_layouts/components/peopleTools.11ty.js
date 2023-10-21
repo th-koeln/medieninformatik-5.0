@@ -25,9 +25,15 @@ exports.getPeopleList = (obj) => {
   const { data } = obj;
   const { eleventy } = obj;
 
+  const isModulverantwortlich = (person, modul) => {
+    if(!modul.data.modulverantwortlich || modul.data.modulverantwortlich === null) return false;
+    const modulverantwortliche = modul.data.modulverantwortlich.replace(/\s/g, '').split(/,/);
+    return modulverantwortliche.includes(person);
+  };
+
   const peopleList = Object.keys(data.people).map((person) => {
-    const personModulsSummerTerm = moduls.filter((modul) => modul.data.modulverantwortlich == person && modul.data.studiensemester % 2 === 0);
-    const personModulsWinterTerm = moduls.filter((modul) => modul.data.modulverantwortlich == person && modul.data.studiensemester % 2 === 1);
+    const personModulsSummerTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.studiensemester % 2 === 0);
+    const personModulsWinterTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.studiensemester % 2 === 1);
     
     const personModulsListWinterTerm = personModulsWinterTerm.map((modul) => {
       return `

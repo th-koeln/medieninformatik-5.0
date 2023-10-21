@@ -3,7 +3,7 @@ title: Visual Computing
 modulverantwortlich: fn
 kuerzel: CG
 untertitel:
-studiensemester: 3
+studiensemester: 2
 kategorie: vertiefung
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Bachelor

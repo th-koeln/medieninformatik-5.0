@@ -2,8 +2,7 @@
 title: Visualisierung
 modulverantwortlich: chh
 kuerzel: VI
-studiensemesterWs: 2
-studiensemesterSs: 3
+studiensemester: 2
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

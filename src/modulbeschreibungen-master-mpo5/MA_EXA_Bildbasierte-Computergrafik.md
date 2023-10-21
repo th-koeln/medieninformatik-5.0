@@ -2,8 +2,7 @@
 title: Bildbasierte Computergrafik
 modulverantwortlich: fn
 kuerzel: BCG
-studiensemesterWs: 1
-studiensemesterSs: 2
+studiensemester: 1
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

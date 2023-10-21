@@ -56,7 +56,6 @@ exports.getEditLink = (item, data) => {
 ############################################################################ */
 
 exports.getOpenInNewWindowLink = (item) => {
-  console.log(item.page);
   const url = `${item.url}`;
   return `<a href="${url}" title="Inhalt in neuem Fenster öffnen"><span class="icon icon--inline">open_in_new</span></a>`;
 };
