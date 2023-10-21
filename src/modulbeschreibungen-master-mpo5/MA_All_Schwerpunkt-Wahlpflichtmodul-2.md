@@ -21,6 +21,30 @@ studienleistungen:
     datum:
 ---
 
+## Sprache
+
+## Häufigkeit des Angebots
+
+## Dozierende
+
+## Learning Outcome
+
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
+---
+
 ## Kurzbeschreibung
 Frei aus dem Katalog der Wahlmodule für die jeweiligen Schwerpunkte.
 

@@ -23,6 +23,30 @@ studienleistungen:
     datum: vereinbarung
 ---
 
+## Sprache
+
+## Häufigkeit des Angebots
+
+## Dozierende
+
+## Learning Outcome
+
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
+---
+
 ## Qualifikationsziele des Moduls
 
 Im optionalen Praxissemester haben die Student*innen die Wahl zwischen drei Alternativen mit jeweils unterschiedlichen Qualifikationszielen zur Ausgestaltung des Moduls:

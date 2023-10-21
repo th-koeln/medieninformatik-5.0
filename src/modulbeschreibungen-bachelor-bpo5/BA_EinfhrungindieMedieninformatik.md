@@ -23,6 +23,30 @@ studienleistungen:
     datum: ende
 ---
 
+## Sprache
+
+## Häufigkeit des Angebots
+
+## Dozierende
+
+## Learning Outcome
+
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
+---
+
 ## Lehrform/SWS
 4 SWS: Seminar 3 SWS; Übung 1 SWS 
 

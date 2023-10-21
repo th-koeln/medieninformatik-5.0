@@ -24,6 +24,30 @@ studienleistungen:
     datum: ss-2
 ---
 
+## Sprache
+
+## Häufigkeit des Angebots
+
+## Dozierende
+
+## Learning Outcome
+
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
+---
+
 ## Kurzbeschreibung
 Prinzipien, Methoden und Techniken der modellbasierten methodischen objektorientierten Softwareentwicklung
 

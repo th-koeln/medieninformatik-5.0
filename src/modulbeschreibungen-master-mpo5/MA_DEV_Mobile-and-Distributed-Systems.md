@@ -21,16 +21,27 @@ studienleistungen:
     zweitpruefer: 
     datum: 
 ---
-## Kurzbeschreibung
 
-## Lehrform/SWS
+## Sprache
 
-## Arbeitsaufwand
+## Häufigkeit des Angebots
 
-## Learning Outcomes
+## Dozierende
 
-## Inhalt
+## Learning Outcome
 
-## Medienformen
+## Modulinhalte
 
-## Literatur
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
+---

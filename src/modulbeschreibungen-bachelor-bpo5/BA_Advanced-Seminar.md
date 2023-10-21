@@ -22,16 +22,25 @@ studienleistungen:
     zweitpruefer: cn
     datum: ende
 ---
-## Kurzbeschreibung
 
-## Lehrform/SWS
+## Sprache
 
-## Arbeitsaufwand
+## Häufigkeit des Angebots
 
-## Angestrebte Lernergebnisse
+## Dozierende
 
-## Inhalt
+## Learning Outcome
 
-## Medienformen
+## Modulinhalte
 
-## Literatur
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten

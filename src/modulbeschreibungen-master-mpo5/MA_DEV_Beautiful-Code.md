@@ -22,6 +22,30 @@ studienleistungen:
     zweitpruefer: 
 ---
 
+## Sprache
+
+## Häufigkeit des Angebots
+
+## Dozierende
+
+## Learning Outcome
+
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
+---
+
 ## Kurzbeschreibung
 In einem Projekt wird, basierend auf einem bereits erstellten Konzept, ein „Minimum Viable Product“ entwickelt oder weiterentwickelt.
 

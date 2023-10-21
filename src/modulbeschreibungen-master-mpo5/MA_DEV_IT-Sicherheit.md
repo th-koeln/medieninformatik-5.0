@@ -22,6 +22,30 @@ studienleistungen:
     datum: vereinbarung
 ---
 
+## Sprache
+
+## Häufigkeit des Angebots
+
+## Dozierende
+
+## Learning Outcome
+
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
+---
+
 ## Kurzbeschreibung
 Einsatzszenarien von IT und entsprechende Sicherheitseigenschaften und Sicherheitskonzepte; Wirkzusammenhänge zwischen Vertrauen und (IT-)Sicherheit; gesellschaftliche Bedeutung von Privatsphäre und Datenschutz.
 

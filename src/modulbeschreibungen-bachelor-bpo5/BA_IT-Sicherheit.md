@@ -24,13 +24,25 @@ studienleistungen:
     datum: vereinbarung
 ---
 
-## Aufwand
-50h Vorlesung, Seminar; 100h Selbstlernphase
+## Sprache
 
-## Angestrebte Lernergebnisse
+## Häufigkeit des Angebots
 
-## Inhalt
+## Dozierende
 
-## Medienformen
+## Learning Outcome
 
-## Literatur
+## Modulinhalte
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+
+## Selbststudium
+
+## Empfohlene Literatur
+
+## Verwendung des Moduls in weiteren Studiengängen
+
+## Besonderheiten
+
