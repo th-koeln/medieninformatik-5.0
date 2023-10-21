@@ -23,6 +23,8 @@ studienleistungen:
     datum: vereinbarung
 meta:
   status: rfreview    
+  authors: Raphaela
+  reviewers: Raphaela
 ---
 
 ## Sprache
