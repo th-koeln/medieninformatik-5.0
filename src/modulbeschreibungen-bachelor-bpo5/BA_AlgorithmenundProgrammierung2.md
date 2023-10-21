@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: ald
     datum: ss-2
 meta:
-  status: rfreview    
+  status: rfreview
+  authors: Christian Kohls
+  reviewers: Christian Kohls
 ---
 
 ## Sprache

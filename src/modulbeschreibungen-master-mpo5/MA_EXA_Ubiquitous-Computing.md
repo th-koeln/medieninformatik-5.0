@@ -20,7 +20,9 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: rfreview     
+  status: rfreview    
+  authors: Matthias
+  reviewers: Matthias
 ---
 
 ## Kurzbeschreibung

@@ -21,6 +21,8 @@ studienleistungen:
     datum: vereinbarung
 meta:
   status: rfreview     
+  authors: Hans
+  reviewers: Hans
 ---
 
 ## Kurzbeschreibung

@@ -21,7 +21,9 @@ studienleistungen:
     zweitpruefer: nkuhn
     datum: vereinbarung
 meta:
-  status: rfreview     
+  status: rfreview
+  authors: Gerhard
+  reviewers: Gerhard
 ---
 
 ## Lehrform/SWS

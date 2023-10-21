@@ -20,6 +20,8 @@ studienleistungen:
     datum:
 meta:
   status: rfreview     
+  authors: Mario Winter
+  reviewers: Mario Winter  
 ---
 
 ## Sprache
