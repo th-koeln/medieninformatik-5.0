@@ -1,8 +1,11 @@
 ---
 title: Enhancing Interactions on Different Scales
 kuerzel: indi
-status: wip
 level: 1
+meta:
+  status: rfreview
+  authors: Entwicklungsteam
+  reviewers: 
 ---
 
 Leitfrage: Haben wir etwas sinnvolles gebaut und wie gut ist es?

@@ -1,8 +1,11 @@
 ---
 title: Designing for User Experiences
 kuerzel: dux
-status: wip
 level: 1
+meta:
+  status: rfreview
+  authors: Entwicklungsteam
+  reviewers: 
 ---
 
 Wofür bauen wir etwas? Was überhaupt, wie sieht es aus, wie fühlt es sich an und wie soll es funktionieren?

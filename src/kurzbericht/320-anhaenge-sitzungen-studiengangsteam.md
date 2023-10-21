@@ -1,6 +1,8 @@
 ---
 title: Sitzungen Studiengangsteam
-status: wip
-comments_id:
 level: 2
+meta:
+  status: tbd
+  authors: 
+  reviewers: 
 ---

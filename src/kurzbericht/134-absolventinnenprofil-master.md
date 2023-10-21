@@ -1,8 +1,11 @@
 ---
 title: Absolvent:innenprofil Medieninformatik Master
-status: wip
-comments_id: 7
 level: 3
+meta:
+  status: rfreview
+  authors: Matthias
+  reviewers: 
+  purpose:
 ---
 
 Master-Absolvent\:innen haben ein Wissen und Verstehen nachgewiesen, das auf der Bachelorebene aufbaut und dieses wesentlich vertieft oder erweitert. Sie sind in der Lage Besonderheiten, Grenzen, Terminologien und Lehrmeinungen ihres Lehrgebiets zu definieren und zu interpretieren. Ihr Wissen und Verstehen bildet die Grundlage für die Entwicklung und Anwendung eigenständiger Ideen. Dies kann anwendungs- oder forschungsorientiert erfolgen. Sie verfügen über ein breites, detailliertes und kritisches Verständnis auf dem neuesten Stand des Wissens in einem oder mehreren Spezialbereichen. Absolvent\:innen wägen die fachliche erkenntnistheoretisch begründete Richtigkeit unter Einbezug wissenschaftlicher und methodischer Überlegungen gegeneinander ab und können unter Zuhilfenahme dieser Abwägungen praxisrelevante und wissenschaftliche Probleme lösen.

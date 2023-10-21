@@ -85,9 +85,26 @@
   }
 }
 
+.is-tbd{
+  background-color: hsla(0, 100%, 80%, 0.5);
+  border-left: solid var(--border-width-l) hsla(0, 100%, 50%, 1);
+  padding-left: var(--fluid-space-s);
+}
+
 .is-wip{
   background-color: hsla(0, 100%, 80%, 0.3);
   border-left: solid var(--border-width-l) hsla(0, 100%, 80%, 1);
+  padding-left: var(--fluid-space-s);
+}
+
+.is-rfreview{
+  background-color: hsla(60, 100%, 80%, 0.5);
+  border-left: solid var(--border-width-l) hsla(60, 100%, 50%, 1);
+  padding-left: var(--fluid-space-s);
+}
+.is-review{
+  background-color: hsla(60, 100%, 80%, 0.3);
+  border-left: solid var(--border-width-l) hsla(60, 100%, 40%, 1);
   padding-left: var(--fluid-space-s);
 }
 

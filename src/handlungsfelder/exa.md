@@ -1,8 +1,11 @@
 ---
 title: Exploring Advanced Interactive Media
 kuerzel: exa
-status: wip
 level: 1
+meta:
+  status: rfreview
+  authors: Entwicklungsteam
+  reviewers: 
 ---
 
 Leitfrage: Was geht noch so? *bling* *bling* 

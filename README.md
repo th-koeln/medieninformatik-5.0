@@ -6,6 +6,7 @@ Nutzt [11ty](https://www.11ty.dev) für die strukturierte Ablage von Content.
 
 | Kürzel | Bedeutung | Was ist zu tun? |
 | --- | --- | --- | --- |
+| tbd | to be done | loslegen! |
 | wip | in Arbeit | nix |
 | rfreview | Wartet auf Review | Review machen |
 | review | im Review | nix |

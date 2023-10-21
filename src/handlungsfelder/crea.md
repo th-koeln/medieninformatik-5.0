@@ -1,8 +1,11 @@
 ---
 title: Driving Creation Process
 kuerzel: crea
-status: wip
 level: 1
+meta:
+  status: rfreview
+  authors: Entwicklungsteam
+  reviewers: 
 competencies:
   Innovation:
     kreativitaet: "Haben die Fähigkeit zur Förderung von Kreativität und Innovation: Schaffen einer unterstützenden Umgebung, das Einbringen Kreativitätstechniken, etc."

@@ -8,7 +8,6 @@ module.exports = {
     const tocTools = require('./components/tocTools.11ty.js');
     const utils = require('./components/utils.11ty.js');
 
-
     const kurzberichtList = data.collections.itemsKurzbericht.map((item) => {
       const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
       const meta = utils.getContentMeta(item.data.meta);

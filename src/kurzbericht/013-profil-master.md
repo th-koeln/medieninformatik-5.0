@@ -1,8 +1,9 @@
 ---
-title: Anhänge
-level: 1
+title: Medieninformatik Master
+level: 2
 meta:
   status: tbd
   authors: 
   reviewers: 
 ---
+

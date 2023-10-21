@@ -1,8 +1,11 @@
 ---
 title: Absolvent:innenprofil Medieninformatik Bachelor
-status: wip
-comments_id: 6
 level: 3
+meta:
+  status: rfreview
+  authors: Matthias
+  reviewers: 
+  purpose:
 ---
 
 Bachelor-Absolvent\:innen haben ein breites und integriertes Wissen und Verstehen der wissenschaftlichen Grundlagen ihres Lerngebiets nachgewiesen. Sie verfügen über ein kritisches Verständnis der wichtigsten Theorien, Prinzipien und Methoden der Medieninformatik und sind in der Lage, ihr Wissen auch über die Disziplin hinaus zu vertiefen. Ihr Wissen und Verstehen entspricht dem State of the Art, sollte aber zugleich einige vertiefte Wissensbestände auf dem aktuellen Stand der Forschung in ihrem Lerngebiet einschließen.

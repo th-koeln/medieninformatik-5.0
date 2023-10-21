@@ -1,8 +1,11 @@
 ---
 title: Developing Interactive and Distributed Systems
 kuerzel: dev
-status: wip
 level: 1
+meta:
+  status: rfreview
+  authors: Entwicklungsteam
+  reviewers: 
 ---
 
 Wie werden Softwaresysteme und -produkte gebaut.
