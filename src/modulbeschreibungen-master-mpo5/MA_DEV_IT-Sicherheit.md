@@ -20,7 +20,9 @@ studienleistungen:
     zweitpruefer: 
     datum: vereinbarung
 meta:
-  status: rfreview     
+  status: rfreview
+  authors: Stefan
+  reviewers: Stefan
 ---
 
 ## Sprache
