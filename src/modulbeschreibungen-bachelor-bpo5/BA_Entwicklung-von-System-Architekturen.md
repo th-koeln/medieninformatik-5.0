@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: sb
     datum: ss-2
 meta:
-  status: tbd    
+  status: tbd
+  authors: viet
+  reviewers: viet
 ---
 
 ## Sprache
