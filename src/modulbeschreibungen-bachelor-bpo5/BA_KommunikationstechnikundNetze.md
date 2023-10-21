@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: hs
     datum: ws-2
 meta:
-  status: rfreview    
+  status: rfreview   
+  authors: Hans Ludwig
+  reviewers: Hans Ludwig
 ---
 
 ## Sprache
