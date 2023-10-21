@@ -23,7 +23,9 @@ studienleistungen:
     zweitpruefer: hls
     datum: vereinbarung
 meta:
-  status: tbd    
+  status: tbd   
+  authors: Stefan
+  reviewers: Stefan
 ---
 
 ## Sprache
