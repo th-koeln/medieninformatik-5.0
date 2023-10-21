@@ -23,3 +23,23 @@ section{
 table{
   max-width: var(--max-width-table);
 }
+
+/* Aside
+############################################################################ */
+
+@media screen and (min-width: 180ch){
+  main:has(aside){
+    display: grid;
+    gap: var(--fluid-space-m);
+    grid-template-columns: var(--max-width-navigation) 1fr;
+
+    aside{
+      padding-right: var(--xl);
+      font-size: var(--s);
+      nav{
+        position: sticky;
+        top: calc(var(--fluid-space-l) * 1.5);
+      }
+    }
+  }
+}

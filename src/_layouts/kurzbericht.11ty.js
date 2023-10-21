@@ -25,14 +25,9 @@ module.exports = {
     });
 
 		return `
-			<main>
-				<section>
-					<header>
-						<h1>${data.title}</h1>
-					</header>
-				</section>
 
-        <section>
+			<main>
+        <aside>
           <nav>
             ${tocTools.getPageTOC({
               eleventy: this,
@@ -40,13 +35,20 @@ module.exports = {
               maxLevel: 2
             })}
           </nav>
-        </section>
+        </aside>
+				<div>
+          <section>
+					  <header>
+						  <h1>${data.title}</h1>
+					  </header>
+				  </section>
 
-        ${data.content}
+          ${data.content}
 
-        <section>
-          ${kurzberichtList.join("\n")}
-        </section>
+          <section>
+            ${kurzberichtList.join("\n")}
+          </section>
+        </div>
 			</main>
 		`;
 	}
