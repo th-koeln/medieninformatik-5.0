@@ -24,6 +24,8 @@ studienleistungen:
     datum: ss-2
 meta:
   status: rfreview    
+  authors: Wolfgang
+  reviewers: Wolfgang
 ---
 
 ## Sprache
