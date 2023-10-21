@@ -24,6 +24,8 @@ studienleistungen:
     datum: ss-2
 meta:
   status: tbd    
+  authors: Mario Winter
+  reviewers: Mario Winter
 ---
 
 ## Sprache
