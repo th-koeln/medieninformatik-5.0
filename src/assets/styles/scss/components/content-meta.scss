@@ -6,9 +6,11 @@ ul.content-meta{
   margin-bottom: var(--m);
   border-bottom: dotted var(--border-width-m) var(--darken);
   padding-bottom: var(--m);
+  position: relative;
 
   & > li{
     margin-left: 0;
+    padding-right: var(--fluid-space-l);
 
     &:before{
       content: "";
@@ -17,6 +19,14 @@ ul.content-meta{
 
   .content-meta__comments li{
     padding-left: 1ch;
+  }
+
+  .animated-icon {
+    max-width: var(--fluid-space-l);
+    max-height: var(--fluid-space-l);
+    position: absolute;
+    right: 0;
+    top: calc(var(--m) * -1);
   }
 }
 
