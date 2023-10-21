@@ -27,6 +27,12 @@ ul.content-meta{
     position: absolute;
     right: 0;
     top: calc(var(--m) * -1);
+
+    transition: all var(--tr-slow);
+
+    &:hover{
+      transform: scale(10);
+    }
   }
 }
 
