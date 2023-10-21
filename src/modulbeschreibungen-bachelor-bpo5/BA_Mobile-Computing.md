@@ -29,6 +29,8 @@ studienleistungen:
     datum: ende
 meta:
   status: rfreview    
+  authors: Matthias
+  reviewers: Matthias
 ---
 
 ## Sprache
