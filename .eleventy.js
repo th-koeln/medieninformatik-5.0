@@ -1,6 +1,7 @@
 const htmlmin = require('html-minifier');
 const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
+const fg = require('fast-glob');
 
 const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "medieninformatik-5.0" : "";
 const ghPagesFolder = "docs";
@@ -8,6 +9,8 @@ const ghPagesFolder = "docs";
 const md = new markdownIt({
   html: true,
 });
+
+const allImages = fg.sync(['src/images/**/*', '!**/_site']);
 
 const clearRequireCache = () => {
   Object.keys(require.cache).forEach(function (key) {
@@ -90,6 +93,9 @@ module.exports = function (eleventyConfig) {
 
   // Copy asset images
   eleventyConfig.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
+
+    // Copy CSS (libs)
+    eleventyConfig.addPassthroughCopy({ 'src/assets/styles/libs': 'assets/styles/libs' });
 
   // Copy images
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
@@ -186,6 +192,11 @@ module.exports = function (eleventyConfig) {
       else if (a.data.title < b.data.title) return -1;
       else return 0;
     });
+  });
+
+  eleventyConfig.addCollection("images", function (collection) {
+    clearRequireCache();
+    return allImages;
   });
 
   eleventyConfig.addCollection("allModuls", function (collection) {

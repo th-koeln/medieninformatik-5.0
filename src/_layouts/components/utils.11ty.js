@@ -60,3 +60,23 @@ exports.getOpenInNewWindowLink = (item) => {
   return `<a href="${url}" title="Inhalt in neuem Fenster öffnen"><span class="icon icon--inline">open_in_new</span></a>`;
 };
 
+/* Content parsen und mit Snippets anreichern
+############################################################################ */
+
+exports.parseContent = (eleventy, data) => {
+
+  const parser = require('node-html-parser');
+  const { content } = data;
+  
+  const contentWithSnippets = content.replace(/<snippet (.*?)>/g, (match, p1) => {
+    const root = parser.parse(match);
+    const snippetElement = root.querySelector('snippet')
+    const type = snippetElement.getAttribute('type');
+    const snippetCode = require(`../snippets/${type}.11ty.js`);
+
+    return snippetCode.render(eleventy, data, snippetElement.attributes);
+
+  });
+
+  return contentWithSnippets;
+};

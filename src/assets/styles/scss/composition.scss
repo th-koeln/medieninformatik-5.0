@@ -3,7 +3,7 @@ body{
   display: flex;
   flex-direction: column;
 
-  & > *:not(.main-footer, .main-header) {
+  & > *:not(.main-footer, .main-header, #blueimp-gallery) {
     margin: var(--fluid-space-m);
   }
 

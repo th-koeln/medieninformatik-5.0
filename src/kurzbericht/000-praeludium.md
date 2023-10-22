@@ -18,5 +18,8 @@ meta:
 - [Volker Schaefer](https://www.th-koeln.de/personen/volker.schaefer/), Wissenschaftlicher Mitarbeiter
 
 ### Studiengangsteam
-Das Studiengangsteam tagte in verschiedenen Besetzungen. Diese sind den [Anhängen Sitzungen Studiengangsteam zu entnehmen](#sitzungen-studiengangsteam)
+Das Studiengangsteam tagte in verschiedenen Besetzungen. Diese sind den [Anhängen Sitzungen Studiengangsteam zu entnehmen](#sitzungen-studiengangsteam).
+
+### Workshop zur Vision der Medieninformatik an der TH Köln
+Zu Schaffung eines gemeinsamen Zielbildes über den Akkreditierungszeitraum hinaus wurde am 09. Februar 2023 ein [Visionsworkshop](../visions-workshop) unter der Leitung des Zentrum für Lehrentwicklung durchgeführt.
 

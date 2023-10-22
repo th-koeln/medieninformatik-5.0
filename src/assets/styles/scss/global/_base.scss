@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: var(--fluid-space-m);
+  margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
 }
 
@@ -85,7 +85,7 @@ p + h4,
 ul + h2,
 ul + h3,
 ul + h4{
-  margin-top: var(--fluid-space-m);
+  margin-top: var(--fluid-space-l);
 }
 
 hr{

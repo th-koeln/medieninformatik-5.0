@@ -158,6 +158,8 @@ select {
   --max-width-content: calc(var(--m) * 40);
   --max-width-table: calc(var(--m) * 80);
   --max-width-card: calc(var(--m) * 20);
+  --max-width-image: calc(var(--m) * 10);
+  --max-width-image-s: calc(var(--m) * 5);
   --max-width-navigation: calc(var(--m) * 20);
   --mi-lila: #9313ce;
   --mi-gruen: #00ad2f;
@@ -246,7 +248,7 @@ h1 {
 }
 
 h2 {
-  margin-bottom: var(--fluid-space-m);
+  margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
 }
 
@@ -295,7 +297,7 @@ p + h4,
 ul + h2,
 ul + h3,
 ul + h4 {
-  margin-top: var(--fluid-space-m);
+  margin-top: var(--fluid-space-l);
 }
 
 hr {
@@ -490,7 +492,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-body > *:not(.main-footer, .main-header) {
+body > *:not(.main-footer, .main-header, #blueimp-gallery) {
   margin: var(--fluid-space-m);
 }
 body main {
@@ -545,6 +547,13 @@ table {
 }
 .main-header ul li::before {
   content: "";
+}
+
+/* Content Header
+###########################################################################  */
+.content-header {
+  margin-bottom: var(--fluid-space-l);
+  padding-bottom: var(--fluid-space-s);
 }
 
 /* Footer
@@ -749,6 +758,38 @@ ul.content-meta .animated-icon {
 }
 ul.content-meta .animated-icon:hover {
   transform: scale(10);
+}
+
+/* Gallery
+############################################################################ */
+ul.gallery-grid {
+  --image-width: var(--max-width-image);
+  display: grid;
+  gap: var(--m);
+  grid-template-columns: repeat(auto-fill, minmax(var(--image-width), 1fr));
+  margin-bottom: var(--fluid-space-l);
+}
+ul.gallery-grid.is-small {
+  --image-width: var(--max-width-image-s);
+}
+ul.gallery-grid li + li {
+  margin-top: 0;
+}
+ul.gallery-grid .gallery-item {
+  margin-left: 0;
+  background-color: var(--dark);
+}
+ul.gallery-grid .gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+ul.gallery-grid .gallery-item::before {
+  content: "";
+  display: inline;
+  height: 0;
+  margin-left: 0;
 }
 
 /* Content Blocks
