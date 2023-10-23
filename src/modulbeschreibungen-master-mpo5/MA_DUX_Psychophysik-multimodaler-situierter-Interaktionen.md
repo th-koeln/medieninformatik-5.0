@@ -66,6 +66,7 @@ Erhebungsmethoden
 - SDT
 - AFC
 
+Ausgestaltung von Zugänglichkeit.
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
