@@ -38,9 +38,11 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden sind in der Lage empirische Daten so darzustellen, dass wesentlichen Strukturen und Charkateristika erkennbar sind. Die Studierenden können angemessene Kennzahlen und Verfahren zur Charakterisierung von empirischen Daten spezifizieren und ermitteln. Sie beherrschen wesentliche Konzepte zur Visualisierung von empirischen Daten und können erste (explorative) Analysen durchführen. 
+Die Studierenden sind in der Lage empirische Daten so darzustellen, dass wesentlichen Strukturen und Charkateristika erkennbar sind. Die Studierenden können angemessene Kennzahlen (z.B. Maße der Zentralität oder der Variabilität) und Verfahren zur Charakterisierung von empirischen Daten spezifizieren und anwenden. Sie beherrschen wesentliche Konzepte zur Visualisierung von empirischen Daten und können erste (explorative) Analysen durchführen. 
 
-Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatistik. Sie sind in der Lage, empirische Daten zu analysieren, Hypothesen zu testen und die Ergebnisse hinsichtlich empirischer Fragestellungen zu interpretieren. Sie können Gütekriterien zur Auswahl unterschiedlicher Verfahren benennen und anwenden.
+Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatistik. Sie kennen Skalenniveaus unabhängiger Variablen, können diese für eine forschungs-/erhebungspraktische Fragestellung bestimmen, experimentelle Rahmenbedingungen dazu planen, spezifizieren und in einem Experiment umsetzen.
+Sie sind in der Lage, empirische Daten zu analysieren, Hypothesen zu testen und die Ergebnisse hinsichtlich empirischer Fragestellungen zu interpretieren. Sie können Gütekriterien zur Auswahl unterschiedlicher Verfahren benennen und anwenden. 
+Die Studierenden kennen grundlegende Konzepte der multivariaten Statistik, kennen etablierte Verfahren und können Anwendungsgebiete und -beispiele benennen und kritische einordnen.
 
 ## Inhalt
 
