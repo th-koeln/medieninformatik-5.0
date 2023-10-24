@@ -1,4 +1,4 @@
-mo---
+---
 title: Storytelling und Narrative Strukturen 
 modulverantwortlich: hk
 kuerzel: SNS
