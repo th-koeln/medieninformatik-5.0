@@ -51,11 +51,12 @@ meta:
 
 ## Qualifikationsziele des Moduls
 
-Im optionalen Praxissemester haben die Student*innen die Wahl zwischen drei Alternativen mit jeweils unterschiedlichen Qualifikationszielen zur Ausgestaltung des Moduls:
+Im optionalen Praxissemester haben die Student*innen die Wahl zwischen vier Alternativen mit jeweils unterschiedlichen Qualifikationszielen zur Ausgestaltung des Moduls:
 
 - Internship
 - Self-Initiated Project
 - Auslandssemester
+- Forschungssemester
 
 Die Wahl lässt den Studierenden Freiraum zur Selbstgestaltung eines eigenen Profils. Das Praxissemester dient zudem als Mobilitätsfenster. Es ist unbenotet.
 
@@ -70,6 +71,10 @@ In der Modulvariante »Self-Initiated Project« haben die Studierenden die Mögl
 ## Modulvariante »Auslandssemester«
 
 In der Modulvariante »Auslandssemester« haben die Studierenden die Möglichkeit, ihre Fachkompetenzen und wissenschaftlichen Fähigkeiten zu vertiefen und akademische Perspektive zu erweitern, bspw. durch den Besuch interdisziplinärer Lehrveranstaltungen im Ausland. Zudem können die Studierenden ihre inter-kulturellen Kompetenzen und Sprachkompetenzen stärken.
+
+## Modulvariante »Forschungssemester«
+
+In der Modulvariante »Forschungssemester« haben die Studierenden die Möglichkeit, ihre forschungsorientierten Fachkompetenzen und wissenschaftlichen Fähigkeiten zu vertiefen und akademische Perspektive zu erweitern. Hierzu werden sie in Forschungsprojekten der Hochschule oder anderen wissenschaftlichen Einrichtungen tätig. Forschungsprojekte kennzeichnen sich insbesondere dadurch, das sie über Drittmittel finanziert einen Raum für Möglichkeiten zur Forschung und Entwicklung öffnen. In Forschungsprojekten arbeiten die Studierenden gemeinsam mit anderen Wissenschaftler*innen wie bspw. wissenschaftlichen Mitarbeiter*innen oder Doktorand*innen.
 
 ## Prüfungsformen
 
