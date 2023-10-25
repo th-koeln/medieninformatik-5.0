@@ -46,7 +46,7 @@ Die Studierenden kennen grundlegende Konzepte der multivariaten Statistik, kenne
 
 ## Inhalt
 
-Skalen, Statistische Kennwerte, Stichproben und Grundgesamtheit, Wahrscheinlichtkeitstheorie und -verteilungen, parametrische und nichtparametrische Testverfahren, Korrelationen, Varianzanalytische und Multivariate Verfahren.
+Skalen, Statistische Kennwerte, Stichproben und Grundgesamtheit, Wahrscheinlichtkeitstheorie und -verteilungen, parametrische und nichtparametrische Testverfahren, Skedastizität, Korrelationen, Varianzanalytische und Multivariate Verfahren.
 
 ## Medienformen
 -	Beamer-gestützte Vorlesungen (Vorlesungschrift mittels tablet) und Übungsaufgaben
