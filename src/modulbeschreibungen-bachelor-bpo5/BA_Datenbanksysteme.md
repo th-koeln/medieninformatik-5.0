@@ -2,7 +2,7 @@
 title: Datenbanksysteme
 modulverantwortlich: jschaible
 modulniveau: bachelor
-kuerzel: DB
+kuerzel: DBS
 untertitel:
 studiensemester: 3
 kategorie: vertiefung
@@ -15,7 +15,7 @@ layout: modulbeschreibung.11ty.js
 typ: pm
 pvl: true
 veranstaltungsform: 
-infourl: https://ilias.th-koeln.de/goto.php?target=crs_2319224&client_id=ILIAS_FH_Koeln
+infourl: https://ilu.th-koeln.de/goto.php?target=crs_71271&client_id=thkilu
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
