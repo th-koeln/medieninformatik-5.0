@@ -29,22 +29,53 @@ meta:
 ---
 
 ## Sprache
+Deutsch
 
 ## Häufigkeit des Angebots
+Wintersemester
 
 ## Dozierende
+Prof. Dr. Johann Schaible, Prof. Dr. Birgit Bertelsmeier
 
 ## Learning Outcome
+- Was: Sie sind in der Lage aus Anforderungskatalogen ein relationales Datenbankschema zu konzipieren, realisieren, und dieses abzufragen, indem Sie…
+- Lehrinhalte:
+  - Datenspezifikationen korrekt identifizieren und daraus ein konzeptionelles Modell erstellen,
+  - unter Beachtung von Normalisierungsregeln ein relationales Modell entwickeln,
+  - mit SQL ein Datenbankschema erzeugen und manipulieren,
+  - SQL SELECT-Statements für komplexe Datenabfragen anwenden, und
+  - effizienz-steigernde Methoden (SQL Tuning, Indexe) verwenden.
 
 ## Modulinhalte
+- Erstellung konzeptioneller Datenmodelle als Entity Relationship-Diagramm
+- Transformation des konzeptionellen Modells in das relationale Modell unter Beachtung der Normalformen
+- Physischer Entwurf einer Datenbank mit der SQL Data Definition Language (SQL-DDL)
+- Manipulation der Datenbankinhalte mit der SQL Data Manipulation Language (SQL-DML)
+- Komplexe Datenabfragen generieren mit der SQL Data Query Language (SQL-DQL)
+- Datenbankoptimierung 
 
 ## Lehr- und Lernmethoden
+- Vermittlung der Theorie in der Vorlesung
+- Praktische Bearbeitung in der Übung und freiwilligen Feedbackgesprächen
+- Praktikumsabnahmen 
 
 ## Präsenzzeit
+- Vorlesung: 12 Einheiten je 90 Minuten
+- Übung: 12 Einheiten je 45 Minuten
+- Pflicht-Praktikum: 2 Einheiten je 30 Minuten
 
 ## Selbststudium
+- Aufwand: ca. 78 Stunden für das gesamte Semester
 
 ## Empfohlene Literatur
+- Date, C.J.: "E. F. Codd and Relational Theory", Technics Publications LLC, 2021 (engl.)
+- Elmasri, R., Navathe, S.B.: "Fundamentals of Database Systems". Addison Wesley, 2016 (2009 auch auf deutsch)
+- Jens Dittrich, Uni Saarland, Datenbank-Vorlesung, Unterlagen: http://datenbankenlernen.de
+- mehr als 70 Videos: https://www.youtube.com/user/jensdit
+- Faeskorn-Woyke, H., Bertelsmeier, B., Riemer, P., Bauer, E.: „Datenbanksysteme: Theorie und Praxis mit Oracle und MySQL“, Pearson, 2007 – als pdf in ILIAS hochgeladen
+- Heuer, A., Saake, G., Sattler, K.-U., Grunert, H. …: „ Datenbanken Kompaktkurs“, MITP, 2020
+- Kemper, A., Eickler, A.: “Datenbanksysteme – Eine Einführung“. De Gruyter, 2015 mit Übungsbuch
+- Saake, G.; Sattler, K.-U.; Heuer, A.: „Datenbanken – Konzepte und Sprachen“, mitp/bhv, 2018
 
 ## Verwendung des Moduls in weiteren Studiengängen
 
