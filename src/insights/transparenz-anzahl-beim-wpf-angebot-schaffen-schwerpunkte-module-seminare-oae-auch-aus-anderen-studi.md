@@ -4,5 +4,5 @@ tags:
   - Handlungsbereich: Orga
   - Von: Aktive Studies Master
   - Themenfeld: WPFs / Schwerpunkte / Vertiefung
-  - Bachelor
+  - Master
 ---
