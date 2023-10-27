@@ -1,5 +1,5 @@
 ---
-title: Praxissemester, Self-Initiated Project oder Auslandssemester
+title: Praxissemester, Self-Initiated Project, Forschungssemester oder Auslandssemester
 modulverantwortlich: nd
 modulniveau: bachelor
 kuerzel: PM
