@@ -78,20 +78,20 @@ Die Studierenden sind in der Lage, Penetrationstests auf Webanwendungen durchzuf
 ## Inhalt
 
 * Anatomie von Webanwendung und Zuordnung bekannter Angriffsvektoren,
-* Browser-Security,
-* Same-Origin-Policy (SOP),
-* Cookies,
-* Gängige Angriffsvektoren auf Webanwendungen,
-* Input Validation Schwachstellen,
-* Authentikationsschwachstellen,
-* OWASP Top 10 Gegenmaßnahmen,
+* Browser-Security
+* Same-Origin-Policy (SOP)
+* Cookies
+* Gängige Angriffsvektoren auf Webanwendungen
+* Input Validation Schwachstellen
+* Authentikationsschwachstellen
+* OWASP Top 10 Gegenmaßnahmen
 * Risko-basierte Authentfizierung (RBA)
 * Secure Coding
-* TLS,
-* HTTP Authentication,
-* Content Security Policy (CSP),
-* WebAuthn,
-* Web Cryptography API,
+* TLS
+* HTTP Authentication
+* Content Security Policy (CSP)
+* WebAuthn
+* Web Cryptography API
 * Werkzeuge zur Analyse der Sicherheit von Webanwendungen
 
 ## Medienformen
