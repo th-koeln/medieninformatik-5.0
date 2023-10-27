@@ -20,11 +20,10 @@ studienleistungen:
     zweitpruefer: cn
     datum: vereinbarung
 meta:
-  status: rfreview     
+  status: rfreview   
   authors: viet
   reviewers: viet
 ---
-
 ## Sprache
 
 ## Häufigkeit des Angebots
@@ -51,17 +50,19 @@ meta:
 
 ## Kurzbeschreibung
 
-In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt. 
+In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt.
 
 ## Lehrform/SWS
 
 4 SWS: Seminar 2 SWS, Workshop 2 SWS
 
 ## Arbeitsaufwand
-Gesamtaufwand 180 Stunden, davon 
-- 36h Seminar 
-- 36h Workshop 
-- 108h Selbststudium 
+
+Gesamtaufwand 180 Stunden, davon
+
+- 36h Seminar
+- 36h Workshop
+- 108h Selbststudium
 
 ## Learning Outcomes
 
@@ -100,12 +101,13 @@ um später komplexe Web Architekturen mit hohen Qualitätsanforderungen zu entwi
   * GraphQL
   * gRPC
 * Dezentrale Kommunikation mit Matrix Protokoll
-* ...
 
 ## Medienformen
 
-Präsentationsmaterialien
+- Folienpräsentation
+- Live-Demonstrationen
 
 ## Literatur
 
-TBA
+- Stefan Tilkov et al. , REST und HTTP: Entwicklung und Integration nach dem Architekturstil des Web, 2015
+- Hoai Viet Nguyen, Authentication in Ultra Large-Scale REST-based Systems, Disseration, Universität Hamburg, 2020
