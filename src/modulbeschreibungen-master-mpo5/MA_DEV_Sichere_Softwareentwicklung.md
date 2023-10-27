@@ -7,7 +7,7 @@ informatik-master: ss
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: keine
+empfohleneVoraussetzungen: IT-Sicherheit, Web Architekturen, Web Technologien
 published: true
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
