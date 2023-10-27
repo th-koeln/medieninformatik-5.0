@@ -69,7 +69,7 @@ Gesamtaufwand 150h, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden wenden gängige Angriffsvektoren an und analysieren deren Ursachen.
+Die Studierenden wenden gängige Angriffsvektoren in Webanwendungen an und analysieren deren Ursachen.
 
 Die Studierenden verstehen Sicherheitskonzepte und Sicherheitsmaßnahmen, die vor Angriffen auf Webanwendungen schützen.
 

@@ -1,5 +1,5 @@
 ---
-title: Sichere Softwareentwicklung
+title: Sichere Softwareentwicklung verteilter, web-basierte Systeme
 modulverantwortlich: viet
 kuerzel: SSW
 studiensemester: 2
@@ -51,7 +51,7 @@ meta:
 
 ## Kurzbeschreibung
 
-Die Lehrveranstaltung vermittelt grundlegende Konzepte zur Gestaltung eines sicheren Softwareentwicklungsprozesses, beginnend beim Requirements Engineering und erstreckt sich bis zur Inbetriebnahme und Wartung.
+Die Lehrveranstaltung vermittelt grundlegende Konzepte zur Gestaltung eines sicheren Softwareentwicklungsprozesses verteilter, web-basierter Systeme, beginnend beim Requirements Engineering und erstreckt sich bis zur Inbetriebnahme und Wartung.
 
 ## Lehrform/SWS
 
@@ -68,8 +68,8 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-* Studierende verfügen über grundlegende Kenntnisse zur Gestaltung eines sicheren Softwareentwicklungsprozesses.
-* Studierende sind in der Lage, Anforderungen, Architekturen, Code, Testergebnisse und Überwachungsereignisse von komplexen Softwaresystemen zu analysieren und Sicherheitsschwachstellen zu identifizieren.
+* Studierende verfügen über grundlegende Kenntnisse zur Gestaltung eines sicheren Softwareentwicklungsprozesses für Webanwendungen und Web Services.
+* Studierende sind in der Lage, Anforderungen, Architekturen, Code, Testergebnisse und Überwachungsereignisse von verteilter, web-basierte Softwaresystemen zu analysieren und Sicherheitsschwachstellen zu identifizieren.
 * Studierende sind befähigt, qualitativ hochwertige Sicherheitskonzepte zu erstellen und Sicherheitsbewertungsberichte zu verfassen.
 * Studierende beherrschen den sicheren Umgang mit SAST, DAST, SCA und Fuzzing-Tools.
 
