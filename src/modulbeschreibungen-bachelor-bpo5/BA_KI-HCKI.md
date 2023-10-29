@@ -1,15 +1,15 @@
 ---
 title: Künstliche Intelligenz (Mensch-zentriert)
-modulverantwortlich: nd
+modulverantwortlich: dgaida, jschaible 
 modulniveau: bachelor
 kuerzel: HCKI
 untertitel:
-studiensemester: 4
+studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
-empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung
+empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm

@@ -4,7 +4,7 @@ modulverantwortlich: mboehmer
 modulniveau: bachelor
 kuerzel: MOCO
 untertitel:
-studiensemester: 3
+studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
