@@ -77,7 +77,7 @@ Die Studierenden sind in der Lage, Penetrationstests auf Webanwendungen durchzuf
 
 ## Inhalt
 
-* Anatomie von Webanwendung und Zuordnung bekannter Angriffsvektoren,
+* Anatomie von Webanwendung und Zuordnung bekannter Angriffsvektoren
 * Browser-Security
 * Same-Origin-Policy (SOP)
 * Cookies

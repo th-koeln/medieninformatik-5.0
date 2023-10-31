@@ -1,5 +1,5 @@
 ---
-title: Web Architekturen 
+title: Fortgeschrittene Themen verteilter, web-basierter Systeme
 modulverantwortlich: viet
 kuerzel: WTW-WBA
 studiensemester: 1
@@ -50,7 +50,7 @@ meta:
 
 ## Kurzbeschreibung
 
-In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt.
+In diesem Modul werden forgeschrittene Themen im Bereich verteilter, web-basierte Systeme behandelt.
 
 ## Lehrform/SWS
 
@@ -66,14 +66,14 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Learning Outcomes
 
-Studierende können Architekturen für  Webanwendungen entwerfen indem sie
+Studierende erlangen ein tieferes Verständnis in verteilten, web-basierte Systemen indem sie,
 
-* Architekturstile im Web analysieren und auswählen
+* Web-Architekturen und komplexe Softwaresysteme analysieren
 * über geeignete Technologien entscheiden und begründen
-* neues Wissen im Bereich Web Architekuren sich selber aneignen und
+* neues Wissen im Bereich verteilter, web-basierte Systeme sich selber aneignen und
 * anderen Studierenden das elernte Wissen strukturiert vermitteln
 
-um später komplexe Web Architekturen mit hohen Qualitätsanforderungen zu entwickeln, implementieren und evaluieren.
+um später komplexe Webanwendung und Webservices mit hohen Qualitätsanforderungen zu entwickeln, implementieren, evaluieren und optimieren.
 
 ## Inhalt
 
