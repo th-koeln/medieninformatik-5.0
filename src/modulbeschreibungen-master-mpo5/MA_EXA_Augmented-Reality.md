@@ -1,12 +1,12 @@
 ---
-title: Bildbasierte Computergrafik
+title: Augmented Reality
 modulverantwortlich: fn
-kuerzel: BCG
+kuerzel: AR
 studiensemester: 1
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
 published: true
 layout: modulbeschreibung.11ty.js
@@ -21,11 +21,11 @@ studienleistungen:
     zweitpruefer: hs
     datum: vereinbarung
 meta:
-  status: rfreview 
+  status: rfreview
 ---
 
 ## Kurzbeschreibung
-Diese Vorlesung gibt eine Einführung in die grundlegenden Konzepte der bildbasierten Synthese, mit besonderem Schwerpunkt auf Verfahren die für das Tracking in Augmented Reality Systemen zum Einsatz kommen.
+Diese Vorlesung gibt eine Einführung in die grundlegenden Konzepte der Erweiterten Realität, mit besonderem Schwerpunkt auf Verfahren zur Bildanalyse die für das Tracking in AR Systemen zum Einsatz kommen.
 
 Dabei werden verschiedenste Aspekte der Bild- und Videoverarbeitung,  wie sie in modernen Bearbeitungstools vorkommen, erarbeitet und selbst implementiert. Es werden Methoden zur Bildaufnahme, Bildverarbeitung und Bildsynthese erarbeitet. Die Teilnehmenden sind in der Lage Augmented Reality Anwendungen zu entwerfen, zu implementieren und zu evaluieren und dadurch eigenständige Beiträge in Forschung und Wirtschaft zu leisten.
 
@@ -34,6 +34,7 @@ Dabei werden verschiedenste Aspekte der Bild- und Videoverarbeitung,  wie sie in
 
 ## Arbeitsaufwand
 Gesamtaufwand 180 Stunden, davon
+
 - 36h Vorlesung
 - 36h Praktikum / Projekt
 - 108h Selbststudium
@@ -66,8 +67,5 @@ Nach erfolgreichem Abschluss
 
 ## Literatur
 - Dieter Schmalstieg, Tobias Höllerer, Augmented Reality: Principles and Practice, Addison-Wesley Professional, 2016
-- Reinhard Klette, Concise Computer Vision: An introduction into theory and algorithms, Springer, 2014- Bernd Jähne, Digitale Bildverarbeitung und Bildgewinnung, Springer, 2012
-- Christian Demant, Bernd Streicher-Abel, Axel Springhoff, Industrielle Bildverarbeitung: Wie optische Qualitätskontrolle wirklich funktioniert, Springer, 2011
-- Reinhard Klette, Andreas Koshan, Karsten Schlüns, Computer Vision, Vieweg 1996
+- Reinhard Klette, Concise Computer Vision: An introduction into theory and algorithms, Springer, 2014
 - Richard Hartley and Andrew Zisserman, Multiple View Geometry in Computer Vision, Cambridge 2000
-- M. Magnor, Video-based Rendering, AK Peters, 2005

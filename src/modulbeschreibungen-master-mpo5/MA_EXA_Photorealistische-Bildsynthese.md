@@ -1,36 +1,37 @@
 ---
 title: Photorealistische Bildsynthese
-modulverantwortlich: all
+modulverantwortlich: fn
 kuerzel: PB
 studiensemester: 1
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
-voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
+voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
 published: false
 layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: SWPM, WPM
 schwerpunkt: EXA
-infourl: 
+infourl:
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: ck
+    art: Mündliche Prüfung (60%), Fachvortrag (40%)
+    erstpruefer: fn
     zweitpruefer: gh
 meta:
-  status: rfreview     
+  status: rfreview
 ---
 
 ## Kurzbeschreibung
 Die Studierenden erlernen aktuelle Techniken zur Erzeugung photorealistischer Computergrafik, wie Sie in Filmen mittels vorhanden Tools wie Blender, Maya, 3DS Max verwendet wird. Dabei liegt der Schwerpunkt nicht auf der praktischen Anwendung sondern vor allem auf den darunterliegenden Algorithmen. Ziel ist es diese zu verstehen, zu erweitern und sinnvoll anwenden zu können.
 
-## Lehrform/SWS 
+## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Praktikum / Projekt 2 SWS
 
-## Arbeitsaufwand 
+## Arbeitsaufwand
 Gesamtaufwand 180 Stunden, davon
+
 - 36h Vorlesung
 - 36h Praktikum / Projekt
 - 108h Selbststudium
@@ -51,13 +52,13 @@ Gesamtaufwand 180 Stunden, davon
 - BRDFs
 - Radiosity
 - Monte Carlo Verfahren
-- Importance Sampling
 - Algorithmen der digitalen Bildverarbeitung zur Filterung von Monte Carlo Simulationen
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.
-- Klausur (60 Minuten) oder mündliche Prüfung (15 Minuten) (60%)
-- Fachvortrag (15 Minuten) (40%)
+
+- Mündliche Prüfung (30 Minuten) (60%)
+- Fachvortrag (20 Minuten) (40%)
 
 ## Medienformen
 - Beamergestützte Vorlesung
