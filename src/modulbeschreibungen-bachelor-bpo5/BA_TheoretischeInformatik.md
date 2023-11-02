@@ -7,7 +7,7 @@ untertitel:
 studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch
-kreditpunkte: 5
+kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einfache Kenntnisse der naiven Mengenlehre, wie sie in der Schule vermittelt und bei der mathematischen Begriffsbildung verwendet werden.
 published: true
@@ -70,10 +70,10 @@ Prof. Dr. Florian Niebling
 - Aufgaben zu den Lehrinhalten werden in kleinen Gruppen (Teamarbeit) selbständig gelöst. Die Lösungen sollen in den Übungsstunden vorgetragen und der Lösungsweg den Kommilitonen hierbei erläutert werden.
 
 ## Präsenzzeit
-- 60h Vorlesung / Übung
+- 72h Vorlesung / Übung
 
 ## Selbststudium
-- 90h Selbstlernphase
+- 108h Selbstlernphase
 
 ## Empfohlene Literatur
 - Hoffmann, D. (2018): Theoretische Informatik, 4. Auflage, Carl Hanser Verlag München.
