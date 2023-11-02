@@ -92,3 +92,28 @@ tbd
 ## Medienformen
 
 ## Literatur
+
+
+## Alternative Modulnamen
+
+- Marktorientierte Produktentwicklung
+- Markterprobung und Geschäftsmodellierung
+- Produktideenmanagement in digitalen Märkten
+- Marktanalyse für digitale Lösungen
+- Geschäftsmodelle für Medieninnovationen
+- Digitale Produktentwicklung und Vermarktung
+- Produktinnovation in digitalen Ökosystemen
+- Geschäftsmodell-Validierung in der Medienwelt
+- Medieninformatik und Marktstrategien
+- Interactive Media Products and Market Testing
+- Market-Driven Product Development
+- Interactive Media Products and Business Models
+- Market Validation in Media Informatics
+- Digital Media Ventures and Business Strategy
+- Media Entrepreneurship and Market Validation
+- Business Models in Media Innovation
+- Media Product Development Strategies
+- Digital Media Marketing and Product Launch
+- Market-Ready Product Solutions
+- Media Product Economics
+- Media Informatics and Market Strategies
