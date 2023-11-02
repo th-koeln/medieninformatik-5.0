@@ -1,0 +1,19 @@
+{
+	"srcPath": "../../src/modulbeschreibungen-bachelor-bpo5",
+	
+		"rootDir": "/medieninformatik-5.0",
+
+	"placeholder": {
+		"title": "Modulhandbuch Medieninformatik Bachelor"
+	},
+
+	"postprocessLatex": {
+		"replace": [
+			[ "/\\\\section/"       , "\\\\chapter" ],
+        	[ "/\\\\subsection/"    , "\\\\section*" ],
+        	[ "/\\\\subsubsection/" , "\\\\subsection*" ],
+        	
+        	[ "/includegraphics/" , "includegraphics[width=\\\\columnwidth]" ]
+		]
+	}
+}
