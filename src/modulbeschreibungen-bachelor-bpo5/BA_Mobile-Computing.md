@@ -34,10 +34,14 @@ meta:
 ---
 
 ## Sprache
+Deutsch
 
 ## Häufigkeit des Angebots
+Jedes Sommersemester
 
 ## Dozierende
+* Prof. Dr. Matthias Böhmer
+* David Petersen, M.Sc.
 
 ## Learning Outcome
 
@@ -52,6 +56,8 @@ meta:
 ## Empfohlene Literatur
 
 ## Verwendung des Moduls in weiteren Studiengängen
+* WPF in Informatik
+* PF in IT-Management
 
 ## Besonderheiten
 
