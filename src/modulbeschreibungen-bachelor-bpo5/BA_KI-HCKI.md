@@ -47,6 +47,34 @@ Dies befähigt sie, innovative KI-Systeme zu gestalten, die die Bedürfnisse und
 
 ## Modulinhalte
 
+- Einführung in Human-Centered AI
+
+- Grundlagen der künstlichen Intelligenz
+
+-- Einführung in maschinelles Lernen
+
+-- Datenverarbeitung und -analyse für KI
+
+- Design von benutzerzentrierten KI-Systemen
+
+- Ethik und Fairness in der KI
+
+-- Bias und Fairness in KI
+
+-- Datenschutz und Sicherheit in KI-Systemen
+
+- Fortgeschrittene AKI-Techniken für HCI
+
+-- Natural Language Processing und Chatbots
+
+-- Computer Vision und Bilderkennung
+
+- Zukunftstrends und Anwendungen von Human-Centered AI
+
+-- Erklärbare KI und KI-Ethik in der Praxis
+
+-- KI und die Zukunft der Mensch-Maschine-Interaktion
+
 ## Lehr- und Lernmethoden
 Vorlesung, Übung, Praktikum
 ## Präsenzzeit
@@ -58,5 +86,6 @@ Vorlesung, Übung, Praktikum
 ## Empfohlene Literatur
 
 ## Verwendung des Moduls in weiteren Studiengängen
+nein
 
 ## Besonderheiten
