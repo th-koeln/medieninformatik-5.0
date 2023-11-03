@@ -51,29 +51,29 @@ Dies befähigt sie, innovative KI-Systeme zu gestalten, die die Bedürfnisse und
 
 - Grundlagen der künstlichen Intelligenz
 
--- Einführung in maschinelles Lernen
+    - Einführung in maschinelles Lernen
 
--- Datenverarbeitung und -analyse für KI
+    - Datenverarbeitung und -analyse für KI
 
 - Design von benutzerzentrierten KI-Systemen
 
 - Ethik und Fairness in der KI
 
--- Bias und Fairness in KI
+    - Bias und Fairness in KI
 
--- Datenschutz und Sicherheit in KI-Systemen
+    - Datenschutz und Sicherheit in KI-Systemen
 
-- Fortgeschrittene AKI-Techniken für HCI
+- Fortgeschrittene KI-Techniken für HCI
 
--- Natural Language Processing und Chatbots
+    - Natural Language Processing und Chatbots
 
--- Computer Vision und Bilderkennung
+    - Computer Vision und Bilderkennung
 
 - Zukunftstrends und Anwendungen von Human-Centered AI
 
--- Erklärbare KI und KI-Ethik in der Praxis
+    - Erklärbare KI und KI-Ethik in der Praxis
 
--- KI und die Zukunft der Mensch-Maschine-Interaktion
+    - KI und die Zukunft der Mensch-Maschine-Interaktion
 
 ## Lehr- und Lernmethoden
 Vorlesung, Übung, Praktikum
@@ -84,7 +84,7 @@ Vorlesung, Übung, Praktikum
 ## Selbststudium
 
 ## Empfohlene Literatur
-
+Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2023.
 ## Verwendung des Moduls in weiteren Studiengängen
 nein
 
