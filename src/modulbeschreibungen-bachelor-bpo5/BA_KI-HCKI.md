@@ -26,17 +26,29 @@ meta:
   status: tbd    
 ---
 ## Sprache
-
+Deutsch
 ## Häufigkeit des Angebots
 
 ## Dozierende
-
+dgaida, jschaible 
 ## Learning Outcome
+
+Die Studierenden können:
+
+-	Bias in Trainingsdaten und Modellen erkennen, indem sie quantitative und qualitative Analysemethoden anwenden, um Ungerechtigkeiten in Bezug auf Geschlecht, Rasse, Alter und andere relevante Attribute zu identifizieren.
+
+-	Ethik und Fairness in die Modellentwicklung integrieren, indem sie Algorithmus-Design-Prinzipien nutzen, um sicherzustellen, dass die KI-Modelle fair, gerecht und diskriminierungsfrei agieren.
+
+-	Praktische Fähigkeiten in der Prototypenerstellung und im Usability-Testing entwickeln, um die Benutzerfreundlichkeit und die Benutzererfahrung von KI-Anwendungen zu verbessern.
+
+-	Kritische ethische Überlegungen in den gesamten Entwicklungszyklus von KI-Systemen einbeziehen und die Auswirkungen von Entscheidungen auf die Gesellschaft, die Privatsphäre und die Gerechtigkeit bewerten.
+
+Dies befähigt sie, innovative KI-Systeme zu gestalten, die die Bedürfnisse und Erwartungen der Benutzer erfüllen, während sie gleichzeitig ethische Standards wahren und Bias minimieren.
 
 ## Modulinhalte
 
 ## Lehr- und Lernmethoden
-
+Vorlesung, Übung, Praktikum
 ## Präsenzzeit
 
 ## Selbststudium
