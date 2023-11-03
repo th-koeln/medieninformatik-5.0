@@ -28,9 +28,9 @@ meta:
 ## Sprache
 Deutsch
 ## Häufigkeit des Angebots
-
+Wintersemester
 ## Dozierende
-dgaida, jschaible 
+Prof. Dr. Daniel Gaida, Prof. Dr. Johann Schaible
 ## Learning Outcome
 
 Die Studierenden können:
@@ -50,7 +50,9 @@ Dies befähigt sie, innovative KI-Systeme zu gestalten, die die Bedürfnisse und
 ## Lehr- und Lernmethoden
 Vorlesung, Übung, Praktikum
 ## Präsenzzeit
-
+- Vorlesung: 12 Einheiten je 90 Minuten
+- Übung: 12 Einheiten je 90 Minuten
+- Praktikum: ?
 ## Selbststudium
 
 ## Empfohlene Literatur
