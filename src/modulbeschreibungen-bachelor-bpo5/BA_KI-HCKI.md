@@ -1,5 +1,5 @@
 ---
-title: Künstliche Intelligenz (Mensch-zentriert)
+title: Mensch-zentrierte Künstliche Intelligenz
 modulverantwortlich: dgaida, jschaible 
 modulniveau: bachelor
 kuerzel: HCKI
