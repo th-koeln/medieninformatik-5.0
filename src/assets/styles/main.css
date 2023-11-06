@@ -974,7 +974,7 @@ ul.gallery-grid .gallery-item::before {
 
 /* Page
 ############################################################################ */
-.page h2, .page h3, .page h4, .page p {
+.page main h2, .page main h3, .page main h4, .page main p {
   max-width: var(--max-width-content);
 }
 

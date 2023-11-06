@@ -44,6 +44,13 @@ module.exports = {
 				${createRow("Empfohlene Voraussetzungen", data.empfohleneVoraussetzungen)}
 				${createRow("Weitere Informationen zum Modul", data.infourl)}
 				${createRow("Studienleistungen", moduleTools.resolveExamInfoSimple(data.studienleistungen))}
+				${createRow("Sprache", data.sprache)}
+				${createRow("Level", utils.ucFirst(data.kategorie))}
+				${createRow("Häufigkeit des Angebots", moduleTools.resolveFrequency(data))}
+				${createRow("Verwendung des Moduls in weiteren Studiengängen", moduleTools.studyPrograms(data.weitereStudiengaenge))}
+				${createRow("Besonderheiten", data.besonderheiten)}
+				${createRow("Präsenzzeit", `${data.praesenzZeit} Stunden`)}
+				${createRow("Selbststudium", `${data.selbstStudium} Stunden`)}
 			</table>
 		`;
 

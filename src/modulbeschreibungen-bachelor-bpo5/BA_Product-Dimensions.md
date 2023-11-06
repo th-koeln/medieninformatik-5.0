@@ -98,7 +98,6 @@ tbd
 
 - Marktorientierte Produktentwicklung
 - Markterprobung und Geschäftsmodellierung
-- Produktideenmanagement in digitalen Märkten
 - Marktanalyse für digitale Lösungen
 - Geschäftsmodelle für Medieninnovationen
 - Digitale Produktentwicklung und Vermarktung

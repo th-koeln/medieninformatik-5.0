@@ -80,3 +80,12 @@ exports.parseContent = (eleventy, data) => {
 
   return contentWithSnippets;
 };
+
+
+/* Ersten Buchstaben eines Strings groß schreiben
+############################################################################ */
+
+exports.ucFirst = (string) => {
+  if(!string) return '';
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};

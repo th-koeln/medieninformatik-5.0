@@ -1,6 +1,6 @@
 ---
 title: Medieninformatik Projekt
-modulverantwortlich: 
+modulverantwortlich: gh
 modulniveau: bachelor
 kuerzel: MIP
 untertitel:
