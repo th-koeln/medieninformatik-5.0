@@ -49,8 +49,8 @@ module.exports = {
 				${createRow("Häufigkeit des Angebots", moduleTools.resolveFrequency(data))}
 				${createRow("Verwendung des Moduls in weiteren Studiengängen", moduleTools.studyPrograms(data.weitereStudiengaenge))}
 				${createRow("Besonderheiten", data.besonderheiten)}
-				${createRow("Präsenzzeit", `${data.praesenzZeit} Stunden`)}
-				${createRow("Selbststudium", `${data.selbstStudium} Stunden`)}
+				${createRow("Präsenzzeit in Stunden", data.praesenzZeit)}
+				${createRow("Selbststudium in Stunden", data.selbstStudium)}
 			</table>
 		`;
 

@@ -54,7 +54,7 @@ Grundvoraussetzung für wissenschaftliches Arbeiten (z.B. Bachelor Thesis)
 
 ## Inhalte
 - Lieraturrecherche, Recherchestrategien & Suchfunktionen
-- (wissenschatliche) Quellen beurteiln
+- (wissenschatliche) Quellen beurteilen
 - Zitieren und Zitierstile
 - Peer Review
 - Wissenschaftliches Schreiben & Schreibstrategien

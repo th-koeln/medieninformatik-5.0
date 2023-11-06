@@ -27,7 +27,7 @@ studienleistungen:
     zweitpruefer: vos
     datum: ende
 meta:
-  status: rfreview
+  status: ok
 besonderheiten: 
 praesenzZeit: 60
 selbstStudium: 90

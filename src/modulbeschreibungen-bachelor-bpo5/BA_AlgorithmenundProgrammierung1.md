@@ -23,48 +23,30 @@ studienleistungen:
     zweitpruefer: ck
     datum: ws-1
 meta:
-  status: rfreview
+  status: ok
   authors: Frank
-  reviewers: Frank
+  reviewers: Frank, Christian
+besonderheiten: 
+praesenzZeit: 108
+selbstStudium: 132
+angebotImWs: true
+angebotImSs: false
+weitereStudiengaenge:
+  - itm
+  - i
+  - wi
+arbeitsaufwand:
+  - 54h Vorlesung 
+  - 36h Praktikum
+  - 18h Übung
+  - 132h Selbststudium 
+lehrformen:
+  - Vorlesung 3 SWS
+  - Übung 1 SWS
+  - Praktikum 2 SWS
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
 ## Learning Outcome
-
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
-
-## Lehrform/SWS
-
-6 SWS: Vorlesung 3 SWS; Übung 1 SWS; Praktikum 2 SWS
-
-## Arbeitsaufwand
-
-Gesamtaufwand 240h, davon 
-
-- 54h Vorlesung 
-- 36h Praktikum
-- 18h Übung
-- 132h Selbststudium 
-
-## Angestrebte Lernergebnisse
 
 Die Studierenden sollen
 
@@ -74,19 +56,14 @@ Die Studierenden sollen
 - die Fähigkeit erlernen, algorithmische Entwurfsmuster zu erkennen und anzuwenden
 
 ## Inhalt
-* Prozedurale Programmierung am Beispiel von C.
-* Objektorientierte Programmierung am Beispiel von Java.
-* Kontroll- und Datenstrukturen.
-* Modularisierungskonzepte.
-* Typkonzepte.
-* Grundmuster der objektorientierten Programmierung.
-* Elementare Algorithmen und Aufwandsschätzung.
-* Entwicklungsumgebungen.
-
-
-## Medienformen
-- Beamer-gestützte Vorlesungen (Folien in elektronischer Form) 
-- Praktikum an Rechnern des Labors
+* Prozedurale Programmierung am Beispiel von C
+* Objektorientierte Programmierung am Beispiel von Java
+* Kontroll- und Datenstrukturen
+* Modularisierungskonzepte
+* Typkonzepte
+* Grundmuster der objektorientierten Programmierung
+* Elementare Algorithmen und Aufwandsschätzung
+* Entwicklungsumgebungen
 
 ## Literatur
 

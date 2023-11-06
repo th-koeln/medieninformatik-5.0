@@ -22,52 +22,29 @@ studienleistungen:
     zweitpruefer: aschmitter
     datum: ws-1
 meta:
-  status: rfreview  
+  status: ok  
   authors: Wolfgang
-  reviewers: Wolfgang  
+  reviewers: Wolfgang
+besonderheiten: 
+praesenzZeit: 108
+selbstStudium: 102
+angebotImWs: true
+angebotImSs: false
+weitereStudiengaenge: 
+  - i
+  - itm
+  - wi
+lehrform:
+  - Vorlesung 3 SWS
+  - Praktikum 1 SWS
+  - Übung 2 SWS
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
 
 ## Learning Outcome
 
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
+Die Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Systeme entwickeln, indem sie praktische Aufgabenstellungen aus dem Informatik-Umfeld in mathematische Strukturen abstrahieren und lernen, selbstständig  die Modellfindung und die Ergebnisbeurteilung vorzunehmen. Dabei sollen die Anwendungsbezüge der Mathematik deutlich werden, z.B. die Bedeutung funktionaler Beziehungen für kontinuierliche Zusammenhänge, die lineare Algebra z.B als Grundlage der grafischen Datenverarbeitung und die Analysis zur Verarbeitung von Signalen und zur Lösung von mathematischen Modellen.
 
 Weitere Infos unter [http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm](http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm).
-
-## Lehrform/SWS
-6 SWS: Vorlesung  3 SWS; Praktikum 1 SWS; Übung 2 SWS
-
-## Arbeitsaufwand
-
-Gesamtaufwand 210h, davon 
-
-- 54h Vorlesung 
-- 18h Praktikum
-- 36h Übung
-- 102h Selbststudium 
-
-## Angestrebte Lernergebnisse
-
-Die Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Systeme entwickeln, indem sie praktische Aufgabenstellungen aus dem Informatik-Umfeld in mathematische Strukturen abstrahieren und lernen, selbstständig  die Modellfindung und die Ergebnisbeurteilung vorzunehmen. Dabei sollen die Anwendungsbezüge der Mathematik deutlich werden, z.B. die Bedeutung funktionaler Beziehungen für kontinuierliche Zusammenhänge, die lineare Algebra z.B als Grundlage der grafischen Datenverarbeitung und die Analysis zur Verarbeitung von Signalen und zur Lösung von mathematischen Modellen.
 
 
 ## Inhalt

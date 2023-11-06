@@ -1,6 +1,6 @@
 ---
 title: Medienprojekt
-modulverantwortlich:
+modulverantwortlich: hk
 modulniveau: bachelor
 kuerzel: MP
 untertitel:
