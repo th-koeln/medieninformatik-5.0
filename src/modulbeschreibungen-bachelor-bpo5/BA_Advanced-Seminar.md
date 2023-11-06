@@ -22,19 +22,16 @@ studienleistungen:
     zweitpruefer: cn
     datum: ende
 meta:
-  status: tbd  
+  status: ok
   authors: Mirjam
-  reviewers: Mirjam
+  reviewers: Mirjam, Christian
+besonderheiten: 
+praesenzZeit: 40
+selbstStudium: 110
+angebotImWs: true
+angebotImSs: false
+weitereStudiengaenge:   
 ---
-
-## Sprache
-  deutsch
-
-## Häufigkeit des Angebots
-  jedes Semester?
-
-## Dozierende
-  Mirjam Blümm
 
 ## Learning Outcome
 WAS:
@@ -55,7 +52,7 @@ Wissenschaftliche Diskurse
 Grundvoraussetzung für wissenschaftliches Arbeiten (z.B. Bachelor Thesis)
 
 
-## Modulinhalte
+## Inhalte
 - Lieraturrecherche, Recherchestrategien & Suchfunktionen
 - (wissenschatliche) Quellen beurteiln
 - Zitieren und Zitierstile
@@ -63,18 +60,10 @@ Grundvoraussetzung für wissenschaftliches Arbeiten (z.B. Bachelor Thesis)
 - Wissenschaftliches Schreiben & Schreibstrategien
 
 ## Lehr- und Lernmethoden
-- flippeed classroom
+- Flippeed Classroom
 - Foliengestützte Vorlesung
 - Diskussionsrunden
-  
-## Präsenzzeit
-
-## Selbststudium
 
 ## Empfohlene Literatur
 Esselborn-Krumbiegel, Helga. 2021. Von der Idee zum Text: eine Anleitung zum wissenschaftlichen Schreiben. 6., aktualisierte Auflage. Paderborn: Brill Schöningh.
 
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten

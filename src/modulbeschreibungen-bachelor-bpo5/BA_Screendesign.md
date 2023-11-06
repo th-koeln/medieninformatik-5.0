@@ -5,12 +5,9 @@ modulniveau: bachelor
 kuerzel: SD
 untertitel:
 studiensemester: 1
-angebotImWs: true
-angebotImSs: false
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5
-weitereStudiengaenge: 
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: keine
 published: true
@@ -34,6 +31,9 @@ meta:
 besonderheiten: 
 praesenzZeit: 60
 selbstStudium: 90
+angebotImWs: true
+angebotImSs: false
+weitereStudiengaenge: 
 ---
 
 ## Learning Outcome
