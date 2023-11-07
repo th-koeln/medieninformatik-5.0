@@ -219,7 +219,8 @@ mi:
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter, Prof. Dr. Matthias Böhmer, Prof. Dr. Raphaela Groten, Prof. Dr. Florian Niebling, Prof. Dr. Hoai Viet Nguyen, Prof. Dr. Irma Lindt'
 all:
     id: all
-    name: 'alle Professor:innen der TH Köln'
+    name: 'alle Professor:innen'
+    
 eingesetzterPruefer:
     id: eingesetzterPruefer
     name: vom Prüfungsausschuss eingesetzte:r Prüfer:in
