@@ -3,7 +3,7 @@ title: Externe Expertise
 layout: page.11ty.js
 level: 2
 meta:
-  status: tbd
+  status: wartet auf Review
   authors: Volker Schaefer
   reviewers: 
   purpose: |
