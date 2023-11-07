@@ -19,12 +19,16 @@ Für die Reakkreditierung des Studiengangs Medieninformatik wurden neben externe
 3. **Stakeholderanalyse**: Im Zuge einer Stakeholderanalyse, die unter anderem die Stakeholdergruppen „Studierende Allgemein“, „Bachelor Studierende“, „Master Studierende“, „Campusfremde Studierende“, „Erasmus Studierende“ und „Alumni“ betrachtete, wurden in Bezug auf verschiedene Bereiche des Studiengangs (bspw. Lehre, Kommunikation, Struktur, etc.) Erwartungen der Studierenden erarbeitet und notiert. Hierbei flossen die Ergebnisse aus der SWOT-Analyse sowie persönliche Erfahrungen von aktuellen Studierenden am Campus und Absolventen mit ein.
 4. **Wunsch-Curricula**: Beim Aufbau eines neuen Curriculums im Bachelor und Master des Studiengangs Medieninformatik hatten die Studierenden die Möglichkeit ihre persönlichen Wünsche mit einzubringen. Hierfür wurden der aktuelle Studienverlaufsplan aufgezeichnet und mittels Post-Its hatten die Studierenden die Möglichkeit die aktuellen Module flexibel zu verschieben oder zu verwerfen. Auch neue Wunsch-Module konnten ergänzt werden. Dadurch konnten Einblicke in die Erwartungen und Anforderungen der Studierenden an den Studiengang gewonnen werden.
 
+ToDo:
 *Hier folgt Zusammenfassung, welche Erkenntnisse aus den Methoden abgeleitet werden konnten (s. bspw. Angriffspunkte)*
 
 #### Was wurde am Studiengang aufgrund der Stellungnahme der Studierenden geändert bzw. neu abgestimmt?
+todo
+
+--------
 
 ToDo:
-- Keep Drop Try
 > Keep Drop Try steht bereits bei der externen Expertise. Hier also weglassen?
+- Keep Drop Try
 - How might we + Umsetzung dieser (z. B. IuG)
 - Angriffspunkte
