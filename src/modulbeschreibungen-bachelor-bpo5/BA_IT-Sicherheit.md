@@ -18,24 +18,31 @@ veranstaltungsform:
 parent:
 studienleistungen:
   Einzelleistung:
-    art: Seminarvortrag
+    art: Präsentation und kritische Würdigung im seminaristischen Teil des Praktikums
     erstpruefer: sk
     zweitpruefer: hls
     datum: vereinbarung
 meta:
-  status: tbd   
+  status: ok   
   authors: Stefan
   reviewers: Stefan
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - itm
+lehrmethoden:
+  - Vorlesung mit Fallbeispielen
+  - Bearbeitung eines ausgewählten  projektzentrierten Themas
+  - Coaching der Projektteams
+  - Individuelle Beratung der Projektteams zu dem zu bearbeitenden Fall im Praktikum  
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
+
 ---
-
-## Sprache
-Deutsch
-
-## Häufigkeit des Angebots
-in jedem Sommersemester
-
-## Dozierende
-Prof. Dr. Stefan Karsch
 
 ## Learning Outcome
 * (WAS) beherrschen die in der Vorlesung vorgestellte Terminologie der IT-Sicher-
@@ -49,33 +56,14 @@ leiten,
 (WOMIT) in dem sie die Maßnahmen für ein konkretes Beispielszenario konzeptio-
 nieren, (WOZU) um sie später im Rahmen des Praktikums zu implementieren.
 
-## Modulinhalte
+## Inhalte
 * Was ist Sicherheit?
 * Terminologie der IT-Sicherheit
 * Authentisierung
 * Sicherheit in Rechnernetzen
 * Werkzeuge zur Analyse und Realisierung von Sicherheitsfunktionen
 
-## Lehr- und Lernmethoden
-* Vorlesung mit Fallbeispielen
-* Bearbeitung eines ausgewählten  projektzentrierten Themas
-* Coaching der Projektteams
-* Individuelle Beratung der Projektteams zu dem zu bearbeitenden Fall im Praktikum
-
-## Prüfungsformen
-Präsentation und kritische Würdigung im seminaristischen Teil des Praktikums
-
-## Präsenzzeit
-72 h (2 SWS Vorlesung, 2 SWS Praktikum)
-## Selbststudium
-78h
 ## Empfohlene Literatur
-* Claudia Eckert, "IT-Sicherheit: Konzepte - Verfahren - Protokolle", De Gruyter Stu-
-dium, 2018
-* Bruce Schneier, "Secrets and Lies: Digital Security in a Networked World", Wiley,
-2015
-## Verwendung des Moduls in weiteren Studiengängen
-als WPF in Informatik und Wirtschaftsinformatik, als PF in IT-Management
+* Claudia Eckert, "IT-Sicherheit: Konzepte - Verfahren - Protokolle", De Gruyter Studium, 2018
+* Bruce Schneier, "Secrets and Lies: Digital Security in a Networked World", Wiley, 2015
 
-## Besonderheiten
-Keine

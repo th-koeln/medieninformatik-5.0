@@ -1,6 +1,6 @@
 ---
 title: Einführung in die Medieninformatik
-modulverantwortlich: 
+modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: EMI
 untertitel:

@@ -1,6 +1,6 @@
 ---
 title: Praxisprojekt, Seminar
-modulverantwortlich: 
+modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: PPS
 untertitel:
