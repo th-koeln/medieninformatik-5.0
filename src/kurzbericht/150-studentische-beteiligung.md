@@ -28,7 +28,7 @@ todo
 --------
 
 ToDo:
-> Keep Drop Try steht bereits bei der externen Expertise. Hier also weglassen?
+> Nathalie: Keep Drop Try steht bereits bei der externen Expertise. Hier also weglassen?
 - Keep Drop Try
 - How might we + Umsetzung dieser (z. B. IuG)
 - Angriffspunkte
