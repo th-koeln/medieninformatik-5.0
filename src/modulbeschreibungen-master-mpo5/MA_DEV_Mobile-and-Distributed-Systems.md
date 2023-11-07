@@ -1,7 +1,7 @@
 ---
-title: Mobile and Distributed Systems
+title: Mobile and Distributed Interactive Systems
 modulverantwortlich: boehmer
-kuerzel: WTW-WBA
+kuerzel: MODI
 studiensemester: 1
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan

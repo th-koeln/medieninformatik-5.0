@@ -12,7 +12,7 @@ published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: SWPM, WPM
-schwerpunkt: EXA
+schwerpunkt: EXA, DEV
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
