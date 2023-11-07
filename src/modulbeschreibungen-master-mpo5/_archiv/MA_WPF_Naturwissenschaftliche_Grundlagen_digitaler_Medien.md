@@ -1,6 +1,7 @@
 ---
 title: Naturwissenschaftliche Grundlagen Digitaler Medien
 modulverantwortlich: gh
+dozierende: gh
 kuerzel: NWGDM
 studiensemesterWs: 3
 studiensemesterSs: 2

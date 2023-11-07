@@ -1,6 +1,7 @@
 ---
 title: Vertiefungsworkshop 1
 modulverantwortlich: moe
+dozierende: moe
 kuerzel: VW1
 studiensemesterWs: 3
 studiensemesterSs: 1

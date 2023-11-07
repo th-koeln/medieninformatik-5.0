@@ -1,6 +1,7 @@
 ---
 title: Medienprojekt
 modulverantwortlich: hk
+dozierende: hk
 modulniveau: bachelor
 kuerzel: MP
 date: Last Modified

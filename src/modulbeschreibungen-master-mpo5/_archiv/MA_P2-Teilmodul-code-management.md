@@ -1,6 +1,7 @@
 ---
 title: Beautiful Code
 modulverantwortlich: ck
+dozierende: ck
 kuerzel: 
 studiensemesterWs: 2
 studiensemesterSs: 3

@@ -1,6 +1,7 @@
 ---
 title: Medieninformatik Projekt
 modulverantwortlich: gh
+dozierende: gh
 modulniveau: bachelor
 kuerzel: MIP
 date: Last Modified

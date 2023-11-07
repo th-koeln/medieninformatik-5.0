@@ -1,6 +1,7 @@
 ---
 title: Netzwerk-und Graphentheorie
 modulverantwortlich: petru
+dozierende: petru
 kuerzel: NGT
 studiensemesterWs: 2
 studiensemesterSs: 1

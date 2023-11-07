@@ -1,6 +1,7 @@
 ---
 title: Guided Project im Schwerpunkt
 modulverantwortlich: all
+dozierende: all
 kuerzel: SGP
 studiensemester: 2
 sprache: deutsch

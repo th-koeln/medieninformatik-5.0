@@ -1,6 +1,7 @@
 ---
 title: Social Computing
 modulverantwortlich: ck
+dozierende: ck
 modulniveau: bachelor
 kuerzel: CE
 date: Last Modified

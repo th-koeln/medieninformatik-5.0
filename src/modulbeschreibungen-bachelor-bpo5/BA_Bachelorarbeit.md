@@ -1,6 +1,7 @@
 ---
 title: Bachelorarbeit
 modulverantwortlich: all
+dozierende: all
 modulniveau: bachelor
 kuerzel: BA
 date: Last Modified

@@ -1,6 +1,7 @@
 ---
 title: Ubiquitous Computing
 modulverantwortlich: mboehmer
+dozierende: mboehmer
 kuerzel: UC
 studiensemester: 1
 sprache: wahlweise deutsch oder englisch

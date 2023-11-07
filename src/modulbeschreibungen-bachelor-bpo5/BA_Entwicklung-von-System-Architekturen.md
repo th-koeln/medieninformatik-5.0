@@ -1,6 +1,7 @@
 ---
 title: Entwicklung von System-Architekturen
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: bachelor
 kuerzel: ST1
 date: Last Modified

@@ -1,6 +1,7 @@
 ---
 title: Projektanteil Projekt 1
 modulverantwortlich: gh, hk, mbluemm, cn, ck
+dozierende: gh, hk, mbluemm, cn, ck
 kuerzel: P1
 studiensemesterWs: 1
 studiensemesterSs: 2

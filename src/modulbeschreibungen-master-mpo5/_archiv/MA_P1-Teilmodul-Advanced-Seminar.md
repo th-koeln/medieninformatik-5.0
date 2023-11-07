@@ -1,6 +1,7 @@
 ---
 title: Advanced Seminar
 modulverantwortlich: mbluemm
+dozierende: mbluemm
 kuerzel: AS
 studiensemesterWs: 1
 studiensemesterSs: 2

@@ -1,6 +1,7 @@
 ---
 title: Web Architekturen 
 modulverantwortlich: viet
+dozierende: viet
 kuerzel: WTW-WBA
 studiensemester: 1
 sprache: deutsch

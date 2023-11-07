@@ -1,6 +1,7 @@
 ---
 title: Wahlpflichtmodul 2
 modulverantwortlich: all
+dozierende: all
 modulniveau: bachelor
 kuerzel: WPF
 date: Last Modified 

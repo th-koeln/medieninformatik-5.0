@@ -1,6 +1,7 @@
 ---
 title: Angewandte Statistik für die Human-Computer Interaction
 modulverantwortlich: gh
+dozierende: gh
 kuerzel: Stat
 studiensemester: 2
 sprache: deutsch

@@ -1,6 +1,7 @@
 ---
 title: Informations- ud Prozessmanagement
 modulverantwortlich: N.N.
+dozierende: N.N.
 kuerzel: IPM
 studiensemesterWs: 3
 studiensemesterSs: 2

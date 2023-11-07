@@ -28,10 +28,14 @@ module.exports = {
 			? '' 
 			: peopleTools.resolvePerson(data.people, data.modulverantwortlich);
 
+		const dozentinnen = !data.dozierende 
+			? '' 
+			: peopleTools.resolvePerson(data.people, data.dozierende);
+
 		const coreData = `
 			<table class="core-data">
 				${createRow("Modulverantwortlich", modulverantwortlich)}
-				${createRow("Verantwortlich", data.verantwortlich)}
+				${createRow("Dozent:innen", dozentinnen)}
 				${createRow("Kürzel", data.kuerzel)}
 				${createRow("Untertitel", data.untertitel)}
 				${createRow("Studiensemester", data.studiensemester)}

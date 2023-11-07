@@ -1,6 +1,7 @@
 ---
 title: Frontend Development
 modulverantwortlich: cn
+dozierende: cn
 modulniveau: bachelor
 kuerzel: FD
 date: Last Modified

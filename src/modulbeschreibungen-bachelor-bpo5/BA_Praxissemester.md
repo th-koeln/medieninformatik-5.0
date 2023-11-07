@@ -1,6 +1,7 @@
 ---
 title: Praxis-, Forschungs- oder Auslandssemester
 modulverantwortlich: seckstein
+dozierende: seckstein
 dozentinnen: all
 modulniveau: bachelor
 kuerzel: PM

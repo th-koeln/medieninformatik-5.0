@@ -1,6 +1,7 @@
 ---
 title: Spezielle Gebiete der Gamification
 modulverantwortlich: uwm
+dozierende: uwm
 kuerzel: WPF-SGG
 studiensemester: 1
 sprache: deutsch

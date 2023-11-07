@@ -1,6 +1,7 @@
 ---
 title: Projektarbeit - Forschung, Evaluation/Assessment, Verwertung im Kontext des Studienschwerpunkts
 modulverantwortlich: hk, mbluemm, ck, gh, cn
+dozierende: hk, mbluemm, ck, gh, cn
 kuerzel: MIMP-V
 studiensemesterWs: 3
 studiensemesterSs: 1

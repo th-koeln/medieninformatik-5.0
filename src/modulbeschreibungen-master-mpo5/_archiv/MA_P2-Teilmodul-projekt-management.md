@@ -1,6 +1,7 @@
 ---
 title: Projekt Management
 modulverantwortlich: hg
+dozierende: hg
 kuerzel: PM
 studiensemesterWs: 2
 studiensemesterSs: 3

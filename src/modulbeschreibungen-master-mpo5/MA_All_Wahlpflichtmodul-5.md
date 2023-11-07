@@ -1,6 +1,7 @@
 ---
 title: Wahlpflichtmodul 5
 modulverantwortlich: all
+dozierende: all
 kuerzel: WPM
 studiensemesterVierSemestrig: 3
 dreiSemestrig: true

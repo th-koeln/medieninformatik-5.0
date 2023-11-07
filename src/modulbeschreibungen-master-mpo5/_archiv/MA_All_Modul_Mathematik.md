@@ -1,6 +1,7 @@
 ---
 title: Spezielle Gebiete der Mathematik
 modulverantwortlich: wk, dz
+dozierende: wk, dz
 kuerzel: SGM-D
 studiensemesterWs: 1
 studiensemesterSs: 2

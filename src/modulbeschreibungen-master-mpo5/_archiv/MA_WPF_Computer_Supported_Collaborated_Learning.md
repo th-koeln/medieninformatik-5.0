@@ -1,6 +1,7 @@
 ---
 title: Computer Supported Collaborative Learning
 modulverantwortlich: ck
+dozierende: ck
 kuerzel: CSCL
 studiensemesterWs: 3
 studiensemesterSs: 2

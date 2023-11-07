@@ -1,6 +1,7 @@
 ---
 title: Praxisprojekt, praktischer Teil
 modulverantwortlich: all
+dozierende: all
 modulniveau: bachelor
 kuerzel: PPA
 date: Last Modified

@@ -1,6 +1,7 @@
 ---
 title: Wahlpflichtmodul 2
 modulverantwortlich: all
+dozierende: all
 kuerzel: WPM
 studiensemester: 1
 dreiSemestrig: true

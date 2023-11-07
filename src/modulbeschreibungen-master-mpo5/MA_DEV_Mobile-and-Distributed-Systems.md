@@ -1,6 +1,7 @@
 ---
 title: Mobile and Distributed Systems
 modulverantwortlich: boehmer
+dozierende: boehmer
 kuerzel: WTW-WBA
 studiensemester: 1
 sprache: deutsch

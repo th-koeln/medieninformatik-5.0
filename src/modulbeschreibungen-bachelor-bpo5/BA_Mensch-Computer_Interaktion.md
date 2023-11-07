@@ -1,6 +1,7 @@
 ---
 title: Mensch-Computer Interaktion
 modulverantwortlich: rgroten
+dozierende: rgroten
 modulniveau: bachelor
 kuerzel: MCI
 date: Last Modified

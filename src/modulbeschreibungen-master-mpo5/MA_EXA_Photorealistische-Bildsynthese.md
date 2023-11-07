@@ -1,6 +1,7 @@
 ---
 title: Photorealistische Bildsynthese
 modulverantwortlich: fn
+dozierende: fn
 kuerzel: PB
 studiensemester: 1
 sprache: wahlweise deutsch oder englisch

@@ -1,6 +1,7 @@
 ---
 title: Psychophysik multimodaler Benutzungsschnittstellen
 modulverantwortlich: gh
+dozierende: gh
 kuerzel: PPMB
 studiensemesterWs: 1
 studiensemesterSs: 2

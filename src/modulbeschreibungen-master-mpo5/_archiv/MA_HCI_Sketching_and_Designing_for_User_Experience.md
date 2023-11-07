@@ -1,6 +1,7 @@
 ---
 title: Sketching and Designing for User Experience
 modulverantwortlich: gh
+dozierende: gh
 kuerzel: PPMB
 studiensemesterWs: 1
 studiensemesterSs: 2

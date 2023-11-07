@@ -1,6 +1,7 @@
 ---
 title: Visual Computing
 modulverantwortlich: fn
+dozierende: fn
 kuerzel: VC
 date: Last Modified
 studiensemester: 2

@@ -1,6 +1,7 @@
 ---
 title: Projektanteil Projekt 2
 modulverantwortlich: mw, hk, ck, gh, cn, mbluemm, hs
+dozierende: mw, hk, ck, gh, cn, mbluemm, hs
 kuerzel: P2
 studiensemesterWs: 2
 studiensemesterSs: 3

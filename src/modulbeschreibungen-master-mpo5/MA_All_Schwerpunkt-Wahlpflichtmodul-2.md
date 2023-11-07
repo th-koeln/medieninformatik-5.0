@@ -1,6 +1,7 @@
 ---
 title: Schwerpunkt Wahlpflichtmodul 2
 modulverantwortlich: all
+dozierende: all
 kuerzel: SWPM
 studiensemester: 2
 sprache: deutsch

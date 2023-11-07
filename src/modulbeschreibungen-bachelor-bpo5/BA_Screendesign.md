@@ -1,6 +1,7 @@
 ---
 title: Screendesign
 modulverantwortlich: cn
+dozierende: cn
 modulniveau: bachelor
 kuerzel: SD
 date: Last Modified

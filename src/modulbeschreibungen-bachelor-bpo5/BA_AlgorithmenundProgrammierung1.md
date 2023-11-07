@@ -1,6 +1,7 @@
 ---
 title: Algorithmen und Programmierung 1
 modulverantwortlich: fv
+dozierende: fv
 modulniveau: bachelor
 kuerzel: AP1
 date: Last Modified

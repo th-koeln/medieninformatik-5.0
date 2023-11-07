@@ -1,6 +1,7 @@
 ---
 title: Sicherheit, Privatsphäre und Vertrauen
 modulverantwortlich: sk
+dozierende: sk
 kuerzel: ITS
 studiensemester: 1
 informatik-master: ws

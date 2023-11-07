@@ -1,6 +1,7 @@
 ---
 title: Web Development
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: bachelor
 kuerzel: GW
 date: Last Modified

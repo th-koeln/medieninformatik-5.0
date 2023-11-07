@@ -1,6 +1,7 @@
 ---
 title: Mobile Computing
 modulverantwortlich: mboehmer
+dozierende: mboehmer
 modulniveau: bachelor
 kuerzel: MOCO
 date: Last Modified

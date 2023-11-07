@@ -1,6 +1,7 @@
 ---
 title: Logik und semantische Modellierung
 modulverantwortlich: petru
+dozierende: petru
 kuerzel: WTW-LSM
 studiensemesterWs: 2
 studiensemesterSs: 3

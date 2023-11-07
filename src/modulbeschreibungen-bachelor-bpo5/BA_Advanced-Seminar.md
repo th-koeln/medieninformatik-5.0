@@ -1,6 +1,7 @@
 ---
 title: Advanced Seminar (Projekt)
 modulverantwortlich: mbluemm
+dozierende: mbluemm
 modulniveau: bachelor
 kuerzel: ASP
 date: Last Modified

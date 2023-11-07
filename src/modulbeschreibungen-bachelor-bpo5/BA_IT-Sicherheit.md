@@ -1,6 +1,7 @@
 ---
 title: IT Sicherheit
 modulverantwortlich: sk
+dozierende: sk
 modulniveau: bachelor
 kuerzel: ITS
 date: Last Modified

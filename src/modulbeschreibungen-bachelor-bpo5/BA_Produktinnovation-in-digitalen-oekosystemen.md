@@ -1,6 +1,7 @@
 ---
 title: Produktinnovation in digitalen Ökosystemen
 modulverantwortlich: mlinden
+dozierende: mlinden
 modulniveau: bachelor
 kuerzel: TBI
 date: Last Modified

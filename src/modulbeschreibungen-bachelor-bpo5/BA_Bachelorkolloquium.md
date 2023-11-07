@@ -1,6 +1,7 @@
 ---
 title: Bachelor Kolloquium
 modulverantwortlich: all
+dozierende: all
 modulniveau: bachelor
 kuerzel: BK
 date: Last Modified

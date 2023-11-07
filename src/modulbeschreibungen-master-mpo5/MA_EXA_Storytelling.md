@@ -1,6 +1,7 @@
 ---
 title: Storytelling und Narrative Strukturen 
 modulverantwortlich: hk
+dozierende: hk
 kuerzel: SNS
 studiensemester: 1
 sprache: deutsch

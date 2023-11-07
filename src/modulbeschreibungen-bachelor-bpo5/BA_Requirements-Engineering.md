@@ -1,6 +1,7 @@
 ---
 title: Requirements Engineering
 modulverantwortlich: il
+dozierende: il
 modulniveau: bachelor
 kuerzel: REENG
 date: Last Modified

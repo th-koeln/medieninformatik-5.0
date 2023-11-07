@@ -1,6 +1,7 @@
 ---
 title: Projektanteil Projekt 3
 modulverantwortlich: mw, hk, mbluemm, ck, gh
+dozierende: mw, hk, mbluemm, ck, gh
 kuerzel: P3
 studiensemesterWs: 3
 studiensemesterSs: 1

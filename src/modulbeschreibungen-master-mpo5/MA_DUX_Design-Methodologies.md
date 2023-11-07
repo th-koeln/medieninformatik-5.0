@@ -1,6 +1,7 @@
 ---
 title: Design Methodologies
 modulverantwortlich: ck
+dozierende: ck
 kuerzel: DM
 studiensemester: 1
 sprache: deutsch

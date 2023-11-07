@@ -1,6 +1,7 @@
 ---
 title: Masterarbeit inkl. Kolloquium 
 modulverantwortlich: all
+dozierende: all
 kuerzel: MA
 studiensemester: 3
 studiensemesterVierSemestrig: 4

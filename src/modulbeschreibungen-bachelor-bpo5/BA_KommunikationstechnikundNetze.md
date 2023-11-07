@@ -1,6 +1,7 @@
 ---
 title: Kommunikationstechnik und Netze
 modulverantwortlich: hls
+dozierende: hls
 modulniveau: bachelor
 kuerzel: KTN
 date: Last Modified

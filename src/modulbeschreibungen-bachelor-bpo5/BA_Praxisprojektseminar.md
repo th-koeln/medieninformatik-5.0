@@ -1,6 +1,7 @@
 ---
 title: Praxisprojekt, Seminar
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: bachelor
 kuerzel: PPS
 date: Last Modified

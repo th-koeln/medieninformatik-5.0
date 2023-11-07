@@ -1,6 +1,7 @@
 ---
 title: Mathematik 1
 modulverantwortlich: wk
+dozierende: wk
 modulniveau: bachelor
 kuerzel: MA1
 date: Last Modified

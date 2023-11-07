@@ -1,6 +1,7 @@
 ---
 title: Mathematik 2
 modulverantwortlich: wk
+dozierende: wk
 modulniveau: bachelor
 kuerzel: MA2
 date: Last Modified

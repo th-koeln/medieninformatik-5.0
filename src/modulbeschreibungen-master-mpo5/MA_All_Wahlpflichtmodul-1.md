@@ -1,6 +1,7 @@
 ---
 title: Wahlpflichtmodul 1
 modulverantwortlich: all
+dozierende: all
 kuerzel: WPM
 studiensemester: 1
 sprache: deutsch

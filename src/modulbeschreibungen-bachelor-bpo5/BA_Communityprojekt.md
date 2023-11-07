@@ -1,6 +1,7 @@
 ---
 title: Communityprojekt
 modulverantwortlich: cn
+dozierende: cn
 modulniveau: bachelor
 kuerzel: CP
 date: Last Modified

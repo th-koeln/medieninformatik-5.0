@@ -1,6 +1,7 @@
 ---
 title: Wahlpflichtmodul 4
 modulverantwortlich: all
+dozierende: all
 kuerzel: WPM
 studiensemester: 2
 dreiSemestrig: true

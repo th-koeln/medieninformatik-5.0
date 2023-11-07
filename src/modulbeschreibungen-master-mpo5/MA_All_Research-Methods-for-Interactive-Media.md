@@ -1,6 +1,7 @@
 ---
 title: Research Methods for Interactive Media
 modulverantwortlich: gh
+dozierende: gh
 kuerzel: RIM
 studiensemester: 1
 sprache: deutsch

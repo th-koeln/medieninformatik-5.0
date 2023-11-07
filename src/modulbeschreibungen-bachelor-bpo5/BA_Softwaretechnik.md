@@ -1,6 +1,7 @@
 ---
 title: Softwaretechnik
 modulverantwortlich: mw
+dozierende: mw
 modulniveau: bachelor
 kuerzel: ST1
 date: Last Modified

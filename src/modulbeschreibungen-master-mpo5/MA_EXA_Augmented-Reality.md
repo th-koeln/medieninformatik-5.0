@@ -1,6 +1,7 @@
 ---
 title: Augmented Reality
 modulverantwortlich: fn
+dozierende: fn
 kuerzel: AR
 studiensemester: 1
 sprache: wahlweise deutsch oder englisch

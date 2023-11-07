@@ -1,6 +1,7 @@
 ---
 title: Open Data - Technik und Anwendungen
 modulverantwortlich: Lehrbeauftragter
+dozierende: Lehrbeauftragter
 kuerzel: ODT&A
 studiensemesterWs: 3
 studiensemesterSs: 2

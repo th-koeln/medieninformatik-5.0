@@ -1,6 +1,7 @@
 ---
 title: Research Methods for Interactive Media
 modulverantwortlich: 
+dozierende: 
 kuerzel: RMI
 studiensemesterWs: 2
 studiensemesterSs: 1

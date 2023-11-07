@@ -1,6 +1,7 @@
 ---
 title: Visualisierung
 modulverantwortlich: fn
+dozierende: fn
 kuerzel: VI
 studiensemester: 2
 sprache: wahlweise deutsch oder englisch

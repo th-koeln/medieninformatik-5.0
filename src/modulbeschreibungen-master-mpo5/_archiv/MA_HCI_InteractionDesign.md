@@ -1,6 +1,7 @@
 ---
 title: Interaction Design
 modulverantwortlich: gh
+dozierende: gh
 kuerzel: ID
 studiensemesterWs: 1
 studiensemesterSs: 2

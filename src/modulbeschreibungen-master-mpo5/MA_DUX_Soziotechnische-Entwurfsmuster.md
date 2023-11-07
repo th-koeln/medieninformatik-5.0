@@ -1,6 +1,7 @@
 ---
 title: Soziotechnische Entwurfsmuster
 modulverantwortlich: ck
+dozierende: ck
 kuerzel: SZ
 studiensemester: 1
 sprache: deutsch

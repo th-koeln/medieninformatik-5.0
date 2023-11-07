@@ -1,6 +1,7 @@
 ---
 title: Interactive Media Products
 modulverantwortlich: 
+dozierende: 
 kuerzel: IMP
 studiensemester: 2
 sprache: deutsch

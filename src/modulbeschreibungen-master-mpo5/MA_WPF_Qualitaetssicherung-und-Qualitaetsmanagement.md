@@ -1,6 +1,7 @@
 ---
 title: Qualitätssicherung und Qualitätsmanagement 
 modulverantwortlich: mw
+dozierende: mw
 kuerzel: QSQM
 studiensemester: 2
 informatik-master: ss

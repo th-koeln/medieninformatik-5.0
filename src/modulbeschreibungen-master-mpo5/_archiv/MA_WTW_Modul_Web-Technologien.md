@@ -1,6 +1,7 @@
 ---
 title: Web Technologien
 modulverantwortlich: cn
+dozierende: cn
 kuerzel: WTW-WD
 studiensemesterWs: 2
 studiensemesterSs: 3

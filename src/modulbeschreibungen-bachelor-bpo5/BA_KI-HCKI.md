@@ -1,6 +1,7 @@
 ---
 title: Mensch-zentrierte Künstliche Intelligenz
 modulverantwortlich: dgaida, jschaible 
+dozierende: dgaida, jschaible 
 modulniveau: bachelor
 kuerzel: HCKI
 date: Last Modified

@@ -1,6 +1,7 @@
 ---
 title: Qualitätssicherung und Qualitätsmanagement 
 modulverantwortlich: mw
+dozierende: mw
 kuerzel: QSQM
 studiensemesterWs: 2
 studiensemesterSs: 1

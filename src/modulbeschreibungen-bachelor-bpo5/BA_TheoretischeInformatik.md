@@ -1,6 +1,7 @@
 ---
 title: Theoretische Informatik
 modulverantwortlich: fn
+dozierende: fn
 modulniveau: bachelor
 kuerzel: TI
 date: Last Modified

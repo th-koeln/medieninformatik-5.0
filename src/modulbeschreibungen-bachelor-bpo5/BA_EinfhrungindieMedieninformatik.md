@@ -1,6 +1,7 @@
 ---
 title: Einführung in die Medieninformatik
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: bachelor
 kuerzel: EMI
 date: Last Modified

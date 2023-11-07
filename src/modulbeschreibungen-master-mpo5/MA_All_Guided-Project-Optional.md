@@ -1,6 +1,7 @@
 ---
 title: Guided Project 2
 modulverantwortlich: all
+dozierende: all
 kuerzel: GP
 studiensemesterVierSemestrig: 3
 sprache: deutsch
