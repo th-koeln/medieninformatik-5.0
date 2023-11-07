@@ -3,7 +3,7 @@ title: Mathematik 2
 modulverantwortlich: wk
 modulniveau: bachelor
 kuerzel: MA2
-untertitel:
+date: Last Modified
 studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch

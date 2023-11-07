@@ -3,7 +3,7 @@ title: Web Development
 modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: GW
-untertitel:
+date: Last Modified
 studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch

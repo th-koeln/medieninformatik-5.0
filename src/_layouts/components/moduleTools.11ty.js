@@ -64,3 +64,13 @@ exports.studyPrograms = (studiengaenge) => {
     : studiengaengeList.join(", ");
 
 };
+
+
+/* WAS WOMIT WOZU raus filtern
+############################################################################ */
+
+exports.stripWWW = (data) => {
+  if(!data) return '';
+
+  return data.replace(/\(WAS\) /g, '').replace(/\(WOMIT\) /g, '').replace(/\(WOZU\) /g, '');
+};

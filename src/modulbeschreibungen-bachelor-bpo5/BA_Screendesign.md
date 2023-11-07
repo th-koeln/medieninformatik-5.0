@@ -3,7 +3,7 @@ title: Screendesign
 modulverantwortlich: cn
 modulniveau: bachelor
 kuerzel: SD
-untertitel:
+date: Last Modified
 studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch

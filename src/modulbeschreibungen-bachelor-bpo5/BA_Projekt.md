@@ -3,7 +3,7 @@ title: Medieninformatik Projekt
 modulverantwortlich: gh
 modulniveau: bachelor
 kuerzel: MIP
-untertitel:
+date: Last Modified
 studiensemester: 6
 kategorie: spezialisierung
 sprache: deutsch

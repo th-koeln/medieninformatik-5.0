@@ -3,7 +3,7 @@ title: Theoretische Informatik
 modulverantwortlich: fn
 modulniveau: bachelor
 kuerzel: TI
-untertitel:
+date: Last Modified
 studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch

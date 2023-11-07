@@ -1,9 +1,9 @@
 ---
-title: Testing Business Ideas
+title: Produktinnovation in digitalen Ökosystemen
 modulverantwortlich: mlinden
 modulniveau: bachelor
 kuerzel: TBI
-untertitel:
+date: Last Modified
 studiensemester: 3
 kategorie: grundlagen
 sprache: deutsch

@@ -3,7 +3,7 @@ title: Frontend Development
 modulverantwortlich: cn
 modulniveau: bachelor
 kuerzel: FD
-untertitel:
+date: Last Modified
 studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch

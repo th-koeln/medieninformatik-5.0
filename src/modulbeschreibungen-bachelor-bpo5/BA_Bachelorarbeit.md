@@ -3,7 +3,7 @@ title: Bachelorarbeit
 modulverantwortlich: all
 modulniveau: bachelor
 kuerzel: BA
-untertitel:
+date: Last Modified
 studiensemester: 7
 kategorie: spezialisierung
 sprache: deutsch

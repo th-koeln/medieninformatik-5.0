@@ -3,7 +3,7 @@ title: Advanced Seminar (Projekt)
 modulverantwortlich: mbluemm
 modulniveau: bachelor
 kuerzel: ASP
-untertitel:
+date: Last Modified
 studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch

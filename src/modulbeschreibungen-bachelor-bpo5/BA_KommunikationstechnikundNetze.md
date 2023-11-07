@@ -3,7 +3,7 @@ title: Kommunikationstechnik und Netze
 modulverantwortlich: hls
 modulniveau: bachelor
 kuerzel: KTN
-untertitel:
+date: Last Modified
 studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch

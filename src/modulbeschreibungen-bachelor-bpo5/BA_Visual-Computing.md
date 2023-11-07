@@ -2,7 +2,7 @@
 title: Visual Computing
 modulverantwortlich: fn
 kuerzel: VC
-untertitel:
+date: Last Modified
 studiensemester: 2
 kategorie: vertiefung
 sprache: deutsch

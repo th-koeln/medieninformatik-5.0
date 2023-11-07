@@ -3,7 +3,7 @@ title: Social Computing
 modulverantwortlich: ck
 modulniveau: bachelor
 kuerzel: CE
-untertitel:
+date: Last Modified
 studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch

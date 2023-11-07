@@ -3,7 +3,7 @@ title: Algorithmen und Programmierung 1
 modulverantwortlich: fv
 modulniveau: bachelor
 kuerzel: AP1
-untertitel:
+date: Last Modified
 studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch
@@ -35,38 +35,35 @@ weitereStudiengaenge:
   - itm
   - i
   - wi
-arbeitsaufwand:
-  - 54h Vorlesung 
-  - 36h Praktikum
-  - 18h Übung
-  - 132h Selbststudium 
 lehrformen:
   - Vorlesung 3 SWS
   - Übung 1 SWS
   - Praktikum 2 SWS
+lehrmethoden:
+  - Vorlesung mit Folien und Programmbeispielen zum Download
+  - Übungen in Teamarbeit mit vorbereitetenden Aufgaben zum Praktikum und zur Vertiefung der Inhalte der Vorlesung
+  - Praktikum mit individueller Abnahme der Programmieraufgaben
+  - Beratungen in kleinen Gruppen zu den Praktikaaufgaben und zu Verständnisfragen
 ---
 
 ## Learning Outcome
 
 Die Studierenden sollen
 
-- formale und algorithmische Kompetenzen im Bereich der Software-Entwicklung erlangen. Hierzu gehören insbesondere die Prinzipien der Objektorientierung und die der prozeduralen Programmierung.
-- die Kompetenz erlangen, strukturierte und unstrukturierte Problemstellungen zu analysieren, Lösungen modellbasiert zu entwickeln sowie prozedural und objektorientiert umzusetzen.
-- Systementwürfe evaluieren und bewerten können, insbesondere sollen sie die Arbeitsweise, die Randbedingungen und den Komplexitätsgrad von einfachen Algorithmen verstehen.
-- die Fähigkeit erlernen, algorithmische Entwurfsmuster zu erkennen und anzuwenden
+- (WAS) verstehen die Prinzipien der prozeduralen Programmierung und der Objek- torientierung, (WOMIT) indem sie die in der Lehrveranstaltung vorgestellten Kon- zepte auf strukturierte und unstrukturierte Problemstellungen anwenden, (WOZU) um diese in der Softwareentwicklung einzusetzen.
+- (WAS) können die Anforderungen an Programmsysteme analysieren, (WOMIT) in- dem sie die in der Vorlesung und Übung behandelten Methoden modellbasiert adaptieren, (WOZU) um diese geeignet in Software-Lösungen umzusetzen.
+- (WAS) können Systementwürfe evaluieren und bewerten, (WOMIT) indem sie die besprochenen Komplexitäts- und Qualitätskriterien anwenden, (WOZU) um die Qualität der entwickelten Software zu erhöhen.
+- (WAS) erlernen und trainieren, algorithmische Entwurfsmuster zu erkennen und anzuwenden, (WOMIT) indem sie die in der Veranstaltung besprochenen Stan- dardalgorithmen verstehen, modifizieren und anpassen, (WOZU) um diese in kom- plexe Programmsysteme zu integrieren.
 
 ## Inhalt
-* Prozedurale Programmierung am Beispiel von C
-* Objektorientierte Programmierung am Beispiel von Java
-* Kontroll- und Datenstrukturen
-* Modularisierungskonzepte
-* Typkonzepte
-* Grundmuster der objektorientierten Programmierung
-* Elementare Algorithmen und Aufwandsschätzung
-* Entwicklungsumgebungen
+- Prozedurale Programmierung am Beispiel der Programmiersprache C.  Objektorientierte Programmierung am Beispiel von Java.
+- Kontroll- und Datenstrukturen
+- Modularisierungskonzepte
+- Typkonzepte
+- Grundmuster der objektorientierten Programmierung.  Elementare Algorithmen und Aufwandsschätzung
+- Entwicklungsumgebungen
 
 ## Literatur
-
 * Vorlesungsunterlagen: Foliensammlung, ausformuliertes Skript, Beispiellösungen, Übungsklausuren mit Lösungen
 * Fachliteratur: Diverse C-Bücher, u.a.: Kernighan, B.W., Ritchie, D.M.: „Programmieren in C“
 * Diverse Java-Bücher, u.a.: Bishop, J.: „Java Lernen“

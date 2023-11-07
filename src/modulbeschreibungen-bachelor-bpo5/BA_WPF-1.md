@@ -3,7 +3,7 @@ title: Wahlpflichtmodul 1
 modulverantwortlich: all
 modulniveau: bachelor
 kuerzel: WPF
-untertitel: 
+date: Last Modified 
 studiensemester: 6
 kategorie: spezialisierung
 sprache: deutsch

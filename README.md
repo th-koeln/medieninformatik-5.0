@@ -44,3 +44,8 @@ kurzbericht                        Snippets Kurzbericht
 `npm install`
 `npm run build` 
 `npm run dev` 
+
+## Review Guidelines
+
+### Module
+- Präsenzzeit & Selbstlernzeit (15 Wochen?)

@@ -3,7 +3,7 @@ title: IT Sicherheit
 modulverantwortlich: sk
 modulniveau: bachelor
 kuerzel: ITS
-untertitel:
+date: Last Modified
 studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch
@@ -25,7 +25,7 @@ studienleistungen:
 meta:
   status: ok   
   authors: Stefan
-  reviewers: Stefan
+  reviewers: Stefan, Christian
 besonderheiten: 
 praesenzZeit: 72
 selbstStudium: 78

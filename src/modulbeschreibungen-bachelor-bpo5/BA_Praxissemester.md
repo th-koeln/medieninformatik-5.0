@@ -1,15 +1,15 @@
 ---
-title: Praxissemester, Self-Initiated Project, Forschungssemester oder Auslandssemester
-modulverantwortlich: nd
+title: Praxis-, Forschungs- oder Auslandssemester
+modulverantwortlich: seckstein
+dozentinnen: all
 modulniveau: bachelor
 kuerzel: PM
-untertitel:
+date: Last Modified
 studiensemester: 5
 kategorie: spezialisierung
-sprache: deutsch
 kreditpunkte: 30
-voraussetzungenNachPruefungsordnung: keine
-empfohleneVoraussetzungen: Es werden keine über die allgemeinen Zulassungsvoraussetzungen hinausgehende fachlichen Voraussetzungen gefordert, jedoch sollten Engagement, Motivation, Toleranz, Bereitschaft zur Teamarbeit mitgebracht werden.
+voraussetzungenNachPruefungsordnung: alle Grundlagenmodule müssen bestanden sein
+empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
@@ -18,69 +18,50 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Bericht
-    erstpruefer: se
-    zweitpruefer: se
+    erstpruefer: all
+    zweitpruefer: seckstein
     datum: vereinbarung
 meta:
-  status: tbd    
----
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
+  status: rfreview
+  authors: Christian
+  reviewers: Stefan Eckstein
+besonderheiten: 
+  - Zulassung auf Antrag, siehe Praxissemesterordnung (Anhang der Prüfungsordnung).
+  - unbenotetes Modul
+praesenzZeit: 880
+selbstStudium:
+angebotImWs: true
+angebotImSs: true
+weitereStudiengaenge: 
+  - itm
+  - i
+  - wi
+lehrmethoden:
+lehrform:
 
 ---
 
 ## Qualifikationsziele des Moduls
 
-Im optionalen Praxissemester haben die Student*innen die Wahl zwischen vier Alternativen mit jeweils unterschiedlichen Qualifikationszielen zur Ausgestaltung des Moduls:
+Im optionalen Praxissemester haben die Student*innen die Wahl zwischen drei Alternativen zur Ausgestaltung des Moduls:
 
-- Internship
-- Self-Initiated Project
+- Praxissemester
 - Auslandssemester
 - Forschungssemester
 
-Die Wahl lässt den Studierenden Freiraum zur Selbstgestaltung eines eigenen Profils. Das Praxissemester dient zudem als Mobilitätsfenster. Es ist unbenotet.
+Nach Abschluss des Moduls wird dem betreuenden Mentor ein wissenschaftlicher Semesterbericht sowie das Zeugnis der Praxis-, Auslands- oder Forschungsstelle zur Anerkennung vorgelegt. Der Bericht wird nicht benotet.
 
-## Modulvariante »Praktikum«
+## Modulvariante »Praxissemester«
 
-In der Modulvariante »Praktikum« haben die Studierenden die Möglichkeit, ihre bisher erlangten Kompetenzen in verschiedenen Bereichen praktisch zu erproben und zu vertiefen. Mögliche Bereiche sind beispielsweise Institutionen innerhalb von Communities, Vereine, NGOs, Unternehmen oder Startups. Die Studierenden erlangen ein vertieftes Verständnis ihrer berufspraktischen Tätigkeit und steigern ihre Kompetenzen hinsichtlich der Softskills und Querschnittsqualifikationen, bspw. Kommunikation, Organisation, Zeit- und Selbstmanagement.
-
-## Modulvariante »Self-Initiated Project«
-
-In der Modulvariante »Self-Initiated Project« haben die Studierenden die Möglichkeit, ein eigenes Projekt mit einer hohen Workload von 900h in einem Team zu initialisieren und zu realisieren. Die Studierenden wenden die bisher gebildeten Kompetenzen an und können sich für ihre eigene neue Aufgabenstellung neue Kompetenzen und Technologien aneignen. Das Projekt soll das Potential haben, ein Minimum Viable Product zu realisieren, welches das Potenzial für eine weitere Verwertung hat (bspw. Pitch vor Investoren, Crowd-Funding, Bildung einer Community, Open Source Beitrag). Die Studierenden erlangen ein vertieftes Verständnis ihrer berufspraktischen Tätigkeit und steigern ihre Kompetenzen hinsichtlich der Softskills und Querschnittsqualifikationen, bspw. Kommunikation, Organisation, Projekt-, Konflikt, Zeit- und Selbstmanagement.
+In der Modulvariante »Praxissemester« haben die Studierenden die Möglichkeit, ihre bisher erlangten Kompetenzen in verschiedenen Bereichen praktisch zu erproben und zu vertiefen. Mögliche Bereiche sind Institutionen innerhalb von Communities, Vereine, NGOs, Unternehmen oder Startups. Die Studierenden erlangen ein vertieftes Verständnis ihrer berufspraktischen Tätigkeit und steigern ihre Kompetenzen hinsichtlich der Softskills und Querschnittsqualifikationen, bspw. Kommunikation, Organisation, Selbstreflexion, teamorientiertes Handeln im betrieblichen Umfeld, Zeit- und Selbstmanagement. 
 
 ## Modulvariante »Auslandssemester«
 
-In der Modulvariante »Auslandssemester« haben die Studierenden die Möglichkeit, ihre Fachkompetenzen und wissenschaftlichen Fähigkeiten zu vertiefen und akademische Perspektive zu erweitern, bspw. durch den Besuch interdisziplinärer Lehrveranstaltungen im Ausland. Zudem können die Studierenden ihre inter-kulturellen Kompetenzen und Sprachkompetenzen stärken.
+In der Modulvariante »Auslandssemester« haben die Studierenden die Möglichkeit, ihre Fachkompetenzen und wissenschaftlichen Fähigkeiten zu vertiefen und akademische Perspektive zu erweitern, bspw. durch den Besuch interdisziplinärer Lehrveranstaltungen im Ausland. Zudem können die Studierenden ihre interkulturellen Kompetenzen und Sprachkompetenzen stärken.
 
 ## Modulvariante »Forschungssemester«
 
 In der Modulvariante »Forschungssemester« haben die Studierenden die Möglichkeit, ihre forschungsorientierten Fachkompetenzen und wissenschaftlichen Fähigkeiten zu vertiefen und akademische Perspektive zu erweitern. Hierzu werden sie in Forschungsprojekten der Hochschule oder anderen wissenschaftlichen Einrichtungen tätig. Forschungsprojekte kennzeichnen sich insbesondere dadurch, das sie über Drittmittel finanziert einen Raum für Möglichkeiten zur Forschung und Entwicklung öffnen. In Forschungsprojekten arbeiten die Studierenden gemeinsam mit anderen Wissenschaftler*innen wie bspw. wissenschaftlichen Mitarbeiter*innen oder Doktorand*innen.
 
-## Prüfungsformen
-
-- Anerkennung der erbrachten Leistungen beim Auslandssemester
-- Projektdokumentation und Vortrag
-
-Für alle Varianten des Praxissemesters gilt, dass für das erfolgreich abgeschlossene Praxissemester 30 ECTS durch die Mentor*innen vergeben werden.
-
-Diese 30 ECTS setzen sich wie folgt zusammen: 25 ECTS sind nachzuweisen über ein Internship, ein Self-Initiated Project oder ein Auslandssemester. Weitere 3 ECTS entfallen auf die Präsentation und Dokumentation des Praxissemesters, welche im Rahmen der »Praxissemesterbörse« im folgenden Wintersemester präsentiert werden. Die »Praxissemesterbörse« wird von den Teilnehmer*innen des optionalen Praxissemesters selbst organisiert. Weitere 2 ECTS entfallen auf eine Leistung, die die Studierenden mit den jeweiligen Mentor*innen abstimmen (bspw. ein begleitendes Blog, ein Extraprojekt, ein Handbuch, Demonstration der Ergebnisse, Video zum Ergebnis).
+## Präsenzzeit
+22 Wochen in Vollzeit im Unternehmen/ Forschungsprojekt oder N erwobene ECTS an einer Hochschule im Ausland.

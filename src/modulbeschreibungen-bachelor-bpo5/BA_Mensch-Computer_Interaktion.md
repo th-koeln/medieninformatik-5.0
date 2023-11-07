@@ -3,7 +3,7 @@ title: Mensch-Computer Interaktion
 modulverantwortlich: rgroten
 modulniveau: bachelor
 kuerzel: MCI
-untertitel:
+date: Last Modified
 studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch

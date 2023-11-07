@@ -3,7 +3,7 @@ title: Mobile Computing
 modulverantwortlich: mboehmer
 modulniveau: bachelor
 kuerzel: MOCO
-untertitel:
+date: Last Modified
 studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch

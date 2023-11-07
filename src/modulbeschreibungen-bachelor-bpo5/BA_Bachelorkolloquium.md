@@ -3,7 +3,7 @@ title: Bachelor Kolloquium
 modulverantwortlich: all
 modulniveau: bachelor
 kuerzel: BK
-untertitel:
+date: Last Modified
 studiensemester: 7
 kategorie: spezialisierung
 sprache: deutsch

@@ -1,0 +1,19 @@
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - itm
+lehrmethoden:
+  - Vorlesung mit Fallbeispielen
+  - Bearbeitung eines ausgewählten  projektzentrierten Themas
+  - Coaching der Projektteams
+  - Individuelle Beratung der Projektteams zu dem zu bearbeitenden Fall im Praktikum  
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
+
+  ---
+
+  https://www.icloud.com/numbers/0f3aoTRhIynoYjS3gY552zMFw#praesenz-und-selbstlernzeit

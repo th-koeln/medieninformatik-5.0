@@ -206,6 +206,14 @@ rgroten:
     personenseite: 'https://www.th-koeln.de/personen/raphaela.groten/'
     mi: true
 
+seckstein:
+    id: seckstein
+    status: prof
+    name: 'Prof. Dr. Stefan Eckstein'
+    avatar: '/img/professoren/raphaela-groten.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/stefan.eckstein/'
+    mi: true
+
 mlinden:
     id: mlinden
     status: prof

@@ -3,7 +3,7 @@ title: Praxisprojekt, praktischer Teil
 modulverantwortlich: all
 modulniveau: bachelor
 kuerzel: PPA
-untertitel:
+date: Last Modified
 studiensemester: 7
 kategorie: spezialisierung
 sprache: deutsch

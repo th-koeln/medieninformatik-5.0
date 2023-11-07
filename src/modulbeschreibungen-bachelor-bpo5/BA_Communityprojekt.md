@@ -3,7 +3,7 @@ title: Communityprojekt
 modulverantwortlich: cn
 modulniveau: bachelor
 kuerzel: CP
-untertitel:
+date: Last Modified
 studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch

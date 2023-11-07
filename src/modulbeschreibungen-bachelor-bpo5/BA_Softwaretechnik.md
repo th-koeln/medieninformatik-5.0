@@ -3,7 +3,7 @@ title: Softwaretechnik
 modulverantwortlich: mw
 modulniveau: bachelor
 kuerzel: ST1
-untertitel:
+date: Last Modified
 studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch

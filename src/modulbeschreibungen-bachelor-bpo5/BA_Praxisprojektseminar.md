@@ -3,7 +3,7 @@ title: Praxisprojekt, Seminar
 modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: PPS
-untertitel:
+date: Last Modified
 studiensemester: 7
 jedes-semester: true
 kategorie: spezialisierung

@@ -37,20 +37,18 @@ module.exports = {
 				${createRow("Studiensemester", data.studiensemester)}
 				${createRow("Sprache", data.sprache)}
 				${createRow("Zuordnung zum Curriculum", data.zuordnungZumCurriculum)}
-				${createRow("Lehrform/SWS", data.lehrformSws)}
-				${createRow("Arbeitsaufwand", data.arbeitsaufwand)}
 				${createRow("Kreditpunkte", data.kreditpunkte)}
 				${createRow("Voraussetzungen nach Prüfungsordnung", data.voraussetzungenNachPruefungsordnung)}
 				${createRow("Empfohlene Voraussetzungen", data.empfohleneVoraussetzungen)}
 				${createRow("Weitere Informationen zum Modul", data.infourl)}
 				${createRow("Studienleistungen", moduleTools.resolveExamInfoSimple(data.studienleistungen))}
-				${createRow("Sprache", data.sprache)}
 				${createRow("Level", utils.ucFirst(data.kategorie))}
 				${createRow("Häufigkeit des Angebots", moduleTools.resolveFrequency(data))}
 				${createRow("Verwendung des Moduls in weiteren Studiengängen", moduleTools.studyPrograms(data.weitereStudiengaenge))}
 				${createRow("Besonderheiten", data.besonderheiten)}
 				${createRow("Präsenzzeit in Stunden", data.praesenzZeit)}
 				${createRow("Selbststudium in Stunden", data.selbstStudium)}
+				${createRow("Letzte Aktualisierung", utils.getDate(data.page.date))}
 			</table>
 		`;
 
@@ -69,7 +67,7 @@ module.exports = {
 				</section>
 
 				<section class="content">
-					${data.content}
+					${moduleTools.stripWWW(data.content)}
 				</section>
 
 				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module') : ''}

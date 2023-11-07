@@ -3,7 +3,7 @@ title: Einführung in die Medieninformatik
 modulverantwortlich: viet
 modulniveau: bachelor
 kuerzel: EMI
-untertitel:
+date: Last Modified
 studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch

@@ -3,7 +3,7 @@ title: Mensch-zentrierte Künstliche Intelligenz
 modulverantwortlich: dgaida, jschaible 
 modulniveau: bachelor
 kuerzel: HCKI
-untertitel:
+date: Last Modified
 studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch

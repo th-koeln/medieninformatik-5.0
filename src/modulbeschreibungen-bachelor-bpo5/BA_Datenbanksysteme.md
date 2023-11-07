@@ -3,7 +3,7 @@ title: Datenbanksysteme
 modulverantwortlich: jschaible
 modulniveau: bachelor
 kuerzel: DBS
-untertitel:
+date: Last Modified
 studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch

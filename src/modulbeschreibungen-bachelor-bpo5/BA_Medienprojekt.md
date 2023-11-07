@@ -3,7 +3,7 @@ title: Medienprojekt
 modulverantwortlich: hk
 modulniveau: bachelor
 kuerzel: MP
-untertitel:
+date: Last Modified
 studiensemester: 4
 kategorie: Vertiefung
 sprache: deutsch
