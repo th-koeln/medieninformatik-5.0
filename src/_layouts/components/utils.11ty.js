@@ -89,3 +89,11 @@ exports.ucFirst = (string) => {
   if(!string) return '';
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
+
+/* Datum formatieren
+############################################################################ */
+
+exports.getDate = (date) => {
+  if(!date) return '';
+  return `${date.getDate()}.${date.getMonth()+1}.${date.getFullYear()}`;
+};
