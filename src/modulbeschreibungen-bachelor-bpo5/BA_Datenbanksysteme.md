@@ -1,7 +1,7 @@
 ---
 title: Datenbanksysteme
 modulverantwortlich: jschaible
-dozierende: jschaible
+dozierende: jschaible, bb
 modulniveau: bachelor
 kuerzel: DBS
 date: Last Modified
