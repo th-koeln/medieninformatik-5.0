@@ -13,7 +13,8 @@ module.exports = {
       const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
       
       const moduls = curriculumTools.getAllModuls({
-        moduls: data.collections.modulsMPO5.filter(modul => modul.data.schwerpunkt === item.data.kuerzel),
+        //moduls: data.collections.modulsMPO5.filter(modul => modul.data.schwerpunkt === item.data.kuerzel),
+        moduls: data.collections.modulsMPO5.filter(modul => ((modul.data.schwerpunkt? modul.data.schwerpunkt : "")+"").includes(item.data.kuerzel)),
         data,
         eleventy: this
       });
