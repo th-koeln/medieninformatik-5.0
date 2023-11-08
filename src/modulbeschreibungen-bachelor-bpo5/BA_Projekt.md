@@ -55,7 +55,10 @@ begleitete Projektarbeit, Audits, Meilensteine
 
 ## Präsenzzeit
 
+36h Audits/Meilensteine
+
 ## Selbststudium
+114h Selbstlernphase/Projektarbeit
 
 ## Empfohlene Literatur
 
