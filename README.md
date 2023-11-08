@@ -47,5 +47,7 @@ kurzbericht                        Snippets Kurzbericht
 
 ## Review Guidelines
 
+- Modulkürzel passen?
+
 ### Module
 - Präsenzzeit & Selbstlernzeit (15 Wochen?)

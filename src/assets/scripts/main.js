@@ -69,7 +69,7 @@ const addListInteractions = () => {
     const tagTriggerElementValueAsString = JSON.stringify(tagTriggerElementValueAsObject);
 
     const isActive = tagTriggerElement.classList.contains("is-active");
-
+    
     if(isActive){
       filterTags.splice(filterTags.indexOf(tagTriggerElementValueAsString), 1);
     } else {
@@ -144,11 +144,13 @@ const addListInteractions = () => {
       const parentWithMode = event.target.closest("[data-js-list-interaction-mode]");
       if(parentWithMode && parentWithMode.dataset.jsListInteractionMode === "single-choice"){
         const activeTagTriggerElements = parentWithMode.querySelectorAll("[data-js-list-interaction-item-trigger].is-active");
+        
         activeTagTriggerElements.forEach((activeTagTriggerElement) => {
           activeTagTriggerElement.classList.remove("is-active");
           removeFilterTag(activeTagTriggerElement);
         });
       }
+
       addOrRemoveFilterTag(tagTriggerElement);
       filterItems(tagTriggerElement, event);
     });
