@@ -36,7 +36,16 @@ Die Medieninformatik fokussiert sich in Abgrenzung zu anderen Informatikstudieng
 
 #### Was sind die Ziele der Studiengänge?
 
-Studierende der Medieninformatik müssen die technischen Möglichkeiten der Informatik hinsichtlich Software-Entwicklung und technologischer Realisierung beherrschen, um diese einzusetzen zu können. Absolvent\*innen sind in der Lage interaktive Produkte und Dienstleistungen so zu gestalten, dass die Gesellschaft bzw. individuelle Nutzer\*innen profitieren. Technische Aktualität, Usability und eine positive User Experience sind Merkmale der kreativen Ergebnisse in Projekten dieser Studiengänge. In diesen Studiengängen ist es von grundlegender Bedeutung, die Fähigkeit zu erwerben, aktuelle Technologietrends zu analysieren und auf dieser Grundlage Medienprodukte zu bewerten. Dies ist unerlässlich, um geeignete Lösungen im gesellschaftlichen Kontext zu entwickeln und aktuelle Themen wie Nachhaltigkeit, inklusives Design und KI mit Fokus auf den Menschen anzugehen.
+Studierende der Medieninformatik müssen die technischen Möglichkeiten der Informatik hinsichtlich Software-Entwicklung und technologischer Realisierung beherrschen, um diese einzusetzen zu können. Absolvent\*innen sind in der Lage interaktive Produkte und Dienstleistungen so zu gestalten, dass die Gesellschaft bzw. individuelle Nutzer\*innen profitieren. Technische Aktualität, Usability und eine positive User Experience sind Merkmale der kreativen Ergebnisse in Projekten dieser Studiengänge. 
+
+> Gerhard-> habe diesen Satz: In diesen Studiengängen ist es von grundlegender Bedeutung, die
+> Fähigkeit zu erwerben, aktuelle Technologietrends zu analysieren und auf dieser Grundlage
+> Medienprodukte zu bewerten.
+> durch den nachstehenden ersetzt:
+
+In den Studiengängen ist es von grundlegender Bedeutung, die professionellen Kompetenzen zu erwerben, Anwendungsdomänen und -kontexte auch aus Sicht relevanter stakeholder zu analysieren und zu verstehen, aktuelle Technologietrends zu analysieren und zu bewerten und auf dieser Grundlage Medienprodukte zu entwickeln und zu unter Berücksichtigung relevanter gesellschaftlicher, politischer, ethischer, kultureller und ökonomischer Aspekte zu bewerten.
+
+Dies ist unerlässlich, um geeignete Lösungen im gesellschaftlichen Kontext zu entwickeln und aktuelle Themen wie Nachhaltigkeit, inklusives Design und KI mit Fokus auf den Menschen anzugehen.
 
 #### Was sind Qualitätsmerkmale von Studiengängen in der Medieninformatik und besonders an der TH Köln
 
