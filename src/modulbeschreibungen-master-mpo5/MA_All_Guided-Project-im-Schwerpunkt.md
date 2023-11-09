@@ -1,9 +1,8 @@
 ---
 title: Guided Project im Schwerpunkt
-modulverantwortlich: all
+modulverantwortlich: mi
 dozierende: all
-kuerzel: SGP
-studiensemester: 2
+kuerzel: GP-SP
 sprache: deutsch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
@@ -24,26 +23,12 @@ meta:
   status: tbd    
 ---
 
-## Sprache
+## Kurzbeschreibung
 
-## Häufigkeit des Angebots
+Frei aus dem Katalog der Guided Projects, die einem Schwerpunkt DUX, DEV oder EXA zugeordnet sind.
 
-## Dozierende
+TODO: GP-DUX, GP-DUX, GP-EXA hier auflisten per Skript
 
-## Learning Outcome
+## Arbeitsaufwand
+360 Stunden
 
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----

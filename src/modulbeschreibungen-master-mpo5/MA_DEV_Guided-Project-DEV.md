@@ -1,18 +1,19 @@
 ---
-title: Schwerpunkt Wahlpflichtmodul 2
-modulverantwortlich: all
+title: Guided Project on Developing Interactive and Distributed Systems
+kuerzel: GP-DEV
+schwerpunkt: DEV
+modulverantwortlich: mi
 dozierende: all
-kuerzel: SWPM
-studiensemester: 2
+studiensemesterVierSemestrig: 3
 sprache: deutsch
-kreditpunkte: 6
+kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
-kategorie: schwerpunkt
+kategorie: wahl
 typ: pm
 studienleistungen:
   Einzelleistung:
@@ -21,7 +22,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: tbd 
 ---
 
 ## Sprache
@@ -45,3 +46,5 @@ meta:
 ## Verwendung des Moduls in weiteren Studiengängen
 
 ## Besonderheiten
+
+---

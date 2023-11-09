@@ -1,12 +1,12 @@
 ---
-title: Wahlpflichtmodul 6
-modulverantwortlich: all
+title: Guided Project on Exploring Advanced Interactive Media
+kuerzel: GP-EXA
+schwerpunkt: EXA
+modulverantwortlich: mi
 dozierende: all
-kuerzel: WPM
 studiensemesterVierSemestrig: 3
-dreiSemestrig: true
 sprache: deutsch
-kreditpunkte: 6
+kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: true
@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: tbd 
 ---
 
 ## Sprache
@@ -48,10 +48,3 @@ meta:
 ## Besonderheiten
 
 ---
-
-## Kurzbeschreibung
-Frei aus dem Katalog der Pflicht- und Wahlpflichtmodule der Masterstudiengänge der Informatik wählbar, ausgenommen der drei Grundlagenmodule und der drei Schwerpunktmodule des gewählten Studienschwerpunktes lt. Studienverlaufsplan. Ein Katalog mit weiteren Angeboten wird nach Maßgabe des Beschlusses des Fakultätsrats der Fakultät für Informatik und Ingenieurwissenschaften zusammengestellt und durch Aushang und auf den Webseiten der Fakultät bekannt gemacht.
-
-## Arbeitsaufwand
-180 Stunden
-

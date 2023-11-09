@@ -1,18 +1,18 @@
 ---
-title: Schwerpunkt Wahlpflichtmodul 1
-modulverantwortlich: all
-dozierende: all
-kuerzel: SWPM
+title: Guided Project on Designing for User Experiences
+modulverantwortlich: mi
+kuerzel: GP-DUX
+schwerpunkt: DUX
 studiensemester: 1
 sprache: deutsch
-kreditpunkte: 6
+kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
-kategorie: schwerpunkt
+kategorie: wahl
 typ: pm
 studienleistungen:
   Einzelleistung:
@@ -46,4 +46,4 @@ meta:
 
 ## Besonderheiten
 
-
+---

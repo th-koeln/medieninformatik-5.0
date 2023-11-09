@@ -1,19 +1,18 @@
 ---
-title: Guided Project 2
+title: Wahlmodul im Schwerpunkt
 modulverantwortlich: all
 dozierende: all
-kuerzel: GP
-studiensemesterVierSemestrig: 3
+kuerzel: WAMO-SP
 sprache: deutsch
-kreditpunkte: 12
-voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: keine
+kreditpunkte: 6
+voraussetzungenNachPruefungsordnung: 
+empfohleneVoraussetzungen: 
 published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
-kategorie: wahl
-typ: pm
+kategorie: schwerpunkt
+typ: 
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls
@@ -21,7 +20,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd 
+  status: tbd    
 ---
 
 ## Sprache
@@ -47,3 +46,13 @@ meta:
 ## Besonderheiten
 
 ---
+
+## Kurzbeschreibung
+
+Frei aus dem Katalog der Module, die einem Schwerpunkt DUX, DEV oder EXA zugeordnet sind.
+
+TODO: Hier auflisten per Skript
+
+## Arbeitsaufwand
+180 Stunden
+
