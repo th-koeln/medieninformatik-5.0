@@ -1,6 +1,7 @@
 ---
 title: Guided Project on Designing for User Experiences
 modulverantwortlich: mi
+dozierende: mi
 kuerzel: GP-DUX
 schwerpunkt: DUX
 studiensemester: 1

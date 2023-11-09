@@ -1,5 +1,5 @@
 ---
-title: Grundlegender 3-semestriger Studienverlaufsplan Master MPO5 (WIP)
+title: Studienverlaufsplan Master MPO5 mit 90 CP (WIP)
 layout: verlaufsplan.11ty.js
 inToc: true
 collection: modulsMPO5
@@ -12,12 +12,12 @@ studienverlauf:
         label: "1. Semester"
         fachsemester: 1
         season: "wise"
-        module: ["RIM", "WAMO-SP1", "WAMO1", "GP"]
+        module: ["RIM", "WAMO-SP1", "WAMO1", "GP1"]
     - semester:
         label: "2. Semester"
         fachsemester: 2
         season: "sose"
-        module: ["IMP", "WAMO-SP2", "WAMO2", "GP-SP"]
+        module: ["IMP", "WAMO-SP2", "WAMO2", "GP-SP1"]
     - semester:
         fachsemester: 3
         label: "Finales Semester"

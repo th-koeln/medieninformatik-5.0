@@ -3,7 +3,7 @@ title: Guided Project on Exploring Advanced Interactive Media
 kuerzel: GP-EXA
 schwerpunkt: EXA
 modulverantwortlich: mi
-dozierende: all
+dozierende: mi
 studiensemesterVierSemestrig: 3
 sprache: deutsch
 kreditpunkte: 12

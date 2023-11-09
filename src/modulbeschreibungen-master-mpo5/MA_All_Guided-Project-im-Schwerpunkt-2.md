@@ -1,10 +1,8 @@
 ---
-title: Guided Project on Developing Interactive and Distributed Systems
-kuerzel: GP-DEV
-schwerpunkt: DEV
+title: Guided Project im Schwerpunkt
 modulverantwortlich: mi
 dozierende: mi
-studiensemesterVierSemestrig: 3
+kuerzel: GP-SP2
 sprache: deutsch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
@@ -13,7 +11,7 @@ published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
-kategorie: wahl
+kategorie: schwerpunkt
 typ: pm
 studienleistungen:
   Einzelleistung:
@@ -22,29 +20,15 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd 
+  status: tbd    
 ---
 
-## Sprache
+## Kurzbeschreibung
 
-## Häufigkeit des Angebots
+Frei aus dem Katalog der Guided Projects, die einem Schwerpunkt DUX, DEV oder EXA zugeordnet sind.
 
-## Dozierende
+TODO: GP-DUX, GP-DUX, GP-EXA hier auflisten per Skript
 
-## Learning Outcome
+## Arbeitsaufwand
+360 Stunden
 
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----

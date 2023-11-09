@@ -2,7 +2,7 @@
 title: Guided Project
 modulverantwortlich: all
 dozierende: all
-kuerzel: GP
+kuerzel: GP2
 studiensemester: 1
 sprache: deutsch
 kreditpunkte: 12
