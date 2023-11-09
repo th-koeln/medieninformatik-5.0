@@ -27,10 +27,4 @@ meta:
 
 ## Kurzbeschreibung
 
-Frei aus dem Katalog der Guided Projects, die einem Schwerpunkt DUX, DEV oder EXA zugeordnet sind.
-
-TODO: GP-DUX, GP-DUX, GP-EXA hier auflisten per Skript
-
-## Arbeitsaufwand
-360 Stunden
-
+Konkrete Guided Projects im Schwerpunkt können  aus dem Katalog der Guided Projects gewählt werden, die für ein konkretes Guided Projects in einem der Schwerpunkte angeboten werden.
