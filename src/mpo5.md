@@ -12,12 +12,12 @@ studienverlauf:
         label: "1. Semester"
         fachsemester: 1
         season: "wise"
-        module: ["RIM", "WAMO-SP1", "WAMO1", "GP1"]
+        module: ["RIM", "WAMO-SP", "WAMO", "GP"]
     - semester:
         label: "2. Semester"
         fachsemester: 2
         season: "sose"
-        module: ["IMP", "WAMO-SP2", "WAMO2", "GP-SP1"]
+        module: ["IMP", "WAMO-SP", "WAMO", "GP-SP"]
     - semester:
         fachsemester: 3
         label: "Finales Semester"
