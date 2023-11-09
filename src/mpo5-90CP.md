@@ -4,7 +4,7 @@ layout: verlaufsplan.11ty.js
 inToc: true
 collection: modulsMPO5
 terms: [1,2,3]
-groups: ['Pflicht', 'Schwerpunkt', 'Wahl']
+groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
 maxCPS: 90
 
 studienverlauf:

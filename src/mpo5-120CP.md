@@ -4,7 +4,7 @@ layout: verlaufsplan.11ty.js
 inToc: true
 collection: modulsMPO5
 terms: [1,2,3,4]
-groups: ['Pflicht', 'Schwerpunkt', 'Wahl']
+groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
 maxCPS: 90
 
 studienverlauf:
@@ -22,7 +22,7 @@ studienverlauf:
         label: "3. Semester"
         fachsemester: 3
         season: "sose"
-        module: ["WAMO", "WAMO-SP", "WAMO", "GP"]
+        module: ["WAMO-SP", "WAMO-SP", "WAMO", "GP"]
     - semester:
         fachsemester: 4
         label: "Finales Semester"
