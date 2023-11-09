@@ -32,16 +32,25 @@ Prof. Dr. Gerhard Hartmann
 
 ## Learning Outcome
 
-Die Teilnehmer sind in der Lage verschiedene methodische Rahmen für die Beantwortung empirischer Problem- oder Fragestellungen zu benennen, kritisch einzuordnen und für ihre konkreten Projekte (Zielsetzungen, Rahmenbedingungen, etc.) eine rational begründete Wahl eines (oder einer Kombination aus verschiedenen) methodischen Rahmen zu treffen und zu kommunizieren.
-Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwenden und Resultate angemessen zu interpretieren und kritisch zu diskutieren.
+Die Studierenden kennen die verschiedene Paradigmen empirischer Forschung, können diese Anwenden und methodisch und epistemologisch kritisch einordnen.
+Sie haben Gütekriterien quantitativer und qualitativer Forschung verstanden und können diese exemplarisch anhand von aktuellen Publikationen kritisch diskutieren um fachlich fundierte und angemessene Sichten auf aktuelle Forschungsbeiträge einnehmen zu können.
+Die Studierenden können Forschungsthemen identifizieren, Forschungsfragen ableiten und auf Basis einer fundierten Domänenrecherche eigene Forschungshypothesen formulieren. Sie können angemessene Forschungsdesigns dazu entwickeln, diese proaktiv kritisch hinterfragen und kritisch einordnen um eine hinreichende Qualitätssicherung bzgl. eines eigenen Forschungsvorhabens sicherstellen zu können.
+Die Studierenden sind in der Lage, die mit der Forschungsfrage einhergehenden theoretischen Konstrukte und Konzepte sowie unabhängige und abhängige Variablen zu operationalisieren, zugehörige Skalenniveaus für die Variablen zu identifizieren sowie Messverfahren, -instrument und -vorschriften für die Indikatoren festzulegen.
+Die Studierenden kennen die verschiedenen Formen von Stichprobenziehungen und können anhand der Annahmen über die zugrundeliegende Population Entscheidungen über die Stichprobengenerierung treffen.
+Die Studierenden kennen Methoden der quantitativen und qualitativen Datenanalyse, können diese anwenden und die so erziehlten Ergebnisse im Lichte eines methodenkritischen Diskurses reflektiert hinsichtlich Tragfähigkeit der Erkenntnisse und potentieller Limitationen kritisch diskutieren.
+
+Die Teilnehmer sind in der Lage verschiedene methodische Rahmen für die Beantwortung empirischer Problem- oder Fragestellungen zu benennen, kritisch einzuordnen und für ihre konkreten Projekte (Zielsetzungen, Rahmenbedingungen, etc.) eine rational begründete Wahl eines (oder einer Kombination aus verschiedenen) methodischen Rahmen zu treffen und zu kommunizieren. Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwenden und Resultate angemessen zu interpretieren und kritisch zu diskutieren.
 
 ## Modulinhalte
 
+- Wissenschaftstheoretische Grundlagen
+- Gütekriterien quantitativer und qualitativer empirischer Forschung
+- Forschungsstand, -Thema, -Fragen und -Hypothesen
 - Forschungsdesign und -planung
-- quantitative und qualitative Methoden
-- empirische und analytische Ansätze
-- in-vivo vs. in-vitro Rahmenbedinungen bei empirischen Methoden
-- Datenweiterverarbeitung und Ergebnisinterpretation und -präsentation
+- Operationalisierung
+- Indikatoren
+- Stichprobenziehungen
+- Datenerhebung, -weiterverarbeitung und Ergebnisinterpretation und -präsentation
 
 ## Lehr- und Lernmethoden
 

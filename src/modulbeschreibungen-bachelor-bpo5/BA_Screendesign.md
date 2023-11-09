@@ -68,6 +68,6 @@ Die Studierenden können in einem gegebenen Gestaltungskontext eigene Gestaltung
 - Stapelkamp, Torsten: Screen- und Interfacedesign
 - Max Bollwage: Typografie kompakt
 - Kerstin Alexander: Kompendium der visuellen Information und Kommunikation
-- Maeda, John:Simplicity!: Die zehn Gesetze der Einfachheit
+- Maeda, John: Simplicity: Die zehn Gesetze der Einfachheit
 - Lewandowsky, Pina; Zeischegg, Francis: Visuelles Gestalten mit dem Computer
 - Koschembar, Frank: Grafik für Nicht-Grafiker

@@ -4,7 +4,7 @@ modulverantwortlich: rgroten
 dozierende: rgroten
 modulniveau: bachelor
 kuerzel: MCI
-date: 08.11.2023
+date: Last Modified
 studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch
