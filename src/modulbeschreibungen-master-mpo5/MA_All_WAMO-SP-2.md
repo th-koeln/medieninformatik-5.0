@@ -2,7 +2,7 @@
 title: Wahlmodul im Schwerpunkt
 modulverantwortlich: all
 dozierende: all
-kuerzel: WAMO-SP
+kuerzel: WAMO-SP2
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: 

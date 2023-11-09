@@ -103,6 +103,9 @@ var getCurriculumTable = exports.getCurriculumTable = (obj) => {
   const { maxCPS } = obj;
   const { eleventy } = obj;
 
+  
+
+
   const modulsForGroup = (group) =>  {
     let cps = 0;
     const termModuls = moduls.filter((modul) => modul.data.kategorie == group.toLowerCase());
@@ -195,63 +198,69 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
 
 
   
-//  var modulsImVerlauf
+  //  var modulsImVerlauf
 
-var moduleImVerlauf = [];
+  var moduleImVerlauf = [];
 
-// console.log("------------------------------");
-// moduls.forEach( modul => {
-//   console.log(modul.data.kuerzel);
-// });
+  getModuleFromCollectionByKuerzel = function(kuerzel, modulCollection) {
+    // I have a feeling this could be done nicer
+    for (i in modulCollection) {
+      modul = modulCollection[i]
+      if (kuerzel === modul.data.kuerzel) {
+        return modul;
+      }
+    };
+  }
 
 
+  console.log("------------------------------");
 
-getModuleFromCollectionByKuerzel = function(kuerzel, modulCollection) {
-  // I have a feeling this could be done nicer
-  for (i in modulCollection) {
-    modul = modulCollection[i]
-    if (kuerzel === modul.data.kuerzel) {
-      return modul;
-    }
+  // gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
+  // passe dabei jeweils das Fachsemester dynamisch an
+  for (sc in studienverlauf) {
+  
+    row = studienverlauf[sc];
+    //row.semester.module.forEach(m => {
+    for (mc in row.semester.module) {
+      m = row.semester.module[mc];
+      var modulFromCollection = getModuleFromCollectionByKuerzel(m, obj.moduls);
+      
+      if (modulFromCollection !== undefined) {
+
+        modulFromCollection.data.studiensemester = parseInt(row.semester.fachsemester);
+
+        console.log("push: " + modulFromCollection.data.studiensemester + " " + modulFromCollection.data.kuerzel);
+
+        moduleImVerlauf.push(modulFromCollection);
+
+
+        console.log("------------------------------");
+        moduleImVerlauf.forEach( modul => {
+          console.log("   grow: " + modul.data.studiensemester + " : " +modul.data.kuerzel);
+      
+        });
+
+
+      }
+    };
   };
-}
 
 
-// gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
-// passe dabei jeweils das Fachsemester dynamisch an
-studienverlauf.forEach(row => {
-  // console.log("semester");  
-  // console.log(row.semester.label);  
-  // console.log(row.semester.module);
+
+  // TODO: Module entsprechend zurendern
   
-  row.semester.module.forEach(m => {
-    modulFromCollection = getModuleFromCollectionByKuerzel(m, obj.moduls);
-    
-    if (modulFromCollection !== undefined) {
-      // console.log(">>> pushing module");
-      // console.log(modulFromCollection);
-      modulFromCollection.data.studiensemester = row.semester.fachsemester;
-      moduleImVerlauf.push(modulFromCollection);
-    } else {
-      // console.log(m + " not found in verlaufsplan");
-    }
-  
+  console.log("------------------------------");
+  moduleImVerlauf.forEach( modul => {
+    console.log("indata: " + modul.data.studiensemester + " : " +modul.data.kuerzel);
+
   });
 
-});
-
-
-
-
-
-// TODO: Module entsprechend zurendern
-obj.moduls = moduleImVerlauf;
-// console.log("------------------------------");
-// console.log(moduleImVerlauf);
-// console.log("------------------------------");
-// console.log(obj.moduls);
-
-return getCurriculumTable(obj);
+  
+  console.log("------------------------------");
+  // console.log(obj.moduls);
+  
+  obj.moduls = moduleImVerlauf;
+  return getCurriculumTable(obj);
 
 };
 

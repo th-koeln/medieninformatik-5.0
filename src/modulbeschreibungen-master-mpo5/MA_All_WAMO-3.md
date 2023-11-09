@@ -2,7 +2,7 @@
 title: Wahlmodul
 modulverantwortlich: all
 dozierende: all
-kuerzel: WAMO
+kuerzel: WAMO3
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: 
@@ -12,7 +12,7 @@ infourl:
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
-typ: pm
+typ: 
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls
