@@ -10,18 +10,19 @@ meta:
     Für welche gesellschaftlichen Bedarfe sowie berufliche Handlungsfelder qualifiziert der Studiengang (Studiengangziele)?
   comments:
     - "cn: hab ein paar Sachen angepasst. Wäre aber schön, wenn noch jemand drüber lesen könnte."
+    - rgr: hab ich, aus meiner Sicht jetzt fertig
 ---
 
 
 
 #### Vor welchem gesellschaftlichen Bedarf ist Medieninformatik relevant?
 
-Die größten Errungenschaften der Menschheit verdanken ihre Existenz kooperativer und somit interaktiver Unternehmungen. Soziale Interaktionen definiert die Qualität unserer Erfahrungen sowohl im Beruf als auch im Alltagsleben. Gleichzeitig führen Megatrends wie Globalisierung und Digitalisierung, sowie die neuesten Entwicklungen im Bereich der künstlichen Intelligenz, zu einer kontinuierlichen Steigerung der verfügbaren Informationen und zu einem stetig wachsenden Spektrum an digitalen Nutzungsmöglichkeiten.
-Medien dienen dem Austausch von Information. Die Medieninformatik verbindet somit die Potenziale der Interaktion und der digitalen Informationsverarbeitung. Ziel ist es, die allgegenwärtigen digitalen Medien so zu gestalten, dass sie kontextspezifisch den Informationsaustausch zwischen Menschen und zwischen Mensch und Technik optimieren.
+Die größten Errungenschaften der Menschheit verdanken ihre Existenz kooperativer und somit interaktiver Unternehmungen. Soziale Interaktionen definiert die Qualität unserer Erfahrungen sowohl im Beruf als auch im Alltagsleben. Gleichzeitig führen Megatrends wie Globalisierung und Digitalisierung, sowie die neuesten Entwicklungen im Bereich der künstlichen Intelligenz zu einer kontinuierlichen Steigerung der verfügbaren Informationen und zu einem stetig wachsenden Spektrum an digitalen Nutzungsmöglichkeiten.
+Medien dienen dem Austausch von Information. Die Medieninformatik verbindet somit die Potenziale der Interaktion und der digitalen Informationsverarbeitung. Aufgabe der Medieninformatik ist es, die allgegenwärtigen digitalen Medien so zu gestalten, dass sie kontextspezifisch den Informationsaustausch zwischen Menschen und zwischen Menschen und Technik optimieren.
 
 > Raphi: Es gibt ganz unten einen alternativen Einstieg mit weniger Pathos. Dann ginge es ab hier weiter..
 
-In Zeiten, in denen (zu) hohe Bildschirmzeiten und Informationsüberfluss genauso diskutiert werden, wie die mangelnde Medienkompetenz von Schulkindern, braucht es Expert\*innen, die Technologien nicht ausschließlich zur Gewinnmaximierung gestalten, sondern in erster Linie auch zum Wohl der Menschen. Es ist Aufgabe der Medieninformatik entsprechende Systeme menschengerecht zu gestalten: Wie kann in einem gegebenen Kontext für eine gegebene Nutzer\*innengruppe relevantes Wissen von irrelevantem getrennt, verfügbar und darstellbar gemacht werde? Wie können relevante Handlungen über digitale Schnittstellen ermöglicht werden?
+In Zeiten, in denen (zu) hohe Bildschirmzeiten und Informationsüberfluss genauso diskutiert werden, wie die mangelnde Medienkompetenz von Schulkindern, braucht es Expert\*innen, die Technologien nicht ausschließlich zur Gewinnmaximierung gestalten, sondern in erster Linie zum Wohl der Menschen. Es ist Aufgabe der Medieninformatik entsprechende Systeme menschengerecht zu entwickeln: Wie kann in einem gegebenen Kontext für eine gegebene Nutzer\*innengruppe relevantes Wissen von irrelevantem getrennt, verfügbar und darstellbar gemacht werde? Wie können relevante Handlungen über digitale Schnittstellen ermöglicht werden?
 
 #### Was ist Medieninformatik in Abgrenzung zu Informatik?
 
@@ -43,11 +44,11 @@ Studierende der Medieninformatik müssen die technischen Möglichkeiten der Info
 > 
 > Christian: passt aus meiner Sicht durchaus 
 
-Seit 2000 bietet die TH Köln den Medieninformatik Bachelor und Master an und ist damit Vorreiter in einem Fachgebiet, das seit 2007 auch durch die Fachgruppe Medieninformatik in der Gesellschaft für Informatik (größte Fachgesellschaft für Informatik im deutschsprachigen Raum) vertreten ist. Die Medieninformatik kann auf jahrelange Erfahrung in der erfolgreichen Adaption an sich verändernde gesellschaftliche Bedarfe und technologische Entwicklungen zurück blicken. An der TH Köln sieht sich die Medieninformatik, wie viele andere Medieninformatik Studiengänge als Informatik nah am Menschen. Die Medieninformatik Studiengänge der TH Köln zeichnen sich wie folgt aus:
+Seit 2000 bietet die TH Köln den Medieninformatik Bachelor und Master an und ist damit Vorreiter in einem Fachgebiet, das seit 2007 auch durch die Fachgruppe Medieninformatik in der Gesellschaft für Informatik (größte Fachgesellschaft für Informatik im deutschsprachigen Raum) vertreten ist. Die Medieninformatik kann auf jahrelange Erfahrung in der erfolgreichen Adaption an sich verändernde gesellschaftliche Bedarfe und technologische Entwicklungen zurückblicken. An der TH Köln sieht sich die Medieninformatik, wie viele andere Medieninformatik Studiengänge als Informatik nah am Menschen. Die Medieninformatik Studiengänge der TH Köln zeichnen sich wie folgt aus:
 
 - Fast 25 Jahre Erfahrung in diesen Studiengängen erlauben Souveränität im Umgang mit Veränderungen und technischen Weiterentwicklungen.
-- Viele Wahlmöglichkeiten in einem strukturierten Rahmen erlauben individuelle studentische Laufbahnen, die einen nachhaltige Wert für zukünftige Arbeitsfelder garantieren.
-- Hoher technischer Anspruch: Absolvent\*innen sind sicher in der kreative Gestaltung in verschiedenen Anwendungsfelder mit dem Fokus auf die Nutzer\*innen und technisch so gut ausgebildet, dass sie sich auch jederzeit auf Jobs für allgemeine Informatik bewerben können.
+- Viele Wahlmöglichkeiten in einem strukturierten Rahmen fördern individuelle studentische Laufbahnen, die einen nachhaltige Wert für zukünftige Arbeitsfelder garantieren.
+- Hoher technischer Anspruch: Absolvent\*innen sind sicher in der kreativen Gestaltung in verschiedenen Anwendungsfelder mit dem Fokus auf die Nutzer\*innen und technisch so gut ausgebildet, dass sie sich auch auf Jobs für allgemeine Informatik bewerben können.
 - Solide Verbindung von Anwendung und Forschung: indem sowohl in Kooperation mit der Industrie Anforderungen für relevante Studieninhalte erarbeitet werden als auch durch eine forschungsintensive Ausbildung die Möglichkeiten geschaffen wird, über den Status quo hinaus zu gehen.
 - Verschiedene fachliche Hintergründe und Berufserfahrungen der Dozent\*innen sowie der offene Austausch mit anderen Studiengängen ermöglichen die für Innovation förderliche Interdisziplinarität und bereiten auf den späteren Berufsalltag vor.
 - Der modernen Campus in Gummersbach schlägt die Brücke zwischen fokussiertem Studieren im Grünen und der Inspiration der Großstadt Köln.
@@ -58,7 +59,7 @@ Seit 2000 bietet die TH Köln den Medieninformatik Bachelor und Master an und is
 
 Die Berufsbilder, in denen Medieninformatiker:innen erfolgreich agieren, werden von den großen Branchen- und Interessenverbänden, wie der Bitkom oder der Gesellschaft für Informatik, diskutiert und etabliert. Zu den Kernaufgaben der Absolvent\*innen gehören nach dem Studium die drei Bereiche Development, Design und Exploration.
 
-Dazu können wir folgt beispielhaft Anwendungsgebiete und Branchen genannt werden.
+Dazu können wie folgt beispielhaft Anwendungsgebiete und Branchen genannt werden.
 
 ##### Anwendungsgebiete
 
@@ -70,7 +71,7 @@ Dazu können wir folgt beispielhaft Anwendungsgebiete und Branchen genannt werde
 - Universal Access
 - Advertising
 - Visual Analytics/ Information Visualization
-- e-Learning / Serious Games
+- E-Learning / Serious Games
 - Engaging Design / Playful Interaction
 - 3D-Visualisierung und Simulation
 - Web-Entwicklung
@@ -98,6 +99,7 @@ Dazu können wir folgt beispielhaft Anwendungsgebiete und Branchen genannt werde
 
 > mb: ich denke das kann dann weg, wollte es aber nicht löschen. Kann man auskommentieren?
 
-*Die Medieninformatik verbindet die Potenziale des gemeinsamen Handelns, der Interaktion und Kooperation sowie das der digitalen Informationsverarbeitung. Ziel ist es, digitale Medien so zu gestalten, dass sie kontextspezifisch den Informationsaustausch zwischen Menschen und zwischen Menschen und Technik optimieren.*
+*
+<!--- Die Medieninformatik verbindet die Potenziale des gemeinsamen Handelns, der Interaktion und Kooperation sowie das der digitalen Informationsverarbeitung. Ziel ist es, digitale Medien so zu gestalten, dass sie kontextspezifisch den Informationsaustausch zwischen Menschen und zwischen Menschen und Technik optimieren.*
 
-*Medien dienen dem Austausch von Information. Die Medieninformatik verbindet somit die Potenziale der Interaktion und der digitalen Informationsverarbeitung. Ziel ist es, die allgegenwertigen digitalen Medien so zu gestalten, dass sie kontextspezifisch den Informationsaustausch zwischen Menschen und zwischen Menschen und Technik optimieren.*
+*Medien dienen dem Austausch von Information. Die Medieninformatik verbindet somit die Potenziale der Interaktion und der digitalen Informationsverarbeitung. Ziel ist es, die allgegenwertigen digitalen Medien so zu gestalten, dass sie kontextspezifisch den Informationsaustausch zwischen Menschen und zwischen Menschen und Technik optimieren.* --->
