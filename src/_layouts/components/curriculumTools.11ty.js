@@ -230,9 +230,8 @@ studienverlauf.forEach(row => {
     if (modulFromCollection !== undefined) {
       // console.log(">>> pushing module");
       // console.log(modulFromCollection);
-      modulFromCollectionClone = Object.assign({}, modulFromCollection);
-      modulFromCollectionClone.data.studiensemester = row.semester.fachsemester;
-      moduleImVerlauf.push(modulFromCollectionClone);
+      modulFromCollection.data.studiensemester = row.semester.fachsemester;
+      moduleImVerlauf.push(modulFromCollection);
     } else {
       // console.log(m + " not found in verlaufsplan");
     }
