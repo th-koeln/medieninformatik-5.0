@@ -12,6 +12,8 @@ infourl:
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
+hideSchwerpunktChildren: true
+hideSchwerpunktloseChildren: false
 typ: 
 studienleistungen:
   Einzelleistung:
@@ -23,46 +25,6 @@ meta:
   status: tbd    
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
 ## Kurzbeschreibung
 
-Frei aus dem Katalog der Pflicht- und Wahlpflichtmodule der Masterstudiengänge der Informatik wählbar. Ein Katalog mit weiteren Angeboten wird nach Maßgabe des Beschlusses des Fakultätsrats der Fakultät für Informatik und Ingenieurwissenschaften zusammengestellt und durch Aushang und auf den Webseiten der Fakultät bekannt gemacht.
-
-## Arbeitsaufwand
-180 Stunden
-
-## Katalog
-
-TODO: per Script herholen
-
-- Coding Excellence
-- Requirements Engineering
-- Domain-Driven Design of Large Software Systems
-- Advanced Business Intelligence and Analytics
-- Enterprise Architecture Management
-- IT Strategy
-- Innovation Management
-- ... alle weiteren übertragen
+Dieses Modul kann frei aus dem Katalog der Pflicht- und Wahlpflichtmodule der Masterstudiengänge der Informatik gewählt werden. Ein Katalog mit weiteren Angeboten wird nach Maßgabe des Beschlusses des Fakultätsrats der Fakultät für Informatik und Ingenieurwissenschaften zusammengestellt und durch Aushang und auf den Webseiten der Fakultät bekannt gemacht. Innerhalb des Master Medieninformatik stehen insbesondere die folgenden Module zur Auwahl.

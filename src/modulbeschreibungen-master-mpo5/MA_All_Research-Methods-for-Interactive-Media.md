@@ -3,7 +3,7 @@ title: Research Methods for Interactive Media
 modulverantwortlich: gh
 dozierende: gh
 kuerzel: RIM
-studiensemester: 1
+season: wise
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

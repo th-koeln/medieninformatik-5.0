@@ -12,7 +12,7 @@ empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen 
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: EXA
 infourl: https://ilu.th-koeln.de/ilias.php?ref_id=87680&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=xp&baseClass=ilRepositoryGUI
 studienleistungen:

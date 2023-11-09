@@ -12,7 +12,7 @@ empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:

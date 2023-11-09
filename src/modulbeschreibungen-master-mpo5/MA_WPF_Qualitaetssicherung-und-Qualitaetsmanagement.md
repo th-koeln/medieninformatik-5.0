@@ -12,7 +12,7 @@ empfohleneVoraussetzungen: Grundkenntnisse Softwaretechnik und Projektmanagement
 published: true
 layout: modulbeschreibung
 typ: wpm
-parent: WPM
+parent: WAMO-SP, WAMO
 schwerpunkt:
 studienleistungen:
   Einzelleistung:

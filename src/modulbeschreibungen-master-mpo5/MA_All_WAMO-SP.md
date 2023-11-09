@@ -13,6 +13,8 @@ zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: schwerpunkt
 typ: 
+hideSchwerpunktChildren: false
+hideSchwerpunktloseChildren: true
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls

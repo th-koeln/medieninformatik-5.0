@@ -329,7 +329,7 @@ exports.getAllModulsMaster = (obj) => {
 
 exports.getChildModulList = (data, headlineChilds) => {
 
-  if(data.kuerzel === 'SWPM') return '';
+  if ((data.kuerzel === 'SWPM') || (data.hideSchwerpunktloseChildren === true)) return '';
 
   const childModuls = getChildModulList(data);
   const {schwerpunkte} = data.collections;
@@ -367,7 +367,7 @@ exports.getChildModulList = (data, headlineChilds) => {
 
 exports.getChildModulListBySchwerpunkt = (data, headlineChilds) => {
 
-  if(data.kuerzel === 'WPM') return '';
+  if ((data.kuerzel === 'WPM') || (data.hideSchwerpunktChildren === true)) return '';
 
   const childModuls = getChildModulList(data);
   const {schwerpunkte} = data.collections;

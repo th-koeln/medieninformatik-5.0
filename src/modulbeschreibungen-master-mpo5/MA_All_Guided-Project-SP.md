@@ -12,6 +12,8 @@ infourl:
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: schwerpunkt
+hideSchwerpunktChildren: false
+hideSchwerpunktloseChildren: true
 typ: pm
 studienleistungen:
   Einzelleistung:

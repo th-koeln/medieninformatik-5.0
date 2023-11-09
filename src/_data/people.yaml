@@ -1,3 +1,8 @@
+nn:
+    id: nn
+    status: prof
+    name: 'tbd'
+    mi: true
 il:
     id: il
     status: prof

@@ -14,6 +14,7 @@ infourl:
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
+parent: GP-SP
 typ: pm
 studienleistungen:
   Einzelleistung:

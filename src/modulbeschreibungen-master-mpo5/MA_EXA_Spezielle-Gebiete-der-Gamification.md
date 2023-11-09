@@ -11,7 +11,7 @@ empfohleneVoraussetzungen: Basismodul Mensch-Computer-Interaktion
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: EXA
 studienleistungen:
   Einzelleistung:

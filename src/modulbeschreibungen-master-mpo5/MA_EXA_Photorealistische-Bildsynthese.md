@@ -12,7 +12,7 @@ empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen 
 published: false
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: EXA
 infourl:
 studienleistungen:

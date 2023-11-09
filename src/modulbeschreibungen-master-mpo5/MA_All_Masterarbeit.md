@@ -8,7 +8,7 @@ kreditpunkte: 30
 voraussetzungenNachPruefungsordnung: Zur Masterarbeit kann zugelassen werden, wer die Zulassungsvoraussetzungen gemäß Prüfungsordnung erfüllt.
 published: true
 layout: modulbeschreibung.11ty.js
-kategorie: pflicht
+kategorie: abschluss
 typ: pm
 infourl: 
 studienleistungen:
