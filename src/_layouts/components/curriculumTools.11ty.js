@@ -95,7 +95,7 @@ exports.getCurriculumList = (obj) => {
 /* Tabelle der Module eines Studiengangs
 ############################################################################ */
 
-exports.getCurriculumTable = (obj) => {
+var getCurriculumTable = exports.getCurriculumTable = (obj) => {
 
   const { moduls } = obj;
   const { terms } = obj;
@@ -179,6 +179,83 @@ exports.getCurriculumTable = (obj) => {
   `;
 };
 
+
+
+/* Tabelle der Module eines Studiengangs gebaut nach einem Verlaufsplan
+############################################################################ */
+
+exports.getCurriculumVerlaufsplanTable = (obj) => {
+
+  //const { moduls } = obj;
+  const { terms } = obj;
+  const { groups } = obj;
+  const { maxCPS } = obj;
+  const { eleventy } = obj;
+  const { studienverlauf } = obj;
+
+
+  
+//  var modulsImVerlauf
+
+var moduleImVerlauf = [];
+
+// console.log("------------------------------");
+// moduls.forEach( modul => {
+//   console.log(modul.data.kuerzel);
+// });
+
+
+
+getModuleFromCollectionByKuerzel = function(kuerzel, modulCollection) {
+  // I have a feeling this could be done nicer
+  for (i in modulCollection) {
+    modul = modulCollection[i]
+    if (kuerzel === modul.data.kuerzel) {
+      return modul;
+    }
+  };
+}
+
+
+// gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
+// passe dabei jeweils das Fachsemester dynamisch an
+studienverlauf.forEach(row => {
+  // console.log("semester");  
+  // console.log(row.semester.label);  
+  // console.log(row.semester.module);
+  
+  row.semester.module.forEach(m => {
+    modulFromCollection = getModuleFromCollectionByKuerzel(m, obj.moduls);
+    
+    if (modulFromCollection !== undefined) {
+      // console.log(">>> pushing module");
+      // console.log(modulFromCollection);
+      modulFromCollectionClone = Object.assign({}, modulFromCollection);
+      modulFromCollectionClone.data.studiensemester = row.semester.fachsemester;
+      moduleImVerlauf.push(modulFromCollectionClone);
+    } else {
+      // console.log(m + " not found in verlaufsplan");
+    }
+  
+  });
+
+});
+
+
+
+
+
+// TODO: Module entsprechend zurendern
+obj.moduls = moduleImVerlauf;
+// console.log("------------------------------");
+// console.log(moduleImVerlauf);
+// console.log("------------------------------");
+// console.log(obj.moduls);
+
+return getCurriculumTable(obj);
+
+};
+
 /* Liste ALLER Module eines Studiengangs
 ############################################################################ */
 
@@ -193,7 +270,7 @@ exports.getAllModuls = (obj) => {
 
     return `
       <li>${status}
-        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+        <a href="${eleventy.url(modul.url)}">${modul.data.title} </a> (${modul.data.schwerpunkt}) (${modul.data.modulverantwortlich}) 
       </li>
     `;
   });
@@ -204,6 +281,58 @@ exports.getAllModuls = (obj) => {
     </ul>
   `;
 };
+
+
+exports.getAllModulsMaster = (obj) => {
+
+  const moduleTools = require('../components/moduleTools.11ty');
+  const peopleTools = require('../components/peopleTools.11ty');
+
+
+  const { moduls } = obj;
+  const { eleventy } = obj;
+
+  const modulList = moduls.map((modul) => {
+
+    const status = modul.data.meta && modul.data.meta.status ? `<span class="is-${modul.data.meta.status}"></span>` : '';
+
+    function createEmptyString(value) {
+      if (value == null) return '';
+      return value;
+
+    }
+
+    isDEV = createEmptyString(modul.data.schwerpunkt).includes("DEV") ? "x" : ""; 
+    isDUX = createEmptyString(modul.data.schwerpunkt).includes("DUX") ? "x" : "";
+    isEXA = createEmptyString(modul.data.schwerpunkt).includes("EXA") ? "x" : "";
+
+    return `
+    <tr>
+      <td>${status}&nbsp;<a href="${eleventy.url(modul.url)}">${modul.data.title} </a></td>
+      <td>Semester</td>
+      <td>${modul.data.modulverantwortlich}</td>
+      <td>${isDUX}</td>
+      <td>${isDEV}</td>
+      <td>${isEXA}</td>
+    </tr> 
+    `;
+  });
+
+  return `
+  <table>
+    <tr>
+      <th>Modul</th>
+      <th>Semester</th>
+      <th>Dozent*in</th>
+      <th>DUX</th>
+      <th>DEV</th>
+      <th>EXA</th>
+    </tr>
+      ${modulList.join("\n")}
+  </table>
+  `;
+};
+
 
 /* Liste aller Kind Module eines Moduls
 ############################################################################ */
