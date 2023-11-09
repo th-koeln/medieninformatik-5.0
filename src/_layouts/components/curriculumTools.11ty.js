@@ -212,9 +212,6 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
     };
   }
 
-
-  console.log("------------------------------");
-
   // gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
   // passe dabei jeweils das Fachsemester dynamisch an
   for (sc in studienverlauf) {
@@ -224,40 +221,14 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
     for (mc in row.semester.module) {
       m = row.semester.module[mc];
       var modulFromCollection = getModuleFromCollectionByKuerzel(m, obj.moduls);
-      
+  
       if (modulFromCollection !== undefined) {
-
         modulFromCollection.data.studiensemester = parseInt(row.semester.fachsemester);
-
-        console.log("push: " + modulFromCollection.data.studiensemester + " " + modulFromCollection.data.kuerzel);
-
         moduleImVerlauf.push(modulFromCollection);
-
-
-        console.log("------------------------------");
-        moduleImVerlauf.forEach( modul => {
-          console.log("   grow: " + modul.data.studiensemester + " : " +modul.data.kuerzel);
-      
-        });
-
-
       }
     };
   };
 
-
-
-  // TODO: Module entsprechend zurendern
-  
-  console.log("------------------------------");
-  moduleImVerlauf.forEach( modul => {
-    console.log("indata: " + modul.data.studiensemester + " : " +modul.data.kuerzel);
-
-  });
-
-  
-  console.log("------------------------------");
-  // console.log(obj.moduls);
   
   obj.moduls = moduleImVerlauf;
   return getCurriculumTable(obj);
