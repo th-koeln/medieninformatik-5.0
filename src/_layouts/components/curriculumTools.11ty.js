@@ -207,9 +207,13 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
     for (i in modulCollection) {
       modul = modulCollection[i]
       if (kuerzel === modul.data.kuerzel) {
+        console.log("modul mit kuerzel gefunden:" + kuerzel);
         return modul;
       }
     };
+
+    console.log("modul mit kuerzel nicht gefunden:" + kuerzel);
+
   }
 
   // gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
@@ -223,8 +227,15 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
       var modulFromCollection = getModuleFromCollectionByKuerzel(m, obj.moduls);
   
       if (modulFromCollection !== undefined) {
-        modulFromCollection.data.studiensemester = parseInt(row.semester.fachsemester);
-        moduleImVerlauf.push(modulFromCollection);
+
+        
+        // deep copy does not work due to circularity of structure
+        // hence we semi deep copy the object
+        let modulClone = Object.assign({}, modulFromCollection);
+        modulClone.data = Object.assign({}, modulFromCollection.data);
+
+        modulClone.data.studiensemester = parseInt(row.semester.fachsemester);
+        moduleImVerlauf.push(modulClone);
       }
     };
   };

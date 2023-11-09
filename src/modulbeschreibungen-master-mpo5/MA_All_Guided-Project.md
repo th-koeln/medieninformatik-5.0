@@ -2,7 +2,7 @@
 title: Guided Project
 modulverantwortlich: all
 dozierende: all
-kuerzel: GP2
+kuerzel: GP
 studiensemester: 1
 sprache: deutsch
 kreditpunkte: 12
@@ -13,7 +13,6 @@ infourl:
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
-typ: pm
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls

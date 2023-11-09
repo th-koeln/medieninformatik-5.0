@@ -2,7 +2,7 @@
 title: Guided Project im Schwerpunkt
 modulverantwortlich: mi
 dozierende: mi
-kuerzel: GP-SP1
+kuerzel: GP-SP
 sprache: deutsch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

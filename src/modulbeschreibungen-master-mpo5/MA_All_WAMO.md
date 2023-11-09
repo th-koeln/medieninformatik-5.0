@@ -2,7 +2,7 @@
 title: Wahlmodul
 modulverantwortlich: all
 dozierende: all
-kuerzel: WAMO3
+kuerzel: WAMO
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: 
