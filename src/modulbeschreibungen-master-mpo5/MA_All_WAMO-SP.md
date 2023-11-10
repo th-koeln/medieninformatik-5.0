@@ -1,19 +1,20 @@
 ---
-title: Guided Project im Schwerpunkt
-modulverantwortlich: all
-dozierende: all
-kuerzel: SGP
-studiensemester: 2
+title: Wahlmodul im Schwerpunkt
+modulverantwortlich: mi
+dozierende: mi
+kuerzel: WAMO-SP
 sprache: deutsch
-kreditpunkte: 12
-voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: keine
+kreditpunkte: 6
+voraussetzungenNachPruefungsordnung: 
+empfohleneVoraussetzungen: 
 published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: schwerpunkt
-typ: pm
+typ: 
+hideSchwerpunktChildren: false
+hideSchwerpunktloseChildren: true
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls
@@ -47,3 +48,13 @@ meta:
 ## Besonderheiten
 
 ---
+
+## Kurzbeschreibung
+
+Frei aus dem Katalog der Module, die einem Schwerpunkt DUX, DEV oder EXA zugeordnet sind.
+
+TODO: Hier auflisten per Skript
+
+## Arbeitsaufwand
+180 Stunden
+

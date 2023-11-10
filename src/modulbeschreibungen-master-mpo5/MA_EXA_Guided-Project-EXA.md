@@ -1,18 +1,20 @@
 ---
-title: Schwerpunkt Wahlpflichtmodul 1
-modulverantwortlich: all
-dozierende: all
-kuerzel: SWPM
-studiensemester: 1
+title: Guided Project on Exploring Advanced Interactive Media
+kuerzel: GP-EXA
+schwerpunkt: EXA
+modulverantwortlich: mi
+dozierende: mi
+studiensemesterVierSemestrig: 3
 sprache: deutsch
-kreditpunkte: 6
+kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
-kategorie: schwerpunkt
+kategorie: wahl
+parent: GP-SP
 typ: pm
 studienleistungen:
   Einzelleistung:
@@ -21,7 +23,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: tbd 
 ---
 
 ## Sprache
@@ -46,4 +48,4 @@ meta:
 
 ## Besonderheiten
 
-
+---

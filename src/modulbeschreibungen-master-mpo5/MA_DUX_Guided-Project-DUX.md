@@ -1,9 +1,10 @@
 ---
-title: Guided Project 2
-modulverantwortlich: all
-dozierende: all
-kuerzel: GP
-studiensemesterVierSemestrig: 3
+title: Guided Project on Designing for User Experiences
+modulverantwortlich: mi
+dozierende: mi
+kuerzel: GP-DUX
+schwerpunkt: DUX
+studiensemester: 1
 sprache: deutsch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
@@ -13,6 +14,7 @@ infourl:
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
+parent: GP-SP
 typ: pm
 studienleistungen:
   Einzelleistung:
@@ -21,7 +23,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd 
+  status: tbd    
 ---
 
 ## Sprache

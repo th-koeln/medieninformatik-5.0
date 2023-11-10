@@ -1,11 +1,10 @@
 ---
-title: Schwerpunkt Wahlpflichtmodul 2
-modulverantwortlich: all
-dozierende: all
-kuerzel: SWPM
-studiensemester: 2
+title: Guided Project im Schwerpunkt
+modulverantwortlich: mi
+dozierende: mi
+kuerzel: GP-SP
 sprache: deutsch
-kreditpunkte: 6
+kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: true
@@ -13,6 +12,8 @@ infourl:
 zielmedium: web
 layout: modulbeschreibung.11ty.js
 kategorie: schwerpunkt
+hideSchwerpunktChildren: false
+hideSchwerpunktloseChildren: true
 typ: pm
 studienleistungen:
   Einzelleistung:
@@ -24,24 +25,6 @@ meta:
   status: tbd    
 ---
 
-## Sprache
+## Kurzbeschreibung
 
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
+Konkrete Guided Projects im Schwerpunkt können  aus dem Katalog der Guided Projects gewählt werden, die für ein konkretes Guided Projects in einem der Schwerpunkte angeboten werden.
