@@ -1,0 +1,41 @@
+/* Job Offers
+############################################################################ */
+
+.job-offer-overview{
+
+  display: grid;
+  gap: var(--fluid-space-s);
+  grid-template-columns: repeat(auto-fill,minmax(var(--max-width-card),1fr));
+
+  .job-offer-data{
+
+    & + .job-offer-data{
+      margin-top: 0;
+    }
+
+    box-shadow: var(--shadow-l-light);
+    transition: all var(--tr-slow);
+    background-color: var(--lightest);
+    margin-left: 0;
+    padding: var(--s);
+
+    &:hover{
+      box-shadow: var(--shadow-xl-light);
+      transform: scale(1.01);
+    }
+
+    &::before{
+      content: "";
+      display: inline;
+      width: 0;
+      margin-left: 0;
+    }
+
+    figcaption{
+      li{
+        margin-top: var(--quat);
+        line-height: var(--lh-tight);
+      }
+    }
+  }
+}

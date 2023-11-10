@@ -693,11 +693,12 @@ figure.image figcaption strong {
   margin-bottom: var(--half);
   margin-left: 0;
   margin-top: 0;
-  padding: 0 var(--quat);
+  padding: var(--quat) var(--quat);
   border-radius: var(--border-radius-m);
   position: relative;
   z-index: 1;
   color: var(--darkest);
+  line-height: var(--lh-tight);
 }
 .tag:hover {
   cursor: pointer;

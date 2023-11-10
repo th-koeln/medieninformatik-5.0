@@ -207,12 +207,12 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
     for (i in modulCollection) {
       modul = modulCollection[i]
       if (kuerzel === modul.data.kuerzel) {
-        console.log("modul mit kuerzel gefunden:" + kuerzel);
+        // console.log("modul mit kuerzel gefunden:" + kuerzel);
         return modul;
       }
     };
 
-    console.log("modul mit kuerzel nicht gefunden:" + kuerzel);
+    // console.log("modul mit kuerzel nicht gefunden:" + kuerzel);
 
   }
 
