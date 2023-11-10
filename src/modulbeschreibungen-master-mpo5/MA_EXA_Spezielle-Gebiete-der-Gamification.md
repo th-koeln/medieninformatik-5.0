@@ -1,6 +1,6 @@
 ---
 title: Spezielle Gebiete der Gamification
-modulverantwortlich: uwm
+modulverantwortlich: mbluemm
 dozierende: uwm
 kuerzel: WPF-SGG
 studiensemester: 1
