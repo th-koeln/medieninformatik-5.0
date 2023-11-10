@@ -11,7 +11,7 @@ empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: WPM
+parent: WAMO
 schwerpunkt:
 infourl: 
 studienleistungen:

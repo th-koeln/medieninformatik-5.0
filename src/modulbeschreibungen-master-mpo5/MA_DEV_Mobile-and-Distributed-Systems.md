@@ -3,17 +3,17 @@ title: Mobile and Distributed Interactive Systems
 modulverantwortlich: boehmer
 dozierende: boehmer
 kuerzel: MODI
-studiensemester: 1
 sprache: deutsch
-zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
+implementiert: WAMO-SP, WAMO
 voraussetzungenNachPruefungsordnung: 
 empfohleneVoraussetzungen: 
 published: true
 layout: modulbeschreibung.11ty.js
-typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DEV
+typ: pm
+kategorie: schwerpunkt
 studienleistungen:
   Einzelleistung:
     art: 

@@ -12,7 +12,7 @@ empfohleneVoraussetzungen: keine
 infourl: 
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DUX
 published: true
 studienleistungen:
