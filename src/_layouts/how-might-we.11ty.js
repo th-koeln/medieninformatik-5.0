@@ -35,7 +35,7 @@ module.exports = {
       });
 
       return `
-        <ul class="filter-group" data-js-list-interaction-mode="single-choice">
+        <ul id="filtergroup-${filterName}" class="filter-group" data-js-list-single-choice-filter>
           ${tagListForFilter.join("\n")}
         </ul>
       `;
@@ -88,7 +88,7 @@ module.exports = {
               <h3 data-js-list-interaction-header>${howMightWeList.length} Einträge</h3>
             </header>
 
-            <ul class="question-overview">
+            <ul class="question-overview" data-js-overview>
               ${howMightWeList.join("\n")}
             </ul>
           </div>

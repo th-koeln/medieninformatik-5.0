@@ -110,7 +110,7 @@ module.exports = {
               <h3 data-js-list-interaction-header>${insightsList.length} Einträge</h3>
             </header>
 
-            <ul class="insight-overview" data-js-insights-overview>
+            <ul class="insight-overview" data-js-overview>
               ${insightsList.join("\n")}
             </ul>
           </div>
