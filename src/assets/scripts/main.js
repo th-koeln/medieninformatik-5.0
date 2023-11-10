@@ -50,19 +50,6 @@ const addListInteractions = () => {
     }
   };
 
-  const getTagList = (tagData) => {
-    const allTags = [...new Set(tagData.flat())].sort();
-    let tagList = [];
-    allTags.map((item) => {
-      const itemAsString = JSON.stringify(item);
-      tagList[itemAsString] = true;
-    });
-
-    return Object.keys(tagList).map((item) => {
-      return JSON.parse(item);
-    });
-  };
-
   const addOrRemoveFilterTag = (tagTriggerElement) => {
     const tagTriggerElementValue = tagTriggerElement.dataset.jsListInteractionItemTrigger;
     const tagTriggerElementValueAsObject = JSON.parse(tagTriggerElementValue);
@@ -77,19 +64,11 @@ const addListInteractions = () => {
     }
   };
 
-  const removeFilterTag = (tagTriggerElement) => {
-    const tagTriggerElementValue = tagTriggerElement.dataset.jsListInteractionItemTrigger;
-    const tagTriggerElementValueAsObject = JSON.parse(tagTriggerElementValue);
-    const tagTriggerElementValueAsString = JSON.stringify(tagTriggerElementValueAsObject);
-
-    filterTags.splice(filterTags.indexOf(tagTriggerElementValueAsString), 1);
-  };
-
   const addResultCount = (count) => {
     interactiveListElementHeader.innerHTML = `${count} ${count > 1 ? "Einträge" : "Eintrag"}`;
   };
 
-  const filterItems = (tagTriggerElement, event) => {
+  const filterItems = (tagTriggerElement) => {
 
     const tagTriggerElementValue = tagTriggerElement.dataset.jsListInteractionItemTrigger;
   
@@ -119,6 +98,48 @@ const addListInteractions = () => {
     const visibleItems = document.querySelectorAll("[data-js-list-interaction-item]:not(.is-hidden)");
     addResultCount(visibleItems.length);
   };
+
+
+  const initItemFilters = () => {
+    const insightsOverview = document.querySelector("[data-js-insights-overview]");
+    const tagTriggerElements = insightsOverview.querySelectorAll("[data-js-list-interaction-item-trigger]");
+    tagTriggerElements.forEach((tagTriggerElement) => {
+  
+      tagTriggerElement.addEventListener("click", (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+  
+        addOrRemoveFilterTag(tagTriggerElement);
+        filterItems(tagTriggerElement, event);
+      });
+    });
+  }
+
+  const initSingleChoiceFilters = () => {
+    const activeSingleChoiceFilters = [];
+    const singleChoiceFilters = document.querySelectorAll("[data-js-list-single-choice-filter]");
+    
+    singleChoiceFilters.forEach((singleChoiceFilter) => {
+      activeSingleChoiceFilters[singleChoiceFilter] = false;
+      const singleChoiceFilterItems = singleChoiceFilter.querySelectorAll("[data-js-list-interaction-item-trigger]");
+
+      singleChoiceFilterItems.forEach((singleChoiceFilterItem) => {
+        singleChoiceFilterItem.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+
+          if(activeSingleChoiceFilters[singleChoiceFilter]){
+            addOrRemoveFilterTag(activeSingleChoiceFilters[singleChoiceFilter]);
+            activeSingleChoiceFilters[singleChoiceFilter].classList.remove("is-active");
+          }
+          activeSingleChoiceFilters[singleChoiceFilter] = singleChoiceFilterItem;
+          
+          addOrRemoveFilterTag(singleChoiceFilterItem);
+          filterItems(singleChoiceFilterItem, event);
+        });
+      });
+    });
+  };
   
 
   const interactiveListElement = document.querySelector("[data-js-list-interactions]");
@@ -126,35 +147,9 @@ const addListInteractions = () => {
 
   const interactiveListElementHeader = interactiveListElement.querySelector("[data-js-list-interaction-header]");
   const interactiveListElementItems = document.querySelectorAll("[data-js-list-interaction-item]");
-  const tagData = [...interactiveListElementItems].map((item) => {
-    const itemRawData = item.dataset.jsListInteractionItem;
-    const itemData = getItemData(itemRawData);
-    return itemData.tags;
-  });
 
-  const tagList = getTagList(tagData);
-
-  const tagTriggerElements = document.querySelectorAll("[data-js-list-interaction-item-trigger]");
-  tagTriggerElements.forEach((tagTriggerElement) => {
-
-    tagTriggerElement.addEventListener("click", (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-
-      const parentWithMode = event.target.closest("[data-js-list-interaction-mode]");
-      if(parentWithMode && parentWithMode.dataset.jsListInteractionMode === "single-choice"){
-        const activeTagTriggerElements = parentWithMode.querySelectorAll("[data-js-list-interaction-item-trigger].is-active");
-        
-        activeTagTriggerElements.forEach((activeTagTriggerElement) => {
-          activeTagTriggerElement.classList.remove("is-active");
-          removeFilterTag(activeTagTriggerElement);
-        });
-      }
-
-      addOrRemoveFilterTag(tagTriggerElement);
-      filterItems(tagTriggerElement, event);
-    });
-  });
+  initItemFilters();
+  initSingleChoiceFilters();
 };
 
 

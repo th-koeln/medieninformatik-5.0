@@ -37,7 +37,7 @@ module.exports = {
       });
 
       return `
-        <ul class="filter-group" data-js-list-interaction-mode="single-choice">
+        <ul class="filter-group" data-js-list-single-choice-filter>
           ${tagListForFilter.join("\n")}
         </ul>
       `;
@@ -110,7 +110,7 @@ module.exports = {
               <h3 data-js-list-interaction-header>${insightsList.length} Einträge</h3>
             </header>
 
-            <ul class="insight-overview">
+            <ul class="insight-overview" data-js-insights-overview>
               ${insightsList.join("\n")}
             </ul>
           </div>
