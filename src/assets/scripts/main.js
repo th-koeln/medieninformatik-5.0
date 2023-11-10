@@ -50,18 +50,25 @@ const addListInteractions = () => {
     }
   };
 
-  const addOrRemoveFilterTag = (tagTriggerElement) => {
+  const changeHistory = () => {
+    const url = new URL(location);
+    url.searchParams.set("insights", filterTags.join(","));
+    history.pushState({}, "", url);
+  };
+
+  const addOrRemoveFilterTag = (tagTriggerElement, mode) => {
     const tagTriggerElementValue = tagTriggerElement.dataset.jsListInteractionItemTrigger;
     const tagTriggerElementValueAsObject = JSON.parse(tagTriggerElementValue);
     const tagTriggerElementValueAsString = JSON.stringify(tagTriggerElementValueAsObject);
 
     const isActive = tagTriggerElement.classList.contains("is-active");
     
-    if(isActive){
+    if(isActive || mode === "remove"){
       filterTags.splice(filterTags.indexOf(tagTriggerElementValueAsString), 1);
     } else {
       filterTags.push(tagTriggerElementValueAsString);
     }
+    changeHistory();
   };
 
   const addResultCount = (count) => {
@@ -99,7 +106,6 @@ const addListInteractions = () => {
     addResultCount(visibleItems.length);
   };
 
-
   const initItemFilters = () => {
     const insightsOverview = document.querySelector("[data-js-insights-overview]");
     const tagTriggerElements = insightsOverview.querySelectorAll("[data-js-list-interaction-item-trigger]");
@@ -116,23 +122,25 @@ const addListInteractions = () => {
   }
 
   const initSingleChoiceFilters = () => {
-    const activeSingleChoiceFilters = [];
     const singleChoiceFilters = document.querySelectorAll("[data-js-list-single-choice-filter]");
     
     singleChoiceFilters.forEach((singleChoiceFilter) => {
-      activeSingleChoiceFilters[singleChoiceFilter] = false;
+      
       const singleChoiceFilterItems = singleChoiceFilter.querySelectorAll("[data-js-list-interaction-item-trigger]");
 
       singleChoiceFilterItems.forEach((singleChoiceFilterItem) => {
         singleChoiceFilterItem.addEventListener("click", (event) => {
           event.preventDefault();
           event.stopPropagation();
+          
+          // TBD 😱
+          const activeItem = Array.from(singleChoiceFilterItems).find(item => item.classList.contains("is-active"));
+          if(activeItem === singleChoiceFilterItem){
+            addOrRemoveFilterTag(singleChoiceFilterItem, 'remove');
 
-          if(activeSingleChoiceFilters[singleChoiceFilter]){
-            addOrRemoveFilterTag(activeSingleChoiceFilters[singleChoiceFilter]);
-            activeSingleChoiceFilters[singleChoiceFilter].classList.remove("is-active");
+          }else if(activeItem !== undefined){
+
           }
-          activeSingleChoiceFilters[singleChoiceFilter] = singleChoiceFilterItem;
           
           addOrRemoveFilterTag(singleChoiceFilterItem);
           filterItems(singleChoiceFilterItem, event);
@@ -140,8 +148,21 @@ const addListInteractions = () => {
       });
     });
   };
-  
 
+  const parseUrl = () => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const insights = searchParams.get("insights").split(",");
+    const singleChoiceFilters = document.querySelectorAll("[data-js-list-single-choice-filter]");
+    insights.forEach((insight) => {
+      singleChoiceFilters.forEach((singleChoiceFilter) => {
+        const filterItem = singleChoiceFilter.querySelector(`[data-js-list-interaction-item-trigger='${insight}']`);
+        if(filterItem === null) return;
+        addOrRemoveFilterTag(filterItem);
+        filterItems(filterItem);
+      });
+    });
+  };
+  
   const interactiveListElement = document.querySelector("[data-js-list-interactions]");
   if(!interactiveListElement || interactiveListElement === null) return;
 
@@ -150,6 +171,7 @@ const addListInteractions = () => {
 
   initItemFilters();
   initSingleChoiceFilters();
+  parseUrl();
 };
 
 

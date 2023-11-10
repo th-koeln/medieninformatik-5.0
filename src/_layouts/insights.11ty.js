@@ -37,7 +37,7 @@ module.exports = {
       });
 
       return `
-        <ul class="filter-group" data-js-list-single-choice-filter>
+        <ul id="filtergroup-${filterName}" class="filter-group" data-js-list-single-choice-filter>
           ${tagListForFilter.join("\n")}
         </ul>
       `;
