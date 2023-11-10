@@ -34,7 +34,7 @@ const linkCompetencies = () => {
   });
 };
 
-/* Filter Insights
+/* Filter
 ############################################################################ */
 
 const addListInteractions = () => {
@@ -52,7 +52,7 @@ const addListInteractions = () => {
 
   const changeHistory = () => {
     const url = new URL(location);
-    url.searchParams.set("insights", filterTags.join(","));
+    url.searchParams.set("filter", filterTags.join(","));
     history.pushState({}, "", url);
   };
 
@@ -68,6 +68,8 @@ const addListInteractions = () => {
     } else {
       filterTags.push(tagTriggerElementValueAsString);
     }
+
+    console.log(filterTags)
     changeHistory();
   };
 
@@ -107,8 +109,8 @@ const addListInteractions = () => {
   };
 
   const initItemFilters = () => {
-    const insightsOverview = document.querySelector("[data-js-insights-overview]");
-    const tagTriggerElements = insightsOverview.querySelectorAll("[data-js-list-interaction-item-trigger]");
+    const overview = document.querySelector("[data-js-overview]");
+    const tagTriggerElements = overview.querySelectorAll("[data-js-list-interaction-item-trigger]");
     tagTriggerElements.forEach((tagTriggerElement) => {
   
       tagTriggerElement.addEventListener("click", (event) => {
@@ -133,13 +135,14 @@ const addListInteractions = () => {
           event.preventDefault();
           event.stopPropagation();
           
-          // TBD 😱
           const activeItem = Array.from(singleChoiceFilterItems).find(item => item.classList.contains("is-active"));
+        
           if(activeItem === singleChoiceFilterItem){
             addOrRemoveFilterTag(singleChoiceFilterItem, 'remove');
 
           }else if(activeItem !== undefined){
-
+            addOrRemoveFilterTag(activeItem, 'remove');
+            filterItems(activeItem, event);
           }
           
           addOrRemoveFilterTag(singleChoiceFilterItem);
@@ -151,11 +154,13 @@ const addListInteractions = () => {
 
   const parseUrl = () => {
     const searchParams = new URLSearchParams(window.location.search);
-    const insights = searchParams.get("insights").split(",");
+    const filterString = searchParams.get("filter");
+    if(!filterString) return;
+    const filters = filterString.split(",");
     const singleChoiceFilters = document.querySelectorAll("[data-js-list-single-choice-filter]");
-    insights.forEach((insight) => {
+    filters.forEach((filter) => {
       singleChoiceFilters.forEach((singleChoiceFilter) => {
-        const filterItem = singleChoiceFilter.querySelector(`[data-js-list-interaction-item-trigger='${insight}']`);
+        const filterItem = singleChoiceFilter.querySelector(`[data-js-list-interaction-item-trigger='${filter}']`);
         if(filterItem === null) return;
         addOrRemoveFilterTag(filterItem);
         filterItems(filterItem);
