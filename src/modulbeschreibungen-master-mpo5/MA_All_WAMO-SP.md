@@ -1,7 +1,7 @@
 ---
 title: Wahlmodul im Schwerpunkt
-modulverantwortlich: mi
-dozierende: mi
+modulverantwortlich: mb
+dozierende: all
 kuerzel: WAMO-SP
 sprache: deutsch
 kreditpunkte: 6
