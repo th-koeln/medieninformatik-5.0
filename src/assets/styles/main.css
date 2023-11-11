@@ -824,6 +824,18 @@ ul:not([class]) > li + li {
   margin-top: var(--quat);
 }
 
+/* Liste in Liste
+############################################################################ */
+ul:not([class]) ul {
+  margin-bottom: var(--quat);
+}
+ul:not([class]) ul li {
+  margin-top: 0;
+}
+ul:not([class]) ul li::before {
+  content: "-";
+}
+
 /* Liste mit wenig Abstand
 ############################################################################ */
 ul.is-tight li + li {

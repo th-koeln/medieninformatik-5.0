@@ -319,7 +319,7 @@ exports.getAllModulsMaster = (obj) => {
 /* Liste aller Kind Module eines Moduls
 ############################################################################ */
 
-exports.getChildModulList = (data, headlineChilds) => {
+exports.getChildModulList = (data, headlineChilds, eleventy) => {
 
   if ((data.kuerzel === 'SWPM') || (data.hideSchwerpunktloseChildren === true)) return '';
 
@@ -339,7 +339,7 @@ exports.getChildModulList = (data, headlineChilds) => {
   const childModulsList = childModuls.map((modul) => {
     return `
       <li>
-        <a href="${modul.url}">${modul.data.title}</a>${resolveSchwerpunkt(modul.data.schwerpunkt)}
+        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>${resolveSchwerpunkt(modul.data.schwerpunkt)}
       </li>
     `;
   });
@@ -371,19 +371,21 @@ isModulInSchwerpunkt = exports.isModulInSchwerpunkt = (modul, schwerpunkt) => {
 /* Liste aller Kind Module eines Moduls nach Schwerpunkt
 ############################################################################ */
 
-exports.getChildModulListBySchwerpunkt = (data, headlineChilds) => {
+exports.getChildModulListBySchwerpunkt = (data, headlineChilds, eleventy) => {
 
   if ((data.kuerzel === 'WPM') || (data.hideSchwerpunktChildren === true)) return '';
+  if(!eleventy) return '';
 
   const childModuls = getChildModulList(data);
   const {schwerpunkte} = data.collections;
-
+  
   const schwerpunkteList = schwerpunkte.map((schwerpunkt) => {
 
     const childModulsList = childModuls.filter((modul) => isModulInSchwerpunkt(modul, schwerpunkt)).map((modul) => {
+
       return `
         <li>
-          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a> //FIXME
+          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
         </li>
       `;
     });

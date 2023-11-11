@@ -86,8 +86,8 @@ module.exports = {
 					${data.content}
 				</section>
 
-				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module') : ''}
-				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module') : ''}
+				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module', this) : ''}
+				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module', this) : ''}
 
 			</main>
 		`;
