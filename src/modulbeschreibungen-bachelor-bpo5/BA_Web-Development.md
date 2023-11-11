@@ -3,7 +3,7 @@ title: Web Development
 modulverantwortlich: viet
 dozierende: viet
 modulniveau: bachelor
-kuerzel: GW
+kuerzel: WD
 date: Last Modified
 studiensemester: 4
 kategorie: vertiefung

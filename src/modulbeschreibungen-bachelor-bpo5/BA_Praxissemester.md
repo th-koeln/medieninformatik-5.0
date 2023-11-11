@@ -4,7 +4,7 @@ modulverantwortlich: seckstein
 dozierende: seckstein
 dozentinnen: all
 modulniveau: bachelor
-kuerzel: PM
+kuerzel: PS
 date: Last Modified
 studiensemester: 5
 kategorie: spezialisierung

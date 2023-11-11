@@ -3,14 +3,14 @@ title: Medienprojekt
 modulverantwortlich: hk
 dozierende: hk
 modulniveau: bachelor
-kuerzel: MP
+kuerzel: MEPO
 date: Last Modified
 studiensemester: 4
-kategorie: Vertiefung
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
-empfohleneVoraussetzungen: 
+empfohleneVoraussetzungen: alle Grundlagenmodule
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
@@ -34,7 +34,6 @@ angebotImSs: true
 weitereStudiengaenge: 
 lehrform:
   - Seminar/ Workshop 4 SWS
-   
 ---
 
 ## Learning Outcome

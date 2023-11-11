@@ -14,7 +14,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Theoretische Inf
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
-pvl: true
+pvl: false
 veranstaltungsform: 
 infourl: 
 studienleistungen:

@@ -1,5 +1,5 @@
 ---
-title: Wahlpflichtmodul 4
+title: Wahlpflichtmodul
 modulverantwortlich: all
 dozierende: all
 modulniveau: bachelor
@@ -22,7 +22,7 @@ studienleistungen:
     erstpruefer: all
     zweitpruefer: all
 meta:
-  status: ok    
+  status: ok
 ---
 
 ## Learning Outcome

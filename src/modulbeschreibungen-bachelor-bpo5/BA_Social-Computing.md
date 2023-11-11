@@ -3,7 +3,7 @@ title: Social Computing
 modulverantwortlich: ck
 dozierende: ck
 modulniveau: bachelor
-kuerzel: CE
+kuerzel: SC
 date: Last Modified
 studiensemester: 4
 kategorie: vertiefung
@@ -14,7 +14,7 @@ empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektor
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
-pvl: true
+pvl: false
 veranstaltungsform: 
 infourl: 
 studienleistungen:
