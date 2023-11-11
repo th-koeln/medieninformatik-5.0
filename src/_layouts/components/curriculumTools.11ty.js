@@ -188,22 +188,14 @@ var getCurriculumTable = exports.getCurriculumTable = (obj) => {
 ############################################################################ */
 
 exports.getCurriculumVerlaufsplanTable = (obj) => {
-
-  //const { moduls } = obj;
-  const { terms } = obj;
-  const { groups } = obj;
-  const { maxCPS } = obj;
-  const { eleventy } = obj;
   const { studienverlauf } = obj;
+  const moduleImVerlauf = [];
 
+  /*
+  const _getModuleFromCollectionByKuerzel = (kuerzel, modulCollection) => {
+    // I have a feeling this could be done nicer -> line 219
 
-  
-  //  var modulsImVerlauf
-
-  var moduleImVerlauf = [];
-
-  getModuleFromCollectionByKuerzel = function(kuerzel, modulCollection) {
-    // I have a feeling this could be done nicer
+    //console.log(modulCollection);
     for (i in modulCollection) {
       modul = modulCollection[i]
       if (kuerzel === modul.data.kuerzel) {
@@ -214,33 +206,30 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
 
     // console.log("modul mit kuerzel nicht gefunden:" + kuerzel);
 
-  }
+  }*/
 
   // gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
   // passe dabei jeweils das Fachsemester dynamisch an
   for (sc in studienverlauf) {
   
-    row = studienverlauf[sc];
+    const row = studienverlauf[sc];
     //row.semester.module.forEach(m => {
     for (mc in row.semester.module) {
-      m = row.semester.module[mc];
-      var modulFromCollection = getModuleFromCollectionByKuerzel(m, obj.moduls);
-  
-      if (modulFromCollection !== undefined) {
+      const kuerzel = row.semester.module[mc];
+      const modulFromCollection = obj.moduls.filter((modul) => modul.data.kuerzel === kuerzel)[0];
 
-        
-        // deep copy does not work due to circularity of structure
-        // hence we semi deep copy the object
-        let modulClone = Object.assign({}, modulFromCollection);
-        modulClone.data = Object.assign({}, modulFromCollection.data);
+      if (modulFromCollection === undefined) continue;
 
-        modulClone.data.studiensemester = parseInt(row.semester.fachsemester);
-        moduleImVerlauf.push(modulClone);
-      }
+      // deep copy does not work due to circularity of structure
+      // hence we semi deep copy the object
+      let modulClone = Object.assign({}, modulFromCollection);
+      modulClone.data = Object.assign({}, modulFromCollection.data);
+      modulClone.data.studiensemester = parseInt(row.semester.fachsemester);
+      moduleImVerlauf.push(modulClone);
+      
     };
   };
 
-  
   obj.moduls = moduleImVerlauf;
   return getCurriculumTable(obj);
 
@@ -253,14 +242,20 @@ exports.getAllModuls = (obj) => {
 
   const { moduls } = obj;
   const { eleventy } = obj;
-
+  const { data } = obj;
+  
+  const peopleTools = require('../components/peopleTools.11ty');
   const modulList = moduls.map((modul) => {
 
     const status = modul.data.meta && modul.data.meta.status ? `<span class="is-${modul.data.meta.status}"></span>` : '';
+    const schwerpunkt = modul.data.schwerpunkt ? ` (${modul.data.schwerpunkt})` : ''; 
+    const modulverantwortlich = modul.data.modulverantwortlich 
+      ? `, ${peopleTools.resolvePerson(data.people, modul.data.modulverantwortlich)}`
+      : '';
 
     return `
       <li>${status}
-        <a href="${eleventy.url(modul.url)}">${modul.data.title} </a> (${modul.data.schwerpunkt}) (${modul.data.modulverantwortlich}) 
+        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>${schwerpunkt}${modulverantwortlich}
       </li>
     `;
   });
@@ -275,10 +270,6 @@ exports.getAllModuls = (obj) => {
 
 exports.getAllModulsMaster = (obj) => {
 
-  const moduleTools = require('../components/moduleTools.11ty');
-  const peopleTools = require('../components/peopleTools.11ty');
-
-
   const { moduls } = obj;
   const { eleventy } = obj;
 
@@ -289,7 +280,6 @@ exports.getAllModulsMaster = (obj) => {
     function createEmptyString(value) {
       if (value == null) return '';
       return value;
-
     }
 
     isDEV = createEmptyString(modul.data.schwerpunkt).includes("DEV") ? "x" : ""; 
