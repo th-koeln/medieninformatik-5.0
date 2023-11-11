@@ -986,7 +986,7 @@ ul.gallery-grid .gallery-item::before {
 .job-offer-overview {
   display: grid;
   gap: var(--fluid-space-s);
-  grid-template-columns: repeat(auto-fill, minmax(var(--max-width-card), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(calc(var(--max-width-card) * 2), 1fr));
 }
 .job-offer-overview .job-offer-data {
   box-shadow: var(--shadow-l-light);
@@ -1001,6 +1001,12 @@ ul.gallery-grid .gallery-item::before {
 .job-offer-overview .job-offer-data:hover {
   box-shadow: var(--shadow-xl-light);
   transform: scale(1.01);
+}
+.job-offer-overview .job-offer-data img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .job-offer-overview .job-offer-data::before {
   content: "";

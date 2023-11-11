@@ -30,14 +30,15 @@ module.exports = {
 					<header>
 						<h1>${data.title}</h1>
 					</header>
+          <div class="hero-text">
+            ${data.content}
+          </div>
 				</section>
 
         <section>
-
-            <ul class="job-offer-overview" data-js-overview>
-              ${jobOfferList.join("\n")}
-            </ul>
-          </div>
+          <ul class="job-offer-overview" data-js-overview>
+            ${jobOfferList.join("\n")}
+          </ul>
         </section>
 			</main>
 		`;
