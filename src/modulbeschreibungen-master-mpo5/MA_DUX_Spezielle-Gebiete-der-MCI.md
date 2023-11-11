@@ -48,8 +48,7 @@ Gesamtaufwand 180 Stunden, davon
 
 Das Ziel ist es, ein Artefakt zu entwickeln und zu verargumentieren, dass die menschzentrierte Produkt- und Service-Entwicklung in der Domäne zu unterstützen. Im Sinne des Forschenden Lernens und des Design Thinkings beantworten wir eine Forschungsfrage bzw. Design Challenge der Domäne. Hierzu integrieren wir die beiden Vorgehensweisen anlassbezogen. Im Sinne des Design Science Research Frameworks, basieren die Anforderungsermittlungen nicht auf erhobenen empirischen Daten im Nutzungskontext, sondern auf bestehenden Publikationen dazu. Nachdem Angriffspunkte und Lücken im wissenschaftlichen State-of-the-Art identifiziert sind, entwickeln wir iterativ eine Lösung, die dann in einem wissenschaftlichen Paper verargumentiert wird.
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 * Miro-gestütztes forschendes Lernen in Kleingruppen
 * Coaching und Gruppenfeedback zum Arbeitstand vor Ort und remote
 * Workshops in Gesamtgruppe, wann immer sinnvoll (häufige Anlässe sind Ideation-Workshop oder Feedback zu Arbeitsergebnissen, eventuell auch mit Kooperationspartnern)
