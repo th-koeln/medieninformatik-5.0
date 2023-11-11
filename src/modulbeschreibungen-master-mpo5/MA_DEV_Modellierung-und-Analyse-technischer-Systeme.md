@@ -2,7 +2,7 @@
 title: Modellierung und Analyse technischer Systeme
 modulverantwortlich: mw
 dozierende: mw
-kuerzel: WPF-MATS
+kuerzel: MATS
 studiensemester: 1
 sprache: deutsch
 kreditpunkte: 6

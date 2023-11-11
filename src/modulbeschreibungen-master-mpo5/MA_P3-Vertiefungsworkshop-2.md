@@ -1,20 +1,40 @@
 ---
-title: Vertiefungsworkshop 2
+title: The Module formerly known as »Vertiefungsworkshop 2«
+kuerzel: VW2
 modulverantwortlich: mbluemm
 dozierende: mbluemm
-kuerzel: VW2
-studiensemesterWs: 3
-studiensemesterSs: 1
-sprache: deutsch
-zuordnung-zum-curriculum: siehe Studienverlaufsplan
+
+infourl: 
+
 kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: 
+angebotImSs: 
+
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), BWL I - Grundlagen (Bachelor)
-published: true
-layout: modulbeschreibung.11ty.js
-typ: tm
-parent: MIMP-V
-infourl: 
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: deutsch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
 studienleistungen:
   Einzelleistung:
     art: schriftliche Ausarbeitung (100%)

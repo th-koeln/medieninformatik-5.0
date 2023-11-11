@@ -1,58 +1,50 @@
 ---
-type: modul
-acronym: VDM
-title: Virtualisierung und Dienstarchitekturen (Master)
-status: modules.status.options.ok
-responsible: 
-    module_management: rma
-language: modules.language.options.de
-semester: modules.semester.options.ss
-duration: 1
-location: modules.location.options.gm
+title: Virtualisierung und Dienstarchitekturen
+kuerzel: VDM
+modulverantwortlich: rma
+dozierende: rma
+
+infourl: 
+
+kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: 
+angebotImSs: true
+
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen:
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: deutsch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: project
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants: 
     min: 5 
     max: 20
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 0
-            desc:
-        acs: 
-            num: 1
-            desc: Im Rahmen des Moduls wird die Architektur großer und potentiell stark verteilter IT-Landschaften durch Software beschrieben und implmentiert.
-        eb: 
-            num: 0
-            desc:
-        ar: 
-            num: 1
-            desc: Das Arbeiten mit komplexen Infrastrukturen wie einer Cloud erfordert Reflexions- und Problemlösungsfähigkeiten. 
-        dip: 
-            num: 0
-            desc:
-        mri: 
-            num: 4
-            desc: Das Modul beschäftigt sich schwerpunktmäßig mit dem Aufbau, dem Betrieb und der Weiterentwicklung von IT-INfrastrukturen unter Berücksichtigung von Effektivität, Effizienz und Sicherheit.
-competences:
-    1-develop-visions: 
-    2-analyze-domains:
-    3-model-systems: 1
-    4-implement-concepts: 1
-    5-deploy-products: 1
-    6-optimize-systems: 1
-    7-apply-standardization:
-global_criteria:
-    internationalization:
-    interdisciplinarity:
-    digitization: 1
-    transfer:
-exam: project
-precondition: 
-recommendation: 
-constraints:
-    BIS: 
-    DIS: 
-    ITM: modules.constraints.obligatory
-    SAR: 
 effort:
     lecture: 30
     seminar: 30
@@ -60,13 +52,11 @@ effort:
     exercise: 0
     project_supervision: 0
     project_work: 0
-sws_lecturer: 4  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 Die Studierenden können ...
 *   das Konzept der Virtualisierung erklären
@@ -91,8 +81,7 @@ um
 
 
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 1. Einführung in Virtualisierung
 2. Hypervisoren
@@ -106,8 +95,7 @@ um
 10. Cloud-Software
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 * Vorlesung
 * Seminar
@@ -115,15 +103,13 @@ um
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 * Vorlesungsskripte
 * Literaturstellen / Literatur
 
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * James E. Smith, Ravi Nair: "Virtual Machines, Virtual Machines: Versatile Platforms for Systems and Processes", Elsevier, San Francisco, CA, 2005
 * Christoph Arnold, Michel Rode, Jan Sperling, Andreas Steil: " KVM Best Practices", dpunkt.verlag, 2012

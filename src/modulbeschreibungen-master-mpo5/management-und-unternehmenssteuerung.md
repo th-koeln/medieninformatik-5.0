@@ -1,64 +1,51 @@
 ---
-type: modul
-acronym: MUU
 title: Management und Unternehmenssteuerung
-status: modules.status.options.ok    
-responsible: 
-    module_management: tkl
-language: modules.language.options.de
-semester: modules.semester.options.ws
-duration: 1
-location: modules.location.options.gm
+kuerzel: MMU
+modulverantwortlich: tkl
+dozierende: tkl
+
+infourl: 
+
+kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: true
+angebotImSs: 
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: deutsch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: experttalk
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
 participants:
     min: 6 
     max: 15
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 0
-            desc:
-        acs: 
-            num: 0
-            desc:
-        eb: 
-            num: 5
-            desc: >
-                Die Studierenden werden befähigt, Management- und Führungskonzepte beschreiben, 
-                diskutieren, bewerten und beispielhaft anwenden zu können. Des Weiteren 
-                analysieren sie Zusammenhänge von Organisation, Führung, Steuerung und 
-                Management.
-        ar: 
-            num: 1
-            desc: >
-                Die Studierenden werden befähigt, Systeme der Leistungsmessung in 
-                Unternehmen zu bewerten, abzuwägen und zu beurteilen. 
-        dip: 
-            num: 0
-            desc:
-        mri: 
-            num: 0
-            desc:
-competences:
-    1-develop-visions: 1
-    2-analyze-domains:
-    3-model-systems:
-    4-implement-concepts:
-    5-deploy-products:
-    6-optimize-systems: 1
-    7-apply-standardization:
 global_criteria:
     internationalization: 1
     interdisciplinarity:
     digitization: 1
     transfer: 1
-exam: experttalk
-precondition: Nur Studierende der Studienrichtung "Business Information Systems" sind teilnahmeberechtigt
-recommendation: 
-constraints:
-    BIS: 
-    DIS: modules.constraints.prohibited
-    ITM: modules.constraints.prohibited
-    SAR: modules.constraints.prohibited
 effort:
     lecture: 0
     seminar: 60
@@ -66,13 +53,11 @@ effort:
     exercise: 0
     project_supervision: 0
     project_work: 0
-sws_lecturer: 0  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 
 Nach dem erfolgreichen Abschluss dieses Moduls sind die Studierenden in der Lage, Management- und Führungskonzepte zu beschreiben, zu bewerten und beispielhaft anwenden zu können.
@@ -86,8 +71,7 @@ Nach dem erfolgreichen Abschluss dieses Moduls sind die Studierenden in der Lage
 Studierende werden dadurch befähigt, komplexe Unternehmenssysteme zu erfassen und zu steuern. 
 
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 Die Veranstaltung Management und Unternehmenssteuerung bietet den Studierenden 
 eine seminaristischer Lehre, die eine aktive Beteiligung der Studierenden an 
@@ -100,8 +84,7 @@ Unternehmensführung und -gestaltung wie etwa
 - Personaleinsatz und Führung von Mitarbeiter*innen neuer Generationen. 
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 - Seminaristische Lehre
 - Aktive Beteiligung der Studierenden
@@ -109,8 +92,7 @@ Unternehmensführung und -gestaltung wie etwa
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 In Abhängigkeit des Schwerpunktthemas
 - Fachartikel über die Datenbank EBSCOhost Research Databases (Business Source Premier)

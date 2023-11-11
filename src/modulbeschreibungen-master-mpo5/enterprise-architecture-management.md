@@ -1,68 +1,54 @@
 ---
-type: modul
-acronym: EAM
 title: Enterprise Architecture Management
-status: modules.status.options.ok
-responsible: 
-    module_management: hwe
-    lecturers: hwe;fvi
-language: modules.language.options.en
-semester: modules.semester.options.ss
-duration: 1
-location: modules.location.options.gm
+kuerzel: EAM
+modulverantwortlich: hwe
+dozierende: hwe, fv
+
+infourl: 
+
+kreditpunkte: 6
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: 
+angebotImSs: true
+
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen:
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: englisch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: experttalk
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants:
     min: 5
     max: 25
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 0
-            desc:
-        acs: 
-            num: 0
-            desc:
-        eb: 
-            num: 3
-            desc: >
-                *English*: Focus is on the alignment of the IT architecture to business architecture. For this purpose, the
-                analysis of core business, relevant processes and business capabilities frames the requirements 
-                for delivering digital services. Methods are considered how to develop IT-roadmaps accordingly.
-               
-                *Deutsch:* Zentraler Gesichtspunkt ist das Alignment der IT-Architektur an der Business-Architektur. 
-                Dazu werden aus der Analyse des Kerngeschäfts, der relevanten Prozesse und der 
-                erforderlichen Geschäftsfähigkeiten Anforderungen an unterstützende digitale Dienste 
-                beschrieben und entsprechende Roadmaps entwickelt.
-        ar: 
-            num: 0
-            desc:
-        dip: 
-            num: 0
-            desc:
-        mri: 
-            num: 3
-            desc: >
-                *English*: Based on business requirements, a framework for action for the long-term development of the IT 
-                landscape and IT capabilities is described and deepened using the example of workflow design.
-                 
-                *Deutsch:* Ausgehend von den Geschäftsanforderungen wird ein Handlungsrahmen für die langfristige Entwicklung 
-                der IT-Landschaft und der IT-Fähigkeiten beschrieben und am Beispiel der Gestaltung von Workflows 
-                vertieft.
-competences:
-    1-develop-visions: 1
-    2-analyze-domains: 1
-    3-model-systems: 1
-    4-implement-concepts:
-    5-deploy-products:
-    6-optimize-systems:
-    7-apply-standardization:
 global_criteria:
     internationalization: 1
     interdisciplinarity:
     digitization: 1
     transfer:
-exam: experttalk
-precondition:  
-recommendation: 
 effort:
     lecture: 36
     seminar: 18
@@ -70,13 +56,11 @@ effort:
     exercise: 18
     project_supervision: 0
     project_work: 108
-sws_lecturer: 4  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 
 Students should learn to apply architectural thinking as a foundation to organize and 
@@ -98,8 +82,7 @@ business innovation by agile IT concepts.
 
 
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 1. IT Strategy
 2. Enterprise Modeling: Metamodeling, Ontologies
@@ -114,8 +97,7 @@ business innovation by agile IT concepts.
 
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 * Flipped classroom
 * Exercises + team work
@@ -123,8 +105,7 @@ business innovation by agile IT concepts.
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 * Software tools for
 * ... EA modeling
@@ -132,8 +113,7 @@ business innovation by agile IT concepts.
 * ... transactions (SAP-System)
 
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * Ross J. W. et al.: Enterprise Architecture as Strategy: Creating a Foundation for Business Execution. McGraw-Hill Professional 2006
 * Bente S. et al.: Collaborative Enterprise Architecture - Enriching EA with Lean, Agile, and Enterprise 2.0 practices. Morgan Kaufmann Publishers, 2012.

@@ -1,58 +1,48 @@
 ---
-type: modul
-acronym: MDS
 title: Modern Database Systems
-status: modules.status.options.ok
-responsible: 
-    module_management: bbe
-    lecturers: bbe;hfw
-language: modules.language.options.en
-semester: modules.semester.options.ss
-duration: 1
-location: modules.location.options.gm
+kuerzel: MDS
+modulverantwortlich: jschaible
+dozierende: jschaible, bb
+
+infourl: 
+
+kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: false
+angebotImSs: true
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: englisch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: paper-presentation
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants: 
     min: 3
     max: 20
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 3
-            desc: >
-                Students learn to handle problems in the area of database systems independently and to develop comprehensive 
-                solutions while applying and deepening the theoretical knowledge.
-        acs: 
-            num: 2
-            desc: > 
-                Students learn to deal with NoSQL database systems and multimedia database systems as a 
-                particular type of object-related database systems 
-        eb: 
-            num: 0
-            desc:
-        ar: 
-            num: 1
-            desc: Students learn about ethical aspects of Big Data in business environments.
-        dip: 
-            num: 0
-            desc:
-        mri: 
-            num: 0
-            desc:
-competences:
-    1-develop-visions: 
-    2-analyze-domains: 1
-    3-model-systems: 1
-    4-implement-concepts: 1
-    5-deploy-products:
-    6-optimize-systems:
-    7-apply-standardization:
-global_criteria:
-    internationalization:
-    interdisciplinarity:
-    digitization: 1
-    transfer:
-exam: paper-presentation
-precondition: 
-recommendation: Lectures "DBS I" from the undergraduate computer science courses or adequate skills
+
 effort:
     lecture: 60
     seminar: 60
@@ -60,13 +50,14 @@ effort:
     exercise: 0
     project_supervision: 0
     project_work: 0
-sws_lecturer: 0  
+
+empfohleneVoraussetzungen: Lectures "DBS I" from the undergraduate computer science courses or adequate skills
+
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 After a successful completion of this module, students are able to ...
 
@@ -90,8 +81,7 @@ so that they are able to develop comprehensive solutions while applying and deep
 
  
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 The challenge of Big Data
 * Definition, possibilities and problems
@@ -110,21 +100,18 @@ Characteristics of multimedia DB systems
 * Index structures for multimedia data.
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 * lectures
 * seminars
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 * slides as PDF
 
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * Alam, M.,  Muley, A., Kadaru, Ch.: „Oracle Nosql Database: Real-Time Big Data Management for the Enterprise“, Oracle
  Press, 2013

@@ -1,58 +1,46 @@
 ---
-type: modul
-acronym: OSC
 title: Open Science
-status: modules.status.options.ok
-responsible: 
-    module_management: mbl
-    lecturers: mbl;cfr
-language: modules.language.options.en
-semester: modules.semester.options.ws
-duration: 1
-location: modules.location.options.ksued
+kuerzel: OSC
+modulverantwortlich: mbl
+dozierende: mbl, cfr
+
+infourl: 
+
+kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: true
+angebotImSs: false
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+parent: WAMO
+schwerpunkt:
+
+lehrmethoden:
+
+sprache: englisch
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: project-presentation
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants: 
     min: 5
     max: 20
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 6
-            desc: This module deals with the importance of making scientific results available to the 
-                public, i.a. by analysing discipline-related contexts of the creation and management 
-                of research data in a differentiating manner with regard to the procedures for 
-                processing and providing research data.
-        acs: 
-            num: 0
-            desc:
-        eb: 
-            num: 0
-            desc:
-        ar: 
-            num: 0
-            desc:
-        dip: 
-            num: 0
-            desc:
-        mri: 
-            num: 0
-            desc:
-competences:
-    1-develop-visions: 1
-    2-analyze-domains: 1
-    3-model-systems:
-    4-implement-concepts:
-    5-deploy-products:
-    6-optimize-systems: 1
-    7-apply-standardization:
-global_criteria:
-    internationalization: 1
-    interdisciplinarity: 1
-    digitization: 1
-    transfer:
-exam: project-presentation
-exam_num: 1
-precondition: 
-recommendation: 
+
 effort:
     lecture: 30
     seminar: 0
@@ -60,13 +48,10 @@ effort:
     exercise: 15
     project_supervision: 15
     project_work: 120
-sws_lecturer: 4  
 ---
 
 
-
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 The importance of making scientific results available to the public can be explained and diverse, i.a. discipline-related contexts of the creation and management of research data can be analysed in a differentiating manner with regard to the procedures for processing and providing research data.
 
@@ -75,8 +60,7 @@ For this purpose, the students will work with case studies of research data, fro
 On this basis, the students can evaluate and apply existing and future services relating to open science and develop optimization suggestions for them.
 
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 * Introduction to Open Science (Scientific Publishing, Open Access, Research Data, Research Data Management)
 * Repositories, Research collections, Services, Tools
@@ -85,8 +69,7 @@ On this basis, the students can evaluate and apply existing and future services 
 * national & international players and initiatives
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 * Lecture
 * Tutorials
@@ -95,8 +78,7 @@ On this basis, the students can evaluate and apply existing and future services 
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 * List of selected literature and web resources
 * Lecture slides
@@ -104,8 +86,7 @@ On this basis, the students can evaluate and apply existing and future services 
 * Use cases
 
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * Borgman, Christine L.: Big Data, Little Data, No Data: Scholarship in the Networked World. MIT Press. 2015
 * Neuroth, Heike; Strathmann, Stefan; Oßwald, Achim; Ludwig, Jens (Eds.): Digital Curation of Research Data. Experiences of a Baseline Study in Germany. Verlag Werner Hülsbusch. 2013

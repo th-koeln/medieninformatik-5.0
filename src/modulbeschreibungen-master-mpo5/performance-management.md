@@ -1,59 +1,51 @@
 ---
-type: modul
-acronym: PEM
 title: Performance Management
-status: modules.status.options.ok
-responsible: 
-    module_management: sec
-language: modules.language.options.de
-semester: modules.semester.options.ss
-duration: 1
-location: modules.location.options.gm
+kuerzel: PEM
+modulverantwortlich: seckstein
+dozierende: seckstein
+
+infourl: 
+
+kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: 
+angebotImSs: true
+
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen: Knowhow im Bereich Controlling
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: deutsch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: writtenexam-postersession
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants: 
     min: 8
     max: 25
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 0
-            desc:
-        acs: 
-            num: 0
-            desc:
-        eb: 
-            num: 5
-            desc: >
-                In diesem Modul liegt der Schwerpunkt auf der Vermittlung von Kenntnissen der betriebswirtschaftlichen 
-                Steuerung von Unternehmen durch Performance Management. Es beschreibt Ziele, Prinzipien, Methoden, 
-                Maßnahmen sowie Techniken und Werkzeuge der leistungsbezogenen Lenkung von Unternehmen, wobei auch 
-                auf die IT Unterstützung eingegangen wird. 
-        ar: 
-            num: 1
-            desc: >
-                Die Studierenden erhalten die Gelegenheit, Ihre Selbst- und Sozialkompetenzen im Bereich 
-                des wissenschaftlichen Arbeitens durch Postersessions zu verfeinern.
-        dip: 
-            num: 0
-            desc:
-        mri: 
-            num: 0
-            desc:
-competences:
-    1-develop-visions: 1
-    2-analyze-domains: 1
-    3-model-systems:
-    4-implement-concepts:
-    5-deploy-products:
-    6-optimize-systems: 1
-    7-apply-standardization:
-global_criteria:
-    internationalization:
-    interdisciplinarity: 1
-    digitization: 1
-    transfer:
-exam: writtenexam-postersession
-precondition: 
-recommendation: Knowhow im Bereich Controlling
+
 effort:
     lecture: 40
     seminar: 40
@@ -61,13 +53,11 @@ effort:
     exercise: 40
     project_supervision: 0
     project_work: 0
-sws_lecturer: 4  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 Nach dem erfolgreichen Abschluss dieses Moduls können Studierende
 
@@ -85,8 +75,7 @@ um später
 * in der betrieblichen Praxis fundierte Performance Management Konzepte entwickeln, beurteilen und optimieren zu können und in Projekten zu ihrer Umsetzung eine wichtige Rolle spielen zu können.
   
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 In diesem Modul liegt der Schwerpunkt auf der Vermittlung von Kenntnissen der betriebswirtschaftlichen Steuerung von Unternehmen durch Performance Management. Es beschreibt Ziele, Prinzipien, Methoden, Maßnahmen sowie Techniken und Werkzeuge der leistungsbezogenen Lenkung von Unternehmen, wobei auch auf die IT Unterstützung eingegangen wird. Ferner erhalten die Studierenden die Gelegenheit, Ihre Selbst- und Sozialkompetenzen im Bereich des wissenschaftlichen Arbeitens durch Postersessions zu verfeinern.
 
@@ -104,19 +93,16 @@ Agenda:
 * Balanced Scorecard
 * andere Steuerungskonzepte
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 Lehrveranstaltungsvideos, Beamer-gestützte Vorlesungen (Folien in elektronischer Form), Übungen in Kleingruppen, um die erlernten Methoden und Techniken einzuüben, studentische Vorträge und Postersessions
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 Lehrvideos, Folien in elektronischer Form, Fachartikel
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * Osman, I.: Strategic Performance Management and Measurement Using Data Envelopment Analysis, IGI Global 2013
 * Kaplan, R.S. / Norton, D.P.: The Balanced Scorecard: Translating Strategy Into Action, Harvard Business Review Press 1996

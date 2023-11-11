@@ -1,58 +1,55 @@
 ---
-type: modul
-acronym: ITSTR
 title: IT Strategy
-status: modules.status.options.ok
-responsible: 
-    module_management: ili
-language: modules.language.options.de
-semester: modules.semester.options.ss
-duration: 1
-location: modules.location.options.gm
+kuerzel: ITSTR
+modulverantwortlich: il
+dozierende: il
+
+infourl: 
+
+kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: 
+angebotImSs: true
+
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen:
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: deutsch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: experttalk-presentation
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants:
     min: 6
     max: 30
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 0
-            desc:
-        acs: 
-            num: 0
-            desc:
-        eb: 
-            num: 0
-            desc:
-        ar: 
-            num: 0
-            desc:
-        dip: 
-            num: 2
-            desc: Ermöglichung neuer Produkte und Dienstleistungen durch eine flexible IT
-        mri: 
-            num: 4
-            desc: Bewertung der strategischen Relevanz neuer Technologien; Entwicklung einer IT-Strategie für ein Unternehmen
-competences:
-    1-develop-visions: 1
-    2-analyze-domains: 1
-    3-model-systems: 
-    4-implement-concepts:
-    5-deploy-products:
-    6-optimize-systems:
-    7-apply-standardization:
 global_criteria:
     internationalization: 1
     interdisciplinarity:
     digitization: 1
     transfer:
-exam: experttalk-presentation
-precondition: 
-recommendation: 
-constraints:
-    BIS: 
-    DIS: 
-    ITM: modules.constraints.obligatory
-    SAR: 
 effort:
     lecture: 0
     seminar: 48
@@ -60,13 +57,11 @@ effort:
     exercise: 0
     project_supervision: 0
     project_work: 0
-sws_lecturer: 4  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 In dem Modul "IT Strategie" lernen die Studierenden kennen:
 * wie sich die Bedeutung der IT im Unternehmen Laufe der Zeit gewandelt hat, 
@@ -85,8 +80,7 @@ und deren Relevanz für verschiedene Situationen in Gruppen diskutieren.
 Hierdurch können die Studierenden als zukünftige Informatiker\*innen die strategische Ausrichtung der IT-Abteilung bzw. der IT im Unternehmen mitgestalten. 
 
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 1. Die Bedeutung der Unternehmens-IT: Commodity oder strategischer Wettbewerbsvorteil?
 2. Was ist gutes IT-Management? Schlüsselkomponenten, Reifegradmodelle
@@ -103,20 +97,17 @@ Hierdurch können die Studierenden als zukünftige Informatiker\*innen die strat
 9. Chancen und Risiken eines geänderten privaten IT-Nutzungsverhaltens für Unternehmen
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 Lesen von wissenschaftlichen Artikeln, Selbststudium, Präsentationen durch Studierende, sowie Gruppendiskussionen. 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 Alle Materialien werden über die Lernplatform zur Verfügung gestellt.
 
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * Urbach, N., F. Ahlemann (2016): IT-Management in Zeitalter der Digitalisierung. Springer Gabler.
 * Schröder, H., A. Müller (2017): IT-Organisation in der digitalen Transformation. Springer Vieweg.

@@ -1,58 +1,55 @@
 ---
-type: modul
-acronym: ITC
 title: IT Consulting
-status: modules.status.options.ok
-responsible: 
-    module_management: fvi
-language: modules.language.options.de
-semester: modules.semester.options.ss
-duration: 1
-location: modules.location.options.gm
+kuerzel: ITC
+modulverantwortlich: fv
+dozierende: fv
+
+infourl: 
+
+kreditpunkte: 6
+
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: 
+angebotImSs: true
+
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen:
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: deutsch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: presentation-reflectivesummary
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants: 
     min: 5
     max: 25
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 1
-            desc: Wissensmanagement spielt bei allen IT Consulting Methoden eine entscheidende Rolle. Insbesondere werden die Studierenden befähigt anhand von anonymisierten Fallstudien zu beurteilen, welche Methoden geeignet sind, um Wissen geeignet zu extrahieren, zu synthetisieren und in verschiedenen Kontexten zur Verfügung zu halten.
-        acs: 
-            num: 0
-            desc:
-        eb: 
-            num: 4
-            desc: Die Studierenden lernen Methoden kennen, mit denen einen Bewertung der IT hinsichtlich ihres Business Value möglich ist. Dazu setzen sie sich mit verschiedenen Ansätzen kritisch auseinander und wählen praxiserprobte Consulting Konzepte anhand von Case Studies um.
-        ar: 
-            num: 0
-            desc:
-        dip: 
-            num: 1
-            desc: Die IT spielt als Enabler in weiten Feldern der Digitalisierung eine entscheidende Rolle. Die Studierenden lernen, wie ein zukunftsfähiges IT Service Portfolio Management entwickelt und umgesetzt werden kann. Dabei ist das Change Management eine entscheidende Determinante.
-        mri: 
-            num: 0
-            desc:
-competences:
-    1-develop-visions: 1
-    2-analyze-domains: 1 
-    3-model-systems:
-    4-implement-concepts:
-    5-deploy-products:
-    6-optimize-systems: 1
-    7-apply-standardization:
 global_criteria:
     internationalization:
     interdisciplinarity:
     digitization: 1
     transfer: 1
-exam: presentation-reflectivesummary
-precondition: 
-recommendation: 
-constraints:
-    BIS: 
-    DIS: 
-    ITM: modules.constraints.obligatory
-    SAR: 
 effort:
     lecture: 30
     seminar: 0
@@ -60,13 +57,11 @@ effort:
     exercise: 30
     project_supervision: 0
     project_work: 0
-sws_lecturer: 4  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 
 Die Studierenden lernen IT Consulting Methoden kennen und lernen, zu bewerten, 
@@ -81,8 +76,7 @@ die Ergebnisse werden vorgestellt, moderiert und diskutiert.
 Im Kern geht es darum, eine Basis zu schaffen, dass IT Consulting Projekte in Unternehmen erfolgreich sind. 
 Der Erfolg lässt sich am Business Value und am Grad des Business Alignments messen.
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 *   Methoden und Analyse-Werkzeuge
 *   Vier-C-Konzept, Five-Forces, SWOT, QHAR-Konzept
@@ -102,19 +96,16 @@ Der Erfolg lässt sich am Business Value und am Grad des Business Alignments mes
 
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 Vorlesung und Case Studies. 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 *   Skripte und Folien
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 *   Aktuelle Artikel aus eigener Recherche zu den vorgegebenen Themengebieten
 *   Beims, M., Ziegenbein, M. (2015): IT-Service Management in der Praxis mit ITIL®, Carl Hanser Verlag, 2015

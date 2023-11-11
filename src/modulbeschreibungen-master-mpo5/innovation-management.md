@@ -1,58 +1,54 @@
 ---
-type: modul
-acronym: INM
 title: Innovation Management
-status: modules.status.options.ok
-responsible: 
-    module_management: ili
-language: modules.language.options.en
-semester: modules.semester.options.ws
-duration: 1
-location: modules.location.options.gm
+kuerzel: INM
+modulverantwortlich: il
+dozierende: il
+
+infourl: 
+
+kreditpunkte: 6
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: true
+angebotImSs: 
+
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen:
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: english
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: project
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants: 
     min: 6
     max: 30
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 0
-            desc:
-        acs: 
-            num: 0
-            desc:
-        eb: 
-            num: 1
-            desc: Understanding a given business context as basis for subsequent innovation activities
-        ar: 
-            num: 1
-            desc: Challenging the status quo and reflecting how a desirable society and economy of the future would look like
-        dip: 
-            num: 4
-            desc: Selecting and applying innovation methods and innovation tools to design new services, products and processes
-        mri: 
-            num: 0
-            desc:
-competences:
-    1-develop-visions: 1
-    2-analyze-domains: 1
-    3-model-systems: 
-    4-implement-concepts:
-    5-deploy-products: 1
-    6-optimize-systems:
-    7-apply-standardization:
 global_criteria:
     internationalization: 1
     interdisciplinarity: 1
     digitization: 1
     transfer: 1
-exam: project
-precondition: 
-recommendation: 
-constraints:
-    BIS: 
-    DIS: 
-    ITM: modules.constraints.obligatory
-    SAR: 
 effort:
     lecture: 32
     seminar: 0
@@ -60,13 +56,11 @@ effort:
     exercise: 32
     project_supervision: 0
     project_work: 32
-sws_lecturer: 4  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 Students are able to create new ideas and innovation concepts in teams. 
 
@@ -76,8 +70,7 @@ The practical innovation management knowledge that will be taught in this course
 
 
   
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
  1. Introduction to Innovation Management
  2. Innovation Culture, Thinking Preferences, Problem formulation and Brainstorming tools
@@ -93,21 +86,18 @@ The practical innovation management knowledge that will be taught in this course
  11. Facilitation
  
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 The modul focusses on the practial use of different innovation methods and tools. Innovation methods are first introduced, then practised in small exercises and finally, they can be applied in the student projects.
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 All materials used in the module will be made available in Ilias.
 
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * Vahs, Dietmar & Brem, Alexander. (2015). Innovationsmanagement - von der Idee zur erfolgreichen Vermarktung.
 * Lewrick, Michael, Patrick Link, Larry Leifer. (2017). Das Design Thinking Playbook: Mit traditionellen, aktuellen und zukünftigen Erfolgsfaktoren

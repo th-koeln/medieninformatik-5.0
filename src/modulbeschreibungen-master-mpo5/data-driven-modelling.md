@@ -1,58 +1,54 @@
 ---
-type: modul
-acronym: DDM
 title: Data Driven Modelling
-status: modules.status.options.ok
-responsible: 
-    module_management: dzue
-    lecturers: dzue;tbb
-language: modules.language.options.en
-semester: modules.semester.options.ws
-duration: 1
-location: modules.location.options.gm
+kuerzel: DDM
+modulverantwortlich: dzue
+dozierende: dzue, tbb
+
+infourl: 
+
+kreditpunkte: 6
+layout: modulbeschreibung.11ty.js
+date: Last Modified
+published: true
+
+angebotImWs: true
+angebotImSs: 
+
+voraussetzungenNachPruefungsordnung: keine
+empfohleneVoraussetzungen:
+
+parent: WAMO
+schwerpunkt:
+
+weitereStudiengaenge: 
+  - ds
+
+veranstaltungsform: 
+
+lehrmethoden:
+
+sprache: englisch
+
+lehrform:
+
+praesenzZeit: 
+selbstStudium: 
+
+studienleistungen:
+  Einzelleistung:
+    art: writtenexam-project-presentation
+    erstpruefer: 
+    zweitpruefer: 
+    datum:
+
 participants: 
     max: 35
     min: 5
-ects: 
-    contributions_to_focus_areas:
-        gak: 
-            num: 2
-            desc: This module teaches about a range of data analytics methods, that allows a 
-                broad understanding of the data analytics domain.
-        acs: 
-            num: 2
-            desc: This module includes software development (notebooks)
-        eb: 
-            num: 1
-            desc: This module includes a discussion on the perspectives of data-driven 
-                business understanding, incorporating the conditions of the introduction and 
-                application of models in business contexts.
-        ar: 
-            num: 1
-            desc: This module teaches how to deal with data and knowledge generating 
-                methods responsibly, acounting for ethics, privacy and security.
-        dip: 
-            num: 0
-            desc:
-        mri: 
-            num: 0
-            desc:
-competences:
-    1-develop-visions: 
-    2-analyze-domains:
-    3-model-systems: 1
-    4-implement-concepts: 1
-    5-deploy-products:
-    6-optimize-systems:
-    7-apply-standardization:
 global_criteria:
     internationalization:
     interdisciplinarity:
     digitization: 1
     transfer: 1
-exam: writtenexam-project-presentation
-precondition: 
-recommendation: 
 effort:
     lecture: 30
     seminar: 0
@@ -60,13 +56,11 @@ effort:
     exercise: 30
     project_supervision: 0
     project_work: 60
-sws_lecturer: 4  
 ---
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_outcome }}
-<!-- Learning Outcome -->
+## Learning Outcome
 
 * After completing the course students can assess which data mining analytics are suitable for which application fields and apply them where suitable as they become able
     * to enumerate different data analytics approaches and outline how they work,
@@ -74,8 +68,7 @@ sws_lecturer: 4
     * to implement common libraries of data analytics approaches,
 * so that they help companies to become data driven, i.e. take decisions based on suitable data, optimize processes e.g. in business, production or logistics, and make predictions to better plan future actions and activities (e.g. where to invest for productivity increase or whom to approach in marketing).
 
-## {{ site.translations[site.lang].moduledescription.modulecontent }}
-<!-- Modulinhalt -->
+## Modulinhalt
 
 1. Structuring a data analytics project
 2. Data Preparation
@@ -88,8 +81,7 @@ sws_lecturer: 4
 5. Conducting a data analytics project
 
 
-## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
-<!-- Lehr- und Lernformen -->
+## Lehr- und Lernformen
 
 * Lecture (partly as learning nugget videos)
 * Exercises (in Python and Jupyter-Notebooks)
@@ -97,16 +89,14 @@ sws_lecturer: 4
 
 
 
-## {{ site.translations[site.lang].moduledescription.learning_material }}
-<!-- Zur Verfügung gestelltes Lehrmaterial -->
+## Lehrmaterial
 
 * Slides of lectures
 * Videos of lectures or learning nuggets
 * Python Jupyter-Notebooks with documentation
 
 
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Literatur -->
+## Empfohlene Literatur
 
 * Aurélien Géreon: Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow: concepts, tools, and techniques to build intelligent systems, O'Reilly: September 2019
 * Nikita Silaparasetty: Machine Learning Concepts with Python and the Jupyter Notebook Environment: Using Tensorflow 2.0, Apress: 2020
