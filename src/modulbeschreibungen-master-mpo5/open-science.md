@@ -1,8 +1,8 @@
 ---
 title: Open Science
 kuerzel: OSC
-modulverantwortlich: mbl
-dozierende: mbl, cfr
+modulverantwortlich: mbluemm
+dozierende: mbluemm, cfrick
 
 infourl: 
 
