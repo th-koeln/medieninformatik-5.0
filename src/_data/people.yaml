@@ -182,6 +182,14 @@ mbluemm:
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
     avatar: '/img/professoren/bluemm.png'
     mi: true
+
+cfrick:
+    id: cfrick
+    status: prof
+    name: 'Prof. Dr. Claudia Frick'
+    personenseite: 'https://www.th-koeln.de/personen/claudia.frick/'
+    avatar: 'https://www.th-koeln.de/pseimg/af851d434aba8420d33d178dae1b9acc7456b120.png'
+
 dgaida:
     id: dgaida
     status: prof
