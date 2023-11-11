@@ -126,6 +126,15 @@ bb:
     avatar: '/img/professoren/bertelsmeier.png'
     personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
     mi: true
+
+dpeterson:
+    id: dpeterson
+    status: wma
+    name: 'David Petersen'
+    avatar: '/img/professoren/petersen.png'
+    personenseite: 'https://www.th-koeln.de/personen/david.petersen/'
+    mi: true
+    
 sk:
     id: sk
     status: prof

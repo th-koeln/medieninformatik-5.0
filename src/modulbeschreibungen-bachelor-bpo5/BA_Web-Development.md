@@ -31,53 +31,32 @@ meta:
   status: tbd    
   authors: viet
   reviewers: viet
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+lehrmethoden:
+  - Vorlesung mit Fallbeispielen
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
 
 ## Learning Outcome
+Bitte in (WAS)(WOMIT)(WOZU) Struktur 😎
+[Learning-Outcomes ‚lupenrein‘ formulieren](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/lehre/steckbrief_learning_outcomes.pdf)
 
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
-## Kurzbeschreibung
 In der Veranstaltung werden wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen eingeführt, die das Web als Medium konstituieren.
-
-## Lehrform/SWS
-4 SWS: Seminar 2 SWS; Workshop 2 SWS
-
-## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
-
-- 36h Vorlesung 
-- 36h Seminar
-- 78h Selbststudium 
-
-## Angestrebte Lernergebnisse
 
 In dem Modul sollen die Teilnehmerinnen und Teilnehmer wesentliche Grundlagen des Web und aktuelle Entwicklungen im Web auf konzeptioneller Ebene erfassen und diskutieren können und einige davon auf Ebene der Programmierung umsetzen können. Das Ziel ist, dass die Studierenden 
 -  wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen, die das Web als Medium konstituieren erklären können und 
 - moderne Webanwendungen auf der Basis von Fachbegriffen analysieren und einordnen können, um kompetent am fachlichen Diskurs über Eigenschaften, Auswirkungen und Gestaltungsalternativen von Web Anwendungen teilnehmen zu können.
 -  verteilte Web Anwendungen ggfs. nach einer Einarbeitung in konkrete Technologien oder Rahmenwerke als Proof-of-Concept realisieren (programmieren) können.
 
-## Inhalt
+
+## Inhalte
 Im Grundlagenteil der Veranstaltung werden wesentliche Konzepte vermittelt, die zur Konzeption, Diskussion und Realisierung von Diensten im Web benötigt werden. Die Konzepte sind wichtig um als Medieninformatiker bzw. Medieninformatikerin kompetent Aufgaben des Berufsalltags lösen zu können und an Fachdiskussionen teilnehmen zu können. Themen sind u.a.:
 - Web Architektur des W3C
 - Offfenheit und Verwendung von Standards als Prinzip
@@ -95,13 +74,7 @@ Das Ziel des Workshop ist die Entwicklung und das Deploynent eines Webservice f�
 
 Im Kontext des Projektes sollen die zentralen Konzepte ''Datenmodellierung'', ''synchrone Interaktion'' und - soweit zeitlich möglich - ''asynchrone Interaktion'' aus dem Grundlagenteil durch praktische Umsetzung mit aktuellen Werkzeugen vertieft werden.
 
-## Medienformen
-- Folienpräsentation
-- Auschnitte aus der Literatur als Leseaufgaben und Fallstudien
-
-
-## LiteraturDas vom W3C herausgegebene Dokument über die Architektur des Web
-
+## Empfohlene Literatur
 - Tilkov et al.: REST und HTTP, dpunkt.verlag 2015
 - Tanenbaum et al.: Distributed Systems, Pearson 2007
 - Randy Conolly, Richard Hoar: Fundamentals of Web Development, Pearson Publishing 2015
@@ -110,3 +83,4 @@ Im Kontext des Projektes sollen die zentralen Konzepte ''Datenmodellierung'', ''
 - Sam Newman: Building Micro Services, OReilly 2015
 - James Governor et al.: Web 2.0 Architectures, OReilly 2009
 - Rajkumar Buyya (ed.): Internet of Things: Principles and Paradigms, Morgan Kaufmann 2016
+

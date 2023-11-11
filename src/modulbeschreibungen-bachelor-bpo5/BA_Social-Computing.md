@@ -27,42 +27,25 @@ meta:
   status: tbd    
   authors: Christian Kohls
   reviewers: Christian Kohls
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+lehrmethoden:
+  - Vorlesung mit Fallbeispielen
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
 ## Learning Outcome
+(WAS)(WOMIT)(WOZU)
+[Learning-Outcomes ‚lupenrein‘ formulieren](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/lehre/steckbrief_learning_outcomes.pdf)
 
 ## Inhalte
 
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
 
 ## Empfohlene Literatur
 
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
-## Kurzbeschreibung
-
-## Lehrform/SWS
-
-## Arbeitsaufwand
-
-## Angestrebte Lernergebnisse
-
-## Inhalt
-
-## Medienformen
-
-## Literatur

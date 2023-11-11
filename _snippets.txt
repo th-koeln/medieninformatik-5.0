@@ -26,8 +26,12 @@ WWW Refinements:
 http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_TheoretischeInformatik/
 http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Visual-Computing/
 http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_KI-HCKI/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Mobile-Computing/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Entwicklung-von-System-Architekturen/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Datenbanksysteme/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Web-Development/
 
 ---
 Review erforderlich:
 http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Communityprojekt/
-http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Datenbanksysteme/
+
