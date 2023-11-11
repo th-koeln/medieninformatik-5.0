@@ -5,7 +5,6 @@ dozierende: viet
 modulniveau: bachelor
 kuerzel: ESA
 date: Last Modified
-studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

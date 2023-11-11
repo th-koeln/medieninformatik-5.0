@@ -5,7 +5,6 @@ dozierende: il
 modulniveau: bachelor
 kuerzel: REENG
 date: Last Modified
-studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

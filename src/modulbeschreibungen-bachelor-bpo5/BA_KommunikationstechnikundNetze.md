@@ -5,7 +5,6 @@ dozierende: hls
 modulniveau: bachelor
 kuerzel: KTN
 date: Last Modified
-studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

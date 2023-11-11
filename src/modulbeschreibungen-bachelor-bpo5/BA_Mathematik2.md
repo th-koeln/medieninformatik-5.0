@@ -5,7 +5,6 @@ dozierende: wk
 modulniveau: bachelor
 kuerzel: MA2
 date: Last Modified
-studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 8

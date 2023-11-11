@@ -5,7 +5,6 @@ dozierende: hk
 modulniveau: bachelor
 kuerzel: MEPO
 date: Last Modified
-studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

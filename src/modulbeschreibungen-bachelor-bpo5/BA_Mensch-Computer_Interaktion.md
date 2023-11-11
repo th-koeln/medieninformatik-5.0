@@ -5,7 +5,6 @@ dozierende: rgroten
 modulniveau: bachelor
 kuerzel: MCI
 date: Last Modified
-studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5

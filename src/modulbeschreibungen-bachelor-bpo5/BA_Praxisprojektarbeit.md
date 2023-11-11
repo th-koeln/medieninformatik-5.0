@@ -5,7 +5,6 @@ dozierende: all
 modulniveau: bachelor
 kuerzel: PPA
 date: Last Modified
-studiensemester: 7
 kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 12

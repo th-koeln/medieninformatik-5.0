@@ -5,7 +5,6 @@ dozierende: wk
 modulniveau: bachelor
 kuerzel: MA1
 date: Last Modified
-studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch
 voraussetzungenNachPruefungsordnung: keine

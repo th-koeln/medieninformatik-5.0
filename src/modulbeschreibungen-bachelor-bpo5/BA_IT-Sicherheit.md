@@ -5,7 +5,6 @@ dozierende: sk
 modulniveau: bachelor
 kuerzel: ITS
 date: Last Modified
-studiensemester: 4
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

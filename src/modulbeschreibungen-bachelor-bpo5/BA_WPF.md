@@ -5,7 +5,6 @@ dozierende: all
 modulniveau: bachelor
 kuerzel: WPF
 date: Last Modified 
-studiensemester: 6
 kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 5

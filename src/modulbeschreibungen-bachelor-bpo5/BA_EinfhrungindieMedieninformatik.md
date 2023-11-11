@@ -5,7 +5,6 @@ dozierende: viet
 modulniveau: bachelor
 kuerzel: EMI
 date: Last Modified
-studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5
@@ -23,47 +22,23 @@ studienleistungen:
     zweitpruefer: uwm, vos, maa, simonschulte
     datum: ende
 meta:
-  status: rfreview    
+  status: rfreview
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: true
+angebotImSs: false
+weitereStudiengaenge: 
+lehrmethoden:
+  - Workshops
+  - Projekt
+lehrform:
+  - Seminar 3 SWS
+  - Projekt 1 Woche im Block
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
+> cn: ich hab das mal ein bisschen in Struktur gebracht … @Viet: könntest Du bitte noch mal drüber gucken und die LOs in WAS-WOMIT-WOZU Struktur bringen? Vielen Dank!
 
 ## Learning Outcome
-
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
-## Lehrform/SWS
-4 SWS: Seminar 3 SWS; Übung 1 SWS 
-
-Seminar mit eingebetteten Übungselementen und Projektarbeit.
-
-## Arbeitsaufwand
-Gesamtaufwand 150h, davon
-
-- 30h Seminar
-- 10h Übung
-- 40h Projekt
-- 70h Selbststudium
-
-## Angestrebte Lernergebnisse
 Die Studierenden können die inhaltlichen Ausrichtungen und die Zielsetzungen der Lehr- und Anwendungsdisziplin Medieninformatik benennen und gegenüber verwandten oder ähnlichen Disziplinen abgrenzen. 
 
 Die Studierenden kennen Grundkonzepte der Informatik (z.B. Anforderungen) sowie audiovisueller und interaktiver Medientechnologien, kennen architekturelle Alternativen interaktiver Systeme und kennen Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte und können diese Kenntnisse auf eine gegebene Problemstellung anwenden. 
@@ -77,14 +52,7 @@ Workshops zu grundlegenden projektrelevanten Themenfeldern (wie: Datenmodellieru
 
 Teambasiertes Projekt, welches ausgehend von Kontextszenarien eine (oder mehrere) Problemstellung(en) umreißt, zu dem Lösungen konzipiert und prototypisch umgesetzt, dokumentiert und einem Fachpublikum präsentiert werden müssen.
 
-## Medienformen
-- Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
-- Vorträge
-- verschiedene Präsentationsmaterialien (Whiteboard, Poster, etc.)
-- Einsatz von Bild- und Videobearbeitungssoftware
-- Umgang mit Kameras im Projektteil
-
-## Literatur
+## empfohlene Literatur
 * Michael Herczeg: Einführung in die Medieninformatik, Oldenbourg Verlag, 2006, ISBN: 3-486-581-031
 * Chris Rupp et al: Requirements-Engineering und -Management: Aus der Praxis von klassisch bis agil, Carl Hanser Verlag; 6-te Auflage, 2014, ISBN-10: 3446438939 
 

@@ -5,7 +5,6 @@ dozierende: cn
 modulniveau: bachelor
 kuerzel: CP
 date: Last Modified
-studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5

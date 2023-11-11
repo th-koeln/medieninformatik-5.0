@@ -6,7 +6,6 @@ dozentinnen: all
 modulniveau: bachelor
 kuerzel: PS
 date: Last Modified
-studiensemester: 5
 kategorie: spezialisierung
 kreditpunkte: 30
 voraussetzungenNachPruefungsordnung: alle Grundlagenmodule müssen bestanden sein

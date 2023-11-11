@@ -5,7 +5,6 @@ dozierende: gh
 modulniveau: bachelor
 kuerzel: MIP
 date: Last Modified
-studiensemester: 6
 kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 10

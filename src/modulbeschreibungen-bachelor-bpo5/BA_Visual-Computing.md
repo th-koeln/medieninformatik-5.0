@@ -4,7 +4,6 @@ modulverantwortlich: fn
 dozierende: fn
 kuerzel: VC
 date: Last Modified
-studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Bachelor

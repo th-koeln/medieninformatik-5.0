@@ -5,7 +5,6 @@ dozierende: viet
 modulniveau: bachelor
 kuerzel: PPS
 date: Last Modified
-studiensemester: 7
 jedes-semester: true
 kategorie: spezialisierung
 sprache: deutsch

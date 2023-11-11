@@ -5,7 +5,6 @@ dozierende: mlinden
 modulniveau: bachelor
 kuerzel: PDE
 date: Last Modified
-studiensemester: 3
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5

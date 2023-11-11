@@ -5,7 +5,6 @@ dozierende: fv
 modulniveau: bachelor
 kuerzel: AP1
 date: Last Modified
-studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 8

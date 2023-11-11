@@ -5,7 +5,6 @@ dozierende: fn
 modulniveau: bachelor
 kuerzel: TI
 date: Last Modified
-studiensemester: 1
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5

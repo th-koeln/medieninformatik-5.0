@@ -5,7 +5,6 @@ dozierende: ck
 modulniveau: bachelor
 kuerzel: AP2
 date: Last Modified
-studiensemester: 2
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 7

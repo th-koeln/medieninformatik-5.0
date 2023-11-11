@@ -18,33 +18,38 @@ exports.getCurriculumList = (obj) => {
   const peopleTools = require('../components/peopleTools.11ty');
 
   const { moduls } = obj;
-  const { terms } = obj;
   const { data } = obj;
   const { eleventy } = obj;
+  const { studienverlauf } = obj;
 
+  if(!studienverlauf) return '';
   let cps = 0;
 
   const keyStudiensemester = data.variant ? `studiensemester${data.variant}` : 'studiensemester';
+  const listByTermViaVerlauf = studienverlauf.map((row) => {
 
-  const listByTerm = terms.map((term) => {
+    const termModuls = row.semester.module.map((kuerzel) => {
+      const modul = moduls.filter((modul) => modul.data.kuerzel === kuerzel)[0];
+      if(!modul) return null;
+      return modul;
+    });
 
-    const termModuls = moduls.filter((modul) => modul.data[keyStudiensemester] === term || modul.data.studiensemester === term);
+
     let cpsPerTerm = 0;
-
+    
     const termModulsList = termModuls.map((modul) => {
-      
-      if(modul.data[keyStudiensemester] && modul.data[keyStudiensemester] !== term) return '';
       const examInfo = modul.data.studienleistungen === null
         ? ''
         : `<p class="module-exam is-small">${moduleTools.resolveExamInfoSimple(modul.data.studienleistungen)}</p>`;
+      
       const modulverantwortlich = modul.data.modulverantwortlich 
-			  ? peopleTools.resolvePerson(data.people, modul.data.modulverantwortlich)
+        ? peopleTools.resolvePerson(data.people, modul.data.modulverantwortlich)
         : '';
-
+  
       cps += parseInt(modul.data.kreditpunkte);
       cpsPerTerm += parseInt(modul.data.kreditpunkte);
       const status = modul.data.meta && modul.data.meta.status ? `is-${modul.data.meta.status}` : '';
-
+      
       return `
         <tr class="${status}">
           <td>
@@ -60,7 +65,7 @@ exports.getCurriculumList = (obj) => {
 
     return `
       <tr class="next-term">
-        <th colspan="4">${term}. Fachsemester </th>
+        <th colspan="4">${row.semester.fachsemester}. Fachsemester </th>
       </tr>
       ${termModulsList.join("\n")}
       <tr>
@@ -68,6 +73,7 @@ exports.getCurriculumList = (obj) => {
         <td colspan="3">${cpsPerTerm}</td>
       </tr>
     `;
+
   });
 
   return `
@@ -82,7 +88,7 @@ exports.getCurriculumList = (obj) => {
       </thead>
 
       <tbody>
-        ${listByTerm.join("\n")}
+        ${listByTermViaVerlauf.join("\n")}
         <tr>
           <td colspan="2">Summe CP insgesamt<br><br></td>
           <td colspan="3">${cps}</td>
@@ -95,13 +101,13 @@ exports.getCurriculumList = (obj) => {
 /* Tabelle der Module eines Studiengangs
 ############################################################################ */
 
-var getCurriculumTable = exports.getCurriculumTable = (obj) => {
+const getCurriculumTable = (obj) => {
 
   const { moduls } = obj;
-  const { terms } = obj;
   const { groups } = obj;
   const { maxCPS } = obj;
   const { eleventy } = obj;
+  const { terms } = obj;
 
   const totalCPS = {};
   
