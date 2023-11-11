@@ -23,9 +23,9 @@ studienleistungen:
     zweitpruefer: viet
     datum: ende
 meta:
-  status: ok
+  status: refreview
   authors: Christian
-  reviewers: Christian
+  reviewers: Christian, Nathalie
 besonderheiten: unbenotetes Modul
 praesenzZeit: 56
 selbstStudium: 94

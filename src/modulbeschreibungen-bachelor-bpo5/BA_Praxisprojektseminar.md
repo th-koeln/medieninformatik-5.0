@@ -36,7 +36,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

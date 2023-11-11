@@ -46,7 +46,7 @@ Jedes Sommersemester
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

@@ -18,12 +18,12 @@ typ: pm
 veranstaltungsform: Vor Ort und Remote
 studienleistungen:
   Einzelleistung:
-    art: Gestaltungsportfolio
+    art: Lernportfolio
     erstpruefer: cn
     zweitpruefer: vos
     datum: vereinbarung
   Teamleistung:
-    art: Projekt- und Projektpräsentationsprüfung
+    art: Projekt
     erstpruefer: cn
     zweitpruefer: vos
     datum: ende
@@ -39,11 +39,11 @@ weitereStudiengaenge:
 
 ## Learning Outcome
 
-Die Studierenden kennen wesentliche Begriffe der visuellen Kommunikation und können diese anwenden, indem sie verbal gestellte Übungsaufgaben visualisieren und verbalisierte Korrekturen und Veränderungsvorschläge umsetzen und iterieren, um später Briefings, Angebote oder Korrekturwünsche im Design-Kontext zu verstehen oder zu verfassen.
+(WAS) Die Studierenden kennen wesentliche Begriffe der visuellen Kommunikation und können diese anwenden, (WOMIT) indem sie verbal gestellte Übungsaufgaben visualisieren und verbalisierte Korrekturen und Veränderungsvorschläge umsetzen und iterieren, (WOZU) um später Briefings, Angebote oder Korrekturwünsche im Design-Kontext zu verstehen oder zu verfassen.
 
-Die Studierenden können Gestaltungslösungen und -kontexte analysieren, argumentieren, diskutieren, dokumentieren und bewerten, indem Sie Gestaltungen anhand verschiedener Regeln und Konzepte kreieren, dekomponieren, beschreiben und variieren, um eigene Lösungen innerhalb eines Gestaltungskontextes generieren zu können.
+(WAS) Die Studierenden können Gestaltungslösungen und -kontexte analysieren, argumentieren, diskutieren, dokumentieren und bewerten, (WOMIT) indem Sie Gestaltungen anhand verschiedener Regeln und Konzepte kreieren, dekomponieren, beschreiben und variieren, um eigene Lösungen innerhalb eines Gestaltungskontextes generieren zu können.
 
-Die Studierenden können in einem gegebenen Gestaltungskontext eigene Gestaltungslösungen entwickeln, systematisch variieren und argumentieren, indem Sie Gestaltungsziele verstehen und formulieren können und Gestaltungsregeln (Raster, Layout, Typographie, etc.) anwenden, um gegebene funktionale und/oder kommunikative Ziele zu erreichen.
+(WAS) Die Studierenden können in einem gegebenen Gestaltungskontext eigene Gestaltungslösungen entwickeln, systematisch variieren und argumentieren, (WOMIT) indem Sie Gestaltungsziele verstehen und formulieren können und Gestaltungsregeln (Raster, Layout, Typographie, etc.) anwenden, (WOZU) um gegebene funktionale und/oder kommunikative Ziele zu erreichen.
 
 ## Inhalt
 - Design Basics

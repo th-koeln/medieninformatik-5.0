@@ -155,6 +155,7 @@ select {
   --fluid-space-s: calc(var(--s) + 0.5vw);
   --fluid-space-m: calc(var(--m) + 1vw);
   --fluid-space-l: calc(var(--l) + 1.5vw);
+  --fluid-space-xl: calc(var(--xl) + 2vw);
   --max-width-content: calc(var(--m) * 40);
   --max-width-table: calc(var(--m) * 80);
   --max-width-card: calc(var(--m) * 20);
@@ -257,7 +258,7 @@ h2 {
 
 h3 {
   font-size: var(--l);
-  margin-bottom: var(--fluid-space-s);
+  margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
 }
 
@@ -308,30 +309,6 @@ hr {
   margin-bottom: var(--fluid-space-l);
 }
 
-/* Lists
-############################################################################ */
-ul {
-  padding-left: 0;
-}
-ul > li {
-  display: block;
-  margin-left: 1.5ch;
-}
-ul > li::before {
-  color: var(--dark);
-  content: "»";
-  display: inline-block;
-  width: 1.5ch;
-  margin-left: -1.5ch;
-}
-ul > li + li {
-  margin-top: var(--quat);
-}
-
-ul.is-tight li + li {
-  margin-top: 0;
-}
-
 /* Blockquote
 ############################################################################ */
 blockquote {
@@ -358,6 +335,27 @@ blockquote {
   transform: rotate(90deg);
 }
 .button i {
+  width: var(--m);
+  height: var(--m);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+}
+
+/* CTA
+############################################################################ */
+.cta {
+  background-color: var(--color-accent);
+  padding: var(--s);
+  font-size: var(--m);
+  display: inline-block;
+  color: var(--lightest);
+  border-radius: var(--border-radius-s);
+  vertical-align: top;
+  transition: transform var(--tr-fast) ease-in-out;
+}
+.cta i {
   width: var(--m);
   height: var(--m);
   display: flex;
@@ -509,6 +507,9 @@ main, aside {
 section {
   padding-bottom: var(--fluid-space-m);
 }
+section.is-loose {
+  padding-bottom: var(--fluid-space-xl);
+}
 
 table {
   max-width: var(--max-width-table);
@@ -547,6 +548,7 @@ table {
 }
 .main-header ul li {
   font-size: var(--l);
+  margin-left: 0;
 }
 .main-header ul li::before {
   content: "";
@@ -802,6 +804,56 @@ ul.gallery-grid .gallery-item::before {
   margin-left: 0;
 }
 
+/* Einfache Liste
+############################################################################ */
+ul:not([class]) {
+  padding-left: 0;
+}
+ul:not([class]) > li {
+  display: block;
+  margin-left: 1.5ch;
+}
+ul:not([class]) > li::before {
+  color: var(--dark);
+  content: "»";
+  display: inline-block;
+  width: 1.5ch;
+  margin-left: -1.5ch;
+}
+ul:not([class]) > li + li {
+  margin-top: var(--quat);
+}
+
+/* Liste mit wenig Abstand
+############################################################################ */
+ul.is-tight li + li {
+  margin-top: 0;
+}
+
+/* Fette Liste!
+############################################################################ */
+ul.hero-list {
+  padding-left: 0;
+  padding-bottom: var(--fluid-space-m);
+}
+ul.hero-list > li {
+  display: block;
+  margin-left: 1.5ch;
+  font-size: var(--l);
+  margin-bottom: var(--s);
+}
+ul.hero-list > li::before {
+  color: var(--mi-lila);
+  content: "»";
+  display: inline-block;
+  width: 1.5ch;
+  margin-left: -1.5ch;
+  font-weight: var(--fw-bold);
+}
+ul.hero-list > li + li {
+  margin-top: var(--quat);
+}
+
 /* Content Blocks
 ############################################################################ */
 .content-blocks section .content {
@@ -859,6 +911,9 @@ ul.gallery-grid .gallery-item::before {
 }
 .modulbeschreibung h2 {
   margin-bottom: var(--s);
+}
+.modulbeschreibung ul + h3 {
+  margin-top: var(--fluid-space-s);
 }
 .modulbeschreibung .module-core-data[class*=is-] {
   padding-top: var(--fluid-space-s);
@@ -929,10 +984,15 @@ ul.gallery-grid .gallery-item::before {
   display: grid;
   gap: var(--fluid-space-s);
   grid-template-columns: repeat(auto-fill, minmax(var(--max-width-card), 1fr));
+  padding-bottom: var(--fluid-space-m);
+}
+.insights .insight-overview.without-tags .tag {
+  display: none;
 }
 .insights .insight {
   border-top: solid var(--border-width-l) var(--light);
   margin-left: 0;
+  padding-top: var(--half);
   padding-bottom: var(--s);
 }
 .insights .insight + .insight {
@@ -960,6 +1020,7 @@ ul.gallery-grid .gallery-item::before {
 .how-might-we .question {
   border-top: solid var(--border-width-l) var(--light);
   margin-left: 0;
+  padding-top: var(--half);
   padding-bottom: var(--s);
 }
 .how-might-we .question + .insight {
@@ -983,38 +1044,39 @@ ul.gallery-grid .gallery-item::before {
 
 /* Job Offers
 ############################################################################ */
-.job-offer-overview {
+ul.job-offer-overview {
   display: grid;
   gap: var(--fluid-space-s);
   grid-template-columns: repeat(auto-fill, minmax(calc(var(--max-width-card) * 2), 1fr));
+  margin-bottom: var(--fluid-space-l);
 }
-.job-offer-overview .job-offer-data {
+ul.job-offer-overview .job-offer-data {
   box-shadow: var(--shadow-l-light);
   transition: all var(--tr-slow);
   background-color: var(--lightest);
   margin-left: 0;
   padding: var(--s);
 }
-.job-offer-overview .job-offer-data + .job-offer-data {
+ul.job-offer-overview .job-offer-data + .job-offer-data {
   margin-top: 0;
 }
-.job-offer-overview .job-offer-data:hover {
+ul.job-offer-overview .job-offer-data:hover {
   box-shadow: var(--shadow-xl-light);
   transform: scale(1.01);
 }
-.job-offer-overview .job-offer-data img {
+ul.job-offer-overview .job-offer-data img {
   aspect-ratio: 1/1;
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.job-offer-overview .job-offer-data::before {
+ul.job-offer-overview .job-offer-data::before {
   content: "";
   display: inline;
   width: 0;
   margin-left: 0;
 }
-.job-offer-overview .job-offer-data figcaption li {
+ul.job-offer-overview .job-offer-data figcaption li {
   margin-top: var(--quat);
   line-height: var(--lh-tight);
 }

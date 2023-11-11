@@ -41,7 +41,7 @@ Die Studierenden kennen Methoden der quantitativen und qualitativen Datenanalyse
 
 Die Teilnehmer sind in der Lage verschiedene methodische Rahmen für die Beantwortung empirischer Problem- oder Fragestellungen zu benennen, kritisch einzuordnen und für ihre konkreten Projekte (Zielsetzungen, Rahmenbedingungen, etc.) eine rational begründete Wahl eines (oder einer Kombination aus verschiedenen) methodischen Rahmen zu treffen und zu kommunizieren. Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwenden und Resultate angemessen zu interpretieren und kritisch zu diskutieren.
 
-## Modulinhalte
+## Inhalte
 
 - Wissenschaftstheoretische Grundlagen
 - Gütekriterien quantitativer und qualitativer empirischer Forschung

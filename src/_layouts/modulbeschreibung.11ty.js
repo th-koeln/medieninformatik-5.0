@@ -60,6 +60,16 @@ module.exports = {
 		const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
 		const meta = utils.getContentMeta(this, data.meta);
 
+		const getList = (list) => {
+			return list.map(item => `<li>${item}</li>`);
+		};
+
+		const lehrform = data.lehrform && data.lehrform.length > 0 
+			? `<h2>Lehrform</h2><ul>${getList(data.lehrform).join('')}</ul>` : '';
+
+		const lehrmethoden = data.lehrmethoden && data.lehrmethoden.length > 0 
+			? `<h2>Lehrmethoden</h2><ul>${getList(data.lehrmethoden).join('')}</ul>` : '';
+
 		return `
 			<main>
 				<section class="${status} module-core-data">
@@ -71,6 +81,8 @@ module.exports = {
 				</section>
 
 				<section class="content">
+					${lehrform}
+					${lehrmethoden}
 					${data.content}
 				</section>
 

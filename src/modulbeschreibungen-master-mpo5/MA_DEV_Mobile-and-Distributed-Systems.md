@@ -42,7 +42,7 @@ After finishing this module students will be able to design, to build and to stu
 * reflecting on and studying mobile and distributed systems with regard to research and innovation.
 This will enable participants to design, build and study mobile and distributed systems. It will empower them to contribute to research and development oriented projects.
 
-## Modulinhalte
+## Inhalte
 * Mobile Computing
 * Edge Computing and Internet of Things
 * Fields of applications

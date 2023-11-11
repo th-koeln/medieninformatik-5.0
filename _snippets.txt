@@ -17,3 +17,17 @@ lehrform:
   ---
 
   https://www.icloud.com/numbers/0f3aoTRhIynoYjS3gY552zMFw#praesenz-und-selbstlernzeit
+
+
+  ---
+
+  
+WWW Refinements:
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_TheoretischeInformatik/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Visual-Computing/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_KI-HCKI/
+
+---
+Review erforderlich:
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Communityprojekt/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Datenbanksysteme/

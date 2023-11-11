@@ -44,7 +44,7 @@ Sie können sowohl die Ergebnisse als auch die Abwägungen und Entscheidungen im
 Die Studierenden verstehen Projektarbeit als gemeinschaftliche, verantwortungsvolle Aufgabe und offenen Prozess mit stetig zu reflektierendem individuellen und gemeinschaftlichen Handeln einer Gruppe von angehenden Professionellen in einer oder mehreren Fachdomäne. Sie wertschätzen Diversität und individuelle Fähigkeiten; sie sind in der Lage, konstruktiv und kooperativ gemeinsame Ziele zu entwickeln, zu formulieren und zu spezifizieren, fachlich fundiert zu adressieren, umzusetzen und das Erreichte multiperspektivisch hinsichtlich sozio-technisch/fachlicher/ökonomischer/ökologischer/ethischer/etc. Kriterien kritisch einzuschätzen.
 
 
-## Modulinhalte
+## Inhalte
 
 Die Studierenden formulieren Themenstellungen und leiten daraus "Design Challenges" ab. Sie führen eingeständig Recherchen in den zuhegörigen Domänen durch, dokumentieren die Erkenntnisse und konsolidieren ggf. iterativ ihre "Design Challenge". Die Studierenden führen einen teambasierten Design-Prozess durch, erarbeiten Ergebnisse, evaluieren diese mit geeigneten methodischen Ansätzen. Sie realisieren ein "minimal viable product" für zukünftige Kunden und kommunizieren das Erreichte für spezifische fachliche und nichtfachliche Zielgruppen.
 

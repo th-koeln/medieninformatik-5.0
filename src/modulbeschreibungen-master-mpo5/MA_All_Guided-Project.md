@@ -43,7 +43,7 @@ This way, the students will be able to perform, plan, and lead similar projects 
   
 
 
-## Modulinhalte
+## Inhalte
 
 The project consists of supervised work on a complex task in research and development (possibly in cooperation with external partners), in a team. The supervisor defines the objectives of the project, and guides the team during the project execution. This includes a regular progress monitoring, in the form of intermediate meetings between supervisor and team in intervals 
 of not more than three weeks.

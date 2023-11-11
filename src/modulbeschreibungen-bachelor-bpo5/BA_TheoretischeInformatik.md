@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer: il
     datum: ws-2
 meta:
-  status: ok
+  status: refactor
   authors: Florian
   reviewers: Florian, Christian
 besonderheiten: 
@@ -48,27 +48,33 @@ lehrmethoden:
 - In verschiedenen Grundlagengebieten der Informatik lernen die Studierenden Verfahrensweisen kennen, um den algorithmischen Kern eines Problems zu identifizieren und können passende Algorithmen entwerfen (Automaten, Turing Maschinen, Logik). Dabei können Sie bekannte Problemstellungen im Anwendungskontext erkennen und sind mit den zugehörigen Lösungsmustern vertraut (Modellierung mittels Automaten, Boolescher Algebra, etc.).
 
 ## Inhalte
-- Grundlagen
+
+### Grundlagen
   - Mengen, Relationen, Graphen
   - Zahlensysteme, Zahlendarstellung, Numerische Aspekte
-- Logik und Boolesche Algebra
+
+### Logik und Boolesche Algebra
   - Aussagenlogik
   - Prädikatenlogik
   - Boolesche Algebra
-- Reguläre Sprachen
+
+### Reguläre Sprachen
   - Endliche Automaten
   - Reguläre Ausdrücke
   - Reguläre (Typ-3) Grammatiken, Syntaxdiagramme
   - Chomsky-Hierarchie
-- Kontextfreie Sprachen
+
+### Kontextfreie Sprachen
   - Kontextfreie (Typ-2) Grammatiken, Chomsky- und Greibach-Normalformen
   - Anwendungen (Ableitungs- und Syntaxbäume, Syntax von Programmiersprachen, Backus-Naur-Form)
-- Kontextsensitive und rekursiv aufzählbare Sprachen
+
+### Kontextsensitive und rekursiv aufzählbare Sprachen
   - Kontextsensitive (Typ-1) und Phrasenstruktur- (Typ-0) Grammatiken, Monotonie, Normalform
-- Berechenbarkeit, Entscheidbarkeit und Komplexität
-    Turing-Maschinen, Turing-Berechenbarkeit
-    Entscheidbarkeit, rekursive Aufzählbarkeit
-    Komplexität
+
+### Berechenbarkeit, Entscheidbarkeit und Komplexität
+  - Turing-Maschinen, Turing-Berechenbarkeit
+  - Entscheidbarkeit, rekursive Aufzählbarkeit
+  - Komplexität
 
 ## Empfohlene Literatur
 - Hoffmann, D. (2018): Theoretische Informatik, 4. Auflage, Carl Hanser Verlag München.

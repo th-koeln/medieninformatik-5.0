@@ -5,12 +5,12 @@ dozierende: fn
 kuerzel: VC
 date: Last Modified
 studiensemester: 2
-kategorie: vertiefung
+kategorie: grundlagen
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Bachelor
-kreditpunkte: 6
+kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: erfolgreich absolviertes Praktikum
-empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung, Paradigmen der Programmierung, Mensch-Computer Interaktion, Screendesign, Audiovisuelles Medienprojekt
+empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung 1, Mathematik 1, Theoretische Informatik, Screendesign
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
@@ -24,19 +24,22 @@ studienleistungen:
     zweitpruefer: hk
     datum: ende
 meta:
-  status: tbd
+  status: refactor
   authors: Florian
-  reviewers: Florian
+  reviewers: Florian, Christian
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 108
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+lehrmethoden:
+  - Vermittlung der Theorie in der Vorlesung
+  - Praktische Bearbeitung im Workshop
+lehrform:
+  - Vorlesung 2 SWS
+  - Workshop 2 SWS    
 ---
-
-## Sprache
-Deutsch
-
-## Häufigkeit des Angebots
-Sommersemester
-
-## Dozierende
-Prof. Dr. Florian Niebling
 
 ## Learning Outcome
 Die Studierenden
@@ -46,52 +49,43 @@ Die Studierenden
 - können Methoden zur Bildverarbeitung anwenden, indem Sie bestehende Algorithmen mithilfe von OpenCV einsetzen und kombinieren, um Anwendungen im Bereich der Bilderkennung umzusetzen.
 - sind in der Lage, programmiertechnische Umsetzungen im Visual Computing zu analysieren und Lösungswege zu kommunizieren, um im Team visuelle Anwendungen entwerfen, umsetzen und verbessern können.
 
-## Modulinhalte
-- Grundlagen
+## Inhalte
+
+### Grundlagen
   - Farbmodelle, Perzeption
   - Bilder und Bildkompression
 
-- Grundlagen der Bildsynthese
+### Grundlagen der Bildsynthese
   - Koordinatensysteme
   - Homogene Koordinaten und Affine Transformationen
   - Das Kameramodell und Projektion
 
-- Grundlagen des Ray Tracing
+### Grundlagen des Ray Tracing
   - Forward und Backward Ray Tracing
   - Beleuchtungsmodelle, Licht-Materialinteraktion, BRDFs
   - Path Tracing
 
-- Grundlagen der Rasterisierung
+### Grundlagen der Rasterisierung
   - Grafikpipeline
   - Geometrische Primitive
   - Rasterisierung
   - Texture Mapping
   - Programmierbare Shader
 
-- Grundlagen der Bilderkennung
+### Grundlagen der Bilderkennung
   - Lineare Filter, Glättung und Kantendetektion
   - Einführung in die Multiple View Geometry
   - Feature-Erkennung, Stitching, Pose Estimation
 
-- Einführung in die Visualisierung wissenschaftlicher Datensätze
+### Einführung in die Visualisierung wissenschaftlicher Datensätze
   - Visualisierungspipeline
   - Skalar- und Vektorvisualisierung, Flächenextraktion, Partikel-Tracing
   - Volumenvisualisierung
 
-- Anwendungen des Visual Computing
+### Anwendungen des Visual Computing
   - Virtual Reality
   - Augmented Reality
   - 3D Benutzerschnittstellen
-
-## Lehr- und Lernmethoden
-- Vermittlung der Theorie in der Vorlesung
-- Praktische Bearbeitung im Workshop
-
-## Präsenzzeit
-- 72h Vorlesung / Workshop
-
-## Selbststudium
-- 108h Selbstlernphase
 
 ## Empfohlene Literatur
 - Angel, E., Shreiner, D (2015): Interactive Computer Graphics: A Top-Down Approach with WebGL. 7. Auflage, Addison-Wesley
@@ -100,7 +94,3 @@ Die Studierenden
 - Szeliski, R. (2022): Computer Vision: Algorithms and Applications. 2. Auflage, Springer
 - Telea, A. C.: Data visualization: principles and practice. CRC Press, 2014.
 - Doerner, R., Broll, W., Jung, B., Grimm, P., Göbel, M., Kruse, R. (2022): Introduction to Virtual and Augmented Reality. Springer
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten

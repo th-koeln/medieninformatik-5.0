@@ -23,52 +23,46 @@ studienleistungen:
     zweitpruefer: gh
     datum: vereinbarung
 meta:
-  status: rfreview    
+  status: ok    
   authors: Raphaela
   reviewers: gh, nkuhn
+besonderheiten: 
+praesenzZeit: 50
+selbstStudium: 100
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - i
+lehrmethoden:
+  - Projektarbeit in Kleingruppen
+  - Coaching der Gruppe im Praktikum u.a. durch Beispiele und Feedbackrunden
+  - Theorievermittlung (insb. zum Vorgehen im Praktikum) mit Lehrfilmen, beamergestützten Slides und Skript
+  - Textstellen aus Büchern oder Internet.
+lehrform:
+  - Vorlesung 1 SWS
+  - Praktikum 3 SWS  
 ---
 
-## Sprache
-Deutsch
-
-## Häufigkeit des Angebots
-Jedes Sommersemester
-
-## Dozierende
-Raphaela Groten
-
 ## Learning Outcome
-Die Studierenden können Prozesse und Methoden des nutzerzentrierten Designs in Projekten anwenden. Sie sind in der Lage Interaktion zwischen digitalen Systemen und Menschen sinnvoll zu gestalten. 
+(WAS) Die Studierenden können Prozesse und Methoden des nutzerzentrierten Designs in Projekten anwenden. Sie sind in der Lage Interaktion zwischen digitalen Systemen und Menschen sinnvoll zu gestalten. 
 
-Dies geschieht
+(WOMIT) Dies geschieht
 - indem die Prozesse und Methoden des menschzentrierten Designs in einem konkreten Projekt angewendet werden (Praktikum)
 - indem Nutzer*innen und Nutzungskontext und analysiert, Probleme definiert und Verbesserungsmöglichkeiten abgeleitet werden
 - indem Lösungskonzepte mit low-fidelity und Figma Prototypen gestaltet und evaluiert werden
 - indem Modell und Methoden für konkrete Aktivitäten im Entwicklungsprojekten unter Abwägung der Alternativen ausgewählt und anwendendet werden. 
 - indem grundlegendes Wissen zur User Experience und der Gestaltung interaktiver Systeme über das konkrete Projekt hinaus abstrahiert wird, um als Wissensbasis für zukünftige Projekte zu dienen
 
-Studierende sollen so in der Lage sein, in zukünftigen Projekten auf Basis eines Verständnisses des Nutzungskontext interaktive Lösungen und User Interfaces zu gestalten. 
+(WOZU) Studierende sollen so in der Lage sein, in zukünftigen Projekten auf Basis eines Verständnisses des Nutzungskontext interaktive Lösungen und User Interfaces zu gestalten. 
 
 
-## Modulinhalte
+## Inhalte
 Digitale Systeme werden entwickelt, um den Menschen zu unterstützen. Mit Vorgehensweisen und Methoden des menschzentrierten Designs kann sichergestellt werden, dass diese Perspektive während des Entwicklungsprozesses maßgeblich berücksichtigt wird und ein erfolgreiches Entwicklungsergebnis wahrscheinlicher wird. 
 In diesem Modul lernen Studierende technische Lösungen als eine Antwort auf Nutzungsbedürfnisse zu gestalten. Das nutzerzentrierte Vorgehen (wie es u.a. im Design Thinking und entsprechenden Normen definiert ist) strukturiert auch den Ablauf des Moduls.
 Die Studierenden entwickeln zu einer Design Challenge aus dem Kontext der Mensch-Computer Interaktion (MCI) eine Lösung.  Zunächst wird auf Basis von Modellierung der Nutzer:innen und des Nutzungskontext ein Problemfeld definiert. Im Anschluss werden Lösungskonzepte erarbeitet, Lösungen prototypisch entworfen und evaluiert. Die Lösungskonzepte fokussieren die User Experience und die User Interface Gestaltung.
 Die Erarbeitung dieser Lösung wird durch die theoretische Wissensvermittlung und Coaching durch die Dozent:innen begleitet. Das Projekt endet mit einer Abschlusspräsentation (Teilprüfungsleistung).  
 
 
-## Lehr- und Lernmethoden
-- Projektarbeit in Kleingruppen
-- Coaching der Gruppe im Praktikum u.a. durch Beispiele und Feedbackrunden
-- Theorievermittlung (insb. zum Vorgehen im Praktikum) mit Lehrfilmen, beamergestützten Slides und Skript
-- Textstellen aus Büchern oder Internet.
-
-
-## Präsenzzeit
-Workshops mit ca 40 bis 50h
-
-## Selbststudium
-ca 100h
 
 ## Empfohlene Literatur
 - Benyon, Turner & Turner, (2005): Designing Interactive Systems: People, Activities, Contexts, Technologies
@@ -79,21 +73,6 @@ ca 100h
 - Holtzblatt et al. (2004) Rapid Contextual Design: A How-to Guide to Key. Techniques for User-Centered Design  https://www.sciencedirect.com/book/9780123540515/rapid-contextual-design
 
 
-## Verwendung des Moduls in weiteren Studiengängen
-Informatik Bachelor
-
-## Besonderheiten
-
-
-## Lehrform/SWS
-Vorlesung (1 SWS) und Praktikum (3 SWS)
-
-## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
-
-- ca 15h Vorlesung 
-- ca 35h Projekt Coaching (mit Vorlesung zu Workshops integriert) 
-- ca 100h Selbststudium und Projektarbeit
 
 
 

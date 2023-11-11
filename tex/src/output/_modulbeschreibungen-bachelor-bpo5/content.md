@@ -52,7 +52,7 @@ Wissenschaftliche Diskurse
 Grundvoraussetzung für wissenschaftliches Arbeiten (z.B. Bachelor Thesis)
 
 
-## Modulinhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Advanced-Seminar§
+## Inhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Advanced-Seminar§
 
 - Lieraturrecherche, Recherchestrategien & Suchfunktionen
 
@@ -341,7 +341,7 @@ Prof. Dr. Johann Schaible, Prof. Dr. Birgit Bertelsmeier
   - effizienz-steigernde Methoden (SQL Tuning, Indexe) verwenden.
 
 
-## Modulinhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Datenbanksysteme§
+## Inhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Datenbanksysteme§
 
 - Erstellung konzeptioneller Datenmodelle als Entity Relationship-Diagramm
 
@@ -1491,7 +1491,7 @@ Die Studierenden können innovative Geschäftsideen entwickeln und kriteriengele
 …um später Geschäftsideen zu entwickeln und deren Markakzeptanz überprüfen zu können.
 
 
-## Modulinhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Product-Dimensions§
+## Inhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Product-Dimensions§
 
 - Business Innovation (u.a. Lean Startup Methode)
 
@@ -1892,7 +1892,7 @@ Prof. Dr. Florian Niebling
 - In verschiedenen Grundlagengebieten der Informatik lernen die Studierenden Verfahrensweisen kennen, um den algorithmischen Kern eines Problems zu identifizieren und können passende Algorithmen entwerfen (Automaten, Turing Maschinen, Logik). Dabei können Sie bekannte Problemstellungen im Anwendungskontext erkennen und sind mit den zugehörigen Lösungsmustern vertraut (Modellierung mittels Automaten, Boolescher Algebra, etc.).
 
 
-## Modulinhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_TheoretischeInformatik§
+## Inhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_TheoretischeInformatik§
 
 - Grundlagen
 
@@ -2008,7 +2008,7 @@ Die Studierenden
 - sind in der Lage, programmiertechnische Umsetzungen im Visual Computing zu analysieren und Lösungswege zu kommunizieren, um im Team visuelle Anwendungen entwerfen, umsetzen und verbessern können.
 
 
-## Modulinhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Visual-Computing§
+## Inhalte§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Visual-Computing§
 
 - Grundlagen
 

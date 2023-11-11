@@ -43,7 +43,7 @@ Kommunikationsfähigkeit: Vermittlung von Ideen, Verständigung über Anforderun
 
 Kommunikation und Präsentation: Fähigkeit Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 
