@@ -1,5 +1,9 @@
 ---
 title: "Wie kann das Curriculum stärker individualisiert werden?"
+sources:
+  - alumni
+  - staff
+  - Stellenausschreibungen
 tags:
   - Bachelor
   - Master

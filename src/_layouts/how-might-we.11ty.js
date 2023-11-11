@@ -26,7 +26,7 @@ module.exports = {
 
       const tagList = getTagList(tagData, filterName);
       const tagListForFilter = tagList.map((item) => {
-        if(typeof item === "object" && item[filterName]){
+        if(typeof item === "object" && item[filterName]){          
           return `
             <li class="tag" 
               data-js-list-interaction-item-trigger='${JSON.stringify(item)}'>${item[filterName]}</li>
@@ -44,6 +44,7 @@ module.exports = {
     const howMightWeList = data.collections.howMightWe.map((item) => {
 
       const tags = item.data.tags.map((tag) => {
+        
         if(typeof tag === "object" && tag["Bewertung"]){
           return `<span class="tag" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>Bewertung: ${tag["Bewertung"]} ${tag["Bewertung"] > 1 ? "Punkte" : "Punkt"}</span>`;
         }

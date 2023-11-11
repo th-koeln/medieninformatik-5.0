@@ -71,7 +71,7 @@ module.exports = {
 				</section>
 
 				<section class="content">
-					${moduleTools.stripWWW(data.content)}
+					${data.content}
 				</section>
 
 				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module') : ''}

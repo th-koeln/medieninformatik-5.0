@@ -1,5 +1,8 @@
 ---
 title: "Wie können wir sicher stellen, dass unsere Absolvent:innen gescheit coden können?"
+sources:
+  - interviews
+  - Stellenausschreibungen
 tags:
   - Bachelor
   - Bewertung: 4

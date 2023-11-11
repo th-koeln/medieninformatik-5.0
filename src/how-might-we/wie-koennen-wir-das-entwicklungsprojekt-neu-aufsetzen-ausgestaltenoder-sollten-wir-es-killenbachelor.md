@@ -1,5 +1,8 @@
 ---
 title: "Wie können wir das Entwicklungsprojekt neu aufsetzen/ ausgestalten?"
+sources:
+  - staff
+  - Stellenausschreibungen
 tags:
   - Bachelor
   - Bewertung: 2

@@ -15,7 +15,7 @@
     
     li{
       font-size: var(--l);
-
+      margin-left: 0;
       &::before{
         content: "";
       }
@@ -29,5 +29,4 @@
 .content-header{
   margin-bottom: var(--fluid-space-l);
   padding-bottom: var(--fluid-space-s);
-
 }

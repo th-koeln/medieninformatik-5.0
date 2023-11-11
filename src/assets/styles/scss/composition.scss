@@ -18,6 +18,10 @@ main, aside{
 
 section{
   padding-bottom: var(--fluid-space-m);
+
+  &.is-loose{
+    padding-bottom: var(--fluid-space-xl);
+  }
 }
 
 table{

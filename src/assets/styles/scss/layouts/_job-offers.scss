@@ -1,11 +1,12 @@
 /* Job Offers
 ############################################################################ */
 
-.job-offer-overview{
+ul.job-offer-overview{
 
   display: grid;
   gap: var(--fluid-space-s);
   grid-template-columns: repeat(auto-fill,minmax(calc(var(--max-width-card) * 2),1fr));
+  margin-bottom: var(--fluid-space-l);
 
   .job-offer-data{
 

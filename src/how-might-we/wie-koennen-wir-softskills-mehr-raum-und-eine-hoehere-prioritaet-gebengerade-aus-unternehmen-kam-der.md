@@ -1,5 +1,8 @@
 ---
 title: "Wie können wir Softskills mehr Raum und eine höhere Priorität geben?"
+sources:
+  - interviews
+  - Stellenausschreibungen
 tags:
   - Bachelor
   - Master

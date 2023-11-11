@@ -1,5 +1,8 @@
 ---
 title: "Wie können wir die Projekte im Master reformieren, dass sie verschiedene Anforderungen besser erfüllen. (siehe description)"
+sources:
+  - staff
+  - currentStudents
 tags:
   - Master
   - Bewertung: 1
