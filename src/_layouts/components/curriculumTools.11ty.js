@@ -354,6 +354,20 @@ exports.getChildModulList = (data, headlineChilds) => {
   `;
 };
 
+
+
+/* Check, ob ein Modul in einem bestimmten Schwerpunkt ist
+############################################################################ */
+
+isModulInSchwerpunkt = exports.isModulInSchwerpunkt = (modul, schwerpunkt) => {
+  const modulSchwerpunkteKuerzel = modul.data.schwerpunkt ? modul.data.schwerpunkt : "";
+  const schwerpunktKuerzel = schwerpunkt.data.kuerzel ? schwerpunkt.data.kuerzel : "";
+
+  return modulSchwerpunkteKuerzel.includes(schwerpunktKuerzel);
+}
+
+
+
 /* Liste aller Kind Module eines Moduls nach Schwerpunkt
 ############################################################################ */
 
@@ -366,7 +380,7 @@ exports.getChildModulListBySchwerpunkt = (data, headlineChilds) => {
 
   const schwerpunkteList = schwerpunkte.map((schwerpunkt) => {
 
-    const childModulsList = childModuls.filter((modul) => modul.data.schwerpunkt === schwerpunkt.data.kuerzel).map((modul) => {
+    const childModulsList = childModuls.filter((modul) => isModulInSchwerpunkt(modul, schwerpunkt)).map((modul) => {
       return `
         <li>
           <a href="${modul.url}">${modul.data.title}</a>
