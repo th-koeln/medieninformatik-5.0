@@ -103,9 +103,8 @@ var getCurriculumTable = exports.getCurriculumTable = (obj) => {
   const { maxCPS } = obj;
   const { eleventy } = obj;
 
+  const totalCPS = {};
   
-
-
   const modulsForGroup = (group) =>  {
     let cps = 0;
     const termModuls = moduls.filter((modul) => modul.data.kategorie == group.toLowerCase());
@@ -114,12 +113,15 @@ var getCurriculumTable = exports.getCurriculumTable = (obj) => {
       else if (a.data.studiensemester < b.data.studiensemester) return -1;
       else return 0;
     });
+
     const termModulsList = termModulsSortedByTerm.map((modul) => { 
 
       const status = modul.data.meta && modul.data.meta.status ? `is-${modul.data.meta.status}` : '';
       const pvl = modul.data.pvl === true ? "TN" : "-";
       cps += parseInt(modul.data.kreditpunkte);
-
+      totalCPS[modul.data.studiensemester] = totalCPS[modul.data.studiensemester] 
+        ? totalCPS[modul.data.studiensemester] + parseInt(modul.data.kreditpunkte) 
+        : parseInt(modul.data.kreditpunkte);
       return `
         <tr class="${status}">
           <th><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></th>
@@ -175,7 +177,7 @@ var getCurriculumTable = exports.getCurriculumTable = (obj) => {
         <tr>
           <th colspan="2">Summe Leistungspunkte</th>
           <td>${maxCPS}</td>
-          ${terms.map((term) => `<td class="is-fs-${term}">30</td>`).join("\n")}
+          ${terms.map((term) => `<td class="is-fs-${term}">${totalCPS[term]}</td>`).join("\n")}
         </tr>
   </tfoot>
 </table>
