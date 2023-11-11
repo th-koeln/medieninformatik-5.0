@@ -25,7 +25,7 @@ studienleistungen:
 meta:
   status: rfreview    
   authors: Raphaela
-  reviewers: Raphaela
+  reviewers: gh, nkuhn
 ---
 
 ## Sprache

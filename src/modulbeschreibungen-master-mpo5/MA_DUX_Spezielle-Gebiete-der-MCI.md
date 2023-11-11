@@ -21,8 +21,8 @@ studienleistungen:
     datum:
 meta:
   status: rfreview
-  authors: Matthias
-  reviewers: Raphi
+  authors: Matthias, Raphi
+  reviewers: all
 ---
 
 
@@ -30,7 +30,7 @@ meta:
 
 Um den Entwicklungsprozess von Produkten und Services (Domäne wird jedes Semester neu spezifiziert) aus einer menschzentrierten Sicht zu unterstützen und das Wissen zu teilen, bauen die Studierenden folgende Kompetenzen auf: 
 * Forschendes Lernen und Design Science Research im Kontext der jeweiligen Domäne anwenden
-* Englischsprachige Literaturarbeit einsetzen, um eine Knowledge Base in der Gruppe aufzubauen und Design Challenges im Kontext zu definieren
+* Englischsprachige Literaturarbeit einsetzen, um eine Knowledge Base aufzubauen und Design Challenges im Kontext zu definieren
 * Ein Artefakt gestalten, um menschzentrierte Entwicklung von Produkten oder Services zu unterstützen und die Balance zwischen Nutzerbedarfen und Domänen-spezifischen Anforderungen zu halten
 * Das Artefakt durch Evaluationen zu verbessern und das Ergebnis im Anschluss schriftlich (wissenschaftliche Publikation) zu verargumentieren
 Die Kompetenzen erlauben dann einen Beitrag für die menschzentrierte Entwicklung von Produkten und Services zu leisten, neue Anwendungsgebiete der MCI zu explorieren und wesentliche Schritte des wissenschaftlichen Arbeitens zu erfahren.
@@ -46,7 +46,7 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Inhalt
 
-Das Ziel ist es, ein Artefakt zu entwickeln und zu verargumentieren, dass die menschzentrierte Produkt- und Service-Entwicklung in der Domäne zu unterstützen. Im Sinne des Forschenden Lernens und des Design Thinkings beantworten wir eine Forschungsfrage bzw. Design Challenge der Domäne. Hierzu integrieren wir die beiden Vorgehensweisen anlassbezogen. Im Sinne des Design Science Research Frameworks, basieren die Anforderungsermittlungen nicht auf erhobenen empirischen Daten im Nutzungskontext sondern auf bestehenden Publikationen dazu. Nachdem Angriffspunkte und Lücken im wissenschaftlichen State-of-the-Art identifiziert sind, entwickeln wir iterativ eine Lösung, die dann in einem wissenschaftlichen Paper verargumentiert wird.
+Das Ziel ist es, ein Artefakt zu entwickeln und zu verargumentieren, dass die menschzentrierte Produkt- und Service-Entwicklung in der Domäne zu unterstützen. Im Sinne des Forschenden Lernens und des Design Thinkings beantworten wir eine Forschungsfrage bzw. Design Challenge der Domäne. Hierzu integrieren wir die beiden Vorgehensweisen anlassbezogen. Im Sinne des Design Science Research Frameworks, basieren die Anforderungsermittlungen nicht auf erhobenen empirischen Daten im Nutzungskontext, sondern auf bestehenden Publikationen dazu. Nachdem Angriffspunkte und Lücken im wissenschaftlichen State-of-the-Art identifiziert sind, entwickeln wir iterativ eine Lösung, die dann in einem wissenschaftlichen Paper verargumentiert wird.
 
 ## {{ site.translations[site.lang].moduledescription.teaching_learning_forms }}
 <!-- Lehr- und Lernformen -->
@@ -57,12 +57,8 @@ Das Ziel ist es, ein Artefakt zu entwickeln und zu verargumentieren, dass die me
 ## Medienformen
 
 * Miro-gestütztes forschendes Lernen in Kleingruppen
-* Coaching und Gruppenfeedback zum Arbeitstand vor Ort und remote
-* Workshops in Gesamtgruppe, wann immer sinnvoll (häufige Anlässe sind Ideation-Workshop oder Feedback zu Arbeitsergebnissen und Abschlusspräsentation, eventuell auch bei Kooperationspartnern)
-* Aktuelle Artikel aus Zeitschriften und aus dem Internet (in Ilias hinterlegt)
-* Basisliteratur (als Ebook aus der TH-Bibliothek)
+* Aktuelle Artikel aus Fachzeitschriften
 
 ## Literatur
 
 Abhängig vom inhaltlichen Schwerpunkt des jeweiligen Semesters, wird zu Beginn der Veranstaltung bekannt gegeben
-
