@@ -1,6 +1,6 @@
 ---
 title: Spezielle Gebiete der Gamification
-modulverantwortlich: uwm
+modulverantwortlich: mbluemm
 dozierende: uwm
 kuerzel: WPF-SGG
 studiensemester: 1
@@ -11,7 +11,7 @@ empfohleneVoraussetzungen: Basismodul Mensch-Computer-Interaktion
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: EXA
 studienleistungen:
   Einzelleistung:

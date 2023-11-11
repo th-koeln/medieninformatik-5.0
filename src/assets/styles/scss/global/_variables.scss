@@ -60,7 +60,9 @@
   --op-low: 0.4;
   --op-medium: 0.6;
   --shadow-l: 0 0 var(--xs) rgb(0 0 0 / 50%);
+  --shadow-l-light: 0 0 var(--xs) rgb(0 0 0 / 5%);
   --shadow-xl: var(--half) var(--half) var(--m) rgb(0 0 0 / 30%);
+  --shadow-xl-light: var(--half) var(--half) var(--m) rgb(0 0 0 / 10%);
   --border-width-s: 1px;
   --border-width-m: 3px;
   --border-width-l: 6px;

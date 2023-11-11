@@ -1,18 +1,19 @@
 ---
-title: Wahlpflichtmodul 6
-modulverantwortlich: all
-dozierende: all
-kuerzel: WPM
+title: Guided Project on Developing Interactive and Distributed Systems
+kuerzel: GP-DEV
+schwerpunkt: DEV
+modulverantwortlich: mi
+dozierende: mi
 studiensemesterVierSemestrig: 3
-dreiSemestrig: true
 sprache: deutsch
-kreditpunkte: 6
+kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
 published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
+parent: GP-SP
 kategorie: wahl
 typ: pm
 studienleistungen:
@@ -22,7 +23,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: tbd 
 ---
 
 ## Sprache
@@ -48,10 +49,3 @@ meta:
 ## Besonderheiten
 
 ---
-
-## Kurzbeschreibung
-Frei aus dem Katalog der Pflicht- und Wahlpflichtmodule der Masterstudiengänge der Informatik wählbar, ausgenommen der drei Grundlagenmodule und der drei Schwerpunktmodule des gewählten Studienschwerpunktes lt. Studienverlaufsplan. Ein Katalog mit weiteren Angeboten wird nach Maßgabe des Beschlusses des Fakultätsrats der Fakultät für Informatik und Ingenieurwissenschaften zusammengestellt und durch Aushang und auf den Webseiten der Fakultät bekannt gemacht.
-
-## Arbeitsaufwand
-180 Stunden
-

@@ -201,7 +201,9 @@ select {
   --op-low: 0.4;
   --op-medium: 0.6;
   --shadow-l: 0 0 var(--xs) rgb(0 0 0 / 50%);
+  --shadow-l-light: 0 0 var(--xs) rgb(0 0 0 / 5%);
   --shadow-xl: var(--half) var(--half) var(--m) rgb(0 0 0 / 30%);
+  --shadow-xl-light: var(--half) var(--half) var(--m) rgb(0 0 0 / 10%);
   --border-width-s: 1px;
   --border-width-m: 3px;
   --border-width-l: 6px;
@@ -693,11 +695,12 @@ figure.image figcaption strong {
   margin-bottom: var(--half);
   margin-left: 0;
   margin-top: 0;
-  padding: 0 var(--quat);
+  padding: var(--quat) var(--quat);
   border-radius: var(--border-radius-m);
   position: relative;
   z-index: 1;
   color: var(--darkest);
+  line-height: var(--lh-tight);
 }
 .tag:hover {
   cursor: pointer;
@@ -976,6 +979,56 @@ ul.gallery-grid .gallery-item::before {
 ############################################################################ */
 .page main h2, .page main h3, .page main h4, .page main p {
   max-width: var(--max-width-content);
+}
+
+/* Job Offers
+############################################################################ */
+.job-offer-overview {
+  display: grid;
+  gap: var(--fluid-space-s);
+  grid-template-columns: repeat(auto-fill, minmax(calc(var(--max-width-card) * 2), 1fr));
+}
+.job-offer-overview .job-offer-data {
+  box-shadow: var(--shadow-l-light);
+  transition: all var(--tr-slow);
+  background-color: var(--lightest);
+  margin-left: 0;
+  padding: var(--s);
+}
+.job-offer-overview .job-offer-data + .job-offer-data {
+  margin-top: 0;
+}
+.job-offer-overview .job-offer-data:hover {
+  box-shadow: var(--shadow-xl-light);
+  transform: scale(1.01);
+}
+.job-offer-overview .job-offer-data img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.job-offer-overview .job-offer-data::before {
+  content: "";
+  display: inline;
+  width: 0;
+  margin-left: 0;
+}
+.job-offer-overview .job-offer-data figcaption li {
+  margin-top: var(--quat);
+  line-height: var(--lh-tight);
+}
+
+/* Image
+############################################################################ */
+.image h1 {
+  font-size: var(--xl);
+  color: var(--darkest);
+}
+.image h2 {
+  font-size: var(--l);
+  color: var(--darker);
+  font-weight: var(--fw-medium);
 }
 
 /*# sourceMappingURL=main.css.map */
