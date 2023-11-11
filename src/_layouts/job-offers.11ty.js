@@ -12,15 +12,15 @@ module.exports = {
     const howMightWeList = howMightWeTools.howMightWeList(data, "Stellenausschreibungen");
 
     const jobOfferList = data.collections.jobOffers.map((item) => {
-      const imgSrc = item.filePathStem + ".png";
+      const imageUrl = item.filePathStem + ".png";
 
       return `
 
         <li class="job-offer-data">
-          <a href="${item.url}">
+          <a href="${this.url(item.url)}">
           <h3>${item.data.title}</h3>
           <figure>
-            <img src="${imgSrc}" alt="${item.data.title}" />
+            <img src="${this.url(imageUrl)}" alt="${item.data.title}" />
             <figcaption>
             ${item.data.info}
             </figcaption>
