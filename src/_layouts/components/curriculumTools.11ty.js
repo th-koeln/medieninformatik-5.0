@@ -383,7 +383,7 @@ exports.getChildModulListBySchwerpunkt = (data, headlineChilds) => {
     const childModulsList = childModuls.filter((modul) => isModulInSchwerpunkt(modul, schwerpunkt)).map((modul) => {
       return `
         <li>
-          <a href="${modul.url}">${modul.data.title}</a>
+          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a> //FIXME
         </li>
       `;
     });
