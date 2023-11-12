@@ -8,8 +8,8 @@ date: Last Modified
 kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 12
-voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte (CP)
-empfohleneVoraussetzungen: 
+voraussetzungenNachPruefungsordnung: 
+empfohleneVoraussetzungen: alle Module außer Praxisprojekt, Bachelorarbeit und Bachelor Kolloquium
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
