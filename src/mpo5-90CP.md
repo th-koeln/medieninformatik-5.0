@@ -6,6 +6,7 @@ collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
 maxCPS: 90
+showModuleList: true
 
 studienverlauf:
     - semester:
