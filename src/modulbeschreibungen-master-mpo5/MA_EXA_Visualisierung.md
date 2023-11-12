@@ -3,7 +3,7 @@ title: Visualisierung
 modulverantwortlich: fn
 dozierende: fn
 kuerzel: VI
-studiensemester: 2
+angebotImSs: true
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

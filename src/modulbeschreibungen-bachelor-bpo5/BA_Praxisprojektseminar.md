@@ -30,7 +30,7 @@ meta:
 besonderheiten: 
 praesenzZeit: 72
 selbstStudium: 78
-angebotImWs: false
+angebotImWs: true
 angebotImSs: true
 weitereStudiengaenge: 
 lehrmethoden:

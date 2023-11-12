@@ -3,7 +3,7 @@ title: Qualitätssicherung und Qualitätsmanagement
 modulverantwortlich: mw
 dozierende: mw
 kuerzel: QSQM
-studiensemester: 2
+angebotImSs: true
 informatik-master: ss
 sprache: deutsch, Seminar-Basisliteratur i.d.R. in englischer Sprache
 kreditpunkte: 6

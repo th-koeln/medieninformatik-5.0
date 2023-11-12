@@ -3,7 +3,7 @@ title: Design Methodologies
 modulverantwortlich: ck
 dozierende: ck
 kuerzel: DM
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

@@ -3,7 +3,7 @@ title: Modellierung und Analyse technischer Systeme
 modulverantwortlich: mw
 dozierende: mw
 kuerzel: MATS
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden

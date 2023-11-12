@@ -3,7 +3,7 @@ title: Photorealistische Bildsynthese
 modulverantwortlich: fn
 dozierende: fn
 kuerzel: PB
-studiensemester: 1
+angebotImWs: true
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

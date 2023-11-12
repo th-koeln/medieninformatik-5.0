@@ -3,7 +3,7 @@ title: Web Technologien
 modulverantwortlich: cn
 dozierende: cn
 kuerzel: WT
-studiensemester: 2
+angebotImSs: true
 dreiSemestrig: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan

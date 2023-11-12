@@ -3,7 +3,7 @@ title: Augmented Reality
 modulverantwortlich: fn
 dozierende: fn
 kuerzel: AR
-studiensemester: 1
+angebotImWs: true
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

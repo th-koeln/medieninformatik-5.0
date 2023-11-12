@@ -3,7 +3,7 @@ title: Psychophysik multimodaler Benutzungsschnittstellen
 modulverantwortlich: gh
 dozierende: gh
 kuerzel: PPMB
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

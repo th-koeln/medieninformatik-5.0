@@ -3,7 +3,7 @@ title: Soziotechnische Entwurfsmuster
 modulverantwortlich: ck
 dozierende: ck
 kuerzel: SZ
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6

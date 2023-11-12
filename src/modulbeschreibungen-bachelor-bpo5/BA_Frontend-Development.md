@@ -21,6 +21,7 @@ studienleistungen:
     erstpruefer: cn
     zweitpruefer: vos
     datum: 21.09.2023
+angebotImSs: true    
 ---
 
 ## Sprache

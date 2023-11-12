@@ -3,7 +3,7 @@ title: Web Architekturen
 modulverantwortlich: viet
 dozierende: viet
 kuerzel: WTW-WBA
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6

@@ -4,7 +4,7 @@ modulverantwortlich: mi
 dozierende: mi
 kuerzel: GP-DUX
 schwerpunkt: DUX
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

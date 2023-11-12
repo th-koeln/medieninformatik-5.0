@@ -3,7 +3,7 @@ title: Angewandte Statistik für die Human-Computer Interaction
 modulverantwortlich: gh
 dozierende: gh
 kuerzel: Stat
-studiensemester: 2
+angebotImSs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
