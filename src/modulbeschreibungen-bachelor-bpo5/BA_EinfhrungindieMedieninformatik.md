@@ -25,30 +25,6 @@ meta:
   status: rfreview    
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
 ## Lehrform/SWS
 4 SWS: Seminar 3 SWS; Übung 1 SWS 
 
@@ -63,9 +39,18 @@ Gesamtaufwand 150h, davon
 - 70h Selbststudium
 
 ## Angestrebte Lernergebnisse
-Die Studierenden können die inhaltlichen Ausrichtungen und die Zielsetzungen der Lehr- und Anwendungsdisziplin Medieninformatik benennen und gegenüber verwandten oder ähnlichen Disziplinen abgrenzen. 
+(WAS) Die Studierenden können die inhaltlichen Ausrichtungen und die Zielsetzungen der Lehr- und Anwendungsdisziplin Medieninformatik benennen und gegenüber verwandten oder ähnlichen Disziplinen abgrenzen, 
 
-Die Studierenden kennen Grundkonzepte der Informatik (z.B. Anforderungen) sowie audiovisueller und interaktiver Medientechnologien, kennen architekturelle Alternativen interaktiver Systeme und kennen Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte und können diese Kenntnisse auf eine gegebene Problemstellung anwenden. 
+(WOMIT) indem sie 
+- Grundkonzepte der Informatik (z.B. Anforderungen) sowie audiovisueller und interaktiver Medientechnologien anwenden,  
+- Modellierungs- und Entwicklungsaufgaben von medienbasierten Software-Systemen zur Unterstützung menschlichen Handelns in betriebliche, sozialen und privaten Kontexten durchführen,
+- Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte analysieren
+- Ergebnisse und Artefakte ein Fachpublikum angemessen dokumentieren und mittels verschiedener medialer Formen kommunizieren,
+
+(WOZU) um später ...TODO
+
+architekturelle Alternativen interaktiver Systeme und kennen Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte 
+und können diese Kenntnisse auf eine gegebene Problemstellung anwenden. 
 
 Die Studierenden sind sensibilisiert für Modellierungs- und Entwicklungsaufgaben von medienbasierten Software-Systemen zur Unterstützung menschlichen Handelns in betriebliche, sozialen und privaten Kontexten.
 

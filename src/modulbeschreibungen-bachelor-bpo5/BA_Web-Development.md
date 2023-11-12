@@ -27,77 +27,64 @@ studienleistungen:
     zweitpruefer: maa, nkuhn, mfaske
     datum: ende
 meta:
-  status: tbd    
+  status: tbd  
   authors: viet
   reviewers: viet
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
 ## Kurzbeschreibung
-In der Veranstaltung werden wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen eingeführt, die das Web als Medium konstituieren.
+
+Veranstaltung führt in die Grundlagen der Entwicklung und Implementierungen von Webanwendungen und Webservices ein.
 
 ## Lehrform/SWS
+
 4 SWS: Seminar 2 SWS; Workshop 2 SWS
 
 ## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
 
-- 36h Vorlesung 
+Gesamtaufwand 150h, davon
+
+- 36h Vorlesung
 - 36h Seminar
-- 78h Selbststudium 
+- 78h Selbststudium
 
 ## Angestrebte Lernergebnisse
 
-In dem Modul sollen die Teilnehmerinnen und Teilnehmer wesentliche Grundlagen des Web und aktuelle Entwicklungen im Web auf konzeptioneller Ebene erfassen und diskutieren können und einige davon auf Ebene der Programmierung umsetzen können. Das Ziel ist, dass die Studierenden 
--  wesentliche Grundideen, Interaktionsprinzipien, Contentarchitekturen und Sicherheitsmechanismen, die das Web als Medium konstituieren erklären können und 
-- moderne Webanwendungen auf der Basis von Fachbegriffen analysieren und einordnen können, um kompetent am fachlichen Diskurs über Eigenschaften, Auswirkungen und Gestaltungsalternativen von Web Anwendungen teilnehmen zu können.
--  verteilte Web Anwendungen ggfs. nach einer Einarbeitung in konkrete Technologien oder Rahmenwerke als Proof-of-Concept realisieren (programmieren) können.
+(WAS) Studierenden können eine vollständige Webanwendung entwickeln und implementieren, (Womit) indem Sie
+
+- Webserver selbständig einrichten und betreiben,
+- Webtechnologien und Kommunikationsprotokolle insbesondere HTTP
+  anwenden
+- Webarchitekturen und Domänenmodelle mit Hilfe eines Webframeworks
+  umsetzen
+- Entwicklerwerkzeuge verwenden,
+
+(Wozu) um später komplexere Webanwendungen selbständig entwickeln, implementieren, optimieren und betreiben zu können.
 
 ## Inhalt
+
 Im Grundlagenteil der Veranstaltung werden wesentliche Konzepte vermittelt, die zur Konzeption, Diskussion und Realisierung von Diensten im Web benötigt werden. Die Konzepte sind wichtig um als Medieninformatiker bzw. Medieninformatikerin kompetent Aufgaben des Berufsalltags lösen zu können und an Fachdiskussionen teilnehmen zu können. Themen sind u.a.:
-- Web Architektur des W3C
-- Offfenheit und Verwendung von Standards als Prinzip
-- Interaktionsformen: Synchrone Interaktion auf der Basis von REST, asynchrone Interaktion mit Publish/Subscribe
-- Fallstudien: Open Data, Social Coding
-- Ausgewählte Sicherheitsmechanismen im Web
-- Inhaltsarchitekturen: XML, JSON, Microformate, RDFa
 
-Die Grundlagen werden nur zu einem geringen Teil durch Seminarveranstaltungen vermittelt. Im Wesentlichen sollen sie durch
-- das Erarbeiten von Lehrbuch Texten,
-- die Bearbeitung von Fragen und Aufgaben und
-- die Diskussion von Fragen und Lösungen sowohl in Kleingruppen als auch im Plenum
+- Einführung, Ab-/Eingrenzung, Strukturierung des Gebiets
+- Einrichtung und Konfiguration eines Webservers
+- Architekturen von Web-Anwendungen
+- HTTP
+- Server- und Client-seitige Programmierung und deren Zusammenspiel
+- REST
+- Domain Driven Design
+- Websecurity
+- API-Dokumentation
+- Entwurfsprinzipien und Clean Code
 
-Das Ziel des Workshop ist die Entwicklung und das Deploynent eines Webservice für ein selbstgewältes Problemszenario, der eine signifikante Abnwendungslogik realisiert und seinerseits anwendungsbezogen einen externen Web Service einbindet. Es soll keine Nutzerschnittstelle entwickekt werden sondern ausschließlich ein REST oder/und PubSub API.
-
-Im Kontext des Projektes sollen die zentralen Konzepte ''Datenmodellierung'', ''synchrone Interaktion'' und - soweit zeitlich möglich - ''asynchrone Interaktion'' aus dem Grundlagenteil durch praktische Umsetzung mit aktuellen Werkzeugen vertieft werden.
+Im Workshop soll die Studierenden durch Übungen die Lehrinhalte aus dem Grundlagenteil praktisch anwenden. Ziel des Workshop
+ist die Implementierung und das Deployment einer Webanwendung für ein selbstgewältes Problemszenario, der eine signifikante Abnwendungslogik realisiert und seinerseits anwendungsbezogen einen externen REST-basierten Web Service einbindet.
 
 ## Medienformen
-- Folienpräsentation
-- Auschnitte aus der Literatur als Leseaufgaben und Fallstudien
 
+- Folienpräsentation
+- Live-Coding und -Demonstration
+  - Deployment und Konfiguration Webserver
+  - Implementierung Webclients und serverseitgen Webanwendungen
+  - Analyse von Webanwendungen durch Entwicklertools
 
 ## LiteraturDas vom W3C herausgegebene Dokument über die Architektur des Web
 
