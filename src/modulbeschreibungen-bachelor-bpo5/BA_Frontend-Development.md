@@ -15,7 +15,6 @@ infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment/frontend-developm
 layout: modulbeschreibung.11ty.js
 typ: wpf
 veranstaltungsform: 
-parent: WD
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
