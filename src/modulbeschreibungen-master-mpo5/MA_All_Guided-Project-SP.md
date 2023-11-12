@@ -1,6 +1,6 @@
 ---
 title: Guided Project im Schwerpunkt
-modulverantwortlich: mi
+modulverantwortlich: all
 dozierende: mi
 kuerzel: GP-SP
 sprache: deutsch

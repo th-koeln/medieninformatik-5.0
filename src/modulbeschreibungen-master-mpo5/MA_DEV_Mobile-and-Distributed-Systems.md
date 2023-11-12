@@ -1,7 +1,7 @@
 ---
 title: Mobile and Distributed Interactive Systems
-modulverantwortlich: boehmer
-dozierende: boehmer
+modulverantwortlich: mboehmer
+dozierende: mboehmer
 kuerzel: MODI
 sprache: deutsch
 kreditpunkte: 6

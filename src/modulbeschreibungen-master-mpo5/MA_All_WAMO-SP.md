@@ -1,6 +1,6 @@
 ---
 title: Wahlmodul im Schwerpunkt
-modulverantwortlich: mb
+modulverantwortlich: all
 dozierende: all
 kuerzel: WAMO-SP
 sprache: deutsch
