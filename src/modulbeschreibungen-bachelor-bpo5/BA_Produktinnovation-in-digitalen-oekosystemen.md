@@ -13,11 +13,11 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Screendesign, Me
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
-veranstaltungsform: vor Ort
+veranstaltungsform: vor Ort Seminar/ Workshop
 infourl:
 studienleistungen:
   Teamleistung:
-    art: Prüfungsform fehlt noch
+    art: Prüfungsform: Präsentation, Prototyp
     erstpruefer: mlinden
     zweitpruefer: me
     datum: ende
