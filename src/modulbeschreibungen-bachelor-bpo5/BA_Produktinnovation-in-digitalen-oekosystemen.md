@@ -17,7 +17,7 @@ veranstaltungsform: vor Ort Seminar/ Workshop
 infourl:
 studienleistungen:
   Teamleistung:
-    art: Prüfungsform: Präsentation, Prototyp
+    art: Prüfungsform Präsentation, Prototyp
     erstpruefer: mlinden
     zweitpruefer: me
     datum: ende
