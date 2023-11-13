@@ -49,13 +49,12 @@ lehrform:
 
 > Christian: Könntet ihr das noch in die [WAS-WOMIT-WOZU Struktur](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/lehre/steckbrief_learning_outcomes.pdf) bringen? 
 
-Die Studierenden können:
-- Bias in Trainingsdaten und Modellen erkennen, indem sie quantitative und qualitative Analysemethoden anwenden, um Ungerechtigkeiten in Bezug auf Geschlecht, Rasse, Alter und andere relevante Attribute zu identifizieren.
-- Ethik und Fairness in die Modellentwicklung integrieren, indem sie Algorithmus-Design-Prinzipien nutzen, um sicherzustellen, dass die KI-Modelle fair, gerecht und diskriminierungsfrei agieren.
-- Praktische Fähigkeiten in der Prototypenerstellung und im Usability-Testing entwickeln, um die Benutzerfreundlichkeit und die Benutzererfahrung von KI-Anwendungen zu verbessern.
-- Kritische ethische Überlegungen in den gesamten Entwicklungszyklus von KI-Systemen einbeziehen und die Auswirkungen von Entscheidungen auf die Gesellschaft, die Privatsphäre und die Gerechtigkeit bewerten.
-
-Dies befähigt sie, innovative KI-Systeme zu gestalten, die die Bedürfnisse und Erwartungen der Benutzer erfüllen, während sie gleichzeitig ethische Standards wahren und Bias minimieren.
+Die Studierenden können Mensch-zentrierte KI-Systeme entwickeln, indem sie:
+- Durch Anwendung quantitativer und qualitativer Analysemethoden Bias in Trainingsdaten und Modellen erkennen, 
+- Ethik und Fairness in die Modellentwicklung integrieren, indem sie Algorithmus-Design-Prinzipien nutzen, 
+- Praktische Fähigkeiten in der Prototypenerstellung und im Usability-Testing entwickeln, um die Benutzerfreundlichkeit und die Benutzererfahrung von KI-Anwendungen zu verbessern,
+- Kritische ethische Überlegungen in den gesamten Entwicklungszyklus von KI-Systemen einbeziehen und die Auswirkungen von Entscheidungen auf die Gesellschaft, die Privatsphäre und die Gerechtigkeit bewerten, 
+um später innovative KI-Systeme zu gestalten, die die Bedürfnisse und Erwartungen der Benutzer erfüllen, während sie gleichzeitig ethische Standards wahren und Bias minimieren.
 
 ## Inhalte
 
