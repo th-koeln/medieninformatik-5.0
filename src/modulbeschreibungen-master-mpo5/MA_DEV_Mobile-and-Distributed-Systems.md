@@ -5,10 +5,10 @@ dozierende: mboehmer
 kuerzel: MODI
 sprache: deutsch
 kreditpunkte: 6
-implementiert: WAMO-SP, WAMO
 voraussetzungenNachPruefungsordnung: 
 empfohleneVoraussetzungen: 
 published: true
+angebotImSs: true
 layout: modulbeschreibung.11ty.js
 parent: WAMO-SP, WAMO
 schwerpunkt: DEV

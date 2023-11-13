@@ -12,6 +12,8 @@ published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO-SP, WAMO
+angebotImWs: false
+angebotImSs: true
 schwerpunkt: DUX
 studienleistungen:
   Einzelleistung:
