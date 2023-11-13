@@ -57,10 +57,10 @@ lehrform:
 - Pivoting (u.a Testing Business Ideas)
 
 ## Empfohlene Literatur
-Bland, David J. et al.: Testing Business Ideas: A Field Guide for Rapid Experimentation
-Blank, Steve et al.: The Startup Owner's Manual: The Step-by-Step Guide for Building a Great Company
-Christensen, Clayton: Innovator's Dilemma: When New Technologies Cause Great Firms to Fail
-Kim, Chan W. et al.: Blue Ocean Strategy, Expanded Edition: How to Create Uncontested Market Space and Make the Competition Irrelevant
-Osterwalder, Alexander et al.: Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers
-Osterwalder, Alexander et al.: Value Proposition Design: How to Create Products and Services Customers Want
-Ries, Eric: The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
+- Bland, David J. et al.: Testing Business Ideas: A Field Guide for Rapid Experimentation
+- Blank, Steve et al.: The Startup Owner's Manual: The Step-by-Step Guide for Building a Great Company
+- Christensen, Clayton: Innovator's Dilemma: When New Technologies Cause Great Firms to Fail
+- Kim, Chan W. et al.: Blue Ocean Strategy, Expanded Edition: How to Create Uncontested Market Space and Make the Competition Irrelevant
+- Osterwalder, Alexander et al.: Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers
+- Osterwalder, Alexander et al.: Value Proposition Design: How to Create Products and Services Customers Want
+- Ries, Eric: The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
