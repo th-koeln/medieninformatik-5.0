@@ -60,7 +60,7 @@ Die Teilnehmer sind in der Lage verschiedene methodische Rahmen für die Beantwo
 ## Lehr- und Lernmethoden
 
 ## Präsenzzeit
-4 SWS: Vorlesung 2 SWS; Projekt 2 SWS
+4 SWS: Seminar 2 SWS; Projekt 2 SWS
 
 ## Selbststudium
 Gesamtaufwand 180 Stunden, davon 
