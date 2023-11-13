@@ -13,7 +13,7 @@ empfohleneVoraussetzungen: Einführung in die Medieninformatik, Screendesign, Me
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
-veranstaltungsform: vor Ort Seminar/ Workshop
+veranstaltungsform: vor Ort Seminar bzw. Workshop
 infourl:
 studienleistungen:
   Teamleistung:
