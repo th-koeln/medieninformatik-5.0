@@ -56,6 +56,10 @@ exports.getPeopleList = (obj) => {
       ? `<a href="${data.people[person].personenseite}">${data.people[person].name}</a>`
       : data.people[person].name;
 
+
+    // do not show people without module
+    if ((personModulsListWinterTerm.length + personModulsListSummerTerm.length) == 0) return '';
+
     return `
       <tr>
         <td>${data.people[person].id}</td>

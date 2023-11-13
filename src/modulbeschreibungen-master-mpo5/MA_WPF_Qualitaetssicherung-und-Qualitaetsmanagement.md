@@ -13,7 +13,7 @@ published: true
 layout: modulbeschreibung
 typ: wpm
 parent: WAMO-SP, WAMO
-schwerpunkt:
+schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
     art: Fachbeitrag, Wissenstest, Reflektionsbericht 

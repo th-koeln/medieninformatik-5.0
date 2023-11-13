@@ -1,8 +1,8 @@
 ---
 title: Data Driven Modelling
 kuerzel: DDM
-modulverantwortlich: dzue
-dozierende: dzue, tbb
+modulverantwortlich: dz
+dozierende: dz, tbb
 
 infourl: 
 
