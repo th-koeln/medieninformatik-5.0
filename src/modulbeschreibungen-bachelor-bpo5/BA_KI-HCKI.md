@@ -18,7 +18,7 @@ veranstaltungsform:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: mündliche Prüfung
+    art: Klausur, mündlicher Beitrag, Projektarbeit, mündliche Prüfung
     erstpruefer: dgaida
     zweitpruefer: jschaible
     datum: ws-2
