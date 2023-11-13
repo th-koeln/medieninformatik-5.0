@@ -1,7 +1,7 @@
 ---
 title: Research Methods for Interactive Media
 modulverantwortlich: gh
-dozierende: gh
+dozierende: mbluemm, gh
 kuerzel: RIM
 season: wise
 sprache: deutsch
