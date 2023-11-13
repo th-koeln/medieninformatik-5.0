@@ -54,6 +54,7 @@ Die Studierenden können Mensch-zentrierte KI-Systeme entwickeln, indem sie:
 - Ethik und Fairness in die Modellentwicklung integrieren, indem sie Algorithmus-Design-Prinzipien nutzen, 
 - Praktische Fähigkeiten in der Prototypenerstellung und im Usability-Testing entwickeln, um die Benutzerfreundlichkeit und die Benutzererfahrung von KI-Anwendungen zu verbessern,
 - Kritische ethische Überlegungen in den gesamten Entwicklungszyklus von KI-Systemen einbeziehen und die Auswirkungen von Entscheidungen auf die Gesellschaft, die Privatsphäre und die Gerechtigkeit bewerten, 
+
 um später innovative KI-Systeme zu gestalten, die die Bedürfnisse und Erwartungen der Benutzer erfüllen, während sie gleichzeitig ethische Standards wahren und Bias minimieren.
 
 ## Inhalte
