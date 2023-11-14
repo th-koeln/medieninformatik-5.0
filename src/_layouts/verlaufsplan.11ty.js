@@ -44,6 +44,7 @@ module.exports = {
 					</header>
 				</section>
 
+        ${data.hinweise ? "<div class='is-tbd' style='padding-bottom: 10px; padding-top: 10px; margin-bottom: 20px;'><h2>Please check</h2>" : ""}
         <section class="content">
           ${data.content}
         </section>

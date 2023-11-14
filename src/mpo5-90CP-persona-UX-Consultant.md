@@ -1,5 +1,5 @@
 ---
-title: Berufsbild »UX-Consultant« (Master of Sciecne)
+title: Berufsbild »UX-Consultant« (Master of Science)
 layout: verlaufsplan.11ty.js
 inToc: true
 collection: modulsMPO5
