@@ -14,6 +14,8 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO-SP, WAMO
 schwerpunkt: EXA
+kategorie: schwerpunkt
+
 infourl: https://ilu.th-koeln.de/ilias.php?ref_id=87680&cmd=infoScreen&cmdClass=ilrepositorygui&cmdNode=xp&baseClass=ilRepositoryGUI
 studienleistungen:
   Einzelleistung:

@@ -14,7 +14,7 @@ published: true
 infourl: 
 zielmedium: web
 layout: modulbeschreibung.11ty.js
-kategorie: wahl
+kategorie: schwerpunkt
 parent: GP-SP
 typ: pm
 studienleistungen:

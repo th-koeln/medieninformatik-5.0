@@ -15,6 +15,8 @@ parent: WAMO-SP, WAMO
 angebotImWs: false
 angebotImSs: true
 schwerpunkt: DUX
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: 

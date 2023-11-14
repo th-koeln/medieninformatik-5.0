@@ -14,6 +14,7 @@ parent: WAMO-SP, WAMO
 schwerpunkt: DEV
 typ: pm
 kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: 

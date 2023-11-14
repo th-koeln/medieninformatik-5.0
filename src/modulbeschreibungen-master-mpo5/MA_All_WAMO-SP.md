@@ -4,6 +4,8 @@ modulverantwortlich: all
 dozierende: all
 kuerzel: WAMO-SP
 sprache: deutsch
+angebotImWs: true
+angebotImSs: true
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: 
 empfohleneVoraussetzungen: 

@@ -15,6 +15,8 @@ layout: modulbeschreibung.11ty.js
 infourl: https://th-koeln.github.io/mi-master-wtw/web-technologien/
 typ: wpm
 parent: WAMO-SP, WAMO
+kategorie: schwerpunkt
+
 schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:

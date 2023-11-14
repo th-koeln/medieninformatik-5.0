@@ -13,6 +13,8 @@ published: true
 layout: modulbeschreibung.11ty.js
 parent: WAMO-SP, WAMO
 schwerpunkt: EXA, DEV
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
@@ -24,19 +26,18 @@ meta:
   authors: Matthias
   reviewers: Matthias
 
-# zuordnung Kompetenzorientierung und Studiengangskriterien für Modulmatrix
+# Zuordnung Handlungsfelder, Kompetenzorientierung und Studiengangskriterien für Modulmatrix
 handlungsfelder:
   DUX: 0
   DEV: 1
   EXA: 1
   CREA: 1
   INDI: 1
-
 kompetenzen:
   DUX:
-    anforderungen_bedarfe: 1
+    anforderungen_bedarfe: 0
     konzepte: 0
-    gestaltung: 1
+    gestaltung: 0
   DEV:
     technologie: 0
     entwurf: 0
@@ -54,7 +55,6 @@ kompetenzen:
     situated_interaction: 1
     ethik_recht: 0
     selbstlernen: 0
-
 studiengangkriterien:
   globalcitizenship: 0
   internationalisierung: 0

@@ -13,6 +13,8 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO-SP, WAMO
 schwerpunkt: EXA
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Projektpräsentation (30%), Projektdokumentation (70%)
