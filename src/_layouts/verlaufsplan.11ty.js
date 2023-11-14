@@ -44,13 +44,18 @@ module.exports = {
 					</header>
 				</section>
 
+        ${data.hinweise?.length ? "<div class='is-tbd' style='padding-bottom: 10px; padding-top: 10px; margin-bottom: 20px;'><h2>Bitte prüfen</h2>" : ""}
+        ${data.hinweise?.length ? "<ul>" + data.hinweise.map(hinweis => { return "<li>"+hinweis+"</li>"}).join("") + "</ul>": ""}
+        ${data.hinweise?.length ? "</div>" : ""}
+
         <section class="content">
           ${data.content}
         </section>
 
         ${curriculumVerlaufList}
 
-        <section>
+        <section class="has-seperator">
+        <h2>Studienverlaufsplan</h2>
           ${curriculumVerlaufTable}
         </section>
 

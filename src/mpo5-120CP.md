@@ -5,7 +5,7 @@ inToc: true
 collection: modulsMPO5
 terms: [1,2,3,4]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
-maxCPS: 90
+maxCPS: 120
 showModuleList: true
 
 studienverlauf:

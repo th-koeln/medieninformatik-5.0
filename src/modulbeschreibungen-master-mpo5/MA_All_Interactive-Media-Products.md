@@ -3,7 +3,8 @@ title: Interactive Media Products
 modulverantwortlich: nn
 dozierende: nn
 kuerzel: IMP
-season: sose
+angebotImWs: false
+angebotImSs: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

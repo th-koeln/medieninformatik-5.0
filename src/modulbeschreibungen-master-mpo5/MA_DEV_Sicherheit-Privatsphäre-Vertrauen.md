@@ -14,6 +14,8 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO-SP, WAMO
 schwerpunkt: DEV, DUX
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (25%), schriftliche Ausarbeitung (25%) und mündliche Prüfung (50%) (im SoSe 2020 entfällt die mündliche Prüfung, welche auf Anfrage zur Notenverbesserung optional genutzt werden kann)

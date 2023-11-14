@@ -14,6 +14,8 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO-SP, WAMO
 schwerpunkt: EXA
+kategorie: schwerpunkt
+
 infourl:
 studienleistungen:
   Einzelleistung:

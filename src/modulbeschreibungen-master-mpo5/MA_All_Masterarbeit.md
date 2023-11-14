@@ -9,6 +9,8 @@ voraussetzungenNachPruefungsordnung: Zur Masterarbeit kann zugelassen werden, we
 published: true
 layout: modulbeschreibung.11ty.js
 kategorie: abschluss
+angebotImWs: true
+angebotImSs: true
 typ: pm
 infourl: 
 studienleistungen:

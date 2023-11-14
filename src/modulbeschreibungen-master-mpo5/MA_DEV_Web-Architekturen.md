@@ -14,6 +14,8 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO-SP, WAMO
 schwerpunkt: DEV
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Fachgespräch (50%), Projektarbeit (50%)

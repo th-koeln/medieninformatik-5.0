@@ -61,7 +61,7 @@ exports.getPeopleList = (obj) => {
     if ((personModulsListWinterTerm.length + personModulsListSummerTerm.length) == 0) return '';
 
     return `
-      <tr>
+      <tr id="${data.people[person].id}">
         <td>${data.people[person].id}</td>
         <td>${personName}</td>
         <td class="module-list">
