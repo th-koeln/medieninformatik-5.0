@@ -1,10 +1,11 @@
 ---
 title: Guided Project
+kuerzel: GP
 modulverantwortlich: all
 dozierende: all
-kuerzel: GP
 angebotImWs: true
-sprache: deutsch
+angebotImSs: true
+sprache: Deutsch oder Englisch
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
