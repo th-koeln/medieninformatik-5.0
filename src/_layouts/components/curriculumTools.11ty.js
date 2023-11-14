@@ -197,24 +197,12 @@ const getCurriculumTable = (obj) => {
 
 exports.getCurriculumVerlaufsplanTable = (obj) => {
   const { studienverlauf } = obj;
+  
   const moduleImVerlauf = [];
 
-  /*
-  const _getModuleFromCollectionByKuerzel = (kuerzel, modulCollection) => {
-    // I have a feeling this could be done nicer -> line 219
 
-    //console.log(modulCollection);
-    for (i in modulCollection) {
-      modul = modulCollection[i]
-      if (kuerzel === modul.data.kuerzel) {
-        // console.log("modul mit kuerzel gefunden:" + kuerzel);
-        return modul;
-      }
-    };
-
-    // console.log("modul mit kuerzel nicht gefunden:" + kuerzel);
-
-  }*/
+  
+  if (!obj.data.hinweise) obj.data.hinweise = [];
 
   // gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
   // passe dabei jeweils das Fachsemester dynamisch an
@@ -233,6 +221,12 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
       let modulClone = Object.assign({}, modulFromCollection);
       modulClone.data = Object.assign({}, modulFromCollection.data);
       modulClone.data.studiensemester = parseInt(row.semester.fachsemester);
+
+      //obj.data.hinweise.push("Modul "+modulClone.kuerzel+" wird nicht im WiSe angeboten");
+
+      if (row.semester.season === "wise" && !modulClone.data.angebotImWs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" wird nicht im WiSe angeboten");
+      if (row.semester.season === "sose" && !modulClone.data.angebotImSs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" wird nicht im SoSe angeboten");
+
       moduleImVerlauf.push(modulClone);
       
     };

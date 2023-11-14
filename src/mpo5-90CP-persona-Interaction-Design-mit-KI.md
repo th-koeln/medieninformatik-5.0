@@ -25,7 +25,8 @@ studienverlauf:
         season: "wise"
         module: ["MA"]
 hinweise:
-    - "Zuordnung zu den Semestern WiSe/SoSe wird nicht automatisch überprüft"
+    - "Umfang der CPs wird noch nicht automatisch geprüft"
+    - "Erreichen eines Schwerpunkts, hier DUX, wird noch nicht automatisch geprüft"
 ---
 
 
