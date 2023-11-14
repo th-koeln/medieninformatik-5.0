@@ -25,7 +25,6 @@ studienverlauf:
         season: "wise"
         module: ["MA"]
 hinweise:
-    - "Umfang der CPs wird noch nicht automatisch geprüft"
     - "Erreichen eines Schwerpunkts, hier DUX, wird noch nicht automatisch geprüft"
 ---
 

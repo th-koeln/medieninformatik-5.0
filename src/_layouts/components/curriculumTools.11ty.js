@@ -201,7 +201,8 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
   const moduleImVerlauf = [];
 
 
-  
+  istECTS = 0;
+
   if (!obj.data.hinweise) obj.data.hinweise = [];
 
   // gehe durch den Studienverlauf und hole die Module raus, die im Verlauf stehen
@@ -224,13 +225,17 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
 
       //obj.data.hinweise.push("Modul "+modulClone.kuerzel+" wird nicht im WiSe angeboten");
 
-      if (row.semester.season === "wise" && !modulClone.data.angebotImWs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" wird nicht im WiSe angeboten");
-      if (row.semester.season === "sose" && !modulClone.data.angebotImSs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" wird nicht im SoSe angeboten");
+      if (row.semester.season === "wise" && !modulClone.data.angebotImWs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" (platziert im "+row.semester.fachsemester+". Semester) wird nicht im WiSe angeboten");
+      if (row.semester.season === "sose" && !modulClone.data.angebotImSs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" (platziert im "+row.semester.fachsemester+". Semester) wird nicht im SoSe angeboten");
 
+      istECTS += modulClone.data.kreditpunkte;
       moduleImVerlauf.push(modulClone);
       
     };
   };
+
+  if (istECTS < obj.data.maxCPS) obj.data.hinweise.push("ECTS nicht erreicht (ist: "+istECTS+", soll: "+obj.data.maxCPS+")");
+  if (istECTS > obj.data.maxCPS) obj.data.hinweise.push("ECTS überschritten (ist: "+istECTS+", soll: "+obj.data.maxCPS+")");
 
   obj.moduls = moduleImVerlauf;
   return getCurriculumTable(obj);
