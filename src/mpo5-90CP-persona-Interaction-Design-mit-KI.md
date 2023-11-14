@@ -30,6 +30,6 @@ hinweise:
 ---
 
 
-## Berufsbild UX-Consultant
+## Berufsbild Interaction Design mit Fokus auf Künstliche Intelligenz
 
-Diese Absolvent*in hat im Schwerpunkt DUX studiert und sich im Bereich Consulting und Innovations-Management spezialisiert.
+Diese Absolvent*in hat im Schwerpunkt DUX richtung Interaction Design studiert und im Bereich Künstliche Intelligenz und Statistik spezialisiert.
