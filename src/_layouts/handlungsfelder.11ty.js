@@ -11,13 +11,14 @@ module.exports = {
     const getCompetencies = (competencies, parentId) => {
       if(!competencies) return '';
 
-      const competenciesList = Object.entries(competencies).map((item) => {
-        const competenceGroupKey = item[0];
-        const competenceGroupData = item[1];
+      const competenciesList = competencies.map(item => {
+        
+        const competenceGroupKey = item.title;
+        const competenceGroupData = item.sub;
 
-        const competenceItemList = Object.entries(competenceGroupData).map((item) => {
-          const competenceItemKey = item[0];
-          const competenceItemValue = item[1];
+        const competenceItemList = competenceGroupData.map(item => {
+          const competenceItemKey = item.title;
+          const competenceItemValue = item.competence;
 
           return `<li data-js-inject-in-other-context="${parentId}:${competenceGroupKey}:${competenceItemKey}">${competenceItemValue}</li>`;
         });
