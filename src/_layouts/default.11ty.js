@@ -16,5 +16,6 @@ exports.render = function (data) {
       ${data.content}
       ${pageFoot}
     </body>
+    
   </html>`;
 };

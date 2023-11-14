@@ -1,5 +1,5 @@
 ---
-title: Berufsbild »UX-Consultant« (Master of Sciecne)
+title: Berufsbild »Interaction Design mit Fokus auf Künstliche Intelligenz« (Master of Sciecne)
 layout: verlaufsplan.11ty.js
 inToc: true
 collection: modulsMPO5
@@ -13,18 +13,17 @@ studienverlauf:
         label: "1. Semester"
         fachsemester: 1
         season: "wise"
-        module: ["RIM", "ID", "INM", "GP"]
+        module: ["RIM", "ID", "DDM", "GP"]
     - semester:
         label: "2. Semester"
         fachsemester: 2
         season: "sose"
-        module: ["IMP", "Stat", "ITC", "GP-DUX"]
+        module: ["IMP", "SGMCI", "Stat", "GP-DUX"]
     - semester:
         fachsemester: 3
         label: "Finales Semester"
         season: "wise"
         module: ["MA"]
-
 hinweise:
     - "Zuordnung zu den Semestern WiSe/SoSe wird nicht automatisch überprüft"
 ---
