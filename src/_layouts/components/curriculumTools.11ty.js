@@ -263,7 +263,7 @@ exports.getAllModuls = (obj) => {
 
     return `
       <li>${status}
-        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>${schwerpunkt}${modulverantwortlich}
+        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
       </li>
     `;
   });
