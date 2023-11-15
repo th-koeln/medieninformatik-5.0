@@ -2,12 +2,12 @@ const fs = require('fs');
 
 const pathes = {
   "master": {
-    "src": "src/kompetenzen-in-modulen-mi5.0-bachelor/",
-    "dist": "./dist/master/"
+    "src": "./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-bachelor/",
+    "dist": "./src/modulkompetenzen-master/"
   },
   "bachelor": {
-    "src": "src/kompetenzen-in-modulen-mi5.0-bachelor/",
-    "dist": "./dist/bachelor/"
+    "src": "./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-bachelor/",
+    "dist": "./src/modulkompetenzen-bachelor/"
   }
 };
 const seperatorRows = "\r\n";
@@ -39,8 +39,8 @@ const parseFile = (path) => {
       "Kommentar": cols[5],
     };
 
-    if(dataset["braucht"] === 0 && dataset["liefert"] === 0) return;
-    if(dataset["braucht"] === null && dataset["liefert"] === null) return;
+    // if(dataset["braucht"] === 0 && dataset["liefert"] === 0) return;
+    // if(dataset["braucht"] === null && dataset["liefert"] === null) return;
     
     return dataset;
   });
