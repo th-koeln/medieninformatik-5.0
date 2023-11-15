@@ -35,5 +35,4 @@ anforderungen:
 * 30 ECTS für Master und Kolloquium
 
 ### Anerkenung Schwerpunkte
-* Wurden Module im Umfang von 24 ECTS absolviert, die demselben Schwerpunkt zugeordnet sind, dann ist der Schwerpunkt absolviert
-* die Module müssen später nicht zwingend einem Schwerpunkt resultieren, der Katalog sorgt aber für MI-spezifische Kompetenzen
+* Wurden Module im Umfang von 36 ECTS absolviert, die demselben Schwerpunkt zugeordnet sind, dann ist der Schwerpunkt absolviert
