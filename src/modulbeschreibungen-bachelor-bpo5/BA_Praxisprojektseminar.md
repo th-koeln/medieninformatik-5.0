@@ -1,16 +1,16 @@
 ---
 title: Praxisprojekt, Seminar
 modulverantwortlich: viet
-dozierende: viet
 modulniveau: bachelor
 kuerzel: PPS
-date: Last Modified
+untertitel:
+studiensemester: 7
 jedes-semester: true
 kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 3
-voraussetzungenNachPruefungsordnung: 
-empfohleneVoraussetzungen: alle Module außer Praxisprojekt, Bachelorarbeit und Bachelor Kolloquium
+voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte
+empfohleneVoraussetzungen: 
 published: true
 infourl: https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/
 layout: modulbeschreibung.11ty.js
@@ -19,47 +19,48 @@ veranstaltungsform: Remote
 parent:
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag und online Abstract zur Praxisprojektarbeit
-    erstpruefer: cn
+    art: Seminarvortrag und Abstract zur Praxisprojektarbeit
+    erstpruefer: viet
     zweitpruefer: all
     datum: vereinbarung
 meta:
   status: rfreview
-  authors: Christian
-  reviewers: Viet
-besonderheiten: 
-praesenzZeit: 72
-selbstStudium: 78
 angebotImWs: true
 angebotImSs: true
-weitereStudiengaenge: 
-lehrmethoden:
-  - Seminar
-  - Open Spaces
-  - Fachvorträge
-lehrform:
-  - Seminar 2 SWS
+
 ---
 
-> cn: @Viet ich hab mal einen ersten Aufschlag gemacht … bitte mal drüber gucken und ggf. anpassen
+## Lehrform/SWS
 
+4 SWS: Seminar
 
-## Learning Outcome
-Die Studierenden  
+## Arbeitsaufwand
 
-(WAS) Kennen Techniken wissenschaftlichen Arbeitens und können diese anwenden, (WOMIT) indem Sie diese im Rahmen des Moduls aktiv einsetzen (z.B. schreiben eines Exposés, Peer-Review Prozess, Vortragstechnik, etc.) (WOZU) um auf Themen auf wissenschaftlichem Niveau beartbeiten, vorstellen und vertreten zu können.
+Gesamtaufwand 135 h, davon
 
-(WAS) Gewinnen mehr Einblicke über das Spektrum von aktuellen Themen in der Medieninformatik, (WOMIT) indem Sie Fachvorträge von anderen Seminarteilnehmer:innen besuchen, Exposé reviewen und am Diskurs zu verschiedenen Themen teilnehmen, (WOZU) damit Sie die Vielschichtigkeit und Multiperspektivität der Medieninformatik einschätzen, verstehen und handhaben können.
+* 32 h Seminar
+* 103 h Selbststudium
 
-(WAS) können eigene Projektergebnisse vor einem Fachpublikum in Vortrag und Diskussion darstellen, begründen und verteidigen, (WOMIT) indem Sie Ihre Ergebnisse und Zwischenergebnisse darlegen und zur Diskussion stellen, (WOZU) um kritische Aspekte der eigenen Arbeit und Herangehensweise kennen zu lernen, Fachdiskurse führen zu können und die eigene Arbeit reflektieren zu können.
+## Angestrebte Lernergebnisse
+
+(WAS) Die Studierenden können eine wisschaftliche Abbhandlung verfassen, 
+
+(WOMIT) indem Sie 
+
+- Techniken wissenschaftlichen Arbeitens und Schreibens anwenden (z.B. schreiben eines Exposés, Peer-Review Prozess, Vortragstechnik, etc.)
+- Fachvorträge von anderen Seminarteilnehmer:innen besuchen und dadurch Erfahrungen mit aktiver Fachkommunikation sammeln
+- eigene Projektergebnisse vor einem Fachpublikum darstellen, diskutieren und verteidigen
+  
+(WOZU) um später Abschlussarbeiten nach wissenschaftlichen Standards zu erstellen und deren Ergebnisse einen Fachpublikum didaktisch angemessen vorzustellen bzw. kritisch zu diskutieren.
 
 ## Inhalt
+
 Das Praxisprojektseminar besteht aus
 
 - Veranstaltungen in denen Techniken wissenschaftlichen Arbeitens vermittelt werden,
-- Open Spaces zur Vorstellung und Diskussion der aktuellen Projektstände, etwaiger Probleme und Herausforderungen etc.,
+- Audits über den aktuellen Stand ihres Projektes,
 - Fachvorträgen von Studierenden über ihre Projektergebnisse.
 
 ## Literatur
-- M. Karmasin, R. Ribing: Die Gestaltung wissenschaftlicher Arbeiten, 10. überarbeitete und aktualisierte Auflage. - Wien: Facultas: 2019
 
+- M. Karmasin, R. Ribing: Die Gestaltung wissenschaftlicher Arbeiten, 10. überarbeitete und aktualisierte Auflage. - Wien: Facultas: 2019

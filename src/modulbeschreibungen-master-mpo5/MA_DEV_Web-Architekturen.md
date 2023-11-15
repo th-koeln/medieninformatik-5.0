@@ -1,9 +1,8 @@
 ---
-title: Web Architekturen 
+title: Fortgeschrittene Themen verteilter, web-basierter Systeme
 modulverantwortlich: viet
-dozierende: viet
-kuerzel: WEBA
-angebotImWs: true
+kuerzel: WTW-FTW
+studiensemester: 1
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
@@ -12,10 +11,8 @@ empfohleneVoraussetzungen: Algorithmen und Programmierung 1 (Bachelor), Alogrith
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: WAMO-SP, WAMO
+parent: SWPM, WPM
 schwerpunkt: DEV
-kategorie: schwerpunkt
-
 studienleistungen:
   Einzelleistung:
     art: Fachgespräch (50%), Projektarbeit (50%)
@@ -23,59 +20,38 @@ studienleistungen:
     zweitpruefer: cn
     datum: vereinbarung
 meta:
-  status: rfreview     
+  status: rfreview   
   authors: viet
   reviewers: viet
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
 ## Kurzbeschreibung
 
-In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt. 
+In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt.
 
 ## Lehrform/SWS
 
 4 SWS: Seminar 2 SWS, Workshop 2 SWS
 
 ## Arbeitsaufwand
-Gesamtaufwand 180 Stunden, davon 
-- 36h Seminar 
-- 36h Workshop 
-- 108h Selbststudium 
+
+Gesamtaufwand 180 Stunden, davon
+
+- 36h Seminar
+- 36h Workshop
+- 108h Selbststudium
 
 ## Learning Outcomes
 
-Studierende können Architekturen für  Webanwendungen entwerfen indem sie
+(WAS) Studierende erlangen ein tieferes Verständnis in verteilten, web-basierte Systemen
 
-* Architekturstile im Web analysieren und auswählen
+(WOMIT) indem sie,
+
+* Web-Architekturen, Web-Technologien, Protokolle und komplexe Softwaresysteme analysieren
 * über geeignete Technologien entscheiden und begründen
-* neues Wissen im Bereich Web Architekuren sich selber aneignen und
+* neues Wissen im Bereich verteilter, web-basierte Systeme sich selber aneignen und
 * anderen Studierenden das elernte Wissen strukturiert vermitteln
 
-um später komplexe Web Architekturen mit hohen Qualitätsanforderungen zu entwickeln, implementieren und evaluieren.
+(WOZU) um später komplexe Webanwendung und Webservices mit hohen Qualitätsanforderungen zu entwickeln, implementieren, evaluieren und optimieren.
 
 ## Inhalt
 
@@ -103,12 +79,13 @@ um später komplexe Web Architekturen mit hohen Qualitätsanforderungen zu entwi
   * GraphQL
   * gRPC
 * Dezentrale Kommunikation mit Matrix Protokoll
-* ...
 
 ## Medienformen
 
-Präsentationsmaterialien
+- Folienpräsentation
+- Live-Demonstrationen
 
 ## Literatur
 
-TBA
+- Stefan Tilkov et al. , REST und HTTP: Entwicklung und Integration nach dem Architekturstil des Web, 2015
+- Hoai Viet Nguyen, Authentication in Ultra Large-Scale REST-based Systems, Disseration, Universität Hamburg, 2020
