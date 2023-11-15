@@ -16,6 +16,10 @@ const seperatorCols = ";";
 /* Functions
 ############################################################################ */
 
+const tidyString = (string) => {
+  return string.replace(/\n/g, "").replace(/\r/g, "").replace(/\t/g, "").replace(/"/g, '');
+};
+
 const parseFile = (path) => {
   const content = fs.readFileSync(path,
     { encoding: 'utf8', flag: 'r' });
@@ -31,9 +35,9 @@ const parseFile = (path) => {
     level2 = cols[1] ? cols[1] : level2;
 
     const dataset = {
-      "Handlungsfeld": level1,
-      "Bereich": level2,
-      "Kompetenz": cols[2],
+      "Handlungsfeld": tidyString(level1),
+      "Bereich": tidyString(level2),
+      "Kompetenz": tidyString(cols[2]),
       "braucht": Number(cols[3]),
       "liefert": Number(cols[4]),
       "Kommentar": cols[5],
