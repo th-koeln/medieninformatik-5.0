@@ -28,6 +28,8 @@ meta:
   reviewers: Gerhard, Christian
 praesenzZeit: 36
 selbstStudium: 264  
+angebotImWs: false
+angebotImSs: true
 lehrmethoden:
   - begleitete Projektarbeit
   - Sprintplanung

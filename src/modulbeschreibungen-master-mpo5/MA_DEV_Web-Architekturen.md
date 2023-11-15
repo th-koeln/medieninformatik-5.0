@@ -2,7 +2,7 @@
 title: Web Architekturen 
 modulverantwortlich: viet
 dozierende: viet
-kuerzel: WTW-WBA
+kuerzel: WEBA
 angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan

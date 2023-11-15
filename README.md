@@ -41,9 +41,10 @@ kurzbericht                        Snippets Kurzbericht
 
 ## Funktionen
 
-`npm install`
-`npm run build` 
-`npm run dev` 
+- `npm install`
+- `npm run build` 
+- `npm run dev` 
+- `npm run convert:comp`
 
 ## Review Guidelines
 
@@ -51,3 +52,20 @@ kurzbericht                        Snippets Kurzbericht
 
 ### Module
 - Präsenzzeit & Selbstlernzeit (15 Wochen?)
+
+## Modulkompetenzen importieren
+Derzeit werden die konkreten Modulkompetenzen der Modul in zwei Numberslisten gepflegt:
+- [Modulkompetenzen Bachelor](https://www.icloud.com/numbers/059tzkqaVJGuVDpQP988kP2OQ#kompetenzen-in-modulen-mi5)
+- [Modulkompetenzen Master](https://www.icloud.com/numbers/06ckJFHGVgxsM4eOueYzBY0Bg#kompetenzen-in-modulen-mi5)
+
+Diese werden dann hübsch als `*.csv` Datei exportiert und in folgende Verzeichnisse gelegt:
+- `./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-bachelor/`
+- `./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-master/`
+
+Von dort können sie dann mit dem Befehl `npm run convert:comp` konvertiert und dem System zugänglich gemacht werden. Die CSV-Daten werden in ein JSON Format überführt und für jedes Modul wird eine eigene Datei angelegt:
+- `./src/modulkompetenzen-bachelor`
+- `./src/modulkompetenzen-master`
+
+Die Verknüfung erfolgt über das Modulkürzel, welches in der Numbers Datei in der Headline vermerkt sind muss.
+
+![alt-text](./src/images/modulkuerzel-numbers.png "Hover text")

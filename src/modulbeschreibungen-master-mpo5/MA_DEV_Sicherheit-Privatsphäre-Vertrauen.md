@@ -2,7 +2,7 @@
 title: Sicherheit, Privatsphäre und Vertrauen
 modulverantwortlich: sk
 dozierende: sk
-kuerzel: ITS
+kuerzel: SPV
 angebotImWs: true
 informatik-master: ws
 sprache: deutsch

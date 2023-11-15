@@ -2,7 +2,7 @@
 title: Spezielle Gebiete der Gamification
 modulverantwortlich: mbluemm
 dozierende: uwm
-kuerzel: WPF-SGG
+kuerzel: SGG
 angebotImWs: true
 sprache: deutsch
 kreditpunkte: 6

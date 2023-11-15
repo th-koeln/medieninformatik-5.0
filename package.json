@@ -21,7 +21,8 @@
     "dev": "npm-run-all del:docs build:css --parallel watch serve:11ty",
     "quiet": "npm-run-all del:docs build:css --parallel watch serve:11ty-quiet",
     "build": "npm-run-all del:docs del:assets build:css build:site",
-    "live": "npm run build && npm run serve:prod"
+    "live": "npm run build && npm run serve:prod",
+    "convert:comp": "node ./kompetenzen/competence-data-importer.js"
   },
   "repository": {
     "type": "git",
