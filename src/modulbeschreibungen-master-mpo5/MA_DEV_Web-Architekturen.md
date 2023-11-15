@@ -24,8 +24,6 @@ meta:
   authors: viet
   reviewers: viet
 ---
-
-
 ## Kurzbeschreibung
 
 In diesem Modul werden erweiterte Themen im Bereich Web Architekturen behandelt.
@@ -44,10 +42,11 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Learning Outcomes
 
-(WAS) Studierende erlangen ein tieferes Verständnis in verteilten, web-basierte Systemen 
+(WAS) Studierende erlangen ein tieferes Verständnis in verteilten, web-basierte Systemen
 
 (WOMIT) indem sie,
-* Web-Architekturen und komplexe Softwaresysteme analysieren
+
+* Web-Architekturen, Web-Technologien, Protokolle und komplexe Softwaresysteme analysieren
 * über geeignete Technologien entscheiden und begründen
 * neues Wissen im Bereich verteilter, web-basierte Systeme sich selber aneignen und
 * anderen Studierenden das elernte Wissen strukturiert vermitteln
@@ -85,7 +84,6 @@ Gesamtaufwand 180 Stunden, davon
 
 - Folienpräsentation
 - Live-Demonstrationen
-
 
 ## Literatur
 

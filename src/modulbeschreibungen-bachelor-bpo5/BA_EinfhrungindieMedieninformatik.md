@@ -25,12 +25,12 @@ meta:
   status: rfreview
 ---
 ## Kurzbeschreibung
+
 Studierende erhalten einen Einführung in die Themengebiete der Medieninformatik. Die Lehrveranstaltungsform ist ein Seminar mit eingebetteten Übungselementen und Projektarbeit.
 
 ## Lehrform/SWS
 
 4 SWS: Seminar 3 SWS; Übung 1 SWS
-
 
 ## Arbeitsaufwand
 
@@ -52,10 +52,7 @@ Gesamtaufwand 150h, davon
 - Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte analysieren
 - Ergebnisse und Artefakte ein Fachpublikum angemessen dokumentieren und mittels verschiedener medialer Formen kommunizieren,
 
-(WOZU) um später die Themengebiet der Medieninformatik im Gesamtkontext einzuordnen, erste Medieninformatik-spezifische Aufgaben zu übernehmen und mögliche Handlungsfelder für einen Beruf im Bereich Medieninformatik zu identizieren. 
-
-architekturelle Alternativen interaktiver Systeme und kennen Gestaltungsdimensionen für deren Informations- und Kommunikationsinhalte
-und können diese Kenntnisse auf eine gegebene Problemstellung anwenden.
+(WOZU) um später die Themengebiet der Medieninformatik im Gesamtkontext einzuordnen, erste Medieninformatik-spezifische Aufgaben zu übernehmen und mögliche Handlungsfelder für einen Beruf im Bereich Medieninformatik zu identifizieren.
 
 ## Inhalt
 
