@@ -2,7 +2,7 @@
 title: Soziotechnische Entwurfsmuster
 modulverantwortlich: ck
 dozierende: ck
-kuerzel: SZ
+kuerzel: SOZE
 angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master

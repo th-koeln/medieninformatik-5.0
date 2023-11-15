@@ -2,7 +2,7 @@
 title: Beautiful Code
 modulverantwortlich: ck
 dozierende: ck
-kuerzel: 
+kuerzel: BCODE
 angebotImSs: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan

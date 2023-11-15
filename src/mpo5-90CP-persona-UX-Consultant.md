@@ -18,7 +18,7 @@ studienverlauf:
         label: "2. Semester"
         fachsemester: 2
         season: "sose"
-        module: ["IMP", "Stat", "ITC", "GP-DUX"]
+        module: ["IMP", "SHCI", "ITC", "GP-DUX"]
     - semester:
         fachsemester: 3
         label: "Finales Semester"

@@ -2,7 +2,7 @@
 title: Web Technologien
 modulverantwortlich: cn
 dozierende: cn
-kuerzel: WT
+kuerzel: WEBT
 angebotImSs: true
 dreiSemestrig: true
 sprache: deutsch

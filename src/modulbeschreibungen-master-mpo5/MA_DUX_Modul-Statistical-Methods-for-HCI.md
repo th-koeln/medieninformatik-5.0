@@ -2,7 +2,7 @@
 title: Angewandte Statistik für die Human-Computer Interaction
 modulverantwortlich: gh
 dozierende: gh
-kuerzel: Stat
+kuerzel: SHCI
 angebotImSs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master

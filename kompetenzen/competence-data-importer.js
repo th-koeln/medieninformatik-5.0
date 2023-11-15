@@ -83,5 +83,6 @@ const getFiles = (studyProgramme) => {
 ############################################################################ */
 
 getFiles("bachelor");
+getFiles("master");
 
  
