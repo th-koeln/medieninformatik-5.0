@@ -53,6 +53,30 @@
       padding-left: var(--xs);
     }
   }
+
+  .competence-table{
+    border-spacing: 0;
+    width: var(--max-width-table);
+
+    th, td{
+      vertical-align: top;
+    }
+
+    th.handlungsfeld,
+    th.bereich{
+      width: 20%;
+    }
+
+    tbody tr td, tbody tr th{
+      border-top: none;
+      padding-top: 0;
+
+      &.has-border{
+        border-top: solid var(--border-width-s) var(--dark);
+        padding-top: var(--s);
+      }
+    }
+  }
 }
 
 

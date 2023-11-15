@@ -954,6 +954,25 @@ ul.hero-list > li + li {
 .modulbeschreibung ul.content-meta li {
   padding-left: var(--xs);
 }
+.modulbeschreibung .competence-table {
+  border-spacing: 0;
+  width: var(--max-width-table);
+}
+.modulbeschreibung .competence-table th, .modulbeschreibung .competence-table td {
+  vertical-align: top;
+}
+.modulbeschreibung .competence-table th.handlungsfeld,
+.modulbeschreibung .competence-table th.bereich {
+  width: 20%;
+}
+.modulbeschreibung .competence-table tbody tr td, .modulbeschreibung .competence-table tbody tr th {
+  border-top: none;
+  padding: var(--quat);
+}
+.modulbeschreibung .competence-table tbody tr td.has-border, .modulbeschreibung .competence-table tbody tr th.has-border {
+  border-top: solid var(--border-width-s) var(--dark);
+  padding-top: var(--s);
+}
 
 /* Curriculum
 ############################################################################ */

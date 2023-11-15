@@ -3,11 +3,11 @@ const fs = require('fs');
 const pathes = {
   "master": {
     "src": "./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-bachelor/",
-    "dist": "./src/modulkompetenzen-master/"
+    "dist": "./src/_data/modulkompetenzen-master/"
   },
   "bachelor": {
     "src": "./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-bachelor/",
-    "dist": "./src/modulkompetenzen-bachelor/"
+    "dist": "./src/_data/modulkompetenzen-bachelor/"
   }
 };
 const seperatorRows = "\r\n";

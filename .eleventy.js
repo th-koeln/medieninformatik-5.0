@@ -2,9 +2,15 @@ const htmlmin = require('html-minifier');
 const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
 const fg = require('fast-glob');
+const fs = require('fs');
 
 const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "medieninformatik-5.0" : "";
-const ghPagesFolder = "docs";
+const pathes = {
+  "competences": {
+    "bachelor": "./src/modulkompetenzen-bachelor/",
+    "master": "./src/modulkompetenzen-master/",
+  }
+};
 
 const md = new markdownIt({
   html: true,
@@ -169,11 +175,19 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("modulsBPO5", function (collection) {
     clearRequireCache();
-    return collection.getFilteredByGlob("./src/modulbeschreibungen-bachelor-bpo5/*.md").sort((a, b) => {
+     const modules = collection.getFilteredByGlob("./src/modulbeschreibungen-bachelor-bpo5/*.md").sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;
     });
+    
+    /*const modulesWithCompetences = modules.map(module => {
+      const path = `${pathes.competences.bachelor}${module.data.kuerzel}.json`;
+      const content = fs.readFileSync(path,
+        { encoding: 'utf8', flag: 'r' });
+      console.log(content);
+    });*/
+    return modules;
   });
 
   eleventyConfig.addCollection("itemsKurzbericht", function (collection) {
@@ -318,7 +332,8 @@ module.exports = function (eleventyConfig) {
       'md',
       'html',
       'njk',
-      '11ty.js'
+      '11ty.js',
+      'json'
     ],
   };
 };

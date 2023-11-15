@@ -9,6 +9,8 @@ module.exports = {
 		const peopleTools = require('./components/peopleTools.11ty');
 		const curriculumTools = require('./components/curriculumTools.11ty');
 		const utils = require('./components/utils.11ty.js');
+		
+		data = moduleTools.addCompetences(data);
 
 		const createRow = (label, value) => {
 			if(!value) return "";
@@ -22,6 +24,32 @@ module.exports = {
 					<td>${val}</td>
 				</tr>
 			`;
+		};
+
+		const getModulkompetenzen = (modulkompetenzen) => {
+			let lastHandlungsfeld = '';
+			let lastBereich = '';
+
+			const list = modulkompetenzen.all.map(item => {
+
+				const displayedHandlungsfeld = item.Handlungsfeld !== lastHandlungsfeld ? item.Handlungsfeld : '';
+				const displayedBereich = item.Bereich !== lastBereich ? item.Bereich : '';
+				lastHandlungsfeld = item.Handlungsfeld;
+				lastBereich = item.Bereich;
+
+				const hasBorderHandlungsfeld = displayedHandlungsfeld !== '' ? 'has-border' : '';
+				const hasBorderBereich = displayedBereich !== '' ? 'has-border' : '';
+				const hasBorder = hasBorderHandlungsfeld || hasBorderBereich ? 'has-border' : '';
+
+				return `
+					<tr class="${hasBorderHandlungsfeld} ${hasBorderBereich}">
+						<th class="handlungsfeld ${hasBorderHandlungsfeld}">${displayedHandlungsfeld}</th>
+						<th class="bereich ${hasBorderBereich}">${displayedBereich}</th>
+						<td class="${hasBorder}">${item.Kompetenz}</td>
+					</tr>	
+					`;
+			});
+			return list.join('');
 		};
 	
 		const modulverantwortlich = !data.modulverantwortlich 
@@ -70,6 +98,14 @@ module.exports = {
 		const lehrmethoden = data.lehrmethoden && data.lehrmethoden.length > 0 
 			? `<h2>Lehrmethoden</h2><ul>${getList(data.lehrmethoden).join('')}</ul>` : '';
 
+
+		const modulkompetenzen = !data.modulkompetenzen || data.modulkompetenzen.all.length < 2 ? '' 
+			: `
+				<h2>Geförderter Kompetenzerwerb</h2>
+
+				<p>Die Studierenden … </p>
+				<table class="competence-table">${getModulkompetenzen(data.modulkompetenzen)}</table>`;
+
 		return `
 			<main>
 				<section class="${status} module-core-data">
@@ -84,6 +120,7 @@ module.exports = {
 					${lehrform}
 					${lehrmethoden}
 					${data.content}
+					${modulkompetenzen}
 				</section>
 
 				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module', this) : ''}

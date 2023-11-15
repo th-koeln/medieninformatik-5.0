@@ -1,3 +1,24 @@
+/* Kompetenzen einfügen
+############################################################################ */
+
+exports.addCompetences = (data) => {
+  const kuerzel = data.kuerzel ;
+  const modulKompetenzen = data["modulkompetenzen-bachelor"];
+  if(! modulKompetenzen[kuerzel]) return data;
+
+  const modulkompetenzenWithImpact = modulKompetenzen[kuerzel].filter(item => {
+    return item.braucht > 0 || item.liefert > 0;
+  });
+
+  const modulKompetenzenObject = {
+    "all": modulkompetenzenWithImpact,
+  };
+  data.modulkompetenzen = modulKompetenzenObject;
+
+  return data;
+};
+
+
 /* Prüfungsleistungen einfach
 ############################################################################ */
 
