@@ -22,6 +22,8 @@ studienleistungen:
     zweitpruefer: all
 meta:
   status: ok
+angebotImWs: true
+angebotImSs: true  
 ---
 
 ## Learning Outcome

@@ -21,7 +21,9 @@ studienleistungen:
     zweitpruefer: mas
     datum: antrag
 meta:
-  status: rfreview    
+  status: rfreview
+angebotImWs: true
+angebotImSs: true    
 ---
 
 ## Sprache

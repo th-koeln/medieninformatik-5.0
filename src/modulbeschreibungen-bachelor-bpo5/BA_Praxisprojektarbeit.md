@@ -23,6 +23,8 @@ studienleistungen:
     datum: vereinbarung
 meta:
   status: rfreview    
+angebotImWs: true
+angebotImSs: true  
 ---
 
 ## Sprache
