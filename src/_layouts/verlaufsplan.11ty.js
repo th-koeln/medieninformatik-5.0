@@ -51,12 +51,15 @@ module.exports = {
         <section class="content">
           ${data.content}
         </section>
-
-        ${curriculumVerlaufList}
-
+        
         <section class="has-seperator">
         <h2>Studienverlaufsplan</h2>
           ${curriculumVerlaufTable}
+        </section>
+        
+        <section class="has-seperator">
+        <h2>Details der Fachsemester</h2>
+          ${curriculumVerlaufList}
         </section>
 
         <section class="has-seperator">
