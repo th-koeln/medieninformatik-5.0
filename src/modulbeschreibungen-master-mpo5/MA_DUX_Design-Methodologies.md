@@ -1,8 +1,9 @@
 ---
 title: Design Methodologies
 modulverantwortlich: ck
+dozierende: ck
 kuerzel: DM
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
@@ -12,8 +13,10 @@ published: true
 infourl: 
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DUX
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)

@@ -1,17 +1,20 @@
 ---
 title: Storytelling und Narrative Strukturen 
 modulverantwortlich: hk
+dozierende: hk
 kuerzel: SNS
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: Audiovisuelles Medienprojekt (Bachelor)
+empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: EXA
+kategorie: schwerpunkt
+
 infourl: 
 studienleistungen:
   Einzelleistung:
@@ -47,7 +50,7 @@ Die Studierenden haben die Entwicklungs- und Methodenkompetenz auf dem Gebiet de
 Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern digitaler Medien die Entwicklung und den Einsatz narrativer Strukturen zu beraten, zu planen oder zu verantworten.
 
 ## Inhalt
-- Storytelling Grundlagen
+- Storytelling Grundlagen: Kognition, Emotion, Kommunikation
 - dramaturgische Erzähl-Muster: Plot-Point-Modell und Heldenreise
 - Anwendung in verschiedenen Kontexten wie Film, Computerspiel, Entwicklungsumgebung und Kommunikation
 
@@ -62,3 +65,4 @@ Pragmatisches Ziel ist es, in den unterschiedlichsten Berufsfeldern digitaler Me
 - Field, Syd (1987): Drehbuchschreiben für Film und Fernsehen, München
 - Fuchs, Werner T.  (2013): Warum das Gehirn Geschichten liebt, Haufe-Lexware GmbH. Freiburg
 - Vogler, Christopher (2007): Die Odyssee des Drehbuchschreibens. Zweitausendeins. Frankfurt a. M.
+- Thier,Karin (2006) Storytelling - Eine narrative Managementmethode, Springer Verlag 

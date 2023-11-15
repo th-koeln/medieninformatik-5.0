@@ -1,10 +1,10 @@
 ---
 title: Mathematik 2
 modulverantwortlich: wk
+dozierende: wk
 modulniveau: bachelor
 kuerzel: MA2
-untertitel:
-studiensemester: 2
+date: Last Modified
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 8
@@ -23,57 +23,42 @@ studienleistungen:
     zweitpruefer: aschmitter
     datum: ss-2
 meta:
-  status: rfreview    
+  status: ok    
   authors: Wolfgang
-  reviewers: Wolfgang
+  reviewers: Wolfgang, Christian
+besonderheiten: 
+praesenzZeit: 126
+selbstStudium: 114
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - i
+  - itm
+  - wi
+lehrform:
+  - Vorlesung 4 SWS
+  - Praktikum 1 SWS
+  - Übung 2 SWS  
+lehrmethoden:
+  - Vorlesung mit Skript und Tabletmitschrieb zum Download
+  - Übungen mit vorbereitetenden Aufgaben, die von Studenten vorgestellt und gemeinsam diskutiert werden, zur Vertiefung der Inhalte der Vorlesung
+  - Projekt-Praktikum mit Teamarbeit, Dokumentation und Präsentation, sowie Abnahme Probeklausur-Aufgaben
+  - fallweise Tutorien mit studentischen Tutor*innen zur Klärung Verständnisfragen
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
 
 ## Learning Outcome
 
-## Modulinhalte
+(WAS) Die Studierenden erwerben die Fähigkeiten zur Analyse realer oder geplanter Systeme, (WOMIT) indem sie praktische Aufgabenstellungen aus dem Informatik-Umfeld in mathematische Strukturen abstrahieren und lernen, selbstständig die Modellfindung und die Ergebnisbeurteilung vorzunehmen.
 
-## Lehr- und Lernmethoden
+(WOZU) Dabei sollen die Anwendungsbezüge der Mathematik deutlich werden, z.B. die Beziehungen diskreter Strukturen wie der Graphen zu vielfältigen grundlegenden Datenstrukturen, die Statistik zur Deskription und Beurteilung von Beobachtungen und die Analysis zur Verarbeitung von Signalen und zur Lösung von mathematischen Modellen.
 
-## Präsenzzeit
+## Inhalte
 
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
-## Lehrform/SWS
-6 SWS: Vorlesung  3 SWS; Praktikum 1 SWS; Übung 2 SWS
-
-## Arbeitsaufwand
-
-Gesamtaufwand 240h, davon 
-
-- 54h Vorlesung 
-- 18h Praktikum
-- 36h Übung
-- 132h Selbststudium 
-
-## Angestrebte Lernergebnisse
-
-Die Studierenden sollen die Fähigkeiten zur Analyse realer oder geplanter Systeme entwickeln, indem sie praktische Aufgabenstellungen aus dem Informatik-Umfeld in mathematische Strukturen abstrahieren und lernen, selbstständig die Modellfindung und die Ergebnisbeurteilung vorzunehmen. Dabei sollen die Anwendungsbezüge der Mathematik deutlich werden, z.B. die Beziehungen diskreter Strukturen wie der Graphen zu vielfältigen grundlegenden Datenstrukturen, die Statistik zur Deskription und Beurteilung von Beobachtungen und die Analysis zur Verarbeitung von Signalen und zur Lösung von mathematischen Modellen.
-
-## Inhalt
-* Mehrdimensionale Differenzialrechnung, 
-* Graphentheorie, 
-* Kombinatorik, Wahrscheinlichkeitsrechnung und Statistik, 
-* Komplexe Zahlen, 
-* Differentialgleichungen.
+- Analysis (mehrerer Veränderlichen)
+- Graphentheorie
+- Statistik und Wahrscheinlichkeitsrechnung 
+- Komplexe Zahlen und
+- Differentialgleichungen
 
 ## Literatur
 * s. Literaturliste auf der Homepage [www.gm.fh-koeln.de/~konen](http://www.gm.fh-koeln.de/~konen)

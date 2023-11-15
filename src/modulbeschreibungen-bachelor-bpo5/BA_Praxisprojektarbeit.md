@@ -1,15 +1,15 @@
 ---
 title: Praxisprojekt, praktischer Teil
 modulverantwortlich: all
+dozierende: all
 modulniveau: bachelor
 kuerzel: PPA
-untertitel:
-studiensemester: 7
+date: Last Modified
 kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 12
-voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte (CP)
-empfohleneVoraussetzungen: 
+voraussetzungenNachPruefungsordnung: 
+empfohleneVoraussetzungen: alle Module außer Praxisprojekt, Bachelorarbeit und Bachelor Kolloquium
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
@@ -23,6 +23,8 @@ studienleistungen:
     datum: vereinbarung
 meta:
   status: rfreview    
+angebotImWs: true
+angebotImSs: true  
 ---
 
 ## Sprache
@@ -33,7 +35,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

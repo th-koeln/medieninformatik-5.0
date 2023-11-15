@@ -1,10 +1,10 @@
 ---
 title: Mensch-Computer Interaktion
 modulverantwortlich: rgroten
+dozierende: rgroten
 modulniveau: bachelor
 kuerzel: MCI
-untertitel:
-studiensemester: 2
+date: Last Modified
 kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5
@@ -17,50 +17,65 @@ veranstaltungsform:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: individuelles Lernportfolio
+    art: Projektarbeit (40%) und Klausur (60%)
     erstpruefer: rgroten
     zweitpruefer: gh
     datum: vereinbarung
 meta:
-  status: rfreview    
+  status: ok    
   authors: Raphaela
-  reviewers: Raphaela
+  reviewers: gh, nkuhn
+besonderheiten: 
+praesenzZeit: 50
+selbstStudium: 100
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - i
+lehrmethoden:
+  - Projektarbeit in Kleingruppen
+  - Coaching der Gruppe im Praktikum u.a. durch Beispiele und Feedbackrunden
+  - Theorievermittlung (insb. zum Vorgehen im Praktikum) mit Lehrfilmen, beamergestützten Slides und Skript
+  - Textstellen aus Büchern oder Internet.
+lehrform:
+  - Vorlesung 1 SWS
+  - Praktikum 3 SWS  
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
 
 ## Learning Outcome
+(WAS) Die Studierenden können Prozesse und Methoden des nutzerzentrierten Designs in Projekten anwenden. Sie sind in der Lage Interaktion zwischen digitalen Systemen und Menschen sinnvoll zu gestalten. 
 
-## Modulinhalte
+(WOMIT) Dies geschieht
+- indem die Prozesse und Methoden des menschzentrierten Designs in einem konkreten Projekt angewendet werden (Praktikum)
+- indem Nutzer*innen und Nutzungskontext und analysiert, Probleme definiert und Verbesserungsmöglichkeiten abgeleitet werden
+- indem Lösungskonzepte mit low-fidelity und Figma Prototypen gestaltet und evaluiert werden
+- indem Modell und Methoden für konkrete Aktivitäten im Entwicklungsprojekten unter Abwägung der Alternativen ausgewählt und anwendendet werden. 
+- indem grundlegendes Wissen zur User Experience und der Gestaltung interaktiver Systeme über das konkrete Projekt hinaus abstrahiert wird, um als Wissensbasis für zukünftige Projekte zu dienen
 
-## Lehr- und Lernmethoden
+(WOZU) Studierende sollen so in der Lage sein, in zukünftigen Projekten auf Basis eines Verständnisses des Nutzungskontext interaktive Lösungen und User Interfaces zu gestalten. 
 
-## Präsenzzeit
 
-## Selbststudium
+## Inhalte
+Digitale Systeme werden entwickelt, um den Menschen zu unterstützen. Mit Vorgehensweisen und Methoden des menschzentrierten Designs kann sichergestellt werden, dass diese Perspektive während des Entwicklungsprozesses maßgeblich berücksichtigt wird und ein erfolgreiches Entwicklungsergebnis wahrscheinlicher wird. 
+In diesem Modul lernen Studierende technische Lösungen als eine Antwort auf Nutzungsbedürfnisse zu gestalten. Das nutzerzentrierte Vorgehen (wie es u.a. im Design Thinking und entsprechenden Normen definiert ist) strukturiert auch den Ablauf des Moduls.
+Die Studierenden entwickeln zu einer Design Challenge aus dem Kontext der Mensch-Computer Interaktion (MCI) eine Lösung.  Zunächst wird auf Basis von Modellierung der Nutzer:innen und des Nutzungskontext ein Problemfeld definiert. Im Anschluss werden Lösungskonzepte erarbeitet, Lösungen prototypisch entworfen und evaluiert. Die Lösungskonzepte fokussieren die User Experience und die User Interface Gestaltung.
+Die Erarbeitung dieser Lösung wird durch die theoretische Wissensvermittlung und Coaching durch die Dozent:innen begleitet. Das Projekt endet mit einer Abschlusspräsentation (Teilprüfungsleistung).  
+
+
 
 ## Empfohlene Literatur
+- Benyon, Turner & Turner, (2005): Designing Interactive Systems: People, Activities, Contexts, Technologies
+- Jacobsen & Meyer (2022): Praxisbuch Usability und UX
+- Lewrick et al (2018): Das Design Thinking Playbook (mit VPN:) https://ebookcentral.proquest.com/lib/koln/detail.action?docID=5332808
+- Norman (2013): The Design of Everyday Things: Psychologie und Design der alltäglichen Dinge (mit VPN:) https://www.beck-elibrary.de/10.15358/9783800648108/the-design-of-everyday-things?page=1
+- Butz & Krüger (2022). Mensch-Maschine Interaktion https://www.degruyter.com/document/doi/10.1515/9783110753325/html
+- Holtzblatt et al. (2004) Rapid Contextual Design: A How-to Guide to Key. Techniques for User-Centered Design  https://www.sciencedirect.com/book/9780123540515/rapid-contextual-design
 
-## Verwendung des Moduls in weiteren Studiengängen
 
-## Besonderheiten
 
----
 
-## Lehrform/SWS
-Vorlesung und Praktikum/Übung
 
-## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
-
-- 26h Vorlesung 
-- 68h Praktikum und Projektarbeit
-- 56h Selbststudium
-
+<!---
 ## Angestrebte Lernergebnisse
 * Die Studierenden erwerben Grundkenntnisse in kognitions-, arbeits- und organisations-psychologischen Grundkonzepten und können diese auf Problemstellungen im Kontext der Mensch-Computer Interaktion anwenden. 
 * Die Studierenden kennen Modelle, Methoden, Arbeits- und Dokumentationstechniken der Mensch-Computer Interaktion, können sie anwenden, kritisch diskutieren und für konkrete Aktivitäten in Entwicklungsprojekten unter Abwägung der Alternativen auswählen. 
@@ -109,3 +124,4 @@ Gesamtaufwand 150h, davon
 - Snyder, C: Paper Prototyping. San Francisco, Morgan Kaufmann, 2003.
 - Ulich, E.: Arbeitspsychologie. Stuttgart, Schäffer-Poeschel, 2001 (5.Auflage).
 
+--->

@@ -1,10 +1,10 @@
 ---
 title: Bachelorarbeit
 modulverantwortlich: all
+dozierende: all
 modulniveau: bachelor
 kuerzel: BA
-untertitel:
-studiensemester: 7
+date: Last Modified
 kategorie: spezialisierung
 sprache: deutsch
 kreditpunkte: 12
@@ -21,7 +21,9 @@ studienleistungen:
     zweitpruefer: mas
     datum: antrag
 meta:
-  status: rfreview    
+  status: rfreview
+angebotImWs: true
+angebotImSs: true  
 ---
 
 ## Sprache
@@ -32,7 +34,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

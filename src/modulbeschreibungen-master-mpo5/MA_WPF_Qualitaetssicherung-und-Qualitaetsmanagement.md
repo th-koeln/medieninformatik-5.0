@@ -1,8 +1,9 @@
 ---
 title: Qualitätssicherung und Qualitätsmanagement 
 modulverantwortlich: mw
+dozierende: mw
 kuerzel: QSQM
-studiensemester: 2
+angebotImSs: true
 informatik-master: ss
 sprache: deutsch, Seminar-Basisliteratur i.d.R. in englischer Sprache
 kreditpunkte: 6
@@ -11,8 +12,8 @@ empfohleneVoraussetzungen: Grundkenntnisse Softwaretechnik und Projektmanagement
 published: true
 layout: modulbeschreibung
 typ: wpm
-parent: WPM
-schwerpunkt:
+parent: WAMO-SP, WAMO
+schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
     art: Fachbeitrag, Wissenstest, Reflektionsbericht 

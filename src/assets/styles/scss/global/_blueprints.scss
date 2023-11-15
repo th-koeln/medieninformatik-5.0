@@ -26,3 +26,27 @@
     aspect-ratio: 1/1;
   }
 }
+
+/* CTA
+############################################################################ */
+
+.cta{
+  background-color: var(--color-accent);
+  padding: var(--s);
+  font-size: var(--m);
+  display: inline-block;
+  color: var(--lightest);
+  border-radius: var(--border-radius-s);
+  vertical-align: top;
+
+  transition: transform var(--tr-fast) ease-in-out;
+
+  i{
+    width: var(--m);
+    height: var(--m);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1/1;
+  }
+}

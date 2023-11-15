@@ -14,9 +14,13 @@
   --fluid-space-s: calc(var(--s) + 0.5vw);
   --fluid-space-m: calc(var(--m) + 1vw);
   --fluid-space-l: calc(var(--l) + 1.5vw);
+  --fluid-space-xl: calc(var(--xl) + 2vw);
   --max-width-content: calc(var(--m) * 40);
   --max-width-table: calc(var(--m) * 80);
   --max-width-card: calc(var(--m) * 20);
+  --max-width-image: calc(var(--m) * 10);
+  --max-width-image-l: calc(var(--m) * 15);
+  --max-width-image-s: calc(var(--m) * 5);
   --max-width-navigation: calc(var(--m) * 20);
   --mi-lila: #9313ce;
   --mi-gruen: #00ad2f;
@@ -57,7 +61,9 @@
   --op-low: 0.4;
   --op-medium: 0.6;
   --shadow-l: 0 0 var(--xs) rgb(0 0 0 / 50%);
+  --shadow-l-light: 0 0 var(--xs) rgb(0 0 0 / 5%);
   --shadow-xl: var(--half) var(--half) var(--m) rgb(0 0 0 / 30%);
+  --shadow-xl-light: var(--half) var(--half) var(--m) rgb(0 0 0 / 10%);
   --border-width-s: 1px;
   --border-width-m: 3px;
   --border-width-l: 6px;

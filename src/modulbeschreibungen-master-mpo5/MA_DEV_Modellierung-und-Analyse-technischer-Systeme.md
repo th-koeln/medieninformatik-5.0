@@ -1,8 +1,9 @@
 ---
 title: Modellierung und Analyse technischer Systeme
 modulverantwortlich: mw
-kuerzel: WPF-MATS
-studiensemester: 1
+dozierende: mw
+kuerzel: MATS
+angebotImWs: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden
@@ -10,8 +11,10 @@ empfohleneVoraussetzungen: Kenntnisse in UML
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DEV
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
@@ -32,7 +35,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

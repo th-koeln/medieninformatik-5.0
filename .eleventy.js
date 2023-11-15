@@ -1,6 +1,7 @@
 const htmlmin = require('html-minifier');
 const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
+const fg = require('fast-glob');
 
 const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "medieninformatik-5.0" : "";
 const ghPagesFolder = "docs";
@@ -8,6 +9,8 @@ const ghPagesFolder = "docs";
 const md = new markdownIt({
   html: true,
 });
+
+const allImages = fg.sync(['src/images/**/*', '!**/_site']);
 
 const clearRequireCache = () => {
   Object.keys(require.cache).forEach(function (key) {
@@ -90,6 +93,9 @@ module.exports = function (eleventyConfig) {
 
   // Copy asset images
   eleventyConfig.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
+
+    // Copy CSS (libs)
+    eleventyConfig.addPassthroughCopy({ 'src/assets/styles/libs': 'assets/styles/libs' });
 
   // Copy images
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
@@ -188,6 +194,11 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("images", function (collection) {
+    clearRequireCache();
+    return allImages;
+  });
+
   eleventyConfig.addCollection("allModuls", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/modulbeschreibungen-*/*.md").sort((a, b) => {
@@ -208,7 +219,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("insights", function (collection) {
     clearRequireCache();
-    return collection.getFilteredByGlob("./src/insights/*.md").sort((a, b) => {
+    return collection.getFilteredByGlob("./src/insights/**/*.md").sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;
@@ -246,7 +257,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("jobOffers", function (collection) {
     clearRequireCache();
-    return collection.getFilteredByGlob("./src/analyse/stellenausschreibungen/*.md").sort((a, b) => {
+    return collection.getFilteredByGlob("./src/analysen/stellenausschreibungen/**/*.md").sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;

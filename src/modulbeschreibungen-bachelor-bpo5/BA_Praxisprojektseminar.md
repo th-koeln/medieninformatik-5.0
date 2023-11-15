@@ -25,6 +25,9 @@ studienleistungen:
     datum: vereinbarung
 meta:
   status: rfreview
+angebotImWs: true
+angebotImSs: true
+
 ---
 
 ## Lehrform/SWS
@@ -40,15 +43,15 @@ Gesamtaufwand 135 h, davon
 
 ## Angestrebte Lernergebnisse
 
-(WAS)Die Studierenden können eine wisschaftliche Abbhandlung verfassen, 
+(WAS) Die Studierenden können eine wisschaftliche Abbhandlung verfassen, 
 
 (WOMIT) indem Sie 
 
-- Techniken wissenschaftlichen Arbeitens und Schreibens anwenden
-- Erfahrungen mit aktiver Fachkommunikation sammeln
-- eigene Projektergebnisse vor einem Fachpublikum in Vortrag und Diskussion darstellen und verteidigen
+- Techniken wissenschaftlichen Arbeitens und Schreibens anwenden (z.B. schreiben eines Exposés, Peer-Review Prozess, Vortragstechnik, etc.)
+- Fachvorträge von anderen Seminarteilnehmer:innen besuchen und dadurch Erfahrungen mit aktiver Fachkommunikation sammeln
+- eigene Projektergebnisse vor einem Fachpublikum darstellen, diskutieren und verteidigen
   
-(WOZU) um später Abschlussarbeiten nach wissenschaftlichen Standards zu erstellen und deren Ergebnisse einen Fachpublikum didaktisch angemessen vorzustellen bzw. zu diskutieren.
+(WOZU) um später Abschlussarbeiten nach wissenschaftlichen Standards zu erstellen und deren Ergebnisse einen Fachpublikum didaktisch angemessen vorzustellen bzw. kritisch zu diskutieren.
 
 ## Inhalt
 

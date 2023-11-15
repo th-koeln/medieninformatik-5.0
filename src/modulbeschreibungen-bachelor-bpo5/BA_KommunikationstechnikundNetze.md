@@ -1,10 +1,10 @@
 ---
 title: Kommunikationstechnik und Netze
 modulverantwortlich: hls
+dozierende: hls
 modulniveau: bachelor
 kuerzel: KTN
-untertitel:
-studiensemester: 3
+date: Last Modified
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
@@ -19,60 +19,79 @@ infourl:
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
-    erstpruefer: sk
-    zweitpruefer: hs
+    erstpruefer: hs
+    zweitpruefer: sk
     datum: ws-2
 meta:
-  status: rfreview   
+  status: ok   
   authors: Hans Ludwig
-  reviewers: Hans Ludwig
+  reviewers: Hans Ludwig, Christian
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: true
+angebotImSs: false
+weitereStudiengaenge: 
+  - itm
+  - i
+  - wi
+lehrmethoden:
+  - Vorlesung
+  - "Praktikum an Rechnern des KTDS-Labors (Ressourcen: Netzanalysesoftware, div. Netzüberwachungssoftware, E-Mail- Server und Clients, DNS-Server, ggf. weitere Server-Implementierungen)"
+lehrform:
+  - Vorlesung 3 SWS
+  - Praktikum 1 SWS  
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
 
 ## Learning Outcome
 
-## Modulinhalte
+Die Studierenden 
 
-## Lehr- und Lernmethoden
+- (WAS und WOMIT) eigenen sich ein breites Spektrum von einschlägigem Grundlagenwissen und wichtigen Grundbegriffen an, (WOZU) das sie befähigt, Aufgaben- und Problemstellungen, Analyseverfahren und -ergebnisse sowie Lösungen qualifiziert zu beschreiben, zu spezifizieren und auf Expertenniveau zu diskutieren und zu dokumentieren.
+- (WAS) verstehen wichtige Kommunikationsmodelle und die Prinzipien protokollbasierter Kommunikation, (WOMIT) indem sie die Konzepte der in der Lehrveranstaltung vorgestellten Protokollwelten auf geeignete Problemstellungen anwenden, (WOZU) um spezifische Kommunikationsaufgaben zu lösen.
+- (WAS) lernen Verfahren und Werkzeuge der Netz- und Protokollanalyse kennen, (WOMIT) indem sie die in der Vorlesung und im Praktikum behandelten Verfahren und Werkzeuge geeignet auswählen und konfigurieren können, (WOZU) um diese auf angemessene Weise zur Analyse bestimmter Problemstellungen einzusetzen und damit zielführend zu Problemlösungen beizutragen.
+- (WAS) beherrschen die in der Vorlesung vorgestellte grundlegende Terminologie der IT-Sicherheit, (WOMIT) indem sie typische Sicherheitsmaßnahmen für Rechner- netze kennen und verstehen, (WOZU) wodurch sie in der Lage sind, vorgestellte Beispielszenarien zu analysieren und mögliche Gegenmaßnahmen zum Schutz vor erkannten Risiken ableiten zu können.
+- (WAS und WOMIT) kennen die wesentlichen Aspekte und Eigenschaften der Internet-Protokolle IPv4 und IPv6 sowie der damit verbundenen Protokollwelten und (WOZU) sind in der Lage, auf Basis einer qualifizierten Anforderungsanalyse diese auf geeignete Weise in die Realisierung von Kommunikations- und Vernetzungsaufgaben einzubeziehen
 
-## Präsenzzeit
+## Inhalte
 
-## Selbststudium
+### Grundbegriffe und Grundlagen
+- Kommunikationssysteme (Modelle, Grundbegriffe)
+- Protokolle, Schnittstellen, Dienste
+- Architekturmodelle (OSI-Referenzmodell, TCP/IP-Protokollfamilie)
+- Standardisierung (ISO, ANSI, DIN, IETF, ...)
 
-## Empfohlene Literatur
+### Die TCP/IP-Protokollfamilie als Grundlage des Internet
+- Wichtigste Protokolle der TCP/IP-Protokollfamilie
+- Schichtenmodell und Protokolle im Detail
+- Adressierung auf den verschiedenen Ebenen
+- ausgewählte Anwendungen
+- Klassifizierung von Netzen, Topologien, Technologien
 
-## Verwendung des Moduls in weiteren Studiengängen
+### Wegewahl / Vermittlung / Routing
+- Wegewahl und Routing
+- Vermittlungsprinzipien
+- Routing-Verfahren und Protokolle
+- Internetspezifische Verfahren
 
-## Besonderheiten
+### Einführung in die Netzsicherheit
+- grundlegende Begriffe der IT-Sicherheit
+- typische Bedrohungen in IP-basierten Netzen
 
----
+### Next Generation Internet
+- IPv6, weitere neue Entwicklungen
+- Neues in IPv6 im Vergleich zu IPv4
+- Unterschiede zwischen IPv4 und IPv6
 
-## Lehrform/SWS
-Vorlesung, Praktikum
-
-## Arbeitsaufwand
-
-## Angestrebte Lernergebnisse
-Die Studierenden sollen  
-
-- Prinzipien und Grundlagen von technischen Kommunikations­vor­gängen kennen lernen,
-- Protokolle als wesentliche Grundlage der Kommunikationstechnik im Detail verstehen (Internet-Protokolle, Multimedia-Protokolle, TK-Protokolle, Dienste)
-- Einsatz und Nutzung von Kommunikations­tech­nik praxistypisch kennen lernen,
-- in der Lage sein, selbstständig Netzstrukturen zu bewerten, Netze zu analysieren und zu konzipieren (unter Anwendung von Netz­analyse­werkzeugen und -methoden).
-
-## Inhalt
-Grundbegriffe und Grundlagen, Kommunikationssysteme (Modelle, Grundbegriffe), Protokolle, Schnittstellen, Dienste, Architekturmodelle (OSI-Referenzmodell, TCP/IP-Protokollfamilie), Standardisierung, TCP/IP-Protokollfamilie als Grundlage des Internet, Schichtenmodell und Protokolle im Detail, Adressierung, ausgewählte Anwendungen, Klassifizierung von Netzen / Topologien / Technologien, Wegewahl / Vermittlung / Routing, Vermittlungsprinzipien, Routing-Verfahren und  Protokolle, Internet-spezifische Verfahren, Multimedia-Netze, Dienstgüte, Internet-Telefonie, Realisierung von Multimedia-Netzen, Netzsicherheit, grundlegende Begriffe der „IT-Sicherheit“, typische Bedrohungen in Netzen, Beispielszenarien
-
-
-## Medienformen
-* Vorlesung im Hörsaal (PowerPoint und Beamer)  
-* Praktikum an Rechnern des KTDS-Labors; Ressourcen: Netzanalysesoftware,div. Netzüberwachungssoftware, E-Mail-Server und -Clients, DNS-Server, ggf. weitereServer-Implementierungen
+### Praktische Aspekte
+- Erlernen und Anwenden einfacher Netzanalyse und -kontrollwerkzeuge
+- Untersuchung von typischen Protokollmechanismen
 
 ## Literatur
-* Wird in der Veranstaltung bekannt gegeben
+- Vorlesungsunterlagen: Foliensammlung, Beispiellösungen
+- Quellen im WWW: RFCs, Informationen zu den behandelten Protokollen und zu Implementierungsaspekten
+- Douglas E. Comer: „Computernetzwerke und Internets“
+- James F. Kurose, Keith W. Ross: „Computernetze“
+- Larry L. Peterson, Bruce S. Davie: „Computernetze“
+- Stephan Rupp, Gerd Siegmund, Wolfgang Lautenschläger: „SIP – multimediale Dienste im Internet“
 

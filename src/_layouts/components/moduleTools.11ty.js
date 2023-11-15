@@ -27,3 +27,50 @@ exports.resolveExamInfoSimple = (examInfo) => {
 
   return extractExamInfo(examInfo);
 };
+
+
+/* Häufigkeit des Angebots
+############################################################################ */
+
+exports.resolveFrequency = (data) => {
+  const { angebotImWs } = data;
+  const { angebotImSs } = data;
+
+  const ws = angebotImWs ? 'jedes Wintersemester' : false;
+  const ss = angebotImSs ? 'jedes Sommersemester' : false;
+
+  const combined = [ws, ss].filter(Boolean).join(' und ');
+
+  return combined;
+
+};
+
+/* Verwendung des Moduls in weiteren Studiengängen
+############################################################################ */
+
+exports.studyPrograms = (studiengaenge) => {
+  if(!studiengaenge) return '';
+
+  const studiengaengeMap = {
+    "mi": "Medieninformatik",
+    "itm": "IT-Management",
+    "wi": "Wirtschaftsinformatik",
+    "i": "Informatik",
+    "coco": "Code & Context"   
+  };
+  const studiengaengeList = studiengaenge.map(item => studiengaengeMap[item]);
+
+  return studiengaengeList.length === 0 ? '' 
+    : studiengaengeList.join(", ");
+
+};
+
+
+/* WAS WOMIT WOZU raus filtern
+############################################################################ */
+
+exports.stripWWW = (data) => {
+  if(!data) return '';
+
+  return data.replace(/\(WAS\) /g, '').replace(/\(WOMIT\) /g, '').replace(/\(WOZU\) /g, '');
+};

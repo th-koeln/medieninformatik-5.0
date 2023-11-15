@@ -1,8 +1,9 @@
 ---
 title: Angewandte Statistik für die Human-Computer Interaction
 modulverantwortlich: gh
-kuerzel: Stat
-studiensemester: 2
+dozierende: gh
+kuerzel: SHCI
+angebotImSs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
@@ -11,8 +12,10 @@ empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DUX
+kategorie: schwerpunkt
+
 infourl: 
 studienleistungen:
   Einzelleistung:
@@ -38,13 +41,17 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden sind in der Lage empirische Daten so darzustellen, dass wesentlichen Strukturen und Charkateristika erkennbar sind. Die Studierenden können angemessene Kennzahlen und Verfahren zur Charakterisierung von empirischen Daten spezifizieren und ermitteln. Sie beherrschen wesentliche Konzepte zur Visualisierung von empirischen Daten und können erste (explorative) Analysen durchführen. 
+Die Studierenden sind in der Lage empirische Daten so darzustellen, dass wesentlichen Strukturen und Charkateristika erkennbar sind. Die Studierenden können angemessene Kennzahlen (z.B. Maße der Zentralität oder der Variabilität) und Verfahren zur Charakterisierung von empirischen Daten spezifizieren und anwenden. Sie beherrschen wesentliche Konzepte zur Visualisierung von empirischen Daten und können erste (explorative) Analysen durchführen um fundierte Aussagen über vorliegende empirische Daten treffen zu können.
 
-Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatistik. Sie sind in der Lage, empirische Daten zu analysieren, Hypothesen zu testen und die Ergebnisse hinsichtlich empirischer Fragestellungen zu interpretieren. Sie können Gütekriterien zur Auswahl unterschiedlicher Verfahren benennen und anwenden.
+Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatistik. Sie kennen Skalenniveaus unabhängiger Variablen, können diese für eine forschungs-/erhebungspraktische Fragestellung bestimmen, experimentelle Rahmenbedingungen dazu planen, spezifizieren und in einem Experiment umsetzen. Die Studierenden kennen die Charakteristika einer wissenschaftlichen Hypothese und können auf Basis von Publikationen, Voruntersuchugen oder anderen wissenschaftlichen Quellen eine wissenschaftliche Hypothese in eine statistische Hypothese überführen. 
+
+Sie sind in der Lage, empirische Daten zu analysieren, Testverfahren für das Hypothesen-Testen aufgrund (1) der empirischen Rahmenbedingungen, (2) der skalenbezogenen Ausprägung der unabhängigen Variablen und (3) varianzhomo-/heterogener Charakteristika der gezogenen Stichproben auszuwählen, Hypothesen mit geeigenten Methoden zu testen und die Ergebnisse hinsichtlich empirischer Fragestellungen zu interpretieren. Sie können Gütekriterien zur Auswahl unterschiedlicher Verfahren benennen, anwenden und kritisch einordnen. 
+
+Die Studierenden kennen grundlegende Konzepte der multivariaten Statistik, kennen etablierte Verfahren und können Anwendungsgebiete und -beispiele benennen und kritische einordnen, um für menschenzentrierte Aktivitäten in Entwicklunsprozessen auf Basis empirischer Ansätze fundierte Aussagen über Annahmen zu den Anwendungsdomänen oder zugehörige Stakeholder treffen zu können.
 
 ## Inhalt
 
-Skalen, Statistische Kennwerte, Stichproben und Grundgesamtheit, Wahrscheinlichtkeitstheorie und -verteilungen, parametrische und nichtparametrische Testverfahren, Korrelationen, Varianzanalytische und Multivariate Verfahren.
+Skalen, Statistische Kennwerte, Stichproben und Grundgesamtheit, Wahrscheinlichtkeitstheorie und -verteilungen, parametrische und nichtparametrische Testverfahren, Skedastizität, Korrelationen, Varianzanalytische und Multivariate Verfahren.
 
 ## Medienformen
 -	Beamer-gestützte Vorlesungen (Vorlesungschrift mittels tablet) und Übungsaufgaben

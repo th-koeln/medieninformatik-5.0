@@ -1,5 +1,7 @@
 ---
 title: "Wie können wir unterschiedlichen Workload abholen?"
+sources:
+  - staff
 tags:
   - Bachelor
   - Master

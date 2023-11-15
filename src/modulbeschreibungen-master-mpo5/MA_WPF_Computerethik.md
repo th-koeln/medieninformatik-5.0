@@ -1,8 +1,9 @@
 ---
 title: Computerethik
 modulverantwortlich: mbluemm
+dozierende: mbluemm
 kuerzel: CE
-studiensemester: 2
+angebotImSs: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
@@ -10,7 +11,7 @@ empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: WPM
+parent: WAMO
 schwerpunkt:
 infourl: 
 studienleistungen:
@@ -55,17 +56,17 @@ Die Studierenden sollen wesentliche Begriffe und Grundpositionen bezüglich ethi
 - Positive Computing
 
 ## Medienformen
-- Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
+- flipped classroom
 - Fallstudien
 - Diskussionsrunden
 
 ## Literatur
-- Calvo, R. A., & Peters, D. (2014). Positive computing: Technology for wellbeing and human potential.
-- Johnson: Computer Ethics, 4rd Edition, Prentice Hall 2007
-- Lawrence Lessing: Code Version 2.0 Basic Books, New York 2006
-- Himma, Kenneth et al. (eds.): The Handbook of Information and Computer Ethics, Wiley
-- Spinello, Richard: Case Studies in Information Technology Ethics, Prentice Hall
-- Capurro, Rafael: Ethik im Netz, Franz Steiner Verlag
-- Tavani, Herman: Ethics & Technology - Ethical Issues in an Age of Information and Communication Technology, Wiley
-- Wendel, Stephen. (2013). Designing for behavior change: Applying psychology and behavioral economics.
-
+- Bynum, Terrell Ward [Hrsg.]: Computer ethics and professional responsibility. Oxford, Blackwell 2006
+- Christen, Markus et.al. [Hrsg.]: The Ethics of Cybersecurity. Springer 2020. (eBook)
+- Ethics Canvas: https://www.ethicscanvas.org/
+- Falbe, Trine, Kim Andersen, und Martin Michael Frederiksen: The Ethical design handbook. Freiburg: Smashing Media 2020
+- Himma, Kenneth Einar [Hrsg.]: The handbook of information and computer ethics. Hoboken, Wiley 2008
+- Johnson, Deborah: Computer ethics. Upper Saddle River, Pearson Prentice-Hall 2001
+- Misselhorn, Catrin: Grundfragen der Maschinenethik. Ditzingen, Reclam 2018
+- Rath, Matthias et.al. [Hrsg.]: Maschinenethik - Normative Grenzen autonomer Systeme. Wiesbaden : Springer VS, 2019
+- unbubble - raus aus der eigenen Blase, rein in den Austausch! https://www.youtube.com/@unbubble (YouTube)

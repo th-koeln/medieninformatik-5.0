@@ -1,3 +1,8 @@
+nn:
+    id: nn
+    status: prof
+    name: 'tbd'
+    mi: true
 il:
     id: il
     status: prof
@@ -12,6 +17,14 @@ moe:
     avatar: '/img/professoren/engelen.png'
     personenseite: 'https://www.th-koeln.de/personen/monika.engelen/'
     mi: true
+
+mza:
+    id: moe
+    status: prof
+    name: 'Prof. Dr. Matthias Zapp'
+    avatar: 'https://www.th-koeln.de/pseimg/4a9c05baccf47cbfb88806924252a25fdc1c5b43.png'
+    personenseite: 'https://www.th-koeln.de/personen/matthias.zapp/'
+
 fn:
     id: fn
     status: prof
@@ -32,12 +45,6 @@ vos:
     name: 'Volker Schäfer'
     avatar: 'https://www.th-koeln.de/pseimg/968345007305db8e1992c660d36eac653a459623.png'
     personenseite: 'https://www.th-koeln.de/personen/volker.schaefer/'
-    mi: true
-rog:
-    id: rog
-    status: wma
-    name: 'Robert Gabriel'
-    personenseite: 'https://www.th-koeln.de/personen/robert.gabriel/'
     mi: true
 maa:
     id: maa
@@ -101,13 +108,6 @@ uwm:
     avatar: '/img/wissmas/uwe-muesse.jpg'
     personenseite: 'https://www.th-koeln.de/personen/uwe.muesse/'
     mi: true
-mag:
-    id: mag
-    status: wma
-    name: 'Matthias Groß'
-    avatar: '/img/wissmas/matze-gross.jpg'
-    personenseite: 'https://www.th-koeln.de/personen/matthias.gross2/'
-    mi: true
 fv:
     id: fv
     status: prof
@@ -134,6 +134,15 @@ bb:
     avatar: '/img/professoren/bertelsmeier.png'
     personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
     mi: true
+
+dpeterson:
+    id: dpeterson
+    status: wma
+    name: 'David Petersen'
+    avatar: '/img/professoren/petersen.png'
+    personenseite: 'https://www.th-koeln.de/personen/david.petersen/'
+    mi: true
+    
 sk:
     id: sk
     status: prof
@@ -147,12 +156,6 @@ hls:
     name: 'Prof. Dr. Hans L. Stahl'
     avatar: '/img/professoren/stahl.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.stahl/'
-    mi: true
-rab:
-    id: rab
-    status: wma
-    name: 'Raphaela Butz'
-    personenseite: 'https://www.th-koeln.de/personen/raphaela.butz/'
     mi: true
 wk:
     id: wk
@@ -187,6 +190,14 @@ mbluemm:
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
     avatar: '/img/professoren/bluemm.png'
     mi: true
+
+cfrick:
+    id: cfrick
+    status: prof
+    name: 'Prof. Dr. Claudia Frick'
+    personenseite: 'https://www.th-koeln.de/personen/claudia.frick/'
+    avatar: 'https://www.th-koeln.de/pseimg/af851d434aba8420d33d178dae1b9acc7456b120.png'
+
 dgaida:
     id: dgaida
     status: prof
@@ -201,7 +212,6 @@ hs:
     avatar: '/img/lehrbeauftragte/horststenzel.png'
     personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
     mi: false
-
 dz:
     id: dz
     status: prof
@@ -226,6 +236,14 @@ rgroten:
     personenseite: 'https://www.th-koeln.de/personen/raphaela.groten/'
     mi: true
 
+seckstein:
+    id: seckstein
+    status: prof
+    name: 'Prof. Dr. Stefan Eckstein'
+    avatar: '/img/professoren/raphaela-groten.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/stefan.eckstein/'
+    mi: true
+
 mlinden:
     id: mlinden
     status: prof
@@ -234,12 +252,49 @@ mlinden:
     personenseite: 'https://www.th-koeln.de/personen/markus.linden/'
     mi: true
 
+tbb:
+    id: tbb
+    status: prof
+    name: 'Prof. Dr. Thomas Bartz-Beielstein'
+    avatar: 'https://www.th-koeln.de/pseimg/10dccc59def9a160263131620e15590c9ad0040a.png'
+    personenseite: 'https://www.th-koeln.de/personen/thomas.bartz-beielstein/'
+    
+hwe:
+    id: hwe
+    status: prof
+    name: 'Prof. Dr. Hartmut Westenberger'
+    avatar: 'https://www.th-koeln.de/pseimg/82ff2247c511a82f928dfb63a1563229c839d7ab.png'
+    personenseite: 'https://www.th-koeln.de/personen/hartmut.westenberger/'
+    
+cwe:
+    id: hwe
+    status: prof
+    name: 'Prof. Dr. Christina Werner'
+    avatar: 'https://www.th-koeln.de/pseimg/e04761e7386c45500908c079be601b1c7286a65d.png'
+    personenseite: 'https://www.th-koeln.de/personen/christina.werner1/'
+
+tkl:
+    id: tkl
+    status: prof
+    name: 'Prof. Dr. Torsten Klein'
+    avatar: 'https://www.th-koeln.de/mam/bilder/hochschule/aktuelles/nachrichten/2018/fittosize__358_201_c4dfc5b5375186d740031bcfd6793dc6_thorsten_klein.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/torsten.klein/'
+
+rma:
+    id: rma
+    status: prof
+    name: 'Prof. Dr. Roman Majewski'
+    avatar: 'https://www.th-koeln.de/pseimg/1f93c5704fb3ae27a37884c47227f821edefeedf.png'
+    personenseite: 'https://www.th-koeln.de/personen/roman.majewski/'
+
+
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter, Prof. Dr. Matthias Böhmer, Prof. Dr. Raphaela Groten, Prof. Dr. Florian Niebling, Prof. Dr. Hoai Viet Nguyen, Prof. Dr. Irma Lindt'
 all:
     id: all
-    name: 'alle Professor:innen der TH Köln'
+    name: 'alle Professor:innen'
+    
 eingesetzterPruefer:
     id: eingesetzterPruefer
     name: vom Prüfungsausschuss eingesetzte:r Prüfer:in

@@ -28,28 +28,47 @@ module.exports = {
 			? '' 
 			: peopleTools.resolvePerson(data.people, data.modulverantwortlich);
 
+		const dozentinnen = !data.dozierende 
+			? '' 
+			: peopleTools.resolvePerson(data.people, data.dozierende);
+
 		const coreData = `
 			<table class="core-data">
 				${createRow("Modulverantwortlich", modulverantwortlich)}
-				${createRow("Verantwortlich", data.verantwortlich)}
+				${createRow("Dozent:innen", dozentinnen)}
 				${createRow("Kürzel", data.kuerzel)}
 				${createRow("Untertitel", data.untertitel)}
 				${createRow("Studiensemester", data.studiensemester)}
 				${createRow("Sprache", data.sprache)}
 				${createRow("Zuordnung zum Curriculum", data.zuordnungZumCurriculum)}
-				${createRow("Lehrform/SWS", data.lehrformSws)}
-				${createRow("Arbeitsaufwand", data.arbeitsaufwand)}
 				${createRow("Kreditpunkte", data.kreditpunkte)}
 				${createRow("Voraussetzungen nach Prüfungsordnung", data.voraussetzungenNachPruefungsordnung)}
 				${createRow("Empfohlene Voraussetzungen", data.empfohleneVoraussetzungen)}
 				${createRow("Weitere Informationen zum Modul", data.infourl)}
 				${createRow("Studienleistungen", moduleTools.resolveExamInfoSimple(data.studienleistungen))}
+				${createRow("Level", utils.ucFirst(data.kategorie))}
+				${createRow("Häufigkeit des Angebots", moduleTools.resolveFrequency(data))}
+				${createRow("Verwendung des Moduls in weiteren Studiengängen", moduleTools.studyPrograms(data.weitereStudiengaenge))}
+				${createRow("Besonderheiten", data.besonderheiten)}
+				${createRow("Präsenzzeit in Stunden", data.praesenzZeit)}
+				${createRow("Selbststudium in Stunden", data.selbstStudium)}
+				${createRow("Letzte Aktualisierung", utils.getDate(data.page.date))}
 			</table>
 		`;
 
 		const editUrl = `${data.settings.repoEditUrl}${data.page.inputPath.replace('./src/', 'src/')}`;
 		const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
 		const meta = utils.getContentMeta(this, data.meta);
+
+		const getList = (list) => {
+			return list.map(item => `<li>${item}</li>`);
+		};
+
+		const lehrform = data.lehrform && data.lehrform.length > 0 
+			? `<h2>Lehrform</h2><ul>${getList(data.lehrform).join('')}</ul>` : '';
+
+		const lehrmethoden = data.lehrmethoden && data.lehrmethoden.length > 0 
+			? `<h2>Lehrmethoden</h2><ul>${getList(data.lehrmethoden).join('')}</ul>` : '';
 
 		return `
 			<main>
@@ -62,11 +81,13 @@ module.exports = {
 				</section>
 
 				<section class="content">
+					${lehrform}
+					${lehrmethoden}
 					${data.content}
 				</section>
 
-				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module') : ''}
-				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module') : ''}
+				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module', this) : ''}
+				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module', this) : ''}
 
 			</main>
 		`;

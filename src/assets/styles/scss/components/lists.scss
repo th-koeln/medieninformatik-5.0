@@ -1,0 +1,82 @@
+/* Einfache Liste
+############################################################################ */
+
+ul:not([class]) {
+  padding-left: 0;
+  
+  & > li {
+    display: block;
+    margin-left: 1.5ch;
+
+    &::before {
+      color: var(--dark);
+      content: "»";
+      display: inline-block;
+      width: 1.5ch;
+      margin-left: -1.5ch;
+    }
+
+    & + li {
+      margin-top: var(--quat);
+    }
+  }
+
+}
+
+/* Liste in Liste
+############################################################################ */
+
+ul:not([class]) {
+  ul{
+
+    margin-bottom: var(--quat);
+    li{
+      &::before{
+        content: "-";
+      }
+
+      margin-top: 0;
+    }
+  }
+}
+
+
+/* Liste mit wenig Abstand
+############################################################################ */
+
+ul.is-tight {
+
+  li + li{
+    margin-top: 0;
+  }
+}
+
+
+/* Fette Liste!
+############################################################################ */
+
+ul.hero-list {
+  padding-left: 0;
+  padding-bottom: var(--fluid-space-m);
+  
+  & > li {
+    display: block;
+    margin-left: 1.5ch;
+    font-size: var(--l);
+    margin-bottom: var(--s);
+
+    &::before {
+      color: var(--mi-lila);
+      content: "»";
+      display: inline-block;
+      width: 1.5ch;
+      margin-left: -1.5ch;
+      font-weight: var(--fw-bold);
+    }
+
+    & + li {
+      margin-top: var(--quat);
+    }
+  }
+
+}

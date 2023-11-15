@@ -36,13 +36,13 @@ h1 {
 }
 
 h2 {
-  margin-bottom: var(--fluid-space-m);
+  margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
 }
 
 h3 {
   font-size: var(--l);
-  margin-bottom: var(--fluid-space-s);
+  margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
 }
 
@@ -85,7 +85,7 @@ p + h4,
 ul + h2,
 ul + h3,
 ul + h4{
-  margin-top: var(--fluid-space-m);
+  margin-top: var(--fluid-space-l);
 }
 
 hr{
@@ -93,37 +93,7 @@ hr{
   margin-bottom: var(--fluid-space-l);
 }
 
-/* Lists
-############################################################################ */
 
-ul {
-  padding-left: 0;
-  
-  & > li {
-    display: block;
-    margin-left: 1.5ch;
-
-    &::before {
-      color: var(--dark);
-      content: "»";
-      display: inline-block;
-      width: 1.5ch;
-      margin-left: -1.5ch;
-    }
-
-    & + li {
-      margin-top: var(--quat);
-    }
-  }
-
-}
-
-ul.is-tight {
-
-  li + li{
-    margin-top: 0;
-  }
-}
 
 /* Blockquote
 ############################################################################ */

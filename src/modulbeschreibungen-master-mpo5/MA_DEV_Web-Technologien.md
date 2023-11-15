@@ -1,8 +1,9 @@
 ---
 title: Web Technologien
 modulverantwortlich: cn
-kuerzel: WT
-studiensemester: 2
+dozierende: cn
+kuerzel: WEBT
+angebotImSs: true
 dreiSemestrig: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
@@ -13,7 +14,9 @@ published: true
 layout: modulbeschreibung.11ty.js
 infourl: https://th-koeln.github.io/mi-master-wtw/web-technologien/
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
+kategorie: schwerpunkt
+
 schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
@@ -33,7 +36,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

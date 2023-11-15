@@ -1,8 +1,9 @@
 ---
 title: Psychophysik multimodaler Benutzungsschnittstellen
 modulverantwortlich: gh
+dozierende: gh
 kuerzel: PPMB
-studiensemester: 1
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
@@ -11,8 +12,10 @@ empfohleneVoraussetzungen: keine
 infourl: 
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DUX
+kategorie: schwerpunkt
+
 published: true
 studienleistungen:
   Einzelleistung:
@@ -39,9 +42,14 @@ Gesamtaufwand 180 Stunden, davon
 
 
 ## Angestrebte Lernergebnisse
-Die Studierenden kennen die Physiologie der visuellen, auditiven und takil/haptischen Sensorik, sie kennen grundlegende psychopysikalische Gesetzmässigkeiten und können diese in Bezug auf die Gestaltung physikalischer Stimuli und deren perzeptuellen Wirkungen anwenden und interpretieren. Sie kennen die Wahrnehmungsschwellen, die verschiedenen perzeptuellen Skalen und Metriken sowie verschiedene Perzeptionskategorien (z.B. „Klangfarbe“, etc.) für die verschiedenen sensorischen Kanäle 
-und können diese in Bezug auf Designziele für multimodale Interaktionsformen, Kontextparameter (Umgebungshelligkeit, Umgebungsgeräusche, …) sowie individuelle psychologische Parameter (hier insbesondere Aufmerksamkeitsparameter) setzen und abschätzen/evaluieren. Die Studierenden 
-kennen gängige psychophysikalische Untersuchungs- bzw. Erhebungs-Methoden, können diese für designpraktische Fragestellungen anwenden, Ergebnisse angemessen interpretieren und kritisch einordnen.
+Die Studierenden kennen die Physiologie der visuellen, auditiven und takil/haptischen Sensorik, sie kennen grundlegende psychopysikalische Gesetzmässigkeiten und können diese in Bezug auf die Gestaltung physikalischer Stimuli und deren perzeptuellen Wirkungen anwenden und hinsichtlich potentieller Interferenzen mit Parametern aus den avisierten Nutzungskontexten interpretieren um Entscheidungen treffen zu können, wie Stimuli für spezfische Nutzer in ihren spezifischen Nutzungskontexten ausgestaltet sein sollten. 
+
+Sie kennen die Wahrnehmungsschwellen, die verschiedenen perzeptuellen Skalen und Metriken sowie verschiedene Perzeptionskategorien (z.B. „Klangfarbe“, etc.) für die verschiedenen sensorischen Kanäle 
+und können diese in Bezug auf Designziele für multimodale Interaktionsformen, Kontextparameter (Umgebungshelligkeit, Umgebungsgeräusche, …) sowie individuelle psychologische Parameter (hier insbesondere Aufmerksamkeitsparameter) setzen und abschätzen/evaluieren um Entscheidungen treffen zu können, wie Stimuli für spezfische Nutzer in ihren spezifischen Nutzungskontexten ausgestaltet sein sollten.. 
+
+Die Studierenden kennen gängige psychophysikalische Untersuchungs- bzw. Erhebungs-Methoden, können diese für designpraktische Fragestellungen anwenden, Ergebnisse angemessen interpretieren und kritisch einordnen.
+Die Studierenden kennen den Unterschied zwischen 'Barrierefreiheit' und 'Zugänglichkeit' (in Analogie zu dem Unterschied zwischen 'Abwesenheit von Krankheit' und 'Gesundheit' im Verständnis der WHO) und können aus einer Designperspektive heraus für die avisierten Zielgruppen, deren Nutzungskonexten und den an der/für die Benutzungsschnittstelle zu gestaltenenden "Stimuli" heraus zugängliche Systeme gestalten und kritisch einschätzen um für Menschen mit ihren spezifischen Fähigkeiten in ihren spezifischen Nutzungskontexten ein Optimum an Zugänglichkeit für soziotechnische Systeme sicher zu stellen.
+
 
 
 
@@ -49,7 +57,7 @@ kennen gängige psychophysikalische Untersuchungs- bzw. Erhebungs-Methoden, kön
 Physiologie der Sinne
 - visuell
 - auditiv
-- taktil
+- haptisch/taktik
 
 Grundlagen der Psychophysik
 - Gesetzmässigkeiten (Weber, Fechner, Stevens)
@@ -64,6 +72,7 @@ Erhebungsmethoden
 - SDT
 - AFC
 
+Ausgestaltung von Zugänglichkeit.
 
 ## Studien-/Prüfungsleistungen
 Gewichtung der Prüfungsleistung für die Gesamtnote ist jeweils in Klammern angegeben.

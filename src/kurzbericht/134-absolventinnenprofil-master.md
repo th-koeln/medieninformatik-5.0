@@ -13,7 +13,7 @@ Master-Absolvent\:innen haben ein Wissen und Verstehen nachgewiesen, das auf der
 
 Master-Absolvent\:innen können ihr Wissen und Verstehen sowie ihre Fähigkeiten zur Problemlösung auch in neuen und unvertrauten Situationen anwenden, die in einem breiteren oder multidisziplinären Zusammenhang mit der Medieninformatik stehen. Sie integrieren vorhandenes und neues Wissen in komplexen Zusammenhängen, treffen wissenschaftlich fundierte Entscheidungen und reflektieren kritisch mögliche Folgen. Anwendungsorientierte Projekte führen sie weitgehend selbstgesteuert bzw. autonom durch.
 
-Zur Innovation entwerfen Absolvent\:innen Forschungsfragen, wählen konkrete Wege der Operationalisierung von Forschung und begründen diese; wählen begründet Forschungsmethoden aus. Zudem erläutern sie Forschungsergebnisse und interpretieren diese kritisch.
+Zur Innovation entwerfen Absolvent\:innen Forschungsfragen, wählen konkrete Wege der Operationalisierung der zugehörigen theoretischen Konzepte und begründen diese; wählen begründet Forschungsmethoden aus. Zudem erläutern sie Forschungsergebnisse und interpretieren diese kritisch.
 
 MA-Absolvent\:innen tauschen sich sach- und fachbezogen mit Vertreter\:innen unterschiedlicher akademischer und nicht-akademischer Handlungsfelder über alternative, theoretisch begründbare Problemlösungen aus. Sie binden Beteiligte unter der Berücksichtigung der jeweiligen Gruppensituation zielorientiert in Aufgabenstellungen ein, erkennen Konfliktpotentiale in der Zusammenarbeit mit Anderen und reflektieren diese vor dem Hintergrund situationsübergreifender Bedingungen. Dabei gewährleisten sie durch konstruktives, konzeptionelles Handeln die Durchführung von situationsadäquaten Lösungsprozessen.
 

@@ -1,10 +1,10 @@
 ---
 title: IT Sicherheit
 modulverantwortlich: sk
+dozierende: sk
 modulniveau: bachelor
 kuerzel: ITS
-untertitel:
-studiensemester: 4
+date: Last Modified
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
@@ -18,35 +18,52 @@ veranstaltungsform:
 parent:
 studienleistungen:
   Einzelleistung:
-    art: Seminarvortrag
+    art: Präsentation und kritische Würdigung im seminaristischen Teil des Praktikums
     erstpruefer: sk
     zweitpruefer: hls
     datum: vereinbarung
 meta:
-  status: tbd   
+  status: ok   
   authors: Stefan
-  reviewers: Stefan
+  reviewers: Stefan, Christian
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - itm
+lehrmethoden:
+  - Vorlesung mit Fallbeispielen
+  - Bearbeitung eines ausgewählten  projektzentrierten Themas
+  - Coaching der Projektteams
+  - Individuelle Beratung der Projektteams zu dem zu bearbeitenden Fall im Praktikum  
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
+
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
 ## Learning Outcome
+* (WAS) beherrschen die in der Vorlesung vorgestellte Terminologie der IT-Sicher-
+heit, (WOMIT) in dem Sie praktische Sicherheitsszenarien in Projektgruppen disku-
+tieren, (WOZU) um sie später fachgerecht zu präsentieren,
+* (WAS) können praktische Sicherheitsszenarien analysieren, (WOMIT) in dem Sie
+die Szenarien in Projektgruppen diskutieren und die Sachzusammenhänge der IT-
+Sicherheit anwenden, (WOZU) um später geeignete Sicherheitsmaßnahmen abzu-
+leiten,
+* (WAS) kennen und verstehen typische Sicherheitsmaßnahmen für Rechnernetze,
+(WOMIT) in dem sie die Maßnahmen für ein konkretes Beispielszenario konzeptio-
+nieren, (WOZU) um sie später im Rahmen des Praktikums zu implementieren.
 
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
+## Inhalte
+* Was ist Sicherheit?
+* Terminologie der IT-Sicherheit
+* Authentisierung
+* Sicherheit in Rechnernetzen
+* Werkzeuge zur Analyse und Realisierung von Sicherheitsfunktionen
 
 ## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
+* Claudia Eckert, "IT-Sicherheit: Konzepte - Verfahren - Protokolle", De Gruyter Studium, 2018
+* Bruce Schneier, "Secrets and Lies: Digital Security in a Networked World", Wiley, 2015
 

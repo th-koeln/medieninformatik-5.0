@@ -1,8 +1,9 @@
 ---
 title: Spezielle Gebiete der Gamification
-modulverantwortlich: uwm
-kuerzel: WPF-SGG
-studiensemester: 1
+modulverantwortlich: mbluemm
+dozierende: uwm
+kuerzel: SGG
+angebotImWs: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden
@@ -10,8 +11,10 @@ empfohleneVoraussetzungen: Basismodul Mensch-Computer-Interaktion
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: EXA
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Projektpräsentation (30%), Projektdokumentation (70%)

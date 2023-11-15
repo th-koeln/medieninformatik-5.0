@@ -1,8 +1,9 @@
 ---
 title: Soziotechnische Entwurfsmuster
 modulverantwortlich: ck
-kuerzel: SZ
-studiensemester: 1
+dozierende: ck
+kuerzel: SOZE
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
@@ -12,8 +13,10 @@ published: true
 infourl: 
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DUX
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: schriftliche Ausarbeitung (100%)

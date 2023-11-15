@@ -26,7 +26,7 @@ module.exports = {
 
       const tagList = getTagList(tagData, filterName);
       const tagListForFilter = tagList.map((item) => {
-        if(typeof item === "object" && item[filterName]){
+        if(typeof item === "object" && item[filterName]){          
           return `
             <li class="tag" 
               data-js-list-interaction-item-trigger='${JSON.stringify(item)}'>${item[filterName]}</li>
@@ -35,7 +35,7 @@ module.exports = {
       });
 
       return `
-        <ul class="filter-group" data-js-list-interaction-mode="single-choice">
+        <ul id="filtergroup-${filterName}" class="filter-group" data-js-list-single-choice-filter>
           ${tagListForFilter.join("\n")}
         </ul>
       `;
@@ -44,6 +44,7 @@ module.exports = {
     const howMightWeList = data.collections.howMightWe.map((item) => {
 
       const tags = item.data.tags.map((tag) => {
+        
         if(typeof tag === "object" && tag["Bewertung"]){
           return `<span class="tag" data-js-list-interaction-item-trigger='${JSON.stringify(tag)}'>Bewertung: ${tag["Bewertung"]} ${tag["Bewertung"] > 1 ? "Punkte" : "Punkt"}</span>`;
         }
@@ -88,7 +89,7 @@ module.exports = {
               <h3 data-js-list-interaction-header>${howMightWeList.length} Einträge</h3>
             </header>
 
-            <ul class="question-overview">
+            <ul class="question-overview" data-js-overview>
               ${howMightWeList.join("\n")}
             </ul>
           </div>

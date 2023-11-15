@@ -1,8 +1,9 @@
 ---
 title: Spezielle Gebiete der Mathematik
 modulverantwortlich: wk, dz
+dozierende: wk, dz
 kuerzel: SGM-D
-studiensemester: 1
+angebotImWs: true
 informatik-master: ws
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
@@ -13,7 +14,7 @@ published: true
 infourl: 
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: WPM
+parent: WAMO
 schwerpunkt:
 studienleistungen:
   Einzelleistung:

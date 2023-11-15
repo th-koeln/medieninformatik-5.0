@@ -1,8 +1,9 @@
 ---
 title: Ubiquitous Computing
 modulverantwortlich: mboehmer
+dozierende: mboehmer
 kuerzel: UC
-studiensemester: 1
+angebotImWs: true
 sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
@@ -10,9 +11,10 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: keine
 published: true
 layout: modulbeschreibung.11ty.js
-typ: wpm
-parent: SWPM, WPM
-schwerpunkt: EXA
+parent: WAMO-SP, WAMO
+schwerpunkt: EXA, DEV
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
@@ -23,6 +25,41 @@ meta:
   status: rfreview    
   authors: Matthias
   reviewers: Matthias
+
+# Zuordnung Handlungsfelder, Kompetenzorientierung und Studiengangskriterien für Modulmatrix
+handlungsfelder:
+  DUX: 0
+  DEV: 1
+  EXA: 1
+  CREA: 1
+  INDI: 1
+kompetenzen:
+  DUX:
+    anforderungen_bedarfe: 0
+    konzepte: 0
+    gestaltung: 0
+  DEV:
+    technologie: 0
+    entwurf: 0
+    implementierung: 1
+  EXA:
+    medien: 1
+    exploration_kreativitaet: 1
+    prototyping: 1
+  CREA:
+    innovation: 1
+    management: 0
+    kommunikation: 0
+  INDI:    
+    analyse_studien_experimente: 0
+    situated_interaction: 1
+    ethik_recht: 0
+    selbstlernen: 0
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 1
 ---
 
 ## Kurzbeschreibung

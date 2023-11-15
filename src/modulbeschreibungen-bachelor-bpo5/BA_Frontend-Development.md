@@ -1,10 +1,10 @@
 ---
 title: Frontend Development
 modulverantwortlich: cn
+dozierende: cn
 modulniveau: bachelor
 kuerzel: FD
-untertitel:
-studiensemester: 4
+date: Last Modified
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
@@ -15,13 +15,13 @@ infourl: https://th-koeln.github.io/mi-bachelor-webdevelopment/frontend-developm
 layout: modulbeschreibung.11ty.js
 typ: wpf
 veranstaltungsform: 
-parent: WD
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung
     erstpruefer: cn
     zweitpruefer: vos
     datum: 21.09.2023
+angebotImSs: true    
 ---
 
 ## Sprache
@@ -32,7 +32,7 @@ studienleistungen:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

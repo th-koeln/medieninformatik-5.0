@@ -2,7 +2,7 @@
 title: Web Development
 modulverantwortlich: viet
 modulniveau: bachelor
-kuerzel: GW
+kuerzel: WD
 untertitel:
 studiensemester: 4
 kategorie: vertiefung
@@ -30,6 +30,8 @@ meta:
   status: tbd  
   authors: viet
   reviewers: viet
+angebotImWs: false
+angebotImSs: true
 ---
 ## Kurzbeschreibung
 
@@ -49,7 +51,9 @@ Gesamtaufwand 150h, davon
 
 ## Angestrebte Lernergebnisse
 
-(WAS) Studierenden können eine vollständige Webanwendung entwickeln und implementieren, (Womit) indem Sie
+(WAS) Studierenden können eine vollständige Webanwendung entwickeln und implementieren, 
+
+(WOMIT) indem Sie
 
 - Webserver selbständig einrichten und betreiben,
 - Webtechnologien und Kommunikationsprotokolle insbesondere HTTP
@@ -58,7 +62,7 @@ Gesamtaufwand 150h, davon
   umsetzen
 - Entwicklerwerkzeuge verwenden,
 
-(Wozu) um später komplexere Webanwendungen selbständig entwickeln, implementieren, optimieren und betreiben zu können.
+(WOZU) um später komplexere Webanwendungen selbständig entwickeln, implementieren, optimieren und betreiben zu können.
 
 ## Inhalt
 

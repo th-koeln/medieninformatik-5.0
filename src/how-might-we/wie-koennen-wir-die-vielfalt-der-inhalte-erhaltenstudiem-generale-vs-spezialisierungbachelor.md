@@ -1,8 +1,12 @@
 ---
 title: "Wie können wir die Vielfalt der Inhalte erhalten?"
+sources:
+  - staff
+  - alumni
+  - currentStudents
 tags:
   - Bachelor
-  - Bewertung: 0
+
 ---
 
 Studiem Generale vs. Spezialisierung?

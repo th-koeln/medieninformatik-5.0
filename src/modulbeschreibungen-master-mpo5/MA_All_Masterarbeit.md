@@ -1,22 +1,23 @@
 ---
 title: Masterarbeit inkl. Kolloquium 
 modulverantwortlich: all
+dozierende: all
 kuerzel: MA
-studiensemester: 3
-studiensemesterVierSemestrig: 4
 sprache: deutsch
 kreditpunkte: 30
-voraussetzungenNachPruefungsordnung: Zur Masterarbeit kann zugelassen werden, wer die Zulassungsvoraussetzungen gemäß § 17 Abs. 2 und 5 erfüllt und aus den nach § 24 vorgeschriebenen Prüfungen insgesamt mindestens 75 Leistungspunkte gem. § 12 erreicht hat.
+voraussetzungenNachPruefungsordnung: Zur Masterarbeit kann zugelassen werden, wer die Zulassungsvoraussetzungen gemäß Prüfungsordnung erfüllt.
 published: true
 layout: modulbeschreibung.11ty.js
-kategorie: pflicht
+kategorie: abschluss
+angebotImWs: true
+angebotImSs: true
 typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: siehe Prüfungsordnung
-    erstpruefer: 
-    zweitpruefer: 
+    erstpruefer: all
+    zweitpruefer: all
     datum: antrag
 meta:
   status: rfreview    
@@ -30,7 +31,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

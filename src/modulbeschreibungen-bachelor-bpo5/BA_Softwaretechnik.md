@@ -1,10 +1,10 @@
 ---
 title: Softwaretechnik
 modulverantwortlich: mw
+dozierende: mw
 modulniveau: bachelor
 kuerzel: ST1
-untertitel:
-studiensemester: 4
+date: Last Modified
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
@@ -36,7 +36,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

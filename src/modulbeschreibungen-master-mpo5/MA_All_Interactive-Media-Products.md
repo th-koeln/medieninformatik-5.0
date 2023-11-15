@@ -1,8 +1,10 @@
 ---
 title: Interactive Media Products
-modulverantwortlich: 
+modulverantwortlich: nn
+dozierende: nn
 kuerzel: IMP
-studiensemester: 2
+angebotImWs: false
+angebotImSs: true
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
@@ -30,7 +32,19 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+Geschäftsmodelle / kapieren, wie ein Unternehmen funktioniert
+
+Marktbedürfnisse verstehen: Kenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.
+
+Können Produkte entwickeln und in die Welt bringen. Sie können können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch dritte in ein Ökosystem bereitstellen.
+
+Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind, ein Team dazu zusammenstellen und dieses lauf- und lebensfähig halten.
+
+Kommunikationsfähigkeit: Vermittlung von Ideen, Verständigung über Anforderungen, Feedback einholen, mit verschiedenen Interessengruppen zu interagieren
+
+Kommunikation und Präsentation: Fähigkeit Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren
+
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

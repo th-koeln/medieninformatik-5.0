@@ -1,0 +1,39 @@
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - itm
+lehrmethoden:
+  - Vorlesung mit Fallbeispielen
+  - Bearbeitung eines ausgewählten  projektzentrierten Themas
+  - Coaching der Projektteams
+  - Individuelle Beratung der Projektteams zu dem zu bearbeitenden Fall im Praktikum  
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
+
+  ---
+
+  https://www.icloud.com/numbers/0f3aoTRhIynoYjS3gY552zMFw#praesenz-und-selbstlernzeit
+  https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/lehre/steckbrief_learning_outcomes.pdf
+
+
+  ---
+
+  
+WWW Refinements:
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_TheoretischeInformatik/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Visual-Computing/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_KI-HCKI/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Mobile-Computing/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Entwicklung-von-System-Architekturen/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Datenbanksysteme/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Web-Development/
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Projekt/
+
+---
+Review erforderlich:
+http://192.168.0.206:8080/modulbeschreibungen-bachelor-bpo5/BA_Communityprojekt/
+

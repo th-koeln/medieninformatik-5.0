@@ -1,8 +1,9 @@
 ---
 title: Beautiful Code
 modulverantwortlich: ck
-kuerzel: 
-studiensemester: 2
+dozierende: ck
+kuerzel: BCODE
+angebotImSs: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 3
@@ -12,7 +13,7 @@ published: true
 infourl: 
 layout: modulbeschreibung.11ty.js
 typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
 schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
@@ -33,7 +34,7 @@ meta:
 
 ## Learning Outcome
 
-## Modulinhalte
+## Inhalte
 
 ## Lehr- und Lernmethoden
 

@@ -1,10 +1,10 @@
 ---
 title: Mobile Computing
 modulverantwortlich: mboehmer
+dozierende: mboehmer, dpeterson
 modulniveau: bachelor
 kuerzel: MOCO
-untertitel:
-studiensemester: 3
+date: Last Modified
 kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
@@ -14,7 +14,7 @@ published: true
 layout: modulbeschreibung.11ty.js
 veranstaltungsform: 
 typ: pm
-pvl: true
+pvl: false
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1340996&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
@@ -28,49 +28,28 @@ studienleistungen:
     zweitpruefer: dpetersen
     datum: ende
 meta:
-  status: rfreview    
+  status: refactor    
   authors: Matthias
   reviewers: Matthias
+besonderheiten: 
+praesenzZeit: 64
+selbstStudium: 86
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - itm
+lehrmethoden:
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS      
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
+> cn: Könntest Du das bitte noch in die Was-Womit-Wozu Struktur bringen?
 
 ## Learning Outcome
 
-## Modulinhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
-## Kurzbeschreibung
 In diesem Modul erfahren Studierende die Relevanz, Herausforderungen und Techniken der Entwicklung mobiler Software. Sie können danach Apps für Smartphones entwerfen, implementieren und managen. Das Modul befähigt Studierende dazu, in weiteren Studienprojekten, der Abschlussarbeit oder im Beruf eigene mobile Anwendungen zu realisieren. Um die Lernziele zu erreichen werden Grundlagen und Konzepte in den Veranstaltungen studiert und in Teams projektorientiert angewandt. Das Modul verfolgt einen inkrementell-iterativen Ansatz von der Erstellung eines ersten Prototypen, über die Implementierung des User Interface, der Auslagerung von Operationen in den Hintergrund, der Speicherung von strukturierten Daten und dem Management mobiler Software.
 
-## Lehrform/SWS
-4 SWS: Vorlesung 2 SWS; Praktikum 2 SWS
-
-## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
-
-- 26h Vorlesung 
-- 68h Praktikum und Projektarbeit
-- 56h Selbststudium
-
-## Angestrebte Lernergebnisse
 Nach erfolgreicher Teilnahme am Modul können Studierende mobile Anwendungen entwerfen und implementieren und dabei die Herausforderungen von Mobilität bei der Gestaltung mobiler Medien sowie typische nicht-funktionale Anforderungen an mobile Informationstechnologie berücksichtigen, indem sie
 
 - mobile Nutzungskontexte aus der Perspektive der Mensch-Computer-Interaktion analysieren,
@@ -85,7 +64,8 @@ Nach erfolgreicher Teilnahme am Modul können Studierende mobile Anwendungen ent
 Dies versetzt sie in die Lage, in weiteren Studienprojekten, der Abschlussarbeit oder im Beruf mobile Anwendungen und Medien mit Blick auf deren spezielle Nutzungskontexte zu konzipieren, zu entwerfen und zu entwickeln.
 
 ## Inhalt
-App components & architecture
+
+### App components & architecture
 - Types of apps
 - App components
 - Patterns MVC, MVP, MVVM
@@ -97,14 +77,14 @@ App components & architecture
 - Concurrency and coroutines
 - Foreground and background processes
 
-App Development
+### App Development
 - Integrated development environment
 - Software development kit
 - Logging and debugging
 - Signing and versioning
 - Using libraries
 
-Communication
+### Communication
 - Networks and data transmission
 - Challenges and strategies
 - Req-res-based architecture
@@ -113,7 +93,7 @@ Communication
 - Backend requirements
 - Phone calls and SMS
 
-Sensors & gadgets
+### Sensors & gadgets
 - Permissions and ethics
 - Sensors and sensor events
 - Using the observer pattern
@@ -122,7 +102,7 @@ Sensors & gadgets
 - Speech input and output
 - Smartwatch and wearables
 
-Management & application usage
+### Management & application usage
 - Mobile human-computer-interaction
 - History and future
 - Mobile ecosystem
@@ -135,9 +115,6 @@ Management & application usage
 - Usage patterns
 - Localization
 - Device management
-
-## Medienformen
-Beamergestützte Vorträge, Rechnergestützte Workshops
 
 ## Literatur
 - Bollmann, Zeppenfeld: Mobile Computing. W3L Verlag, 2015.

@@ -2,7 +2,7 @@
 title: Entwicklung von System-Architekturen
 modulverantwortlich: viet
 modulniveau: bachelor
-kuerzel: ST1
+kuerzel: ESA
 untertitel:
 studiensemester: 4
 kategorie: vertiefung
@@ -26,6 +26,10 @@ meta:
   status: tbd
   authors: viet
   reviewers: viet
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - itm
 ---
 
 ## Kurzbeschreibung
@@ -48,22 +52,22 @@ Gesamtaufwand 150h, davon
 
 ## Angestrebte Lernergebnisse
 
-(WAS) Studierende sollen die Vorgehensweisen für die Entwicklung von System-Architekturen kennenlernen,
-(WOMIT) indem sie Grundkonzepte der Softwaretechnik und Softwarearchitektur analysieren und anwenden, (WOZU) um eigenständig Softwarearchitekturen entwickeln und bewerten zu können.
+(WAS) Studierende sollen die Vorgehensweisen für die Entwicklung von System-Architekturen kennenlernen,
+(WOMIT) indem sie Grundkonzepte der Softwaretechnik und Softwarearchitektur analysieren und anwenden, (WOZU) um eigenständig Softwarearchitekturen entwickeln und bewerten zu können.
 
 ## Inhalt
 
 - Bedeutung von System-Architekturen
-- Beispiele für System-Architekturen
+- Beispiele für System-Architekturen
 - Vorgehensweise bei der Entwicklung von System-Architekturen (V-Modell)
-- Entwurfsprinzipien (SOLID-Prinzpien, Modularität, Abstraktion, ...)
+- Entwurfsprinzipien (SOLID-Prinzpien, Modularität, Abstraktion, ...)
 - Domain Driven Design
 - Architekturmuster (MVC, Schichten, Client/Server, Microservices, ...)
 - Architekturdokumentation, Unified Modelling Language (UML)
 - REST und HTTP
 - Objektorientierter Entwurf
 - Entwurfsmuster (Design Patterns)
-- Qualitätsmetriken
+- Qualitätsmetriken
 - Refactoring
 
 ## Medienformen

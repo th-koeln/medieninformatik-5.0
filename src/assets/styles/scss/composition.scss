@@ -3,7 +3,7 @@ body{
   display: flex;
   flex-direction: column;
 
-  & > *:not(.main-footer, .main-header) {
+  & > *:not(.main-footer, .main-header, #blueimp-gallery) {
     margin: var(--fluid-space-m);
   }
 
@@ -18,6 +18,10 @@ main, aside{
 
 section{
   padding-bottom: var(--fluid-space-m);
+
+  &.is-loose{
+    padding-bottom: var(--fluid-space-xl);
+  }
 }
 
 table{

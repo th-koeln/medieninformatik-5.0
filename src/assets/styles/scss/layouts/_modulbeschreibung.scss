@@ -10,6 +10,10 @@
     margin-bottom: var(--s);
   }
 
+  ul + h3{
+    margin-top: var(--fluid-space-s);
+  }
+
   .module-core-data{
     
     &[class*=is-]{

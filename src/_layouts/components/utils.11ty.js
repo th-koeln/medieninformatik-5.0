@@ -60,3 +60,40 @@ exports.getOpenInNewWindowLink = (item) => {
   return `<a href="${url}" title="Inhalt in neuem Fenster öffnen"><span class="icon icon--inline">open_in_new</span></a>`;
 };
 
+/* Content parsen und mit Snippets anreichern
+############################################################################ */
+
+exports.parseContent = (eleventy, data) => {
+
+  const parser = require('node-html-parser');
+  const { content } = data;
+  
+  const contentWithSnippets = content.replace(/<snippet(.*?)>(.*?)<\/snippet>/g, (match, p1, p2) => {
+    const root = parser.parse(match);
+    const snippetElement = root.querySelector('snippet');
+    const type = snippetElement.getAttribute('type');
+    const snippetCode = require(`../snippets/${type}.11ty.js`);
+
+    return snippetCode.render(eleventy, data, snippetElement.attributes);
+
+  });
+
+  return contentWithSnippets;
+};
+
+
+/* Ersten Buchstaben eines Strings groß schreiben
+############################################################################ */
+
+exports.ucFirst = (string) => {
+  if(!string) return '';
+  return string.charAt(0).toUpperCase() + string.slice(1);
+};
+
+/* Datum formatieren
+############################################################################ */
+
+exports.getDate = (date) => {
+  if(!date) return '';
+  return `${date.getDate()}.${date.getMonth()+1}.${date.getFullYear()}`;
+};

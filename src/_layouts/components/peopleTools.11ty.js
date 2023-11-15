@@ -33,9 +33,8 @@ exports.getPeopleList = (obj) => {
 
   const peopleList = Object.keys(data.people).filter((person) => person !== 'eingesetzterPruefer').sort().map((person) => {
 
-
-    const personModulsSummerTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.studiensemester % 2 === 0);
-    const personModulsWinterTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.studiensemester % 2 === 1);
+    const personModulsSummerTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.angebotImSs === true);
+    const personModulsWinterTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.angebotImWs === true);
     
     const personModulsListWinterTerm = personModulsWinterTerm.map((modul) => {
       return `
@@ -57,8 +56,12 @@ exports.getPeopleList = (obj) => {
       ? `<a href="${data.people[person].personenseite}">${data.people[person].name}</a>`
       : data.people[person].name;
 
+
+    // do not show people without module
+    if ((personModulsListWinterTerm.length + personModulsListSummerTerm.length) == 0) return '';
+
     return `
-      <tr>
+      <tr id="${data.people[person].id}">
         <td>${data.people[person].id}</td>
         <td>${personName}</td>
         <td class="module-list">

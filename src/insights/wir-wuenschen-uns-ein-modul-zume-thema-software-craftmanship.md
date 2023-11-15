@@ -1,5 +1,5 @@
 ---
-title: "Wir wünschen uns ein Modul zume Thema: Software Craftmanship"
+title: "Wir wünschen uns ein Modul zum Thema: Software Craftmanship"
 tags:
   
   - Handlungsbereich: Inhalte

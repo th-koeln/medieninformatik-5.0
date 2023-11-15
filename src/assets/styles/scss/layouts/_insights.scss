@@ -18,12 +18,20 @@
     display: grid;
     gap: var(--fluid-space-s);
     grid-template-columns: repeat(auto-fill,minmax(var(--max-width-card),1fr));
+    padding-bottom: var(--fluid-space-m);
+
+    &.without-tags{
+      .tag{
+        display: none;
+      }
+    }
   }
 
   .insight{
 
     border-top: solid var(--border-width-l) var(--light);
     margin-left: 0;
+    padding-top: var(--half);
     padding-bottom: var(--s);
 
     & + .insight{

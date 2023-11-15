@@ -14,3 +14,5 @@ Der Bachelor Studiengang Medieninformatik ist ein berufsqualifizierendes grundst
 
 Die Medieninformatik ist ein Vermittler zwischen fachlichen Welten. Sie integriert Perspektiven, Konzepte, Methoden und Techniken der Informatik, des Designs, der Psychologie sowie wirtschaftliche Aspekte.
 
+Medieninformatik findet oft sehr nah am Menschen statt und der Mensch steht mit seinen Fähigkeiten und Bedürfnissen in der Regel im Mittelpunkt des Denkens und Handelns. Wer Medieninformatik studieren will, sollte möglichst kommunikationsfreudig, offen, empathisch und kreativ sein, gerne im Team arbeiten und Freude an analytischem und logischem Denken und Handeln haben. Medieninformatiker:innen arbeiten in Teams oft an der Schnittstelle zu verschiedenen Fachspezialist:innen, weil sie in der Regel ein sehr gutes Verständnis der verschiedenen Fachperspektiven haben.
+
