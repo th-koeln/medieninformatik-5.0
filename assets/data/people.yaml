@@ -267,7 +267,7 @@ hwe:
     personenseite: 'https://www.th-koeln.de/personen/hartmut.westenberger/'
     
 cwe:
-    id: hwe
+    id: cwe
     status: prof
     name: 'Prof. Dr. Christina Werner'
     avatar: 'https://www.th-koeln.de/pseimg/e04761e7386c45500908c079be601b1c7286a65d.png'
