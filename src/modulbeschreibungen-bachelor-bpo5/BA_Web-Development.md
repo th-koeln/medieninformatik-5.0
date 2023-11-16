@@ -9,7 +9,7 @@ kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
-empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung
+empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung 1 und 2, Datenbankensysteme, Kommunikationstechnik und Netze
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
@@ -27,11 +27,14 @@ studienleistungen:
     zweitpruefer: maa, nkuhn, mfaske
     datum: ende
 meta:
-  status: tbd  
+  status: ok  
   authors: viet
   reviewers: viet
 angebotImWs: false
 angebotImSs: true
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
 ---
 ## Kurzbeschreibung
 
@@ -51,7 +54,7 @@ Gesamtaufwand 150h, davon
 
 ## Angestrebte Lernergebnisse
 
-(WAS) Studierenden können eine vollständige Webanwendung entwickeln und implementieren, 
+(WAS) Studierenden können eine vollständige Webanwendung entwickeln und implementieren,
 
 (WOMIT) indem Sie
 

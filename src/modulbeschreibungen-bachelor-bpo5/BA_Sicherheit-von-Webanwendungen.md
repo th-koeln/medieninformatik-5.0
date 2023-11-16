@@ -9,7 +9,7 @@ kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
-empfohleneVoraussetzungen: Algorithmen und Programmierung 1 & 2, Mobile Computing, Grundlagen des Webs, Frameworks, Daten und Dienste im Web, Praktische IT-Sicherheit
+empfohleneVoraussetzungen: Algorithmen und Programmierung 1 & 2, Mobile Computing, Web Development, IT-Sicherheit
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpf
@@ -23,12 +23,10 @@ studienleistungen:
     zweitpruefer: sk
     datum: vereinbarung
 meta:
-  status: tbd  
+  status: ok  
   authors: viet
   reviewers: viet
-
 ---
-
 ## Kurzbeschreibung
 
 Die Lehrveranstaltung führt in die gängige Angriffsvektoren auf Webanwendungen und deren Gegenmaßnahmen.

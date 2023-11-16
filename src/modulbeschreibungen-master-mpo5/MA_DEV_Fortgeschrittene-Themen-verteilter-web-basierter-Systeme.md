@@ -20,7 +20,7 @@ studienleistungen:
     zweitpruefer: cn
     datum: vereinbarung
 meta:
-  status: rfreview   
+  status: ok   
   authors: viet
   reviewers: viet
 ---

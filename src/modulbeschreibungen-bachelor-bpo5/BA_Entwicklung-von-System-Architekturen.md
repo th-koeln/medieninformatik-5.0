@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: ESA
 untertitel:
 studiensemester: 4
-kategorie: vertiefung
+kategorie: Grundlagen
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
@@ -23,18 +23,20 @@ studienleistungen:
     zweitpruefer: sb
     datum: ss-2
 meta:
-  status: tbd
+  status: ok
   authors: viet
   reviewers: viet
 angebotImWs: false
 angebotImSs: true
 weitereStudiengaenge: 
   - itm
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
 ---
-
 ## Kurzbeschreibung
 
-Die Lehrveranstaltung führt in die Grundlagen der Softwaretechnik bzw. Softwarearchitektur ein. 
+Die Lehrveranstaltung führt in die Grundlagen der Softwaretechnik bzw. Softwarearchitektur ein.
 
 ## Lehrform/SWS
 

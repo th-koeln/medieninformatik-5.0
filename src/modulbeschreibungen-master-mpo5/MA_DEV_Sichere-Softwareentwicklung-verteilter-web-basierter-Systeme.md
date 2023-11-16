@@ -21,7 +21,7 @@ studienleistungen:
     zweitpruefer: sk
     datum: vereinbarung
 meta:
-  status: rfreview
+  status: ok
   authors: viet
   reviewers: cn
 ---
@@ -44,15 +44,16 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-(WAS) Studierende können Sicherheitsgutachten über den gesamten Softwareentwicklungsprozess erstellen, 
+(WAS) Studierende können Sicherheitsgutachten über den gesamten Softwareentwicklungsprozess erstellen,
 
 (WOMIT) indem sie
+
 * grundlegende Kenntnisse zur Gestaltung eines sicheren Softwareentwicklungsprozesses für Webanwendungen und Web Services anwenden.
 * Sicherheitsanforderungen identiziereren und ins Requirements Engineering integrieren
 * Architekturen, Code, Testergebnisse und Überwachungsereignisse von verteilter, web-basierte Softwaresystemen manuell analysieren
 * den sicheren Umgang mit automatischen Sicherheitsevaluationsstools wie SAST, DAST, SCA und Fuzzing beherrschen,
 
-(WOZU) um später qualitativ hochwertige Sicherheitskonzepte sowie Sicherheitsbewertungen zu verfassen mit dem Ziel Entwickler, Architekten, Requirements Engineers und Testingenuiere bei der sicheren von Entwicklung  von komplexen Softwaresytemen zu unterstützen. 
+(WOZU) um später qualitativ hochwertige Sicherheitskonzepte sowie Sicherheitsbewertungen zu verfassen mit dem Ziel Entwickler, Architekten, Requirements Engineers und Testingenuiere bei der sicheren von Entwicklung  von komplexen Softwaresytemen zu unterstützen.
 
 ## Inhalt
 

@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: uwm, vos, maa, simonschulte
     datum: ende
 meta:
-  status: rfreview
+  status: ok
 ---
 ## Kurzbeschreibung
 

@@ -967,7 +967,7 @@ ul.hero-list > li + li {
 }
 .modulbeschreibung .competence-table tbody tr td, .modulbeschreibung .competence-table tbody tr th {
   border-top: none;
-  padding: var(--quat);
+  padding-top: 0;
 }
 .modulbeschreibung .competence-table tbody tr td.has-border, .modulbeschreibung .competence-table tbody tr th.has-border {
   border-top: solid var(--border-width-s) var(--dark);
