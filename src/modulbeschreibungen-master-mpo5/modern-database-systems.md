@@ -17,6 +17,7 @@ angebotImSs: true
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 weitereStudiengaenge: 
   - ds

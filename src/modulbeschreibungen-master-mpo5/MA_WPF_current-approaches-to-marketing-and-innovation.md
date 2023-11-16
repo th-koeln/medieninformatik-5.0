@@ -17,6 +17,7 @@ empfohleneVoraussetzungen: Basic knowledge of marketing as a business function
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 weitereStudiengaenge: 
   - ds

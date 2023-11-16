@@ -19,6 +19,7 @@ empfohleneVoraussetzungen: database, programming, data warehouse and data mining
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 weitereStudiengaenge: 
   - ds

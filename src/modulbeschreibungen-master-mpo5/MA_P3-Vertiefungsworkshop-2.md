@@ -20,6 +20,7 @@ empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), S
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 weitereStudiengaenge: 
   - ds

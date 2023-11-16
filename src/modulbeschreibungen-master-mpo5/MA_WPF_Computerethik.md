@@ -13,6 +13,7 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 infourl: 
 studienleistungen:
   Einzelleistung:

@@ -20,6 +20,7 @@ empfohleneVoraussetzungen: Knowhow im Bereich Controlling
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 weitereStudiengaenge: 
   - ds

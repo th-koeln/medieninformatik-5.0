@@ -16,6 +16,7 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 studienleistungen:
   Einzelleistung:
     art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)

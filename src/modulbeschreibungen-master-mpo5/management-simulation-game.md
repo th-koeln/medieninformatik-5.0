@@ -14,6 +14,7 @@ published: true
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 angebotImWs: true
 angebotImSs: 

@@ -19,6 +19,7 @@ empfohleneVoraussetzungen:
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 weitereStudiengaenge: 
   - ds

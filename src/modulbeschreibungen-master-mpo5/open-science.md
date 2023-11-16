@@ -22,6 +22,7 @@ veranstaltungsform:
 
 parent: WAMO
 schwerpunkt:
+kategorie: wahl
 
 lehrmethoden:
 
