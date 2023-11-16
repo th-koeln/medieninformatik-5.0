@@ -1,20 +1,107 @@
 /* Kompetenzen einfügen
 ############################################################################ */
 
+const handlungsfelderMap = new Map([
+  ['Designing for User Experiences','DUX'],
+  ['Developing Interactive and Distributed Systems', 'DEV'],
+  ['Exploring Advanced Interactive Media', 'EXA'],
+  ['Driving Creation Process','CREA'],
+  ['Enhancing Interactions on Different Scales', 'INDI'],
+]);
+
+const bereicheMap = new Map([
+  ["Anforderungen und Bedarfe", "anforderungenBedarfe"], 
+  ["Konzepte", "konzepte"],
+  ["Gestaltung", "gestaltung"],
+  ["Technologie", "technologie"],
+  ["Entwurf", "entwurf"],
+  ["Implementierung", "implementierung"],
+  ["Innovation", "innovation"],
+  ["Management", "management"],
+  ["Kommunikation", "kommunikation"],
+  ["Medien", "medien"],
+  ["Exploration & Kreativität", "explorationKreativitaet"],
+  ["Prototyping", "prototyping"],
+  ["Analyse, Studien und Experimente", "analyseStudienExperimente"],
+  ["Situated Interaction", "situatedInteraction"],
+  ["Ethik und Recht", "ethikRcht"],
+  ["Selbstlernen", "selbstlernen"],
+]);
+
+
+const aggregateKompetenzen = (kompetenzen) => {
+  const handlungsfeldData = {};
+  const handlungsfeldDataOverall = {};
+  const bereichsData = {};
+  const bereichsDataOutcome = {};
+
+  kompetenzen.forEach(kompetenzData => {
+    const handlungsfeld = kompetenzData["Handlungsfeld"];
+    const handlungsfeldKuerzel = handlungsfelderMap.get(handlungsfeld);
+
+    const bereich = kompetenzData["Bereich"];
+    const bereichKuerzel = bereicheMap.get(bereich);
+
+    const braucht = kompetenzData["braucht"];
+    const liefert = kompetenzData["liefert"];
+
+    // Aggregation Handlungsfelder
+    if(!handlungsfeldData[handlungsfeldKuerzel]) {
+      handlungsfeldData[handlungsfeldKuerzel] = {'braucht': 0, 'liefert': 0};
+    }
+    handlungsfeldData[handlungsfeldKuerzel]["braucht"] += braucht; 
+    handlungsfeldData[handlungsfeldKuerzel]["liefert"] += liefert; 
+
+    // Aggregation Bereich – braucht und liefert
+    if(!bereichsData[bereichKuerzel]) {
+      bereichsData[bereichKuerzel] = {'braucht': 0, 'liefert': 0};
+    }
+    bereichsData[bereichKuerzel]["braucht"] += braucht; 
+    bereichsData[bereichKuerzel]["liefert"] += liefert; 
+
+    // Aggregation Bereich – nur liefert
+    if(!bereichsDataOutcome[bereichKuerzel]) {
+      bereichsDataOutcome[bereichKuerzel] = 0;
+    }
+    bereichsDataOutcome[bereichKuerzel]+= liefert; 
+    
+    // Aggregation Handlungsfelder Overall: Handlungsfeld und Bereich (nur liefert)
+    if(!handlungsfeldDataOverall[handlungsfeldKuerzel]) {
+      handlungsfeldDataOverall[handlungsfeldKuerzel] = {};
+    }
+    if(!handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel]) {
+      handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel] = 0;
+    }
+
+    handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel] += liefert;
+        
+  });
+
+  return {
+    "handlungsfelder": handlungsfeldData,
+    "bereiche": bereichsData,
+    "bereicheOutcome": bereichsDataOutcome,
+    "handlungsfelderOverall": handlungsfeldDataOverall,
+  };
+};
+
 exports.addCompetences = (data) => {
   const kuerzel = data.kuerzel ;
-  const modulKompetenzen = data["modulkompetenzen-bachelor"];
+  const modulKompetenzen = {...data["modulkompetenzen-bachelor"], ...data["modulkompetenzen-master"]};
+
   if(! modulKompetenzen[kuerzel]) return data;
 
   const modulkompetenzenWithImpact = modulKompetenzen[kuerzel].filter(item => {
     return item.braucht > 0 || item.liefert > 0;
   });
 
+  const aggregatedKompetenzen = aggregateKompetenzen(modulkompetenzenWithImpact);
   const modulKompetenzenObject = {
     "all": modulkompetenzenWithImpact,
+    "handlungsfelderOverall": aggregatedKompetenzen["handlungsfelderOverall"],
   };
-  data.modulkompetenzen = modulKompetenzenObject;
-
+  data.kompetenzen = modulKompetenzenObject;
+  
   return data;
 };
 

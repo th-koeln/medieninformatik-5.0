@@ -1,24 +1,28 @@
 /* Tables
 ###########################################################################  */
 
-table{
-  th{
+table {
+  th {
     text-align: left;
   }
 
-  th, td{
+  th,
+  td {
     padding: var(--xs);
   }
 
-  tbody{
+  tbody {
+
     tr td,
-    tr th{
+    tr th {
       border-top: solid var(--border-width-s) var(--darken);
     }
   }
 
-  &.is-narrow{
-    th, td{
+  &.is-narrow {
+
+    th,
+    td {
       padding: var(--quat);
     }
   }
@@ -27,32 +31,33 @@ table{
 /* Table Module List
 ###########################################################################  */
 
-.table-module-list{
+.table-module-list {
 
-  *{
+  * {
     line-height: var(--lh-semi-tight);
     vertical-align: top;
   }
 
-  .module-title{
+  .module-title {
     font-weight: var(--fw-light);
     margin-bottom: var(--quat);
     font-size: var(--m);
   }
 
-  .module-exam{
+  .module-exam {
     margin-bottom: 0;
   }
 
-  p{
+  p {
     margin-bottom: var(--half);
   }
 
-  .is-small{
+  .is-small {
     font-size: smaller;
   }
 
-  th:first-child, td:first-child{
+  th:first-child,
+  td:first-child {
     padding-left: 0;
   }
 }
@@ -60,37 +65,60 @@ table{
 /* Table Curriculum
 ###########################################################################  */
 
-.table-curriculum{
-
+.table-curriculum {
+  
   width: 100%;
 
-  thead{
+  thead {
     background-color: var(--darkest);
 
-    *{
+    * {
       color: var(--lighter);
     }
   }
 
-  .unit{
+  .unit {
     background-color: var(--darker);
 
-    *{
+    * {
       color: var(--lighter);
     }
   }
 
-  th{
+  th {
     font-weight: var(--fw-normal);
   }
 
-  td{
+  td {
     text-align: center;
   }
 
   .is-fs-1,
   .is-fs-3,
-  .is-fs-5{
+  .is-fs-5 {
     background-color: var(--darken);
+  }
+
+
+  th.is-vertical {
+
+
+    /* Something you can count on */
+    height: 25ch;
+    white-space: nowrap;
+
+    & > div {
+      transform: 
+        /* Magic Numbers */
+        translate(0, 11ch)
+        /* 45 is really 360 - 45 */
+        rotate(-90deg);
+      width: 30px;
+
+      & > span {
+        
+        padding: 5px 10px;
+      }
+    }
   }
 }

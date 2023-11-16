@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const pathes = {
   "master": {
-    "src": "./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-bachelor/",
+    "src": "./kompetenzen/csv-exports-from-numbers/kompetenzen-in-modulen-mi5.0-master/",
     "dist": "./src/_data/modulkompetenzen-master/"
   },
   "bachelor": {

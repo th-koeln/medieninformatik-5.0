@@ -12,6 +12,8 @@ module.exports = {
 		
 		data = moduleTools.addCompetences(data);
 
+		const kompetenzen = data.kompetenzen && data.kompetenzen.handlungsfelderOverall ? data.kompetenzen.handlungsfelderOverall : false;
+
 		const createRow = (label, value) => {
 			if(!value) return "";
 			const val = typeof value === 'string' && value.match(/^https/)
@@ -29,7 +31,7 @@ module.exports = {
 		const getModulkompetenzen = (modulkompetenzen) => {
 			let lastHandlungsfeld = '';
 			let lastBereich = '';
-
+			
 			const list = modulkompetenzen.all.map(item => {
 
 				const displayedHandlungsfeld = item.Handlungsfeld !== lastHandlungsfeld ? item.Handlungsfeld : '';
@@ -99,12 +101,12 @@ module.exports = {
 			? `<h2>Lehrmethoden</h2><ul>${getList(data.lehrmethoden).join('')}</ul>` : '';
 
 
-		const modulkompetenzen = !data.modulkompetenzen || data.modulkompetenzen.all.length < 2 ? '' 
+		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' 
 			: `
 				<h2>Geförderter Kompetenzerwerb</h2>
 
 				<p>Die Studierenden … </p>
-				<table class="competence-table">${getModulkompetenzen(data.modulkompetenzen)}</table>`;
+				<table class="competence-table">${getModulkompetenzen(data.kompetenzen)}</table>`;
 
 		return `
 			<main>

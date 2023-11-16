@@ -489,6 +489,13 @@ blockquote {
   font-size: small;
 }
 
+/* Sticky
+############################################################################ */
+.is-sticky {
+  position: sticky;
+  top: 0;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -608,14 +615,16 @@ table {
 table th {
   text-align: left;
 }
-table th, table td {
+table th,
+table td {
   padding: var(--xs);
 }
 table tbody tr td,
 table tbody tr th {
   border-top: solid var(--border-width-s) var(--darken);
 }
-table.is-narrow th, table.is-narrow td {
+table.is-narrow th,
+table.is-narrow td {
   padding: var(--quat);
 }
 
@@ -639,7 +648,8 @@ table.is-narrow th, table.is-narrow td {
 .table-module-list .is-small {
   font-size: smaller;
 }
-.table-module-list th:first-child, .table-module-list td:first-child {
+.table-module-list th:first-child,
+.table-module-list td:first-child {
   padding-left: 0;
 }
 
@@ -670,6 +680,18 @@ table.is-narrow th, table.is-narrow td {
 .table-curriculum .is-fs-3,
 .table-curriculum .is-fs-5 {
   background-color: var(--darken);
+}
+.table-curriculum th.is-vertical {
+  /* Something you can count on */
+  height: 25ch;
+  white-space: nowrap;
+}
+.table-curriculum th.is-vertical > div {
+  transform: translate(0, 11ch) rotate(-90deg);
+  width: 30px;
+}
+.table-curriculum th.is-vertical > div > span {
+  padding: 5px 10px;
 }
 
 /* Title & Subtitle
