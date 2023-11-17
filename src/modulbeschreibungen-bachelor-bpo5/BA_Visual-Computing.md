@@ -8,7 +8,7 @@ kategorie: grundlagen
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 5
-voraussetzungenNachPruefungsordnung: 
+voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung 1, Mathematik 1, Theoretische Informatik, Screendesign
 published: true
 layout: modulbeschreibung.11ty.js
@@ -28,13 +28,15 @@ meta:
   reviewers: Florian, Christian
 besonderheiten: 
 praesenzZeit: 72
-selbstStudium: 108
+selbstStudium: 78
 angebotImWs: false
 angebotImSs: true
-weitereStudiengaenge: 
+weitereStudiengaenge:
+  - i
 lehrmethoden:
   - Vermittlung der Theorie in der Vorlesung
   - Praktische Bearbeitung im Workshop
+  - Wissenschaftliche Veröffentlichungen
 lehrform:
   - Vorlesung 2 SWS
   - Workshop 2 SWS    
@@ -43,10 +45,10 @@ lehrform:
 ## Learning Outcome
 Die Studierenden
 
-- können Anforderungen an Anwendungen im Visual Computing formulieren, indem Sie die Kenntnisse der visuellen menschlichen Wahrnehmung in Beziehung setzen zu Möglichkeiten der technischen Umsetzung, um interaktive Systeme entwerfen und umsetzen zu können.
-- können Software für moderne Grafikhardware entwickeln, indem Sie mathematisches Wissen über affine Transformationen, sowie Kenntnisse von Beleuchtungsmodellen in eigene GLSL Shader zusammenführen, um interaktive 3D Grafikanwendungen zu implementieren.
-- können Methoden zur Bildverarbeitung anwenden, indem Sie bestehende Algorithmen mithilfe von OpenCV einsetzen und kombinieren, um Anwendungen im Bereich der Bilderkennung umzusetzen.
-- sind in der Lage, programmiertechnische Umsetzungen im Visual Computing zu analysieren und Lösungswege zu kommunizieren, um im Team visuelle Anwendungen entwerfen, umsetzen und verbessern können.
+- (WAS) können Anforderungen an Anwendungen im Visual Computing formulieren, (WOMIT) indem Sie die Kenntnisse der visuellen menschlichen Wahrnehmung in Beziehung setzen zu Möglichkeiten der technischen Umsetzung, (WOZU) um interaktive Systeme entwerfen und umsetzen zu können.
+- (WAS) können Software für moderne Grafikhardware entwickeln, (WOMIT) indem Sie mathematisches Wissen über affine Transformationen, sowie Kenntnisse von Beleuchtungsmodellen in eigene GLSL Shader zusammenführen, (WOZU) um interaktive 3D Grafikanwendungen zu implementieren.
+- (WAS) können Methoden zur Bildverarbeitung anwenden, (WOMIT) indem Sie bestehende Algorithmen mithilfe von OpenCV einsetzen und kombinieren, (WOZU) um Anwendungen im Bereich der Bilderkennung umzusetzen.
+- (WAS) sind in der Lage, programmiertechnische Umsetzungen im Visual Computing zu analysieren und Lösungswege zu kommunizieren, (WOMIT) index Sie wissenschaftliche Ansätze in einem Themengebiet aufarbeiten und diskutieren, (WOZU) um im Team visuelle Anwendungen entwerfen, umsetzen und verbessern können.
 
 ## Inhalte
 
