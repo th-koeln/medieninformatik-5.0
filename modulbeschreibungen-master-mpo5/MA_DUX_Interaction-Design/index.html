@@ -23,6 +23,8 @@
 
       <link href="/medieninformatik-5.0/assets/styles/libs/blueimp-gallery.min.css" rel="stylesheet">
       <script src="/medieninformatik-5.0/assets/scripts/blueimp-gallery.min.js" defer></script>
+      <script src="/medieninformatik-5.0/assets/scripts/charts.js" defer></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script>
         const settings = {
@@ -195,193 +197,299 @@ Sie können diese in verschiedene Interface-Gestaltungslösungen transformieren,
 <li>PowerPixel, Vorlage von FutureScouting.</li>
 </ul>
 
-					
-				<h2>Geförderter Kompetenzerwerb</h2>
+				</section>
 
-				<p>Die Studierenden … </p>
-				<table class="competence-table">
+				
+				<section class="has-seperator">
+					<h2>Geförderter Kompetenzerwerb</h2>
+
+					<div class="scores-and-charts">
+						<div data-chart='{"DUX":{"anforderungenBedarfe":14,"konzepte":19,"gestaltung":15},"DEV":{"technologie":4},"CREA":{"innovation":4,"management":3,"kommunikation":3},"EXA":{"medien":5,"explorationKreativitaet":7,"prototyping":8},"INDI":{"analyseStudienExperimente":3,"situatedInteraction":8,"ethikRecht":8},"undefined":{"selbstlernen":24}}' data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}'>
+							<canvas id="competence-chart"></canvas>
+						</div>
+						<div class="scores">
+							
+				
+					<div class="score">
+						<h3>Designing for User Experiences</h3>
+						<table>
+						<tr>
+						<th>Anforderungen und Bedarfe</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Konzepte</th>
+						<td>14</td>
+						</tr>
+					
+						<tr>
+						<th>Gestaltung</th>
+						<td>33</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Developing Interactive and Distributed Systems</h3>
+						<table>
+						<tr>
+						<th>Technologie</th>
+						<td>0</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Exploring Advanced Interactive Media</h3>
+						<table>
+						<tr>
+						<th>Medien</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Exploration & Kreativität</th>
+						<td>5</td>
+						</tr>
+					
+						<tr>
+						<th>Prototyping</th>
+						<td>12</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Driving Creation Process</h3>
+						<table>
+						<tr>
+						<th>Innovation</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Management</th>
+						<td>4</td>
+						</tr>
+					
+						<tr>
+						<th>Kommunikation</th>
+						<td>7</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Enhancing Interactions on Different Scales</h3>
+						<table>
+						<tr>
+						<th>Analyse, Studien und Experimente</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Situated Interaction</th>
+						<td>3</td>
+						</tr>
+					
+						<tr>
+						<th>Ethik und Recht</th>
+						<td>11</td>
+						</tr>
+					</table>
+					</div>
+				
+			
+						</div>
+					</div>
+
+					<p>Die Studierenden …</p>
+					<table class="competence-table">
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Designing for User Experiences</th>
 						<th class="bereich has-border">Anforderungen und Bedarfe</th>
 						<td class="has-border">Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Konzepte</th>
 						<td class="has-border">Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Gestaltung</th>
 						<td class="has-border">Haben ein gutes Verständnis für visuelles Design: Farbe, Typografie, Layout, visuelle Hierarchisierung, Designsysteme etc.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können visuelle Darstellung und Präsentation komplexer Daten und Informationen für verschiedene Zielgruppen konzipieren und erstellen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Verfügen über Kenntnisse in der Gestaltung und Umsetzung barrierefreier und inklusiver Interaktionen, Systeme und Medienprodukte.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Developing Interactive and Distributed Systems</th>
 						<th class="bereich has-border">Technologie</th>
 						<td class="has-border">Können hardware-basierte Technologien zur Interaktion mit Computern in verschiedenen Modalitäten einsetzen (bspw. sprachbasierte Interaktion, Tangible Computing, Physical Computing, Sensoren und Aktoren).</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Driving Creation Process</th>
 						<th class="bereich has-border">Innovation</th>
 						<td class="has-border">Haben die Fähigkeit zur Förderung von Kreativität und Innovation: Schaffen einer unterstützenden Umgebung, das Einbringen Kreativitätstechniken, etc.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Management</th>
 						<td class="has-border">Können ein Team zusammenstellen und dieses lauf- und lebensfähig halten.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Kommunikation</th>
 						<td class="has-border">Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Exploring Advanced Interactive Media</th>
 						<th class="bereich has-border">Medien</th>
 						<td class="has-border">Verfügen über tiefe Kenntnisse im Bereich Interaktionsdesign: z.B. multimodaler Interaktion, gestenbasiertem Design, taktilem Feedback, Berührungsschnittstellen oder natürlicher sowie greifbarer Benutzungsschnittstellen.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Exploration & Kreativität</th>
 						<td class="has-border">Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben die Fähigkeit zur Selbstreflexion um Handlungen und Entscheidungen evaluieren und iterieren zu können.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Prototyping</th>
 						<td class="has-border">Beherrschen verschiedene Formen von Prototyping zum frühzeitigen Einholen von Feedback und zum Erklären, Erkunden und erlebbar machen von Ideen und Ansätzen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können angemessene Prototypen für die jeweilige Fragestellung und Entwicklungsphase entwickeln und effizient einsetzen.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Enhancing Interactions on Different Scales</th>
 						<th class="bereich has-border">Analyse, Studien und Experimente</th>
 						<td class="has-border">Kennen verschiedene Methoden der Benutzerforschung, können diese einordnen und anwenden (z.B. Interviews, Umfragen, Beobachtungen, Experience Sampling).</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Situated Interaction</th>
 						<td class="has-border">Haben ein tiefes Verständnis für die Bedürfnisse, Verhaltensweisen und Erwartungen der Benutzer:innen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben die Fähigkeit den Kontext von Interaktionen zu verstehen und darauf zu reagieren.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Ethik und Recht</th>
 						<td class="has-border">Können Interaktion auf Mikro- (Mensch-Produkt), Meso- (Mensch-Unternehmen/ Institution) und Makro-Ebene (Mensch-Gesellschaft) wahrnehmen und gestalten.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben ein Verständnis von ethischen Richtlinien, Standards sowie dem Schutz der Privatsphäre zum Wohlergehen der Nutzer:innen und können dieses in eigenes Handeln integrieren.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.</th>
 						<th class="bereich has-border">Selbstlernen</th>
 						<td class="has-border">Können Erfordernisse und relevante Parameter der Nutzungskontexte der designbezogenen Zielgruppen angemessen erheben, konsolidiert spezifizieren und auf dieser Basis alle relevanten Anforderungen spezifizieren.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können aus den Anforderungen alle Nutzungsobjekte, deren Attribute und Operationen ableiten, anhand von präskriptiven Handlungsmodellen und der Informationen über Nutzungskontexte konzeptuelle Modelle der Benutzungsschnittstelle erstellen und daraus konsistente Interaktionskonzepte ausgestalten.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können gewünschte Aspekte aus den einzelnen Interaktionskonzepten zu einem Gesamkonzept synthetisieren und in multimodale sowie multicodale Benutzungsschnittstellenrepräsentationen umsetzen. </td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können diese Benutzungschnittstellenrepräsentationen mit evaluativen Methoden konsolidieren und finale Designentscheidungen treffen und bergünden.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können Interaktionsdesign in einem diversen, multiprofessionellen Team umsetzten und kritisch reflektieren.</td>
 					</tr>	
-					</table>
+				</table>
 				</section>
 
+			
+				
 				
 				
 
@@ -419,7 +527,7 @@ Sie können diese in verschiedene Interface-Gestaltungslösungen transformieren,
     </nav>
   
       <p class="info">
-        17.11.2023 // 17:04:19
+        17.11.2023 // 19:40:35
       </p>
     </footer>
   

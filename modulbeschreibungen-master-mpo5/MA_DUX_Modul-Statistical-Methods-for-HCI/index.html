@@ -23,6 +23,8 @@
 
       <link href="/medieninformatik-5.0/assets/styles/libs/blueimp-gallery.min.css" rel="stylesheet">
       <script src="/medieninformatik-5.0/assets/scripts/blueimp-gallery.min.js" defer></script>
+      <script src="/medieninformatik-5.0/assets/scripts/charts.js" defer></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script>
         const settings = {
@@ -172,97 +174,168 @@
 <li>&quot;Discovering Statistics Using IBM SPSS Statistics&quot;, Andy Fields, 5th ed.,Sage Publ. 2017</li>
 </ul>
 
-					
-				<h2>Geförderter Kompetenzerwerb</h2>
+				</section>
 
-				<p>Die Studierenden … </p>
-				<table class="competence-table">
+				
+				<section class="has-seperator">
+					<h2>Geförderter Kompetenzerwerb</h2>
+
+					<div class="scores-and-charts">
+						<div data-chart='{"DEV":{"entwurf":7},"CREA":{"management":2,"kommunikation":2},"EXA":{"medien":2,"explorationKreativitaet":4},"INDI":{"analyseStudienExperimente":8,"situatedInteraction":2},"undefined":{"selbstlernen":11}}' data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}'>
+							<canvas id="competence-chart"></canvas>
+						</div>
+						<div class="scores">
+							
+				
+					<div class="score">
+						<h3>Developing Interactive and Distributed Systems</h3>
+						<table>
+						<tr>
+						<th>Entwurf</th>
+						<td>0</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Exploring Advanced Interactive Media</h3>
+						<table>
+						<tr>
+						<th>Medien</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Exploration & Kreativität</th>
+						<td>2</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Driving Creation Process</h3>
+						<table>
+						<tr>
+						<th>Management</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Kommunikation</th>
+						<td>2</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Enhancing Interactions on Different Scales</h3>
+						<table>
+						<tr>
+						<th>Analyse, Studien und Experimente</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Situated Interaction</th>
+						<td>8</td>
+						</tr>
+					</table>
+					</div>
+				
+			
+						</div>
+					</div>
+
+					<p>Die Studierenden …</p>
+					<table class="competence-table">
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Developing Interactive and Distributed Systems</th>
 						<th class="bereich has-border">Entwurf</th>
 						<td class="has-border">Verstehen formale Strukturen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Driving Creation Process</th>
 						<th class="bereich has-border">Management</th>
 						<td class="has-border">Können ein Team zusammenstellen und dieses lauf- und lebensfähig halten.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Kommunikation</th>
 						<td class="has-border">Sind in der Lage Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Exploring Advanced Interactive Media</th>
 						<th class="bereich has-border">Medien</th>
 						<td class="has-border">Haben die Fähigkeit zur Darstellung und Visualisierung großer Datenmengen, um komplexe Daten auf verständliche und ansprechende Weise zu präsentieren.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Exploration & Kreativität</th>
 						<td class="has-border">Haben eine offene Fehlerkultur in der Fehler nicht als Endpunkt betrachtet, sondern als Teil des Lernprozesses verstanden und genutzt werden, um Prozesse zu verbessern, zukünftige Fehler zu vermeiden und exploratives Handeln zu fördern.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Enhancing Interactions on Different Scales</th>
 						<th class="bereich has-border">Analyse, Studien und Experimente</th>
 						<td class="has-border">Kennen verschiedene Methoden der Benutzerforschung, können diese einordnen und anwenden (z.B. Interviews, Umfragen, Beobachtungen, Experience Sampling).</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können schließende Statistik anwenden um Hypothesen in Experimenten zu überprüfen und statistische Zusammenhänge in empirischen Daten auszuwerten.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Situated Interaction</th>
 						<td class="has-border">Haben ein tiefes Verständnis für die Bedürfnisse, Verhaltensweisen und Erwartungen der Benutzer:innen in ihren Nutzungskontexten.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.</th>
 						<th class="bereich has-border">Selbstlernen</th>
 						<td class="has-border">Kennen Maße der Zentralität und der Variablilität von Verteilungen und können geeignete auf konkrete Problemstellungen auswählen, anwenden und Ergebnisse domänenangemessen interpretieren. Kennen Konzepte und Verfahren zur Beschreibung von Stichproben.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen Grundkonzepte der Wahrscheinlichkeit und sind Wahrscheinlichkeitsverteilungen hinsichtlich ihrer wesentlichen Charakteristika benennen und unterscheiden. </td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen relevante Konzepte der Inferenzstatistik und können diese für eine berufspraktische Fragestellungen anwenden</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen einzelne multivariate Verfahren und können diese auf praktische Sachverhalte anwenden.</td>
 					</tr>	
-					</table>
+				</table>
 				</section>
 
+			
+				
 				
 				
 
@@ -300,7 +373,7 @@
     </nav>
   
       <p class="info">
-        17.11.2023 // 17:04:19
+        17.11.2023 // 19:40:35
       </p>
     </footer>
   

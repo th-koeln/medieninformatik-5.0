@@ -23,6 +23,8 @@
 
       <link href="/medieninformatik-5.0/assets/styles/libs/blueimp-gallery.min.css" rel="stylesheet">
       <script src="/medieninformatik-5.0/assets/scripts/blueimp-gallery.min.js" defer></script>
+      <script src="/medieninformatik-5.0/assets/scripts/charts.js" defer></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script>
         const settings = {
@@ -198,43 +200,74 @@ Die Studierenden kennen den Unterschied zwischen 'Barrierefreiheit' und 'Zugäng
 <li>…..</li>
 </ul>
 
-					
-				<h2>Geförderter Kompetenzerwerb</h2>
+				</section>
 
-				<p>Die Studierenden … </p>
-				<table class="competence-table">
+				
+				<section class="has-seperator">
+					<h2>Geförderter Kompetenzerwerb</h2>
+
+					<div class="scores-and-charts">
+						<div data-chart='{"DUX":{"anforderungenBedarfe":5,"konzepte":3},"undefined":{"selbstlernen":14}}' data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}'>
+							<canvas id="competence-chart"></canvas>
+						</div>
+						<div class="scores">
+							
+				
+					<div class="score">
+						<h3>Designing for User Experiences</h3>
+						<table>
+						<tr>
+						<th>Anforderungen und Bedarfe</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Konzepte</th>
+						<td>5</td>
+						</tr>
+					</table>
+					</div>
+				
+			
+						</div>
+					</div>
+
+					<p>Die Studierenden …</p>
+					<table class="competence-table">
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Designing for User Experiences</th>
 						<th class="bereich has-border">Anforderungen und Bedarfe</th>
 						<td class="has-border">Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Konzepte</th>
 						<td class="has-border">Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.</th>
 						<th class="bereich has-border">Selbstlernen</th>
 						<td class="has-border">Kennen die Physiologie menschlicher Sensorik und neuronaler Verarbeitung von Stimuli.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen psychophysikalische Gesetzmässigkeiten und können diese auf designpraktische Fragestellungen anwenden und Konsequenzen ableiten.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können im Wechselspiel zwischen Designfragestellungen für technische Systeme, Nutzungskontextparameter und den Charakteristik der Zielgruppen abschätzen, wie Modalitäten und Codalitäten an den Benutzungsschnittstellen ausgestaltet werden sollte, um ein gewünschtes Maß an Zugänglichkeit für das soziotechnische System zu erhalten.</td>
 					</tr>	
-					</table>
+				</table>
 				</section>
 
+			
+				
 				
 				
 
@@ -272,7 +305,7 @@ Die Studierenden kennen den Unterschied zwischen 'Barrierefreiheit' und 'Zugäng
     </nav>
   
       <p class="info">
-        17.11.2023 // 17:04:19
+        17.11.2023 // 19:40:35
       </p>
     </footer>
   

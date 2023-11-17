@@ -23,6 +23,8 @@
 
       <link href="/medieninformatik-5.0/assets/styles/libs/blueimp-gallery.min.css" rel="stylesheet">
       <script src="/medieninformatik-5.0/assets/scripts/blueimp-gallery.min.js" defer></script>
+      <script src="/medieninformatik-5.0/assets/scripts/charts.js" defer></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script>
         const settings = {
@@ -188,283 +190,404 @@
 <li>Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2023.</li>
 </ul>
 
-					
-				<h2>Geförderter Kompetenzerwerb</h2>
+				</section>
 
-				<p>Die Studierenden … </p>
-				<table class="competence-table">
+				
+				<section class="has-seperator">
+					<h2>Geförderter Kompetenzerwerb</h2>
+
+					<div class="scores-and-charts">
+						<div data-chart='{"DUX":{"anforderungenBedarfe":0,"konzepte":2,"gestaltung":2},"DEV":{"technologie":0,"entwurf":6,"implementierung":3},"CREA":{"innovation":0,"management":4,"kommunikation":5},"EXA":{"medien":7,"explorationKreativitaet":3,"prototyping":2},"INDI":{"analyseStudienExperimente":2,"situatedInteraction":4,"ethikRecht":5,"selbstlernen":2},"undefined":{"selbstlernen":2}}' data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}'>
+							<canvas id="competence-chart"></canvas>
+						</div>
+						<div class="scores">
+							
+				
+					<div class="score">
+						<h3>Designing for User Experiences</h3>
+						<table>
+						<tr>
+						<th>Anforderungen und Bedarfe</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Konzepte</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Gestaltung</th>
+						<td>2</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Developing Interactive and Distributed Systems</h3>
+						<table>
+						<tr>
+						<th>Technologie</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Entwurf</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Implementierung</th>
+						<td>6</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Exploring Advanced Interactive Media</h3>
+						<table>
+						<tr>
+						<th>Medien</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Exploration & Kreativität</th>
+						<td>7</td>
+						</tr>
+					
+						<tr>
+						<th>Prototyping</th>
+						<td>10</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Driving Creation Process</h3>
+						<table>
+						<tr>
+						<th>Innovation</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Management</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Kommunikation</th>
+						<td>4</td>
+						</tr>
+					</table>
+					</div>
+				
+					<div class="score">
+						<h3>Enhancing Interactions on Different Scales</h3>
+						<table>
+						<tr>
+						<th>Analyse, Studien und Experimente</th>
+						<td>0</td>
+						</tr>
+					
+						<tr>
+						<th>Situated Interaction</th>
+						<td>2</td>
+						</tr>
+					
+						<tr>
+						<th>Ethik und Recht</th>
+						<td>6</td>
+						</tr>
+					
+						<tr>
+						<th>Selbstlernen</th>
+						<td>11</td>
+						</tr>
+					</table>
+					</div>
+				
+			
+						</div>
+					</div>
+
+					<p>Die Studierenden …</p>
+					<table class="competence-table">
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Designing for User Experiences</th>
 						<th class="bereich has-border">Anforderungen und Bedarfe</th>
 						<td class="has-border">Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Konzepte</th>
 						<td class="has-border">Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Gestaltung</th>
 						<td class="has-border">Können visuelle Darstellung und Präsentation komplexer Daten und Informationen für verschiedene Zielgruppen konzipieren und erstellen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Verfügen über Kenntnisse in der Gestaltung und Umsetzung barrierefreier und inklusiver Interaktionen, Systeme und Medienprodukte.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Developing Interactive and Distributed Systems</th>
 						<th class="bereich has-border">Technologie</th>
 						<td class="has-border">Können hardware-basierte Technologien zur Interaktion mit Computern in verschiedenen Modalitäten einsetzen (bspw. sprachbasierte Interaktion, Tangible Computing, Physical Computing, Sensoren und Aktoren).</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen State-of-the-art Technologie zur Umsetzung von software-basierten Anwendungen (insb. in den Bereichen Web, Mobile, IoT, AR/VR, AI), können konkurrierende alternative Technologien auswählen und evaluieren, sich neue technologische Möglichkeiten erschließen, diese bewerten, nutzen, und integrieren sowie zukunftsorientiert neue Möglichkeiten screenen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, MQTT).</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Wissen was ein Computer ist und wie Software darauf ausgeführt wird.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Entwurf</th>
 						<td class="has-border">Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Implementierung</th>
 						<td class="has-border">Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können (komplexe) Softwaresysteme im Team entwickeln.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Kennen Grundkonzepte agiler Entwicklung und agilen Arbeitens wie iterative und inkrementelle Entwicklung, selbstorganisierte Teams, Transparente Kommunikation, etc. und können diese in Projekten anwenden.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Driving Creation Process</th>
 						<th class="bereich has-border">Innovation</th>
 						<td class="has-border">Kennen verschiedene Geschäftsmodelle und können einschätzen für welche Art von digitalem Produkt und Markt diese anwendbar sind.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben ein Grundverständnis, wie ein Unternehmen funktioniert.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Management</th>
 						<td class="has-border">Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können ein Team zusammenstellen und dieses lauf- und lebensfähig halten.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können kreative und agile Prozesse hinsichtlich Zeit- und Ressourcenmanagement effizient durchführen und verwalten.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Kommunikation</th>
 						<td class="has-border">Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Sind in der Lage Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben die Fähigkeit effektiv in multidisziplinären Teams zu arbeiten und die verschiedenen Fachperspektiven und -sprachen zu verstehen.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Exploring Advanced Interactive Media</th>
 						<th class="bereich has-border">Medien</th>
 						<td class="has-border">Verfügen über tiefe Kenntnisse im Bereich Interaktionsdesign: z.B. multimodaler Interaktion, gestenbasiertem Design, taktilem Feedback, Berührungsschnittstellen oder natürlicher sowie greifbarer Benutzungsschnittstellen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben vertiefte Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen z.B. in der Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben die Fähigkeit zur Darstellung und Visualisierung großer Datenmengen, um komplexe Daten auf verständliche und ansprechende Weise zu präsentieren.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Exploration & Kreativität</th>
 						<td class="has-border">Können neue und unkonventionelle Ideen generieren, diese (systematisch) variieren und weiter entwickeln.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben eine offene Fehlerkultur in der Fehler nicht als Endpunkt betrachtet, sondern als Teil des Lernprozesses verstanden und genutzt werden, um Prozesse zu verbessern, zukünftige Fehler zu vermeiden und exploratives Handeln zu fördern.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Haben die Fähigkeit zur Selbstreflexion um Handlungen und Entscheidungen evaluieren und iterieren zu können.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Prototyping</th>
 						<td class="has-border">Beherrschen verschiedene Formen von Prototyping zum frühzeitigen Einholen von Feedback und zum Erklären, Erkunden und erlebbar machen von Ideen und Ansätzen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können angemessene Prototypen für die jeweilige Fragestellung und Entwicklungsphase entwickeln und effizient einsetzen.</td>
 					</tr>	
-					
+				
 					<tr class="has-border has-border">
 						<th class="handlungsfeld has-border">Enhancing Interactions on Different Scales</th>
 						<th class="bereich has-border">Analyse, Studien und Experimente</th>
 						<td class="has-border">Kennen verschiedene Methoden der Benutzerforschung, können diese einordnen und anwenden (z.B. Interviews, Umfragen, Beobachtungen, Experience Sampling).</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können schließende Statistik anwenden um Hypothesen in Experimenten zu überprüfen und statistische Zusammenhänge in empirischen Daten auszuwerten.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Situated Interaction</th>
 						<td class="has-border">Können technologische Aspekte, die bei der Implementierung situierter Interaktion eine Rolle spielen, berücksichtigen, dies beinhaltet Kenntnisse über Sensortechnologien, Datenverarbeitung, maschinelles Lernen und die Integration von Software in physische Umgebungen.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können Sensoren und anderen Technologien integrieren, um den aktuellen Kontext, wie den physischen Standort oder die Umweltbedingungen, zu erfassen, um damit umgehen zu können.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Ethik und Recht</th>
 						<td class="has-border">Haben ein Verständnis von ethischen Richtlinien, Standards sowie dem Schutz der Privatsphäre zum Wohlergehen der Nutzer:innen und können dieses in eigenes Handeln integrieren.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können die Wirkung etablierter und neu entwickelter (interaktiver) Medien auf die Gesellschaft reflektieren und in der eigenen Entwicklung berücksichtigen.</td>
 					</tr>	
-					
+				
 					<tr class=" has-border">
 						<th class="handlungsfeld "></th>
 						<th class="bereich has-border">Selbstlernen</th>
 						<td class="has-border">Können wissenschaftlich Arbeiten und Schreiben.</td>
 					</tr>	
-					
+				
 					<tr class=" ">
 						<th class="handlungsfeld "></th>
 						<th class="bereich "></th>
 						<td class="">Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.</td>
 					</tr>	
-					
+				
 					<tr class="has-border ">
 						<th class="handlungsfeld has-border">Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.</th>
 						<th class="bereich "></th>
 						<td class="has-border">Werden in AP1 oder 2 Python Kenntnisse vermittelt? Wäre nicht total verkehrt wenn die Studierende ein ganz klein wenig Python programmieren könnten.</td>
 					</tr>	
-					</table>
+				</table>
 				</section>
 
+			
+				
 				
 				
 
@@ -502,7 +625,7 @@
     </nav>
   
       <p class="info">
-        17.11.2023 // 17:04:19
+        17.11.2023 // 19:40:35
       </p>
     </footer>
   
