@@ -129,7 +129,7 @@ table {
 
 .table-modulmatrix {
   
-  width: 100%;
+  min-width: 150ch;
   line-height: var(--lh-tight);
   border-spacing: 0;
   
@@ -142,6 +142,13 @@ table {
     * {
       color: var(--darkest);
     }
+
+    tr:last-child{
+      th{
+        border-bottom: solid var(--border-width-m) var(--mi-lila);
+      }
+    }
+
   }
 
 

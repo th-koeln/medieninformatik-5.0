@@ -55,6 +55,10 @@ module.exports = {
           <td>todo</td>
           <td>${modul.kreditpunkte}</td>
           <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>
+          
+          <!-- Prüfungen -->
+          <td>${modul.studienleistungen?.Einzelleistung ? "1" : "?"}</td>
+
           <!-- Handlungsfelder -->
           <td>${modul.handlungsfelder?.DUX ? "DUX" : ""}</td>
           <td>${modul.handlungsfelder?.DEV ? "DEV" : ""}</td>
@@ -83,13 +87,13 @@ module.exports = {
           <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.situatedInteraction ? check : ""}</td>
           <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.ethikRecht ? check : ""}</td>
           <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.selbstlernen ? check : ""}</td>
+
           <!-- Zuordnung Studiengangkriterien -->
           <td>${modul.studiengangkriterien?.globalcitizenship ? check : ""}</td>
           <td>${modul.studiengangkriterien?.internationalisierung ? check : ""}</td>
           <td>${modul.studiengangkriterien?.interdisziplinaritaet ? check : ""}</td>
           <td>${modul.studiengangkriterien?.transfer ? check : ""}</td>
-          <!-- Prüfungen -->
-          <td>${modul.studienleistungen?.Einzelleistung ? "1" : "?"}</td>
+
         </tr>
         `
 
@@ -117,21 +121,21 @@ module.exports = {
 
         <section class="has-seperator">
         <h2>Modulmatrix</h2>
-          <table class="table-modulmatrix is-striped is-narrow">
+          <table class="table-modulmatrix is-narrow">
           <thead>
             <tr>
-              <th colspan=4>Modul</th>
+              <th colspan=5>Modul</th>
               <th colspan=5>Handlungsfelder</th>
               <th colspan=16>Zuordnung Kompetenzen</th>
               <th colspan=4>Zuordnung Studiengangkriterien</th>
-              <th rowspan=2 class="is-vertical"><div><span>Prüfungen</span></div></th>
             </tr>
-            <tr class="is-sticky-row">
+            <tr>
               <!-- Modul -->
               <th class="module-name">Titel</th>
               <th class="is-vertical"><div><span>Pflicht/Wahl</span></div></th>
               <th class="is-vertical"><div><span>ECTS</span></div></th>
               <th class="is-vertical"><div><span>Semester</span></div></th>
+              <th class="is-vertical"><div><span>Prüfungen</span></div></th>
 
               <!-- Handlungsfelder -->
               <th class="is-vertical"><div><span>DUX</span></div></th>
