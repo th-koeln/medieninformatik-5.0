@@ -5,9 +5,11 @@ inToc: true
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
-maxCPS: 90
-showModuleList: true
 
+hideDetailsFachsemester: true
+hideAllModules: true
+
+maxCPS: 90
 studienverlauf:
     - semester:
         label: "1. Semester"

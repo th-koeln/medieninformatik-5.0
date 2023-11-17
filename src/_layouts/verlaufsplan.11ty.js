@@ -57,12 +57,14 @@ module.exports = {
           ${curriculumVerlaufTable}
         </section>
         
-        <section class="has-seperator">
+
+        <section class="has-seperator" ${data.hideDetailsFachsemester ? "hidden" : ""}>
         <h2>Details der Fachsemester</h2>
           ${curriculumVerlaufList}
         </section>
 
-        <section class="has-seperator">
+
+        <section class="has-seperator" ${data.hideAllModules ? "hidden" : ""}>
           <h2>Alle Module</h2>
           ${allModuls}
         </section>
