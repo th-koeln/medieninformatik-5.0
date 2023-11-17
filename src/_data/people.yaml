@@ -288,6 +288,15 @@ rma:
     personenseite: 'https://www.th-koeln.de/personen/roman.majewski/'
 
 
+sbe:
+    id: sbe
+    status: prof
+    name: 'Prof. Dr. Stefan Bente'
+    avatar: 'https://www.th-koeln.de/pseimg/b0396220808a1541735c9f7004ac8ab45a1bbb53.png'
+    personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
+
+
+
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter, Prof. Dr. Matthias Böhmer, Prof. Dr. Raphaela Groten, Prof. Dr. Florian Niebling, Prof. Dr. Hoai Viet Nguyen, Prof. Dr. Irma Lindt'
