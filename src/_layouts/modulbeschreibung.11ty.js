@@ -12,7 +12,7 @@ module.exports = {
 		
 		data = moduleTools.addCompetences(data);
 
-		const kompetenzen = data.kompetenzen && data.kompetenzen.handlungsfelderOverall ? data.kompetenzen.handlungsfelderOverall : false;
+		// const kompetenzen = data.kompetenzen && data.kompetenzen.handlungsfelderOverall ? data.kompetenzen.handlungsfelderOverall : false;
 
 		const createRow = (label, value) => {
 			if(!value) return "";
@@ -28,10 +28,13 @@ module.exports = {
 			`;
 		};
 
-		const getModulkompetenzen = (modulkompetenzen) => {
+		/* Modulkompetenzen zusammen bauen … dat is ein bisschen kompliziert
+		############################################################################ */
+
+		const getModulkompetenzenList = (modulkompetenzen) => {
 			let lastHandlungsfeld = '';
 			let lastBereich = '';
-			
+
 			const list = modulkompetenzen.all.map(item => {
 
 				const displayedHandlungsfeld = item.Handlungsfeld !== lastHandlungsfeld ? item.Handlungsfeld : '';
@@ -49,9 +52,86 @@ module.exports = {
 						<th class="bereich ${hasBorderBereich}">${displayedBereich}</th>
 						<td class="${hasBorder}">${item.Kompetenz}</td>
 					</tr>	
-					`;
+				`;
 			});
-			return list.join('');
+
+			return list;
+		};
+
+		const getCompetenceScores = (kompetenzen) => {
+
+			const { handlungsfelderMapInverted, handlungsfelderOverall, bereicheMapInverted } = kompetenzen;
+			const scoresHandlungsfelder = {};
+
+			for (const [key, value] of Object.entries(handlungsfelderMapInverted)) {
+				
+				if(!handlungsfelderOverall[key]) continue;
+				const handlungsfeld = handlungsfelderOverall[key];
+				
+				let result = 0;
+				const scoresBereiche = {};
+
+				for (const [key, value] of Object.entries(handlungsfeld)) { 
+					scoresBereiche[key] = result;
+					result += value 
+				};
+				if(result === 0) continue;
+
+				scoresHandlungsfelder[value] = scoresBereiche;
+	
+			}
+
+			const scoresTable = Object.entries(scoresHandlungsfelder).map(([key, values]) => {
+				const valuesTable = Object.entries(values).map(([key, value]) => {
+					return `
+						<tr>
+						<th>${bereicheMapInverted[key]}</th>
+						<td>${value}</td>
+						</tr>
+					`;
+				});
+				return `
+					<div class="score">
+						<h3>${key}</h3>
+						<table>${valuesTable.join('')}</table>
+					</div>
+				`;
+			});
+				
+			return `
+				${scoresTable.join('')}
+			`;
+		};
+
+
+		const modulkompetenzenData = !data.kompetenzen || data.kompetenzen.handlungsfelderOverall.length < 2 
+			? '' : JSON.stringify(data.kompetenzen.handlungsfelderOverall);
+		
+		const handlungsfelderMapInverted = !data.kompetenzen || !data.kompetenzen.handlungsfelderMapInverted 
+			? '' : JSON.stringify(data.kompetenzen.handlungsfelderMapInverted);	
+
+		const getModulkompetenzen = (modulkompetenzen) => {
+
+			const modulkompetenzenList = getModulkompetenzenList(modulkompetenzen);
+			
+			return `
+				<section class="has-seperator">
+					<h2>Geförderter Kompetenzerwerb</h2>
+
+					<div class="scores-and-charts">
+						<div data-chart='${modulkompetenzenData}' data-handlungsfelder='${handlungsfelderMapInverted}'>
+							<canvas id="competence-chart"></canvas>
+						</div>
+						<div class="scores">
+							${getCompetenceScores(data.kompetenzen)}
+						</div>
+					</div>
+
+					<p>Die Studierenden …</p>
+					<table class="competence-table">${modulkompetenzenList.join('')}</table>
+				</section>
+
+			`;
 		};
 	
 		const modulverantwortlich = !data.modulverantwortlich 
@@ -101,12 +181,8 @@ module.exports = {
 			? `<h2>Lehrmethoden</h2><ul>${getList(data.lehrmethoden).join('')}</ul>` : '';
 
 
-		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' 
-			: `
-				<h2>Geförderter Kompetenzerwerb</h2>
-
-				<p>Die Studierenden … </p>
-				<table class="competence-table">${getModulkompetenzen(data.kompetenzen)}</table>`;
+		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' : getModulkompetenzen(data.kompetenzen);
+			
 
 		return `
 			<main>
@@ -122,9 +198,10 @@ module.exports = {
 					${lehrform}
 					${lehrmethoden}
 					${data.content}
-					${modulkompetenzen}
 				</section>
 
+				${modulkompetenzen}
+				
 				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module', this) : ''}
 				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module', this) : ''}
 

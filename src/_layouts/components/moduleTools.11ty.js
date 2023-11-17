@@ -9,6 +9,12 @@ const handlungsfelderMap = new Map([
   ['Enhancing Interactions on Different Scales', 'INDI'],
 ]);
 
+const handlungsfelderMapInverted = {}
+
+handlungsfelderMap.forEach((value, key) => {
+  handlungsfelderMapInverted[value] = key;
+});
+
 const bereicheMap = new Map([
   ["Anforderungen und Bedarfe", "anforderungenBedarfe"], 
   ["Konzepte", "konzepte"],
@@ -24,10 +30,15 @@ const bereicheMap = new Map([
   ["Prototyping", "prototyping"],
   ["Analyse, Studien und Experimente", "analyseStudienExperimente"],
   ["Situated Interaction", "situatedInteraction"],
-  ["Ethik und Recht", "ethikRcht"],
+  ["Ethik und Recht", "ethikRecht"],
   ["Selbstlernen", "selbstlernen"],
 ]);
 
+const bereicheMapInverted = {}
+
+bereicheMap.forEach((value, key) => {
+  bereicheMapInverted[value] = key;
+});
 
 const aggregateKompetenzen = (kompetenzen) => {
   const handlungsfeldData = {};
@@ -99,6 +110,10 @@ exports.addCompetences = (data) => {
   const modulKompetenzenObject = {
     "all": modulkompetenzenWithImpact,
     "handlungsfelderOverall": aggregatedKompetenzen["handlungsfelderOverall"],
+    "handlungsfelderMap": handlungsfelderMap,
+    "handlungsfelderMapInverted": handlungsfelderMapInverted,
+    "bereicheMap": bereicheMap,
+    "bereicheMapInverted": bereicheMapInverted,
   };
   data.kompetenzen = modulKompetenzenObject;
   

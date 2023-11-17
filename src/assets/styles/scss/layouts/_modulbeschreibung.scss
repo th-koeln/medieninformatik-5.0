@@ -13,7 +13,12 @@
   ul + h3{
     margin-top: var(--fluid-space-s);
   }
+}
 
+/* Stammdaten
+############################################################################ */
+
+.modulbeschreibung{
   .module-core-data{
     
     &[class*=is-]{
@@ -53,6 +58,12 @@
       padding-left: var(--xs);
     }
   }
+}
+
+/* Kompetenz Tabelle
+############################################################################ */
+
+.modulbeschreibung{
 
   .competence-table{
     border-spacing: 0;
@@ -60,11 +71,13 @@
 
     th, td{
       vertical-align: top;
+      padding-left: 0;
+      padding-right: 0;
     }
 
     th.handlungsfeld,
     th.bereich{
-      width: 20%;
+      width: 25%;
     }
 
     tbody tr td, tbody tr th{
@@ -79,4 +92,20 @@
   }
 }
 
+/* Scores
+############################################################################ */
 
+.modulbeschreibung{
+  .scores-and-charts{
+    width: var(--max-width-table);
+    
+    padding-top: var(--fluid-space-l);
+    padding-bottom: var(--fluid-space-l);
+
+    @media only screen and (min-width: 42em) { 
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--fluid-space-s);
+    } 
+  }
+}

@@ -27,6 +27,8 @@ exports.getHeader = (eleventy, data) => {
 
       <link href="${eleventy.url('/assets/styles/libs/blueimp-gallery.min.css')}" rel="stylesheet">
       <script src="${eleventy.url('/assets/scripts/blueimp-gallery.min.js')}" defer></script>
+      <script src="${eleventy.url('/assets/scripts/charts.js')}" defer></script>
+      <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script>
         const settings = {

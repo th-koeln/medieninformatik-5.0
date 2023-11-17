@@ -168,6 +168,11 @@ select {
   --mi-orange: #F58700;
   --mi-pink: #d16;
   --mi-blau: #4952e1;
+  --handlungsfeld-dev: var(--mi-blau);
+  --handlungsfeld-dux: var(--mi-pink);
+  --handlungsfeld-exa: var(--mi-lila);
+  --handlungsfeld-crea: var(--mi-orange);
+  --handlungsfeld-indi: var(--mi-gruen);
   --light: #ccc;
   --lighter: #eee;
   --lightest: #fff;
@@ -694,6 +699,79 @@ table.is-narrow td {
   padding: 5px 10px;
 }
 
+/* Table Modul Matrix
+###########################################################################  */
+.table-modulmatrix {
+  min-width: 150ch;
+  line-height: var(--lh-tight);
+  border-spacing: 0;
+}
+.table-modulmatrix thead {
+  background-color: var(--lightest);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.table-modulmatrix thead * {
+  color: var(--darkest);
+}
+.table-modulmatrix thead tr:last-child th {
+  border-bottom: solid var(--border-width-m) var(--mi-lila);
+}
+.table-modulmatrix tbody {
+  z-index: 0;
+}
+.table-modulmatrix th {
+  font-weight: var(--fw-normal);
+  border-left: dotted var(--border-width-s) var(--dark);
+}
+.table-modulmatrix th, .table-modulmatrix td {
+  border-top: solid var(--border-width-s) var(--darken);
+}
+.table-modulmatrix th:first-child, .table-modulmatrix td:first-child {
+  border-left: none;
+}
+.table-modulmatrix td {
+  text-align: center;
+  border-left: dotted var(--border-width-s) var(--dark);
+  position: relative;
+}
+.table-modulmatrix th.is-vertical {
+  position: relative;
+  /* Something you can count on */
+  height: 25ch;
+  width: 3ch;
+  white-space: nowrap;
+}
+.table-modulmatrix th.is-vertical > div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: rotate(-90deg);
+  width: 30px;
+}
+.table-modulmatrix th.is-vertical > div > span {
+  padding: 5px 10px;
+}
+.table-modulmatrix th.module-name {
+  text-align: left;
+  width: 30ch;
+}
+.table-modulmatrix .is-checked {
+  background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.table-modulmatrix .is-checked::before {
+  line-height: 3ch;
+}
+.table-modulmatrix tr:nth-child(even) {
+  background-color: var(--lighten);
+}
+
 /* Title & Subtitle
 ###########################################################################  */
 .title + .subtitle {
@@ -949,6 +1027,9 @@ ul.hero-list > li + li {
 .modulbeschreibung ul + h3 {
   margin-top: var(--fluid-space-s);
 }
+
+/* Stammdaten
+############################################################################ */
 .modulbeschreibung .module-core-data[class*=is-] {
   padding-top: var(--fluid-space-s);
   margin-bottom: var(--fluid-space-m);
@@ -976,6 +1057,9 @@ ul.hero-list > li + li {
 .modulbeschreibung ul.content-meta li {
   padding-left: var(--xs);
 }
+
+/* Kompetenz Tabelle
+############################################################################ */
 .modulbeschreibung .competence-table {
   border-spacing: 0;
   width: var(--max-width-table);
@@ -994,6 +1078,16 @@ ul.hero-list > li + li {
 .modulbeschreibung .competence-table tbody tr td.has-border, .modulbeschreibung .competence-table tbody tr th.has-border {
   border-top: solid var(--border-width-s) var(--dark);
   padding-top: var(--s);
+}
+
+/* Scores
+############################################################################ */
+@media only screen and (min-width: 42em) {
+  .modulbeschreibung .scores-and-charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--fluid-space-s);
+  }
 }
 
 /* Curriculum
