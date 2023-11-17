@@ -12,7 +12,7 @@ date: Last Modified
 published: true
 
 angebotImWs: 
-angebotImSs: 
+angebotImSs: true
 
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen:
@@ -41,6 +41,12 @@ studienleistungen:
     erstpruefer: 
     zweitpruefer: 
     datum:
+
+global_criteria:
+    internationalization: 
+    interdisciplinarity: 
+    digitization: 
+    transfer: 
 participants: 
     min: 5
     max: 25
