@@ -122,3 +122,96 @@ table {
     }
   }
 }
+
+
+/* Table Modul Matrix
+###########################################################################  */
+
+.table-modulmatrix {
+  
+  width: 100%;
+  line-height: var(--lh-tight);
+  border-spacing: 0;
+  
+  thead {
+    background-color: var(--lightest);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    * {
+      color: var(--darkest);
+    }
+  }
+
+
+
+  tbody{
+    z-index: 0;
+  }
+
+  th {
+    font-weight: var(--fw-normal);
+    border-left: dotted var(--border-width-s) var(--dark);
+  }
+
+  th, td{
+    border-top: solid var(--border-width-s) var(--darken);
+
+    &:first-child{
+      border-left: none;
+    }
+  }
+
+  td {
+    text-align: center;
+    border-left: dotted var(--border-width-s) var(--dark);
+    position: relative;
+  }
+
+  th.is-vertical {
+
+    position: relative;
+    /* Something you can count on */
+    height: 25ch;
+    width: 3ch;
+    white-space: nowrap;
+
+    & > div {
+      position: absolute;
+      
+      left: 0;
+      bottom: 0;
+      transform: 
+
+        rotate(-90deg);
+      width: 30px;
+
+      & > span {
+        
+        padding: 5px 10px;
+      }
+    }
+  }
+
+  th.module-name{
+    text-align: left;
+    width: 30ch;
+  }
+
+  .is-checked{
+    background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    &::before{
+      line-height: 3ch;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--lighten);
+  }
+}
