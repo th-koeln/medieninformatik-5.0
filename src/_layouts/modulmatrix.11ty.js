@@ -119,8 +119,7 @@ module.exports = {
           ${data.content}
         </section>
 
-        <section class="has-seperator">
-        <h2>Modulmatrix</h2>
+        <section>
           <table class="table-modulmatrix is-narrow">
           <thead>
             <tr>
@@ -131,7 +130,7 @@ module.exports = {
             </tr>
             <tr>
               <!-- Modul -->
-              <th class="module-name">Titel</th>
+              <th class="module-name"></th>
               <th class="is-vertical"><div><span>Pflicht/Wahl</span></div></th>
               <th class="is-vertical"><div><span>ECTS</span></div></th>
               <th class="is-vertical"><div><span>Semester</span></div></th>
