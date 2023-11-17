@@ -8,7 +8,7 @@ kategorie: grundlagen
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Bachelor
 kreditpunkte: 5
-voraussetzungenNachPruefungsordnung: erfolgreich absolviertes Praktikum
+voraussetzungenNachPruefungsordnung: 
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung 1, Mathematik 1, Theoretische Informatik, Screendesign
 published: true
 layout: modulbeschreibung.11ty.js
@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer: hk
     datum: ende
 meta:
-  status: refactor
+  status: ok
   authors: Florian
   reviewers: Florian, Christian
 besonderheiten: 

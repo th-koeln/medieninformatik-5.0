@@ -96,10 +96,7 @@ module.exports = {
 
         </tr>
         `
-
     }).join("");
-
-
 
     kompetenzSpalten = handlungsfelder.map(hf => {
       return hf.data.competencies.map( cmpt => {

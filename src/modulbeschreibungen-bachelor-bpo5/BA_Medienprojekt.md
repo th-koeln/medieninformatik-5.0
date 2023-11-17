@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: cn
     datum: ende
 meta:
-  status: rfreview
+  status: ok
   authors: Christian
   reviewers: Hans
 besonderheiten: 
@@ -32,7 +32,7 @@ angebotImWs: false
 angebotImSs: true
 weitereStudiengaenge: 
 lehrform:
-  - Seminar/ Workshop 4 SWS
+  - Seminar/ Workshop/ Projekt 4 SWS
 ---
 
 ## Learning Outcome

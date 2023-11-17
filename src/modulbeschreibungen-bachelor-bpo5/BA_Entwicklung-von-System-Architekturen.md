@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: ESA
 untertitel:
 studiensemester: 4
-kategorie: Grundlagen
+kategorie: grundlagen
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
@@ -13,14 +13,14 @@ empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektor
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
-pvl: true
+pvl: false
 veranstaltungsform: 
 infourl: 
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
-    erstpruefer: mw
-    zweitpruefer: sb
+    erstpruefer: viet
+    zweitpruefer: irma
     datum: ss-2
 meta:
   status: ok
@@ -28,31 +28,16 @@ meta:
   reviewers: viet
 angebotImWs: false
 angebotImSs: true
+praesenzZeit: 72
+selbstStudium: 78
 weitereStudiengaenge: 
   - itm
 lehrform:
   - Vorlesung 2 SWS
   - Praktikum 2 SWS
 ---
-## Kurzbeschreibung
 
-Die Lehrveranstaltung führt in die Grundlagen der Softwaretechnik bzw. Softwarearchitektur ein.
-
-## Lehrform/SWS
-
-4 SWS: Vorlesung 2 SWS; Praktikum 2 SWS
-
-max. 15 Studierende/Praktikumsgruppe;
-
-## Arbeitsaufwand
-
-Gesamtaufwand 150h, davon
-
-- 36h Vorlesung
-- 36h Praktikum
-- 78h Selbststudium
-
-## Angestrebte Lernergebnisse
+## Learning Outcomes
 
 (WAS) Studierende sollen die Vorgehensweisen für die Entwicklung von System-Architekturen kennenlernen,
 (WOMIT) indem sie Grundkonzepte der Softwaretechnik und Softwarearchitektur analysieren und anwenden, (WOZU) um eigenständig Softwarearchitekturen entwickeln und bewerten zu können.
@@ -72,10 +57,6 @@ Gesamtaufwand 150h, davon
 - Qualitätsmetriken
 - Refactoring
 
-## Medienformen
-
-- Folienpräsentation
-- Live-Demonstrationen
 
 ## Literatur
 

@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer: bb
     datum: ws-2
 meta:
-  status: refactor  
+  status: ok  
   authors: Wanja
   reviewers: Wanja
 besonderheiten: 
@@ -45,18 +45,8 @@ lehrform:
   - Praktikum 1 SWS
 ---
 
-## Präsenzzeit
-- Vorlesung: 12 Einheiten je 90 Minuten
-- Übung: 12 Einheiten je 45 Minuten
-- Freiwillige Feedbackgespräche: 4 Einheiten je 15-30 Minuten
-- Pflicht-Praktikum: 2 Einheiten je 30 Minuten
-- __Präsenzzeit Gesamt__: 30h
-
-## Selbststudium
-- Aufwand: ca. 120 Stunden für das gesamte Semester
-
 ## Learning Outcome
-(WAS) Die Studierenden sollen über ein einheitliches konsistentes Begriffsgebäude bezüglich der Datenbankthematik verfügen, (WOMIT) indem sie die theoretischen Grundlagen von Datenbanksystemen am Beispiel relationaler und objektrelationaler Datenbanksysteme verstanden haben, insbesondere die relationale Algebra, die Normalisierung sowie funktionale Abhängigkeiten und in der Lage sind, diese Erkenntnisse im Rahmen der Modellierung, Normalisieurng und Implementierung von Datenbankschemata praktisch anzuwenden, (WOZU) um komplexere Datenbankanfragen, Datendefinitionen und Datenänderungen über SQL programmieren können, mit dem Transaktionsbegriff, der Mehrbenutzersynchronisation und Ver- fahren zur Fehlererholung sowie zur Sicherung und der Datenintegrität vertraut sind und Aufgaben der Integriätsprüfung praktisch lösen können und ein erstes Verständnis für SQL-Tu- ning in relationalen Datenbanksystemen entwickeln.
+(WAS) Die Studierenden sollen über ein einheitliches konsistentes Begriffsgebäude bezüglich der Datenbankthematik verfügen, (WOMIT) indem sie die theoretischen Grundlagen von Datenbanksystemen am Beispiel relationaler und objektrelationaler Datenbanksysteme verstanden haben, insbesondere die relationale Algebra, die Normalisierung sowie funktionale Abhängigkeiten und in der Lage sind, diese Erkenntnisse im Rahmen der Modellierung, Normalisieurng und Implementierung von Datenbankschemata praktisch anzuwenden, (WOZU) um komplexere Datenbankanfragen, Datendefinitionen und Datenänderungen über SQL programmieren können, mit dem Transaktionsbegriff, der Mehrbenutzersynchronisation und Verfahren zur Fehlererholung sowie zur Sicherung und der Datenintegrität vertraut sind und Aufgaben der Integriätsprüfung praktisch lösen können und ein erstes Verständnis für SQL-Tuning in relationalen Datenbanksystemen entwickeln.
 
 ## Inhalte
 - Erstellung konzeptioneller Datenmodelle als Entity Relationship-Diagramm

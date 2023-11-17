@@ -17,12 +17,12 @@ veranstaltungsform: vor Ort Seminar bzw. Workshop
 infourl:
 studienleistungen:
   Teamleistung:
-    art: Prüfungsform Präsentation, Prototyp
+    art: Präsentation, Prototyp
     erstpruefer: mlinden
     zweitpruefer: me
     datum: ende
 meta:
-  status: refactor
+  status: ok
   comments:
     - "cn: Das ist jetzt ins zweite Semester gerutscht. Ich hoffe das passt trotzdem. Sonst bitte melden. Melde mich hiermit :) Wie schon zuvor per E-Mail geschrieben, im Sommersemester bekomme ich es leider nicht unter…, daher bitte im Wintersemester (3. Semester) einplanen."
     - "cn: Der Modulname ist WIP. Falls der passt: gut … falls nicht: gerne etwas anderes vorschlagen. Ich kann mit „Product Dimensions“ gut leben, alternativ fände ich „Testing Business Ideas“ aber besser… ;). Oder zu deutsch: «Marktests von Geschäftsideen»"
@@ -42,7 +42,6 @@ lehrform:
   - Seminar/ Workshop 4 SWS
 ---
 
-> cn: Literatur, Prüfungsform und Veranstaltungsform fehlt
 
 ## Learning Outcome
 (WAS) Die Studierenden können innovative Geschäftsideen entwickeln und kriteriengeleitet evaluieren …

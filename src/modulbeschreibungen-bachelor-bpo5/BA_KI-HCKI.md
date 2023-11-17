@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer: jschaible
     datum: ws-2
 meta:
-  status: refactor
+  status: ok
   authors: Daniel, Wanja
   reviewers: Daniel, Wanja, Christian
 besonderheiten: 
@@ -42,13 +42,8 @@ lehrform:
   - Übung 1 SWS    
 ---
 
-> Könntet ihr die Prüfungsform noch eintragen? Ich hab mal mündliche Prüfung eingetragen. Könnt ihr aber noch ändern.
-
 
 ## Learning Outcome
-
-> Christian: Könntet ihr das noch in die [WAS-WOMIT-WOZU Struktur](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/lehre/steckbrief_learning_outcomes.pdf) bringen? 
-
 Die Studierenden können Mensch-zentrierte KI-Systeme entwickeln, indem sie:
 - Durch Anwendung quantitativer und qualitativer Analysemethoden Bias in Trainingsdaten und Modellen erkennen, 
 - Ethik und Fairness in die Modellentwicklung integrieren, indem sie Algorithmus-Design-Prinzipien nutzen, 
