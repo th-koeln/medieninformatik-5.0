@@ -287,6 +287,12 @@ rma:
     avatar: 'https://www.th-koeln.de/pseimg/1f93c5704fb3ae27a37884c47227f821edefeedf.png'
     personenseite: 'https://www.th-koeln.de/personen/roman.majewski/'
 
+cpa:
+    id: cpa
+    status: prof
+    name: 'Prof. Dr. Dr. Carolin Palmer'
+    avatar: 'https://www.th-koeln.de/mam/bilder/hochschule/aktuelles/nachrichten/2021insideout/2021/fittosize_358_201_b7753e7f3911c54459854761005ddb71_caroline_palmer.jpg'
+    personenseite: 'https://www.th-koeln.de/personen/carolin.palmer/'
 
 sbe:
     id: sbe
