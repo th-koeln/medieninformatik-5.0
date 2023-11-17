@@ -45,51 +45,51 @@ module.exports = {
 
     const modulRows = moduls.map((modulItem) => {
       
-      // modulItem.data = moduleTools.addCompetences(modulItem.data);
       const modul = moduleTools.addCompetences(modulItem.data);
-      
+      const check = '<span class="icon is-checked">check</span>';
 
       return `
         <tr>
           <!-- Modul -->
-          <th><a href="${modulItem.url}">${modul.title}</a></th>
+          <th class="module-name"><a href="${modulItem.url}">${modul.title}</a></th>
           <td>todo</td>
           <td>${modul.kreditpunkte}</td>
-          <th>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</th>
+          <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>
           <!-- Handlungsfelder -->
-          <th>${modul.handlungsfelder?.DUX ? "DUX" : ""}</th>
-          <th>${modul.handlungsfelder?.DEV ? "DEV" : ""}</th>
-          <th>${modul.handlungsfelder?.EXA ? "EXA" : ""}</th>
-          <th>${modul.handlungsfelder?.CREA ? "CREA" : ""}</th>
-          <th>${modul.handlungsfelder?.INDI ? "INDI" : ""}</th>
+          <td>${modul.handlungsfelder?.DUX ? "DUX" : ""}</td>
+          <td>${modul.handlungsfelder?.DEV ? "DEV" : ""}</td>
+          <td>${modul.handlungsfelder?.EXA ? "EXA" : ""}</td>
+          <td>${modul.handlungsfelder?.CREA ? "CREA" : ""}</td>
+          <td>${modul.handlungsfelder?.INDI ? "INDI" : ""}</td>
+          
           <!-- Zuordnung Kompetenzen -->
-          <th>${modul.kompetenzen?.handlungsfelderOverall?.DUX?.anforderungenBedarfe ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall?.DUX?.konzepte ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall?.DUX?.gestaltung ? "x" : ""}</th>
+          <td>${modul.kompetenzen?.handlungsfelderOverall?.DUX?.anforderungenBedarfe ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall?.DUX?.konzepte ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall?.DUX?.gestaltung ? check : ""}</td>
         
-          <th>${modul.kompetenzen?.handlungsfelderOverall.DEV?.technologie ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.DEV?.entwurf ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.DEV?.implementierung ? "x" : ""}</th>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.DEV?.technologie ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.DEV?.entwurf ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.DEV?.implementierung ? check : ""}</td>
         
-          <th>${modul.kompetenzen?.handlungsfelderOverall.EXA?.medien ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.EXA?.explorationKreativitaet ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.EXA?.prototyping ? "x" : ""}</th>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.EXA?.medien ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.EXA?.explorationKreativitaet ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.EXA?.prototyping ? check : ""}</td>
         
-          <th>${modul.kompetenzen?.handlungsfelderOverall.CREA?.innovation ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.CREA?.management ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.CREA?.kommunikation ? "x" : ""}</th>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.CREA?.innovation ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.CREA?.management ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.CREA?.kommunikation ? check : ""}</td>
         
-          <th>${modul.kompetenzen?.handlungsfelderOverall.INDI?.analyseStudienExperimente ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.INDI?.situatedInteraction ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.INDI?.ethikRecht ? "x" : ""}</th>
-          <th>${modul.kompetenzen?.handlungsfelderOverall.INDI?.selbstlernen ? "x" : ""}</th>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.analyseStudienExperimente ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.situatedInteraction ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.ethikRecht ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.selbstlernen ? check : ""}</td>
           <!-- Zuordnung Studiengangkriterien -->
-          <th>${modul.studiengangkriterien?.globalcitizenship ? "x" : ""}</th>
-          <th>${modul.studiengangkriterien?.internationalisierung ? "x" : ""}</th>
-          <th>${modul.studiengangkriterien?.interdisziplinaritaet ? "x" : ""}</th>
-          <th>${modul.studiengangkriterien?.transfer ? "x" : ""}</th>
+          <td>${modul.studiengangkriterien?.globalcitizenship ? check : ""}</td>
+          <td>${modul.studiengangkriterien?.internationalisierung ? check : ""}</td>
+          <td>${modul.studiengangkriterien?.interdisziplinaritaet ? check : ""}</td>
+          <td>${modul.studiengangkriterien?.transfer ? check : ""}</td>
           <!-- Prüfungen -->
-          <th>${modul.studienleistungen?.Einzelleistung ? "1" : "?"}</th>
+          <td>${modul.studienleistungen?.Einzelleistung ? "1" : "?"}</td>
         </tr>
         `
 
@@ -117,18 +117,18 @@ module.exports = {
 
         <section class="has-seperator">
         <h2>Modulmatrix</h2>
-          <table class="table-curriculum is-striped is-narrow">
+          <table class="table-modulmatrix is-striped is-narrow">
           <thead>
             <tr>
               <th colspan=4>Modul</th>
               <th colspan=5>Handlungsfelder</th>
               <th colspan=16>Zuordnung Kompetenzen</th>
               <th colspan=4>Zuordnung Studiengangkriterien</th>
-              <th rowspan=2>Prüfungen</th>
+              <th rowspan=2 class="is-vertical"><div><span>Prüfungen</span></div></th>
             </tr>
             <tr class="is-sticky-row">
               <!-- Modul -->
-              <td>Modul</td>
+              <th class="module-name">Titel</th>
               <th class="is-vertical"><div><span>Pflicht/Wahl</span></div></th>
               <th class="is-vertical"><div><span>ECTS</span></div></th>
               <th class="is-vertical"><div><span>Semester</span></div></th>
