@@ -59,7 +59,7 @@ effort:
     project_work: 60
 ---
 
-
+<!-- https://hops.gm.th-koeln.de/hops/modules/modulelisting/module.php?mkz=1645 -->
 
 ## Learning Outcome
 

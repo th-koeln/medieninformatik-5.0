@@ -1,12 +1,12 @@
 ---
 title: Beautiful Code
 modulverantwortlich: ck
-dozierende: ck
-kuerzel: BCODE
-angebotImSs: true
+dozierende: ck, ald
+kuerzel: BC
+angebotImWs: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
-kreditpunkte: 3
+kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: Algorithmen und Programmierung I und II (Bachelor), Softwaretechnik (Bachelor), einschlägige Entwicklungskenntnisse und -erfahrungen in Projekten im Studienschwerpunkt
 published: true
@@ -15,6 +15,8 @@ layout: modulbeschreibung.11ty.js
 typ: wpm
 parent: WAMO-SP, WAMO
 schwerpunkt: DEV
+kategorie: schwerpunkt
+
 studienleistungen:
   Einzelleistung:
     art: Schriftliche Ausarbeitung (100%)
