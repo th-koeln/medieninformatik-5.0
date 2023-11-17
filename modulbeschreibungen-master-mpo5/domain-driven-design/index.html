@@ -1,0 +1,283 @@
+<!doctype html>
+  <html lang="de">
+    
+    <head>
+      <title>Medieninformatik 5.0 // Domain-Driven Design of Large Software Systems</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta property="og:title" content="Domain-Driven Design of Large Software Systems">
+      <meta property="article:published_time" content="2023-11-17">
+      <meta name="author" content="Medieninformatik 5.0">
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/medieninformatik-5.0/assets/images/favicons/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/medieninformatik-5.0/assets/images/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/medieninformatik-5.0/assets/images/favicons/favicon-16x16.png">
+      <link rel="manifest" href="/medieninformatik-5.0/assets/images/favicons/site.webmanifest">
+      <link rel="mask-icon" href="/medieninformatik-5.0/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+      
+      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+
+      <link href="/medieninformatik-5.0/compiled-assets/main.css" rel="stylesheet">
+      <script src="/medieninformatik-5.0/assets/scripts/main.js" defer></script>
+
+      <link href="/medieninformatik-5.0/assets/styles/libs/blueimp-gallery.min.css" rel="stylesheet">
+      <script src="/medieninformatik-5.0/assets/scripts/blueimp-gallery.min.js" defer></script>
+
+      <script>
+        const settings = {
+          pathPrefix: "/medieninformatik-5.0/",
+        };
+      </script>
+
+    </head>
+  
+    <body class="page modulbeschreibung">
+      
+
+  <header class="main-header">
+    <nav>
+      <ul class="main-navigation">
+        <li><a href="/medieninformatik-5.0/"><i class="icon">home</i></a></li>
+      </ul>
+    </nav>
+  </header>
+  
+      
+			<main>
+				<section class=" module-core-data">
+					<header>
+						<h1>Domain-Driven Design of Large Software Systems <a href="https://github.com/th-koeln/medieninformatik-5.0ty/blob/main/src/modulbeschreibungen-master-mpo5/domain-driven-design.md"><span class="icon icon--inline">edit</span></a></h1>
+					</header>
+					
+					
+			<table class="core-data">
+				
+				<tr>
+					<th>Modulverantwortlich</th>
+					<td>Prof. Dr. Stefan Bente</td>
+				</tr>
+			
+				
+				<tr>
+					<th>Dozent:innen</th>
+					<td>Prof. Dr. Stefan Bente</td>
+				</tr>
+			
+				
+				<tr>
+					<th>Kürzel</th>
+					<td>DDD</td>
+				</tr>
+			
+				
+				
+				
+				<tr>
+					<th>Sprache</th>
+					<td>deutsch</td>
+				</tr>
+			
+				
+				
+				<tr>
+					<th>Kreditpunkte</th>
+					<td>6</td>
+				</tr>
+			
+				
+				<tr>
+					<th>Voraussetzungen nach Prüfungsordnung</th>
+					<td>keine</td>
+				</tr>
+			
+				
+				<tr>
+					<th>Empfohlene Voraussetzungen</th>
+					<td>Familiarity with the software development process</td>
+				</tr>
+			
+				
+				
+				<tr>
+					<th>Studienleistungen</th>
+					<td>
+      project-paper-presentation
+    </td>
+				</tr>
+			
+				
+				<tr>
+					<th>Level</th>
+					<td>Wahl</td>
+				</tr>
+			
+				
+				<tr>
+					<th>Häufigkeit des Angebots</th>
+					<td>jedes Wintersemester</td>
+				</tr>
+			
+				
+				
+				
+				
+				
+				<tr>
+					<th>Letzte Aktualisierung</th>
+					<td>17.11.2023</td>
+				</tr>
+			
+			</table>
+		
+				</section>
+
+				<section class="content">
+					
+					
+					<h2>Learning Outcome</h2>
+<p>After completing this course, the following statement should be true for the particapating students.</p>
+<ul>
+<li>
+<p><strong>As an</strong> experienced programmer, architect, or business analyst I can design a reasonably complex
+greenfield application for a multi-team development setup, using the domain-driven design paradigm,</p>
+</li>
+<li>
+<p><strong>by</strong></p>
+<ul>
+<li>conducting an event storming workshop, in order to capture the business domain,</li>
+<li>evaluating the domain flows and defining appropriate bounded contexts for the teams,</li>
+<li>creating a domain model, using the appropriate design elements,</li>
+<li>defining a high-level component model, using the C4 modelling approach,</li>
+<li>documenting the results of the design process in a paper and a presentation,</li>
+<li>reflecting the pros and cons of that particular design method,</li>
+</ul>
+</li>
+<li>
+<p><strong>so that</strong> I can make sure that I have a sound, sustainable high-level architecture for my business domain.</p>
+</li>
+</ul>
+<h2>Modulinhalt</h2>
+<p>This module introduces the students to the design process for a relatively complex software system,
+by creating a domain-specific design for the problem. Modern software architecture means that you are
+close to coding. Therefore, we will attempt to have a real software development case study in this module.
+You will not have to write code in this module, but you need to know how software development teams
+work, and what their needs and their deliverables are.</p>
+<p>We will cover following methods that are useful in the DDD design process:</p>
+<ul>
+<li>Event Storming</li>
+<li>Bounded Context Specification
+<ul>
+<li>Domain Message Flow Modelling</li>
+<li>Bounded Context Canvas</li>
+<li>Context Map</li>
+</ul>
+</li>
+<li>Component Model
+<ul>
+<li>Aggregate Canvas for each major aggregate</li>
+<li>C4 Level 1 system diagram</li>
+<li>C4 Level 2 container diagram</li>
+</ul>
+</li>
+</ul>
+<p>These methods reflect what many agile consultancies recommend and use today, when doing a greenfield software project.</p>
+<h3>Event Storming</h3>
+<p>We will first apply <code>Event Storming</code> on the given case study, in a 1-day-workshop, and reflect on the results.
+This workshop will be prepared by a dedicated &quot;event storming&quot; subteam. This subteam will also facilitate
+the trial workshop as moderators, with the other course members as participants. The course supervisor will
+coach and support the moderators.</p>
+<h3>Bounded Context Specification</h3>
+<p>We evaluate the Event Storming results and derive bounded contexts (the blueprints for service boundaries) from them.
+As for the event storming, this workshop is prepared and facilitated by a dedicated &quot;bounded context&quot; subteam,
+with the other course members as participants. The course supervisor will coach and support the moderators. As result of this workshop,
+we will have used <code>Domain Message Flow Modelling</code>, set up <code>Bounded Context Canvases</code>, and drawn a <code>Context Map</code>.</p>
+<h3>Component Model</h3>
+<p>Based on the bounded contexts, we will now create a high-level component model. Also this process is prepared and
+facilitated by a dedicated &quot;component model&quot; subteam, coached and supported by the course supervisor.
+As a result, there will be an <code>Aggregate Canvas</code> for each major aggregate, and have created the the <code>C4 Model</code>
+on level 1 (system diagram) and level 2 (container diagram).</p>
+<h2>Lehr- und Lernformen</h2>
+<p>The module is run as a sequence of workshops. The students work on a real-life case study
+(ideally in collaboration with an industry partner). All methods will first be trained in trial workshops,
+then applied to the case study. In addition, the workshops will contain occasional brief lectures
+by the professor, or by guest speakers from the software industry.</p>
+<p>The current module's organizational details are described in the
+<a href="https://www.archi-lab.io/ddd">ArchiLab (Prof. Bente's lab) DDD module page</a>.</p>
+<h2>Zur Verfügung gestelltes Lehrmaterial</h2>
+<ul>
+<li>Lectures &amp; guest lectures</li>
+<li>Literature</li>
+<li>Case study description</li>
+</ul>
+<h2>Weiterführende Literatur</h2>
+<p>Here is a selection of sources for further reading. The essential literature for this module is set in <strong>bold face</strong>.</p>
+<ul>
+<li>Bente, S., Deterling, J., Reitano, M., &amp; Schmidt, M. (2020, March 27). Sieben Weggabelungen—Wegweiser im DDD-Dschungel. JavaSPEKTRUM, 2020(02), 28–31.</li>
+<li><strong>Brandolini, Alberto. Introducing EventStorming</strong>. Leanpub, 2021. <a href="https://leanpub.com/introducing_eventstorming">https://leanpub.com/introducing_eventstorming</a>.</li>
+<li><strong>Brown, Simon. The C4 Model, o.D.</strong> <a href="https://c4model.com/">https://c4model.com/</a></li>
+<li><strong>Brown, Simon. The C4 model for visualising software architecture</strong>. Leanpub, 2023. <a href="https://leanpub.com/visualising-software-architecture">https://leanpub.com/visualising-software-architecture</a></li>
+<li><strong>DDD Crew. Domain-Driven Design Starter Modelling Process</strong>, o.D.<a href="https://github.com/ddd-crew/ddd-starter-modelling-process">https://github.com/ddd-crew/ddd-starter-modelling-process</a></li>
+<li>Esposito, D., &amp; Saltarello, A. (2014). Discovering the Domain Architecture. In Microsoft .NET - Architecting Applications for the Enterprise (2nd edition).
+Microsoft Press. <a href="https://www.microsoftpressstore.com/articles/article.aspx?p=2248811&amp;seqNum=3">https://www.microsoftpressstore.com/articles/article.aspx?p=2248811&amp;seqNum=3</a></li>
+<li>Evans, E. (2015). Domain-Driven Design Reference—Definitions and Pattern Summaries. Domain Language, Inc.
+<a href="http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf">http://domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf</a></li>
+<li><strong>Evans, E. (2003)</strong>. Domain-Driven Design: Tackling Complexity in the Heart of Software (1 edition). Addison-Wesley (the &quot;blue book&quot;).</li>
+<li><strong>Fowler, M. (2014)</strong>. Bounded Context. Martinfowler.Com. <a href="https://martinfowler.com/bliki/BoundedContext.html">https://martinfowler.com/bliki/BoundedContext.html</a></li>
+<li>Lilienthal, C. (2019). Von Monolithen über modulare Architekturen zu Microservices mit DDD. JAX 2020.
+<a href="https://jax.de/blog/microservices/von-monolithen-ueber-modulare-architekturen-zu-microservices-mit-ddd/">https://jax.de/blog/microservices/von-monolithen-ueber-modulare-architekturen-zu-microservices-mit-ddd/</a></li>
+<li>Gil, M. (2023). Awesome EventStorming - Material Collection on GitHub.
+<a href="https://github.com/mariuszgil/awesome-eventstorming">https://github.com/mariuszgil/awesome-eventstorming</a></li>
+<li>Samokhin, V. (2018, January 18). DDD Strategic Patterns: How to Define Bounded Contexts - DZone Microservices. Dzone.Com.
+<a href="https://dzone.com/articles/ddd-strategic-patterns-how-to-define-bounded-conte">https://dzone.com/articles/ddd-strategic-patterns-how-to-define-bounded-conte</a></li>
+<li><strong>Vernon, V. (2013)</strong>. <a name="Vernon13"/>Implementing Domain-Driven Design (01 ed.). Addison Wesley (the &quot;red book&quot;).</li>
+<li><strong>Vernon, V. (2016)</strong>. <a name="Vernon16"/>Domain-Driven Design Distilled (1st ed.). Addison-Wesley (the &quot;green book&quot;).</li>
+<li>Wolff, E. (2016b, November 29). Self-contained Systems: A Different Approach to Microservices. InnoQ Blog.
+<a href="https://www.innoq.com/en/articles/2016/11/self-contained-systems-different-microservices/">https://www.innoq.com/en/articles/2016/11/self-contained-systems-different-microservices/</a></li>
+</ul>
+
+					
+				</section>
+
+				
+				
+
+			</main>
+		
+      
+    <footer class="main-footer">
+      
+    <nav class="inline-navigation">
+      
+      <ul class="item-list is-tight">
+        <li><a href="/medieninformatik-5.0/curricula/bpo5-alternativ/">Alternativer Studienverlaufsplan Bachelor BPO5 (WIP)</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-90CP-persona-Interaction-Design-mit-KI/">Berufsbild »Interaction Design mit Fokus auf Künstliche Intelligenz« (Master of Science)</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-90CP-persona-UX-Consultant/">Berufsbild »UX-Consultant« (Master of Science)</a></li>
+<li><a href="/medieninformatik-5.0/dozentinnen/">Dozent:innen</a></li>
+<li><a href="/medieninformatik-5.0/handlungsfelder/">Handlungsfelder</a></li>
+<li><a href="/medieninformatik-5.0/how-might-we/">How Might We Fragen</a></li>
+<li><a href="/medieninformatik-5.0/insights/">Insights</a></li>
+<li><a href="/medieninformatik-5.0/interviews/">Interviews</a></li>
+<li><a href="/medieninformatik-5.0/kurzbericht/">Kurzbericht</a></li>
+<li><a href="/medieninformatik-5.0/fuer-externe-gutachterinnen/">Material für die externen Gutachter:innen</a></li>
+<li><a href="/medieninformatik-5.0/mpo5-modulmatrix/">Modulmatrix zu den Modulen im Master</a></li>
+<li><a href="/medieninformatik-5.0/stellenausschreibungen/">Stellenausschreibungen</a></li>
+<li><a href="/medieninformatik-5.0/schwerpunkte/">Studienschwerpunkte im Medieninformatik Master</a></li>
+<li><a href="/medieninformatik-5.0/curricula/bpo5/">Studienverlaufsplan Bachelor BPO5 (WIP)</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-120CP/">Studienverlaufsplan Master MPO5 mit 120 CP (WIP)</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-120CP-alternativ/">Studienverlaufsplan Master MPO5 mit 120 CP (alternativ)</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-90CP/">Studienverlaufsplan Master MPO5 mit 90 CP (WIP)</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-90CP-alternativ/">Studienverlaufsplan Master MPO5 mit 90 CP (alternativ)</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-verlaufsplan-po-90CP/">Studienverlaufsplan mit 3 Semestern (90 ECTS) als Anhang für MPO5</a></li>
+<li><a href="/medieninformatik-5.0/curricula/mpo5-verlaufsplan-po-120CP/">Studienverlaufsplan mit 4 Semestern (120 ECTS) als Anhang für MPO5</a></li>
+      </ul>
+    </nav>
+  
+      <p class="info">
+        17.11.2023 // 12:51:25
+      </p>
+    </footer>
+  
+    </body>
+    
+  </html>
