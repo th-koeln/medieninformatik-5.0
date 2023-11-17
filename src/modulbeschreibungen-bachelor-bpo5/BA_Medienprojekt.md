@@ -37,4 +37,5 @@ lehrform:
 
 ## Learning Outcome
 (WAS) Die Studierenden wenden erlernte Konzepte, Techniken und Methoden aus verschiedenen Modulen der Medieninformatik praktisch an, (WOMIT) indem sie ein Medienprojekt mittlerer Größe im Team planen und umsetzen, (WOZU) um kollaborative Arbeits- und Verhaltensweisen zu trainieren, Problemlösungskompetenz und Selbstmanagementfähigkeit zu fördern und praktische Erfahrungen im Projektkontext zu sammeln.
+(WAS) Die Studierenden verteilen die Arbeitsaufgabe auf verschiedene Units bzw. Departments, (WOMIT)indem sie Teilaufgaben identifizieren und unterschiedliche Prozesse erkennen (WOZU) um größere Projekte effizient zu bearbeiten.
 
