@@ -28,29 +28,6 @@ meta:
   reviewers: Christian Kohls
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
 
 ## Kurzbeschreibung
 In einem Projekt wird, basierend auf einem bereits erstellten Konzept, ein „Minimum Viable Product“ entwickelt oder weiterentwickelt.
@@ -81,3 +58,11 @@ Entwicklungsumgebung mit Artefakt-Repository, Kollaborationssysteme
 
 ## Literatur
 Je nach fachlicher Aufgabe
+
+## Lehr- und Lernmethoden
+
+## Präsenzzeit
+? 
+
+## Selbststudium
+? 
