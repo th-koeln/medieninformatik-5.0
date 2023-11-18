@@ -7,14 +7,14 @@ il:
     id: il
     status: prof
     name: 'Prof. Dr. Irma Lindt'
-    avatar: '/img/professoren/lindt.png'
+    avatar: '/professoren/lindt.png'
     personenseite: 'https://www.th-koeln.de/personen/irma.lindt/'
     mi: true
 moe:
     id: moe
     status: prof
     name: 'Prof. Dr. Monika Engelen'
-    avatar: '/img/professoren/engelen.png'
+    avatar: '/professoren/engelen.png'
     personenseite: 'https://www.th-koeln.de/personen/monika.engelen/'
     mi: true
 
@@ -30,13 +30,13 @@ fn:
     status: prof
     name: 'Prof. Dr. Florian Niebling'
     personenseite: 'https://www.th-koeln.de/personen/florian.niebling/'
-    avatar: '/img/professoren/niebling.jpg'
+    avatar: '/professoren/niebling.jpg'
     email: 'florian.niebling@th-koeln.de'
 cn:
     id: cn
     status: prof
     name: 'Prof. Christian Noss'
-    avatar: '/img/professoren/noss.png'
+    avatar: '/professoren/noss.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.noss/'
     mi: true
 vos:
@@ -56,7 +56,7 @@ ck:
     id: ck
     status: prof
     name: 'Prof. Dr. Christian Kohls'
-    avatar: '/img/professoren/kohls.png'
+    avatar: '/professoren/kohls.png'
     personenseite: 'https://www.th-koeln.de/personen/christian.kohls/'
     mi: true
 ald:
@@ -71,13 +71,13 @@ gh:
     status: prof
     name: 'Prof. Dr. Gerhard Hartmann'
     personenseite: 'https://www.th-koeln.de/personen/gerhard.hartmann/'
-    avatar: '/img/professoren/hartmann.png'
+    avatar: '/professoren/hartmann.png'
     mi: true
 hk:
     id: hk
     status: prof
     name: 'Prof. Hans Kornacher'
-    avatar: '/img/professoren/kornacher.png'
+    avatar: '/professoren/kornacher.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.kornacher/'
     mi: true
 erw:
@@ -90,7 +90,7 @@ mw:
     id: mw
     status: prof
     name: 'Prof. Dr. Mario Winter'
-    avatar: '/img/professoren/winter.png'
+    avatar: '/professoren/winter.png'
     personenseite: 'https://www.th-koeln.de/personen/mario.winter/'
     mi: true
 viet:
@@ -98,21 +98,21 @@ viet:
     status: prof
     name: 'Prof. Dr. Hoai Viet Nguyen'
     personenseite: 'https://www.th-koeln.de/personen/viet.nguyen/'
-    avatar: '/img/professoren/viet.jpg'
+    avatar: '/professoren/viet.jpg'
     email: 'viet.nguyen@th-koeln.de'
     mi: true
 uwm:
     id: uwm
     status: wma
     name: 'Uwe Müsse'
-    avatar: '/img/wissmas/uwe-muesse.jpg'
+    avatar: '/wissmas/uwe-muesse.jpg'
     personenseite: 'https://www.th-koeln.de/personen/uwe.muesse/'
     mi: true
 fv:
     id: fv
     status: prof
     name: 'Prof. Dr. Frank Victor'
-    avatar: '/img/professoren/victor.png'
+    avatar: '/professoren/victor.png'
     personenseite: 'https://www.th-koeln.de/personen/frank.victor/'
     mi: true
 lk:
@@ -124,14 +124,14 @@ mboehmer:
     id: mboehmer
     status: prof
     name: 'Prof. Dr. Matthias Böhmer'
-    avatar: '/img/professoren/boehmer.jpg'
+    avatar: '/professoren/boehmer.jpg'
     personenseite: 'https://www.th-koeln.de/personen/matthias.boehmer/'
     mi: true
 bb:
     id: bb
     status: prof
     name: 'Prof. Dr. Birgit Bertelsmeier'
-    avatar: '/img/professoren/bertelsmeier.png'
+    avatar: '/professoren/bertelsmeier.png'
     personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
     mi: true
 
@@ -139,7 +139,7 @@ dpeterson:
     id: dpeterson
     status: wma
     name: 'David Petersen'
-    avatar: '/img/professoren/petersen.png'
+    avatar: '/professoren/petersen.png'
     personenseite: 'https://www.th-koeln.de/personen/david.petersen/'
     mi: true
     
@@ -148,20 +148,20 @@ sk:
     status: prof
     name: 'Prof. Dr. Stefan Karsch'
     personenseite: 'https://www.th-koeln.de/personen/stefan.karsch/'
-    avatar: '/img/professoren/karsch.jpg'
+    avatar: '/professoren/karsch.jpg'
     mi: true
 hls:
     id: hls
     status: prof
     name: 'Prof. Dr. Hans L. Stahl'
-    avatar: '/img/professoren/stahl.png'
+    avatar: '/professoren/stahl.png'
     personenseite: 'https://www.th-koeln.de/personen/hans.stahl/'
     mi: true
 wk:
     id: wk
     status: prof
     name: 'Prof. Dr. Wolfgang Konen'
-    avatar: '/img/professoren/konen.png'
+    avatar: '/professoren/konen.png'
     personenseite: 'https://www.th-koeln.de/personen/wolfgang.konen/'
     mi: true
 as:
@@ -175,7 +175,7 @@ hg:
     status: prof
     name: 'Prof. Dr. Holger Günther'
     personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
-    avatar: '/img/professoren/guenther.jpg'
+    avatar: '/professoren/guenther.jpg'
     mi: true
 bn:
     id: bn
@@ -188,7 +188,7 @@ mbluemm:
     status: prof
     name: 'Prof. Dr. Mirjam Blümm'
     personenseite: 'https://www.th-koeln.de/personen/mirjam.bluemm/'
-    avatar: '/img/professoren/bluemm.png'
+    avatar: '/professoren/bluemm.png'
     mi: true
 
 cfrick:
@@ -202,21 +202,21 @@ dgaida:
     id: dgaida
     status: prof
     name: 'Prof. Dr. Daniel Gaida'
-    avatar: '/img/professoren/gaida.png'
+    avatar: '/professoren/gaida.png'
     personenseite: 'https://www.th-koeln.de/personen/daniel.gaida/'
     mi: false
 hs:
     id: hs
     status: prof
     name: 'Prof. Dr. Horst Stenzel'
-    avatar: '/img/lehrbeauftragte/horststenzel.png'
+    avatar: '/lehrbeauftragte/horststenzel.png'
     personenseite: 'https://www.th-koeln.de/personen/horst.stenzel/'
     mi: false
 dz:
     id: dz
     status: prof
     name: 'Prof. Dr. Dietlind Zühlke'
-    avatar: '/img/professoren/dietlind.png'
+    avatar: '/professoren/dietlind.png'
     personenseite: 'https://www.th-koeln.de/personen/dietlind.zuehlke/'
     mi: false    
 
@@ -224,7 +224,7 @@ jschaible:
     id: jschaible
     status: prof
     name: 'Prof. Dr. Johann Schaible'
-    avatar: '/img/professoren/johann-schaible.jpg'
+    avatar: '/professoren/johann-schaible.jpg'
     personenseite: 'https://www.th-koeln.de/personen/johann.schaible/'
     mi: true
 
@@ -232,7 +232,7 @@ rgroten:
     id: rgroten
     status: prof
     name: 'Prof. Dr. Raphaela Groten'
-    avatar: '/img/professoren/raphaela-groten.jpg'
+    avatar: '/professoren/raphaela-groten.jpg'
     personenseite: 'https://www.th-koeln.de/personen/raphaela.groten/'
     mi: true
 
@@ -240,7 +240,7 @@ seckstein:
     id: seckstein
     status: prof
     name: 'Prof. Dr. Stefan Eckstein'
-    avatar: '/img/professoren/raphaela-groten.jpg'
+    avatar: '/professoren/raphaela-groten.jpg'
     personenseite: 'https://www.th-koeln.de/personen/stefan.eckstein/'
     mi: true
 
@@ -248,7 +248,7 @@ mlinden:
     id: mlinden
     status: prof
     name: 'Prof. Dr. Markus Linden'
-    avatar: '/img/professoren/markus-linden.jpg'
+    avatar: '/professoren/markus-linden.jpg'
     personenseite: 'https://www.th-koeln.de/personen/markus.linden/'
     mi: true
 
