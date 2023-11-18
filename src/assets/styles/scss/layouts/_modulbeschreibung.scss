@@ -80,6 +80,10 @@
       width: 25%;
     }
 
+    th.bereich{
+      font-weight: var(--fw-medium);
+    }
+
     tbody tr td, tbody tr th{
       border-top: none;
       padding-top: 0;
@@ -106,6 +110,77 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: var(--fluid-space-s);
-    } 
+    }
+
+    .chart{
+      padding-right: var(--fluid-space-l);
+      
+    }
+
+    .scores{
+      .description-text{
+        margin-bottom: var(--fluid-space-l);
+      }
+    }
+
+    .score{
+      margin-bottom: var(--s);
+
+      span.score-value-indicator{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: var(--darken);
+      }
+
+      h3{
+        font-size: var(--m);
+        padding-left: var(--s);
+        padding-bottom: var(--half);
+      }
+
+      table{
+
+        overflow: hidden;
+        width: 100%;
+
+        th{
+          font-weight: var(--fw-normal);
+          width: 50%;
+        }
+
+        td{
+          text-align: right;
+          position: relative;
+        }
+
+        th, td{
+          padding-top: var(--quat);
+          padding-bottom: var(--quat);
+        }
+      }
+      
+      &[class*="indicate-as"]{
+        border-left: solid var(--border-width-l) var(--dark);
+      }
+
+      &[class*="indicate-as-dux"]{
+        border-color: var(--handlungsfeld-dux);
+      }
+      &[class*="indicate-as-dev"]{
+        border-color: var(--handlungsfeld-dev);
+      }
+      &[class*="indicate-as-exa"]{
+        border-color: var(--handlungsfeld-exa);
+      }
+      &[class*="indicate-as-crea"]{
+        border-color: var(--handlungsfeld-crea);
+      }
+      &[class*="indicate-as-indi"]{
+        border-color: var(--handlungsfeld-indi);
+      }
+    }
   }
 }

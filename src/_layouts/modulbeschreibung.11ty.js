@@ -26,7 +26,6 @@ module.exports = {
 			`;
 		};
 
-		
 		/* ############################################################################
 		Modulkompetenzen zusammen bauen … dat is ein bisschen kompliziert */
 
@@ -46,10 +45,13 @@ module.exports = {
 				const hasBorderBereich = displayedBereich !== '' ? 'has-border' : '';
 				const hasBorder = hasBorderHandlungsfeld || hasBorderBereich ? 'has-border' : '';
 
+				const idBereich = this.slugify(item.Bereich);
+				const idHandlungsfeld = this.slugify(item.Handlungsfeld);
+
 				return `
 					<tr class="${hasBorderHandlungsfeld} ${hasBorderBereich}">
-						<th class="handlungsfeld ${hasBorderHandlungsfeld}">${displayedHandlungsfeld}</th>
-						<th class="bereich ${hasBorderBereich}">${displayedBereich}</th>
+						<th id="${idHandlungsfeld}" class="handlungsfeld ${hasBorderHandlungsfeld}">${displayedHandlungsfeld}</th>
+						<th id="${idBereich}" class="bereich ${hasBorderBereich}">${displayedBereich}</th>
 						<td class="${hasBorder}">${item.Kompetenz}</td>
 					</tr>	
 				`;
@@ -61,7 +63,7 @@ module.exports = {
 		// Tabelle mit den Kompetenzen pro Handlungsfeld und Chart
 		const getCompetenceScores = (kompetenzen) => {
 
-			const { handlungsfelderMapInverted, handlungsfelderOverall, bereicheMapInverted } = kompetenzen;
+			const { handlungsfelderMap, handlungsfelderMapInverted, handlungsfelderOverall, bereicheMapInverted } = kompetenzen;
 			const scoresHandlungsfelder = {};
 
 			for (const [key, value] of Object.entries(handlungsfelderMapInverted)) {
@@ -72,9 +74,10 @@ module.exports = {
 				let result = 0;
 				const scoresBereiche = {};
 
-				for (const [key, value] of Object.entries(handlungsfeld)) { 
-					scoresBereiche[key] = result;
-					result += value 
+				for (const [key, value] of Object.entries(handlungsfeld)) {
+					if(value === 0) continue;
+					scoresBereiche[key] = value;
+					result += value;
 				};
 				if(result === 0) continue;
 
@@ -83,16 +86,23 @@ module.exports = {
 			}
 
 			const scoresTable = Object.entries(scoresHandlungsfelder).map(([key, values]) => {
+
 				const valuesTable = Object.entries(values).map(([key, value]) => {
+
+					const idBereich = this.slugify(bereicheMapInverted[key]);
+				
 					return `
 						<tr>
-						<th>${bereicheMapInverted[key]}</th>
-						<td>${value}</td>
+						<th><a href="#${idBereich}">${bereicheMapInverted[key]}</a></th>
+						<td><span class="score-value-indicator" style="width: calc(${value} * 5%)"></span><span class="score-value">${value}</span></td>
 						</tr>
 					`;
 				});
+
+				const handlungsfeldId = handlungsfelderMap.get(key);
+				const scoreCssClass = handlungsfeldId.toLowerCase();
 				return `
-					<div class="score">
+					<div class="score indicate-as-${scoreCssClass}">
 						<h3>${key}</h3>
 						<table>${valuesTable.join('')}</table>
 					</div>
@@ -121,15 +131,15 @@ module.exports = {
 					<h2>Geförderter Kompetenzerwerb</h2>
 
 					<div class="scores-and-charts">
-						<div data-chart='${modulkompetenzenData}' data-handlungsfelder='${handlungsfelderMapInverted}'>
+						<div class="chart" data-chart='${modulkompetenzenData}' data-handlungsfelder='${handlungsfelderMapInverted}'>
 							<canvas id="competence-chart"></canvas>
 						</div>
 						<div class="scores">
+							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der Komptenzen finden Sie weiter unten.</p>
 							${getCompetenceScores(data.kompetenzen)}
 						</div>
 					</div>
 
-					<p>Die Studierenden …</p>
 					<table class="competence-table">${modulkompetenzenList.join('')}</table>
 				</section>
 

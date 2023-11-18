@@ -17,6 +17,7 @@ const aggregateData = (rawData, handlungsfelderMapInverted) => {
   for (const [key, value] of Object.entries(handlungsfelderMapInverted)) {
     const handlungsfeld = rawData[key];
     let result = 0;
+    if(!handlungsfeld) continue;
     for (const [key, value] of Object.entries(handlungsfeld)) { result += value };
 
     if(result === 0) continue;
@@ -62,7 +63,7 @@ const showPolarAreaChart = (element) => {
     options: {
       plugins: {
         legend: {
-            display: true,
+            display: false,
             position: 'bottom',
             align: 'start',
             font: {

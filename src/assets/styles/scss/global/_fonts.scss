@@ -1,17 +1,31 @@
 @font-face {
   font-display: swap;
-  font-family: Atkinson;
+  font-family: IBMplex;
   font-style: normal;
-  font-weight: 200;
-  src: url("../assets/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.ttf");
+  font-weight: 300;
+  src: 
+    url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.woff2") format("woff2"),
+    url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-display: swap;
-  font-family: Atkinson;
+  font-family: IBMplex;
   font-style: normal;
-  font-weight: 700;
-  src: url("../assets/fonts/Atkinson_Hyperlegible/AtkinsonHyperlegible-Bold.ttf");
+  font-weight: 500;
+  src: 
+    url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.woff2") format("woff2"),
+    url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: IBMplex;
+  font-style: normal;
+  font-weight: 600;
+  src: 
+    url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2") format("woff2"),
+    url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
@@ -26,3 +40,4 @@
     url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.woff") format("woff"),
     url("../assets/fonts/MaterialIcons/MaterialIcons-Regular.ttf") format("truetype");
 }
+
