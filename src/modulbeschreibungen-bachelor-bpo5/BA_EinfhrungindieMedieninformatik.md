@@ -23,25 +23,25 @@ studienleistungen:
     datum: ende
 meta:
   status: ok
+  authors: Christian, Viet
+  reviewers: Viet, Christian
+besonderheiten: 
+praesenzZeit: 72
+selbstStudium: 78
+angebotImWs: true
+angebotImSs: false
+weitereStudiengaenge: 
+lehrmethoden:
+  - Workshops
+  - Projekt
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS  
 ---
-## Kurzbeschreibung
+
+## Learning Outcomes
 
 Studierende erhalten einen Einführung in die Themengebiete der Medieninformatik. Die Lehrveranstaltungsform ist ein Seminar mit eingebetteten Übungselementen und Projektarbeit.
-
-## Lehrform/SWS
-
-4 SWS: Seminar 3 SWS; Übung 1 SWS
-
-## Arbeitsaufwand
-
-Gesamtaufwand 150h, davon
-
-- 30h Seminar
-- 10h Übung
-- 40h Projekt
-- 70h Selbststudium
-
-## Angestrebte Lernergebnisse
 
 (WAS) Die Studierenden können die inhaltlichen Ausrichtungen und die Zielsetzungen der Lehr- und Anwendungsdisziplin Medieninformatik benennen und gegenüber verwandten oder ähnlichen Disziplinen abgrenzen,
 
@@ -59,14 +59,6 @@ Gesamtaufwand 150h, davon
 Workshops zu grundlegenden projektrelevanten Themenfeldern (wie: Datenmodellierung, Pseudo-Code, Kommunikation in verteilen medialen Systeme, Visual Thinking, Storytelling, Anforderungen) und deren Anwendung, illustriert anhand von Fallstudien.
 
 Teambasiertes Projekt, welches ausgehend von Kontextszenarien eine (oder mehrere) Problemstellung(en) umreißt, zu dem Lösungen konzipiert und prototypisch umgesetzt, dokumentiert und einem Fachpublikum präsentiert werden müssen.
-
-## Medienformen
-
-- Beamer-gestützte Vorlesungen (Folien in elektronischer Form)
-- Vorträge
-- verschiedene Präsentationsmaterialien (Whiteboard, Poster, etc.)
-- Einsatz von Bild- und Videobearbeitungssoftware
-- Umgang mit Kameras im Projektteil
 
 ## Literatur
 
