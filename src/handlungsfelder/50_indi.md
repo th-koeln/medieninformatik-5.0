@@ -32,7 +32,7 @@ competencies:
       - title: Context-Awareness
         competence: "Können Sensoren und anderen Technologien integrieren, um den aktuellen Kontext, wie den physischen Standort oder die Umweltbedingungen, zu erfassen, um damit umgehen zu können."
 
-  - title: Ethik und Recht
+  - title: Ethik und Gesellschaft
     sub:
       - title: Ebenen von Interaktion
         competence: "Können Interaktion auf Mikro- (Mensch-Produkt), Meso- (Mensch-Unternehmen/ Institution) und Makro-Ebene (Mensch-Gesellschaft) wahrnehmen und gestalten."

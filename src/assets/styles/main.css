@@ -695,7 +695,7 @@ table.is-narrow td {
 }
 .table-curriculum th.is-vertical {
   /* Something you can count on */
-  height: 25ch;
+  height: 30ch;
   white-space: nowrap;
 }
 .table-curriculum th.is-vertical > div {
