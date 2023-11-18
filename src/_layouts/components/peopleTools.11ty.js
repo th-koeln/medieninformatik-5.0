@@ -17,6 +17,38 @@ exports.resolvePerson = (people, modulverantwortliche) => {
   return grepPerson(modulverantwortliche).join(", ");
 };
 
+/* Personennamen auflösen und Avartar ausgeben
+############################################################################ */
+
+exports.resolvePersonAndGetAvatar = (people, modulverantwortliche, eleventy) => {
+
+  if(!eleventy) return;
+  const imagesBasePath = eleventy.getImagesBasePath('people');
+
+  const grepPerson = (modulverantwortlich) => {
+    const modulverantwortliche = modulverantwortlich.replace(/\s/g, '').split(/,/);
+    
+    return modulverantwortliche.map(
+      (modulverantwortlich) => {
+        if(!people[modulverantwortlich]) return;
+        return people[modulverantwortlich].avatar;
+      }
+    );
+  };
+
+  const avatars = grepPerson(modulverantwortliche).map(person => {
+    if(!person) return;
+    return `<img src="${imagesBasePath}${person}" alt="Avatar vom Dozent:in">`;
+  });
+
+  return `
+    <div class="avatars">
+      ${avatars.join("")}
+    </div>
+  `;
+  
+};
+
 /* Liste der Dozentinnen und Dozenten
 ############################################################################ */
 

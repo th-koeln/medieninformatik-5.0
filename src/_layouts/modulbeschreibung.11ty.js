@@ -9,7 +9,8 @@ module.exports = {
 		const peopleTools = require('./components/peopleTools.11ty');
 		const curriculumTools = require('./components/curriculumTools.11ty');
 		const utils = require('./components/utils.11ty.js');
-		
+		const eleventy = this;
+
 		data = moduleTools.addCompetences(data);
 
 		const createRow = (label, value) => {
@@ -83,8 +84,7 @@ module.exports = {
 				};
 				if(result === 0) continue;
 
-				scoresHandlungsfelder[value] = scoresBereiche;
-	
+				scoresHandlungsfelder[value] = scoresBereiche;	
 			}
 
 			const scoresTable = Object.entries(scoresHandlungsfelder).map(([key, values]) => {
@@ -155,6 +155,10 @@ module.exports = {
 			? '' 
 			: peopleTools.resolvePerson(data.people, data.modulverantwortlich);
 
+		const avatars = !data.modulverantwortlich 
+			? '' 
+			: peopleTools.resolvePersonAndGetAvatar(data.people, data.modulverantwortlich, eleventy);
+
 		const dozentinnen = !data.dozierende 
 			? '' 
 			: peopleTools.resolvePerson(data.people, data.dozierende);
@@ -189,16 +193,13 @@ module.exports = {
 		const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
 		const meta = utils.getContentMeta(this, data.meta);
 
-		const getList = (list) => {
-			return list.map(item => `<li>${item}</li>`);
-		};
-
 		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' : getModulkompetenzen(data.kompetenzen);			
 
 		return `
 			<main>
 				<section class="${status} module-core-data">
 					<header>
+						${avatars}
 						<h1>${data.title} <a href="${editUrl}"><span class="icon icon--inline">edit</span></a></h1>
 					</header>
 					${meta}

@@ -21,6 +21,19 @@
 .modulbeschreibung{
   .module-core-data{
     
+    header{
+      max-width: var(--max-width-table);
+      display: flex;
+      gap: var(--fluid-space-s);
+      align-items: center;
+      padding-bottom: var(--fluid-space-s);
+
+      h1{
+        margin-bottom: 0;
+        flex-grow: 2;
+      }
+    }
+
     /* TODO: (CN) entfernen
     &[class*=is-]{
       padding-top: var(--fluid-space-s);
@@ -89,7 +102,7 @@
 
   .competence-table{
     border-spacing: 0;
-    width: var(--max-width-table);
+    max-width: var(--max-width-table);
 
     th, td{
       vertical-align: top;
@@ -100,6 +113,7 @@
     th.handlungsfeld,
     th.bereich{
       width: 25%;
+      padding-right: var(--fluid-space-s);
     }
 
     th.bereich{
@@ -112,7 +126,7 @@
 
       &.has-border{
         border-top: solid var(--border-width-s) var(--dark);
-        padding-top: var(--s);
+        padding-top: var(--half);
       }
     }
   }
@@ -123,8 +137,7 @@
 
 .modulbeschreibung{
   .scores-and-charts{
-    width: var(--max-width-table);
-    
+    max-width: var(--max-width-table);    
     padding-top: var(--fluid-space-l);
     padding-bottom: var(--fluid-space-l);
 
@@ -137,6 +150,9 @@
     .chart{
       padding-right: var(--fluid-space-l);
       
+      canvas{
+        width: 100%;
+      }
     }
 
     .scores{

@@ -973,6 +973,20 @@ ul.hero-list > li + li {
   margin-top: var(--quat);
 }
 
+/* Avatars
+############################################################################ */
+.avatars {
+  display: flex;
+  gap: var(--xs);
+}
+.avatars img {
+  width: var(--max-width-image-s);
+  height: var(--max-width-image-s);
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid var(--border-width-m) var(--darken);
+}
+
 /* Content Blocks
 ############################################################################ */
 .content-blocks section .content {
@@ -1026,7 +1040,7 @@ ul.hero-list > li + li {
 /* Modulbeschreibung
 ############################################################################ */
 .modulbeschreibung .content {
-  max-width: var(--max-width-content);
+  max-width: calc(var(--max-width-table) * 0.8);
 }
 .modulbeschreibung h2 {
   margin-bottom: var(--s);
@@ -1067,6 +1081,16 @@ ul.hero-list > li + li {
     }
 
   }*/
+}
+.modulbeschreibung .module-core-data header {
+  max-width: var(--max-width-table);
+  display: flex;
+  align-items: center;
+  padding-bottom: var(--fluid-space-s);
+}
+.modulbeschreibung .module-core-data header h1 {
+  margin-bottom: 0;
+  flex-grow: 2;
 }
 .modulbeschreibung table.core-data {
   border-spacing: 0;

@@ -9,6 +9,9 @@ const pathes = {
   "competences": {
     "bachelor": "./src/modulkompetenzen-bachelor/",
     "master": "./src/modulkompetenzen-master/",
+  },
+  "images":{
+    "people": "/images/people",
   }
 };
 
@@ -42,7 +45,6 @@ module.exports = function (eleventyConfig) {
         console.log("skipping draft");
         return false;
       }
-
       return data.permalink;
     }
   });
@@ -138,6 +140,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addJavaScriptFunction("getContentUrl", function (url) {
     return `.${url}`;
+  });
+
+  eleventyConfig.addJavaScriptFunction("getImagesBasePath", function (section) {
+    return pathPrefix + pathes.images[section]
   });
 
   /* Filter
