@@ -11,6 +11,19 @@ module.exports = {
 		const utils = require('./components/utils.11ty.js');
 		const eleventy = this;
 
+		const startTranslations = new Map([
+			[0, 'nichts'],
+			[1, 'ein wenig'],
+			[2, 'etwas'],
+			[3, 'einiges'],
+			[4, 'viel'],
+			[5, 'sehr viel'],
+		]);
+
+		const translateStars = (stars) => {
+			return startTranslations.get(stars);
+		};
+
 		data = moduleTools.addCompetences(data);
 
 		const createRow = (label, value) => {
@@ -33,11 +46,73 @@ module.exports = {
 		Modulkompetenzen zusammen bauen … dat is ein bisschen kompliziert */
 
 		const getModulkompetenzenList = (modulkompetenzen) => {
+
+			const { handlungsfelderMap } = modulkompetenzen;
+
 			let lastHandlungsfeld = '';
 			let lastBereich = '';
 
-			// ausführliche Liste mit allen Kompetenzen
-			const list = modulkompetenzen.all.map(item => {
+			const competenceTree = {};
+			modulkompetenzen.all.forEach(item => {
+				if(!competenceTree[item.Handlungsfeld]) competenceTree[item.Handlungsfeld] = {};
+				if(!competenceTree[item.Handlungsfeld][item.Bereich]) competenceTree[item.Handlungsfeld][item.Bereich] = [];
+				competenceTree[item.Handlungsfeld][item.Bereich].push(item);
+			});
+
+			const list = Object.entries(competenceTree).map(([key, value]) => {
+				
+				const title = key !== lastHandlungsfeld ? `<h3>${key}</h3>` : '';
+				lastHandlungsfeld = key;
+
+				const list = Object.entries(value).map(([key, values]) => {
+					const title = key !== lastBereich ? `<h4>${key}</h4>` : '';
+					lastBereich = key;
+
+					const list = values.map(item => {
+						return `
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ${translateStars(item.liefert)} dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(${item.liefert} * 9%)"></span>
+										<span title="Modul erfordert ${translateStars(item.braucht)} dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(${item.braucht} * 9%); transform: translateX(calc(${item.braucht} * -100%))"></span>
+									</div>
+								</div>
+								<p>${item.Kompetenz}</p>
+							</li>
+						`;
+					});
+
+					const idBereich = this.slugify(key);
+
+					return `
+						<li id="${idBereich}">
+							${title}
+							<ul class="single-competence-list is-tight">
+								${list.join('')}
+							</ul>
+						</li>
+					`;
+				});
+
+				const handlungsfeldKuerzel = handlungsfelderMap.get(key);
+				const scoreCssClass = handlungsfeldKuerzel ? handlungsfeldKuerzel.toLowerCase() : '';
+				const idHandlungsfeld = this.slugify(key);
+
+				return `
+					<div class="competence-block" id="${idHandlungsfeld}">
+						${title}
+						<ul class="is-tight competence-bereiche indicate-as-${scoreCssClass}">
+							${list.join('')}
+						</ul>
+					</div>
+				`;
+
+
+			});
+
+			// ausführliche Liste mit den Kompetenzen
+			const listOld = modulkompetenzen.all.map(item => {
+
 
 				const displayedHandlungsfeld = item.Handlungsfeld !== lastHandlungsfeld ? item.Handlungsfeld : '';
 				const displayedBereich = item.Bereich !== lastBereich ? item.Bereich : '';
@@ -52,10 +127,17 @@ module.exports = {
 				const idHandlungsfeld = this.slugify(item.Handlungsfeld);
 
 				return `
+
+				`;
+
+				return `
 					<tr class="${hasBorderHandlungsfeld} ${hasBorderBereich}">
 						<th id="${idHandlungsfeld}" class="handlungsfeld ${hasBorderHandlungsfeld}">${displayedHandlungsfeld}</th>
-						<th id="${idBereich}" class="bereich ${hasBorderBereich}">${displayedBereich}</th>
-						<td class="${hasBorder}">${item.Kompetenz}</td>
+						<td id="${idBereich}" class="bereich ${hasBorderBereich}">${displayedBereich}
+						
+						</td>
+				
+						<td class="${hasBorder}"><span class="score-value-indicator" style="width: calc(${item.liefert} * 5%)"></span>${item.Kompetenz}</td>
 					</tr>	
 				`;
 			});
@@ -78,9 +160,9 @@ module.exports = {
 				const scoresBereiche = {};
 
 				for (const [key, value] of Object.entries(handlungsfeld)) {
-					if(value === 0) continue;
-					scoresBereiche[key] = value;
-					result += value;
+					if(value.liefert === 0) continue;
+					scoresBereiche[key] = value.liefert;
+					result += value.liefert;
 				};
 				if(result === 0) continue;
 
@@ -88,16 +170,14 @@ module.exports = {
 			}
 
 			const scoresTable = Object.entries(scoresHandlungsfelder).map(([key, values]) => {
-
-				const valuesTable = Object.entries(values).map(([key, value]) => {
-
+				const valuesList = Object.entries(values).map(([key, value]) => {
 					const idBereich = this.slugify(bereicheMapInverted[key]);
 				
 					return `
-						<tr>
-						<th><a href="#${idBereich}">${bereicheMapInverted[key]}</a></th>
-						<td><span class="score-value-indicator" style="width: calc(${value} * 5%)"></span><span class="score-value">${value}</span></td>
-						</tr>
+						<li>
+							<span class="score-value-indicator" style="width: calc(${value} * 5%)"></span>
+							<a href="#${idBereich}">${bereicheMapInverted[key]}</a>
+						</li>
 					`;
 				});
 
@@ -106,7 +186,7 @@ module.exports = {
 				return `
 					<div class="score indicate-as-${scoreCssClass}">
 						<h3>${key}</h3>
-						<table>${valuesTable.join('')}</table>
+						<ul class="score-list">${valuesList.join('')}</ul>
 					</div>
 				`;
 			});
@@ -124,6 +204,8 @@ module.exports = {
 		const handlungsfelderMapInverted = !data.kompetenzen || !data.kompetenzen.handlungsfelderMapInverted 
 			? '' : JSON.stringify(data.kompetenzen.handlungsfelderMapInverted);	
 
+		/* Welche Kompetenzen werden mit diesem Modul erworben?
+		############################################################################ */
 		const getModulkompetenzen = (modulkompetenzen) => {
 
 			const modulkompetenzenList = getModulkompetenzenList(modulkompetenzen);
@@ -133,16 +215,20 @@ module.exports = {
 					<h2>Geförderter Kompetenzerwerb</h2>
 
 					<div class="scores-and-charts">
-						<div class="chart" data-chart='${modulkompetenzenData}' data-handlungsfelder='${handlungsfelderMapInverted}'>
-							<canvas id="competence-chart"></canvas>
+						<div class="chart" 
+							data-chart='${modulkompetenzenData}' 
+							data-handlungsfelder='${handlungsfelderMapInverted}' 
+							data-target="competence-chart-erwerb"
+							data-direction="erwerb">
+							<canvas id="competence-chart-erwerb"></canvas>
 						</div>
 						<div class="scores">
-							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der Komptenzen finden Sie weiter unten.</p>
+							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der konkreten Komptenzen finden Sie weiter unten.</p>
 							${getCompetenceScores(data.kompetenzen)}
 						</div>
 					</div>
 
-					<table class="competence-table">${modulkompetenzenList.join('')}</table>
+					<div class="competence-list">${modulkompetenzenList.join('')}</div>
 				</section>
 
 			`;
@@ -194,7 +280,7 @@ module.exports = {
 		const meta = utils.getContentMeta(this, data.meta);
 
 		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' : getModulkompetenzen(data.kompetenzen);			
-
+		
 		return `
 			<main>
 				<section class="${status} module-core-data">
@@ -210,11 +296,10 @@ module.exports = {
 					${data.content}
 				</section>
 
-				${modulkompetenzen}
-				
 				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module', this) : ''}
 				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module', this) : ''}
 
+				${modulkompetenzen}
 			</main>
 		`;
 	}

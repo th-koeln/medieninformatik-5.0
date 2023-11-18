@@ -189,6 +189,7 @@ select {
   --darker: rgba(0,0,0,0.8);
   --darkest: rgba(0,0,0,1);
   --darken: rgb(0 0 0 / 10%);
+  --darken-strong: rgb(0 0 0 / 20%);
   --color-text: var(--darker);
   --color-headline: var(--dark);
   --color-accent: var(--mi-pink);
@@ -1085,6 +1086,7 @@ ul.hero-list > li + li {
 .modulbeschreibung .module-core-data header {
   max-width: var(--max-width-table);
   display: flex;
+  gap: var(--fluid-space-s);
   align-items: center;
   padding-bottom: var(--fluid-space-s);
 }
@@ -1103,9 +1105,10 @@ ul.hero-list > li + li {
   border-top: none;
 }
 .modulbeschreibung table.core-data th, .modulbeschreibung table.core-data td {
-  padding-top: var(--quat);
-  padding-bottom: var(--quat);
+  padding-top: var(--half);
+  padding-bottom: var(--half);
   padding-left: 0;
+  line-height: var(--lh-tight);
 }
 .modulbeschreibung ul.content-meta {
   border-bottom: none;
@@ -1114,37 +1117,82 @@ ul.hero-list > li + li {
   padding-left: var(--xs);
 }
 
-/* Kompetenz Tabelle
+/* Kompetenz Liste
 ############################################################################ */
-.modulbeschreibung .competence-table {
-  border-spacing: 0;
-  width: var(--max-width-table);
+.modulbeschreibung .competence-block {
+  max-width: var(--max-width-table);
+  border-top: solid var(--border-width-m) var(--darkest);
+  padding-top: var(--half);
+  padding-bottom: var(--fluid-space-m);
 }
-.modulbeschreibung .competence-table th, .modulbeschreibung .competence-table td {
-  vertical-align: top;
-  padding-left: 0;
-  padding-right: 0;
+@media only screen and (min-width: 42em) {
+  .modulbeschreibung .competence-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
-.modulbeschreibung .competence-table th.handlungsfeld,
-.modulbeschreibung .competence-table th.bereich {
-  width: 25%;
+.modulbeschreibung .competence-block h3 {
+  font-size: var(--m);
+  margin-top: 0;
+  max-width: 66%;
 }
-.modulbeschreibung .competence-table th.bereich {
-  font-weight: var(--fw-medium);
+.modulbeschreibung .competence-block .competence-bereiche > li {
+  position: relative;
+  padding-top: var(--quat);
+  padding-bottom: var(--m);
+  mix-blend-mode: darken;
 }
-.modulbeschreibung .competence-table tbody tr td, .modulbeschreibung .competence-table tbody tr th {
-  border-top: none;
-  padding-top: 0;
+.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap {
+  position: relative;
+  width: 99%;
+  height: 0;
+  margin-left: -100%;
+  border-top: solid var(--border-width-s) var(--darken);
 }
-.modulbeschreibung .competence-table tbody tr td.has-border, .modulbeschreibung .competence-table tbody tr th.has-border {
-  border-top: solid var(--border-width-s) var(--dark);
-  padding-top: var(--s);
+.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group {
+  position: relative;
+  height: var(--border-width-l);
+  width: 100%;
+  margin-left: 50%;
+  border-left: solid var(--border-width-s) var(--darkest);
+}
+.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: var(--border-width-l);
+}
+.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator.braucht {
+  background-color: var(--darken-strong);
+}
+.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-dux] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-dux);
+}
+.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-dev] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-dev);
+}
+.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-exa] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-exa);
+}
+.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-crea] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-crea);
+}
+.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-indi] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-indi);
+}
+.modulbeschreibung .competence-block .single-competence-list > li {
+  padding-bottom: var(--s);
+}
+.modulbeschreibung .competence-block .single-competence-list > li p {
+  margin-top: calc(var(--half) * -1);
+  margin-bottom: 0;
 }
 
 /* Scores
 ############################################################################ */
 .modulbeschreibung .scores-and-charts {
-  width: var(--max-width-table);
+  max-width: var(--max-width-table);
   padding-top: var(--fluid-space-l);
   padding-bottom: var(--fluid-space-l);
 }
@@ -1152,11 +1200,13 @@ ul.hero-list > li + li {
   .modulbeschreibung .scores-and-charts {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: var(--fluid-space-s);
   }
 }
 .modulbeschreibung .scores-and-charts .chart {
   padding-right: var(--fluid-space-l);
+}
+.modulbeschreibung .scores-and-charts .chart canvas {
+  width: 100%;
 }
 .modulbeschreibung .scores-and-charts .scores .description-text {
   margin-bottom: var(--fluid-space-l);
@@ -1167,31 +1217,29 @@ ul.hero-list > li + li {
 .modulbeschreibung .scores-and-charts .score span.score-value-indicator {
   display: block;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   bottom: 0;
   background-color: var(--darken);
+  z-index: -10;
 }
 .modulbeschreibung .scores-and-charts .score h3 {
   font-size: var(--m);
   padding-left: var(--s);
   padding-bottom: var(--half);
 }
-.modulbeschreibung .scores-and-charts .score table {
+.modulbeschreibung .scores-and-charts .score .score-list {
   overflow: hidden;
   width: 100%;
 }
-.modulbeschreibung .scores-and-charts .score table th {
-  font-weight: var(--fw-normal);
-  width: 50%;
-}
-.modulbeschreibung .scores-and-charts .score table td {
-  text-align: right;
+.modulbeschreibung .scores-and-charts .score .score-list li {
+  margin-top: var(--quat);
+  margin-left: var(--s);
+  padding-left: var(--quat);
   position: relative;
-}
-.modulbeschreibung .scores-and-charts .score table th, .modulbeschreibung .scores-and-charts .score table td {
   padding-top: var(--quat);
   padding-bottom: var(--quat);
+  mix-blend-mode: darken;
 }
 .modulbeschreibung .scores-and-charts .score[class*=indicate-as] {
   border-left: solid var(--border-width-l) var(--dark);

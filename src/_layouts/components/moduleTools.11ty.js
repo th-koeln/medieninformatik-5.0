@@ -72,19 +72,21 @@ const aggregateKompetenzen = (kompetenzen) => {
 
     // Aggregation Bereich – nur liefert
     if(!bereichsDataOutcome[bereichKuerzel]) {
-      bereichsDataOutcome[bereichKuerzel] = 0;
+      bereichsDataOutcome[bereichKuerzel] = {'braucht': 0, 'liefert': 0};
     }
-    bereichsDataOutcome[bereichKuerzel]+= liefert; 
+    bereichsDataOutcome[bereichKuerzel].liefert += liefert; 
+    bereichsDataOutcome[bereichKuerzel].braucht += braucht; 
     
     // Aggregation Handlungsfelder Overall: Handlungsfeld und Bereich (nur liefert)
     if(!handlungsfeldDataOverall[handlungsfeldKuerzel]) {
       handlungsfeldDataOverall[handlungsfeldKuerzel] = {};
     }
     if(!handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel]) {
-      handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel] = 0;
+      handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel] = {'braucht': 0, 'liefert': 0};
     }
 
-    handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel] += liefert;
+    handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel].liefert += liefert;
+    handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel].braucht += braucht;
         
   });
 
@@ -106,9 +108,19 @@ exports.addCompetences = (data) => {
     return item.braucht > 0 || item.liefert > 0;
   });
 
+  const modulkompetenzenWithImpactLiefert = modulKompetenzen[kuerzel].filter(item => {
+    return item.liefert > 0;
+  });
+
+  const modulkompetenzenWithImpactBraucht = modulKompetenzen[kuerzel].filter(item => {
+    return item.braucht > 0;
+  });
+
   const aggregatedKompetenzen = aggregateKompetenzen(modulkompetenzenWithImpact);
   const modulKompetenzenObject = {
     "all": modulkompetenzenWithImpact,
+    "liefert": modulkompetenzenWithImpactLiefert,
+    "braucht": modulkompetenzenWithImpactBraucht,
     "handlungsfelderOverall": aggregatedKompetenzen["handlungsfelderOverall"],
     "handlungsfelderMap": handlungsfelderMap,
     "handlungsfelderMapInverted": handlungsfelderMapInverted,

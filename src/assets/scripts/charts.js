@@ -9,7 +9,7 @@ const getColors = () => {
   };
 };
 
-const aggregateData = (rawData, handlungsfelderMapInverted) => {
+const aggregateData = (rawData, handlungsfelderMapInverted, direction) => {
 
   const handlungsfelderColors = getColors();
   const datasetsData = [], labels = [], colors = [];
@@ -18,7 +18,7 @@ const aggregateData = (rawData, handlungsfelderMapInverted) => {
     const handlungsfeld = rawData[key];
     let result = 0;
     if(!handlungsfeld) continue;
-    for (const [key, value] of Object.entries(handlungsfeld)) { result += value };
+    for (const [key, values] of Object.entries(handlungsfeld)) { result += values[direction]};
 
     if(result === 0) continue;
 
@@ -34,19 +34,22 @@ const aggregateData = (rawData, handlungsfelderMapInverted) => {
   };
 };
 
-
-
 const showPolarAreaChart = (element) => {
 
   const fontFamiliy = getComputedStyle(document.documentElement).getPropertyValue('--ff-normal');
   Chart.defaults.font.family = fontFamiliy;
-  Chart.defaults.font.size = 20;
+  Chart.defaults.font.size = 14;
 
-  const ctx = document.getElementById('competence-chart');
+  const targetId = element.dataset.target;
+  const ctx = document.getElementById(targetId);
+
+  const direction = element.dataset.direction && element.dataset.direction === 'erwerb'
+    ? 'liefert'
+    : 'braucht';
 
   const rawData = JSON.parse(element.dataset.chart);
   const handlungsfelderMapInverted = JSON.parse(element.dataset.handlungsfelder);
-  const aggregatedData = aggregateData(rawData, handlungsfelderMapInverted);
+  const aggregatedData = aggregateData(rawData, handlungsfelderMapInverted, direction);
   
   const data = {
     labels: aggregatedData.labels,
@@ -67,8 +70,8 @@ const showPolarAreaChart = (element) => {
             position: 'bottom',
             align: 'start',
             font: {
-              size: 26,
-              family: 'Roboto',
+              size: 20,
+              family: 'IBMplex',
             },
         }
     }
