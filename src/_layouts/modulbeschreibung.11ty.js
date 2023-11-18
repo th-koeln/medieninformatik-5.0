@@ -12,8 +12,6 @@ module.exports = {
 		
 		data = moduleTools.addCompetences(data);
 
-		// const kompetenzen = data.kompetenzen && data.kompetenzen.handlungsfelderOverall ? data.kompetenzen.handlungsfelderOverall : false;
-
 		const createRow = (label, value) => {
 			if(!value) return "";
 			const val = typeof value === 'string' && value.match(/^https/)
@@ -28,13 +26,15 @@ module.exports = {
 			`;
 		};
 
-		/* Modulkompetenzen zusammen bauen … dat is ein bisschen kompliziert
-		############################################################################ */
+		
+		/* ############################################################################
+		Modulkompetenzen zusammen bauen … dat is ein bisschen kompliziert */
 
 		const getModulkompetenzenList = (modulkompetenzen) => {
 			let lastHandlungsfeld = '';
 			let lastBereich = '';
 
+			// ausführliche Liste mit allen Kompetenzen
 			const list = modulkompetenzen.all.map(item => {
 
 				const displayedHandlungsfeld = item.Handlungsfeld !== lastHandlungsfeld ? item.Handlungsfeld : '';
@@ -58,6 +58,7 @@ module.exports = {
 			return list;
 		};
 
+		// Tabelle mit den Kompetenzen pro Handlungsfeld und Chart
 		const getCompetenceScores = (kompetenzen) => {
 
 			const { handlungsfelderMapInverted, handlungsfelderOverall, bereicheMapInverted } = kompetenzen;
@@ -103,10 +104,11 @@ module.exports = {
 			`;
 		};
 
-
+		// Kompetenz-Daten für den Chart, die vie Data-Atrribute im HTML-Element gespeichert und ins JS übergeben werden
 		const modulkompetenzenData = !data.kompetenzen || data.kompetenzen.handlungsfelderOverall.length < 2 
 			? '' : JSON.stringify(data.kompetenzen.handlungsfelderOverall);
 		
+		// Beschreiftungsdaten für den Chart, die vie Data-Atrribute im HTML-Element gespeichert und ins JS übergeben werden
 		const handlungsfelderMapInverted = !data.kompetenzen || !data.kompetenzen.handlungsfelderMapInverted 
 			? '' : JSON.stringify(data.kompetenzen.handlungsfelderMapInverted);	
 
@@ -133,7 +135,10 @@ module.exports = {
 
 			`;
 		};
-	
+		
+		/* EOF Modulkompetenzen
+		############################################################################ */
+
 		const modulverantwortlich = !data.modulverantwortlich 
 			? '' 
 			: peopleTools.resolvePerson(data.people, data.modulverantwortlich);
@@ -180,9 +185,7 @@ module.exports = {
 		const lehrmethoden = data.lehrmethoden && data.lehrmethoden.length > 0 
 			? `<h2>Lehrmethoden</h2><ul>${getList(data.lehrmethoden).join('')}</ul>` : '';
 
-
-		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' : getModulkompetenzen(data.kompetenzen);
-			
+		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' : getModulkompetenzen(data.kompetenzen);			
 
 		return `
 			<main>
