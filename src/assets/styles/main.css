@@ -746,7 +746,7 @@ table.is-narrow td {
 .table-modulmatrix th.is-vertical {
   position: relative;
   /* Something you can count on */
-  height: 25ch;
+  height: 30ch;
   width: 3ch;
   white-space: nowrap;
 }
@@ -1037,26 +1037,51 @@ ul.hero-list > li + li {
 
 /* Stammdaten
 ############################################################################ */
-.modulbeschreibung .module-core-data[class*=is-] {
-  padding-top: var(--fluid-space-s);
-  margin-bottom: var(--fluid-space-m);
+.modulbeschreibung .module-core-data {
+  /* TODO: (CN) entfernen
+  &[class*=is-]{
+    padding-top: var(--fluid-space-s);
+    margin-bottom: var(--fluid-space-m);
+  }
+
+  dl{
+
+    dt {
+      display: block;
+      float: left;
+      min-width: 5ch;
+      padding: var(--half) 0;
+      font-weight: var(--fw-normal);
+      color: var(--color-highlight);
+
+      &::after {
+        content: ":";
+        display: inline-block;
+        padding-right: var(--half);
+      }
+    }
+
+    dd {
+      border-bottom: solid var(--border-width-s) var(--darken);
+      padding: var(--half) 0;
+    }
+
+  }*/
 }
-.modulbeschreibung .module-core-data dl dt {
-  display: block;
-  float: left;
-  min-width: 5ch;
-  padding: var(--half) 0;
-  font-weight: var(--fw-normal);
-  color: var(--color-highlight);
+.modulbeschreibung table.core-data {
+  border-spacing: 0;
+  padding-top: var(--s);
+  padding-bottom: var(--m);
+  border-top: solid var(--border-width-m) var(--darkest);
+  border-bottom: solid var(--border-width-m) var(--darkest);
 }
-.modulbeschreibung .module-core-data dl dt::after {
-  content: ":";
-  display: inline-block;
-  padding-right: var(--half);
+.modulbeschreibung table.core-data tr:first-child th, .modulbeschreibung table.core-data tr:first-child td {
+  border-top: none;
 }
-.modulbeschreibung .module-core-data dl dd {
-  border-bottom: solid var(--border-width-s) var(--darken);
-  padding: var(--half) 0;
+.modulbeschreibung table.core-data th, .modulbeschreibung table.core-data td {
+  padding-top: var(--quat);
+  padding-bottom: var(--quat);
+  padding-left: 0;
 }
 .modulbeschreibung ul.content-meta {
   border-bottom: none;

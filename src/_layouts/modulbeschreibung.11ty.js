@@ -18,10 +18,12 @@ module.exports = {
 				? `<a href="${value}">${value}</a>`
 				: value;
 
+			const displayValue = Array.isArray(value) ? `${value.join(', ')}` : val;
+
 			return `
 				<tr>
 					<th>${label}</th>
-					<td>${val}</td>
+					<td>${displayValue}</td>
 				</tr>
 			`;
 		};
@@ -177,6 +179,8 @@ module.exports = {
 				${createRow("Besonderheiten", data.besonderheiten)}
 				${createRow("Präsenzzeit in Stunden", data.praesenzZeit)}
 				${createRow("Selbststudium in Stunden", data.selbstStudium)}
+				${createRow("Lehrformen", data.lehrform)}
+				${createRow("Lehrmethoden", data.lehrmethoden)}
 				${createRow("Letzte Aktualisierung", utils.getDate(data.page.date))}
 			</table>
 		`;
@@ -188,12 +192,6 @@ module.exports = {
 		const getList = (list) => {
 			return list.map(item => `<li>${item}</li>`);
 		};
-
-		const lehrform = data.lehrform && data.lehrform.length > 0 
-			? `<h2>Lehrform</h2><ul>${getList(data.lehrform).join('')}</ul>` : '';
-
-		const lehrmethoden = data.lehrmethoden && data.lehrmethoden.length > 0 
-			? `<h2>Lehrmethoden</h2><ul>${getList(data.lehrmethoden).join('')}</ul>` : '';
 
 		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' : getModulkompetenzen(data.kompetenzen);			
 
@@ -208,8 +206,6 @@ module.exports = {
 				</section>
 
 				<section class="content">
-					${lehrform}
-					${lehrmethoden}
 					${data.content}
 				</section>
 

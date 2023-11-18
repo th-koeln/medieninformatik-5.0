@@ -3,7 +3,7 @@
 
 .modulbeschreibung{
   .content{
-    max-width: var(--max-width-content);
+    max-width: calc(var(--max-width-table) * 0.8);
   }
 
   h2{
@@ -21,6 +21,7 @@
 .modulbeschreibung{
   .module-core-data{
     
+    /* TODO: (CN) entfernen
     &[class*=is-]{
       padding-top: var(--fluid-space-s);
       margin-bottom: var(--fluid-space-m);
@@ -48,6 +49,27 @@
         padding: var(--half) 0;
       }
   
+    }*/
+  }
+
+  table.core-data{
+
+    border-spacing: 0;
+    padding-top: var(--s);
+    padding-bottom: var(--m);
+    border-top: solid var(--border-width-m) var(--darkest);
+    border-bottom: solid var(--border-width-m) var(--darkest);
+
+    tr:first-child{
+      th, td{
+        border-top: none;
+      }
+    }
+    
+    th, td{
+      padding-top: var(--quat);
+      padding-bottom: var(--quat);
+      padding-left: 0;
     }
   }
 
