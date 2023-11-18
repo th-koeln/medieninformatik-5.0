@@ -30,7 +30,7 @@ const bereicheMap = new Map([
   ["Prototyping", "prototyping"],
   ["Analyse, Studien und Experimente", "analyseStudienExperimente"],
   ["Situated Interaction", "situatedInteraction"],
-  ["Ethik und Recht", "ethikRecht"],
+  ["Ethik und Gesellschaft", "ethikGesellschaft"],
   ["Selbstlernen", "selbstlernen"],
 ]);
 

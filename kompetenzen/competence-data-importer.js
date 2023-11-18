@@ -17,7 +17,9 @@ const seperatorCols = ";";
 ############################################################################ */
 
 const tidyString = (string) => {
-  return string.replace(/\n/g, "").replace(/\r/g, "").replace(/\t/g, "").replace(/"/g, '');
+  string = string.replace(/\n/g, "").replace(/\r/g, "").replace(/\t/g, "").replace(/"/g, '');
+  string = string.replace(/Ethik und Recht/g, "Ethik und Gesellschaft");
+  return string;
 };
 
 const parseFile = (path) => {

@@ -85,7 +85,7 @@ module.exports = {
         
           <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.analyseStudienExperimente ? check : ""}</td>
           <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.situatedInteraction ? check : ""}</td>
-          <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.ethikRecht ? check : ""}</td>
+          <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.ethikGesellschaft ? check : ""}</td>
           <td>${modul.kompetenzen?.handlungsfelderOverall.INDI?.selbstlernen ? check : ""}</td>
 
           <!-- Zuordnung Studiengangkriterien -->
