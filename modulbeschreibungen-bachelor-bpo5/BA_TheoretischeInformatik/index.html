@@ -228,133 +228,242 @@
 				</section>
 
 				
+				
+
+				
 				<section class="has-seperator">
 					<h2>Geförderter Kompetenzerwerb</h2>
 
 					<div class="scores-and-charts">
-						<div class="chart" data-chart='{"DUX":{"konzepte":3},"DEV":{"technologie":3,"entwurf":11},"EXA":{"medien":2,"explorationKreativitaet":5},"INDI":{"selbstlernen":2}}' data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}'>
-							<canvas id="competence-chart"></canvas>
+						<div class="chart" 
+							data-chart='{"DUX":{"konzepte":{"braucht":0,"liefert":3}},"DEV":{"technologie":{"braucht":0,"liefert":3},"entwurf":{"braucht":0,"liefert":11}},"EXA":{"medien":{"braucht":0,"liefert":2},"explorationKreativitaet":{"braucht":1,"liefert":5}},"INDI":{"selbstlernen":{"braucht":0,"liefert":2}}}' 
+							data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}' 
+							data-target="competence-chart-erwerb"
+							data-direction="erwerb">
+							<canvas id="competence-chart-erwerb"></canvas>
 						</div>
 						<div class="scores">
-							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der Komptenzen finden Sie weiter unten.</p>
+							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der konkreten Komptenzen finden Sie weiter unten.</p>
 							
 				
 					<div class="score indicate-as-dux">
 						<h3>Designing for User Experiences</h3>
-						<table>
-						<tr>
-						<th><a href="#konzepte">Konzepte</a></th>
-						<td><span class="score-value-indicator" style="width: calc(3 * 5%)"></span><span class="score-value">3</span></td>
-						</tr>
-					</table>
+						<ul class="score-list">
+						<li>
+							<span class="score-value-indicator" style="width: calc(3 * 5%)"></span>
+							<a href="#konzepte">Konzepte</a>
+						</li>
+					</ul>
 					</div>
 				
 					<div class="score indicate-as-dev">
 						<h3>Developing Interactive and Distributed Systems</h3>
-						<table>
-						<tr>
-						<th><a href="#technologie">Technologie</a></th>
-						<td><span class="score-value-indicator" style="width: calc(3 * 5%)"></span><span class="score-value">3</span></td>
-						</tr>
+						<ul class="score-list">
+						<li>
+							<span class="score-value-indicator" style="width: calc(3 * 5%)"></span>
+							<a href="#technologie">Technologie</a>
+						</li>
 					
-						<tr>
-						<th><a href="#entwurf">Entwurf</a></th>
-						<td><span class="score-value-indicator" style="width: calc(11 * 5%)"></span><span class="score-value">11</span></td>
-						</tr>
-					</table>
+						<li>
+							<span class="score-value-indicator" style="width: calc(11 * 5%)"></span>
+							<a href="#entwurf">Entwurf</a>
+						</li>
+					</ul>
 					</div>
 				
 					<div class="score indicate-as-exa">
 						<h3>Exploring Advanced Interactive Media</h3>
-						<table>
-						<tr>
-						<th><a href="#medien">Medien</a></th>
-						<td><span class="score-value-indicator" style="width: calc(2 * 5%)"></span><span class="score-value">2</span></td>
-						</tr>
+						<ul class="score-list">
+						<li>
+							<span class="score-value-indicator" style="width: calc(2 * 5%)"></span>
+							<a href="#medien">Medien</a>
+						</li>
 					
-						<tr>
-						<th><a href="#exploration-and-kreativitaet">Exploration & Kreativität</a></th>
-						<td><span class="score-value-indicator" style="width: calc(5 * 5%)"></span><span class="score-value">5</span></td>
-						</tr>
-					</table>
+						<li>
+							<span class="score-value-indicator" style="width: calc(5 * 5%)"></span>
+							<a href="#exploration-and-kreativitaet">Exploration & Kreativität</a>
+						</li>
+					</ul>
 					</div>
 				
 					<div class="score indicate-as-indi">
 						<h3>Enhancing Interactions on Different Scales</h3>
-						<table>
-						<tr>
-						<th><a href="#selbstlernen">Selbstlernen</a></th>
-						<td><span class="score-value-indicator" style="width: calc(2 * 5%)"></span><span class="score-value">2</span></td>
-						</tr>
-					</table>
+						<ul class="score-list">
+						<li>
+							<span class="score-value-indicator" style="width: calc(2 * 5%)"></span>
+							<a href="#selbstlernen">Selbstlernen</a>
+						</li>
+					</ul>
 					</div>
 				
 			
 						</div>
 					</div>
 
-					<table class="competence-table">
-					<tr class="has-border has-border">
-						<th id="designing-for-user-experiences" class="handlungsfeld has-border">Designing for User Experiences</th>
-						<th id="konzepte" class="bereich has-border">Konzepte</th>
-						<td class="has-border">Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.</td>
-					</tr>	
+					<div class="competence-list">
+					<div class="competence-block" id="designing-for-user-experiences">
+						<h3>Designing for User Experiences</h3>
+						<ul class="is-tight competence-bereiche indicate-as-dux">
+							
+						<li id="konzepte">
+							<h4>Konzepte</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert einiges dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(3 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						</ul>
+					</div>
 				
-					<tr class="has-border has-border">
-						<th id="developing-interactive-and-distributed-systems" class="handlungsfeld has-border">Developing Interactive and Distributed Systems</th>
-						<th id="technologie" class="bereich has-border">Technologie</th>
-						<td class="has-border">Wissen was ein Computer ist und wie Software darauf ausgeführt wird.</td>
-					</tr>	
+					<div class="competence-block" id="developing-interactive-and-distributed-systems">
+						<h3>Developing Interactive and Distributed Systems</h3>
+						<ul class="is-tight competence-bereiche indicate-as-dev">
+							
+						<li id="technologie">
+							<h4>Technologie</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert einiges dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(3 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Wissen was ein Computer ist und wie Software darauf ausgeführt wird.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						<li id="entwurf">
+							<h4>Entwurf</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert viel dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(4 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Verstehen formale Strukturen.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert viel dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(4 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert einiges dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(3 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						</ul>
+					</div>
 				
-					<tr class=" has-border">
-						<th id="developing-interactive-and-distributed-systems" class="handlungsfeld "></th>
-						<th id="entwurf" class="bereich has-border">Entwurf</th>
-						<td class="has-border">Verstehen formale Strukturen.</td>
-					</tr>	
+					<div class="competence-block" id="exploring-advanced-interactive-media">
+						<h3>Exploring Advanced Interactive Media</h3>
+						<ul class="is-tight competence-bereiche indicate-as-exa">
+							
+						<li id="medien">
+							<h4>Medien</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert etwas dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(2 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Haben vertiefte Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen z.B. in der Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						<li id="exploration-and-kreativitaet">
+							<h4>Exploration & Kreativität</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert einiges dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(3 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert etwas dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(2 * 9%)"></span>
+										<span title="Modul erfordert ein wenig dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(1 * 9%); transform: translateX(calc(1 * -100%))"></span>
+									</div>
+								</div>
+								<p>Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						</ul>
+					</div>
 				
-					<tr class=" ">
-						<th id="developing-interactive-and-distributed-systems" class="handlungsfeld "></th>
-						<th id="entwurf" class="bereich "></th>
-						<td class="">Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.</td>
-					</tr>	
-				
-					<tr class=" ">
-						<th id="developing-interactive-and-distributed-systems" class="handlungsfeld "></th>
-						<th id="entwurf" class="bereich "></th>
-						<td class="">Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.</td>
-					</tr>	
-				
-					<tr class="has-border has-border">
-						<th id="exploring-advanced-interactive-media" class="handlungsfeld has-border">Exploring Advanced Interactive Media</th>
-						<th id="medien" class="bereich has-border">Medien</th>
-						<td class="has-border">Haben vertiefte Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen z.B. in der Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung.</td>
-					</tr>	
-				
-					<tr class=" has-border">
-						<th id="exploring-advanced-interactive-media" class="handlungsfeld "></th>
-						<th id="exploration-and-kreativitaet" class="bereich has-border">Exploration & Kreativität</th>
-						<td class="has-border">Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.</td>
-					</tr>	
-				
-					<tr class=" ">
-						<th id="exploring-advanced-interactive-media" class="handlungsfeld "></th>
-						<th id="exploration-and-kreativitaet" class="bereich "></th>
-						<td class="">Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.</td>
-					</tr>	
-				
-					<tr class="has-border has-border">
-						<th id="enhancing-interactions-on-different-scales" class="handlungsfeld has-border">Enhancing Interactions on Different Scales</th>
-						<th id="selbstlernen" class="bereich has-border">Selbstlernen</th>
-						<td class="has-border">Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.</td>
-					</tr>	
-				</table>
+					<div class="competence-block" id="enhancing-interactions-on-different-scales">
+						<h3>Enhancing Interactions on Different Scales</h3>
+						<ul class="is-tight competence-bereiche indicate-as-indi">
+							
+						<li id="selbstlernen">
+							<h4>Selbstlernen</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert etwas dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(2 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						</ul>
+					</div>
+				</div>
 				</section>
 
 			
-				
-				
-				
-
 			</main>
 		
       
@@ -389,7 +498,7 @@
     </nav>
   
       <p class="info">
-        18.11.2023 // 9:53:52
+        18.11.2023 // 19:24:18
       </p>
     </footer>
   

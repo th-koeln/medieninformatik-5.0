@@ -185,119 +185,204 @@
 				</section>
 
 				
+				
+
+				
 				<section class="has-seperator">
 					<h2>Geförderter Kompetenzerwerb</h2>
 
 					<div class="scores-and-charts">
-						<div class="chart" data-chart='{"DUX":{"anforderungenBedarfe":3,"konzepte":3,"gestaltung":2},"DEV":{"entwurf":2}}' data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}'>
-							<canvas id="competence-chart"></canvas>
+						<div class="chart" 
+							data-chart='{"DUX":{"anforderungenBedarfe":{"braucht":0,"liefert":3},"konzepte":{"braucht":0,"liefert":3},"gestaltung":{"braucht":0,"liefert":2}},"DEV":{"entwurf":{"braucht":0,"liefert":2}}}' 
+							data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}' 
+							data-target="competence-chart-erwerb"
+							data-direction="erwerb">
+							<canvas id="competence-chart-erwerb"></canvas>
 						</div>
 						<div class="scores">
-							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der Komptenzen finden Sie weiter unten.</p>
+							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der konkreten Komptenzen finden Sie weiter unten.</p>
 							
 				
 					<div class="score indicate-as-dux">
 						<h3>Designing for User Experiences</h3>
-						<table>
-						<tr>
-						<th><a href="#anforderungen-und-bedarfe">Anforderungen und Bedarfe</a></th>
-						<td><span class="score-value-indicator" style="width: calc(3 * 5%)"></span><span class="score-value">3</span></td>
-						</tr>
+						<ul class="score-list">
+						<li>
+							<span class="score-value-indicator" style="width: calc(3 * 5%)"></span>
+							<a href="#anforderungen-und-bedarfe">Anforderungen und Bedarfe</a>
+						</li>
 					
-						<tr>
-						<th><a href="#konzepte">Konzepte</a></th>
-						<td><span class="score-value-indicator" style="width: calc(3 * 5%)"></span><span class="score-value">3</span></td>
-						</tr>
+						<li>
+							<span class="score-value-indicator" style="width: calc(3 * 5%)"></span>
+							<a href="#konzepte">Konzepte</a>
+						</li>
 					
-						<tr>
-						<th><a href="#gestaltung">Gestaltung</a></th>
-						<td><span class="score-value-indicator" style="width: calc(2 * 5%)"></span><span class="score-value">2</span></td>
-						</tr>
-					</table>
+						<li>
+							<span class="score-value-indicator" style="width: calc(2 * 5%)"></span>
+							<a href="#gestaltung">Gestaltung</a>
+						</li>
+					</ul>
 					</div>
 				
 					<div class="score indicate-as-dev">
 						<h3>Developing Interactive and Distributed Systems</h3>
-						<table>
-						<tr>
-						<th><a href="#entwurf">Entwurf</a></th>
-						<td><span class="score-value-indicator" style="width: calc(2 * 5%)"></span><span class="score-value">2</span></td>
-						</tr>
-					</table>
+						<ul class="score-list">
+						<li>
+							<span class="score-value-indicator" style="width: calc(2 * 5%)"></span>
+							<a href="#entwurf">Entwurf</a>
+						</li>
+					</ul>
 					</div>
 				
 			
 						</div>
 					</div>
 
-					<table class="competence-table">
-					<tr class="has-border has-border">
-						<th id="designing-for-user-experiences" class="handlungsfeld has-border">Designing for User Experiences</th>
-						<th id="anforderungen-und-bedarfe" class="bereich has-border">Anforderungen und Bedarfe</th>
-						<td class="has-border">Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.</td>
-					</tr>	
+					<div class="competence-list">
+					<div class="competence-block" id="designing-for-user-experiences">
+						<h3>Designing for User Experiences</h3>
+						<ul class="is-tight competence-bereiche indicate-as-dux">
+							
+						<li id="anforderungen-und-bedarfe">
+							<h4>Anforderungen und Bedarfe</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						<li id="konzepte">
+							<h4>Konzepte</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						<li id="gestaltung">
+							<h4>Gestaltung</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können visuelle Darstellung und Präsentation komplexer Daten und Informationen für verschiedene Zielgruppen konzipieren und erstellen.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						</ul>
+					</div>
 				
-					<tr class=" ">
-						<th id="designing-for-user-experiences" class="handlungsfeld "></th>
-						<th id="anforderungen-und-bedarfe" class="bereich "></th>
-						<td class="">Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.</td>
-					</tr>	
-				
-					<tr class=" ">
-						<th id="designing-for-user-experiences" class="handlungsfeld "></th>
-						<th id="anforderungen-und-bedarfe" class="bereich "></th>
-						<td class="">Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.</td>
-					</tr>	
-				
-					<tr class=" has-border">
-						<th id="designing-for-user-experiences" class="handlungsfeld "></th>
-						<th id="konzepte" class="bereich has-border">Konzepte</th>
-						<td class="has-border">Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten.</td>
-					</tr>	
-				
-					<tr class=" ">
-						<th id="designing-for-user-experiences" class="handlungsfeld "></th>
-						<th id="konzepte" class="bereich "></th>
-						<td class="">Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.</td>
-					</tr>	
-				
-					<tr class=" ">
-						<th id="designing-for-user-experiences" class="handlungsfeld "></th>
-						<th id="konzepte" class="bereich "></th>
-						<td class="">Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.</td>
-					</tr>	
-				
-					<tr class=" has-border">
-						<th id="designing-for-user-experiences" class="handlungsfeld "></th>
-						<th id="gestaltung" class="bereich has-border">Gestaltung</th>
-						<td class="has-border">Können visuelle Darstellung und Präsentation komplexer Daten und Informationen für verschiedene Zielgruppen konzipieren und erstellen.</td>
-					</tr>	
-				
-					<tr class=" ">
-						<th id="designing-for-user-experiences" class="handlungsfeld "></th>
-						<th id="gestaltung" class="bereich "></th>
-						<td class="">Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen.</td>
-					</tr>	
-				
-					<tr class="has-border has-border">
-						<th id="developing-interactive-and-distributed-systems" class="handlungsfeld has-border">Developing Interactive and Distributed Systems</th>
-						<th id="entwurf" class="bereich has-border">Entwurf</th>
-						<td class="has-border">Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.</td>
-					</tr>	
-				
-					<tr class=" ">
-						<th id="developing-interactive-and-distributed-systems" class="handlungsfeld "></th>
-						<th id="entwurf" class="bereich "></th>
-						<td class="">Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.</td>
-					</tr>	
-				</table>
+					<div class="competence-block" id="developing-interactive-and-distributed-systems">
+						<h3>Developing Interactive and Distributed Systems</h3>
+						<ul class="is-tight competence-bereiche indicate-as-dev">
+							
+						<li id="entwurf">
+							<h4>Entwurf</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span title="Modul liefert ein wenig dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span title="Modul erfordert nichts dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(calc(0 * -100%))"></span>
+									</div>
+								</div>
+								<p>Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						</ul>
+					</div>
+				</div>
 				</section>
 
 			
-				
-				
-				
-
 			</main>
 		
       
@@ -332,7 +417,7 @@
     </nav>
   
       <p class="info">
-        18.11.2023 // 9:53:52
+        18.11.2023 // 19:24:18
       </p>
     </footer>
   
