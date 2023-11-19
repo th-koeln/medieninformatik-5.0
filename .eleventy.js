@@ -14,8 +14,8 @@ const pathes = {
     "people": "images/people",
   },
   "competencesToModuleMap": {
-    "bachelor": "kompetenzen-der-module-bachelor",
-    "master": "kompetenzen-der-module-master",
+    "bachelor": "medieninformatik-bachelor/kompetenzen-der-module-bpo5",
+    "master": "medieninformatik-master/kompetenzen-der-module-mpo5",
   },
 };
 
@@ -189,7 +189,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("modulsBPO5", function (collection) {
     clearRequireCache();
-     const modules = collection.getFilteredByGlob("./src/modulbeschreibungen-bachelor-bpo5/*.md").sort((a, b) => {
+     const modules = collection.getFilteredByGlob("./src/medieninformatik-bachelor/modulbeschreibungen-bpo5/*.md").sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;
@@ -215,7 +215,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("modulsMPO5", function (collection) {
     clearRequireCache();
-    return collection.getFilteredByGlob("./src/modulbeschreibungen-master-mpo5/*.md").sort((a, b) => {
+    return collection.getFilteredByGlob("./src/medieninformatik-master/modulbeschreibungen-mpo5/*.md").sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;
@@ -229,7 +229,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("allModuls", function (collection) {
     clearRequireCache();
-    return collection.getFilteredByGlob("./src/modulbeschreibungen-*/*.md").sort((a, b) => {
+    const bachelor = collection.getFilteredByGlob("./src/medieninformatik-bachelor/modulbeschreibungen-bpo5/*.md");
+    const master = collection.getFilteredByGlob("./src/medieninformatik-master/modulbeschreibungen-mpo5/*.md");
+    return [...bachelor, ...master].sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
       else return 0;
