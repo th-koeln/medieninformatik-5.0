@@ -2,6 +2,7 @@
 title: Masterarbeit inkl. Kolloquium 
 modulverantwortlich: all
 dozierende: all
+modulniveau: master
 kuerzel: MA
 sprache: deutsch
 kreditpunkte: 30

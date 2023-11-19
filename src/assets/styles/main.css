@@ -988,6 +988,92 @@ ul.hero-list > li + li {
   border: solid var(--border-width-m) var(--darken);
 }
 
+/* Kompetenz Liste
+############################################################################ */
+.competence-block {
+  max-width: var(--max-width-table);
+  border-top: solid var(--border-width-m) var(--darkest);
+  padding-top: var(--half);
+  padding-bottom: var(--fluid-space-m);
+}
+@media only screen and (min-width: 42em) {
+  .competence-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.competence-block h3 {
+  font-size: var(--m);
+  margin-top: 0;
+  max-width: 66%;
+  margin-bottom: var(--fluid-space-l);
+}
+.competence-block .competence-bereiche > li {
+  position: relative;
+  padding-top: var(--quat);
+  padding-bottom: var(--m);
+  mix-blend-mode: darken;
+}
+.competence-block .competence-bereiche > li .score-indicator-group-wrap {
+  position: relative;
+  width: 99%;
+  height: 0;
+  margin-left: -100%;
+  border-top: solid var(--border-width-s) var(--darken);
+}
+.competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group {
+  position: relative;
+  height: var(--border-width-l);
+  width: 100%;
+  margin-left: 50%;
+  border-left: solid var(--border-width-s) var(--darkest);
+}
+.competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: var(--border-width-l);
+}
+.competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator.braucht {
+  background-color: var(--darken-strong);
+}
+.competence-block .competence-bereiche[class*=indicate-as-dux] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-dux);
+}
+.competence-block .competence-bereiche[class*=indicate-as-dev] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-dev);
+}
+.competence-block .competence-bereiche[class*=indicate-as-exa] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-exa);
+}
+.competence-block .competence-bereiche[class*=indicate-as-crea] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-crea);
+}
+.competence-block .competence-bereiche[class*=indicate-as-indi] span.score-value-indicator.liefert {
+  background-color: var(--handlungsfeld-indi);
+}
+.competence-block .single-competence-list > li {
+  padding-bottom: var(--s);
+}
+.competence-block .single-competence-list > li p {
+  margin-top: calc(var(--half) * -1);
+  margin-bottom: 0;
+}
+.competence-block .competence-module-list {
+  margin-top: var(--s);
+  margin-bottom: var(--fluid-space-s);
+}
+.competence-block .competence-module-list li {
+  position: relative;
+  width: 100%;
+  margin-bottom: var(--half);
+}
+.competence-block .competence-module-list li a {
+  position: relative;
+  z-index: 10;
+}
+
 /* Content Blocks
 ############################################################################ */
 .content-blocks section .content {
@@ -1115,78 +1201,6 @@ ul.hero-list > li + li {
 }
 .modulbeschreibung ul.content-meta li {
   padding-left: var(--xs);
-}
-
-/* Kompetenz Liste
-############################################################################ */
-.modulbeschreibung .competence-block {
-  max-width: var(--max-width-table);
-  border-top: solid var(--border-width-m) var(--darkest);
-  padding-top: var(--half);
-  padding-bottom: var(--fluid-space-m);
-}
-@media only screen and (min-width: 42em) {
-  .modulbeschreibung .competence-block {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-.modulbeschreibung .competence-block h3 {
-  font-size: var(--m);
-  margin-top: 0;
-  max-width: 66%;
-}
-.modulbeschreibung .competence-block .competence-bereiche > li {
-  position: relative;
-  padding-top: var(--quat);
-  padding-bottom: var(--m);
-  mix-blend-mode: darken;
-}
-.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap {
-  position: relative;
-  width: 99%;
-  height: 0;
-  margin-left: -100%;
-  border-top: solid var(--border-width-s) var(--darken);
-}
-.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group {
-  position: relative;
-  height: var(--border-width-l);
-  width: 100%;
-  margin-left: 50%;
-  border-left: solid var(--border-width-s) var(--darkest);
-}
-.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  height: var(--border-width-l);
-}
-.modulbeschreibung .competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator.braucht {
-  background-color: var(--darken-strong);
-}
-.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-dux] span.score-value-indicator.liefert {
-  background-color: var(--handlungsfeld-dux);
-}
-.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-dev] span.score-value-indicator.liefert {
-  background-color: var(--handlungsfeld-dev);
-}
-.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-exa] span.score-value-indicator.liefert {
-  background-color: var(--handlungsfeld-exa);
-}
-.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-crea] span.score-value-indicator.liefert {
-  background-color: var(--handlungsfeld-crea);
-}
-.modulbeschreibung .competence-block .competence-bereiche[class*=indicate-as-indi] span.score-value-indicator.liefert {
-  background-color: var(--handlungsfeld-indi);
-}
-.modulbeschreibung .competence-block .single-competence-list > li {
-  padding-bottom: var(--s);
-}
-.modulbeschreibung .competence-block .single-competence-list > li p {
-  margin-top: calc(var(--half) * -1);
-  margin-bottom: 0;
 }
 
 /* Scores

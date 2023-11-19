@@ -3,6 +3,7 @@ title: Current Approaches to Marketing and Innovation
 kuerzel: AMI
 modulverantwortlich: moe
 dozierende: moe
+modulniveau: master
 infourl: 
 kreditpunkte: 6
 layout: modulbeschreibung.11ty.js

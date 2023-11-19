@@ -2,6 +2,7 @@
 title: Mobile and Distributed Interactive Systems
 modulverantwortlich: mboehmer
 dozierende: mboehmer
+modulniveau: master
 kuerzel: MODI
 sprache: deutsch
 kreditpunkte: 6

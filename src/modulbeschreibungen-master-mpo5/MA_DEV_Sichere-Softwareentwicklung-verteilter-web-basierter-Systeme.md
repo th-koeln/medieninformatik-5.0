@@ -1,6 +1,7 @@
 ---
 title: Sichere Softwareentwicklung verteilter, web-basierte Systeme
 modulverantwortlich: viet
+modulniveau: master
 kuerzel: SSW
 studiensemester: 2
 informatik-master: ss

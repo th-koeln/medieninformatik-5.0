@@ -3,6 +3,7 @@ title: Domain-Driven Design of Large Software Systems
 kuerzel: DDD
 modulverantwortlich: sbe
 dozierende: sbe
+modulniveau: master
 
 infourl: 
 

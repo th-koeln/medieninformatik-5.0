@@ -3,6 +3,7 @@ title: Business Process Management
 kuerzel: BPM
 modulverantwortlich: mza
 dozierende: mza
+modulniveau: master
 
 infourl: 
 

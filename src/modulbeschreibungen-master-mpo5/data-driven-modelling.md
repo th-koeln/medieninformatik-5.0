@@ -3,6 +3,7 @@ title: Data Driven Modelling
 kuerzel: DDM
 modulverantwortlich: dz
 dozierende: dz, tbb
+modulniveau: master
 
 infourl: 
 

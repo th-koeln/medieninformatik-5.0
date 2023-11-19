@@ -2,6 +2,7 @@
 title: Psychophysik multimodaler Benutzungsschnittstellen
 modulverantwortlich: gh
 dozierende: gh
+modulniveau: master
 kuerzel: PPMB
 angebotImWs: true
 sprache: deutsch

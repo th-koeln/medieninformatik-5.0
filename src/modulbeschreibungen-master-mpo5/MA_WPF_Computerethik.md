@@ -2,6 +2,7 @@
 title: Computerethik
 modulverantwortlich: mbluemm
 dozierende: mbluemm
+modulniveau: master
 kuerzel: CE
 angebotImSs: true
 sprache: deutsch

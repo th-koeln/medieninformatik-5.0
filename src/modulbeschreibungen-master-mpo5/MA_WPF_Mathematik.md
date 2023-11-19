@@ -2,6 +2,7 @@
 title: Spezielle Gebiete der Mathematik
 modulverantwortlich: wk, dz
 dozierende: wk, dz
+modulniveau: master
 kuerzel: SGM-D
 angebotImWs: true
 informatik-master: ws

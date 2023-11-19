@@ -2,6 +2,7 @@
 title: Modellierung und Analyse technischer Systeme
 modulverantwortlich: mw
 dozierende: mw
+modulniveau: master
 kuerzel: MATS
 angebotImWs: true
 sprache: deutsch

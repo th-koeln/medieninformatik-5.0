@@ -2,6 +2,7 @@
 title: Interaction Design
 modulverantwortlich: gh
 dozierende: gh
+modulniveau: master
 kuerzel: ID
 angebotImWs: true
 informatik-master: ws

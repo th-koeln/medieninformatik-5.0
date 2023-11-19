@@ -3,6 +3,7 @@ title: Performance Management
 kuerzel: PEM
 modulverantwortlich: seckstein
 dozierende: seckstein
+modulniveau: master
 
 infourl: 
 

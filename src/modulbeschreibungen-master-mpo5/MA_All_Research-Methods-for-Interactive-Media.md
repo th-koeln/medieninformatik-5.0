@@ -2,6 +2,7 @@
 title: Research Methods for Interactive Media
 modulverantwortlich: gh
 dozierende: mbluemm, gh
+modulniveau: master
 kuerzel: RIM
 angebotImWs: true
 angebotImSs: false

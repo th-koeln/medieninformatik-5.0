@@ -2,6 +2,7 @@
 title: Spezielle Gebiete der Gamification
 modulverantwortlich: mbluemm
 dozierende: uwm
+modulniveau: master
 kuerzel: SGG
 angebotImWs: true
 sprache: deutsch

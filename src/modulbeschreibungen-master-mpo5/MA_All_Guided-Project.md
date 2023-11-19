@@ -3,6 +3,7 @@ title: Guided Project
 kuerzel: GP
 modulverantwortlich: all
 dozierende: all
+modulniveau: master
 angebotImWs: true
 angebotImSs: true
 sprache: Deutsch oder Englisch

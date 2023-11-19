@@ -2,6 +2,7 @@
 title: Interactive Media Products
 modulverantwortlich: nn
 dozierende: nn
+modulniveau: master
 kuerzel: IMP
 angebotImWs: false
 angebotImSs: true

@@ -22,7 +22,7 @@ competencies:
       - title: Produktentwicklung
         competence: "Können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch Dritte in ein Ökosystem bereitstellen."
       - title: Wirtschaftlichkeit
-        competence: "Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc."
+        competence: "Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc"
   - title: Management
     sub: 
       - title: Problemlösung

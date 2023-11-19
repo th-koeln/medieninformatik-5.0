@@ -2,6 +2,7 @@
 title: Wahlmodul
 modulverantwortlich: all
 dozierende: all
+modulniveau: master
 kuerzel: WAMO
 sprache: deutsch
 angebotImWs: true

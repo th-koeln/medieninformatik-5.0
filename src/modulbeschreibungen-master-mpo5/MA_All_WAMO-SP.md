@@ -2,6 +2,7 @@
 title: Wahlmodul im Schwerpunkt
 modulverantwortlich: all
 dozierende: all
+modulniveau: master
 kuerzel: WAMO-SP
 sprache: deutsch
 angebotImWs: true

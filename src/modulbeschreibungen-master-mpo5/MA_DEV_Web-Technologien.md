@@ -2,6 +2,7 @@
 title: Web Technologien
 modulverantwortlich: cn
 dozierende: cn
+modulniveau: master
 kuerzel: WEBT
 angebotImSs: true
 dreiSemestrig: true

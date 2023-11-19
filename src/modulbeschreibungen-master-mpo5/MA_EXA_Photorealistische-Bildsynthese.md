@@ -2,6 +2,7 @@
 title: Photorealistische Bildsynthese
 modulverantwortlich: fn
 dozierende: fn
+modulniveau: master
 kuerzel: PB
 angebotImWs: true
 sprache: wahlweise deutsch oder englisch

@@ -2,6 +2,7 @@
 title: Storytelling und Narrative Strukturen 
 modulverantwortlich: hk
 dozierende: hk
+modulniveau: master
 kuerzel: SNS
 angebotImWs: true
 sprache: deutsch

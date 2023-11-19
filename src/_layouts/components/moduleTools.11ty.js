@@ -34,11 +34,16 @@ const bereicheMap = new Map([
   ["Selbstlernen", "selbstlernen"],
 ]);
 
-const bereicheMapInverted = {}
+const bereicheMapInverted = {};
 
 bereicheMap.forEach((value, key) => {
   bereicheMapInverted[value] = key;
 });
+
+exports.handlungsfelderMap = handlungsfelderMap;
+exports.handlungsfelderMapInverted = handlungsfelderMapInverted;
+exports.bereicheMap = bereicheMap;
+exports.bereicheMapInverted = bereicheMapInverted;
 
 const aggregateKompetenzen = (kompetenzen) => {
   const handlungsfeldData = {};
@@ -208,4 +213,21 @@ exports.stripWWW = (data) => {
   if(!data) return '';
 
   return data.replace(/\(WAS\) /g, '').replace(/\(WOMIT\) /g, '').replace(/\(WOZU\) /g, '');
+};
+
+
+/* Übersetzt Sterne in Text
+############################################################################ */
+
+const starTranslations = new Map([
+  [0, 'nichts'],
+  [1, 'ein wenig'],
+  [2, 'etwas'],
+  [3, 'einiges'],
+  [4, 'viel'],
+  [5, 'sehr viel'],
+]);
+
+exports.translateStars = (stars) => {
+  return starTranslations.get(stars);
 };

@@ -3,6 +3,7 @@ title: Open Science
 kuerzel: OSC
 modulverantwortlich: mbluemm
 dozierende: mbluemm, cfrick
+modulniveau: master
 
 infourl: 
 

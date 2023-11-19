@@ -1,6 +1,7 @@
 ---
 title: Fortgeschrittene Themen verteilter, web-basierter Systeme
 modulverantwortlich: viet
+modulniveau: master
 kuerzel: WTW-FTW
 studiensemester: 1
 sprache: deutsch

@@ -2,6 +2,7 @@
 title: Spezielle Gebiete der Mensch-Computer-Interaktion
 modulverantwortlich: rgroten
 kuerzel: SGMCI
+modulniveau: master
 semester: 1
 sprache: deutsch
 zuordnung-zum-curriculum: Medieninformatik Master

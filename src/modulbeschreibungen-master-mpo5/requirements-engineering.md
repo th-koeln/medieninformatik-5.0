@@ -3,6 +3,7 @@ title: Requirements Engineering Project
 kuerzel: RE
 modulverantwortlich: il
 dozierende: il
+modulniveau: master
 
 infourl: 
 

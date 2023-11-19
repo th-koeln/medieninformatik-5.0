@@ -3,6 +3,7 @@ title: Visual Computing
 modulverantwortlich: fn
 dozierende: fn
 kuerzel: VC
+modulniveau: bachelor
 date: Last Modified
 kategorie: grundlagen
 sprache: deutsch

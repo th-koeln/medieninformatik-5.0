@@ -2,6 +2,7 @@
 title: Ubiquitous Computing
 modulverantwortlich: mboehmer
 dozierende: mboehmer
+modulniveau: master
 kuerzel: UC
 angebotImWs: true
 sprache: wahlweise deutsch oder englisch

@@ -2,6 +2,7 @@
 title: Augmented Reality
 modulverantwortlich: fn
 dozierende: fn
+modulniveau: master
 kuerzel: AR
 angebotImWs: true
 sprache: wahlweise deutsch oder englisch

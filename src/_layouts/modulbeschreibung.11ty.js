@@ -10,19 +10,7 @@ module.exports = {
 		const curriculumTools = require('./components/curriculumTools.11ty');
 		const utils = require('./components/utils.11ty.js');
 		const eleventy = this;
-
-		const startTranslations = new Map([
-			[0, 'nichts'],
-			[1, 'ein wenig'],
-			[2, 'etwas'],
-			[3, 'einiges'],
-			[4, 'viel'],
-			[5, 'sehr viel'],
-		]);
-
-		const translateStars = (stars) => {
-			return startTranslations.get(stars);
-		};
+		const translateStars = moduleTools.translateStars;
 
 		data = moduleTools.addCompetences(data);
 
@@ -47,6 +35,10 @@ module.exports = {
 
 		const getModulkompetenzenList = (modulkompetenzen) => {
 
+			const studyProgramme = data.modulniveau;
+			console.log(studyProgramme);
+			eleventy.getCompetencesToModuleMapPath(studyProgramme);
+
 			const { handlungsfelderMap } = modulkompetenzen;
 
 			let lastHandlungsfeld = '';
@@ -68,13 +60,15 @@ module.exports = {
 					const title = key !== lastBereich ? `<h4>${key}</h4>` : '';
 					lastBereich = key;
 
+					
+
 					const list = values.map(item => {
 						return `
 							<li>
 								<div class="score-indicator-group-wrap">
 									<div class="score-indicator-group">
 										<span title="Modul liefert ${translateStars(item.liefert)} dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(${item.liefert} * 9%)"></span>
-										<span title="Modul erfordert ${translateStars(item.braucht)} dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(${item.braucht} * 9%); transform: translateX(calc(${item.braucht} * -100%))"></span>
+										<span title="Modul erfordert ${translateStars(item.braucht)} dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(${item.braucht} * 9%); transform: translateX(-100%)"></span>
 									</div>
 								</div>
 								<p>${item.Kompetenz}</p>
@@ -105,40 +99,6 @@ module.exports = {
 							${list.join('')}
 						</ul>
 					</div>
-				`;
-
-
-			});
-
-			// ausführliche Liste mit den Kompetenzen
-			const listOld = modulkompetenzen.all.map(item => {
-
-
-				const displayedHandlungsfeld = item.Handlungsfeld !== lastHandlungsfeld ? item.Handlungsfeld : '';
-				const displayedBereich = item.Bereich !== lastBereich ? item.Bereich : '';
-				lastHandlungsfeld = item.Handlungsfeld;
-				lastBereich = item.Bereich;
-
-				const hasBorderHandlungsfeld = displayedHandlungsfeld !== '' ? 'has-border' : '';
-				const hasBorderBereich = displayedBereich !== '' ? 'has-border' : '';
-				const hasBorder = hasBorderHandlungsfeld || hasBorderBereich ? 'has-border' : '';
-
-				const idBereich = this.slugify(item.Bereich);
-				const idHandlungsfeld = this.slugify(item.Handlungsfeld);
-
-				return `
-
-				`;
-
-				return `
-					<tr class="${hasBorderHandlungsfeld} ${hasBorderBereich}">
-						<th id="${idHandlungsfeld}" class="handlungsfeld ${hasBorderHandlungsfeld}">${displayedHandlungsfeld}</th>
-						<td id="${idBereich}" class="bereich ${hasBorderBereich}">${displayedBereich}
-						
-						</td>
-				
-						<td class="${hasBorder}"><span class="score-value-indicator" style="width: calc(${item.liefert} * 5%)"></span>${item.Kompetenz}</td>
-					</tr>	
 				`;
 			});
 
@@ -229,6 +189,10 @@ module.exports = {
 					</div>
 
 					<div class="competence-list">${modulkompetenzenList.join('')}</div>
+
+					<p>
+						In der linken Spalte sehen Sie, welche Kompetenzen für das Modul vorausgesetzt werden (hellgrauer Balken). In der rechten Spalte sehen Sie, welche Kompetenzen Sie mit dem Modul erwerben können (farbiger Balken). Die Kompetenzen sind in Handlungsfelder und Bereiche gegliedert. 
+					</p>
 				</section>
 
 			`;

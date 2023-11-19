@@ -3,6 +3,7 @@ title: Management und Unternehmenssteuerung
 kuerzel: MMU
 modulverantwortlich: tkl
 dozierende: tkl
+modulniveau: master
 
 infourl: 
 

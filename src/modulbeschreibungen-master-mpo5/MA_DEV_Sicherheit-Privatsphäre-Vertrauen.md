@@ -2,6 +2,7 @@
 title: Sicherheit, Privatsphäre und Vertrauen
 modulverantwortlich: sk
 dozierende: sk
+modulniveau: master
 kuerzel: SPV
 angebotImWs: true
 informatik-master: ws

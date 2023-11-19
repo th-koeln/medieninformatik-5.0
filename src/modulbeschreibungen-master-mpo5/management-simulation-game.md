@@ -3,6 +3,7 @@ title: Management Simulation Game
 kuerzel: MSG
 modulverantwortlich: cwe
 dozierende: cwe
+modulniveau: master
 
 infourl: 
 

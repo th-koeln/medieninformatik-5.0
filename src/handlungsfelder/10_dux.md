@@ -16,12 +16,12 @@ competencies:
       - title: Physiologie
         competence: "Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert."
       - title: Requirements
-        competence: "Wissen über Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer\\*innen verstanden, erfasst und nutzbar gemacht werden und diese anwenden können."
+        competence: "Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden."
       - title: Kontexte
-        competence: "Analyse von Nutzungs- und Unternehmenskontexte und deren Auswirkungen auf die Medienwahl und -ausgestaltung erörtern können."
+        competence: "Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern."
   - title: Konzepte
     sub:
-      - title: todo
+      - title: Konzeptionelles Denken
         competence: "Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen."
       - title: Interaktionskonzepte
         competence: "Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten."

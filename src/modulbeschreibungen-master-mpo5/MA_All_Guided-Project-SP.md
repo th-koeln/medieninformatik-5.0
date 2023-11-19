@@ -3,6 +3,7 @@ title: Guided Project im Schwerpunkt
 kuerzel: GP-SP
 modulverantwortlich: all
 dozierende: all
+modulniveau: master
 angebotImWs: true
 angebotImSs: true
 sprache: Deutsch oder Englisch

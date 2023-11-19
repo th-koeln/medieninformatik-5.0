@@ -3,6 +3,7 @@ title: IT Consulting
 kuerzel: ITC
 modulverantwortlich: fv
 dozierende: fv
+modulniveau: master
 
 infourl: 
 

@@ -2,6 +2,7 @@
 title: Soziotechnische Entwurfsmuster
 modulverantwortlich: ck
 dozierende: ck
+modulniveau: master
 kuerzel: SOZE
 angebotImWs: true
 sprache: deutsch

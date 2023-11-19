@@ -3,6 +3,7 @@ title: The Module formerly known as »Vertiefungsworkshop 2«
 kuerzel: VW2
 modulverantwortlich: mbluemm
 dozierende: mbluemm
+modulniveau: master
 
 infourl: 
 

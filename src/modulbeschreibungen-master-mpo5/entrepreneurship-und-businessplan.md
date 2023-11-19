@@ -3,6 +3,7 @@ title: Entrepreneurship & Businessplan
 kuerzel: EB
 modulverantwortlich: moe
 dozierende: moe, cwe
+modulniveau: master
 
 infourl: 
 

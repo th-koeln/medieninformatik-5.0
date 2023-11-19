@@ -3,6 +3,7 @@ title: Innovation Management
 kuerzel: INM
 modulverantwortlich: il
 dozierende: il
+modulniveau: master
 
 infourl: 
 

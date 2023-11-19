@@ -2,6 +2,7 @@
 title: Visualisierung
 modulverantwortlich: fn
 dozierende: fn
+modulniveau: master
 kuerzel: VI
 angebotImSs: true
 sprache: wahlweise deutsch oder englisch

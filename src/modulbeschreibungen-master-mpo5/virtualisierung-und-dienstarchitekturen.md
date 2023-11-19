@@ -3,6 +3,7 @@ title: Virtualisierung und Dienstarchitekturen
 kuerzel: VDM
 modulverantwortlich: rma
 dozierende: rma
+modulniveau: master
 
 infourl: 
 

@@ -4,6 +4,7 @@ kuerzel: GP-EXA
 schwerpunkt: EXA
 modulverantwortlich: all
 dozierende: all
+modulniveau: master
 angebotImWs: true
 angebotImSs: true
 sprache: Deutsch oder Englisch

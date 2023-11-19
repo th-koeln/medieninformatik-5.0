@@ -4,6 +4,7 @@ kuerzel: CEX
 status: modules.status.options.ok
 modulverantwortlich: sbe
 dozierende: sbe
+modulniveau: master
 
 infourl: 
 

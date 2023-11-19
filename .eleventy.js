@@ -12,7 +12,11 @@ const pathes = {
   },
   "images":{
     "people": "/images/people",
-  }
+  },
+  "competencesToModuleMap": {
+    "bachelor": "kompetenzen-der-module-bachelor",
+    "master": "kompetenzen-der-module-master",
+  },
 };
 
 const md = new markdownIt({
@@ -143,7 +147,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addJavaScriptFunction("getImagesBasePath", function (section) {
-    return pathPrefix + pathes.images[section]
+    return `${pathPrefix}/${pathes.images[section]}`;
+  });
+
+  eleventyConfig.addJavaScriptFunction("getCompetencesToModuleMapPath", function (studyProgramme) {
+    return `${pathPrefix}/${pathes.competencesToModuleMap[studyProgramme]}`;
   });
 
   /* Filter

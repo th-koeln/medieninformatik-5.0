@@ -3,6 +3,7 @@ title: Enterprise Architecture Management
 kuerzel: EAM
 modulverantwortlich: hwe
 dozierende: hwe, fv
+modulniveau: master
 
 infourl: 
 

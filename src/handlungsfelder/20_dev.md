@@ -13,7 +13,7 @@ competencies:
   - title: Technologie
     sub:
       - title: Computer
-        competence: Wissen was ein Computer ist und wie Software darauf ausgeführt wird."
+        competence: "Wissen was ein Computer ist und wie Software darauf ausgeführt wird."
       - title: Kommunikation
         competence: "Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, MQTT)."
       - title: TechStacks
@@ -27,9 +27,9 @@ competencies:
       - title: Abstraktion
         competence: "Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen."
       - title: Modellierung
-        competence: Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können."
+        competence: "Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können."
       - title: Verteilung
-        competence: Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können."
+        competence: "Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können."
   - title: Implementierung
     sub:
       - title: Tooling
@@ -39,7 +39,7 @@ competencies:
       - title: Agile
         competence: "Kennen Grundkonzepte agiler Entwicklung und agilen Arbeitens wie iterative und inkrementelle Entwicklung, selbstorganisierte Teams, Transparente Kommunikation, etc. und können diese in Projekten anwenden."
       - title: Deployment
-        competence: Können digitale Produkte und verschiedene Software-Artefakte zur Evaluation und zur Nutzung auf typischen Distributionswegen (bspw. Clickdummy, Web-Deployment, App Store) für verschiedene Zielgruppen bereit stellen (lauffähig, sicher und gebrauchstauglich)."
+        competence: "Können digitale Produkte und verschiedene Software-Artefakte zur Evaluation und zur Nutzung auf typischen Distributionswegen (bspw. Clickdummy, Web-Deployment, App Store) für verschiedene Zielgruppen bereit stellen (lauffähig, sicher und gebrauchstauglich)."
 ---
 
 Leitfrage: Wie werden Softwaresysteme und -produkte gebaut?

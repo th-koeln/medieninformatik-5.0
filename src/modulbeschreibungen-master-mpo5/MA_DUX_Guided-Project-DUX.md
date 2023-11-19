@@ -2,6 +2,7 @@
 title: Guided Project on Designing for User Experiences
 modulverantwortlich: all
 dozierende: all
+modulniveau: master
 angebotImWs: true
 angebotImSs: true
 kuerzel: GP-DUX

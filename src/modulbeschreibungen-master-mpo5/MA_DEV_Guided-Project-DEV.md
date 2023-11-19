@@ -3,6 +3,7 @@ title: Guided Project on Developing Interactive and Distributed Systems
 kuerzel: GP-DEV
 schwerpunkt: DEV
 modulverantwortlich: mi
+modulniveau: master
 dozierende: mi
 studiensemesterVierSemestrig: 3
 sprache: deutsch

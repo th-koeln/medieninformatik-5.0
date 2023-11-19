@@ -2,6 +2,7 @@
 title: Angewandte Statistik für die Human-Computer Interaction
 modulverantwortlich: gh
 dozierende: gh
+modulniveau: master
 kuerzel: SHCI
 angebotImSs: true
 sprache: deutsch

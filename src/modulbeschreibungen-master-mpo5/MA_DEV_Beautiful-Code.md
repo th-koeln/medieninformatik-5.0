@@ -2,6 +2,7 @@
 title: Beautiful Code
 modulverantwortlich: ck
 dozierende: ck, ald
+modulniveau: master
 kuerzel: BC
 angebotImWs: true
 sprache: deutsch

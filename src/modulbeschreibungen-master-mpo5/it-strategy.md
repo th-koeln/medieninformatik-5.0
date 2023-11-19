@@ -3,6 +3,7 @@ title: IT Strategy
 kuerzel: ITSTR
 modulverantwortlich: il
 dozierende: il
+modulniveau: master
 
 infourl: 
 

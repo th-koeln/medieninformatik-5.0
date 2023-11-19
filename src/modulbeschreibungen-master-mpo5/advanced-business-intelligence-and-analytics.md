@@ -3,6 +3,7 @@ title: Advanced Business Intelligence and Analytics
 kuerzel: ABIA
 modulverantwortlich: hwe
 dozierende: hwe
+modulniveau: master
 
 infourl: 
 

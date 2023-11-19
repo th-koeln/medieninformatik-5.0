@@ -2,6 +2,7 @@
 title: Design Methodologies
 modulverantwortlich: ck
 dozierende: ck
+modulniveau: master
 kuerzel: DM
 angebotImWs: true
 sprache: deutsch

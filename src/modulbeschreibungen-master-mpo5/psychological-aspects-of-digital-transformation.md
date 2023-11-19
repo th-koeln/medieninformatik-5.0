@@ -3,6 +3,7 @@ title: Psychological aspects of digital transformation
 kuerzel: PADT
 modulverantwortlich: cpa
 dozierende: cpa
+modulniveau: master
 
 infourl: 
 
