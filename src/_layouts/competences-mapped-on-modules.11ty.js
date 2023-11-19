@@ -92,6 +92,8 @@ module.exports = {
           <header>
             <h1>${data.title}</h1>
           </header>
+
+          ${data.content}
         </section>
 
         <section>
