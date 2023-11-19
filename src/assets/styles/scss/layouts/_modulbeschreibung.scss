@@ -78,6 +78,10 @@
         border-top: none;
       }
     }
+
+    th{
+      font-weight: var(--fw-medium);
+    }
     
     th, td{
       padding-top: var(--half);

@@ -4,7 +4,7 @@ const yaml = require("js-yaml");
 const fg = require('fast-glob');
 const fs = require('fs');
 
-const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "medieninformatik-5.0" : "";
+const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "/medieninformatik-5.0" : "";
 const pathes = {
   "competences": {
     "bachelor": "./src/modulkompetenzen-bachelor/",
