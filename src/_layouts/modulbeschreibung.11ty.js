@@ -11,6 +11,9 @@ module.exports = {
 		const utils = require('./components/utils.11ty.js');
 		const eleventy = this;
 		const translateStars = moduleTools.translateStars;
+		
+		const studyProgramme = data.modulniveau;
+		const pathToCompetenceMap = eleventy.getCompetencesToModuleMapPath(studyProgramme);
 
 		data = moduleTools.addCompetences(data);
 
@@ -35,9 +38,7 @@ module.exports = {
 
 		const getModulkompetenzenList = (modulkompetenzen) => {
 
-			const studyProgramme = data.modulniveau;
-			console.log(studyProgramme);
-			eleventy.getCompetencesToModuleMapPath(studyProgramme);
+
 
 			const { handlungsfelderMap } = modulkompetenzen;
 
@@ -59,16 +60,18 @@ module.exports = {
 				const list = Object.entries(value).map(([key, values]) => {
 					const title = key !== lastBereich ? `<h4>${key}</h4>` : '';
 					lastBereich = key;
-
 					
-
 					const list = values.map(item => {
+
+						const kompetenzId = eleventy.slugify(item.Kompetenz).substr(0,48);
+						const linkToCompetenceMap = pathToCompetenceMap ? `${pathToCompetenceMap}#${kompetenzId}` : '';
+
 						return `
 							<li>
 								<div class="score-indicator-group-wrap">
 									<div class="score-indicator-group">
-										<span title="Modul liefert ${translateStars(item.liefert)} dieser Kompetenz." class="score-value-indicator liefert" style="width: calc(${item.liefert} * 9%)"></span>
-										<span title="Modul erfordert ${translateStars(item.braucht)} dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(${item.braucht} * 9%); transform: translateX(-100%)"></span>
+										<span data-js-hyperlink="${linkToCompetenceMap}" title="Modul liefert ${translateStars(item.liefert)} dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(${item.liefert} * 9%)"></span>
+										<span data-js-hyperlink="${linkToCompetenceMap}" title="Modul erfordert ${translateStars(item.braucht)} dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(${item.braucht} * 9%); transform: translateX(-100%)"></span>
 									</div>
 								</div>
 								<p>${item.Kompetenz}</p>
@@ -192,6 +195,9 @@ module.exports = {
 
 					<p>
 						In der linken Spalte sehen Sie, welche Kompetenzen für das Modul vorausgesetzt werden (hellgrauer Balken). In der rechten Spalte sehen Sie, welche Kompetenzen Sie mit dem Modul erwerben können (farbiger Balken). Die Kompetenzen sind in Handlungsfelder und Bereiche gegliedert. 
+					</p>
+					<p>
+						Wenn Sie auf den grauen oder farbigen Balken klicken, gelangen Sie zu einer Liste von Modulen, die auf diese Kompetenz einzahlen. Hier finden die eine <a href="${pathToCompetenceMap}">Übersicht über alle Kompetenzen und die Module, die auf diese einzahlen</a>.
 					</p>
 				</section>
 

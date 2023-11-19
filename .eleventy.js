@@ -11,7 +11,7 @@ const pathes = {
     "master": "./src/modulkompetenzen-master/",
   },
   "images":{
-    "people": "/images/people",
+    "people": "images/people",
   },
   "competencesToModuleMap": {
     "bachelor": "kompetenzen-der-module-bachelor",

@@ -54,6 +54,10 @@
             &.braucht {
               background-color: var(--darken-strong);
             }
+
+            &:hover{
+              cursor: pointer;
+            }
           }
         }
       }

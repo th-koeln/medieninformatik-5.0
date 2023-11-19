@@ -555,8 +555,6 @@ table {
 /* Main Header
 ###########################################################################  */
 .main-header {
-  position: sticky;
-  top: 0;
   padding: var(--xs) var(--fluid-space-m);
   margin: 0;
   background-color: var(--darkest);
@@ -1037,6 +1035,9 @@ ul.hero-list > li + li {
 }
 .competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator.braucht {
   background-color: var(--darken-strong);
+}
+.competence-block .competence-bereiche > li .score-indicator-group-wrap .score-indicator-group span.score-value-indicator:hover {
+  cursor: pointer;
 }
 .competence-block .competence-bereiche[class*=indicate-as-dux] span.score-value-indicator.liefert {
   background-color: var(--handlungsfeld-dux);
