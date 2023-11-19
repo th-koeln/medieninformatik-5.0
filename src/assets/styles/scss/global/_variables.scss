@@ -1,5 +1,5 @@
 :root {
-  --bfs: clamp(1rem, calc(0.5rem + 0.5vw), 2.5rem);
+  --bfs: 1rem; // clamp(1rem, calc(0.5rem + 0.5vw), 2.5rem);
   --half: calc(var(--bfs) / 2); // halbes geviert
   --quat: calc(var(--bfs) / 4); // viertel geviert
   --xxs: calc(var(--bfs) * 0.4);
