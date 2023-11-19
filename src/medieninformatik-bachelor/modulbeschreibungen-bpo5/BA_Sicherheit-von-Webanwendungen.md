@@ -13,7 +13,6 @@ empfohleneVoraussetzungen: Algorithmen und Programmierung 1 & 2, Mobile Computin
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpf
-parent: WD
 veranstaltungsform: Präsenz
 infourl: 
 studienleistungen:

@@ -73,7 +73,6 @@ exports.parseContent = (eleventy, data) => {
     const snippetElement = root.querySelector('snippet');
     const type = snippetElement.getAttribute('type');
     const snippetCode = require(`../snippets/${type}.11ty.js`);
-
     return snippetCode.render(eleventy, data, snippetElement.attributes);
 
   });

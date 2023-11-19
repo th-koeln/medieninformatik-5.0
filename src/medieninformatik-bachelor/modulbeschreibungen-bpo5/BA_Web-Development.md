@@ -32,27 +32,21 @@ meta:
   reviewers: viet
 angebotImWs: false
 angebotImSs: true
+praesenzZeit: 72
+selbstStudium: 78
 lehrform:
   - Vorlesung 2 SWS
   - Praktikum 2 SWS
+lehrmethoden:
+  - Folienpräsentation
+  - Live-Coding und -Demonstration
+  - Implementierung Webclients und serverseitgen Webanwendungen
+  - Analyse von Webanwendungen durch Entwicklertools  
 ---
-## Kurzbeschreibung
+
+## Learning Outcome
 
 Veranstaltung führt in die Grundlagen der Entwicklung und Implementierungen von Webanwendungen und Webservices ein.
-
-## Lehrform/SWS
-
-4 SWS: Seminar 2 SWS; Workshop 2 SWS
-
-## Arbeitsaufwand
-
-Gesamtaufwand 150h, davon
-
-- 36h Vorlesung
-- 36h Seminar
-- 78h Selbststudium
-
-## Angestrebte Lernergebnisse
 
 (WAS) Studierenden können eine vollständige Webanwendung entwickeln und implementieren,
 
@@ -85,16 +79,8 @@ Im Grundlagenteil der Veranstaltung werden wesentliche Konzepte vermittelt, die 
 Im Workshop soll die Studierenden durch Übungen die Lehrinhalte aus dem Grundlagenteil praktisch anwenden. Ziel des Workshop
 ist die Implementierung und das Deployment einer Webanwendung für ein selbstgewältes Problemszenario, der eine signifikante Abnwendungslogik realisiert und seinerseits anwendungsbezogen einen externen REST-basierten Web Service einbindet.
 
-## Medienformen
-
-- Folienpräsentation
-- Live-Coding und -Demonstration
-  - Deployment und Konfiguration Webserver
-  - Implementierung Webclients und serverseitgen Webanwendungen
-  - Analyse von Webanwendungen durch Entwicklertools
-
-## LiteraturDas vom W3C herausgegebene Dokument über die Architektur des Web
-
+## Literatur
+- Das vom W3C herausgegebene Dokument über die Architektur des Web
 - Tilkov et al.: REST und HTTP, dpunkt.verlag 2015
 - Tanenbaum et al.: Distributed Systems, Pearson 2007
 - Randy Conolly, Richard Hoar: Fundamentals of Web Development, Pearson Publishing 2015

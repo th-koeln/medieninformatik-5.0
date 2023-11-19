@@ -163,7 +163,7 @@ select {
   --fluid-space-m: calc(var(--m) + 1vw);
   --fluid-space-l: calc(var(--l) + 1.5vw);
   --fluid-space-xl: calc(var(--xl) + 2vw);
-  --max-width-content: calc(var(--m) * 40);
+  --max-width-content: calc(var(--m) * 50);
   --max-width-table: calc(var(--m) * 80);
   --max-width-card: calc(var(--m) * 20);
   --max-width-image: calc(var(--m) * 10);
@@ -407,7 +407,7 @@ blockquote {
 /* Handliungsfelder
 ############################################################################ */
 .is-dev {
-  background-color: var(--mi-blau);
+  background-color: var(--handlungsfeld-dev);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -415,7 +415,7 @@ blockquote {
 }
 
 .is-dux {
-  background-color: var(--mi-pink);
+  background-color: var(--handlungsfeld-dux);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -423,7 +423,7 @@ blockquote {
 }
 
 .is-crea {
-  background-color: var(--mi-gruen);
+  background-color: var(--handlungsfeld-crea);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -431,7 +431,7 @@ blockquote {
 }
 
 .is-exa {
-  background-color: var(--mi-lila);
+  background-color: var(--handlungsfeld-exa);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -439,7 +439,7 @@ blockquote {
 }
 
 .is-indi {
-  background-color: var(--mi-orange);
+  background-color: var(--handlungsfeld-indi);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -500,6 +500,12 @@ blockquote {
 ############################################################################ */
 .is-small {
   font-size: small;
+}
+
+/* Unimportant Text
+############################################################################ */
+.is-less-important {
+  font-weight: var(--fw-normal);
 }
 
 /* Sticky
@@ -741,6 +747,7 @@ table.is-narrow td {
   text-align: center;
   border-left: dotted var(--border-width-s) var(--dark);
   position: relative;
+  height: 2em;
 }
 .table-modulmatrix th.is-vertical {
   position: relative;
@@ -772,7 +779,7 @@ table.is-narrow td {
   right: 0;
 }
 .table-modulmatrix .is-checked::before {
-  line-height: 3ch;
+  line-height: 2ch;
 }
 .table-modulmatrix tr:nth-child(even) {
   background-color: var(--lighten);
@@ -1423,6 +1430,58 @@ ul.job-offer-overview .job-offer-data figcaption li {
   font-size: var(--l);
   color: var(--darker);
   font-weight: var(--fw-medium);
+}
+
+/* Kleine Optimierungen
+###########################################################################  */
+.modulhandbuch p + div {
+  margin-top: var(--fluid-space-l);
+}
+.modulhandbuch h2 {
+  margin-top: var(--fluid-space-xl);
+}
+
+/* Modulhandbuch
+###########################################################################  */
+.modulhandbuch .cover header {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.modulhandbuch .cover .owner {
+  margin-bottom: var(--fluid-space-xl);
+}
+.modulhandbuch .cover .title {
+  font-size: var(--xl);
+  color: var(--darker);
+  font-weight: var(--fw-light);
+}
+.modulhandbuch .cover .subtitle {
+  font-size: var(--xxl);
+  color: var(--darkest);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--fluid-space-l);
+  line-height: var(--lh-tight);
+}
+.modulhandbuch .cover .degree {
+  font-size: var(--xl);
+  flex-grow: 2;
+}
+.modulhandbuch .cover .version-and-date {
+  display: flex;
+}
+.modulhandbuch .cover .version-and-date * + *:before {
+  content: "//";
+  display: inline-block;
+  padding-left: var(--half);
+  padding-right: var(--half);
+  color: var(--dark);
+}
+
+/* Modulhandbuch -> Handlungsfelder
+###########################################################################  */
+.modulhandbuch div {
+  margin-bottom: var(--fluid-space-s);
 }
 
 /*# sourceMappingURL=main.css.map */

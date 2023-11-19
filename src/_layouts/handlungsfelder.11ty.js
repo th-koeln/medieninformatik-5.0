@@ -3,7 +3,9 @@ module.exports = {
 		layout: "default.11ty.js",
 		bodyClass: "content-blocks",
 	},
-	render(data) {
+	render(data, context) {
+
+    const eleventy = context ? context : this;
 
     const tocTools = require('./components/tocTools.11ty.js');
     const utils = require('./components/utils.11ty.js');
@@ -37,12 +39,12 @@ module.exports = {
     const handlungsfelderList = data.collections.handlungsfelder.map((item) => {
       const status = item.data.meta && item.data.meta.status ? `is-${item.data.meta.status}` : '';
       const competencies = getCompetencies(item.data.competencies, item.page.fileSlug)
-      const meta = utils.getContentMeta(this, item.data.meta);
+      const meta = utils.getContentMeta(eleventy, item.data.meta);
       
       return `
         <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
-            <h${item.data.level + 1} id="${this.slugify(item.data.title)}">${item.data.title}
+            <h${item.data.level + 1} id="${eleventy.slugify(item.data.title)}">${item.data.title}
               ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
             ${meta}
            ${item.content}
@@ -63,7 +65,7 @@ module.exports = {
         <section>
           <nav>
             ${tocTools.getPageTOC({
-              eleventy: this,
+              eleventy,
               collection: data.collections.handlungsfelder,
               maxLevel: 1
             })}

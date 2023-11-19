@@ -1,3 +1,5 @@
+const moduleTools = require('../components/moduleTools.11ty');
+const peopleTools = require('../components/peopleTools.11ty');
 
 const getChildModulList = (data) => {
   return  data.collections.allModuls.filter((modul) => {
@@ -14,8 +16,7 @@ const getChildModulList = (data) => {
 
 exports.getCurriculumList = (obj) => {
 
-  const moduleTools = require('../components/moduleTools.11ty');
-  const peopleTools = require('../components/peopleTools.11ty');
+
 
   const { moduls } = obj;
   const { data } = obj;
@@ -25,7 +26,6 @@ exports.getCurriculumList = (obj) => {
   if(!studienverlauf) return '';
   let cps = 0;
 
-  const keyStudiensemester = data.variant ? `studiensemester${data.variant}` : 'studiensemester';
   const listByTermViaVerlauf = studienverlauf.map((row) => {
 
     const termModuls = row.semester.module.map((kuerzel) => {
@@ -160,6 +160,11 @@ const getCurriculumTable = (obj) => {
     return modulsForGroup(group);
   });
 
+  const termsData = terms.map(term => {
+    const displayedTerm = term === 0 ? `0${term}` : term;
+    return `<td class="is-fs-${term}">${displayedTerm}</td>`;
+  });
+
   return `
     <table class="table-curriculum is-striped is-narrow">
       <thead>
@@ -171,7 +176,7 @@ const getCurriculumTable = (obj) => {
           <th>Module</th>
           <th title="Prüfungsvorleistung erforderlich">PV</th>
           <td title="Summe CP">CP</td>
-          ${terms.map((term) => `<td class="is-fs-${term}">0${term}</td>`).join("\n")}
+          ${termsData.join("\n")}
         </tr>
       </thead>
 
@@ -246,16 +251,10 @@ exports.getAllModuls = (obj) => {
 
   const { moduls } = obj;
   const { eleventy } = obj;
-  const { data } = obj;
   
-  const peopleTools = require('../components/peopleTools.11ty');
   const modulList = moduls.map((modul) => {
 
     const status = modul.data.meta && modul.data.meta.status ? `<span class="is-${modul.data.meta.status}"></span>` : '';
-    const schwerpunkt = modul.data.schwerpunkt ? ` (${modul.data.schwerpunkt})` : ''; 
-    const modulverantwortlich = modul.data.modulverantwortlich 
-      ? `, ${peopleTools.resolvePerson(data.people, modul.data.modulverantwortlich)}`
-      : '';
 
     return `
       <li>${status}
@@ -369,7 +368,6 @@ isModulInSchwerpunkt = exports.isModulInSchwerpunkt = (modul, schwerpunkt) => {
 }
 
 
-
 /* Liste aller Kind Module eines Moduls nach Schwerpunkt
 ############################################################################ */
 
@@ -409,5 +407,148 @@ exports.getChildModulListBySchwerpunkt = (data, headlineChilds, eleventy) => {
         ${schwerpunkteListFiltered.join("\n")}
       </ul>
     </section>
+  `;
+};
+
+
+/* Modulmatrix für einen Studiengang
+############################################################################ */
+
+exports.getModulMatrix = (obj) => {
+
+  const { moduls } = obj;
+  const studyProgramme = obj.studyProgramme ? obj.studyProgramme : 'master';
+  const { handlungsfelder } = obj;
+
+  const impactGate = 0; // Soviel muss ein Modul liefern, damit es als "check" gilt
+  const impactGateHandlungsfeld = 10; // Soviel muss ein Handlungsfeld liefern, damit es als "check" gilt
+
+  const modulRows = moduls.map((modulItem) => {
+      
+    const modul = moduleTools.addCompetences(modulItem.data);
+    const check = '<span class="icon is-checked">check</span>';
+
+    const checkImpact = ( value ) => {
+      if(!value) return "";
+      if(!value.liefert) return "";
+      return value.liefert > impactGate ? check : "";
+    };
+
+    const checkImpactHandlungsfeld = ( handlungsfeld ) => {
+
+      if(studyProgramme === 'master') { return modul.handlungsfelder?.DUX ? "DUX" : ""; }
+      if(!modul.kompetenzen?.handlungsfelderOverall) return "";
+
+      const kompetenzenImHandlungsfeld = modul.kompetenzen.handlungsfelderOverall[handlungsfeld];
+      if(!kompetenzenImHandlungsfeld) return "";
+      
+      const summeImactKompetenzenImHandlungsfeld = Object.entries(kompetenzenImHandlungsfeld).reduce((accumulator, kompetenzBereich) => {
+        const scoreBereich = kompetenzBereich.reduce((accumulator, currentValue) => { 
+            const value = currentValue.liefert ? currentValue.liefert : 0;
+            return accumulator + value;
+          }, 0
+        );
+        return accumulator + scoreBereich;
+      }, 0);
+      
+      return summeImactKompetenzenImHandlungsfeld > impactGateHandlungsfeld ? handlungsfeld : "";
+
+    };
+
+    return `
+      <tr>
+        <!-- Modul -->
+        <th class="module-name"><a href="${modulItem.url}">${modul.title}</a></th>
+        <td>${modul.typ === 'pm' ? check : ''}</td>
+        <td>${modul.kreditpunkte}</td>
+        <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>
+        
+        <!-- Prüfungen -->
+        <td>${modul.studienleistungen?.Einzelleistung ? "1" : "?"}</td>
+  
+        <!-- Handlungsfelder -->
+        <td>${checkImpactHandlungsfeld('DUX')}</td>
+        <td>${checkImpactHandlungsfeld('DEV')}</td>
+        <td>${checkImpactHandlungsfeld('EXA')}</td>
+        <td>${checkImpactHandlungsfeld('CREA')}</td>
+        <td>${checkImpactHandlungsfeld('INDI')}</td>
+        
+        <!-- Zuordnung Kompetenzen -->
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall?.DUX?.anforderungenBedarfe)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall?.DUX?.konzepte)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall?.DUX?.gestaltung)}</td>
+      
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.DEV?.technologie)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.DEV?.entwurf)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.DEV?.implementierung)}</td>
+      
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.EXA?.medien)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.EXA?.explorationKreativitaet)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.EXA?.prototyping)}</td>
+      
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.CREA?.innovation)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.CREA?.management)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.CREA?.kommunikation)}</td>
+      
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.INDI?.analyseStudienExperimente)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.INDI?.situatedInteraction)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.INDI?.ethikGesellschaft)}</td>
+        <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.INDI?.selbstlernen)}</td>
+  
+        <!-- Zuordnung Studiengangkriterien -->
+        <td>${checkImpact(modul.studiengangkriterien?.globalcitizenship)}</td>
+        <td>${checkImpact(modul.studiengangkriterien?.internationalisierung)}</td>
+        <td>${checkImpact(modul.studiengangkriterien?.interdisziplinaritaet)}</td>
+        <td>${checkImpact(modul.studiengangkriterien?.transfer)}</td>
+  
+      </tr>
+      `
+  }).join("");
+  
+  const kompetenzSpalten = handlungsfelder.map(hf => {
+    return hf.data.competencies.map( cmpt => {
+      return `<th class="is-vertical"><div><span>${cmpt.title}</span></div></th>\n`
+    }).join("");
+  }).join("");
+  
+  return `
+    <table class="table-modulmatrix is-narrow">
+      <thead>
+        <tr>
+          <th colspan=5>Modul</th>
+          <th colspan=5>Handlungsfelder</th>
+          <th colspan=16>Zuordnung Kompetenzen</th>
+          <th colspan=4>Zuordnung Studiengangkriterien</th>
+        </tr>
+        <tr>
+          <!-- Modul -->
+          <th class="module-name"></th>
+          <th class="is-vertical"><div><span>Pflicht</span></div></th>
+          <th class="is-vertical"><div><span>ECTS</span></div></th>
+          <th class="is-vertical"><div><span>Semester</span></div></th>
+          <th class="is-vertical"><div><span>Prüfungen</span></div></th>
+  
+          <!-- Handlungsfelder -->
+          <th class="is-vertical"><div><span>DUX</span></div></th>
+          <th class="is-vertical"><div><span>DEV</span></div></th>
+          <th class="is-vertical"><div><span>EXA</span></div></th>
+          <th class="is-vertical"><div><span>CREA</span></div></th>
+          <th class="is-vertical"><div><span>INDI</span></div></th>
+  
+          <!-- Zuordnung Kompetenzen -->
+          ${kompetenzSpalten}
+  
+          <!-- Zuordnung Studiengangkriterien -->
+          <th class="is-vertical"><div><span>Global Citizenship</span></div></th>
+          <th class="is-vertical"><div><span>Internationalisierung</span></div></th>
+          <th class="is-vertical"><div><span>Interdisziplinarität</span></div></th>
+          <th class="is-vertical"><div><span>Transfer</span></div></th>
+  
+        </tr>
+      </thead>
+      <tbody>
+        ${modulRows}
+      </tbody> 
+    </table>
   `;
 };

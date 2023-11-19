@@ -172,6 +172,7 @@ table {
     text-align: center;
     border-left: dotted var(--border-width-s) var(--dark);
     position: relative;
+    height: 2em;
   }
 
   th.is-vertical {
@@ -202,6 +203,7 @@ table {
   th.module-name{
     text-align: left;
     width: 30ch;
+    
   }
 
   .is-checked{
@@ -212,7 +214,7 @@ table {
     bottom: 0;
     right: 0;
     &::before{
-      line-height: 3ch;
+      line-height: 2ch;
     }
   }
 

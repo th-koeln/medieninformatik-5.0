@@ -34,7 +34,7 @@
 ############################################################################ */
 
 .is-dev{
-  background-color: var(--mi-blau);
+  background-color: var(--handlungsfeld-dev);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -42,7 +42,7 @@
 }
 
 .is-dux{
-  background-color: var(--mi-pink);
+  background-color: var(--handlungsfeld-dux);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -50,7 +50,7 @@
 }
 
 .is-crea{
-  background-color: var(--mi-gruen);
+  background-color: var(--handlungsfeld-crea);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -58,7 +58,7 @@
 }
 
 .is-exa{
-  background-color: var(--mi-lila);
+  background-color: var(--handlungsfeld-exa);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -66,7 +66,7 @@
 }
 
 .is-indi{
-  background-color: var(--mi-orange);
+  background-color: var(--handlungsfeld-indi);
   color: var(--lightest);
   display: inline-block;
   padding-left: var(--quat);
@@ -131,6 +131,13 @@
 
 .is-small{
   font-size: small;
+}
+
+/* Unimportant Text
+############################################################################ */
+
+.is-less-important{
+  font-weight: var(--fw-normal);
 }
 
 /* Sticky

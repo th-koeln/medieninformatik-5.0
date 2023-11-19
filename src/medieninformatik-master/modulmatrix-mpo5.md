@@ -4,7 +4,7 @@ layout: modulmatrix.11ty.js
 inToc: true
 collection: modulsMPO5
 showModuleList: true
-
+studyProgramme: master
 
 ---
 
