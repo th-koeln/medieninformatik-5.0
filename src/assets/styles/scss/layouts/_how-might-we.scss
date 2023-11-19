@@ -9,12 +9,27 @@
     grid-template-columns: repeat(auto-fill,minmax(var(--max-width-card),1fr));
   }
 
+  &-meta{
+    border-top: solid var(--border-width-l) var(--darker);
+    padding-top: var(--m);
+
+    header{
+      margin-bottom: var(--fluid-space-s);
+    }
+  }
+
   .question{
 
     border-top: solid var(--border-width-l) var(--light);
     margin-left: 0;
     padding-top: var(--half);
     padding-bottom: var(--s);
+
+    
+
+    p{
+      font-weight: var(--fw-medium);
+    }
 
     & + .insight{
       margin-top: 0;

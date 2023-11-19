@@ -232,7 +232,7 @@ rgroten:
     id: rgroten
     status: prof
     name: 'Prof. Dr. Raphaela Groten'
-    avatar: '/professoren/raphaela-groten.jpg'
+    avatar: '/professoren/raphaela-groten.png'
     personenseite: 'https://www.th-koeln.de/personen/raphaela.groten/'
     mi: true
 
@@ -240,7 +240,7 @@ seckstein:
     id: seckstein
     status: prof
     name: 'Prof. Dr. Stefan Eckstein'
-    avatar: '/professoren/raphaela-groten.jpg'
+    avatar: '/professoren/stefan-eckstein.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.eckstein/'
     mi: true
 
@@ -248,7 +248,7 @@ mlinden:
     id: mlinden
     status: prof
     name: 'Prof. Dr. Markus Linden'
-    avatar: '/professoren/markus-linden.jpg'
+    avatar: '/professoren/markus-linden.png'
     personenseite: 'https://www.th-koeln.de/personen/markus.linden/'
     mi: true
 

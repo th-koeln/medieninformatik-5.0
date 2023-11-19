@@ -3,9 +3,17 @@
 
 .insights{
 
+  .filter-wrap{
+    max-width: var(--max-width-table);
+  }
+
   .insight-meta{
     border-top: solid var(--border-width-l) var(--darker);
     padding-top: var(--m);
+
+    header{
+      margin-bottom: var(--fluid-space-s);
+    }
   }
 
   .filter-group{
@@ -44,8 +52,7 @@
 
     p{
       margin-bottom: var(--l);
-      font-size: var(--l);
-      font-weight: var(--fw-bold);
+      font-weight: var(--fw-medium);
     }
 
     &.is-hidden{

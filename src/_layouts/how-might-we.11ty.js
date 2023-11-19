@@ -61,7 +61,7 @@ module.exports = {
       const content = item.content ? item.content : "";
       return `
         <li class="question" data-js-list-interaction-item='${JSON.stringify(dataObject)}'>
-          <h3>${item.data.title}</h3>
+          <p>${item.data.title}</p>
           ${content}
           ${tags}
         </li>
@@ -84,7 +84,7 @@ module.exports = {
         </section>
 
         <section>
-          <div class="insight-meta" data-js-list-interactions>
+          <div class="how-might-we-meta" data-js-list-interactions>
             <header>
               <h3 data-js-list-interaction-header>${howMightWeList.length} Einträge</h3>
             </header>

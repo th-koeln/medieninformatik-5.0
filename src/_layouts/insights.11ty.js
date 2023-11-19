@@ -89,17 +89,17 @@ module.exports = {
 					</header>
 				</section>
 
-        <section>
+        <section class="filter-wrap">
           <p>Im Prozess wurden Anforderungen/ Ideen/ Aussagen von folgenden Stakeholdern eingesammelt:</p>
           ${getFilterGroup("Von")}
         </section>
 
-        <section>
+        <section class="filter-wrap">
           <p>Die Anforderungen/ Ideen/ Aussagen wurden folgenden Themenfeldern zugeordnet:</p>
           ${getFilterGroup("Themenfeld")}
         </section>
 
-        <section>
+        <section class="filter-wrap">
           <p>Die Anforderungen/ Ideen/ Aussagen wurden folgenden Handlungsbereichen zugeordnet:</p>
           ${getFilterGroup("Handlungsbereich")}
         </section>
