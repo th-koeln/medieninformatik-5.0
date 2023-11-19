@@ -179,6 +179,22 @@ const addListInteractions = () => {
   parseUrl();
 };
 
+/* Dynamische Links … im Grunde stumpfe JS Verweise auf andere Seiten
+############################################################################ */
+const addDynamicHyperlinks = () => {
+  const dynamicHyperlinks = document.querySelectorAll("[data-js-hyperlink]");
+
+  dynamicHyperlinks.forEach((dynamicHyperlink) => {
+    const dynamicHyperlinkValue = dynamicHyperlink.dataset.jsHyperlink;
+console.log(dynamicHyperlinkValue);
+    dynamicHyperlink.addEventListener("click", (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      location.href = dynamicHyperlinkValue;
+    });
+  });
+};
+
 
 
 
@@ -189,4 +205,5 @@ document.addEventListener("DOMContentLoaded", () => {
   addContentInjections();
   linkCompetencies();
   addListInteractions();
+  addDynamicHyperlinks();
 });
