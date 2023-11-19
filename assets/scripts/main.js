@@ -69,7 +69,6 @@ const addListInteractions = () => {
       filterTags.push(tagTriggerElementValueAsString);
     }
 
-    console.log(filterTags)
     changeHistory();
   };
 
@@ -186,7 +185,6 @@ const addDynamicHyperlinks = () => {
 
   dynamicHyperlinks.forEach((dynamicHyperlink) => {
     const dynamicHyperlinkValue = dynamicHyperlink.dataset.jsHyperlink;
-console.log(dynamicHyperlinkValue);
     dynamicHyperlink.addEventListener("click", (event) => {
       event.preventDefault();
       event.stopPropagation();
