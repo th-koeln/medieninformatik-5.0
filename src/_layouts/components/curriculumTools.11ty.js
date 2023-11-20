@@ -165,16 +165,18 @@ const getCurriculumTable = (obj) => {
     return `<td class="is-fs-${term}">${displayedTerm}</td>`;
   });
 
+  const colspan = terms.length;
+
   return `
     <table class="table-curriculum is-striped is-narrow">
       <thead>
         <tr>
-          <th colspan="2">Studienabschnitte</th>
-          <th colspan="8">Leistungspunkte und Semesterzuordnung</th>
+          <th colspan="3">Studienabschnitte</th>
+          <th colspan="${colspan}">Leistungspunkte und Semesterzuordnung</th>
         </tr>
         <tr>
           <th>Module</th>
-          <th title="Prüfungsvorleistung erforderlich">PV</th>
+          <th class="is-centered" title="Prüfungsvorleistung erforderlich">PV</th>
           <td title="Summe CP">CP</td>
           ${termsData.join("\n")}
         </tr>

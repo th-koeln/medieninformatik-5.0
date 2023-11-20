@@ -67,12 +67,17 @@ table {
 
 .table-curriculum {
   width: 100%;
+  border-spacing: 0;
 
   thead {
-    background-color: var(--darkest);
+    background-color: var(--lightest);
 
     * {
-      color: var(--lighter);
+      color: var(--darkest);
+    }
+
+    th{
+      border-bottom: solid var(--border-width-s) var(--light);
     }
   }
 
@@ -86,6 +91,8 @@ table {
 
   th {
     font-weight: var(--fw-normal);
+    padding-top: var(--quat);
+    padding-bottom: var(--quat);
   }
 
   td {
@@ -94,13 +101,13 @@ table {
 
   .is-fs-1,
   .is-fs-3,
-  .is-fs-5 {
-    background-color: var(--darken);
+  .is-fs-5,
+  .is-fs-7,
+  .is-fs-9 {
+    background-color: var(--darken-light);
   }
 
-
   th.is-vertical {
-
 
     /* Something you can count on */
     height: 30ch;
@@ -187,14 +194,11 @@ table {
       
       left: 0;
       bottom: 0;
-      transform: 
-
-        rotate(-90deg);
+      transform: rotate(-90deg);
       width: 30px;
 
       & > span {
-        
-        padding: 5px 10px;
+        padding: 5px 0;
       }
     }
   }
@@ -202,7 +206,6 @@ table {
   th.module-name{
     text-align: left;
     width: 30ch;
-    
   }
 
   .is-checked{

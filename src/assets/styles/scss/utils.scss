@@ -125,19 +125,19 @@
   }
 }
 
-
-/* Small Text
+/* Text Tweaks
 ############################################################################ */
 
 .is-small{
   font-size: small;
 }
 
-/* Unimportant Text
-############################################################################ */
-
 .is-less-important{
   font-weight: var(--fw-normal);
+}
+
+.is-centered{
+  text-align: center;
 }
 
 /* Sticky
