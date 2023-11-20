@@ -147,7 +147,7 @@ select {
 }
 
 :root {
-  --bfs: clamp(1rem, calc(0.5rem + 0.5vw), 2.5rem);
+  --bfs: 1rem;
   --half: calc(var(--bfs) / 2);
   --quat: calc(var(--bfs) / 4);
   --xxs: calc(var(--bfs) * 0.4);
@@ -190,6 +190,7 @@ select {
   --darkest: rgba(0,0,0,1);
   --darken: rgb(0 0 0 / 10%);
   --darken-strong: rgb(0 0 0 / 20%);
+  --darken-light: rgb(0 0 0 / 5%);
   --color-text: var(--darker);
   --color-headline: var(--dark);
   --color-accent: var(--mi-pink);
@@ -496,16 +497,18 @@ blockquote {
   cursor: pointer;
 }
 
-/* Small Text
+/* Text Tweaks
 ############################################################################ */
 .is-small {
   font-size: small;
 }
 
-/* Unimportant Text
-############################################################################ */
 .is-less-important {
   font-weight: var(--fw-normal);
+}
+
+.is-centered {
+  text-align: center;
 }
 
 /* Sticky
@@ -674,12 +677,16 @@ table.is-narrow td {
 ###########################################################################  */
 .table-curriculum {
   width: 100%;
+  border-spacing: 0;
 }
 .table-curriculum thead {
-  background-color: var(--darkest);
+  background-color: var(--lightest);
 }
 .table-curriculum thead * {
-  color: var(--lighter);
+  color: var(--darkest);
+}
+.table-curriculum thead th {
+  border-bottom: solid var(--border-width-s) var(--light);
 }
 .table-curriculum .unit {
   background-color: var(--darker);
@@ -689,14 +696,18 @@ table.is-narrow td {
 }
 .table-curriculum th {
   font-weight: var(--fw-normal);
+  padding-top: var(--quat);
+  padding-bottom: var(--quat);
 }
 .table-curriculum td {
   text-align: center;
 }
 .table-curriculum .is-fs-1,
 .table-curriculum .is-fs-3,
-.table-curriculum .is-fs-5 {
-  background-color: var(--darken);
+.table-curriculum .is-fs-5,
+.table-curriculum .is-fs-7,
+.table-curriculum .is-fs-9 {
+  background-color: var(--darken-light);
 }
 .table-curriculum th.is-vertical {
   /* Something you can count on */
@@ -764,7 +775,7 @@ table.is-narrow td {
   width: 30px;
 }
 .table-modulmatrix th.is-vertical > div > span {
-  padding: 5px 10px;
+  padding: 5px 0;
 }
 .table-modulmatrix th.module-name {
   text-align: left;
@@ -1198,6 +1209,9 @@ ul.hero-list > li + li {
 .modulbeschreibung table.core-data tr:first-child th, .modulbeschreibung table.core-data tr:first-child td {
   border-top: none;
 }
+.modulbeschreibung table.core-data th {
+  font-weight: var(--fw-medium);
+}
 .modulbeschreibung table.core-data th, .modulbeschreibung table.core-data td {
   padding-top: var(--half);
   padding-bottom: var(--half);
@@ -1312,9 +1326,15 @@ ul.hero-list > li + li {
 
 /* Insights
 ############################################################################ */
+.insights .filter-wrap {
+  max-width: var(--max-width-table);
+}
 .insights .insight-meta {
   border-top: solid var(--border-width-l) var(--darker);
   padding-top: var(--m);
+}
+.insights .insight-meta header {
+  margin-bottom: var(--fluid-space-s);
 }
 .insights .filter-group li {
   display: inline-block;
@@ -1342,8 +1362,7 @@ ul.hero-list > li + li {
 }
 .insights .insight p {
   margin-bottom: var(--l);
-  font-size: var(--l);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-medium);
 }
 .insights .insight.is-hidden {
   display: none;
@@ -1356,11 +1375,21 @@ ul.hero-list > li + li {
   gap: var(--fluid-space-s);
   grid-template-columns: repeat(auto-fill, minmax(var(--max-width-card), 1fr));
 }
+.how-might-we-meta {
+  border-top: solid var(--border-width-l) var(--darker);
+  padding-top: var(--m);
+}
+.how-might-we-meta header {
+  margin-bottom: var(--fluid-space-s);
+}
 .how-might-we .question {
   border-top: solid var(--border-width-l) var(--light);
   margin-left: 0;
   padding-top: var(--half);
   padding-bottom: var(--s);
+}
+.how-might-we .question p {
+  font-weight: var(--fw-medium);
 }
 .how-might-we .question + .insight {
   margin-top: 0;

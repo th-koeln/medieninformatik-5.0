@@ -20,6 +20,5 @@ exports.render = (eleventy, data, attributes) => {
     <div class="text ${cssClass}" id="${id}">
       ${modulMatrix}
     </div>
-
   `;
 };

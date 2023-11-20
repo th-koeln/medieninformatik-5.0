@@ -43,3 +43,6 @@ competencies:
 
 Leitfrage: Wofür bauen wir etwas? Was überhaupt, wie sieht es aus, wie fühlt es sich an und wie soll es funktionieren?
 
+> cn: Vorschlag - Raphi, Gerhard & Matthias bitte mal drüber schauen
+
+Im Handlungsfeld *Designing for User Experiences* befassen sich Medieninformatiker:innen mit der Gestaltung der Benutzererlebnisse  digitaler Anwendungen. Dies umfasst die Analyse des Nutzungskontextes, die Durchführung von Benutzerforschung, die Erstellung von Prototypen und Wireframes, sowie die enge Zusammenarbeit mit Entwickler:innen. Durch die Anwendung veschiedener Methoden, Prinzipien und Techniken aus Design, Mensch-Computer Interaktion und Design Thinking ist das Ziel funktionale, ästhetische, inklusive und nachhaltige Benutzererlebnisse und -schnittstellen zu schaffen. Usability-Tests und kontinuierliche Anpassungen gewährleisten, dass das Lösungen den Bedürfnissen der Benutzer langfristig entsprechen. Der Fokus liegt darauf, zielgerichtet eine positive und effektive Interaktion zwischen Benutzern und digitalen Produkten zu schaffen.
