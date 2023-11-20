@@ -34,7 +34,7 @@ anforderungen:
 ## Studienverlaufsplan für Prüfungsordnung Master in 3-semestriger Variante (90 ECTS)
 
 ### Regeln für die Modulwahl
-* 12 ECTS: Die Module »IMP« und »RIM« sind als Pflichtmodule zu belegen
+* 12 ECTS: Die Module »IMP« und »RIM« sind aus dem Katalog der Pflichtmodule zu belegen
 * 48 ECTS: Aus dem Wahlbereich der Schwerpunkt- und Wahlmodule sowie Projekte. Darin enthalten:
     * 12 ECTS: min. 1 Projekt ist aus dem Katalog der Schwerpunktprojekte zu belegen
     * 12 ECTS: min. 2 Module sind aus dem Katalog der Schwerpunktmodule zu belegen
