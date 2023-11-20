@@ -28,7 +28,9 @@ anforderungen:
 
 ---
 
-## Studienverlaufsplan für Prüfungsordnung Master // 4-semestrige Variante
+> Diese Seite ist als Kopiervorlage für die Master-Prüfungsordnung gedacht und soll dort als Anlage 1 platziert werden
+
+## Studienverlaufsplan für Prüfungsordnung Master in 4-semestriger Variante (120 ECTS)
 
 ### Regeln für die Modulwahl
 * 12 ECTS: Die Module »IMP« und »RIM« sind aus dem Katalog der Pflichtmodule zu belegen
