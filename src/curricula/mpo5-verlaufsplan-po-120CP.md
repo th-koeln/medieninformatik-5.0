@@ -28,7 +28,7 @@ anforderungen:
 
 ---
 
-## Studienverlaufsplan für Prüfungsordnung Master // 3-semestrige Variante
+## Studienverlaufsplan für Prüfungsordnung Master // 4-semestrige Variante
 
 ### Regeln
 * 12 ECTS: Die Module »IMP« und »RIM« sind aus dem Katalog der Pflichtmodule zu belegen
