@@ -4,7 +4,6 @@ modulverantwortlich: viet
 modulniveau: master
 kuerzel: SSW
 studiensemester: 2
-informatik-master: ss
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
@@ -12,8 +11,9 @@ empfohleneVoraussetzungen: IT-Sicherheit,Fortgeschrittene Themen verteilter, web
 published: true
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
-typ: wpm
-parent: SWPM, WPM
+parent: WAMO-SP, WAMO
+angebotImWs: false
+angebotImSs: true
 schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:
