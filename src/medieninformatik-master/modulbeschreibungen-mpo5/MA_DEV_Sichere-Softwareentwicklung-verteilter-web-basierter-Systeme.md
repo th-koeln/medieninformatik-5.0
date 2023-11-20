@@ -7,7 +7,7 @@ studiensemester: 2
 sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: IT-Sicherheit,Fortgeschrittene Themen verteilter, web-basierter Systeme (Web Architekturen, Web Technologien
+empfohleneVoraussetzungen: IT-Sicherheit,Fortgeschrittene Themen verteilter, web-basierter Systeme (Web Architekturen), Web Technologien
 published: true
 layout: modulbeschreibung.11ty.js
 kategorie: wahl
