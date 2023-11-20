@@ -32,7 +32,6 @@ anforderungen:
 
 ### Regeln für die Modulwahl
 * 12 ECTS: Die Module »IMP« und »RIM« sind aus dem Katalog der Pflichtmodule zu belegen
-
 * 78 ECTS: Aus dem Wahlbereich der Schwerpunkt- und Wahlmodule sowie Projekte. Darin enthalten:
     * 12 ECTS: min. 1 Projekt ist aus dem Katalog der Schwerpunktprojekte zu belegen (12 ECTS)
     * 24 ECTS: min. 2 Module sind aus dem Katalog der Schwerpunktmodule zu belegen (6+6 ECTS)
