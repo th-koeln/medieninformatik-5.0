@@ -31,7 +31,7 @@ anforderungen:
 
 ## Studienverlaufsplan für Prüfungsordnung Master // 3-semestrige Variante
 
-### Regeln
+### Regeln für die Modulwahl
 * 12 ECTS: Die Module »IMP« und »RIM« sind als Pflichtmodule zu belegen
 * 48 ECTS: Aus dem Wahlbereich der Schwerpunkt- und Wahlmodule sowie Projekte. Darin enthalten:
     * 12 ECTS: min. 1 Projekt ist aus dem Katalog der Schwerpunktprojekte zu belegen
@@ -39,6 +39,6 @@ anforderungen:
     * 24 ECTS: weitere Module können aus dem Wahlbereich belegt werden
 * 30 ECTS für Master und Kolloquium
 
-### Anerkenung Schwerpunkte
+### Anerkenung von Schwerpunkten
 * Wurden Module im Umfang von 24 ECTS absolviert, die demselben Schwerpunkt zugeordnet sind, dann ist der Schwerpunkt absolviert
 * der Abschluss des Masterstudiums kann jedoch auch ohne Schwerpunkt erreicht werden (Studium als Generalist\*in)
