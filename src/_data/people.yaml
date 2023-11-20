@@ -301,6 +301,22 @@ sbe:
     avatar: 'https://www.th-koeln.de/pseimg/b0396220808a1541735c9f7004ac8ab45a1bbb53.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
 
+jka:
+    id: jka
+    status: prof
+    name: 'Prof. Dr. Jan Karpe'
+    avatar: 'https://www.th-koeln.de/pseimg/e6a255c9ab5ba616f5094cc4b074199523e50e6b.png'
+    personenseite: 'https://www.th-koeln.de/personen/jan.karpe/'
+
+sst:
+    id: sst
+    status: prof
+    name: 'Prof. Dr. Siegfried Stumpf'
+    avatar: 'https://moxd.io/files/2016/09/Platzhalter_Icon.png'
+    personenseite: 'https://www.th-koeln.de/personen/siegfried.stumpf/'
+
+
+
 
 
 mi:
