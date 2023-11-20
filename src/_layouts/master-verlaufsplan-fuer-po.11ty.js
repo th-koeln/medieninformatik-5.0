@@ -15,7 +15,7 @@ module.exports = {
     
     
     
-    function buildModulRows(modules, anforderung) {
+    function buildModulRows(modules, anforderung, extraColumn) {
       
 
       modulHead = [modules[0]];
@@ -29,7 +29,8 @@ module.exports = {
         <tr>
           <!-- Modul -->
           <td rowspan="${modules.length}">${anforderung}</td>
-          <td><a href="${modulItem.url}">${modul.title}</a></td>
+          ${extraColumn ? "<th></th>": ""}
+          <th class="module-name"><a href="${modulItem.url}">${modul.title}</a></th>
           <th colspan=1>${modul.kreditpunkte}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DUX") ? "X" : ""}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DEV") ? "X" : ""}</th>
@@ -44,7 +45,8 @@ module.exports = {
         return `
         <tr>
           <!-- Modul -->
-          <td><a href="${modulItem.url}">${modul.title}</a></td>
+          ${extraColumn ? "<th></th>": ""}
+          <th class="module-name"}><a href="${modulItem.url}">${modul.title}</a></th>
           <th colspan=1>${modul.kreditpunkte}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DUX") ? "X" : ""}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DEV") ? "X" : ""}</th>
@@ -57,7 +59,7 @@ module.exports = {
     };
 
     const pflichtModule = moduls.filter((m) => (m.data.kategorie?.includes("pflicht")));
-    const pflichtModuleRows = buildModulRows(pflichtModule, data.anforderungen.pflichtbereich.short);
+    const pflichtModuleRows = buildModulRows(pflichtModule, data.anforderungen.pflichtbereich.short, true);
 
     const projektModule = moduls.filter((m) => (m.data.parent?.includes("GP-SP")));
     const projektModuleRows = buildModulRows(projektModule, data.anforderungen.schwerpunkt_projekte.short);
@@ -70,14 +72,14 @@ module.exports = {
 
     const wahlModule = moduls.filter((m) => 
         (m.data.parent === "WAMO") || // alle originären Wahlmodule
-        (m.data.parent?.includes("WAMO-SP")) || // auch alle Schwerpunktmodule nochmal zulassen
+        //(m.data.parent?.includes("WAMO-SP")) || // auch alle Schwerpunktmodule nochmal zulassen
         //(m.data.parent?.includes("GP-SP")) || // auch alle Schwerpunktmodule nochmal zulassen
         (m.data.kuerzel === "GP") // auch Projekte machn lassen
       );
     const wahlModuleRows = buildModulRows(wahlModule, data.anforderungen.wahlmodule.short);
 
     const masterthesisModul = moduls.filter((m) => (m.data.kuerzel === "MA"));
-    const masterthesisModulRows = buildModulRows(masterthesisModul, data.anforderungen.masterthesis.short);
+    const masterthesisModulRows = buildModulRows(masterthesisModul, data.anforderungen.masterthesis.short, true);
 
 		return `
 			<main>
@@ -92,11 +94,11 @@ module.exports = {
         </section>
 
         <section class="has-seperator">
-        <h2>Wahlkatalog</h2>
+        <h2>Studienverlaufsplan</h2>
           <table class="table-curriculum is-striped is-narrow">
           <thead>
           <tr>
-            <th colspan=1 rowspan=2>Anforderung</th>
+            <th colspan=2 rowspan=2>Anforderung</th>
             <th colspan=1 rowspan=2>Modul</th>
             <th colspan=1 rowspan=2>ECTS</th>
             <th colspan=3>Zuordnung Schwerpunkt</th>
@@ -110,27 +112,31 @@ module.exports = {
           <tbody>
 
           <tr class="unit">
-            <th colspan=6>Pflichtbereich (${data.anforderungen.pflichtbereich.long})</th>
+            <th colspan=7>${data.anforderungen.pflichtbereich.long}</th>
           </tr>
           ${pflichtModuleRows}
   
           <tr class="unit">
-            <th colspan=6>Projekt im Schwerpunkt (${data.anforderungen.schwerpunkt_projekte.long})</th>
+            <th colspan=7>${data.anforderungen.wahlbereichECTS.long}</th>
+          </tr>
+          <tr>
+            <td rowspan="${projektModule.length + 1 + schwerpunktModule.length + 1 + wahlModule.length + 1}">${data.anforderungen.wahlbereichECTS.short}</td> 
+            <th colspan=6 class="unit" style="color: #EEEEEE;">${data.anforderungen.schwerpunkt_projekte.long}</th>
           </tr>
           ${projektModuleRows}
   
           <tr class="unit">
-            <th colspan=6>Module im Schwerpunkt (${data.anforderungen.schwerpunkt_module.long})</th>
+            <th colspan=6>${data.anforderungen.schwerpunkt_module.long}</th>
           </tr>
           ${schwerpunktModuleRows}
           
           <tr class="unit">
-            <th colspan=6>Wahlmodule (${data.anforderungen.wahlmodule.long})</th>
+            <th colspan=6>${data.anforderungen.wahlmodule.long}</th>
           </tr>
           ${wahlModuleRows}
           
           <tr class="unit">
-            <th colspan=6>Masterthesis (${data.anforderungen.masterthesis.long})</th>
+            <th colspan=7>Masterthesis (${data.anforderungen.masterthesis.long})</th>
           </tr>
           ${masterthesisModulRows}
           
