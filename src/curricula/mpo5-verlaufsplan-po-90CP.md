@@ -17,7 +17,7 @@ anforderungen:
         long: "Katalog der Schwerpunktmodule (min. 12 ECTS aus diesem Bereich: min. 2 Module)"
         short: "min. 2 Modul"
     wahlmodule:
-        long: "Wahlmodule"
+        long: "Wahlmodule (i.d.R. 4 Module)"
         short: "beliebig"
     masterthesis:
         long: "30 ECTS"

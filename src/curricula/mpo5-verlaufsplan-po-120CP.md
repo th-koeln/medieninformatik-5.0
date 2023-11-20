@@ -17,14 +17,14 @@ anforderungen:
         long: "Katalog der Schwerpunktmodule (min. 24 ECTS aus diesem Bereich: min. 4 Module)"
         short: "min. 4 Modul"
     wahlmodule:
-        long: "Wahlmodule"
+        long: "Wahlmodule (i.d.R. 7 Module)"
         short: "beliebig"
     masterthesis:
         long: "30 ECTS"
         short: "30 ECTS"
     wahlbereichECTS: 
-        long: "Katalog der Wahlmodule mit Schwerpunktmodulen und Projekten (68 ECTS)"
-        short: "68 ECTS"
+        long: "Katalog der Wahlmodule mit Schwerpunktmodulen und Projekten (78 ECTS)"
+        short: "78 ECTS"
 
 ---
 
