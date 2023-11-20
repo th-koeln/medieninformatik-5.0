@@ -2,8 +2,7 @@
 title: Fortgeschrittene Themen verteilter, web-basierter Systeme
 modulverantwortlich: viet
 modulniveau: master
-kuerzel: WTW-FTW
-studiensemester: 1
+kuerzel: FTW
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
@@ -11,8 +10,9 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: Algorithmen und Programmierung 1 (Bachelor), Alogrithmen und Programmierung 2 (Bachelor), Paradigmen der Programmierung (Bachelor), Kommunikationstechnik und Netze (Bachelor); Datenbanken (Bachelor); Grundlagen des Webs (Bachelor); Frameworks, Daten und Dienste im Web (Bachelor); Praktische IT-Sicherheit (Bachelor)
 published: true
 layout: modulbeschreibung.11ty.js
-typ: wpm
-parent: SWPM, WPM
+angebotImSs: false
+angebotImWs: true
+parent: WAMO-SP, WAMO
 schwerpunkt: DEV
 studienleistungen:
   Einzelleistung:

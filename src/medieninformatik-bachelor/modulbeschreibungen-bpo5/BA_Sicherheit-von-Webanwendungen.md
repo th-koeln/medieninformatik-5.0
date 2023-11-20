@@ -25,6 +25,8 @@ meta:
   status: ok  
   authors: viet
   reviewers: viet
+angebotImSs: false
+angebotImWs: true
 ---
 ## Kurzbeschreibung
 

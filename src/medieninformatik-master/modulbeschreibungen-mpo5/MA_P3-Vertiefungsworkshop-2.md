@@ -13,7 +13,7 @@ layout: modulbeschreibung.11ty.js
 date: Last Modified
 published: true
 
-angebotImWs: 
+angebotImWs: true
 angebotImSs: 
 
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden

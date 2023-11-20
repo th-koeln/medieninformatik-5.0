@@ -28,7 +28,7 @@ studienleistungen:
     zweitpruefer: dpetersen
     datum: ende
 meta:
-  status: refactor    
+  status: ok    
   authors: Matthias
   reviewers: Matthias
 besonderheiten: 
@@ -44,13 +44,11 @@ lehrform:
   - Praktikum 2 SWS      
 ---
 
-> cn: Könntest Du das bitte noch in die Was-Womit-Wozu Struktur bringen?
-
 ## Learning Outcome
 
 In diesem Modul erfahren Studierende die Relevanz, Herausforderungen und Techniken der Entwicklung mobiler Software. Sie können danach Apps für Smartphones entwerfen, implementieren und managen. Das Modul befähigt Studierende dazu, in weiteren Studienprojekten, der Abschlussarbeit oder im Beruf eigene mobile Anwendungen zu realisieren. Um die Lernziele zu erreichen werden Grundlagen und Konzepte in den Veranstaltungen studiert und in Teams projektorientiert angewandt. Das Modul verfolgt einen inkrementell-iterativen Ansatz von der Erstellung eines ersten Prototypen, über die Implementierung des User Interface, der Auslagerung von Operationen in den Hintergrund, der Speicherung von strukturierten Daten und dem Management mobiler Software.
 
-Nach erfolgreicher Teilnahme am Modul können Studierende mobile Anwendungen entwerfen und implementieren und dabei die Herausforderungen von Mobilität bei der Gestaltung mobiler Medien sowie typische nicht-funktionale Anforderungen an mobile Informationstechnologie berücksichtigen, indem sie
+Nach erfolgreicher Teilnahme am Modul können Studierende (WAS:) mobile Anwendungen entwerfen und implementieren und dabei die Herausforderungen von Mobilität bei der Gestaltung mobiler Medien sowie typische nicht-funktionale Anforderungen an mobile Informationstechnologie berücksichtigen, indem sie (WOMIT:)
 
 - mobile Nutzungskontexte aus der Perspektive der Mensch-Computer-Interaktion analysieren,
 - mobiler Benutzungsschnittstellen daran angepasst gestalten,
@@ -61,7 +59,7 @@ Nach erfolgreicher Teilnahme am Modul können Studierende mobile Anwendungen ent
 - Herausforderungen hinsichtlich Kommunikation und Sicherheit kennen und adressieren,
 - sowie Mechanismen für das Deployment und Ansätze für die Monetarisierung im mobilen Ökosystemen nutzen.
 
-Dies versetzt sie in die Lage, in weiteren Studienprojekten, der Abschlussarbeit oder im Beruf mobile Anwendungen und Medien mit Blick auf deren spezielle Nutzungskontexte zu konzipieren, zu entwerfen und zu entwickeln.
+(WOZU:) Dies versetzt sie in die Lage, in weiteren Studienprojekten, der Abschlussarbeit oder im Beruf mobile Anwendungen und Medien mit Blick auf deren spezielle Nutzungskontexte zu konzipieren, zu entwerfen und zu entwickeln.
 
 ## Inhalt
 
