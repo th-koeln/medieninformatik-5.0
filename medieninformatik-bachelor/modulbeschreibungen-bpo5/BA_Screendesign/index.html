@@ -202,7 +202,7 @@
 
 					<div class="scores-and-charts">
 						<div class="chart" 
-							data-chart='{"DUX":{"anforderungenBedarfe":{"braucht":3,"liefert":5},"konzepte":{"braucht":1,"liefert":7},"gestaltung":{"braucht":0,"liefert":11}},"DEV":{"technologie":{"braucht":1,"liefert":0},"entwurf":{"braucht":1,"liefert":0}},"CREA":{"innovation":{"braucht":1,"liefert":0},"management":{"braucht":0,"liefert":3},"kommunikation":{"braucht":0,"liefert":8}},"EXA":{"medien":{"braucht":0,"liefert":2},"explorationKreativitaet":{"braucht":0,"liefert":8},"prototyping":{"braucht":0,"liefert":4}},"INDI":{"situatedInteraction":{"braucht":0,"liefert":2},"selbstlernen":{"braucht":0,"liefert":2}},"undefined":{"selbstlernen":{"braucht":0,"liefert":4}}}' 
+							data-chart='{"DUX":{"anforderungenBedarfe":{"braucht":3,"liefert":5},"konzepte":{"braucht":1,"liefert":7},"gestaltung":{"braucht":0,"liefert":11}},"DEV":{"entwurf":{"braucht":1,"liefert":0},"implementierung":{"braucht":0,"liefert":2}},"CREA":{"innovation":{"braucht":1,"liefert":0},"management":{"braucht":1,"liefert":3},"kommunikation":{"braucht":0,"liefert":8}},"EXA":{"medien":{"braucht":0,"liefert":1},"explorationKreativitaet":{"braucht":1,"liefert":10},"prototyping":{"braucht":0,"liefert":4}},"INDI":{"situatedInteraction":{"braucht":0,"liefert":1},"selbstlernen":{"braucht":0,"liefert":2}},"undefined":{"selbstlernen":{"braucht":0,"liefert":4}}}' 
 							data-handlungsfelder='{"DUX":"Designing for User Experiences","DEV":"Developing Interactive and Distributed Systems","EXA":"Exploring Advanced Interactive Media","CREA":"Driving Creation Process","INDI":"Enhancing Interactions on Different Scales"}' 
 							data-target="competence-chart-erwerb"
 							data-direction="erwerb">
@@ -232,16 +232,26 @@
 					</ul>
 					</div>
 				
+					<div class="score indicate-as-dev">
+						<h3>Developing Interactive and Distributed Systems</h3>
+						<ul class="score-list">
+						<li>
+							<span class="score-value-indicator" style="width: calc(2 * 5%)"></span>
+							<a href="#implementierung">Implementierung</a>
+						</li>
+					</ul>
+					</div>
+				
 					<div class="score indicate-as-exa">
 						<h3>Exploring Advanced Interactive Media</h3>
 						<ul class="score-list">
 						<li>
-							<span class="score-value-indicator" style="width: calc(2 * 5%)"></span>
+							<span class="score-value-indicator" style="width: calc(1 * 5%)"></span>
 							<a href="#medien">Medien</a>
 						</li>
 					
 						<li>
-							<span class="score-value-indicator" style="width: calc(8 * 5%)"></span>
+							<span class="score-value-indicator" style="width: calc(10 * 5%)"></span>
 							<a href="#exploration-and-kreativitaet">Exploration & Kreativität</a>
 						</li>
 					
@@ -271,7 +281,7 @@
 						<h3>Enhancing Interactions on Different Scales</h3>
 						<ul class="score-list">
 						<li>
-							<span class="score-value-indicator" style="width: calc(2 * 5%)"></span>
+							<span class="score-value-indicator" style="width: calc(1 * 5%)"></span>
 							<a href="#situated-interaction">Situated Interaction</a>
 						</li>
 					
@@ -429,23 +439,6 @@
 						<h3>Developing Interactive and Distributed Systems</h3>
 						<ul class="is-tight competence-bereiche indicate-as-dev">
 							
-						<li id="technologie">
-							<h4>Technologie</h4>
-							<ul class="single-competence-list is-tight">
-								
-							<li>
-								<div class="score-indicator-group-wrap">
-									<div class="score-indicator-group">
-										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#kennen-state-of-the-art-technologie-zur-umsetzun" title="Modul liefert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(0 * 9%)"></span>
-										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#kennen-state-of-the-art-technologie-zur-umsetzun" title="Modul erfordert ein wenig dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(1 * 9%); transform: translateX(-100%)"></span>
-									</div>
-								</div>
-								<p>Kennen State-of-the-art Technologie zur Umsetzung von software-basierten Anwendungen (insb. in den Bereichen Web, Mobile, IoT, AR/VR, AI), können konkurrierende alternative Technologien auswählen und evaluieren, sich neue technologische Möglichkeiten erschließen, diese bewerten, nutzen, und integrieren sowie zukunftsorientiert neue Möglichkeiten screenen.</p>
-							</li>
-						
-							</ul>
-						</li>
-					
 						<li id="entwurf">
 							<h4>Entwurf</h4>
 							<ul class="single-competence-list is-tight">
@@ -458,6 +451,23 @@
 									</div>
 								</div>
 								<p>Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.</p>
+							</li>
+						
+							</ul>
+						</li>
+					
+						<li id="implementierung">
+							<h4>Implementierung</h4>
+							<ul class="single-competence-list is-tight">
+								
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#kennen-entwicklungsumgebungen-tools-und-entwickl" title="Modul liefert etwas dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(2 * 9%)"></span>
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#kennen-entwicklungsumgebungen-tools-und-entwickl" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
+									</div>
+								</div>
+								<p>Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).</p>
 							</li>
 						
 							</ul>
@@ -505,7 +515,7 @@
 								<div class="score-indicator-group-wrap">
 									<div class="score-indicator-group">
 										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#koennen-kreative-und-agile-prozesse-hinsichtlich" title="Modul liefert etwas dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(2 * 9%)"></span>
-										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#koennen-kreative-und-agile-prozesse-hinsichtlich" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#koennen-kreative-und-agile-prozesse-hinsichtlich" title="Modul erfordert ein wenig dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(1 * 9%); transform: translateX(-100%)"></span>
 									</div>
 								</div>
 								<p>Können kreative und agile Prozesse hinsichtlich Zeit- und Ressourcenmanagement effizient durchführen und verwalten.</p>
@@ -575,7 +585,7 @@
 							<li>
 								<div class="score-indicator-group-wrap">
 									<div class="score-indicator-group">
-										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#haben-die-faehigkeit-zur-darstellung-und-visuali" title="Modul liefert etwas dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(2 * 9%)"></span>
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#haben-die-faehigkeit-zur-darstellung-und-visuali" title="Modul liefert ein wenig dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
 										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#haben-die-faehigkeit-zur-darstellung-und-visuali" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
 									</div>
 								</div>
@@ -602,6 +612,16 @@
 							<li>
 								<div class="score-indicator-group-wrap">
 									<div class="score-indicator-group">
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#koennen-ansaetze-denk-und-vorgehensweisen-aus-ve" title="Modul liefert ein wenig dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#koennen-ansaetze-denk-und-vorgehensweisen-aus-ve" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
+									</div>
+								</div>
+								<p>Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
 										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#haben-eine-offene-fehlerkultur-in-der-fehler-nic" title="Modul liefert einiges dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(3 * 9%)"></span>
 										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#haben-eine-offene-fehlerkultur-in-der-fehler-nic" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
 									</div>
@@ -612,8 +632,18 @@
 							<li>
 								<div class="score-indicator-group-wrap">
 									<div class="score-indicator-group">
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#haben-die-faehigkeit-zur-selbstreflexion-um-hand" title="Modul liefert ein wenig dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#haben-die-faehigkeit-zur-selbstreflexion-um-hand" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
+									</div>
+								</div>
+								<p>Haben die Fähigkeit zur Selbstreflexion um Handlungen und Entscheidungen evaluieren und iterieren zu können.</p>
+							</li>
+						
+							<li>
+								<div class="score-indicator-group-wrap">
+									<div class="score-indicator-group">
 										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#sind-neugierig-offen-und-in-der-lage-fragen-zu-s" title="Modul liefert etwas dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(2 * 9%)"></span>
-										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#sind-neugierig-offen-und-in-der-lage-fragen-zu-s" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
+										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#sind-neugierig-offen-und-in-der-lage-fragen-zu-s" title="Modul erfordert ein wenig dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(1 * 9%); transform: translateX(-100%)"></span>
 									</div>
 								</div>
 								<p>Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.</p>
@@ -660,16 +690,6 @@
 							<h4>Situated Interaction</h4>
 							<ul class="single-competence-list is-tight">
 								
-							<li>
-								<div class="score-indicator-group-wrap">
-									<div class="score-indicator-group">
-										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#koennen-technologische-aspekte-die-bei-der-imple" title="Modul liefert ein wenig dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator liefert" style="width: calc(1 * 9%)"></span>
-										<span data-js-hyperlink="/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5#koennen-technologische-aspekte-die-bei-der-imple" title="Modul erfordert nichts dieser Kompetenz. Hinter dem Link finden Sie Module, welche auf diese Kompetenz einzahlen." class="score-value-indicator braucht" style="width: calc(0 * 9%); transform: translateX(-100%)"></span>
-									</div>
-								</div>
-								<p>Können technologische Aspekte, die bei der Implementierung situierter Interaktion eine Rolle spielen, berücksichtigen, dies beinhaltet Kenntnisse über Sensortechnologien, Datenverarbeitung, maschinelles Lernen und die Integration von Software in physische Umgebungen.</p>
-							</li>
-						
 							<li>
 								<div class="score-indicator-group-wrap">
 									<div class="score-indicator-group">
@@ -775,7 +795,7 @@
     </nav>
   
       <p class="info">
-        21.11.2023 // 19:45:46
+        21.11.2023 // 20:21:34
       </p>
     </footer>
   
