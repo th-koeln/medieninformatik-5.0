@@ -1,8 +1,8 @@
 Handlungsfeld;Bereich;Kompetenzen;Braucht;Liefert;Kommentar
-Designing for User Experiences;Anforderungen und Bedarfe;Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.;0;0;
-;;Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.;0;0;
+Designing for User Experiences;Anforderungen und Bedarfe;Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.;0;0;"Verständnisfrage: Was bedeutet ""Braucht""? Ich habe das interpretiert als ""Was braucht das Handlungsfeld"" und nicht als ""Was braucht AP 1"". Ich hoffe, das ist richtig."
+;;Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.;0;0;"Bei ""Liefert"" habe ich das anders interpretiert, nämlich ""welche Beitrag liefert zum Handlungsfeld AP 1."""
 ;;Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.;0;0;
-;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;0;0;
+;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;0;1;
 ;;Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten.;0;0;
 ;;Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.;0;0;
 ;;Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.;0;0;
@@ -12,15 +12,15 @@ Designing for User Experiences;Anforderungen und Bedarfe;Verstehen, wie menschli
 ;;Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen.;0;0;
 ;;;;;
 Developing Interactive and Distributed Systems;"Technologie
-";Können hardware-basierte Technologien zur Interaktion mit Computern in verschiedenen Modalitäten einsetzen (bspw. sprachbasierte Interaktion, Tangible Computing, Physical Computing, Sensoren und Aktoren).;0;0;
+";Können hardware-basierte Technologien zur Interaktion mit Computern in verschiedenen Modalitäten einsetzen (bspw. sprachbasierte Interaktion, Tangible Computing, Physical Computing, Sensoren und Aktoren).;0;1;
 ;;Kennen State-of-the-art Technologie zur Umsetzung von software-basierten Anwendungen (insb. in den Bereichen Web, Mobile, IoT, AR/VR, AI), können konkurrierende alternative Technologien auswählen und evaluieren, sich neue technologische Möglichkeiten erschließen, diese bewerten, nutzen, und integrieren sowie zukunftsorientiert neue Möglichkeiten screenen.;0;0;
-;;Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, MQTT).;0;0;
-;;Wissen was ein Computer ist und wie Software darauf ausgeführt wird.;0;0;
-;Entwurf;Verstehen formale Strukturen.;0;0;
-;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;0;0;
+;;Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, MQTT).;0;1;
+;;Wissen was ein Computer ist und wie Software darauf ausgeführt wird.;1;2;
+;Entwurf;Verstehen formale Strukturen.;0;2;
+;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;0;2;
 ;;Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.;0;0;
 ;;Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können.;0;0;
-;Implementierung;Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).;0;0;
+;Implementierung;Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).;0;1;
 ;;Können (komplexe) Softwaresysteme im Team entwickeln.;0;0;
 ;;Kennen Grundkonzepte agiler Entwicklung und agilen Arbeitens wie iterative und inkrementelle Entwicklung, selbstorganisierte Teams, Transparente Kommunikation, etc. und können diese in Projekten anwenden.;0;0;
 ;;Können digitale Produkte und verschiedene Software-Artefakte zur Evaluation und zur Nutzung auf typischen Distributionswegen (bspw. Clickdummy, Web-Deployment, App Store) für verschiedene Zielgruppen bereit stellen (lauffähig, sicher und gebrauchstauglich).;0;0;
@@ -48,9 +48,9 @@ Exploring Advanced Interactive Media;Medien;Verfügen über tiefe Kenntnisse im 
 ;;Können Serious Games oder gamifizierte Anwendungen konzipieren und entwickeln, die Lern- oder Trainingsziele unterstützen: z.B. Integration von Spielmechaniken, Puzzles oder Belohnungssystemen in interaktive Medien.;0;0;
 ;Exploration & Kreativität;Können neue und unkonventionelle Ideen generieren, diese (systematisch) variieren und weiter entwickeln.;0;0;
 ;;Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.;0;0;
-;;Haben eine offene Fehlerkultur in der Fehler nicht als Endpunkt betrachtet, sondern als Teil des Lernprozesses verstanden und genutzt werden, um Prozesse zu verbessern, zukünftige Fehler zu vermeiden und exploratives Handeln zu fördern.;0;0;
-;;Haben die Fähigkeit zur Selbstreflexion um Handlungen und Entscheidungen evaluieren und iterieren zu können.;0;0;
-;;Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.;0;0;
+;;Haben eine offene Fehlerkultur in der Fehler nicht als Endpunkt betrachtet, sondern als Teil des Lernprozesses verstanden und genutzt werden, um Prozesse zu verbessern, zukünftige Fehler zu vermeiden und exploratives Handeln zu fördern.;0;1;
+;;Haben die Fähigkeit zur Selbstreflexion um Handlungen und Entscheidungen evaluieren und iterieren zu können.;0;1;
+;;Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.;0;1;
 ;Prototyping;Beherrschen verschiedene Formen von Prototyping zum frühzeitigen Einholen von Feedback und zum Erklären, Erkunden und erlebbar machen von Ideen und Ansätzen.;0;0;
 ;;Können angemessene Prototypen für die jeweilige Fragestellung und Entwicklungsphase entwickeln und effizient einsetzen.;0;0;
 ;;;;;
@@ -69,3 +69,7 @@ Enhancing Interactions on Different Scales;"Analyse, Studien und Experimente
 ;;Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.;0;0;
 ;;;;;
 Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.;;;0;0;
+Programmierparadigmen;;;0;1;
+Aufwand von Programmen;;;0;1;
+Korrektheit von programmen;;;0;1;
+Dokumentation;;;0;1;

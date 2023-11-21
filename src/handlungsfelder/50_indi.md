@@ -53,3 +53,23 @@ competencies:
 ---
 
 Leitfrage: Haben wir etwas sinnvolles gebaut und wie gut ist es?
+
+> cn: Vorschlag - @Matthias, @Mirjam, @Gerhard, @Raphi kann da mal jemand drüber schauen?
+
+Medieninformatiker:innen agieren als Architekt nachhaltiger und ethisch verantwortlicher digitaler Produkte. Mit Hilfe von Analysen, Studien und Experimenten wird sichergestellt, dass entwickelte Produkte nicht nur funktional sind, sondern auch sinnvoll, effizient und effektiv in verschiedenen Kontexten nutzbar sind. Die Umsetzung von "Situated Interaction" gewährleistet, dass Interaktionen auf die spezifischen Umgebungen, Erfahrungen, Fähigkeiten, Erwartungen und Bedürfnisse der Nutzer:innen abgestimmt sind. Ethik und gesellschaftliche Verantwortung stehen im Fokus, wobei kontinuierliche Evaluierungen die Grundlage für fortlaufende Verbesserungen bilden. Medieninformatiker:innen streben nicht nur nach technologischer Innovation, sondern schaffen digitale Interaktionen, die einen positiven Einfluss auf die Gesellschaft haben und sich im Einklang mit ethischen Prinzipien befinden.
+
+Typische Vorgänge im Arbeitsbereich «Enhancing Interactions on Different Scales» sehen wie folgt aus:
+
+   - Durchführung von Nutzeranalysen, Studien und Experimenten, um das Verhalten und die Bedürfnisse der Benutzer zu verstehen.
+   - Bewertung der Wirksamkeit von Konzepten, Ideen und Produkten durch systematische Analysen und Experimente, um Erkenntnisse für Verbesserungspotenziale zu gewinnen.
+   - Entwicklung von Interaktionskonzepten, die auf den spezifischen Kontext, Erfahrungen, Fähigkeiten, Erwartungen und Bedürfnisse der Benutzer abgestimmt sind.
+   - Implementierung von Technologien, die Interaktionen an verschiedene Umgebungen anpassen können, um eine nahtlose Nutzung zu ermöglichen.
+   - Berücksichtigung ethischer Aspekte bei der Entwicklung von Interaktionen und Produkten, um sicherzustellen, dass Produkte die Privatsphäre schützen und gesellschaftliche Normen respektieren.
+   - Bewertung der sozialen Auswirkungen von Ideen, Konzepten und Produkten auf unterschiedlichen gesellschaftlichen Ebenen.
+   - Implementierung von Funktionen des maschinellen Lernens, um personalisierte Interaktionen auf Grundlage von Benutzerpräferenzen und -verhalten zu ermöglichen.
+   - Implementierung von Mechanismen zur kontinuierlichen Sammlung von Benutzerfeedback, um Verbesserungsmöglichkeiten zu identifizieren.
+   - Einrichtung von Kanälen für die Rückmeldung der Benutzer:innen, um Anpassungen an den Interaktionen vorzunehmen.
+   - Integration von nachhaltigen Designprinzipien, um sicherzustellen, dass Systeme und Produkte umweltfreundlich und ressourcenschonend sind.
+   - Kontinuierliche ethische Bewertung der Systeme, um sicherzustellen, dass sie den höchsten Standards in Bezug auf Datenschutz und soziale Verantwortung entsprechen.
+
+In diesem Kontext ist der Berufsalltag stark von einer kritischen Reflexion über die entwickelten Produkte, ethischen Überlegungen und der kontinuierlichen Anpassung basierend auf realen Nutzerdaten geprägt.
