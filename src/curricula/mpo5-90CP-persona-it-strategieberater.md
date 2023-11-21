@@ -1,0 +1,43 @@
+---
+title: Berufsbild »Interactive Systems Developer« (Master of Science)
+layout: verlaufsplan.11ty.js
+inToc: true
+collection: modulsMPO5
+terms: [1,2,3]
+groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
+maxCPS: 90
+showModuleList: true
+
+studienverlauf:
+    - semester:
+        label: "1. Semester"
+        fachsemester: 1
+        season: "wise"
+        module: 
+            - "RIM"
+            - "GP"
+            - "MODI"
+            - "ITC"
+    - semester:
+        label: "2. Semester"
+        fachsemester: 2
+        season: "sose"
+        module: 
+            - "IMP"
+            - "GP-DEV"
+            - "MATS"
+            - "ITSTR"
+    - semester:
+        fachsemester: 3
+        label: "Finales Semester"
+        season: "wise"
+        module: 
+            - "MA"
+hinweise:
+    - "Erreichen eines Schwerpunkts, hier DEV, wird noch nicht automatisch geprüft"
+---
+
+
+## Berufsbild »Interactive Systems Developer«
+
+Dieser Absolvent im Masterstudium Medieninformatik hat sich auf den Schwerpunkt "Developing Interactive and Distributed Systems" (DEV) spezialisiert. Er ist ein Experte in der Entwicklung und Implementierung von IT-Strategien für Unternehmen. Sein Wissen in Mobile and Distributed Interactive Systems und Modellierung technischer Systeme versetzt ihn in die Lage, effiziente und innovative IT-Lösungen zu entwickeln. Mit seinem Hintergrund in IT Consulting und IT Strategy kann er umfassende Beratungsdienste anbieten, um Unternehmen bei der Gestaltung ihrer IT-Landschaft zu unterstützen.
