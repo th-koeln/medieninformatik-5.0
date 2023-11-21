@@ -5,8 +5,8 @@ layout: page.11ty.js
 level: 1
 meta:
   status: refactor
-  authors: Entwicklungsteam
-  reviewers: 
+  authors: Entwicklungsteam, Christian
+  reviewers: Matthias, Viet, Volker
   comments:
 
 competencies:
@@ -43,3 +43,20 @@ competencies:
 ---
 
 Leitfrage: Wie werden Softwaresysteme und -produkte gebaut?
+
+> cn: Vorschlag - Viet, Volker & Matthias bitte mal drüber schauen
+
+Durch die Planung von Systemarchitekturen, die Umsetzung von Frontend- und Backend-Funktionalitäten, das Design von Datenbanken sowie die Implementierung von Sicherheitsmaßnahmen schaffen Medieninformatiker:innen leistungsfähige und skalierbare Softwarelösungen. Durch enge Zusammenarbeit im Team tragen Medieninformatiker:innen dazu bei, innovative und zuverlässige Systeme zu schaffen, die den Anforderungen der Stakeholder gerecht werden.
+
+Im Arbeitsbereich «Developing Interactive and Distributed Systems« gibt es im Berufsalltag von Medieninformatiker:innen verschiedene typische Vorgänge. Hier sind einige davon:
+
+- Entwurf der Architektur von interaktiven und verteilten Systemen. Dies beinhaltet die Festlegung von Strukturen, Schnittstellen und Kommunikationsprotokollen.
+- Entwicklung von Software und Softwarekomponenten unter Verwendung verschiedener Entwurfsmuster, Programmiersprachen und Frameworks.
+- Implementierung und Optimierung von Benutzerschnittstellen, um eine ansprechende und benutzerfreundliche Erfahrung zu gewährleisten.
+- Implementierung der Logik und Datenverarbeitung auf der Serverseite, um die Funktionalität der Anwendung sicherzustellen.
+- Entwicklung von Datenbankstrukturen und Integration von Datenbanken in das System, um Daten effizient zu speichern, abzurufen und zu verwalten.
+- Integration von Sicherheitsmaßnahmen, um die Integrität und Vertraulichkeit von Daten in verteilten Systemen zu gewährleisten.
+- Durchführung von Tests, um sicherzustellen, dass das System ordnungsgemäß funktioniert, und Behebung von Programmfehlern.
+- Skalierbarkeit und Performance-Optimierung um den Anforderungen einer wachsenden Benutzerbasis gerecht zu werden.
+- Erstellung von Dokumentationen, die den Code, die Systemarchitektur und andere relevante Informationen und Entscheidungen umfassen, um eine einfache Wartung und Weiterentwicklung zu ermöglichen.
+- Koordinierung der Zusammenarbeit mit anderen Entwickler:innen, Designer:innen und weiteren Stakeholdern, um sicherzustellen, dass die entwickelten Systeme den Anforderungen und Erwartungen entsprechen.
