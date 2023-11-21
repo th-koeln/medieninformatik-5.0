@@ -29,7 +29,7 @@ veranstaltungsform:
 
 lehrmethoden:
 
-sprache: deutsch
+sprache: Englisch
 
 lehrform:
 
