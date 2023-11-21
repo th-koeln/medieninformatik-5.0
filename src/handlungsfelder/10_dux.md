@@ -4,9 +4,9 @@ kuerzel: dux
 layout: page.11ty.js
 level: 1
 meta:
-  status: refactor
-  authors: Entwicklungsteam
-  reviewers:
+  status: rfreview
+  authors: Entwicklungsteam, Christian
+  reviewers: Raphi, Gerhard
   comments:
 
 
