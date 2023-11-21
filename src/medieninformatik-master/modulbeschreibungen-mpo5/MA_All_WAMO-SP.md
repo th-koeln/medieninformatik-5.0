@@ -28,36 +28,10 @@ meta:
   status: tbd    
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
 ## Kurzbeschreibung
 
-Frei aus dem Katalog der Module, die einem Schwerpunkt DUX, DEV oder EXA zugeordnet sind.
-
-TODO: Hier auflisten per Skript
+Wahlmodul aus dem Katalog der Module, die einem der Schwerpunkte DUX, DEV oder EXA zugeordnet sind.
 
 ## Arbeitsaufwand
-180 Stunden
 
+180 Stunden

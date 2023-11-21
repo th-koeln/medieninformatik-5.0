@@ -25,12 +25,6 @@ meta:
   status: tbd    
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
 ## Learning Outcome
 Students will learn to work on a complex project in a team setting. 
 
@@ -42,8 +36,6 @@ By implementing the project, the students will learn ...
 * methods and knowledge about the subject matter, by focus on practical experience.
 
 This way, the students will be able to perform, plan, and lead similar projects in a professional context. 
-  
-
 
 ## Inhalte
 

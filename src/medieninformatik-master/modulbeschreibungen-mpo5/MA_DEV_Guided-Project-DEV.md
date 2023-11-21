@@ -39,7 +39,7 @@ studiengangkriterien:
   interdisziplinaritaet: 1
   transfer: 1
 ---
----
+
 
 ## Sprache
 
@@ -63,4 +63,3 @@ studiengangkriterien:
 
 ## Besonderheiten
 
----

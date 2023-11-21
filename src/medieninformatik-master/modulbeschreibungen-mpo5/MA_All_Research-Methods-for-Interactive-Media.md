@@ -25,13 +25,6 @@ meta:
   status: tbd      
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-Prof. Dr. Gerhard Hartmann
-
 ## Learning Outcome
 
 Die Studierenden kennen die verschiedene Paradigmen empirischer Forschung, können diese Anwenden und methodisch und epistemologisch kritisch einordnen um hinsichtlich eigener Forschungsvorhaben entscheiden zu können, welches Paradigma/Kombination von Paradigmen bei Ihrem Projekt angemessen ist.

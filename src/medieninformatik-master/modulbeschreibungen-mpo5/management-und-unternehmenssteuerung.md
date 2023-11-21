@@ -103,9 +103,7 @@ In Abhängigkeit des Schwerpunktthemas
 - Fachartikel und Lehrbücher über wiso-net.de
 - Lehrbücher über link.springer.com
 
-
-## {{ site.translations[site.lang].moduledescription.literature }}
-<!-- Weiterführende Informationen -->
+### Weiterführende Informationen
 
 Für weiterführende Informationen beachten Sie bitte auch die jeweils aktuelle 
 Kursbschreibung, die in Ilias veröffentlicht ist. 

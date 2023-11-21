@@ -73,29 +73,6 @@ After attending the course, students will be able to ...
   
 ## Modulinhalt
 
-{% if current_language == "d" %}
-
-* Innovation
-    * Grundlagen, Bedeutung und Definition Innovation
-    * Innovationsmanagement
-    * Aktuelle Themen – Open Innovation, Crowdsourcing etc.
-    * Internationales Marketing
-* Grundlagen
-    * Strategie der Internationalisierung
-    * Anpassung der Marketinginstrumente an nationale Gegebenheiten
-    * Online Marketing
-* Grundlagen
-    * Online Marketinginstrumente
-    * Websitegestaltung
-    * SEO
-    * SEA
-    * Local Search
-    * Social Media Marketing
-    * Mobile Marketing
-* Aktuelle Marketingthemen – z.B. Marketing Automation, Micromoments, Content Marketing, Virales Marketing, Predictive Marketing
-
-{% else %}
-
 * Innovation
     * Fundamentals, meaning and definition Innovation
     * Innovation Management
@@ -114,29 +91,12 @@ After attending the course, students will be able to ...
     * Mobile Marketing
 * Current marketing topics - e.g. marketing automation, micromoments, content marketing, viral marketing, predictive marketing
 
-{% endif %}
-
 ## Lehr- und Lernformen
-
-{% if current_language == "d" %}
-
-* Als Einstieg: Selflearning zu Marketing-Grundlagen
-* Seminaristischer Unterricht
-* Referate und Fallstudien
-* Prüfungsform: Referat (40%) und eine ausführliche Fallstudienbearbeitung im Team (60%)
-
-{% else %}
 
 * As an introduction: self-learning on marketing basics
 * Seminar-style teaching
 * Presentations and case studies
 * Type of examination: presentation (40%) and a detailed case study in a team (60%)
-
-{% endif %}
-
-## Lehrmaterial
-
-
 
 ## Empfohlene Literatur
 

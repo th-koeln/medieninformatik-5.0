@@ -25,12 +25,6 @@ meta:
   status: tbd    
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
 ## Learning Outcome
 
 Geschäftsmodelle / kapieren, wie ein Unternehmen funktioniert
