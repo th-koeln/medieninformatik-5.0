@@ -24,30 +24,6 @@ meta:
   status: rfreview    
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
 ## Kurzbeschreibung
 Die Masterarbeit (Master Thesis) und das Kolloquium bilden den Abschluss des Studiums. Die Masterarbeit ist in der Regel eine eigenständige Untersuchung mit einer Aufgabenstellung aus der Medieninformatik und einer ausführlichen Beschreibung und Erläuterung ihrer Lösung. In fachlich geeigneten Fällen kann sie auch eine schriftliche Hausarbeit mit fachliterarischem Inhalt sein.
 

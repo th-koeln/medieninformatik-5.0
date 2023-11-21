@@ -28,7 +28,6 @@ studienleistungen:
 meta:
   status: tbd 
 
-
 # Zuordnung Handlungsfelder, Kompetenzorientierung und Studiengangskriterien für Modulmatrix
 handlungsfelder:
   DUX: 0

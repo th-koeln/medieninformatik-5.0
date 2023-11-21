@@ -4,7 +4,7 @@ modulverantwortlich: mboehmer
 dozierende: mboehmer
 modulniveau: master
 kuerzel: MODI
-sprache: deutsch
+sprache: Deutsch oder Englisch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: 
 empfohleneVoraussetzungen: 
@@ -25,15 +25,6 @@ studienleistungen:
 meta:
   status: rfreview     
 ---
-
-## Sprache
-Deutsch (Englisch falls internationale Teilnehmer*innen)
-
-## Häufigkeit des Angebots
-im Sommersemester
-
-## Dozierende
-Prof. Dr. Matthias Böhmer
 
 ## Learning Outcome
 After finishing this module students will be able to design, to build and to study mobile and distributed systems. They will achieve this goal by
@@ -69,5 +60,3 @@ This will enable participants to design, build and study mobile and distributed 
 * WPF im Master Digital Sciences
   
 ## Besonderheiten
-
----

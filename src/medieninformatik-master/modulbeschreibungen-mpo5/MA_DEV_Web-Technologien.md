@@ -5,7 +5,6 @@ dozierende: cn
 modulniveau: master
 kuerzel: WEBT
 angebotImSs: true
-dreiSemestrig: true
 sprache: deutsch
 zuordnung-zum-curriculum: siehe Studienverlaufsplan
 kreditpunkte: 6
@@ -27,30 +26,6 @@ studienleistungen:
     datum: 26.09.2023
 meta:
   status: rfreview 
----
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
 ---
 
 ## Kurzbeschreibung

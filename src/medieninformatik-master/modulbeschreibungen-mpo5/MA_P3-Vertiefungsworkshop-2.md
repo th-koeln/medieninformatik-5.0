@@ -1,5 +1,5 @@
 ---
-title: In der Forschung punkten -- wissenschaftliche Verwertung von Forschungsideen und -ergebnissen
+title: In der Forschung punkten – wissenschaftliche Verwertung von Forschungsideen und -ergebnissen
 kuerzel: VW2
 modulverantwortlich: mbluemm
 dozierende: mbluemm
