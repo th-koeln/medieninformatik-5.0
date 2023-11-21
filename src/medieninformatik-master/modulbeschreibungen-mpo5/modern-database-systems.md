@@ -36,7 +36,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: paper-presentation
+    art: Wissenschaftliches Paper mit Präsentation
+    artkey: paper-presentation
     erstpruefer: 
     zweitpruefer: 
     datum:

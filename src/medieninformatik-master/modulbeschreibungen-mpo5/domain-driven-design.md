@@ -38,7 +38,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: project-paper-presentation
+    art: Semesterbegleitendes Projekt, dokumentiert als wissenschaftliches Papier / Präsentation
+    artkey: project-paper-presentation
     erstpruefer: 
     zweitpruefer: 
     datum:

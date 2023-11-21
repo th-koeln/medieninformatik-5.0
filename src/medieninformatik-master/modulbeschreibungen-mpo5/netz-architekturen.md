@@ -35,7 +35,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: experttalk-or-writtenexam
+    art: Fachgespräch oder Klausur
+    artkey: experttalk-or-writtenexam
     erstpruefer: 
     zweitpruefer: 
     datum:

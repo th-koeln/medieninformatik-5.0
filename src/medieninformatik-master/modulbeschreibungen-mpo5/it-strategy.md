@@ -39,7 +39,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: experttalk-presentation
+    art: Fachgespräch / Präsentation zu Thema oder Artefakt
+    artkey: experttalk-presentation
     erstpruefer: 
     zweitpruefer: 
     datum:

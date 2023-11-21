@@ -38,7 +38,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: project-experttalk
+    art: Semesterbegleitendes Projekt mit Fachgespräch
+    artkey: project-experttalk
     erstpruefer: 
     zweitpruefer: 
     datum:

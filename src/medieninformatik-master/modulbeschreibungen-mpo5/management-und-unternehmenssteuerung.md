@@ -36,7 +36,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: experttalk
+    art: Fachgespräch
+    artkey: experttalk
     erstpruefer: 
     zweitpruefer: 
     datum:

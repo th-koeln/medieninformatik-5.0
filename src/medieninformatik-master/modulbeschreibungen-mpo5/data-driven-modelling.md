@@ -38,7 +38,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: writtenexam-project-presentation
+    art: Klausur in Verbindung mit semesterbegleitendem Projekt / Präsentation
+    artkey: writtenexam-project-presentation
     erstpruefer: 
     zweitpruefer: 
     datum:

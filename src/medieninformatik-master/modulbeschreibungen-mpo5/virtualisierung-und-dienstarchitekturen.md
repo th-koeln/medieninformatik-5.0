@@ -39,7 +39,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: project
+    art: Semesterbegleitendes Projekt
+    artkey: project
     erstpruefer: 
     zweitpruefer: 
     datum:

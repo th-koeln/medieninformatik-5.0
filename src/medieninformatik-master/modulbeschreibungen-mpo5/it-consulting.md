@@ -39,7 +39,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: presentation-reflectivesummary
+    art: Präsentation mit Reflektionsbericht
+    artkey: presentation-reflectivesummary
     erstpruefer: 
     zweitpruefer: 
     datum:

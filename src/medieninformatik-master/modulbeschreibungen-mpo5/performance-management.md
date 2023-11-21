@@ -39,7 +39,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: writtenexam-postersession
+    art: Klausur in Verbindung mit einer Poster-Session (semesterbegleitend vorbereitet)
+    artkey: writtenexam-postersession
     erstpruefer: 
     zweitpruefer: 
     datum:

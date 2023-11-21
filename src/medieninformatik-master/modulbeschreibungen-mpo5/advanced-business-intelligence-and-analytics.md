@@ -38,7 +38,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: project-portfolio-experttalk
+    art: Semesterbegleitendes Projekt mit Portfolio-Erstellung und anschließendem Fachgespräch
+    artkey: project-portfolio-experttalk
     erstpruefer: 
     zweitpruefer: 
     datum:

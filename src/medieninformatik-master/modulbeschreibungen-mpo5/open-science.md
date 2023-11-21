@@ -34,7 +34,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: project-presentation
+    art: Semesterbegleitendes Projekt mit Präsentation
+    artkey: project-presentation
     erstpruefer: 
     zweitpruefer: 
     datum:
