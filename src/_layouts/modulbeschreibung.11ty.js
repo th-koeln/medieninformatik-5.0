@@ -20,7 +20,7 @@ module.exports = {
 		const createRow = (label, value) => {
 			if(!value) return "";
 			const val = typeof value === 'string' && value.match(/^https/)
-				? `<a href="${value}">${value}</a>`
+				? (value.includes('ilias') ? `<a href="${value}">siehe Ilias <span class="icon icon--inline">open_in_new</span></a>` : `<a href="${value}">${value}</a>`)
 				: value;
 
 			const displayValue = Array.isArray(value) ? `${value.join(', ')}` : val;
