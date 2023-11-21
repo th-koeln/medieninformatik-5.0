@@ -33,4 +33,4 @@ hinweise:
 
 ## Berufsbild Interaction Design mit Fokus auf Künstliche Intelligenz
 
-Diese Absolvent*in hat im Schwerpunkt DUX richtung Interaction Design studiert und im Bereich Künstliche Intelligenz und Statistik spezialisiert.
+Diese Absolvent*in hat im Schwerpunkt DUX in Richtung Interaction Design studiert und sich im Bereich Künstliche Intelligenz und Statistik spezialisiert.
