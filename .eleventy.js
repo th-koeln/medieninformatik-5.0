@@ -227,10 +227,40 @@ module.exports = function (eleventyConfig) {
     return allImages;
   });
 
+
+  function pushHinweis(modul, hinweis) {
+    if (modul.data.hinweise) {
+      modul.data.hinweise.push(hinweis);
+    } else {
+      modul.data.hinweise = [hinweis];
+    }
+  }
+
+  function checkModuleForMetaData(modul) {
+    
+    // ist das Modul einem Semester zugeordnet?
+    if (!(modul.data.angebotImWs || modul.data.angebotImSs)) {
+      console.error("modul hat kein Semester: " + modul.data.title)
+      pushHinweis(modul, "Das Modul hat kein Semester (WiSe oder SoSe)")
+    }
+
+    // hat das Modul eine Prüfung?
+    if (!(modul.data.studienleistungen?.Einzelleistung?.art)) {
+      console.error("Das Modul hat keine Prüfung: " + modul.data.title)
+      pushHinweis(modul, "Das Modul hat keine Prüfung")
+    }
+    
+  }
+
+
   eleventyConfig.addCollection("allModuls", function (collection) {
     clearRequireCache();
     const bachelor = collection.getFilteredByGlob("./src/medieninformatik-bachelor/modulbeschreibungen-bpo5/*.md");
     const master = collection.getFilteredByGlob("./src/medieninformatik-master/modulbeschreibungen-mpo5/*.md");
+
+    bachelor.forEach(m => checkModuleForMetaData(m));
+    master.forEach(m => checkModuleForMetaData(m));
+
     return [...bachelor, ...master].sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
