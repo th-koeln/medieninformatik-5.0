@@ -20,7 +20,7 @@ studienverlauf:
         label: "2. Semester"
         fachsemester: 2
         season: "sose"
-        module: ["IMP", "SGMCI", "SHCI", "GP-DUX"]
+        module: ["IMP", "SGMCI", "KI", "GP-DUX"]
     - semester:
         fachsemester: 3
         label: "Finales Semester"
