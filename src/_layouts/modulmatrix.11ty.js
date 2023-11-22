@@ -4,20 +4,18 @@ module.exports = {
 		bodyClass: "curriculum",
 	},
 	render(data ) {
-    
-    eleventy: this;
-
     const curriculumTools = require('./components/curriculumTools.11ty.js');
 
     const { collection } = data;
     const { studyProgramme } = data;
-    
+    const eleventy = this ? this : data.eleventy;
+
     const modulMatrix = curriculumTools.getModulMatrix({
       moduls: data.collections[collection],
       handlungsfelder: data.collections.handlungsfelder,
       studyProgramme,
       data,
-      eleventy: this
+      eleventy
     });
 
 

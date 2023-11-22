@@ -109,6 +109,7 @@ const getCurriculumTable = (obj) => {
   const { eleventy } = obj;
   const { terms } = obj;
 
+  
   const totalCPS = {};
   
   const modulsForGroup = (group) =>  {
@@ -421,6 +422,7 @@ exports.getModulMatrix = (obj) => {
   const { moduls } = obj;
   const studyProgramme = obj.studyProgramme ? obj.studyProgramme : 'master';
   const { handlungsfelder } = obj;
+  const { eleventy } = obj;
 
   const impactGate = 0; // Soviel muss ein Modul liefern, damit es als "check" gilt
   const impactGateHandlungsfeld = 10; // Soviel muss ein Handlungsfeld liefern, damit es als "check" gilt
@@ -460,7 +462,7 @@ exports.getModulMatrix = (obj) => {
     return `
       <tr>
         <!-- Modul -->
-        <th class="module-name"><a href="${modulItem.url}">${modul.title}</a></th>
+        <th class="module-name"><a href="${eleventy.url(modulItem.url)}">${modul.title}</a></th>
         <td>${modul.typ === 'pm' ? check : ''}</td>
         <td>${modul.kreditpunkte}</td>
         <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>

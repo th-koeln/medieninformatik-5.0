@@ -53,7 +53,7 @@ module.exports = {
             ${insightsList.join("\n")}
           </ul>
 
-          <a href="/insights" class="cta">Alle Anforderungen/ Ideen/ Aussagen ansehen</a>
+          <a href="${this.url('/insights')}" class="cta">Alle Anforderungen/ Ideen/ Aussagen ansehen</a>
         </section>
 
         <section class="how-might-we has-seperator">
@@ -62,7 +62,7 @@ module.exports = {
             ${howMightWeList.join("\n")}
           </ul>
 
-          <a href="/how-might-we" class="cta">Alle How-might-we-Fragen ansehen</a>
+          <a href="${this.url('/how-might-we')}" class="cta">Alle How-might-we-Fragen ansehen</a>
         </section>
 			</main>
 		`;
