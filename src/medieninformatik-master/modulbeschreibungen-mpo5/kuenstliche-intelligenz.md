@@ -48,7 +48,12 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Inhalt
 
-> work in progress
+- Einführung in künstliche Intelligenz für die Medieninformatik
+- Machine Learning
+- Künstliche neuronale Netze
+- Deep Learning
+- Convolutional neuronale Netze
+- Natural Language Processing
 
 ## Medienformen
 
@@ -56,4 +61,4 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Literatur
 
-> work in progress
+- Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2023.
