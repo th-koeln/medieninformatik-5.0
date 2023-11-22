@@ -25,22 +25,28 @@ studienleistungen:
     zweitpruefer: sb
     datum: 26.09.2023
 meta:
-  status: rfreview 
+  status: ok
+  authors: Christian
+  reviewers: Christian  
+praesenzZeit: 52
+selbstStudium: 98
+angebotImWs: false
+angebotImSs: true
+weitereStudiengaenge: 
+  - ds
+lehrmethoden:
+  - Seminar
+  - Konzeption und Durchführung eines Workshops
+  - Synchrone Projektarbeit
+lehrform:
+  - Seminar 2 SWS
+  - Workshop 2 SWS
 ---
 
-## Kurzbeschreibung
+## Learning Outcome
+
 In Modul werden fortgeschrittene Herangehensweisen, Technologien, Konzepte und Implementierungsansätze im Kontext Web-basierter Anwendungen behandelt.
 
-## Lehrform/SWS 
-4 SWS: Seminar 2 SWS, Workshop 2 SWS
-
-## Arbeitsaufwand 
-Gesamtaufwand 180 Stunden, davon 
-- 36h Seminar 
-- 36h Workshop 
-- 108h Selbststudium 
-
-## Angestrebte Lernergebnisse
 Die Studierenden können aus verschiedenen Technologien, Implementierungskonzepten und -methoden, sowie Frameworks und Best-Practices sowohl auswählen, als auch die getroffene Auswahl fachlich begründen und dokumentieren, indem sie in einem mit laufenden Projekt auf Featurerequests reagieren, um eine Web-basierte Anwendung möglichst nachhaltig und umsichtig entwickeln zu können.
 
 Die Studierenden sind in der Lage, neue Technologien und Strömungen im Kontext des Webs zu erkennen und anderen diese näher zu bringen, indem sie Drafts, Proposals und Reviews im Gegenstandsbereich recherchieren, durchdringen, bewerten und einordnen und einen Workshop dazu entwickeln und diesen durchführen, um die Zukunftsfähigkeit der eigenen Skills, des Teams und des Projekts sicher zu stellen. 
@@ -48,8 +54,8 @@ Die Studierenden sind in der Lage, neue Technologien und Strömungen im Kontext 
 ## Inhalt
 - Technologiescouting und -Bewertung
 - Collaborative Development
-- Studentische Workshops zu verschiedenen Themen
-
+- Codereviews
+- Workshops zu verschiedenen Themen
 
 ## Voraussetzungen
 Um an diesem Modul erfolgreich teilnehmen zu können sind einschlägige Kenntnisse, Fertigkeiten und Erfahrungen im Bereich Web-Technologien und Web-Development erforderlich. Eine Orientierung bietet hier die [Web Developer Roadmap von Kamran Ahmed](https://github.com/kamranahmedse/developer-roadmap). Enntsprechend der Empfehlung «Required for any path» sollten Sie gut Kenntnisse und Fähigkeiten haben in:
@@ -76,6 +82,4 @@ Im Bereich [Backend Development](https://roadmap.sh/backend) sollten Sie mit fol
 - Architekturpattern
 - Webserver
 
-## Medienformen
-Präsentationsmaterialien
 
