@@ -21,43 +21,25 @@ studienleistungen:
     zweitpruefer: mas
     datum: antrag
 meta:
-  status: rfreview
+  status: ok
+  authors: Christian
 angebotImWs: true
-angebotImSs: true  
+angebotImSs: true
+praesenzZeit: 0
+selbstStudium: 360
+lehrmethoden:
+  - eigenverantwortliches Arbeiten 
+  - Feedbackgespräche bei Bedarf
 ---
 
-## Sprache
 
-## Häufigkeit des Angebots
+## Learning Outcomes
 
-## Dozierende
+(WAS) Die Studierenden bearbeiten eigenständig eine praxisorientierte Aufgabe aus dem Fachgebiet der Medieninformatik. Dies umfasst die detaillierte Analyse der fachlichen Einzelheiten sowie die Berücksichtigung fachübergreifender Zusammenhänge.
 
-## Learning Outcome
+WOMIT: Dabei nutzen sie verschiedene Werkzeuge, Methoden und Techniken, die im sie Laufe des Studiums erlernt haben. Dies beinhaltet wissenschaftliche Methoden zur Analyse und Untersuchung, fachpraktische Ansätze zur Umsetzung in der Praxis sowie gestalterische Methoden zur kreativen Lösungsfindung. Darüber hinaus verwenden sie fachspezifische Modelle, Konzepte und Herangehensweisen, die für ein kompetentes Handeln in der Medieninformatik erforderlich sind. Diese Werkzeuge werden in einem integrativen Ansatz kombiniert, um die praxisorientierte Aufgabe erfolgreich zu bewältigen.
 
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
-## Lehrform/SWS
-Angeleitetes, eigenverantwortliches Arbeiten
-
-## Arbeitsaufwand
-360 Stunden
-
-## Angestrebte Lernergebnisse
-Die Bachelorarbeit soll zeigen, dass der Prüfling befähigt ist, innerhalb einer vorgegebenen Frist eine praxisorientierte Aufgabe aus seinem Fachgebiet sowohl in ihren fachlichen Einzelheiten als auch in den fachübergreifenden Zusammenhängen nach wissenschaftlichen, fachpraktischen und gestalterischen Methoden selbständig zu bearbeiten. Die Bachelorarbeit ist in der Regel eine eigenständige Untersuchung mit einer Aufgabenstellung aus der Medieninformatik und einer ausführlichen Beschreibung und Erläuterung ihrer Lösung. In fachlich geeigneten Fällen kann sie auch eine schriftliche Hausarbeit mit fachliterarischem Inhalt sein.
+WOZU: Die Durchführung dieser praxisorientierten Aufgabe dient dem Zweck, die Fähigkeit der Studierenden zu demonstrieren, komplexe Aufgabenstellungen aus der Medieninformatik eigenständig und kompetent zu bearbeiten. Dies ermöglicht ihnen, ihre erworbenen Kenntnisse und Fertigkeiten in fachlichen Einzelheiten und fachübergreifenden Zusammenhängen anzuwenden. 
 
 ## Inhalt
 Selbstständiges wissenschaftliches, fachpraktisches und gestalterisches Bearbeiten einer Aufgabenstellung.
