@@ -23,7 +23,7 @@ studienleistungen:
 meta:
   status: ok
   authors: Christian
-  reviewers: -
+  reviewers: Christian
 angebotImWs: true
 angebotImSs: true
 praesenzZeit: 1

@@ -43,7 +43,7 @@ Gesamtaufwand 135 h, davon
 
 ## Angestrebte Lernergebnisse
 
-(WAS) Die Studierenden können eine wisschaftliche Abbhandlung verfassen, 
+(WAS) Die Studierenden können Konzepte, Techniken und Methoden aus dem Studium in einem praxisrelevanten Kontext anwenden und ein Problem oder Thema weitgehend selbstständig bearbeiten, bzw. lösen und den Prozess, die relevanten Entscheidungen und Ergebnisse nach gängiger Fachpraxis in eine wisschaftliche Abbhandlung überführen und einem Fachpublikum zugänglich machen.
 
 (WOMIT) indem Sie 
 
@@ -57,9 +57,9 @@ Gesamtaufwand 135 h, davon
 
 Das Praxisprojektseminar besteht aus
 
-- Veranstaltungen in denen Techniken wissenschaftlichen Arbeitens vermittelt werden,
-- Audits über den aktuellen Stand ihres Projektes,
-- Fachvorträgen von Studierenden über ihre Projektergebnisse.
+- Veranstaltungen in denen Techniken wissenschaftlichen Arbeitens vermittelt werden
+- Austausch über den aktuellen Stand ihres Projektes
+- Fachvorträgen von Studierenden über ihre Projektergebnisse
 
 ## Literatur
 
