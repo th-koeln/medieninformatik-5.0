@@ -1,6 +1,6 @@
 ---
 title: Guided Project on Designing for User Experiences
-modulverantwortlich: all
+modulverantwortlich: gh
 dozierende: all
 modulniveau: master
 angebotImWs: true
@@ -21,8 +21,8 @@ typ: pm
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls
-    erstpruefer: 
-    zweitpruefer: 
+    erstpruefer: all
+    zweitpruefer: all
     datum:
 meta:
   status: tbd    
@@ -42,12 +42,18 @@ studiengangkriterien:
 ---
 
 ## Sprache
+deutsch
 
 ## Häufigkeit des Angebots
 
+jedes Semester
+
 ## Dozierende
+Alle ProfessorInnen der Informatik-Studiengänge
 
 ## Learning Outcome
+
+
 
 ## Inhalte
 
