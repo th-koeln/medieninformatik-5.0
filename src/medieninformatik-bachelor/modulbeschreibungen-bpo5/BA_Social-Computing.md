@@ -47,18 +47,18 @@ lehrform:
 (WAS) Die Studierenden können das komplexe Wechselspiel zwischen informationstechnischen Systemen und gesellschaftlichen Normen und Prozessen verstehen, analysieren und einordnen, (WOMIT) indem sie sich mit aktuellen sozialen Medien auseinandersetzen, diese mit medientheoretischen Hintergründen und Designprinzipien in Beziehung setzen und eigene Konzepte skizzieren, (WOZU) um neue soziale Medienangebote zu gestalten und deren Technikfolgen einschätzen zu können.
 
 ## Inhalte
-• Modelle der Sozioinformatik
-• Soziologische, Psychologische und medientheoretische Grundlagen
-• Computerethische Grundlagen
-• Technikgenese und Ko-Evolution
-• Dark Patterns
-• Aufmerksamkeits-Ökonomie
-• Positive Computing
-• Gestaltungsprinzipien für soziotechnische Systeme
-• Gamification
-• Behaviour Design
-• Diversity in Computer Science
-• Code und gesellschaftliche Normen
-• Algorithmen für Empfehlungssysteme
+- Modelle der Sozioinformatik
+- Soziologische, Psychologische und medientheoretische Grundlagen
+- Computerethische Grundlagen
+- Technikgenese und Ko-Evolution
+- Dark Patterns
+- Aufmerksamkeits-Ökonomie
+- Positive Computing
+- Gestaltungsprinzipien für soziotechnische Systeme
+- Gamification
+- Behaviour Design
+- Diversity in Computer Science
+- Code und gesellschaftliche Normen
+- Algorithmen für Empfehlungssysteme
 
 ## Empfohlene Literatur
