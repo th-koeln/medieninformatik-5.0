@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer:
     datum: 
 meta:
-  status: tbd    
+  status: ok    
   authors: Christian Kohls
   reviewers: Christian Kohls
 besonderheiten: 
@@ -42,10 +42,6 @@ lehrform:
   - Seminar 2 SWS
 ---
 
-• Impulsvorträge am interaktiven Whiteboard
-• Screencasts und Handouts
-• Aktuelle Blogbeiträge, Zeitungsartikel und Videos
-• Arbeit im Innovationsraum mit Gestaltungsmaterialien
 
 ## Learning Outcome
 (WAS) Die Studierenden können das komplexe Wechselspiel zwischen informationstechnischen Systemen und gesellschaftlichen Normen und Prozessen verstehen, analysieren und einordnen, (WOMIT) indem sie sich mit aktuellen sozialen Medien auseinandersetzen, diese mit medientheoretischen Hintergründen und Designprinzipien in Beziehung setzen und eigene Konzepte skizzieren, (WOZU) um neue soziale Medienangebote zu gestalten und deren Technikfolgen einschätzen zu können.
