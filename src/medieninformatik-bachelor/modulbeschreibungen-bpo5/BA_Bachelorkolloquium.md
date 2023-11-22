@@ -21,43 +21,25 @@ studienleistungen:
     zweitpruefer: mas
     datum: antrag
 meta:
-  status: rfreview
+  status: ok
+  authors: Christian
+  reviewers: -
 angebotImWs: true
-angebotImSs: true    
+angebotImSs: true
+praesenzZeit: 1
+selbstStudium: 89
+lehrmethoden:
+  - eigenverantwortliches Arbeiten 
+  - Feedbackgespräche bei Bedarf  
 ---
-
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
 
 ## Learning Outcome
 
-## Inhalte
+(WAS) Absolvent:innen stellen die Ergebnisse der Bachelorarbeit sowie deren fachliche Grundlagen, fachübergreifende Zusammenhänge und außerfachliche Bezüge dar, begründen diese und schätzen die Bedeutung der Arbeit für die Praxis ein.
 
-## Lehr- und Lernmethoden
+(WOMIT) Dazu werden die wesentlichen Inhalte und Erkenntnisse der Bachelorarbeit vorgestellt, besondere Herausforderungen, interessante Aspekte, neu gewonnene Erkenntnisse und Fragestellungen erläutert und das eigene Vorgehen als auch die gewonnenen Ergebnisse kritisch reflektiert. Darauf folgt ein Fachgespräch in dem einige der fachlichen Grundlagen, fachübergreifenden Zusammenhänge und Bezüge diskutiert werden.
 
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
-
-## Lehrform/SWS
-Angeleitetes, eigenverantwortliches Arbeiten
-
-## Arbeitsaufwand
-90 Stunden
-
-## Angestrebte Lernergebnisse
-Das Kolloquium dient der Feststellung, ob der Prüfling befähigt ist, die Ergebnisse der Bachelorarbeit, ihre fachlichen Grundlagen, ihre fachübergreifenden Zusammenhänge und ihre außerfachlichen Bezüge mündlich darzustellen und selbständig zu begründen und ihre Bedeutung für die Praxis einzuschätzen. Dabei soll auch die Bearbeitung des Themas der Bachelorarbeit mit dem Prüfling erörtert werden.
+(WOZU) Ziel ist die erlangten Erkenntnisse und Kompetenzen aus der Bachelorarbeit in einem mündlichen Vortrag überzeugend zu präsentieren und reflektiert zu diskutieren, um sicherzustellen, dass die Ergebnisse der Arbeit angemessen vertreten, die Relevanz und praktische Anwendbarkeit der Forschungsergebnisse verstanden worden sind und vermitteln werden können. Das Kolloquium dient somit dazu, die Kompetenzen der Absolvent:innen in der mündlichen Kommunikation und in der Reflexion seiner eigenen Arbeit zu überprüfen.
 
 ## Inhalt
 Vortrag über das Thema der Bachelorarbeit, Fachdiskussion und mündliche Verteidigung der Arbeit im Kontext der Medieninformatik.
