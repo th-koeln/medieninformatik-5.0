@@ -38,7 +38,11 @@ lehrmethoden:
 ---
 
 > cn: ich hab das mal ein bisschen in Struktur gebracht … @Gerhard: könntest Du bitte noch mal drüber gucken und die LOs in WAS-WOMIT-WOZU Struktur bringen? Vielen Dank!
+
 > mb: Sollten alle ein Projekt anbieten können? -> dozierende: all?
+
+> mb: Sollten wir im WiSe und SoSe anbieten, damit es klappt, das PS auch ins SoSe zu legen
+
 
 ## Learning Outcome
 
