@@ -65,7 +65,7 @@ Hier sind typische Vorgänge, die in diesem Kontext stattfinden könnten:
 - Erforschung von fortschrittlichen Techniken im interaktiven Storytelling, um narrative Elemente in interaktiven Medien zu integrieren.
 - Integration von fortschrittlichen Algorithmen und KI-Technologien, um personalisierte und adaptive Interaktionen zu ermöglichen.
 - Entwicklung von interaktiven Medien, die auf verschiedenen Geräten und Bildschirmgrößen reaktionsfähig sind.
-- Entwicklung von playful user experiences durch Gamification und Serious Games
+- Entwicklung von playful user experiences durch Gamification und Serious Games.
 - Konzeption und Erkundung von Umsetzungsmöglichkeiten von experimentellen Benutzerschnittstellen, die neue Wege der Interaktion erkunden.
 
 Diese Vorgänge betonen die kontinuierliche Erforschung und Umsetzung von Technologien, die über den Mainstream hinausgehen, um innovative und fortschrittliche interaktive Medien zu gestalten. Hier werden neue Wege abseits von existierenden Standardlösungen für die Interaktion erkundet und die Herausforderungen der Umsetzung gelöst. Dabei spielt auch die enge Zusammenarbeit mit anderen Fachleuten wie Designern, Ingenieuren und Kreativen eine entscheidende Rolle.
