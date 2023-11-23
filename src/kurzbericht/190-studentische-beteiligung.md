@@ -3,9 +3,9 @@ title: Studentische Beteiligung
 layout: page.11ty.js
 level: 2
 meta:
-  status: wip
+  status: rfreview
   authors: Nathalie, Uwe, Volker
-  reviewers: 
+  reviewers: Christian
   purpose: |
     In welcher Form wurden Studierende an der (Weiter-)Entwicklung des Studiengangs beteiligt? Was wurde am Studiengang aufgrund der Stellungnahme der Studierenden geändert bzw. neu abgestimmt?
 ---
