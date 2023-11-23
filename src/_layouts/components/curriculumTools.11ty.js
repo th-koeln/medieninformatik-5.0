@@ -236,7 +236,8 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
         
       if (row.semester?.creditsplits) {
         if (row.semester?.creditsplits[kuerzel]) {
-          modulClone.data.kreditpunkte = row.semester.creditsplits[kuerzel]
+          modulClone.data.kreditpunkte = row.semester.creditsplits[kuerzel];
+          modulClone.data.title = modulClone.data.title + " (gesplittet)";
         }
       }
       
