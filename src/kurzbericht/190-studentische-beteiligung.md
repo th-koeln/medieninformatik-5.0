@@ -29,20 +29,22 @@ Zur Priorisierung der Fragen führte das Entwicklungs- und Studiengangsteam ein 
 
 
 #### Was wurde am Studiengang aufgrund der Stellungnahme der Studierenden geändert bzw. neu abgestimmt?
-- IuG: Wunsch nach Freiwilligkeit, ohne Benotung, 
-- zu hoher Arbeitsaufwand in den ersten 3 Semestern (B)
-- Grundstudium zu zäh und therorielastig (B) -> EBR (wichtige Informationen können in anderen Modulen mit gelehrt werden)
-- Projektmanagement zu spät (B) -> Projekte in jedem Semester, begleitend wird der Fokus auf Komponenten des Projektmanagementes gelegt
-- breit gefächertes Curriculum, Einblick in viele Bereiche -> wegfall der Vertiefungen(B)
-- Einführung Praxissemester als Auswirkung auf Forderung nach mehr Kooperationen mit Unternehmen
-
-- WPF: zu geringe Wahlmöglichkeit (M)
-- gleiche Handlungsfelder im B und M
-- Projekte bauen nicht mehr aufeinander auf, was den Einstieg im SoSe erleichtert (M)
-
 Die Analyse der Ergebnisse aus den oben genannten Methoden führte zu folgenden Veränderungen in den Studiengängen der Medieninformatik im Bachelor und Master:
-Die ersten drei Semester des bisherigen Bachelor-Curriculums wurde größtenteils als zäh und theoretisch bewertet. Zudem war die Meinung, dass Inhalte einzelner Module früher im Curriculum oder in anderen Modulen behandelt werden können, in denen sie als Voraussetzung benötigt werden. Um den Aspekt der Theorielastigkeit zu minimieren, wurden zum Beispiel Projekten in jedem Fachsemester integriert, in welchen die Konzepte des Projektmanagementes aufbauend fokussiert werden. 
+Die ersten drei Semester des bisherigen Bachelor-Curriculums wurden größtenteils als zäh, theoretisch und mit zu hohem Arbeitsaufwand bewertet. 
+Zudem war die Meinung, dass Inhalte einzelner Module früher im Curriculum oder in anderen Modulen behandelt werden können, in denen sie als Voraussetzung benötigt werden. Um den Aspekt der Theorielastigkeit zu minimieren, wurden zum Beispiel Projekte in jedem Fachsemester integriert, in welchen die Konzepte des Projektmanagementes aufbauend fokussiert werden. Projektmanagement lag bisher im 5. Fachsemester, welches für einen projektorientierten Studiengang unpraktikabel ist.
+> UM: Soll konkret noch auf EBR eingegangen werden, da es weggefallen ist?
 
+Des weiteren wurde der Punkt deutlich, dass das Modul "Informatik und Gesellschaft" dazu dient, den "Blick über den Tellerrand" zu ermöglichen, und würde die Studierenden eher ansprechen, wenn es auf freiwilliger Basis ohne Benotung erfolgt. So eröffnen sich neue Möglichkeiten und Denkmuster ohne Leistungsdruck zu erzeugen. Dies hatte zur Folge, dass das Modul in den Wahlpflichtkatalog überführt wurde. 
+
+Ein weiterer Ansatzpunkt war der Verzicht auf Vertiefungsschwerpunkte, um den Studierenden die Möglichkeit zu bieten, alle Bereiche der Medieninformatik kennenzulernen, sodass sie daraus ihre Interessen identifizieren können. Kooperation mit Unternehmen wurden ebenfalls gewünscht, daher wurde ein Praxis-, Forschungs- oder Auslandssemester integriert, um die praktische Erfahrung zu ermöglichen.
+
+Ein sehr starker Kritikpunkt zum bisherigen Curriculum des Masterstudiengangs Medieninformatik war die begrenzte Anzahl an Optionen von Modulen als Wahlpflichtmodul bezogen auf den jeweiligen gewählten Schwerpunkt. Die Erweiterung des Kataloges auf Module des Masterstudiengangs "Digital Sciences" und die Entbindung einiger Wahlpflichtmodule aus den Schwerpunkten bietet somit ein breiteres Spektrum an Wahlmöglichkeiten.
+
+Zusätzlich wurde der semantische Aufbau der Projekte 1-3 im bestehenden Masterstudiengang als hinderlich angesehen, wenn das Studium im Sommersemester begonnen wird. Die Verknüpfungen der Projekte wurden in der Neugestaltung aufgehoben, was die Organisation und Studierbarkeit erheblich erleichtern kann.
+
+In den Ergebnissen wurde ebenfalls klar, dass der konsekutive Aufbau des Bachelor- und Masterstudiengangs der Medieninformatik sehr begrüßt wird. Demzufolge ist es sinnvoll diese Praxis fortzusetzen.
+
+Insgesamt dienten diese Anregungen als Möglichkeit, das Studienerlebnis zu optimieren und eine praxisorientiertere, flexiblere und kontinuierlichere Ausbildung zu ermöglichen.
 
 --------
 
