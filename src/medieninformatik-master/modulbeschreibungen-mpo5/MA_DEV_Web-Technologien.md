@@ -30,8 +30,6 @@ meta:
   reviewers: Christian  
 praesenzZeit: 52
 selbstStudium: 98
-angebotImWs: false
-angebotImSs: true
 weitereStudiengaenge: 
   - ds
 lehrmethoden:
