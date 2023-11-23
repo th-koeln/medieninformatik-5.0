@@ -233,7 +233,15 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
       if (row.semester.season === "wise" && !modulClone.data.angebotImWs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" (platziert im "+row.semester.fachsemester+". Semester) wird nicht im WiSe angeboten");
       if (row.semester.season === "sose" && !modulClone.data.angebotImSs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" (platziert im "+row.semester.fachsemester+". Semester) wird nicht im SoSe angeboten");
 
+        
+      if (row.semester?.creditsplits) {
+        if (row.semester?.creditsplits[kuerzel]) {
+          modulClone.data.kreditpunkte = row.semester.creditsplits[kuerzel]
+        }
+      }
+      
       istECTS += modulClone.data.kreditpunkte;
+
       moduleImVerlauf.push(modulClone);
       
     };
