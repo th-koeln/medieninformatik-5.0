@@ -17,7 +17,7 @@ Für die Reakkreditierung des Studiengangs Medieninformatik wurden neben externe
 2. **SWOT-Analyse**: Um die Stärken, Schwächen sowie Chancen und Risiken des Studiengang Medieninformatik nachvollziehen zu können, wurden sowohl im Bachelor als auch im Master SWOT-Analysen angefertigt und von den Studierenden gefüllt. Dadurch konnte ein Überblick über das aktuelle Meinungsbild gewonnen sowie mögliche Ansätze und Ideen für die Optimierung des Studiengangs gesammelt werden.
 > Nathalie: Wurde die Stakeholderanalyse nach den Wunsch-Curricula iteriert?
 3. **Stakeholderanalyse**: Im Zuge einer Stakeholderanalyse, die unter anderem die Stakeholdergruppen „Studierende Allgemein“, „Bachelor Studierende“, „Master Studierende“, „Campusfremde Studierende“, „Erasmus Studierende“ und „Alumni“ betrachtete, wurden in Bezug auf verschiedene Bereiche des Studiengangs (bspw. Lehre, Kommunikation, Struktur, etc.) Erwartungen der Studierenden erarbeitet und notiert. Hierbei flossen die Ergebnisse aus der SWOT-Analyse sowie persönliche Erfahrungen von aktuellen Studierenden am Campus und Absolventen mit ein.
-4. **Wunsch-Curricula**: Beim Aufbau eines neuen Curriculums im Bachelor und Master des Studiengangs Medieninformatik hatten die Studierenden die Möglichkeit ihre persönlichen Wünsche mit einzubringen. Hierfür wurden der aktuelle Studienverlaufsplan aufgezeichnet und mittels Post-Its hatten die Studierenden die Möglichkeit die aktuellen Module flexibel zu verschieben oder zu verwerfen. Auch neue Wunsch-Module konnten ergänzt werden. Dadurch konnten Einblicke in die Erwartungen und Anforderungen der Studierenden an den Studiengang gewonnen werden.
+4. **Wunsch-Curricula**: Beim Aufbau eines neuen Curriculums im Bachelor und Master des Studiengangs Medieninformatik hatten die Studierenden die Möglichkeit ihre persönlichen Wünsche mit einzubringen. Hierfür wurden die aktuellen Studienverlaufspläne aufgezeichnet und mittels Post-Its hatten die Studierenden die Möglichkeit die aktuellen Module flexibel zu verschieben oder zu verwerfen. Auch neue Wunsch-Module konnten ergänzt werden. Dadurch konnten Einblicke in die Erwartungen und Anforderungen der Studierenden an den Studiengang gewonnen werden.
 
 > Volker: Ich habe diesen Text angepasst und hier hin geschoben, so dass er sich auf beide Sektionen („Externe Expertise” und „Studentische Beteiligung”) bezieht.
 
@@ -27,16 +27,22 @@ Anschließend wurden die Kärtchen nach relevanten Themengebieten gruppiert, um 
 
 Zur Priorisierung der Fragen führte das Entwicklungs- und Studiengangsteam ein Voting durch. Jedes Mitglied durfte drei Punkte auf die Fragen verteilen, die es als besonders wichtig erachtete. Die Fragen wurden anschließend in drei Kategorien unterteilt: "Top Votes" mit mehr als sechs Sternen, "Middle Votes" mit mehr als drei Sternen und "Low Votes" für die übrigen Fragen.
 
-ToDo:
-*Hier folgt Zusammenfassung, welche Erkenntnisse aus den Methoden abgeleitet werden konnten (s. bspw. Angriffspunkte)*
 
 #### Was wurde am Studiengang aufgrund der Stellungnahme der Studierenden geändert bzw. neu abgestimmt?
-todo
+- IuG: Wunsch nach Freiwilligkeit, ohne Benotung, 
+- zu hoher Arbeitsaufwand in den ersten 3 Semestern (B)
+- Grundstudium zu zäh und therorielastig (B) -> EBR (wichtige Informationen können in anderen Modulen mit gelehrt werden)
+- Projektmanagement zu spät (B) -> Projekte in jedem Semester, begleitend wird der Fokus auf Komponenten des Projektmanagementes gelegt
+- breit gefächertes Curriculum, Einblick in viele Bereiche -> wegfall der Vertiefungen(B)
+- Einführung Praxissemester als Auswirkung auf Forderung nach mehr Kooperationen mit Unternehmen
+
+- WPF: zu geringe Wahlmöglichkeit (M)
+- gleiche Handlungsfelder im B und M
+- Projekte bauen nicht mehr aufeinander auf, was den Einstieg im SoSe erleichtert (M)
+
+Die Analyse der Ergebnisse aus den oben genannten Methoden führte zu folgenden Veränderungen in den Studiengängen der Medieninformatik im Bachelor und Master:
+Die ersten drei Semester des bisherigen Bachelor-Curriculums wurde größtenteils als zäh und theoretisch bewertet. Zudem war die Meinung, dass Inhalte einzelner Module früher im Curriculum oder in anderen Modulen behandelt werden können, in denen sie als Voraussetzung benötigt werden. Um den Aspekt der Theorielastigkeit zu minimieren, wurden zum Beispiel Projekten in jedem Fachsemester integriert, in welchen die Konzepte des Projektmanagementes aufbauend fokussiert werden. 
+
 
 --------
 
-ToDo:
-> Nathalie: Keep Drop Try steht bereits bei der externen Expertise. Hier also weglassen?
-- Keep Drop Try
-- How might we + Umsetzung dieser (z. B. IuG)
-- Angriffspunkte
