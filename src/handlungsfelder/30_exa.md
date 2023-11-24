@@ -23,7 +23,7 @@ competencies:
       - title: Künstliche Intelligenz
         competence: "Haben vertiefte Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen z.B. in der Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung."
       - title: Interaktive Computergrafik
-        competence: "Können moderne Grafikhardware effizient für fortschrittliche Rendering Techniken einsetzen, um interaktive Anwendungen in 2D und 3D Kontexten zu konzipieren und umzusetzen.
+        competence: "Können moderne Grafikhardware effizient für fortschrittliche Rendering Techniken einsetzen, um interaktive Anwendungen in 2D und 3D Kontexten zu konzipieren und umzusetzen."
       - title: Datenvisualisierung
         competence: "Haben die Fähigkeit zur Untersuchung und Visualisierung großer Datenmengen, um komplexe Daten zu analysieren, kontextualisieren und Ergebnisse auf verständliche und ansprechende Weise zu präsentieren."
       - title: Gamification
