@@ -1,7 +1,9 @@
 ---
 title: Studienverlaufsplan Master MPO5 mit 90 CP (alternativ)
 layout: verlaufsplan.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - master
 collection: modulsMPO5
 terms: [1,2,3,4,5]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']

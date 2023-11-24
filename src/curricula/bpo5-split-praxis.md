@@ -1,7 +1,9 @@
 ---
 title: Studienverlaufsplan Bachelor BPO5 mit gestrecktem Praxissemester 
 layout: verlaufsplan.11ty.js
-inToc: true
+inToc: false
+tocs:
+    - bachelor
 collection: modulsBPO5
 terms: [1,2,3,4,5,6,7]
 groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung']
