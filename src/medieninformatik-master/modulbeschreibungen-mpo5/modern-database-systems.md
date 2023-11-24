@@ -2,7 +2,7 @@
 title: Modern Database Systems
 kuerzel: MDS
 modulverantwortlich: jschaible
-dozierende: jschaible, bb
+dozierende: jschaible
 modulniveau: master
 
 infourl: 
