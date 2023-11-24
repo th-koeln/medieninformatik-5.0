@@ -1,5 +1,5 @@
 ---
-title: Driving Creation Process
+title: Driving Creation Processes
 kuerzel: crea
 layout: page.11ty.js
 level: 1
@@ -49,7 +49,7 @@ Leitfrage: Wie kriegen wir das auf die Straße?
 
 > cn: Vorschlag - kann da mal jemand drüber schauen?
 
-Im Handlungsfeld «Driving Creation Process» steuern Absolvent:innen den gesamten Prozess der Produktentwicklung, von der Konzeption bis zur Markteinführung. Dies umfasst Innovationsmanagement, Produktentwicklung, Projektmanagement und die erfolgreiche Positionierung des Produkts im Markt. Marktforschung, Finanzmanagement, Qualitätssicherung und die Berücksichtigung rechtlicher, ethischer und nachhaltiger Aspekte gehören ebenso zu den Aufgaben. Der Fokus liegt darauf, innovative Ideen nicht nur zu generieren, sondern auch effektiv auf den Markt zu bringen und dabei die Bedürfnisse der Zielgruppe zu erfüllen.
+Im Handlungsfeld «Driving Creation Processes» steuern Absolvent:innen verschiedene Prozesse der Produktentwicklung, von der Bedarfsermittlung, über die Konzeption und die Entwicklung bis zur Markteinführung. Dies umfasst Innovationsmanagement, Produktentwicklung, Projektmanagement und die erfolgreiche Positionierung des Produkts im Markt. Marktforschung, Finanzmanagement, Qualitätssicherung und die Berücksichtigung rechtlicher, ethischer und nachhaltiger Aspekte gehören ebenso zu den Aufgaben. Der Fokus liegt darauf, innovative Ideen nicht nur zu generieren, sondern auch effektiv auf den Markt zu bringen und dabei die Bedürfnisse der Zielgruppe zu erfüllen.
 
 Der Arbeitsbereich umfasst typischerweise folgende Vorgänge:
 
