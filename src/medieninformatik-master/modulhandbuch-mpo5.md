@@ -5,7 +5,9 @@ degree: Master of Science
 version: 5.0.0
 date: last Modified
 layout: modulhandbuch.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - master
 collection: modulsMPO5
 
 ---

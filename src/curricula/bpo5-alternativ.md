@@ -1,7 +1,9 @@
 ---
-title: Alternativer Studienverlaufsplan Bachelor BPO5 (WIP)
+title: Studienverlaufsplan alternativ Bachelor BPO5 (WIP)
 layout: verlaufsplan.11ty.js
-inToc: true
+inToc: false
+tocs:
+    - bachelor
 collection: modulsBPO5
 terms: [1,2,3,4,5,6,7,8,9,10]
 groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung']

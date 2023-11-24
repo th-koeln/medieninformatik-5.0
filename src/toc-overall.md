@@ -1,11 +1,9 @@
 ---
-title: Medieninformatik 5.0
+title: Alle Seiten
 layout: page.11ty.js
-inToc: false
+inToc: true
 bodyClass: home
 ---
-
-**Work in Progress:** Unterlagen, Ideen, Snippets und mehr zur Reakkreditierung der Medieninformatik Studiengänge der TH Köln. 
 
 ## Bachelor
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor"></snippet>

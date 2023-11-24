@@ -1,7 +1,9 @@
 ---
 title: Modulmatrix zu den Modulen im Master
 layout: modulmatrix.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - master
 collection: modulsMPO5
 showModuleList: true
 studyProgramme: master

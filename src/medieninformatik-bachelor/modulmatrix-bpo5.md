@@ -1,7 +1,9 @@
 ---
 title: Modulmatrix zu den Modulen im Bachelor
 layout: modulmatrix.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - bachelor
 collection: modulsBPO5
 showModuleList: true
 studyProgramme: bachelor
