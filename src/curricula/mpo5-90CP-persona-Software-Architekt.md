@@ -22,9 +22,9 @@ studienverlauf:
         module:
             - "FTW" # Pflicht
             - "SPV" # Schwerpunkt
-            - "BC" # Wahl
-            - "UC" # Wahl
-            - "GP"
+            - "RIM" # Wahl
+            - "UC"
+            - "BC"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,7 +32,8 @@ studienverlauf:
         module: 
             - "SSW" # Schwerpunkt
             - "WEBT" # Schwerpunkt
-            - "GP"
+            - "IMP" # Wahl
+            - "GP-DEV"
     - semester:
         fachsemester: 3
         label: "Finales Semester"
