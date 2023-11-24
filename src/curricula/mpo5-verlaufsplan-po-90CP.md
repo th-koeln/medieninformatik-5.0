@@ -8,39 +8,40 @@ maxCPS: 90
 
 anforderungen:
     pflichtbereich:
-        long: "Katalog der Pflichtmodule (12 ECTS aus diesem Bereich: 2 Module)"
+        long: "Katalog der Pflichtmodule (2 Module / 12 ECTS)"
         short: "12 ECTS"
+    wahlbereichECTS: 
+        long: "Katalog der Schwerpunktprojekte, Schwerpunktmodule und Wahlmodule (48 ECTS)"
+        short: "48 ECTS"
     schwerpunkt_projekte:
-        long: "Katalog der Schwerpunktprojekte (min. 12 ECTS aus diesem Bereich: min. 1 Projekt)"
+        long: "Katalog der Schwerpunktprojekte (min. 1 Projekt / 12 ECTS)"
         short: "min. 1 Projekt"
     schwerpunkt_module:
-        long: "Katalog der Schwerpunktmodule (min. 12 ECTS aus diesem Bereich: min. 2 Module)"
+        long: "Katalog der Schwerpunktmodule (min. 2 Module / 12 ECTS)"
         short: "min. 2 Modul"
     wahlmodule:
-        long: "Wahlmodule (i.d.R. 4 Module)"
-        short: "beliebig"
+        long: "Katalog der Wahlmodule"
+        short: ""
     masterthesis:
-        long: "30 ECTS"
+        long: "Masterthesis (30 ECTS)"
         short: "30 ECTS"
-    wahlbereichECTS: 
-        long: "Katalog der Wahlmodule mit Schwerpunktmodulen und Projekten (48 ECTS)"
-        short: "48 ECTS"
-
 
 ---
 
-> Diese Seite ist als Kopiervorlage für die Master-Prüfungsordnung gedacht und soll dort als Anlage 1 platziert werden
+> Diese Seite ist als Kopiervorlage für die Master-Prüfungsordnung gedacht und soll dort als Anlage 1a) platziert werden
 
 ## Studienverlaufsplan für Prüfungsordnung Master in 3-semestriger Variante (90 ECTS)
 
-### Regeln für die Modulwahl
-* 12 ECTS: Die Module »IMP« und »RIM« sind aus dem Katalog der Pflichtmodule zu belegen
-* 48 ECTS: Aus dem Wahlbereich der Schwerpunkt- und Wahlmodule sowie Projekte. Darin enthalten:
-    * 12 ECTS: min. 1 Projekt ist aus dem Katalog der Schwerpunktprojekte zu belegen
-    * 12 ECTS: min. 2 Module sind aus dem Katalog der Schwerpunktmodule zu belegen
-    * 24 ECTS: weitere Module können aus dem Wahlbereich belegt werden
-* 30 ECTS für Master und Kolloquium
+### Anforderungen an die Modulwahl
+* 12 ECTS sind aus dem Katalog der Pflichtmodule zu belegen.
+* 48 ECTS sind aus dem Katalog der Schwerpunktprojekte, Schwerpunktmodule und Wahl-module zu belegen. Darunter sind
+    * min. 1 Projekt (12 ECTS) aus dem Katalog der Schwerpunktprojekte
+    * min. 2 Module (12 ECTS) aus dem Katalog der Schwerpunktmodule
+* 30 ECTS sind mit Masterarbeit und Kolloquium belegt.
 
-### Anerkenung von Schwerpunkten
-* Wurden Module im Umfang von 24 ECTS absolviert, die demselben Schwerpunkt zugeordnet sind, dann ist der Schwerpunkt absolviert
-* der Abschluss des Masterstudiums kann jedoch auch ohne Schwerpunkt erreicht werden (Studium als Generalist\*in)
+### Anerkennung von Schwerpunkten
+* Wurden Module im Umfang von 24 ECTS absolviert, die demselben Schwerpunkt zugeordnet sind, dann kann auf Antrag der entsprechende Schwerpunkt zertifiziert werden:
+    * Designing for User Experiences (DUX)
+    * Developing Interactive and Distributed Systems (DEV)
+    * Exploring Advanced Interactive Media (EXA)
+* Der Abschluss des Masterstudiums kann auch ohne Schwerpunkt erreicht werden (Studium als Generalist\*in der Medieninformatik).
