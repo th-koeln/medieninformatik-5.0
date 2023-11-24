@@ -37,6 +37,7 @@ studienverlauf:
         module: ["MA"]
 hinweise:
     - "Erreichen eines Schwerpunkts, hier DEV, wird noch nicht automatisch geprüft"
+    - "Die 2 Pflichtmodule IMP und RIM fehlen"
 ---
 ## Berufsbild »Software-Architekt*in mit Fokus auf interaktive, web-basierte Systeme« (Master of Science)
 
