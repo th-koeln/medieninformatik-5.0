@@ -13,9 +13,9 @@ competencies:
   - title: Technologie
     sub:
       - title: Computer
-        competence: "Wissen was ein Computer ist und wie Software darauf ausgeführt wird."
+        competence: "Wissen was ein Computer ist und wie Software darauf ausgeführt als auch optimiert wird."
       - title: Kommunikation
-        competence: "Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, Websockets, MQTT)."
+        competence: "Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. REST, req/res, pub/sub und Protokolle wie HTTP, Websockets, GraphQL, gRPC, WebRTC, HLS, MPEG-DASH, RTMP, MQTT)."
       - title: TechStacks
         competence: "Kennen State-of-the-art Technologie zur Umsetzung von software-basierten Anwendungen (insb. in den Bereichen Web, Mobile, IoT, AR/VR, AI), können konkurrierende alternative Technologien auswählen und evaluieren, sich neue technologische Möglichkeiten erschließen, diese bewerten, nutzen, und integrieren sowie zukunftsorientiert neue Möglichkeiten screenen."
       - title: Interaktive Technologien
@@ -51,9 +51,11 @@ Durch die Planung von Systemarchitekturen, die Umsetzung von Frontend- und Backe
 Im Arbeitsbereich «Developing Interactive and Distributed Systems« gibt es im Berufsalltag von Medieninformatiker:innen verschiedene typische Vorgänge. Hier sind einige davon:
 
 - Entwurf der Architektur von interaktiven und verteilten Systemen. Dies beinhaltet die Festlegung von Strukturen, Schnittstellen und Kommunikationsprotokollen.
-- Entwicklung von Software und Softwarekomponenten unter Verwendung verschiedener Entwurfsmuster, Entwurfsprinzipien Architekturstile, Programmiersprachen und Frameworks.
-- Implementierung und Optimierung von Benutzerschnittstellen, um eine ansprechende und benutzerfreundliche Erfahrung zu gewährleisten.
-- Implementierung der Logik und Datenverarbeitung auf der Serverseite, um die Funktionalität der Anwendung sicherzustellen.
+- Entwicklung von Software und Softwarekomponenten unter Verwendung verschiedener Entwurfsmuster, Entwurfsprinzipien, Architekturstilen, Programmiersprachen und Frameworks.
+- Entwicklung von Web-Streaming-Diensten insbesondere für Live-Events, On-Demand Videos und Audio/Video-Konferenzsysteme.
+- Konzeptionierung und Implementierung von (web-basierten) Benutzeroberflächen unter Berückschitigung von Gestaltungsprinzipien und Gestaltungstechniken wie Farben, Konstrasten, Proportion, Typographie oder Räumlichkeit
+- Optimierung von Benutzerschnittstellen, um eine hohe Gebrauchstauglichkeit und eine positive Nutzererfahrung zu gewährleisten.
+- Implementierung der Logik und Datenverarbeitung auf der Client- und Serverseite, um die Funktionalität der Anwendung sicherzustellen.
 - Entwicklung von Datenbankstrukturen und Integration von Datenbanken in das System, um Daten effizient zu speichern, abzurufen und zu verwalten.
 - Integration von Sicherheitsmaßnahmen, um die Integrität, Vertraulichkeit, Verfügbarkeit, Authentiztät als auch die Nicht-Abstreitbarkeit von Daten in verteilten Systemen zu gewährleisten.
 - Durchführung von Tests, um sicherzustellen, dass das System die definierten Anforderungen erfüllt.
