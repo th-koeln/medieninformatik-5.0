@@ -1,4 +1,4 @@
-const htmlmin = require('html-minifier');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
 const fg = require('fast-glob');
@@ -132,9 +132,9 @@ module.exports = function (eleventyConfig) {
   // Copy CNAME
   eleventyConfig.addPassthroughCopy({ 'src/CNAME': '' });
 
-  /* Data
+  /* BaseUrl
  ########################################################################## */
-
+ eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   /* Functions
  ########################################################################## */
@@ -148,11 +148,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addJavaScriptFunction("getImagesBasePath", function (section) {
-    return `${pathPrefix}/${pathes.images[section]}`;
+    return `/${pathes.images[section]}`;
   });
 
   eleventyConfig.addJavaScriptFunction("getCompetencesToModuleMapPath", function (studyProgramme) {
-    return `${pathPrefix}/${pathes.competencesToModuleMap[studyProgramme]}`;
+    return `/${pathes.competencesToModuleMap[studyProgramme]}`;
   });
 
   /* Filter
@@ -312,14 +312,12 @@ module.exports = function (eleventyConfig) {
  ########################################################################## */
 
   eleventyConfig.addShortcode("image", function(src, caption) { 
-    const prefixedSrc = `${pathPrefix}${src}`;
-    const image = imageWithCaption.getImageBlock(prefixedSrc, caption);
+    const image = imageWithCaption.getImageBlock(src, caption);
     return image;
   });
 
   eleventyConfig.addShortcode("screenshot", function(src, caption) { 
-    const prefixedSrc = `${pathPrefix}${src}`;
-    const image = imageWithCaption.getScreenshotBlock(prefixedSrc, caption);
+    const image = imageWithCaption.getScreenshotBlock(src, caption);
     return image;
   });
 

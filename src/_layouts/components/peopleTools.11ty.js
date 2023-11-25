@@ -71,7 +71,7 @@ exports.getPeopleList = (obj) => {
     const personModulsListWinterTerm = personModulsWinterTerm.map((modul) => {
       return `
         <li>
-          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+          <a href="${ modul.url}">${modul.data.title}</a>
         </li>
       `;
     });
@@ -79,7 +79,7 @@ exports.getPeopleList = (obj) => {
     const personModulsListSummerTerm = personModulsSummerTerm.map((modul) => {
       return `
         <li>
-          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+          <a href="${ modul.url}">${modul.data.title}</a>
         </li>
       `;
     });

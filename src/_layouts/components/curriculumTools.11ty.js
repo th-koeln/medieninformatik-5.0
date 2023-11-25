@@ -53,7 +53,7 @@ exports.getCurriculumList = (obj) => {
       return `
         <tr class="${status}">
           <td>
-            <h3 class="module-title"><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></h3>
+            <h3 class="module-title"><a href="${ modul.url}">${modul.data.title}</a></h3>
             ${examInfo}
           </td>
           <td class="no-wrap">${modul.data.kuerzel}</td>
@@ -131,7 +131,7 @@ const getCurriculumTable = (obj) => {
         : parseInt(modul.data.kreditpunkte);
       return `
         <tr class="${status}">
-          <th><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></th>
+          <th><a href="${ modul.url}">${modul.data.title}</a></th>
           <td>${pvl}</td>
           <td>${modul.data.kreditpunkte}</td>
           ${terms.map((term) => {
@@ -270,7 +270,7 @@ exports.getAllModuls = (obj) => {
 
     return `
       <li>${status}
-        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+        <a href="${ modul.url}">${modul.data.title}</a>
       </li>
     `;
   });
@@ -303,7 +303,7 @@ exports.getAllModulsMaster = (obj) => {
 
     return `
     <tr>
-      <td>${status}&nbsp;<a href="${eleventy.url(modul.url)}">${modul.data.title} </a></td>
+      <td>${status}&nbsp;<a href="${ modul.url}">${modul.data.title} </a></td>
       <td>Semester</td>
       <td>${modul.data.modulverantwortlich}</td>
       <td>${isDUX}</td>
@@ -352,7 +352,7 @@ exports.getChildModulList = (data, headlineChilds, eleventy) => {
   const childModulsList = childModuls.map((modul) => {
     return `
       <li>
-        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>${resolveSchwerpunkt(modul.data.schwerpunkt)}
+        <a href="${ modul.url}">${modul.data.title}</a>${resolveSchwerpunkt(modul.data.schwerpunkt)}
       </li>
     `;
   });
@@ -397,7 +397,7 @@ exports.getChildModulListBySchwerpunkt = (data, headlineChilds, eleventy) => {
 
       return `
         <li>
-          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+          <a href="${ modul.url}">${modul.data.title}</a>
         </li>
       `;
     });
@@ -471,7 +471,7 @@ exports.getModulMatrix = (obj) => {
     return `
       <tr>
         <!-- Modul -->
-        <th class="module-name"><a href="${eleventy.url(modulItem.url)}">${modul.title}</a></th>
+        <th class="module-name"><a href="${ modulItem.url}">${modul.title}</a></th>
         <td>${modul.typ === 'pm' ? check : ''}</td>
         <td>${modul.kreditpunkte}</td>
         <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>

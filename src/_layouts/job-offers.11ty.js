@@ -17,10 +17,10 @@ module.exports = {
       return `
 
         <li class="job-offer-data">
-          <a href="${this.url(item.url)}">
+          <a href="${ item.url}">
           <h3>${item.data.title}</h3>
           <figure>
-            <img src="${this.url(imageUrl)}" alt="${item.data.title}" />
+            <img src="${ imageUrl}" alt="${item.data.title}" />
             <figcaption>
             ${item.data.info}
             </figcaption>
@@ -53,7 +53,7 @@ module.exports = {
             ${insightsList.join("\n")}
           </ul>
 
-          <a href="${this.url('/insights')}" class="cta">Alle Anforderungen/ Ideen/ Aussagen ansehen</a>
+          <a href="${ '/insights'}" class="cta">Alle Anforderungen/ Ideen/ Aussagen ansehen</a>
         </section>
 
         <section class="how-might-we has-seperator">
@@ -62,7 +62,7 @@ module.exports = {
             ${howMightWeList.join("\n")}
           </ul>
 
-          <a href="${this.url('/how-might-we')}" class="cta">Alle How-might-we-Fragen ansehen</a>
+          <a href="${ '/how-might-we'}" class="cta">Alle How-might-we-Fragen ansehen</a>
         </section>
 			</main>
 		`;

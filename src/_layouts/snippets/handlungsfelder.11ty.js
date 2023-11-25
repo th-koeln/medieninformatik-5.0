@@ -9,7 +9,7 @@ exports.render = (eleventy, data, attributes) => {
       <div>
         <h3>${handlungsfeld.data.title} <span class="is-less-important">(${handlungsfeld.data.kuerzel.toUpperCase()})</span></h3>
         ${handlungsfeld.content}
-        <a href="${eleventy.url(handlungsfeld.url)}">Mehr zum Handlungsfeld ${handlungsfeld.data.title}</a>
+        <a href="${ handlungsfeld.url}">Mehr zum Handlungsfeld ${handlungsfeld.data.title}</a>
       </div>
     `;
   });

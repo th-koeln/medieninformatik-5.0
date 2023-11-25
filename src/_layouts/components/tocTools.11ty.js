@@ -4,7 +4,7 @@
 exports.getTocContent = (eleventy, data) => {
 
   const createToc = (collection) => {
-    const tocItems = collection.map((item) => `<li><a href="${eleventy.url(item.url)}">${item.data.title}</a></li>`);
+    const tocItems = collection.map((item) => `<li><a href="${ item.url}">${item.data.title}</a></li>`);
 
     return `
       <ul class="item-list is-tight">
