@@ -1,7 +1,9 @@
 ---
 title: Interviews
 layout: page.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - learnings
 bodyClass: home
 ---
 

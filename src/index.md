@@ -12,3 +12,6 @@ bodyClass: home
 
 ## Master
 <snippet type="toc" id="table-of-content-master" search="master"></snippet>
+
+## Ergebnisse & Erkenntnisse aus dem Reakkreditierungsprozess
+<snippet type="toc" id="table-of-content-learnings" search="learnings"></snippet>

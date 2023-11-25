@@ -13,7 +13,7 @@ exports.render = (eleventy, data, attributes) => {
     tocs.forEach(toc => {
       searchParams.includes(toc) ? hitCount++ : null;
     });
-    console.log(hitCount, searchParams.length, "searchParams:", searchParams, "Tocs:", tocs, page.data.title)
+  
     return hitCount === searchParams.length;
   });
 
