@@ -24,7 +24,7 @@ exports.render = (eleventy, data, attributes) => {
   const pagesList = sortedPpagesForToc.map(page => {
     return `
       <li>
-        <a href="${page.url}">${page.data.title}</a>
+        <a href="${eleventy.url(page.url)}">${page.data.title}</a>
       </li>
     `;
   });
