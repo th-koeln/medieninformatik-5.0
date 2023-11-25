@@ -4,7 +4,6 @@
 .inline-navigation{
   li{
     line-height: var(--lh-tight);
-    border-bottom: solid var(--border-width-s) var(--darken);
     position: relative;
 
     a{
@@ -16,13 +15,13 @@
       padding-right: var(--fluid-space-s);
 
       &:hover{
-        padding-left: var(--fluid-space-s);
+        padding-left: var(--half);
         padding-right: var(--fluid-space-xs);
         
       }
     }
 
-    .icon{
+    & > .icon{
       transition: all var(--tr-fast);
       position: absolute;
       top: 0;
@@ -41,5 +40,9 @@
         right: var(--quat);
       }
     }
+  }
+
+  li + li {
+    border-top: solid var(--border-width-s) var(--darken);
   }
 }

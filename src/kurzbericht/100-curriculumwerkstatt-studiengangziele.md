@@ -1,5 +1,5 @@
 ---
-title: Curriculumwerkstatt, Studiengangziele, Absolvent\:innenprofil, externe Expertise, Studierendenbeteiligung
+title: Curriculumwerkstatt, Studiengangziele, Absolvent:innenprofil, externe Expertise, Studierendenbeteiligung
 layout: page.11ty.js
 level: 1
 meta:
@@ -7,4 +7,3 @@ meta:
   authors: 
   reviewers: 
 ---
-

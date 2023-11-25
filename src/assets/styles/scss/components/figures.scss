@@ -10,6 +10,10 @@ figure.image{
 ############################################################################ */
 
 .screenshot{
+
+  margin-top: var(--fluid-space-l);
+  margin-bottom: var(--fluid-space-l);
+
   position: relative;
   
   &-wrapper{
