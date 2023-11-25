@@ -1,0 +1,45 @@
+/* Navigation
+############################################################################ */
+
+.inline-navigation{
+  li{
+    line-height: var(--lh-tight);
+    border-bottom: solid var(--border-width-s) var(--darken);
+    position: relative;
+
+    a{
+      text-decoration: none;
+      display: block;
+      padding-bottom: var(--quat);
+      padding-top: var(--quat);
+      transition: padding var(--tr-fast);
+      padding-right: var(--fluid-space-s);
+
+      &:hover{
+        padding-left: var(--fluid-space-s);
+        padding-right: var(--fluid-space-xs);
+        
+      }
+    }
+
+    .icon{
+      transition: all var(--tr-fast);
+      position: absolute;
+      top: 0;
+      right: -20px;
+      bottom: 0;
+      line-height: var(--l);
+      vertical-align: bottom;
+      font-weight: var(--fw-bold);
+      opacity: 0;
+      color: var(--color-accent);
+    }
+
+    &:hover{
+      .icon{
+        opacity: 1;
+        right: var(--quat);
+      }
+    }
+  }
+}

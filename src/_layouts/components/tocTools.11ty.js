@@ -31,7 +31,7 @@ exports.getPageTOC = (obj) => {
     const tocItems = collection.filter(item => item.data.level <= maxLevel).map((item) => {
       return `
         <li>
-          <a href="#${eleventy.slugify(item.data.title)}">${item.data.title}</a>
+          <a href="#${eleventy.slugify(item.data.title)}">${item.data.title}</a><span class="icon">navigate_next</span>
         </li>
       `;
     });

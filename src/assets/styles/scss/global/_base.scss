@@ -74,7 +74,7 @@ a {
   color: var(--darker);
   text-decoration-style: dotted;
   text-decoration-color:  var(--color-accent);
-  
+  text-decoration-thickness: 2px;
 
   &:visited{
     color: var(--dark);
@@ -83,7 +83,7 @@ a {
   &:hover{
     color: var(--darkest);
     background-color: var(--darken);
-    text-decoration-thickness: 2px;
+    text-decoration-style: solid;
   }
 }
 
