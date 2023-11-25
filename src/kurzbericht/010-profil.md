@@ -34,16 +34,16 @@ Es wurden Learning Outcomes und vernetzte Modulstrukturen auf- oder ausgebaut, d
 {% screenshot "/images/kurzbericht/mockup-kompetenzen-raw.jpg", "Darstellung der konkreten Kompetenzen eines Moduls" %}
 
 - [Modulmatrix Bachelor](/medieninformatik-bachelor/modulmatrix-bpo5/)
-- [Kompetenzübersicht der Module im Bachelor](https://th-koeln.github.io/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5/)
+- [Kompetenzübersicht der Module im Bachelor](/medieninformatik-bachelor/kompetenzen-der-module-bpo5/)
 - [Modulmatrix Master](/medieninformatik-master/modulmatrix-mpo5/)
-- [Kompetenzübersicht der Module im Master](https://th-koeln.github.io/medieninformatik-5.0/medieninformatik-master/kompetenzen-der-module-mpo5/)
+- [Kompetenzübersicht der Module im Master](/medieninformatik-master/kompetenzen-der-module-mpo5/)
 
 ### Global Citizenship Education
 In den Learning Outcomes verschiedener Module werden die kritische Reflexion eigenen Handelns und eigener Entscheidungen in komplexen, unvollständig definierten Zusammenhängen, die konstruktiv-kritische Auseinandersetzung mit den Handlungen und Entscheidungen anderer und die Bereitschaft zur kritischen Teilnahme am gesellschaftlichen Diskurs zu den Begriffen Anerkennung, Ethik, Verantwortung und Nachhaltigkeit adressiert. Diese Kompetenzen sind explizit in verschiedenen Handlungsfeldern formuliert.
 
 Einige Module zahlen besonders auf Global Citizenship Education ein:
-- [Global Citizenship im Bachelor](https://th-koeln.github.io/medieninformatik-5.0/medieninformatik-bachelor/kompetenzen-der-module-bpo5/#ethik-und-gesellschaft)
-- [Global Citizenship im Master](https://th-koeln.github.io/medieninformatik-5.0/medieninformatik-master/kompetenzen-der-module-mpo5/#ethik-und-gesellschaft)
+- [Global Citizenship im Bachelor](/medieninformatik-bachelor/kompetenzen-der-module-bpo5/#ethik-und-gesellschaft)
+- [Global Citizenship im Master](/medieninformatik-master/kompetenzen-der-module-mpo5/#ethik-und-gesellschaft)
 
 
 ### Kompetenzorientierung
@@ -66,3 +66,9 @@ Um Bachelor Studierenden ein möglichst einfachen Zugang zum Studium oder Prakti
 
 ### Digitalisierung
 Die Medieninformatik ist Treiber und Gestalter von Digitalisierung. Mehr ist hier wohl nicht zu sagen ☺️.
+
+### Demokratisierung
+Neben der üblichen Integration von Mitarbeiter:innen und Studierenden in den verschiedenen Gremien, findet in der Medieninformatik monatliche eine offene Abstimmungsrunde statt, in der verschiedene Belange der Medieninformatik Studiengänge besprochen und organisiert werden.
+
+Mit der letzten Reakkreditierung der Medieninformatik Studiengänge 2017 wurde eine offener, transparenter und öffentlich einsehbarer Prozess aufgesetzt und über ein Toolset abgebildet. Hierüber lassen sich z.B. alle [Änderungen an Modulbeschreibungen, bei Prüfungsformen u.Ä.](https://github.com/th-koeln/mi-2017/commits/master) voll umfänglich einsehen und nachvollziehen. Das gleiche Toolset wurde auch im [Master Studiengang Digital Sciences](http://digital-sciences.de) und im [Bachelor Studiengang Code & Context](https://coco.study/absolventinnenprofil/) genutzt. Auch in dieser Reakkreditierung wird auf dieses Verfahren gesetzt. 
+
