@@ -68,7 +68,7 @@ exports.parseContent = (eleventy, data) => {
   const parser = require('node-html-parser');
   const { content } = data;
 
-  if(!content.match(/<snippet.*?>/)) return;
+  if(!content.match(/<snippet.*?>/)) return content;
   
   const contentWithSnippets = content.replace(/<snippet(.*?)>(.*?)<\/snippet>/g, (match, p1, p2) => {
     const root = parser.parse(match);
