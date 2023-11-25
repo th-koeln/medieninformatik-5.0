@@ -31,16 +31,19 @@ h6 {
 }
 
 h1 {
+  padding-top: var(--fluid-space-m);
   margin-bottom: var(--fluid-space-m);
   font-size: var(--xxl);
 }
 
 h2 {
+  padding-top: var(--fluid-space-s);
   margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
 }
 
 h3 {
+  padding-top: var(--fluid-space-xs);
   font-size: var(--l);
   margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
@@ -50,6 +53,7 @@ h4,
 h5,
 h6 {
   font-size: var(--m);
+  padding-top: var(--fluid-space-xs);
   margin-bottom: var(--fluid-space-s);
   color: var(--darkest);
 }
@@ -66,8 +70,21 @@ div {
 }
 
 a {
-  color: var(--color-accent);
-  text-decoration: none;
+  transition: background-color var(--tr-fast);
+  color: var(--darker);
+  text-decoration-style: dotted;
+  text-decoration-color:  var(--color-accent);
+  
+
+  &:visited{
+    color: var(--dark);
+  }
+
+  &:hover{
+    color: var(--darkest);
+    background-color: var(--darken);
+    text-decoration-thickness: 2px;
+  }
 }
 
 small {
@@ -85,7 +102,7 @@ p + h4,
 ul + h2,
 ul + h3,
 ul + h4{
-  margin-top: var(--fluid-space-l);
+  margin-top: var(--fluid-space-s);
 }
 
 hr{
