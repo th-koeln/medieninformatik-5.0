@@ -19,6 +19,7 @@ module.exports = {
             ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
             ${meta}
             ${item.content}
+            
           </div>
         </section>
       `;

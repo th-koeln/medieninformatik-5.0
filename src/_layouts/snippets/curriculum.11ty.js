@@ -23,6 +23,5 @@ exports.render = (eleventy, data, attributes) => {
     <div class="text ${cssClass}" id="${id}">
       ${curriculumVerlaufTable}
     </div>
-
   `;
 };

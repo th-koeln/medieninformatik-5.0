@@ -67,6 +67,8 @@ exports.parseContent = (eleventy, data) => {
 
   const parser = require('node-html-parser');
   const { content } = data;
+
+  if(!content.match(/<snippet.*?>/)) return;
   
   const contentWithSnippets = content.replace(/<snippet(.*?)>(.*?)<\/snippet>/g, (match, p1, p2) => {
     const root = parser.parse(match);
@@ -74,7 +76,6 @@ exports.parseContent = (eleventy, data) => {
     const type = snippetElement.getAttribute('type');
     const snippetCode = require(`../snippets/${type}.11ty.js`);
     return snippetCode.render(eleventy, data, snippetElement.attributes);
-
   });
 
   return contentWithSnippets;

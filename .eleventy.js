@@ -2,7 +2,8 @@ const htmlmin = require('html-minifier');
 const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
 const fg = require('fast-glob');
-const fs = require('fs');
+
+const imageWithCaption = require('./src/_layouts/shortcodes/image-with-caption.11ty.js');
 
 const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "/medieninformatik-5.0" : "";
 const pathes = {
@@ -309,6 +310,18 @@ module.exports = function (eleventyConfig) {
 
   /* Shortcodes
  ########################################################################## */
+
+  eleventyConfig.addShortcode("image", function(src, caption) { 
+    const prefixedSrc = `${pathPrefix}${src}`;
+    const image = imageWithCaption.getImageBlock(prefixedSrc, caption);
+    return image;
+  });
+
+  eleventyConfig.addShortcode("screenshot", function(src, caption) { 
+    const prefixedSrc = `${pathPrefix}${src}`;
+    const image = imageWithCaption.getScreenshotBlock(prefixedSrc, caption);
+    return image;
+  });
 
   /* Data Extension
   ########################################################################## */
