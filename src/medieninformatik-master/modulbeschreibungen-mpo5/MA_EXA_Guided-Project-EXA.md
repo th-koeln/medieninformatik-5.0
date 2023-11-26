@@ -53,7 +53,7 @@ jedes Semester
 Alle ProfessorInnen der Informatik-Studiengänge
 
 ## Learning Outcome
-Die Studierenden kennen Konzepte und Theorien zu Teamarbeit und können auf Basis dieses Wissens effizient kooperativ operierende Teams formieren, um vorgegebene oder eigenständig erarbeitete Problemstellungen explorativ oder zielspezifisch bearbeiten zu können.
+Die Studierenden kennen Konzepte und Theorien zu Teamarbeit und können auf Basis dieses Wissens effizient kooperativ operierende Teams formieren, um vorgegebene oder unter Anleitung erarbeitete Problemstellungen explorativ oder zielspezifisch bearbeiten zu können.
 
 Die Studierenden kennen neue Technologien, Trends und Konzepte im Bereich interaktiver Medien, können diese mit Techniken des Innovationsmonitorings und Benchmarkings aktiv explorieren, bearbeiten und erforschen, um innovative Ideen zu generieren. 
 
@@ -69,15 +69,18 @@ Sie entwickeln ggf. Interaktionskonzepte, die multimodale Interaktionen unterst�
 
 Die Studieren erforschen fortschrittlichen Techniken im interaktiven Storytelling und wenden diese an, um narrative Konzepte nutzer- und nutzungsunterstützend in interaktiven Medien zu integrieren.
 
-Integration von fortschrittlichen Algorithmen und KI-Technologien, um personalisierte und adaptive Interaktionen zu ermöglichen.
-Entwicklung von interaktiven Medien, die auf verschiedenen Geräten und Bildschirmgrößen reaktionsfähig sind.
-Entwicklung von playful user experiences durch Gamification und Serious Games.
-Konzeption und Erkundung von Umsetzungsmöglichkeiten von experimentellen Benutzungsschnittstellen, die neue Wege der Interaktion erkunden.
-Entwicklung von Konzepten für teambasierte und soziale Interaktionsformen in Multiuser-Umgebungen sowohl in industriellen als auch in privaten Kontexten.
+Sie können fortschrittliche Algorithmen und KI-Technologien integrieren, um personalisierte und adaptive Interaktionen zu ermöglichen.
 
+Die Studieren entwickeln interaktiven Medien, die auf verschiedenen Geräten und Bildschirmgrößen reaktionsfähig sind,
+sie entwickeln playful user experiences durch Gamification und Serious Games, um unterschiedliche Nutzercharakteristika in ihren spezifischen Nutzungskontexten zu unterstützen.
 
+Sie konzipieren und erkunden Umsetzungsmöglichkeiten von experimentellen Benutzungsschnittstellen und sie
+entwickeln neue Konzepten für teambasierte und soziale Interaktionsformen in Multiuser-Umgebungen sowohl in industriellen als auch in privaten Kontexten mit dem Ziel anwendungsorientierter Forschung und der Identifikation von Potentialen für innovate Produkte.
 
 ## Inhalte
+
+ToBeDone
+
 
 ## Lehr- und Lernmethoden
 Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Lernen
@@ -89,6 +92,8 @@ Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Ler
 300 h Projektarbeit
 
 ## Empfohlene Literatur
+
+....... hier bitte Quellen beisteuern....
 
 ## Verwendung des Moduls in weiteren Studiengängen
 Ggf. als Guided Project im Masterstudiengang Digital Sciences.
