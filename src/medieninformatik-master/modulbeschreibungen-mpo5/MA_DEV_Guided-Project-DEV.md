@@ -74,6 +74,11 @@ Sie kennen Qualitätsanforderungen an die Erstellung von Dokumentationen sowie d
 Die Studierendenteam sind in der Lage, die  Zusammenarbeit mit anderen Entwickler:innen, Designer:innen Productowner:innen und weiteren Stakeholdern zu koordinieren und zu realisieren, um sicherzustellen, dass die entwickelten Systeme den Anforderungen und Erwartungen entsprechen.
 
 ## Inhalte
+- Teams, Teamarbeit und -management
+- Erfordernisse, Requirementssengineering und -management
+- Verteiltheit von Systemarchitekturen
+- Software-Engineeing und -management
+- .....
 
 ## Lehr- und Lernmethoden
 Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Lernen
