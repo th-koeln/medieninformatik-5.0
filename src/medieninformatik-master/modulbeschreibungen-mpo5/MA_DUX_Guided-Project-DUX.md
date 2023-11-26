@@ -75,7 +75,7 @@ um konstrutiv zum Fachdiskurs beizutragen oder die weiteren Lifecycle-Phasen des
 ## Inhalte
 - Projekteams
 - Contextual Inquiry, explorative (qualitative & quantitative) Forschungsmethoden
-- Erfordernisse und Anforderungen
+- Erfordernisse, Anforderungsengineering und -management
 - Design Thinking
 - Conzeptuelles Design, multimodales/multocodales Design für situierte Interaktion, Interface-Design,
 - Sketching & Prototyping, Design Critique
