@@ -20,9 +20,9 @@ studienverlauf:
         fachsemester: 1
         season: "wise"
         module:
-            - "FTW" # Pflicht
+            - "FTW" # Schwerpunkt
             - "SPV" # Schwerpunkt
-            - "RIM" # Wahl
+            - "RIM" # Pflicht
             - "UC"
             - "BC"
     - semester:
@@ -32,7 +32,7 @@ studienverlauf:
         module: 
             - "SSW" # Schwerpunkt
             - "WEBT" # Schwerpunkt
-            - "IMP" # Wahl
+            - "IMP" # Pflicht
             - "GP-DEV"
     - semester:
         fachsemester: 3
