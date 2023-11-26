@@ -84,7 +84,7 @@ um konstrutiv zum Fachdiskurs beizutragen oder die weiteren Lifecycle-Phasen des
 
 
 ## Lehr- und Lernmethoden
-Angeleitete, problemorientierte Projekte
+Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Lernen
 
 ## Präsenzzeit
 30 h Projekt-Audits, 30 h Feedback-Termine 
