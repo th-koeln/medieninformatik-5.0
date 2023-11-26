@@ -87,11 +87,10 @@ um konstrutiv zum Fachdiskurs beizutragen oder die weiteren Lifecycle-Phasen des
 Angeleitete, problemorientierte Projekte
 
 ## Präsenzzeit
-
-30 h Projekt-Audits und Feedback-Termine 
+30 h Projekt-Audits, 30 h Feedback-Termine 
 
 ## Selbststudium
-320 h Projektarbeit
+300 h Projektarbeit
 
 ## Empfohlene Literatur
 
