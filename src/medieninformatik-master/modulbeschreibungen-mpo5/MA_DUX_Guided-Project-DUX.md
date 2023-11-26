@@ -59,7 +59,7 @@ Die Studierenden kennen Konzepte und Methoden für die Planung, Durchführung un
 
 Sie können die identizierten Erfordernisse in funktionalen und nonfuktionalen Anforderungen transformieren sowie, daraus multimodalen und multicodalen Interaktionskonzeptionen und konzeptionellen Designansätzen ableiten, um soziotechnische Systeme zu konzipieren und umzusetzen, die den Anforderungen zukünftiger Nutzer in ihren spezifischen Nutzungskontexten genügen und idealerweise ggf. konfiktären Erfordernissen verschiedener stakeholder befrieden.
 
-Die Studierenden können funktionale und ästhetisch ansprechende Nutzungsschnittstellen untzer Verwendung handlungs- und kognitionspsychologischen Konzepten sowie grundlegender Designprinzipien wie etwa Gestaltungsprinzipien, Farbtheorie und Typografie konzipieren und realisieren, um ein hohes Maß an Gebrauchstauglichkeit, eine positiv erlebte User Experience und ein integratives Maß an Zugänglichkeit zu gewährleisten.
+Die Studierenden können funktionale und ästhetisch ansprechende Nutzungsschnittstellen unter Verwendung handlungs- und kognitionspsychologischen Konzepten sowie grundlegender Designprinzipien wie etwa Gestaltungsprinzipien, Farbtheorie und Typografie konzipieren und realisieren, um ein hohes Maß an Gebrauchstauglichkeit, eine positiv erlebte User Experience und ein integratives Maß an Zugänglichkeit zu gewährleisten.
 
 Sie können Prototypen (oftmals unter Verwendung von Tools) realisieren, um Design-Lösungen schnell zu repräsentieren/visualisieren und evaluieren zu können, bevor sie in die Entwicklung übergehen.
 
@@ -67,7 +67,7 @@ Die Studierenden können Design- und Softwarelösungen in verschiedenen Projektp
 
 Die Studierenden können in muliprofessionellen und multiperspektischen Teams die Design-Lösungen in Software-Entwicklungsprojekten umsetzen, um sicherzustellen, dass Nutzungsschnittstellen technisch umsetzbar sind und eine nahtlose Integration in die Anwendung möglich ist.
 
-Sie können Design-Dokumentationen oder Leitfäden, die für Entwickler, Stakeholder und andere Teammitglieder verständlich sind erstellen, um diese für andere stakeholder zu dokumentieren.
+Sie können Design-Dokumentationen oder Leitfäden, die für Entwickler, Stakeholder und andere Teammitglieder verständlich sind, erstellen, um diese für andere stakeholder zu dokumentieren.
 
 Die Studierenden können ihre Projektergebnisse und die Prozesse kritisch reflektieren und Konsequenzen für die Projekte aber auch ihr individuelles oder kollektives Handeln ableiten. Sie sind ihn der Lage, ihre Projektergebnisse, Artefakte und Prozesse zielgruppenspezisch (Fach-Community oder Projekt-Stakeholder) zu kommunizieren,
 um konstrutiv zum Fachdiskurs beizutragen oder die weiteren Lifecycle-Phasen des Projektes zu befördern.
