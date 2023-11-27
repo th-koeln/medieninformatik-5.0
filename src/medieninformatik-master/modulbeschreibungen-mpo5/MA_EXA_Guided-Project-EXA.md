@@ -92,8 +92,10 @@ Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Ler
 300 h Projektarbeit
 
 ## Empfohlene Literatur
-
 ....... hier bitte Quellen beisteuern....
+Augmented Reality and Artificial Intelligence, V. Geroimenko, Springer Verlag, 2023
+Springer Handbook of Augmented Reality, A.Nee & S. Ong, Springer Handbooks, 2023
+
 
 ## Verwendung des Moduls in weiteren Studiengängen
 Ggf. als Guided Project im Masterstudiengang Digital Sciences.
