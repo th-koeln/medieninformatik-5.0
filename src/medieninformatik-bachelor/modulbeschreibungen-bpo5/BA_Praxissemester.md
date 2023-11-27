@@ -48,7 +48,7 @@ Das Praxissemester soll die Studierenden an die berufliche Tätigkeit der „In
 - Auslandssemester
 - Forschungssemester
 
-Nach Abschluss des Moduls wird dem betreuenden Mentor ein wissenschaftlicher Semesterbericht sowie das Zeugnis der Praxis-, Auslands- oder Forschungsstelle zur Anerkennung vorgelegt. Der Bericht wird nicht benotet. Genaueres regelt die [Praxissemesterordung](https://www.th-koeln.de/studium/medieninformatik-bachelor--ordnungen-und-formulare_3963.php).
+Nach Abschluss des Moduls wird dem betreuenden Mentor ein wissenschaftlicher Semesterbericht sowie dem Praxissemesterbeauftragten das Zeugnis der Praxis-, Auslands- oder Forschungsstelle jeweils zur Anerkennung vorgelegt. Der Bericht wird nicht benotet. Genaueres regelt die [Praxissemesterordung](https://www.th-koeln.de/studium/medieninformatik-bachelor--ordnungen-und-formulare_3963.php).
 
 ### Modulvariante Praxissemester
 In der Modulvariante «Praxissemester» haben die Studierenden die Möglichkeit, ihre bisher erlangten Kompetenzen in verschiedenen Bereichen praktisch zu erproben und zu vertiefen. Mögliche Bereiche sind Institutionen innerhalb von Communities, Vereine, NGOs, Unternehmen oder Startups. Die Studierenden erlangen ein vertieftes Verständnis ihrer berufspraktischen Tätigkeit und steigern ihre Kompetenzen hinsichtlich der Softskills und Querschnittsqualifikationen, bspw. Kommunikation, Organisation, Selbstreflexion, teamorientiertes Handeln im betrieblichen Umfeld, Zeit- und Selbstmanagement. 
