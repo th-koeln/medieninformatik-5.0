@@ -20,9 +20,9 @@ infourl:
 
 studienleistungen:
   Einzelleistung:
-    art: 
+    art: Klausur, mündlicher Beitrag, Projektarbeit, mündliche Prüfung
     erstpruefer: dgaida
-    zweitpruefer: 
+    zweitpruefer: jschaible
     datum: 
 meta:
   status: tbd
@@ -44,7 +44,13 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-> work in progress
+Die Studierenden können Projekte in der Medieninformatik mit KI umsetzen, indem sie
+
+- identifizieren welche KI-Methoden in dem gegebenen Projekt genutzt werden können,
+- KI-Methoden in Python umsetzen können,
+- Ergebnisse dokumentieren und präsentieren können,
+
+um später selbstständig und im Team KI-Projekte in der Medieninformatik umsetzen zu können.
 
 ## Inhalt
 
@@ -54,10 +60,11 @@ Gesamtaufwand 180 Stunden, davon
 - Deep Learning
 - Convolutional neuronale Netze
 - Natural Language Processing
+- Anwendungen von KI in der Medieninformatik
 
 ## Medienformen
 
-> work in progress
+- Präsentationen, Jupyter Notebooks, Paper, ...
 
 ## Literatur
 
