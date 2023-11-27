@@ -92,6 +92,10 @@ Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Ler
 
 ## Empfohlene Literatur
 
+Architekturen Verteilter Softwaresysteme, H. Tremp, Springer Verlag 2021
+Sicherheit von Webanwendungen in der Praxis, M. Rohr, Springer Verlag 2018
+Agile objektorientierte Software-Entwicklung, Karl-Heinz Rau,Springer Verlag 2021
+
 ## Verwendung des Moduls in weiteren Studiengängen
 
 ## Besonderheiten
