@@ -19,7 +19,7 @@ parent:
 infourl:
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, Mündliche Prüfung
+    art: Schriftliche Prüfung oder mündliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: fn
     zweitpruefer: hk
     datum: ende
