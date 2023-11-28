@@ -54,7 +54,7 @@ h5,
 h6 {
   font-size: var(--m);
   padding-top: var(--fluid-space-xs);
-  margin-bottom: var(--fluid-space-s);
+  margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
 }
 
@@ -121,3 +121,14 @@ blockquote {
   margin-bottom: var(--fluid-space-m);
   background-color: var(--darken);
 }
+
+
+/* Einrückung und Headlines
+############################################################################ */
+
+/*.content{
+  & > *:not(h1,h2,h3, h4){
+    margin-left: var(--fluid-space-m);
+  }
+
+}*/
