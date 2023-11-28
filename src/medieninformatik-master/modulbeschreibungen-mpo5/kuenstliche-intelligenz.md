@@ -2,11 +2,11 @@
 title: Künstliche Intelligenz
 kuerzel: KI
 modulverantwortlich: dgaida
-dozierende: dgaida
+dozierende: dgaida, jschaible
 modulniveau: master
 angebotImWs: false
 angebotImSs: true
-sprache: wahlweise deutsch oder englisch
+sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: 
 empfohleneVoraussetzungen: 
@@ -30,7 +30,7 @@ meta:
 
 ## Kurzbeschreibung
 
-> work in progress
+Dieses Modul gibt eine Einführung in die Künstliche Intelligenz (insbesondere Maschinelles Lernen und Deep Learning) zur Umsetzung von KI-Projekten in der Medieninformatik. 
 
 ## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Praktikum / Projekt 2 SWS
@@ -55,11 +55,12 @@ um später selbstständig und im Team KI-Projekte in der Medieninformatik umsetz
 ## Inhalt
 
 - Einführung in künstliche Intelligenz für die Medieninformatik
-- Machine Learning
+- Maschinelles Lernen
 - Künstliche neuronale Netze
 - Deep Learning
 - Convolutional neuronale Netze
-- Natural Language Processing
+- Natürliche Sprachverarbeitung
+    - Large Language Modelle
 - Anwendungen von KI in der Medieninformatik
 
 ## Medienformen
