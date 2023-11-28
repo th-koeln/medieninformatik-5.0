@@ -36,13 +36,13 @@ anforderungen:
 
 ### Anforderungen an die Modulwahl
 * 12 ECTS sind aus dem Katalog der Pflichtmodule zu belegen.
-* 78 ECTS sind aus dem Katalog der Schwerpunktprojekte, Schwerpunktmodule und Wahl-module zu belegen. Darunter sind
-    * min. 1 Projekt (12 ECTS) aus dem Katalog der Schwerpunktprojekte
-    * min. 4 Module (24 ECTS) aus dem Katalog der Schwerpunktmodule
+* 78 ECTS sind aus dem Katalog der Schwerpunktprojekte, Schwerpunktmodule und Wahlmodule zu belegen. Darunter sind:
+    * Min. 1 Projekt (12 ECTS) aus dem Katalog der Schwerpunktprojekte. Zwei weitere Projekte können aus der Auswahl aller zulässigen Projektangebote absolviert werden.
+    * Min. 4 Module (24 ECTS) aus dem Katalog der Schwerpunktmodule
 * 30 ECTS sind mit Masterarbeit und Kolloquium belegt.
 
 ### Anerkennung von Schwerpunkten
-* Wurden Module im Umfang von 36 ECTS absolviert, die demselben Schwerpunkt zugeord-net sind, dann kann auf Antrag der entsprechende Schwerpunkt zertifiziert werden:
+* Wurden Module im Umfang von 36 ECTS absolviert, die demselben Schwerpunkt zugeordnet sind, dann kann auf Antrag der entsprechende Schwerpunkt zertifiziert werden. Dieser Antrag muss zusammen mit dem Antrag auf Zulassung zur Masterarbeit gestellt werden:
     * Designing for User Experiences (DUX)
     * Developing Interactive and Distributed Systems (DEV)
     * Exploring Advanced Interactive Media (EXA)
