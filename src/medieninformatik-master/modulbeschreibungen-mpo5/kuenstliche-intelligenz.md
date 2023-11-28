@@ -44,13 +44,13 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden können Projekte in der Medieninformatik mit KI umsetzen, indem sie
+Die Studierenden können bestimmte Projekte in der Medieninformatik mit KI umsetzen, indem sie
 
 - identifizieren welche KI-Methoden in dem gegebenen Projekt genutzt werden können,
-- KI-Methoden in Python umsetzen können,
-- Ergebnisse dokumentieren und präsentieren können,
+- KI-Methoden in Python umsetzen,
+- Ergebnisse dokumentieren und präsentieren,
 
-um später selbstständig und im Team KI-Projekte in der Medieninformatik umsetzen zu können.
+um später in der Lage zu sein selbstständig und im Team KI-Projekte in der Medieninformatik umzusetzen.
 
 ## Inhalt
 
@@ -70,3 +70,4 @@ um später selbstständig und im Team KI-Projekte in der Medieninformatik umsetz
 ## Literatur
 
 - Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2023.
+- James, Garreth et al. [Introduction to Statistical Learning - with Applications in Python](https://www.statlearning.com/). Springer, 2023.
