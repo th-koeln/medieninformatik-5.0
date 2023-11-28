@@ -147,7 +147,7 @@ select {
 }
 
 :root {
-  --bfs: 1rem;
+  --bfs: 1.1rem;
   --half: calc(var(--bfs) / 2);
   --quat: calc(var(--bfs) / 4);
   --xxs: calc(var(--bfs) * 0.4);
@@ -262,16 +262,19 @@ h6 {
 }
 
 h1 {
+  padding-top: var(--fluid-space-m);
   margin-bottom: var(--fluid-space-m);
   font-size: var(--xxl);
 }
 
 h2 {
+  padding-top: var(--fluid-space-s);
   margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
 }
 
 h3 {
+  padding-top: var(--fluid-space-xs);
   font-size: var(--l);
   margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
@@ -281,6 +284,7 @@ h4,
 h5,
 h6 {
   font-size: var(--m);
+  padding-top: var(--fluid-space-xs);
   margin-bottom: var(--fluid-space-s);
   color: var(--darkest);
 }
@@ -297,8 +301,19 @@ div > em {
 }
 
 a {
-  color: var(--color-accent);
-  text-decoration: none;
+  transition: background-color var(--tr-fast);
+  color: var(--darker);
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+}
+a:visited {
+  color: var(--dark);
+}
+a:hover {
+  color: var(--darkest);
+  background-color: var(--darken);
+  text-decoration-style: solid;
 }
 
 small {
@@ -316,7 +331,7 @@ p + h4,
 ul + h2,
 ul + h3,
 ul + h4 {
-  margin-top: var(--fluid-space-l);
+  margin-top: var(--fluid-space-s);
 }
 
 hr {
@@ -567,7 +582,7 @@ table {
 .main-header {
   padding: var(--xs) var(--fluid-space-m);
   margin: 0;
-  background-color: var(--darkest);
+  background-color: var(--darken);
   z-index: 100;
 }
 .main-header ul {
@@ -800,7 +815,7 @@ table.is-narrow td {
 /* Title & Subtitle
 ###########################################################################  */
 .title + .subtitle {
-  margin-top: calc(var(--fluid-space-m) * -1);
+  margin-top: calc(var(--fluid-space-l) * -1);
   color: var(--darker);
 }
 
@@ -809,6 +824,8 @@ table.is-narrow td {
 /* Screenshot
 ############################################################################ */
 .screenshot {
+  margin-top: var(--fluid-space-l);
+  margin-bottom: var(--fluid-space-l);
   position: relative;
 }
 .screenshot-wrapper {
@@ -1128,6 +1145,44 @@ ul.hero-list > li + li {
 .competence-block .competence-module-list li a {
   position: relative;
   z-index: 10;
+}
+
+/* Navigation
+############################################################################ */
+.inline-navigation li {
+  line-height: var(--lh-tight);
+  position: relative;
+}
+.inline-navigation li a {
+  text-decoration: none;
+  display: block;
+  padding-bottom: var(--quat);
+  padding-top: var(--quat);
+  transition: padding var(--tr-fast);
+  padding-right: var(--fluid-space-s);
+}
+.inline-navigation li a:hover {
+  padding-left: var(--half);
+  padding-right: var(--fluid-space-xs);
+}
+.inline-navigation li > .icon {
+  transition: all var(--tr-fast);
+  position: absolute;
+  top: 0;
+  right: -20px;
+  bottom: 0;
+  line-height: var(--l);
+  vertical-align: bottom;
+  font-weight: var(--fw-bold);
+  opacity: 0;
+  color: var(--color-accent);
+}
+.inline-navigation li:hover .icon {
+  opacity: 1;
+  right: var(--quat);
+}
+.inline-navigation li + li {
+  border-top: solid var(--border-width-s) var(--darken);
 }
 
 /* Content Blocks

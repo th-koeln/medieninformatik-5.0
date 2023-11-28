@@ -1,0 +1,49 @@
+/* Cover
+###########################################################################  */
+
+.cover {
+
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+  }
+
+  .owner {
+    margin-bottom: var(--fluid-space-xl);
+  }
+
+  .title {
+    font-size: var(--xl);
+    color: var(--darker);
+    font-weight: var(--fw-light);
+    max-width: var(--max-width-content);
+  }
+
+  .subtitle {
+    font-size: var(--xxl);
+    color: var(--darkest);
+    font-weight: var(--fw-bold);
+    margin-bottom: var(--fluid-space-l);
+    line-height: var(--lh-tight);
+  }
+
+  .degree {
+    font-size: var(--xl);
+    flex-grow: 2;
+  }
+
+  .version-and-date {
+    display: flex;
+
+    *+* {
+      &:before {
+        content: "//";
+        display: inline-block;
+        padding-left: var(--half);
+        padding-right: var(--half);
+        color: var(--dark)
+      }
+    }
+  }
+}
