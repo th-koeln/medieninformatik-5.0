@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: viet
     datum: ende
 meta:
-  status: refreview
+  status: ok
   authors: Christian
   reviewers: Christian, Nathalie
 besonderheiten: unbenotetes Modul
