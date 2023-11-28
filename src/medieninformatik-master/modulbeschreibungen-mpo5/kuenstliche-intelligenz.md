@@ -2,11 +2,11 @@
 title: Künstliche Intelligenz
 kuerzel: KI
 modulverantwortlich: dgaida
-dozierende: dgaida
+dozierende: dgaida, jschaible
 modulniveau: master
 angebotImWs: false
 angebotImSs: true
-sprache: wahlweise deutsch oder englisch
+sprache: deutsch
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: 
 empfohleneVoraussetzungen: 
@@ -30,7 +30,7 @@ meta:
 
 ## Kurzbeschreibung
 
-> work in progress
+Dieses Modul gibt eine Einführung in die Künstliche Intelligenz (insbesondere Maschinelles Lernen und Deep Learning) zur Umsetzung von KI-Projekten in der Medieninformatik. 
 
 ## Lehrform/SWS
 4 SWS: Vorlesung 2 SWS; Praktikum / Projekt 2 SWS
@@ -44,22 +44,23 @@ Gesamtaufwand 180 Stunden, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden können Projekte in der Medieninformatik mit KI umsetzen, indem sie
+Die Studierenden können bestimmte Projekte in der Medieninformatik mit KI umsetzen, indem sie
 
 - identifizieren welche KI-Methoden in dem gegebenen Projekt genutzt werden können,
-- KI-Methoden in Python umsetzen können,
-- Ergebnisse dokumentieren und präsentieren können,
+- KI-Methoden in Python umsetzen,
+- Ergebnisse dokumentieren und präsentieren,
 
-um später selbstständig und im Team KI-Projekte in der Medieninformatik umsetzen zu können.
+um später in der Lage zu sein selbstständig und im Team KI-Projekte in der Medieninformatik umzusetzen.
 
 ## Inhalt
 
 - Einführung in künstliche Intelligenz für die Medieninformatik
-- Machine Learning
+- Maschinelles Lernen
 - Künstliche neuronale Netze
 - Deep Learning
 - Convolutional neuronale Netze
-- Natural Language Processing
+- Natürliche Sprachverarbeitung
+    - Large Language Modelle
 - Anwendungen von KI in der Medieninformatik
 
 ## Medienformen
@@ -69,3 +70,4 @@ um später selbstständig und im Team KI-Projekte in der Medieninformatik umsetz
 ## Literatur
 
 - Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2023.
+- James, Garreth et al. [Introduction to Statistical Learning - with Applications in Python](https://www.statlearning.com/). Springer, 2023.
