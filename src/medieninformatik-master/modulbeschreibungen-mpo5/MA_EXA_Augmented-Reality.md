@@ -9,7 +9,7 @@ sprache: wahlweise deutsch oder englisch
 zuordnung-zum-curriculum: Medieninformatik Master
 kreditpunkte: 6
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvoraussetzungen zum Studium hinausgehenden
-empfohleneVoraussetzungen: Computergrafik und Animation (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
+empfohleneVoraussetzungen: Visual Computing (Bachelor), Algorithmen und Programmierung 1 und 2 (Bachelor), Mathematik 1 und 2 (Bachelor)
 published: true
 layout: modulbeschreibung.11ty.js
 typ: wpm
@@ -43,19 +43,25 @@ Gesamtaufwand 180 Stunden, davon
 - 36h Praktikum / Projekt
 - 108h Selbststudium
 
-## Angestrebte Lernergebnisse
-Nach erfolgreichem Abschluss
 
-- haben die Teilnehmer ihr Wissen und Verständnis im Bereich der bildbasierten Computergrafik erweitert und vertieft, bspw. können Sie
-  - Filter und Segmentierungsverfahren beschreiben und implementieren
-  - verschiedene Bild- und Videooperatoren in ihrer Wirkung vergleichen, kombinieren und sinnvoll einsetzen
-  - mathematische Beschreibungen von Bild- und Videooperatoren verstehen
-  - Feature Detektoren einsetzen
-  - Kamerakalibrierungsverfahren erfolgreich einsetzen
-  - Photogrammetriemethoden zur 3D Rekonstruktion einsetzen
-  - Augmented Reality Anwendungen entwerfen und entwickeln
-- sind die Studierenden somit in der Lage ihr Wissen und Verständnis einzusetzen, um Modelle, Systeme und Prozesse eigener Bild-, Video-, und Computer-Vision Applikationen zu konzipieren, umzusetzen und zu evaluieren.
-- haben Sie ihre Fähigkeit vertieft, sich eigenständig in neue Themenbereiche einzuarbeiten und Problemstellungen, Technologien und wissenschaftliche Erkenntnisse im Umfeld der bildbasierten Verfahren zu erkennen und sich in relevante Theorien, Methoden und Techniken, sowohl aus theoretischer als auch aus technischer Sichtweise, einzuarbeiten und das erworbene Wissen effizient in die Lösung aktueller und auch zukünftiger Frage- und Problemstellungen einzubringen und anzuwenden. Dies wird durch eigene Recherche, Vorträge und ein Abschlussprojekt realisiert.
+## Learning Outcomes
+(WAS) Die Teilnehmenden können Augmented Reality Anwendungen entwerfen, implementieren und evaluieren
+
+(WOMIT) indem sie
+ - Filter- und Segmentierungsverfahren beschreiben und implementieren
+ - Bild- und Videooperatoren in ihrer Wirkung vergleichen, kombinieren und sinnvoll einsetzen
+ - mathematische Beschreibungen von Bild- und Videooperatoren verstehen
+ - Featuredetektoren beschreiben und einsetzen
+ - Methoden zur Kamerakalibrierung und zum Tracking anwenden
+ - Verfahren zur Verdeckungsberechnung zwischen realen und virtuellen Objekten umsetzen
+ - Lösungsansätze für die Herausforderungen des Trackings in großen Umgebungen einordnen und gegenüberstellen
+ - Situationsbezogene Visualisierungsmethoden analysieren
+ - Visuelle Kohärenz zwischen virtuellen und realen Inhalten herstellen
+ - Interaktionsmethoden erstellen und analysieren
+
+(WOZU)
+um Augmented Reality später in wissenschaftlichen und industriellen Anwendungsszenarien konzipieren, umsetzen und testen zu können.
+
 
 ## Inhalt
 - Filterverfahren: Lineare Filter (Box-, Gauss-, Sinc-), Kantendetektoren (Sobel, Laplace, Canny)
