@@ -26,8 +26,24 @@ module.exports = {
     });
 
 		return `
-
-			<main>
+      <div class="content-wrap">
+			  <main>
+			    <section class="cover">
+			    	<header>
+			    		<p class="owner">Fakultät für Informatik und Ingenieurwissenschaften</p>
+			    		<h1 class="title">${data.subtitle}</h1>
+			    		<h2 class="subtitle">${data.title}</h2>
+			    		<div class="version-and-date">
+			    		<p class="version">Version ${data.version}</p>
+			    		<p class="date">Letzte Änderung am ${utils.getDate(data.page.date)}</p>
+			    		</div>
+			    	</header>
+			    </section>
+          ${data.content}
+          <section>
+            ${kurzberichtList.join("\n")}
+          </section>
+			  </main>
         <aside>
           <nav>
             ${tocTools.getPageTOC({
@@ -37,26 +53,7 @@ module.exports = {
             })}
           </nav>
         </aside>
-				<div>
-				  <section class="cover">
-				  	<header>
-				  		<p class="owner">Fakultät für Informatik und Ingenieurwissenschaften</p>
-				  		<h1 class="title">${data.subtitle}</h1>
-				  		<h2 class="subtitle">${data.title}</h2>
-				  		<div class="version-and-date">
-				  		<p class="version">Version ${data.version}</p>
-				  		<p class="date">Letzte Änderung am ${utils.getDate(data.page.date)}</p>
-				  		</div>
-				  	</header>
-				  </section>
-
-          ${data.content}
-
-          <section>
-            ${kurzberichtList.join("\n")}
-          </section>
-        </div>
-			</main>
+      </div>
 		`;
 	}
 }

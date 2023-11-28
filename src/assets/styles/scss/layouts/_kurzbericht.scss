@@ -3,8 +3,8 @@
 
 .kurzbericht{
 
-  @media screen and (min-width: 60rem){
-    .content{
+  @media screen and (min-width: 120rem){
+    main{
       & > *:not(h4) {
         margin-left: 33%;
       }
@@ -14,6 +14,7 @@
         height: 0;
         margin-bottom: 0;
         padding-bottom: 0;
+        margin-left: -33%;
     
       }
 
@@ -22,7 +23,6 @@
         line-height: var(--lh-normal);
       }
     }
-
-
   }
+
 }
