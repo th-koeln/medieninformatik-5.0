@@ -5,7 +5,7 @@ modulniveau: bachelor
 kuerzel: ESA
 untertitel:
 studiensemester: 4
-kategorie: grundlagen
+kategorie: vertiefung
 sprache: deutsch
 kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine

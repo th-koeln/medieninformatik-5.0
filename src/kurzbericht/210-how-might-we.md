@@ -1,5 +1,5 @@
 ---
-title: How might We – Wie wurden die Erkenntnisse nutzbar gemacht?
+title: How Might We – Wie wurden die Erkenntnisse nutzbar gemacht?
 layout: page.11ty.js
 level: 2
 meta:
