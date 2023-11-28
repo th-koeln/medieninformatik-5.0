@@ -3,7 +3,8 @@
 
 ul:not([class]) {
   padding-left: 0;
-  
+  margin-bottom: var(--fluid-space-s);
+
   & > li {
     display: block;
     margin-left: 1.5ch;
@@ -20,7 +21,10 @@ ul:not([class]) {
       margin-top: var(--quat);
     }
   }
+}
 
+p + ul:not([class]){
+  margin-top: calc(var(--xs) * -1);
 }
 
 /* Liste in Liste

@@ -18,9 +18,6 @@
     @media screen and (min-width: 160ch) {
       .content{
         blockquote{
-          position: absolute;
-          margin-left: 0;
-          width: 28%;
           font-size: var(--s);
           line-height: var(--lh-normal);
         }
