@@ -3,7 +3,7 @@ title: Medieninformatik Bachelor
 layout: page.11ty.js
 level: 2
 meta:
-  status: wip
+  status: ok
   authors: Christian
   reviewers: 
   comments:

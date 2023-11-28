@@ -185,7 +185,7 @@ table {
 
     position: relative;
     /* Something you can count on */
-    height: 30ch;
+    height: 34ch;
     width: 3ch;
     white-space: nowrap;
 
@@ -193,12 +193,12 @@ table {
       position: absolute;
       
       left: 0;
-      bottom: 0;
+      bottom: 1ch;
       transform: rotate(-90deg);
       width: 30px;
 
       & > span {
-        padding: 5px 0;
+        padding: 10px 0;
       }
     }
   }
