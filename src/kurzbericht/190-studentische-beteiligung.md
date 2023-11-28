@@ -45,7 +45,7 @@ Studierende waren auch zu den Sitzungen des Studiengangsteams eingeladen und hab
 
 ### Was wurde an den Studiengängen aufgrund der Stellungnahme der Studierenden geändert bzw. neu abgestimmt?
 
-Wie im Kapitel [How Might We – Wie wurden die Erkenntnisse nutzbar gemacht?](/kurzbericht/how-might-we-wie-wurden-die-erkenntnisse-nutzbar-gemacht/) beschrieben, wurde Erkenntnisse aus der studentischen Beteiligung systematisch festgehalten. Anschließend wurden die gewonnenen Erkenntnisse nach relevanten Themengebieten gruppiert. Hierbei wurden ausschließlich die Erkenntnisse einbezogen, die für den Prozess der Reakkreditierung von Bedeutung sind bzw. durch Maßnahmen innerhalb der Reakkreditierung beeinflusst werden können, um gezielt die Angriffspunkte zu setzen. Die identifizierten Angriffspunkte dienten als Ausgangspunkt für die Formulierung von How-Might-We-Fragen um Möglichkeitsräume zu öffenen.
+Wie im Kapitel [«How Might We – Wie wurden die Erkenntnisse nutzbar gemacht?»](/kurzbericht/how-might-we-wie-wurden-die-erkenntnisse-nutzbar-gemacht/) beschrieben, wurde Erkenntnisse aus der studentischen Beteiligung systematisch festgehalten. Anschließend wurden die gewonnenen Erkenntnisse nach relevanten Themengebieten gruppiert. Hierbei wurden ausschließlich die Erkenntnisse einbezogen, die für den Prozess der Reakkreditierung von Bedeutung sind bzw. durch Maßnahmen innerhalb der Reakkreditierung beeinflusst werden können, um gezielt die Angriffspunkte zu setzen. Die identifizierten Angriffspunkte dienten als Ausgangspunkt für die Formulierung von How-Might-We-Fragen um Möglichkeitsräume zu öffenen.
 
 Folgende How-Might-We-Fragen wurden aus studentischen Inputs abgeleitet. Dazu jeweils die konkreten Änderungen.
 
