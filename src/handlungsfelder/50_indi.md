@@ -41,7 +41,7 @@ competencies:
       - title: Reflexion Wirkung
         competence: "Können die Wirkung etablierter und neu entwickelter (interaktiver) Medien auf die Gesellschaft reflektieren und in der eigenen Entwicklung berücksichtigen."
 
-  - title: Selbstlernen
+  - title: Selbstlernen und Selbstkompetenz
     sub:
       - title: Wissenschaftlichkeit
         competence: "Können wissenschaftlich Arbeiten und Schreiben."
