@@ -1,0 +1,28 @@
+/* Kurzbericht
+############################################################################ */
+
+.kurzbericht{
+
+  @media screen and (min-width: 60rem){
+    .content{
+      & > *:not(h4) {
+        margin-left: 33%;
+      }
+
+      h4{
+        width: 31%;
+        height: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    
+      }
+
+      h4{
+        text-align: right;
+        line-height: var(--lh-normal);
+      }
+    }
+
+
+  }
+}

@@ -19,8 +19,8 @@
       .content{
         blockquote{
           position: absolute;
-          margin-left: calc(var(--max-width-content) + var(--fluid-space-s));
-          max-width: calc(var(--max-width-content) / 2);
+          margin-left: 0;
+          width: 28%;
           font-size: var(--s);
           line-height: var(--lh-normal);
         }
