@@ -25,7 +25,7 @@ meta:
   status: ok
   authors: Christian
   reviewers: Hans
-besonderheiten: 
+besonderheiten: unbenotetes Modul
 praesenzZeit: 64
 selbstStudium: 86
 angebotImWs: false

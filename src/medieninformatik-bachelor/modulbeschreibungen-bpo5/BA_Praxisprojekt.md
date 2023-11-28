@@ -1,47 +1,45 @@
 ---
-title: Praxisprojekt, Seminar
+title: Praxisprojekt mit begleitendem Projektseminar
 modulverantwortlich: viet
+dozierende: all
 modulniveau: bachelor
-kuerzel: PPS
-untertitel:
-studiensemester: 7
-jedes-semester: true
+kuerzel: PP
+date: Last Modified
 kategorie: spezialisierung
 sprache: deutsch
-kreditpunkte: 3
-voraussetzungenNachPruefungsordnung: erreichte 140 Leistungspunkte
-empfohleneVoraussetzungen: 
+kreditpunkte: 15
+voraussetzungenNachPruefungsordnung: 
+empfohleneVoraussetzungen: alle Module außer Praxisprojekt, Bachelorarbeit und Bachelor Kolloquium
 published: true
-infourl: https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/
 layout: modulbeschreibung.11ty.js
 typ: pm
-veranstaltungsform: Remote
+veranstaltungsform: 
 parent:
 studienleistungen:
   Einzelleistung:
-    art: Seminarvortrag und Abstract zur Praxisprojektarbeit
-    erstpruefer: viet
-    zweitpruefer: all
+    art: Schriftliche Ausarbeitung, Projektdokumentation, Seminarvortrag und Abstract zur Projektarbeit
+    erstpruefer: eingesetzterPruefer
+    zweitpruefer: mas
     datum: vereinbarung
 meta:
-  status: rfreview
+  status: ok
+  authors: Christian, Viet
+  reviews: Christian
 angebotImWs: true
 angebotImSs: true
-
+praesenzZeit: 32
+selbstStudium: 418
+lehrmethoden:
+  - Angeleitetes, eigenverantwortliches Arbeiten
+  - Bearbeitung eines ausgewählten  projektzentrierten Themas
+  - Coaching der Projektteams
+  - Individuelle Beratung der Projektteams zu dem zu bearbeitenden Fall im Praktikum  
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS
 ---
 
-## Lehrform/SWS
-
-4 SWS: Seminar
-
-## Arbeitsaufwand
-
-Gesamtaufwand 135 h, davon
-
-* 32 h Seminar
-* 103 h Selbststudium
-
-## Angestrebte Lernergebnisse
+## Learning Outcome
 
 (WAS) Die Studierenden können Konzepte, Techniken und Methoden aus dem Studium in einem praxisrelevanten Kontext anwenden und ein Problem oder Thema weitgehend selbstständig bearbeiten, bzw. lösen und den Prozess, die relevanten Entscheidungen und Ergebnisse nach gängiger Fachpraxis in eine wisschaftliche Abbhandlung überführen und einem Fachpublikum zugänglich machen.
 
@@ -53,7 +51,14 @@ Gesamtaufwand 135 h, davon
   
 (WOZU) um später Abschlussarbeiten nach wissenschaftlichen Standards zu erstellen und deren Ergebnisse einen Fachpublikum didaktisch angemessen vorzustellen bzw. kritisch zu diskutieren.
 
+
 ## Inhalt
+
+### Projektteil
+
+Die erworbenen Kompetenzen der ersten sechs Semester werden anhand von realen Anforderungen in einem praxisrelevanten Kontext angewendet. Das Praxisprojekt kann entweder in einem Unternehmen oder in der Hochschule - dann eingebettet in Forschungsprojekte - erfolgen. Die Betreuer\*in kann selbst gewählt werden und ein Thema aus dem Gegenstandsbereich ist mit der Betreuer\*in abzustimmen.
+
+### Seminarteil
 
 Das Praxisprojektseminar besteht aus
 
@@ -64,3 +69,4 @@ Das Praxisprojektseminar besteht aus
 ## Literatur
 
 - M. Karmasin, R. Ribing: Die Gestaltung wissenschaftlicher Arbeiten, 10. überarbeitete und aktualisierte Auflage. - Wien: Facultas: 2019
+

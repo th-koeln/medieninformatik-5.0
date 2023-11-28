@@ -59,7 +59,7 @@ Das dritte Fachsemester wird nun weitgehend neu strukturiert. Bislang enthielt e
 Im neuen Curriculum ist in jedem Semester ein dediziertes Projektmodul integriert. Hier werden, neben den fachlichen Kompetenzen auch Kompetenzen im Bereich Teamarbeit und agiles Vorgehen vermittelt.
 
 #### Wie können wir die Studierenden besser im Bereich wissenschaftliches Arbeiten/ Schreiben unterstützen? (Bachelor)
-Hierzu wurde im dritten Fachsemester das Modul [«Advanced Seminar»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Advanced-Seminar/) eingeführt. 
+Bislang wurden hier dedizierte Kompetenzen im Modul [«Einführung in die Medieninformatik»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_EinfhrungindieMedieninformatik/) und im Seminarteil des Moduls [«Praxisprojekt mit begleitendem Projektseminar»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxisprojekt/). Hierzu wurde im dritten Fachsemester das Modul [«Advanced Seminar»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Advanced-Seminar/) eingeführt. 
 
 #### Wie können wir Über-den-Tellerrand-Kompetenzen besser integrieren? (Bachelor)
 Insgesamt wurde der Wahlbereich von *einem* auf *vier* Module erhöht, so dass auch verschiedene Module nach eigenem Interesse in diesem Themenfeld besucht werden können. Das Modul [«Social Computing»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Social-Computing/) ist nun als Plfichtmodul im Curriculum verankert. Zudem wurde das [«Praxis-, Forschungs- oder Auslandssemester»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxissemester/) im vierten oder fünften Fachsemester eingeführt. Darüber hinaus zahlen die Projektmodule auf diesen Kompetenzbereich ein.
@@ -77,6 +77,3 @@ Hier wurde der semantische Aufbau der Projekte 1-3 im bestehenden Masterstudieng
 Im Bachelor wird nun auf die Vertiefungsschwerpunkte verzichtet, um den Studierenden die Möglichkeit zu bieten, alle Bereiche der Medieninformatik kennenzulernen, sodass sie darüber ihre Interessen, Stärken und Schwächen identifizieren können. Der Spezialisierungsabschnitt im Studium bietet dann mit 90 ECTS die Möglichkeit eigene Schwerpunkte zu setzen. Yeah!
 
 Im Master war die begrenzte Anzahl an Optionen von Modulen als Wahlpflichtmodul, bezogen auf den gewählten Schwerpunkt, ein Problem. Hier werden nun neue Wahlmöglichkeiten eröffnet. Die Studierenden haben darüber hinaus die Möglichkeit den Master mit oder ohne Schwerpunkt abzuschließen. Insgesamt ist die Studienstruktur deutlich offener und bietet sehr viel mehr Raum für individuelle Studienverläufe. Siehe [Studienverlaufspläne für Persona im Master](/medieninformatik-master/personas/).
-
-#### Wie können wir Begabte/ Studierende mit viel Vorkenntnissen fördern? (Bachelor)
-Hier konnte keine Verbesserung realisiert werden.

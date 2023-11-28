@@ -21,7 +21,7 @@ studienleistungen:
     zweitpruefer: seckstein
     datum: vereinbarung
 meta:
-  status: rfreview
+  status: ok
   authors: Christian
   reviewers: Stefan Eckstein
 besonderheiten: 

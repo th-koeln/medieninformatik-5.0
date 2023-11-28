@@ -1,7 +1,7 @@
 module.exports = {
 	data: {
 		layout: "default.11ty.js",
-		bodyClass: "content-blocks",
+		bodyClass: "content-blocks kurzbericht",
 	},
 	render(data) {
 

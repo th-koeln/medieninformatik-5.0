@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: il
     datum: ws-2
 meta:
-  status: refactor
+  status: ok
   authors: Florian
   reviewers: Florian, Christian
 besonderheiten: 
