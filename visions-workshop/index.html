@@ -49,6 +49,7 @@
         <header class="content-header">
           <h1 class="title">Vision für die Medieninformatik<a href="https://github.com/th-koeln/medieninformatik-5.0ty/blob/main/src/visions-workshop.md" title="Inhalt ändern"><span class="icon icon--inline">edit</span></a></h1>
           <h2 class="subtitle">Lego Serious Play Workshop, 09. Februar 2023</h2>
+          
         </header>
         <h2>Teilnehmer:innen</h2>
 <ul>
@@ -69,7 +70,7 @@
 <p>Schaffung eines gemeinsamen Zielbildes der Medieninformatik an der TH Köln, über den Akkreditierungszeitraum hinaus.</p>
 <h2>Ergebnisse</h2>
 <p>
-    </p><ul id="results" class="gallery-grid contain is-large">
+    </p><ul id="results" class="gallery-grid contain is-large" data-js-bluimp-gallery="">
       
       <li class="gallery-item">
         <a href="/medieninformatik-5.0/images/visions-workshop/results/MI-befasst-sich-mit.jpg">
@@ -95,22 +96,11 @@
         </a>
       </li>
     </ul>
-
-    <script>
-      document.getElementById('results').onclick = function (event) {
-        event = event || window.event
-        var target = event.target || event.srcElement
-        var link = target.src ? target.parentNode : target
-        var options = { index: link, event: event }
-        var links = this.getElementsByTagName('a')
-        blueimp.Gallery(links, options)
-      }
-    </script>
   <p></p>
 <h2>Steps</h2>
 <h3>#01 Warm Up</h3>
 <p>
-    </p><ul id="warmup" class="gallery-grid is-small">
+    </p><ul id="warmup" class="gallery-grid is-small" data-js-bluimp-gallery="">
       
       <li class="gallery-item">
         <a href="/medieninformatik-5.0/images/visions-workshop/warm-up/00-team.jpg">
@@ -148,21 +138,10 @@
         </a>
       </li>
     </ul>
-
-    <script>
-      document.getElementById('warmup').onclick = function (event) {
-        event = event || window.event
-        var target = event.target || event.srcElement
-        var link = target.src ? target.parentNode : target
-        var options = { index: link, event: event }
-        var links = this.getElementsByTagName('a')
-        blueimp.Gallery(links, options)
-      }
-    </script>
   <p></p>
 <h3>#02 Baut ein angenehmes Erlebnis in der Medieninformatik</h3>
 <p>
-    </p><ul id="pleasent" class="gallery-grid is-small">
+    </p><ul id="pleasent" class="gallery-grid is-small" data-js-bluimp-gallery="">
       
       <li class="gallery-item">
         <a href="/medieninformatik-5.0/images/visions-workshop/pleasent/IMG_4057.jpg">
@@ -206,21 +185,10 @@
         </a>
       </li>
     </ul>
-
-    <script>
-      document.getElementById('pleasent').onclick = function (event) {
-        event = event || window.event
-        var target = event.target || event.srcElement
-        var link = target.src ? target.parentNode : target
-        var options = { index: link, event: event }
-        var links = this.getElementsByTagName('a')
-        blueimp.Gallery(links, options)
-      }
-    </script>
   <p></p>
 <h3>#03 Individuelle Visionen: Was ist eure Vision/ euer Idealbild für die Medieninformatik</h3>
 <p>
-    </p><ul id="visions" class="gallery-grid is-small">
+    </p><ul id="visions" class="gallery-grid is-small" data-js-bluimp-gallery="">
       
       <li class="gallery-item">
         <a href="/medieninformatik-5.0/images/visions-workshop/visions/IMG_4082.jpg">
@@ -312,21 +280,10 @@
         </a>
       </li>
     </ul>
-
-    <script>
-      document.getElementById('visions').onclick = function (event) {
-        event = event || window.event
-        var target = event.target || event.srcElement
-        var link = target.src ? target.parentNode : target
-        var options = { index: link, event: event }
-        var links = this.getElementsByTagName('a')
-        blueimp.Gallery(links, options)
-      }
-    </script>
   <p></p>
 <h3>#04 Gemeinsame Vision: Wie können die individuellen Vision verschmolzen werden?</h3>
 <p>
-    </p><ul id="vision" class="gallery-grid is-small">
+    </p><ul id="vision" class="gallery-grid is-small" data-js-bluimp-gallery="">
       
       <li class="gallery-item">
         <a href="/medieninformatik-5.0/images/visions-workshop/vision/result-01.jpg">
@@ -442,17 +399,6 @@
         </a>
       </li>
     </ul>
-
-    <script>
-      document.getElementById('vision').onclick = function (event) {
-        event = event || window.event
-        var target = event.target || event.srcElement
-        var link = target.src ? target.parentNode : target
-        var options = { index: link, event: event }
-        var links = this.getElementsByTagName('a')
-        blueimp.Gallery(links, options)
-      }
-    </script>
   <p></p>
 
       </main>
@@ -474,11 +420,10 @@
     </nav>
   
       <p class="info">
-        28.11.2023 // 15:13:52
+        28.11.2023 // 18:11:11
       </p>
     </footer>
-  
-      
+    
   <!-- The Gallery as lightbox dialog, should be a document body child element -->
   <div id="blueimp-gallery" class="blueimp-gallery" aria-label="image gallery" aria-modal="true" role="dialog">
     <div class="slides" aria-live="polite"></div>
@@ -490,5 +435,7 @@
     <ol class="indicator"></ol>
   </div>
   
+  
+
     </body>
   </html>
