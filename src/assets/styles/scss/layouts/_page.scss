@@ -2,7 +2,7 @@
 ############################################################################ */
 
 .page main{
-  h2, h3, h4, p{
+  h2, h3, h4, p, blockquote, ul, ol{
     max-width: var(--max-width-content);
   }
 }
