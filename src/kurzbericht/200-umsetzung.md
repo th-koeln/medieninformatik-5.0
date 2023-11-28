@@ -14,6 +14,8 @@ meta:
 
 (siehe auch [Strategische Leitlinien zu Lehre und Studium](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/strategische_leitlinien_zu_lehre_und_studium.pdf))
 
+> TODO: ggfs. Abgleich und Merge mit Aspekten oben aus Profil
+
 #### Kompetenzorientierung, Employability und Transfer
 
 Für die Konzeption der Studiengänge wurde ein Absolvent\*innenprofil erarbeitet, das unter Einbezug einer externe Expertise wie einschlägige Stellenanzeigen und Interviews mit späteren Arbeitgeber\*innen (in Wirtschaft und Forschungseinrichtungen) entwickelt wurde. Diese Profil ist transparent formuliert und in [fünf Handlungsfelder](/handlungsfelder/) gegliedert, die die Tätigkeiten der Absolvent\*innen nach dem Studium beschreiben. In jedem Handlungsfeld wurden danach die für die jeweiligen Tätigkeiten relevanten Kompetenzen analysiert, nachvollziehbar formuliert und in einzelne Bereiche gegliedert.
@@ -36,15 +38,31 @@ Konkret werden die folgenden Projekte von Semester 1 bis 7 im Bachelorstudiengan
 
 Im Masterstudiengang werden [Guided Projects](/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Guided-Project/) sowie je nach Studienschwerpunkt verschiedene vertiefende Schwerpunkprojekte ([Guided Project DUX](/medieninformatik-master/modulbeschreibungen-mpo5/MA_DUX_Guided-Project-DUX/), [Guided Project DEV](/medieninformatik-master/modulbeschreibungen-mpo5/MA_DEV_Guided-Project-DEV/), [Guided Project EXA](/medieninformatik-master/modulbeschreibungen-mpo5/MA_EXA_Guided-Project-EXA/)) angeboten. Ähnlich wie die zuvor genannten Projekte im Bachelor unterstützen Sie die verschiedenen Dimensionen der **Kompetenzorientierung** und der **Employability**. Im Master wird **Employability** zudem durch die mögliche Spezialisierung und Schwerpunkt-Bildung unterstützt: Studierende können einen hohem Grad an Individualisierbarkeit nutzen und sich innerhalb der Medieninformatik auf [verschiedenen Berufsbilder](/todo-404-link) fokussieren.
 
-Die Projektinhalte der Medieninformatik beschäftigen sich mit verschiedenen Themen aus Zivilgesellschaft, Wirtschaft, Kultur und Politik und kooperieren teilweise mit externen Akteur\*innen aus diesen Bereichen, wodurch eine hohe **Transferorientierung** in der Medieninformatik entsteht. Die Projektformate sind zudem geprägt durch die Vermittlung von Querschnittskompetenzen, zu denen alle projektbegleitenden Dozent\*innen Bezug nehmen.
+Die Projektinhalte der Medieninformatik beschäftigen sich mit verschiedenen Themen aus Zivilgesellschaft, Wirtschaft, Kultur und Politik und kooperieren teilweise mit externen Akteur\*innen aus diesen Bereichen, wodurch eine hohe **Transferorientierung** in der Medieninformatik entsteht. Die Projektformate sind zudem geprägt durch die Vermittlung von Querschnittskompetenzen (vgl. Handlungsfelder »[CREA](/handlungsfelder/#driving-creation-processes)« und »[INDI](/handlungsfelder/#enhancing-interactions-on-different-scales)«), zu denen alle projektbegleitenden Dozent\*innen Bezug nehmen:
 
 - *Kompetenzen zur Umsetzung im Projekt*: Vorgehensweisen werden vermittelt, die eine effiziente Erarbeitung der gewünschten Ergebnisse im Projekt fördern. Das beinhaltet beispielsweise agile Vorgehensweisen, Gestaltung von Gruppenarbeit und Auftragsklärung (siehe dazu Kompetenzbereich »[CREA](/handlungsfelder/#driving-creation-processes)«).
 - *Kompetenzen zur Kommunikation von (Zwischen-)Ergebnissen*: Die Projekte sind immer in konkreten Kontexten verankert und die erstellten Artefakte müssen mit Stakeholdern geteilt werden. Das erfordert u.a. Präsentation, Visualisierung und Storytelling, Moderation von Entscheidungsprozessen und domänenspezifische Adressierung von Kooperationspartnern (Transfer und Interdisziplinarität) (siehe dazu Kompetenzbereich »[CREA](/handlungsfelder/#driving-creation-processes)«).
-- *Kompetenzen in der individuellen Entwicklung*: Student/*innen reflektieren ihre persönliche und soziale Entwicklung innerhalb der Projekte. Themen sind z.B. kritischer Austausch zur Fehlerkultur und Lernen, Rollendefinition und Eskalation, Umgang mit und Formulierung von Feedback, Selbstverantwortung und Individualität in Gruppen und Gesellschaft (siehe dazu Kompetenzbereich »[INDI](/handlungsfelder/#enhancing-interactions-on-different-scales)«).
+- *Kompetenzen in der individuellen Entwicklung*: Student\*innen reflektieren ihre persönliche und soziale Entwicklung innerhalb der Projekte. Themen sind z.B. kritischer Austausch zur Fehlerkultur und Lernen, Rollendefinition und Eskalation, Umgang mit und Formulierung von Feedback, Selbstverantwortung und Individualität in Gruppen und Gesellschaft (siehe dazu Kompetenzbereich »[INDI](/handlungsfelder/#enhancing-interactions-on-different-scales)«).
 
 #### Wissenschaftlichkeit, Demokratisierung und Global Citizenship
 
-> TODO
+**Wissenschaftlichkeit** wird in den Studiengängen insbesondere durch das Handlungsfeld »[INDI](/handlungsfelder/#enhancing-interactions-on-different-scales)« und den darin enthaltenen Kompetenzbereich »Analyse, Studien und Experimente« aufgegriffen. Zudem werden in den Kompetenzbereichen der anderen Handlungsfelder jeweils wissenschaftlich fundierdte Methoden erworben.
+
+> TODO Bachelor...
+
+Der Masterstudiengang sieht für die die Qualifizierung des wissenschaftlichen Nachwuchs entsprechende Module zu
+[den grundlegende Forschungsmethoden](/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Research-Methods-for-Interactive-Media/), 
+[angewandter Statistik für HCI](/medieninformatik-master/modulbeschreibungen-mpo5/MA_DUX_Modul-Statistical-Methods-for-HCI/), 
+und [der Verwertung wissenschaftlicher Ideen und Ergebnisse](/medieninformatik-master/modulbeschreibungen-mpo5/MA_P3-Vertiefungsworkshop-2/) vor. 
+Explizit ist der Aufbau wissenschaftlicher und forschungsortientierter Kompetenzen grundlegend verpflichtend und für bestimmte Berufsbilder (wie bspw. »[HCI Researcher*in](/curricula/mpo5-90CP-persona-HCI-Researcherin/)« )im Wahlbereich möglich.
+Im Vergleich zur letzten Akkreditierung im Jahr 2017 ist jetzt noch expliziter berücksichtigt, dass den Absolvent\*innen des Masterprogramms mit dem [Promotionskolleg NRW](https://www.pknrw.de/) eine neue Möglichkeit offensteht, sich nach dem Master mit einer Promotion weiter wissenschaftlich zu qualifizieren. Anschließen an den Medieninformatik Master kann sich insbesondere das Promotionsprogramm »[Mensch, Digitalität, Gesellschaft](https://www.pknrw.de/abteilungen/medien-und-interaktion/mensch-digitalitaet-gesellschaft)« der Abteilung »[Medien und Interaktion](https://www.pknrw.de/abteilungen/medien-und-interaktion)« des PK NRW.
+
+
+
+und »Ethik und Gesellschaft« 
+
+
+
 
 #### Internationalisierung und Diversity
 
@@ -76,9 +94,27 @@ Die Module im Master haben entsprechend eine durchgehende Modulgröße von minde
 
 ### Aktivität in der Forschung
 
-> mb: Brainstorming
-> * Forschungsschwerpunkt(e) nennen
-> * Forschungs-/Drittmittelprojekte nennen
-> * Publikationen
-> * Aspekte aus dem FEP
-> * Promotion via PK NRW, insb. Abteilung »Medien und Interaktion«
+<!-- Im Falle der Akkreditierung von Master-Studiengängen ist darüber hinaus darzulegen, wie die Fakultät den geforderten Beteiligungsumfang forschungsaktiver Professor:innen (ggf. zukünftig über ein entsprechendes Forschungskonzept) sicherstellen wird. -->
+
+Beide Studiengänge der Medieninformatik adressieren in besonderem Maße Aspekte der Forschung und Forschungsorientierung, wie bereits oben zur Wissenschaftlichkeit erläutert. Die forschungsstarke Fakultät für Informatik und Ingenieurwissenscahften sowie insbesondere die Lehreinheit Informatik bieten dafür einen ausgezeichneten Umfeld, das über die letzten Jahre innerhalb der verschiedenen Institute ausgebaut wurde. Insbesondere der Master Medieninformatik knüpft in verschiedenen Lehrveranstaltugen und Projekten daran an.
+
+Die Fakultät bzw. ihre Mitglieder aus der Professorenschaft sind aktive Treiber und handelnde Mitglieder auf verschiedenen Ebenen der Forschung. Zu nennen sind beispielsweise das «[KI Forschungscluster](https://www.th-koeln.de/forschung/ki-cluster_101889.php)» sowie der Forschungsschwerpunkt «[Digitale Technologien und Soziale Dienste]()». Forschungsgemeinschaften (also kollegiale, nicht-institutionalisierte Arbeitskreise) zum gibt es bspw. im Bereich «Human Computer Interaction» sowie «Serious Games». 
+
+Die Professor\*innen der Fakultät als Leitungen oder Mitwirkende in verschiedenen Forschungsprojekten aktiv, die durch Drittmittel gefördert werde. Exemplarisch in Bezug zur Medieninformatik sind die folgenden projekte zu nennen, die von Bund (BMBF und BMWK) und Land (insb. EFRE) gefördert wurden bzw. werden:
+
+* [ARlebnis OBK - Augmented-Reality-Pfade durch Oberberger Kultur und Geschichte](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/arlebnis-obk---augmented-reality-pfade-durch-oberberger-kultur-und-geschichte_108322.php)
+* [Cranach Digital Archive](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/cranach-digital-archive_91698.php)
+* [DREA - Drehcontroller mit Griff-, Gestenerkennung und taktilem Feedback für Autos](https://moxd.io/drea/)
+* [FDM@Studium.nrw](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/fdmstudiumnrw_98785.php)
+* [Innovation Hub Bergisches RheinLand](https://www.innovation-hub.de/)
+* [MagnPtrop - Mensch-Maschine-Kollaboration](https://www.zukunft-der-wertschoepfung.de/projekte/kmu-innovativ-magnetfeld-untersttzte-objekt-und-bewegungserkennung-zur-steigerung-von-effizienz-und-sicherheit-in-industriellen-produktionsprozessen-durch-3-dimensionale-isotrope-kugel-felder/)
+* [SAN-DMP - Datenmanagementpläne für FHs und HAWs](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/san-dmp---datenmanagementplaene-fuer-fhs-und-haws_91678.php)
+* [VREUNDE - Verbundenheit zu guten Freunden über Distanz mittels physisch-digitaler Interaktions- und Kommunikationsräume erhalten](https://www.interaktive-technologien.de/projekte/vreunde)
+
+Zudem gehören die am Master-Studiengang beteiligten wissenschaftlichen Mitarbeiter\*innen und die Professor\*innen zu den Autor\*innen zahlreicher internationaler und peer-reviewed Publikationen. Darunter sind einige Werke, die sich im näheren mit den Themen der Medieninformatik, wie in den Handlungs- und Kompetenzfeldern inhaltlich beschrieben, beschäftigen, als auch Werke, die vertiefend über den Tellerrand der Medieninformatik hinausgehen oder in einem interdiszilinären Bezug zu ihr stehen. Statt hier jedoch ausschnittsweise Publikationen aufzulisten sei auf die Digitalen Hochschulbibliografie der TH Köln verwiesen, in der eine [Publikationslisten der Fakultät](https://bibliografie.th-koeln.de/servlets/solr/select?q=%28origin%3A%22fak_10%22+AND+status%3A%22confirmed%22%29&fl=*&sort=year+desc&rows=10&version=4.5&mask=search.xed) vorhanden ist.
+
+<!-- hier könnte man ggfs. ein bisschen Bibliometrie aufführen -->
+
+Nicht zu letzt ist zu erwähnen, das Professor\*innen des Lehrpersonals der Medieninformatik als professorale Mitglieder im Promotionskolleg NRW aktiv sind (insb. in der Abteilung «Medien und Interaktion») und auch kooperativ Promotionen mit Universitäten betreuen bzw. betreut haben.
+
+<!-- ggfs. noch Aspekte aus dem FEP; aber der ist ja auch noch nicht verabschiedet; also noch nicht belastbar zitierfähig -->
