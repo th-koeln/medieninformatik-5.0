@@ -285,7 +285,7 @@ h5,
 h6 {
   font-size: var(--m);
   padding-top: var(--fluid-space-xs);
-  margin-bottom: var(--fluid-space-s);
+  margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
 }
 
@@ -348,6 +348,14 @@ blockquote {
   background-color: var(--darken);
 }
 
+/* Einrückung und Headlines
+############################################################################ */
+/*.content{
+  & > *:not(h1,h2,h3, h4){
+    margin-left: var(--fluid-space-m);
+  }
+
+}*/
 /* Button
 ############################################################################ */
 .button {
@@ -779,19 +787,19 @@ table.is-narrow td {
 .table-modulmatrix th.is-vertical {
   position: relative;
   /* Something you can count on */
-  height: 30ch;
+  height: 34ch;
   width: 3ch;
   white-space: nowrap;
 }
 .table-modulmatrix th.is-vertical > div {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 1ch;
   transform: rotate(-90deg);
   width: 30px;
 }
 .table-modulmatrix th.is-vertical > div > span {
-  padding: 5px 0;
+  padding: 10px 0;
 }
 .table-modulmatrix th.module-name {
   text-align: left;
@@ -1185,6 +1193,44 @@ ul.hero-list > li + li {
   border-top: solid var(--border-width-s) var(--darken);
 }
 
+/* Cover
+###########################################################################  */
+.cover header {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+}
+.cover .owner {
+  margin-bottom: var(--fluid-space-xl);
+}
+.cover .title {
+  font-size: var(--xl);
+  color: var(--darker);
+  font-weight: var(--fw-light);
+  max-width: var(--max-width-content);
+}
+.cover .subtitle {
+  font-size: var(--xxl);
+  color: var(--darkest);
+  font-weight: var(--fw-bold);
+  margin-bottom: var(--fluid-space-l);
+  line-height: var(--lh-tight);
+}
+.cover .degree {
+  font-size: var(--xl);
+  flex-grow: 2;
+}
+.cover .version-and-date {
+  display: flex;
+}
+.cover .version-and-date * + *:before {
+  content: "//";
+  display: inline-block;
+  padding-left: var(--half);
+  padding-right: var(--half);
+  color: var(--dark);
+}
+
 /* Content Blocks
 ############################################################################ */
 .content-blocks section .content {
@@ -1560,43 +1606,6 @@ ul.job-offer-overview .job-offer-data figcaption li {
 }
 .modulhandbuch h2 {
   margin-top: var(--fluid-space-xl);
-}
-
-/* Modulhandbuch
-###########################################################################  */
-.modulhandbuch .cover header {
-  display: flex;
-  flex-direction: column;
-  height: 50vh;
-}
-.modulhandbuch .cover .owner {
-  margin-bottom: var(--fluid-space-xl);
-}
-.modulhandbuch .cover .title {
-  font-size: var(--xl);
-  color: var(--darker);
-  font-weight: var(--fw-light);
-}
-.modulhandbuch .cover .subtitle {
-  font-size: var(--xxl);
-  color: var(--darkest);
-  font-weight: var(--fw-bold);
-  margin-bottom: var(--fluid-space-l);
-  line-height: var(--lh-tight);
-}
-.modulhandbuch .cover .degree {
-  font-size: var(--xl);
-  flex-grow: 2;
-}
-.modulhandbuch .cover .version-and-date {
-  display: flex;
-}
-.modulhandbuch .cover .version-and-date * + *:before {
-  content: "//";
-  display: inline-block;
-  padding-left: var(--half);
-  padding-right: var(--half);
-  color: var(--dark);
 }
 
 /* Modulhandbuch -> Handlungsfelder

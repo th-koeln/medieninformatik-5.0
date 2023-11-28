@@ -25,3 +25,14 @@ exports.getScreenshotBlock = (src, caption) => {
     </figure>
   `;
 };
+
+/* Image Gallery
+############################################################################ */
+
+const gallerySnippet = require('../snippets/gallery.11ty.js');
+
+exports.getGallery = (eleventy, data, attributes) => {
+  const html = gallerySnippet.render(eleventy, data, attributes)
+  const cleanHTML = html.replace(/[\r\n|\n|\r]/gm, "");
+  return cleanHTML;
+};

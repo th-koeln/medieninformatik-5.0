@@ -3,6 +3,8 @@ title: "Vision für die Medieninformatik"
 subtitle: "Lego Serious Play Workshop, 09. Februar 2023"
 layout: page.11ty.js
 inToc: false
+tocs:
+  - learnings
 bodyClass: home
 ---
 

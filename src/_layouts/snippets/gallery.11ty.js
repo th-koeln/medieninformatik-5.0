@@ -4,7 +4,7 @@ exports.render = (eleventy, data, attributes) => {
   const {id} = attributes;
   const cssClass = attributes.class;
   const images = data.collections.images.filter(img => img.match(src));
-
+  
   if(images.length === 0) return '';
 
   const imagesList = images.map(img => {
@@ -18,19 +18,8 @@ exports.render = (eleventy, data, attributes) => {
   });
 
   return `
-    <ul id="${id}" class="gallery-grid ${cssClass}">
+    <ul id="${id}" class="gallery-grid ${cssClass}" data-js-bluimp-gallery>
       ${imagesList.join("\n")}
     </ul>
-
-    <script>
-      document.getElementById('${id}').onclick = function (event) {
-        event = event || window.event
-        var target = event.target || event.srcElement
-        var link = target.src ? target.parentNode : target
-        var options = { index: link, event: event }
-        var links = this.getElementsByTagName('a')
-        blueimp.Gallery(links, options)
-      }
-    </script>
   `;
 };

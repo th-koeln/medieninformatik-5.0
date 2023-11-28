@@ -3,7 +3,10 @@ const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
 const fg = require('fast-glob');
 
-const imageWithCaption = require('./src/_layouts/shortcodes/image-with-caption.11ty.js');
+const shortcodeModuls = {
+  "images": require('./src/_layouts/shortcodes/images.11ty.js'),
+};
+
 
 const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "/medieninformatik-5.0" : "";
 const pathes = {
@@ -312,13 +315,23 @@ module.exports = function (eleventyConfig) {
  ########################################################################## */
 
   eleventyConfig.addShortcode("image", function(src, caption) { 
-    const image = imageWithCaption.getImageBlock(src, caption);
-    return image;
+    return shortcodeModuls.images.getImageBlock(src, caption);
   });
 
   eleventyConfig.addShortcode("screenshot", function(src, caption) { 
-    const image = imageWithCaption.getScreenshotBlock(src, caption);
-    return image;
+    return shortcodeModuls.images.getScreenshotBlock(src, caption);
+  });
+
+  eleventyConfig.addShortcode("gallery", function(src, classname, caption) { 
+    caption = caption || '';
+    classname = classname || '';
+    if(!src) return console.error('No src given for gallery shortcode');
+    const attributes = {
+      src: src,
+      id: 'gallery-' + src.replace(/\//g, '-').replace(/\./g, '-').replace(/_/g, '-').replace(/ /g, '-').toLowerCase(),
+      class: classname
+    };
+    return shortcodeModuls.images.getGallery(this.ctx, this.ctx, attributes);
   });
 
   /* Data Extension

@@ -1,5 +1,6 @@
 exports.getPageFooter = (eleventy, data) => {
 
+  const gallery = require('../components/gallery.11ty.js');
   const toc = require('../components/tocTools.11ty.js');
   const tocContent = toc.getTocContent(eleventy, data);
 
@@ -18,5 +19,6 @@ exports.getPageFooter = (eleventy, data) => {
         ${date}.${month}.${year} // ${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}
       </p>
     </footer>
+    ${gallery.getLightboxDialog()}
   `;
 };

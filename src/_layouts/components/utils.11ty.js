@@ -93,7 +93,29 @@ exports.ucFirst = (string) => {
 /* Datum formatieren
 ############################################################################ */
 
+const monthMap = {
+  1: 'Januar',
+  2: 'Februar',
+  3: 'März',
+  4: 'April',
+  5: 'Mai',
+  6: 'Juni',
+  7: 'Juli',
+  8: 'August',
+  9: 'September',
+  10: 'Oktober',
+  11: 'November',
+  12: 'Dezember'
+};
+
 exports.getDate = (date) => {
   if(!date) return '';
-  return `${date.getDate()}.${date.getMonth()+1}.${date.getFullYear()}`;
+  const day = date.getDate();
+  const month = date.getMonth()+1;
+  const year = date.getFullYear();
+
+  const displayedDay = day < 10 ? `0${day}` : day;
+  const displayedMonth = monthMap[month];
+
+  return `${displayedDay}. ${displayedMonth} ${year}`;
 };
