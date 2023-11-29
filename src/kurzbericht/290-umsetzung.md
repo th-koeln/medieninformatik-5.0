@@ -12,7 +12,7 @@ meta:
 
 ### Studiengangkriterien 
 
-Die Studiengangkriterien sind in den [Leitlinien zu Lehre und Studium](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/strategische_leitlinien_zu_lehre_und_studium.pdf) an der TH Köln strategischen verankert. Die Studiengänge der Medieninformatik setzen die zehn Kriterien wie folgt um. Die Modulmatrizen für den [Bachelor-](/medieninformatik-bachelor/modulmatrix-bpo5/) und [Master-Studiengang](/medieninformatik-master/modulmatrix-mpo5/) zeichnen Module zu den Kriterien explizit aus.
+Die Studiengangkriterien sind in den [Leitlinien zu Lehre und Studium](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/strategische_leitlinien_zu_lehre_und_studium.pdf) an der TH Köln strategisch verankert. Die Studiengänge der Medieninformatik setzen die zehn Kriterien wie folgt um. Die Modulmatrizen für den [Bachelor-](/medieninformatik-bachelor/modulmatrix-bpo5/) und [Master-Studiengang](/medieninformatik-master/modulmatrix-mpo5/) zeichnen Module zu den Kriterien explizit aus.
 
 <!--
 Employability. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5 
@@ -22,20 +22,20 @@ Global Citizenship. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 ### Employability
 
-Den Studiengängen der Medieninformatik liegt ein kompetenzorientiertes Absolvent\*innenprofil zugrunde. Dieses gründent sich auf einer Analyse heutiger und zukünftiger berufsfeldbezogener Anforderungen, welche die Entwicklung professionsbezogener Werte und Haltungen explizit berücksichtigt und Anschlussfähigkeit an das Wissenschaftssystem bietet. Dazu wurden u. A. Interviews mit verschiedenen Unternehmen und Forschungseinrichtungen, die Analyse von Stellenausschreibungen, die «Empfehlungen für eine zukunftsfähige Ausgestaltung von Studium und Lehre» des Wissenschaftsrats, der «Qualifikationsrahmen für deutsche Hochschulabschlüsse» der Kultusminister:(innen?) Konferenz, das «Rollenideal Digital Design» des Branchenverbandes Bitkom und die «Empfehlung zum Curriculum für Bachelorstudiengänge Medieninformatik» der Fachgruppe Medieninformatik der Gesellschaft für Informatik zu Rate gezogen: 
+Den Studiengängen der Medieninformatik liegt ein kompetenzorientiertes Absolvent\*innenprofil zugrunde. Dieses gründet sich auf einer Analyse heutiger und zukünftiger berufsfeldbezogener Anforderungen, welche die Entwicklung professionsbezogener Werte und Haltungen explizit berücksichtigt und Anschlussfähigkeit an das Wissenschaftssystem bietet. Dazu wurden u.A. Interviews mit verschiedenen Unternehmen und Forschungseinrichtungen, die Analyse von Stellenausschreibungen, die «Empfehlungen für eine zukunftsfähige Ausgestaltung von Studium und Lehre» des Wissenschaftsrats, der «Qualifikationsrahmen für deutsche Hochschulabschlüsse» der Kultusminister:(innen?) Konferenz, das «Rollenideal Digital Design» des Branchenverbandes Bitkom und die «Empfehlungen zum Curriculum für Bachelorstudiengänge Medieninformatik» der Fachgruppe Medieninformatik der Gesellschaft für Informatik zu Rate gezogen: 
 
 - [Interviews mit verschiedenen Unternehmen und Forschungseinrichtungen](/interviews)
 - [Analyse aktueller Stellenausschreibungen](/stellenausschreibungen)
 - [Empfehlungen für eine zukunftsfähige Ausgestaltung von Studium und Lehre](https://www.wissenschaftsrat.de/download/2022/9699-22.html)
 - [Qualifikationsrahmen für deutsche Hochschulabschlüsse](https://www.hrk.de/fileadmin/redaktion/hrk/02-Dokumente/02-03-Studium/02-03-02-Qualifikationsrahmen/2017_Qualifikationsrahmen_HQR.pdf)
 - [Rollenideal Digital Design](https://www.bitkom.org/sites/main/files/file/import/20171013-Rollenideal-Digital-Design.pdf)
-- [Empfehlung zum Curriculum für Bachelorstudiengänge Medieninformatik](https://fg-mi.gi.de/publikationen/curriculum)
+- [Empfehlungen zum Curriculum für Bachelorstudiengänge Medieninformatik](https://fg-mi.gi.de/publikationen/curriculum)
 
-Es wurden Learning Outcomes und vernetzte Modulstrukturen auf- oder ausgebaut, die einen kontinuierlichen Kompetenzaufbau im Sinne der Beschäftigungsbefähigung ermöglichen. Jedes Modul wurde mit konkret formulierten Kompetenzen ausgestattet, die sowohl die Kompetenzen ausweisen, welche mit dem Modul erworben werden können, als auch die Kompetenzen, die das Modul voraussetzt bzw. auf denen es aufbaut.
+Es wurden Learning Outcomes und vernetzte Modulstrukturen auf- oder ausgebaut, die einen kontinuierlichen Kompetenzaufbau im Sinne der Beschäftigungsbefähigung ermöglichen. Jedes Modul wurde mit konkret formulierten Kompetenzen ausgestattet, die sowohl die Kompetenzen ausweisen, welche mit dem Modul erworben werden können, als auch jene Kompetenzen, die das Modul voraussetzt bzw. auf denen es aufbaut.
 
 {% screenshot "/images/kurzbericht/mockup-kompetenzen-raw.jpg", "Beispielhafte Darstellung der konkreten Kompetenzen eines Moduls" %}
 
-Eine detaillierte Beschreibung der Kompetenzen findet sich im [Profil der Absolvent*innen](/kurzbericht/#absolvent-innenprofile) und der Analyse der [Handlungsfelder](/handlungsfelder/). In den folgenden vier Übersichten ist eine vernetzte Darstellung der Kompetenzorierung ersichtlich:
+Eine detaillierte Beschreibung der Kompetenzen findet sich im [Profil der Absolvent\*innen](/kurzbericht/#absolvent-innenprofile) und der Analyse der [Handlungsfelder](/handlungsfelder/). In den folgenden vier Übersichten ist eine vernetzte Darstellung der Kompetenzorierung ersichtlich:
 
 - [Modulmatrix Bachelor](/medieninformatik-bachelor/modulmatrix-bpo5/)
 - [Kompetenzübersicht der Module im Bachelor](/medieninformatik-bachelor/kompetenzen-der-module-bpo5/)
@@ -46,7 +46,7 @@ Eine detaillierte Beschreibung der Kompetenzen findet sich im [Profil der Absolv
 
 #### Global Citizenship
 
-In den Learning Outcomes verschiedener Module wird die kritische Reflexion des eigenen Handelns und eigener Entscheidungen in komplexen, unvollständig definierten Zusammenhängen, die konstruktiv-kritische Auseinandersetzung mit den Handlungen und Entscheidungen anderer und die Bereitschaft zur kritischen Teilnahme am gesellschaftlichen Diskurs zu den Begriffen Anerkennung, Ethik, Verantwortung und Nachhaltigkeit besonders adressiert. Diese Kompetenzen sind explizit in verschiedenen Handlungsfeldern formuliert. Insbesondere ist hier das Handlungsfeld «[INDI](/handlungsfelder/#enhancing-interactions-on-different-scales)» mit dem Kompetenzbereich «Ethik und Gesellschaft» zu nennen.
+In den Learning Outcomes verschiedener Module wird die kritische Reflexion des eigenen Handelns und eigener Entscheidungen in komplexen, unvollständig definierten Zusammenhängen, die konstruktiv-kritische Auseinandersetzung mit den Handlungen und Entscheidungen anderer und die Bereitschaft zur kritischen Teilnahme am gesellschaftlichen Diskurs zu den Begriffen Anerkennung, Ethik, Verantwortung und Nachhaltigkeit besonders adressiert. Diese Kompetenzen sind explizit in verschiedenen Handlungsfeldern formuliert. Insbesondere ist hier das Handlungsfeld [«Enhancing Interactions on Different Scales»](/handlungsfelder/#enhancing-interactions-on-different-scales) mit dem Kompetenzbereich «Ethik und Gesellschaft» zu nennen.
 
 Einige Module zahlen besonders auf Global Citizenship Education ein, wie die vernetzte Darstellung der Kompetenzen zeigt:
 
@@ -54,17 +54,19 @@ Einige Module zahlen besonders auf Global Citizenship Education ein, wie die ver
 - [Global Citizenship im Master](/medieninformatik-master/kompetenzen-der-module-mpo5/#ethik-und-gesellschaft)
 
 
-
-
 #### Kompetenzorientierung
 
-Für die Konzeption der Studiengänge wurde ein Absolvent\*innenprofil erarbeitet, das unter Einbezug einer externe Expertise wie einschlägige Stellenanzeigen und Interviews mit späteren Arbeitgeber\*innen (in Wirtschaft und Forschungseinrichtungen) entwickelt wurde. Diese Profil ist transparent formuliert und in [fünf Handlungsfelder](/handlungsfelder/) gegliedert, die die Tätigkeiten der Absolvent\*innen nach dem Studium beschreiben. In jedem Handlungsfeld wurden danach die für die jeweiligen Tätigkeiten relevanten Kompetenzen analysiert, nachvollziehbar formuliert und in einzelne Bereiche gegliedert.
+Für die Konzeption der Studiengänge wurde ein Absolvent\*innenprofil erarbeitet, das unter Einbezug einer externe Expertise, wie einschlägigen Stellenanzeigen und Interviews mit potenziellen Arbeitgeber\*innen (in Wirtschaft und Forschungseinrichtungen) entwickelt wurde. Dieses Profil ist transparent formuliert und in [fünf Handlungsfelder](/handlungsfelder/) gegliedert, welche die Tätigkeiten der Absolvent\*innen nach dem Studium beschreiben. In jedem Handlungsfeld wurden danach die, für die jeweiligen Tätigkeiten relevanten Kompetenzen analysiert, nachvollziehbar formuliert und in einzelne Bereiche gegliedert.
 
-Anhand dieses Kompetenzkatalogs wurde in der Konzeption der Medieninformatik Bachelor- und Master-Studiengänge eine stringente **Kompetenzorientierung** hinterlegt. Die einzelnen Module wiederum greifen diese jeweiligen Kompetenzen auf (siehe Kompetenzübersichd der Module [im Bachelor](/medieninformatik-bachelor/kompetenzen-der-module-bpo5/) und [im Master](/medieninformatik-master/kompetenzen-der-module-mpo5/)) und formulieren Learning Outcomes, die den Erwerb der entsprechenden Fähigkeiten unterstützen. Je Modul wird in einer »Kompetenzblume« ersichtlich, in welcher Quantität und in welcher Qualität ein Modul den Kompetenzerwerb der Studierenden fördert und zu deren Kompetenzprofil beiträgt. Diese setzen sich auf der höheren Ebene Profile der der Absolvent\*innen diese Kompetenzen in handlungsfähigen zusammen.
+Anhand dieses Kompetenzkatalogs wurde in der Konzeption der Medieninformatik Bachelor- und Master-Studiengänge eine stringente **Kompetenzorientierung** hinterlegt. Die einzelnen Module wiederum greifen diese jeweiligen Kompetenzen auf (siehe Kompetenzübersicht der Module [im Bachelor](/medieninformatik-bachelor/kompetenzen-der-module-bpo5/) und [im Master](/medieninformatik-master/kompetenzen-der-module-mpo5/)) und formulieren Learning Outcomes, die den Erwerb der entsprechenden Fähigkeiten unterstützen. Je Modul wird in einer «Kompetenzblume» ersichtlich, in welcher Quantität und in welcher Qualität ein Modul den Kompetenzerwerb der Studierenden fördert und zu deren Kompetenzprofil beiträgt. 
+
+> CN: @Matthias: den hier versteh ich nicht: Diese setzen sich auf der höheren Ebene Profile der der Absolvent\*innen diese Kompetenzen in handlungsfähigen zusammen.
 
 {% screenshot "/images/kurzbericht/kompetenzblume-raw.png", "Kompetenzblume am Beispiel des Moduls [Medienprojekt](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Medienprojekt/)" %}
 
-Zur Garantie und Steigerung der **Employability** bilden die Studiengänge ein hohes Maß an Anwendungsorientierung der Kompetenzen durch einen Projektfokus ab. Sowohl im Bachelor- als auch im Masterstudiengang der Medieninformatik sind in jedem Semester mindestens ein Projekt im Curriculum verankert bzw. zu wählen. Damit adressieren die Curricula zum einen den Bedarf aus der Industrie, Studierende nicht nur anhand von Zeugnissen beurteilen zu müssen: Die verschiedenen Projekte werden es den Absolvent/:innen erlauben, sich mit einem repräsentativen Portfolio vorzustellen. Zum anderen bieten die Projekte einen Ort, um Querschnittskompetenzen (insb. aus dem Handlungsfeld [»CREA«](/handlungsfelder/#driving-creation-processes)) in der direkten Anwendung zu vermitteln.
+Zur Sicherstellung der **Employability** bilden die Studiengänge ein hohes Maß an Anwendungsorientierung der Kompetenzen durch einen Projektfokus ab. Sowohl im Bachelor- als auch im Masterstudiengang Medieninformatik sind in jedem Semester mindestens ein Projekt im Curriculum verankert bzw. zu wählen. Damit adressieren die Curricula zum einen den Bedarf aus der Industrie, Studierende nicht nur anhand von Zeugnissen beurteilen zu müssen: Die verschiedenen Projekte werden es den Absolvent\*innen erlauben, sich mit einem repräsentativen Portfolio vorzustellen. Zum anderen bieten die Projekte einen Ort, um Querschnittskompetenzen (insbesondere aus dem Handlungsfeld [«Driving Creation Processes»](/handlungsfelder/#driving-creation-processes)) in der direkten Anwendung zu erwerben und zu festigen.
+
+> CN: bis hier hin bin ich schon :)
 
 Konkret werden die folgenden Projekte von Semester 1 bis 7 im Bachelorstudiengang bearbeitet (in aufsteigender Semesterreihenfolge)
 
