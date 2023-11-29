@@ -77,6 +77,8 @@ sie entwickeln playful user experiences durch Gamification und Serious Games, um
 Sie konzipieren und erkunden Umsetzungsmöglichkeiten von experimentellen Benutzungsschnittstellen und sie
 entwickeln neue Konzepten für teambasierte und soziale Interaktionsformen in Multiuser-Umgebungen sowohl in industriellen als auch in privaten Kontexten mit dem Ziel anwendungsorientierter Forschung und der Identifikation von Potentialen für innovate Produkte.
 
+Teamarbeit ist ein essentieller Bestandteil der Projektarbeit. Daher ist für diese Projekte eine Zahl von 2 Teilnehmer\*innen minimum. Idealerweilse wird ein größerer Projektkontext aufgespannt.
+
 ## Inhalte
 
 Teambildung und -management

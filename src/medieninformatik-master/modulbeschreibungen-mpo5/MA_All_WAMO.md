@@ -25,9 +25,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: ok    
 ---
 
-## Kurzbeschreibung
-
-Dieses Modul kann frei aus dem Katalog der Pflicht- und Wahlpflichtmodule der Masterstudiengänge der Informatik gewählt werden. Ein Katalog mit weiteren Angeboten wird nach Maßgabe des Beschlusses des Fakultätsrats der Fakultät für Informatik und Ingenieurwissenschaften zusammengestellt und durch Aushang und auf den Webseiten der Fakultät bekannt gemacht. Innerhalb des Master Medieninformatik stehen insbesondere die folgenden Module zur Auwahl.
+Dieses Modul kann frei aus dem Katalog der Pflicht- und Wahlpflichtmodule der Masterstudiengänge der Informatik belegt werden. Ein Katalog mit weiteren Angeboten wird nach Maßgabe des Beschlusses des Fakultätsrats der Fakultät für Informatik und Ingenieurwissenschaften zusammengestellt und durch Aushang und auf den Webseiten der Fakultät bekannt gemacht. Innerhalb des Master Medieninformatik stehen insbesondere die folgenden Module zur Auwahl.

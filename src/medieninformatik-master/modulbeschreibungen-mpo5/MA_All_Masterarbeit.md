@@ -21,7 +21,7 @@ studienleistungen:
     zweitpruefer: all
     datum: antrag
 meta:
-  status: rfreview    
+  status: ok    
 ---
 
 ## Kurzbeschreibung

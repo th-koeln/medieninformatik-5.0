@@ -75,6 +75,9 @@ Sie kennen Qualitätsanforderungen an die Erstellung von Dokumentationen sowie d
 
 Die Studierendenteam sind in der Lage, die  Zusammenarbeit mit anderen Entwickler:innen, Designer:innen Productowner:innen und weiteren Stakeholdern zu koordinieren und zu realisieren, um sicherzustellen, dass die entwickelten Systeme den Anforderungen und Erwartungen entsprechen.
 
+Teamarbeit ist ein essentieller Bestandteil der Projektarbeit. Daher ist für diese Projekte eine Zahl von 2 Teilnehmer\*innen minimum. Idealerweilse wird ein größerer Projektkontext aufgespannt.
+
+
 ## Inhalte
 - Teams, Teamarbeit und -management
 - Erfordernisse, Requirementssengineering und -management
