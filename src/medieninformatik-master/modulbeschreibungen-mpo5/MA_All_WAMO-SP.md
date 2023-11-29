@@ -8,8 +8,8 @@ sprache: deutsch
 angebotImWs: true
 angebotImSs: true
 kreditpunkte: 6
-voraussetzungenNachPruefungsordnung: 
-empfohleneVoraussetzungen: 
+voraussetzungenNachPruefungsordnung: siehe Modulbeschreibung des gewählten Moduls
+empfohleneVoraussetzungen: siehe Modulbeschreibung des gewählten Moduls
 published: true
 infourl: 
 zielmedium: web
@@ -25,13 +25,8 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: ok
 ---
 
-## Kurzbeschreibung
 
-Wahlmodul aus dem Katalog der Module, die einem der Schwerpunkte DUX, DEV oder EXA zugeordnet sind.
-
-## Arbeitsaufwand
-
-180 Stunden
+Dieses Modul kann aus dem Katalog der Schwerpunktmodule belegt werden. Die Schwerpunktmodule sind jeweils einem der drei Schwerpunkte DUX, DEV oder EXA zugeordnet und dienen zur Vertiefung der Kompetenzen in einem bestimmten Bereich der Medieninformatik.
