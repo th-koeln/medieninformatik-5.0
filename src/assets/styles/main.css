@@ -1489,6 +1489,8 @@ ul.hero-list > li + li {
   font-size: var(--m);
   padding-left: var(--s);
   padding-bottom: var(--half);
+  padding-top: 0;
+  margin-bottom: 0;
 }
 .modulbeschreibung .scores-and-charts .score .score-list {
   overflow: hidden;

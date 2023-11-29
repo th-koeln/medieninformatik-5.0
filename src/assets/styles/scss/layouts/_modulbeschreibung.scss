@@ -125,11 +125,9 @@
         width: 100%;
       }
     }
-
-    .scores{
-      .description-text{
-        margin-bottom: var(--fluid-space-l);
-      }
+    .description-text{
+      margin-bottom: var(--fluid-space-l);
+      padding-right: var(--fluid-space-m);
     }
 
     .score{
@@ -149,6 +147,8 @@
         font-size: var(--m);
         padding-left: var(--s);
         padding-bottom: var(--half);
+        padding-top: 0;
+        margin-bottom: 0;
       }
 
       .score-list{
