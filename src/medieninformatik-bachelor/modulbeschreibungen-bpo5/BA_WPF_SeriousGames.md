@@ -1,7 +1,7 @@
 ---
-title: Wahlpflichtmodul Interactive Learning und Serious Games
-modulverantwortlich: rgr
-dozierende: Raphaela Groten, Sven Kullack
+title: Interactive Learning und Serious Games
+modulverantwortlich: rgroten
+dozierende: rgroten, skullack
 modulniveau: bachelor
 kuerzel: ILSG
 date: Last Modified 
@@ -13,22 +13,24 @@ empfohleneVoraussetzungen: MCI
 published: true
 infourl: 
 layout: modulbeschreibung.11ty.js
-typ: pm
+typ: wpf
 veranstaltungsform: 
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit
-    erstpruefer: rgr
+    erstpruefer: rgroten
     zweitpruefer: freiwillige?
-weitereStudiengaenge: Inf
+weitereStudiengaenge: 
+  - I
 meta:
   status: ok
+  authors: rgroten
+  reviewers: muesse
 praesenzZeit: 50
 selbstStudium: 100
 angebotImWs: false
 angebotImSs: true 
-  authors: rgr
-  reviewers: muesse
+
 
 
 ---

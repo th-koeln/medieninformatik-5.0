@@ -591,7 +591,7 @@ table {
 
 /* Aside
 ############################################################################ */
-@media screen and (min-width: 180ch) {
+@media screen and (min-width: 160ch) {
   .content-wrap:has(aside) {
     display: grid;
     gap: var(--fluid-space-m);
@@ -1261,6 +1261,42 @@ ul.hero-list > li + li {
   padding-left: var(--half);
   padding-right: var(--half);
   color: var(--dark);
+}
+
+/* Scroll to top
+############################################################################ */
+#scroll-to-top {
+  position: fixed;
+  z-index: 100;
+  right: var(--xs);
+  bottom: -200px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all var(--tr-fast);
+}
+#scroll-to-top:hover {
+  background-color: var(--darkest);
+}
+#scroll-to-top a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--xl);
+  color: var(--lightest);
+  width: 3ch;
+  height: 3ch;
+  text-decoration: none;
+}
+#scroll-to-top a span {
+  transition: margin var(--tr-fast);
+  margin-top: 0;
+}
+#scroll-to-top a:hover span {
+  margin-top: -0.5ch;
+}
+#scroll-to-top.is-visible {
+  bottom: var(--xs);
 }
 
 /* Content Blocks
