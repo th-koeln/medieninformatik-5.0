@@ -6,15 +6,15 @@
   @media screen and (min-width: 120rem){
     main{
       & > *:not(h4) {
-        margin-left: 33%;
+        margin-left: 40ch;
       }
 
       h4{
-        width: 31%;
+        width: 38ch;
         height: 0;
         margin-bottom: 0;
         padding-bottom: 0;
-        margin-left: -33%;
+        margin-left: -40ch;
     
       }
 
