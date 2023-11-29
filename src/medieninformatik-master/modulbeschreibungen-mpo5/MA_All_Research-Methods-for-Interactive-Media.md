@@ -27,18 +27,19 @@ meta:
 
 ## Learning Outcome
 
-Die Studierenden kennen die verschiedene Paradigmen empirischer Forschung, können diese anwenden und methodisch und epistemologisch kritisch einordnen um hinsichtlich eigener Forschungsvorhaben entscheiden zu können, welches Paradigma/Kombination von Paradigmen bei Ihrem Projekt angemessen ist.
+Die Studierenden kennen die verschiedene Paradigmen empirischer Forschung, können diese anwenden und methodisch und epistemologisch kritisch einordnen, um hinsichtlich eigener Forschungsvorhaben entscheiden zu können, welches Paradigma/Kombination von Paradigmen bei Ihren Projekten angemessen sind.
 
-Sie haben Gütekriterien quantitativer und qualitativer Forschung verstanden und können diese exemplarisch anhand von aktuellen Publikationen kritisch diskutieren um fachlich fundierte und angemessene Sichten auf aktuelle Forschungsbeiträge einnehmen zu können.
+Sie haben Gütekriterien quantitativer und qualitativer Forschung verstanden und können diese exemplarisch anhand von aktuellen Publikationen kritisch diskutieren, um fachlich fundierte und angemessene Sichten auf aktuelle Forschungsbeiträge einnehmen zu können.
 
-Die Studierenden können Forschungsthemen identifizieren, Forschungsfragen ableiten und auf Basis einer fundierten Domänenrecherche eigene Forschungshypothesen formulieren. Sie können angemessene Forschungsdesigns dazu entwickeln, diese proaktiv kritisch hinterfragen und kritisch einordnen um eine hinreichende Qualitätssicherung bzgl. eines eigenen Forschungsvorhabens sicherstellen zu können.
+Die Studierenden können Forschungsthemen identifizieren, Forschungsfragen ableiten und auf Basis einer fundierten Domänenrecherche eigene Forschungshypothesen formulieren. Sie können angemessene Forschungsdesigns dazu entwickeln, diese proaktiv kritisch hinterfragen und kritisch einordnen, um eine hinreichende Qualitätssicherung bzgl. eines eigenen Forschungsvorhabens sicherstellen zu können.
 
-Die Studierenden sind in der Lage, die mit der Forschungsfrage einhergehenden theoretischen Konstrukte und Konzepte sowie unabhängige und abhängige Variablen zu operationalisieren, zugehörige Skalenniveaus für die Variablen zu identifizieren sowie Messverfahren, -instrument und -vorschriften für die Indikatoren festzulegen, um eigene Forschungsfragen fundiert zu operationalisieren.
+Die Studierenden sind in der Lage, die mit der Forschungsfrage einhergehenden theoretischen Konstrukte und Konzepte sowie unabhängige und abhängige Variablen zu operationalisieren, zugehörige Skalenniveaus für die Variablen zu identifizieren sowie Messverfahren, -instrument und -vorschriften für die Indikatoren festzulegen, um eigene Forschungsfragen sachlich-fachlich fundiert zu operationalisieren.
 
-Die Studierenden kennen die verschiedenen Formen von Stichprobenziehungen und können anhand der Annahmen über die zugrundeliegende Population Entscheidungen über die Stichprobengenerierung treffen um repräsentative Stichproben zu ziehen.
+Die Studierenden kennen die verschiedenen Formen von Stichprobenziehungen und können anhand der Annahmen über die zugrundeliegende Population Entscheidungen über die Stichprobengenerierung treffen, um anhand konzeptioneller und praktischer Kritien angemessene Stichproben zu ziehen.
 
 > rgr: neuer Absatz, bitte prüfen
-Die Studierenden wählen die Methoden der quantitative Datenanalyse in Abhängigkeit von Forschungsfrage, Operatioanlisieurng und experimentellen Design. Deskriptive und Inferenzstatistik werden eingesetzt um Hypothesen zu prüfen. Die Studierenden sind in der Lage geeignete statistische Verfahren nachzuvollziehen (Schwerpunkt parametrische Test wie t-Test und Varaianzanalyse), zu wählen und die Ergebnisse zu interpretieren. Die vermittelten Kenntnisse zu Statisitk sind insbesondere im Kontext von "Data und Statistical Literacy" relevant.
+> GeHa: done!
+Die Studierenden wählen die Methoden der quantitative Datenanalyse in Abhängigkeit von Forschungsfrage, Operatioanlisieurng und experimentellen Design. Deskriptive und Inferenzstatistik werden eingesetzt, um die Daten aus den Stichproben zu analysieren, hinsichtlich der Annahmen zu der Stichproben und Voraussetzung für die anzuwendenen statistischen Verfahren die Hypothesen zu prüfen. Die Studierenden sind in der Lage, geeignete statistische Verfahren nachzuvollziehen (Schwerpunkt parametrische Test wie t-Test und Varaianzanalyse), zu wählen und die Ergebnisse zu interpretieren. Die vermittelten Kenntnisse zu Statistik sind insbesondere im Kontext von "Data und Statistical Literacy" relevant.
 
 Die Studierenden kennen Methoden der quantitativen und qualitativen Datenanalyse, können diese anwenden und die so erziehlten Ergebnisse im Lichte eines methodenkritischen Diskurses reflektiert hinsichtlich Tragfähigkeit der Erkenntnisse und potentieller Limitationen kritisch diskutieren.
 
