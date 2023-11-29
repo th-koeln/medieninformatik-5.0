@@ -139,7 +139,7 @@ dpeterson:
     id: dpeterson
     status: wma
     name: 'David Petersen'
-    avatar: '/professoren/petersen.png'
+    avatar: '/wissmas/david-petersen.png'
     personenseite: 'https://www.th-koeln.de/personen/david.petersen/'
     mi: true
     
@@ -243,6 +243,14 @@ seckstein:
     avatar: '/professoren/stefan-eckstein.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.eckstein/'
     mi: true
+
+skullack:
+    id: skullack
+    status: wma
+    name: 'Sven Kullack'
+    avatar: '/wissmas/sven-kullack.png'
+    personenseite: 'https://www.th-koeln.de/personen/sven.kullack/'
+    mi: false    
 
 mlinden:
     id: mlinden

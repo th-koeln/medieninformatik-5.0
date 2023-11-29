@@ -195,9 +195,7 @@ const addDynamicHyperlinks = () => {
 
 
 
-
-
-/* Gallerien interaktiv machen
+/* Galerien interaktiv machen
 ############################################################################ */
 
 const addGalleryInteractions = () => {
@@ -214,6 +212,21 @@ const addGalleryInteractions = () => {
   });
 };
 
+/* Scroll to Top
+############################################################################ */
+
+const addScrollToTop = () => {
+  const scrollToTop = document.querySelector("[data-js-to-top]");
+  if(!scrollToTop || scrollToTop === null) return;
+
+  window.onscroll = () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      scrollToTop.classList.add("is-visible");
+    } else {
+      scrollToTop.classList.remove("is-visible");
+    }
+  };
+};
 
 /* Main
 ############################################################################ */
@@ -224,4 +237,5 @@ document.addEventListener("DOMContentLoaded", () => {
   addListInteractions();
   addDynamicHyperlinks();
   addGalleryInteractions();
+  addScrollToTop();
 });
