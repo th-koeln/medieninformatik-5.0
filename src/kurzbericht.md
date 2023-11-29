@@ -5,5 +5,6 @@ layout: kurzbericht.11ty.js
 version: 0.0.0
 inToc: true
 date: last Modified
+mode: production
 ---
 

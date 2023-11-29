@@ -69,5 +69,7 @@ Die Dokumentation ist mit der vorliegenden Website erfolgt. Diese bietet:
 
 #### Jährliche Qualistätssicherung und Weiterentwicklung: Reality Check – Gesamtsicht auf den Studiengang und Weiterentwicklung des Studiengangs
 
-Die Studiengangsleitungen verpflichten sich, wie in der Curriculumswerkstatt vorgesehen, zur jährlichen Überprüfung der Zielerreichung und möglicher Ableitungen von Studienreformmaßnahmen also auch zur Überprüfung der Zielerreichung im Fakultätsgespräch mit dem Präsidium anhand des Qualitätsberichts alle zwei Jahre.
+Die Studiengangsleitungen verpflichten sich, wie in der Curriculumswerkstatt vorgesehen:
+- zur jährlichen Überprüfung der Zielerreichung und möglicher Ableitungen von Studienreformmaßnahmen
+- zur Überprüfung der Zielerreichung im Fakultätsgespräch mit dem Präsidium anhand des Qualitätsberichts alle zwei Jahre.
 

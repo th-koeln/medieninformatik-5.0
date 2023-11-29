@@ -2,6 +2,7 @@
 title: Präludium
 layout: page.11ty.js
 level: 1
+mode: production
 meta:
   status: ok
 ---

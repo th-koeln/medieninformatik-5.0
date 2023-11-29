@@ -23,10 +23,6 @@ ul:not([class]) {
   }
 }
 
-p + ul:not([class]){
-  margin-top: calc(var(--xs) * -1);
-}
-
 ol:not([class]){
 
   padding-left: 2ch;

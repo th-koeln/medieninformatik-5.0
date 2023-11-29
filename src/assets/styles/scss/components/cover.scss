@@ -6,7 +6,6 @@
   header {
     display: flex;
     flex-direction: column;
-    height: 50vh;
   }
 
   .owner {
@@ -24,7 +23,8 @@
     font-size: var(--xxl);
     color: var(--darkest);
     font-weight: var(--fw-bold);
-    margin-bottom: var(--fluid-space-l);
+    padding-bottom: var(--fluid-space-xl);
+    margin-bottom: var(--fluid-space-xl);
     line-height: var(--lh-tight);
   }
 

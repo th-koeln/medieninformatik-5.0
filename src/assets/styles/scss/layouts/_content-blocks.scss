@@ -5,6 +5,8 @@
 
   section {
 
+    padding-bottom: 0;
+
     .content{
       padding-top: calc(var(--fluid-space-s) * 1);
       padding-right: var(--fluid-space-s);
@@ -13,20 +15,9 @@
         max-width: var(--max-width-content);
       }
 
-      h2, h3{
-        padding-top: 0;
-        padding-bottom: var(--fluid-space-xs);
-      }
-
       p:last-child{
         margin-bottom: 0;
       }
-
-      p + h3{
-        margin-top: var(--fluid-space-xl);
-      }
-
-
     }
 
     @media screen and (min-width: 160ch) {

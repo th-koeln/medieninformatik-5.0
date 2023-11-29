@@ -46,6 +46,7 @@ exports.getContentMeta = (eleventy, meta) => {
 ############################################################################ */
 
 exports.getEditLink = (item, data) => {
+  if(!data.mode || data.mode !== 'edit') return '';
   const editUrl = `${data.settings.repoEditUrl}${item.page.inputPath.replace('./src/', 'src/')}`;
   const editElement = `<a href="${editUrl}" title="Inhalt ändern"><span class="icon icon--inline">edit</span></a>`;
 
@@ -55,7 +56,8 @@ exports.getEditLink = (item, data) => {
 /* Open in New Window Link für Content erzeugen 
 ############################################################################ */
 
-exports.getOpenInNewWindowLink = (item) => {
+exports.getOpenInNewWindowLink = (item, data) => {
+  if(!data || !data.mode || data.mode !== 'edit') return '';
   const url = `${item.url}`;
   return `<a href="${url}" title="Inhalt in neuem Fenster öffnen"><span class="icon icon--inline">open_in_new</span></a>`;
 };
