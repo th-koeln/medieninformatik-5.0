@@ -330,9 +330,12 @@ sst:
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter, Prof. Dr. Matthias Böhmer, Prof. Dr. Raphaela Groten, Prof. Dr. Florian Niebling, Prof. Dr. Hoai Viet Nguyen, Prof. Dr. Irma Lindt'
+    avatar: '/avatar.png'
+
 all:
     id: all
     name: 'alle Professor:innen'
+    avatar: '/avatar.png'
     
 eingesetzterPruefer:
     id: eingesetzterPruefer
