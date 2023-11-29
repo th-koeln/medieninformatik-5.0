@@ -21,7 +21,12 @@ studienleistungen:
     erstpruefer: cn
     zweitpruefer: vos
     datum: 21.09.2023
-angebotImSs: true    
+angebotImSs: true
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
 ---
 
 ## Sprache

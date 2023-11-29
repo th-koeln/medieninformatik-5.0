@@ -3,7 +3,7 @@ title: Curriculumwerkstatt, Studiengangziele, Absolvent:innenprofil, externe Exp
 layout: page.11ty.js
 level: 1
 meta:
-  status: tbd
+  status: ok
   authors: 
   reviewers: 
 ---

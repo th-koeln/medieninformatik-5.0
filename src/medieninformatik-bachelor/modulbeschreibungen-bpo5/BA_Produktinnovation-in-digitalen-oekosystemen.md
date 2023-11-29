@@ -40,6 +40,11 @@ lehrmethoden:
   - Prototyping
 lehrform:
   - Seminar/ Workshop 4 SWS
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 1 
 ---
 
 

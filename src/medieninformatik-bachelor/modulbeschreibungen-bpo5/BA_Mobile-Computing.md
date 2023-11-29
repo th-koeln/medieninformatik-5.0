@@ -41,7 +41,12 @@ weitereStudiengaenge:
 lehrmethoden:
 lehrform:
   - Vorlesung 2 SWS
-  - Praktikum 2 SWS      
+  - Praktikum 2 SWS
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0  
 ---
 
 ## Learning Outcome

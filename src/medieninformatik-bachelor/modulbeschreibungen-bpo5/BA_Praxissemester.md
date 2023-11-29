@@ -37,7 +37,11 @@ weitereStudiengaenge:
   - wi
 lehrmethoden:
 lehrform:
-
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 1
+  interdisziplinaritaet: 1
+  transfer: 1
 ---
 
 ## Learning Outcome

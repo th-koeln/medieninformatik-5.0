@@ -30,7 +30,11 @@ praesenzZeit: 50
 selbstStudium: 100
 angebotImWs: false
 angebotImSs: true 
-
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
 
 
 ---

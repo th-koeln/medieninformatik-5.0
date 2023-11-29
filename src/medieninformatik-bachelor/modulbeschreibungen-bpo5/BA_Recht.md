@@ -22,7 +22,11 @@ studienleistungen:
     erstpruefer: jh
     zweitpruefer: 
     datum: ss-2, ws-1
-
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
 ---
 
 ## Lehrform/SWS

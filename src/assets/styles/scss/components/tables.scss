@@ -200,14 +200,10 @@ table {
     & > div {
       position: absolute;
       
-      left: 0;
+      left: 0.45ch;
       bottom: 1ch;
       transform: rotate(-90deg);
       width: 30px;
-
-      & > span {
-        padding: 10px 0;
-      }
     }
   }
 

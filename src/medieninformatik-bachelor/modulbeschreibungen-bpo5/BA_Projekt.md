@@ -35,6 +35,11 @@ lehrmethoden:
   - Sprintplanung
   - Sprint Reviews
   - Retrospektiven
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 1
 ---
 
 > cn: ich hab das mal ein bisschen in Struktur gebracht … @Gerhard: könntest Du bitte noch mal drüber gucken und die LOs in WAS-WOMIT-WOZU Struktur bringen? Vielen Dank!

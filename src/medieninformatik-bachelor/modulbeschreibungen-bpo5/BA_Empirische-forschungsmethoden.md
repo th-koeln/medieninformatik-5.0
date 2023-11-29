@@ -27,6 +27,11 @@ studienleistungen:
     erstpruefer: mbluemm
     zweitpruefer: ck, uwm, simonschulte 
     datum: ende
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
 ---
 
 ## Lehrform/SWS

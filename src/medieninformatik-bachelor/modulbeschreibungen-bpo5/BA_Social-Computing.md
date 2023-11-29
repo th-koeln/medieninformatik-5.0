@@ -40,6 +40,11 @@ lehrmethoden:
 lehrform:
   - Vorlesung 1 SWS
   - Seminar 2 SWS
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0  
 ---
 
 

@@ -44,6 +44,11 @@ lehrmethoden:
   - Übungen mit vorbereitetenden Aufgaben, die von Studenten vorgestellt und gemeinsam diskutiert werden, zur Vertiefung der Inhalte der Vorlesung
   - Projekt-Praktikum mit Teamarbeit, Dokumentation und Präsentation, sowie Abnahme Probeklausur-Aufgaben
   - fallweise Tutorien mit studentischen Tutor*innen zur Klärung Verständnisfragen
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0  
 ---
 
 ## Learning Outcome

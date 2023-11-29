@@ -34,6 +34,11 @@ selbstStudium: 90
 angebotImWs: true
 angebotImSs: false
 weitereStudiengaenge: 
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
 ---
 
 ## Learning Outcome

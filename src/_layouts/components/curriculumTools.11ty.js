@@ -433,7 +433,8 @@ exports.getModulMatrix = (obj) => {
   const { handlungsfelder } = obj;
   const { eleventy } = obj;
 
-  const impactGate = 0; // Soviel muss ein Modul liefern, damit es als "check" gilt
+  const impactGate = 2; // Soviel muss ein Modul mindestens liefern, damit es als "check" gilt
+  const impactGateStudiengangkriterien = 0; // Soviel muss ein Modul mindestens liefern, damit es als "check" gilt
   const impactGateHandlungsfeld = 10; // Soviel muss ein Handlungsfeld liefern, damit es als "check" gilt
 
   const modulRows = moduls.map((modulItem) => {
@@ -444,12 +445,18 @@ exports.getModulMatrix = (obj) => {
     const checkImpact = ( value ) => {
       if(!value) return "";
       if(!value.liefert) return "";
-      return value.liefert > impactGate ? check : "";
+      const opacity = value.liefert / 10;
+      return value.liefert > impactGate ? `<span style="opacity: ${opacity}" class="icon is-checked">check</span>` : "";
+    };
+
+    const checkImpactStudiengangkriterien = ( value ) => {
+      if(!value) return "";
+      return value > impactGateStudiengangkriterien ? check : "";
     };
 
     const checkImpactHandlungsfeld = ( handlungsfeld ) => {
 
-      if(studyProgramme === 'master') { return modul.handlungsfelder?.DUX ? "DUX" : ""; }
+      // if(studyProgramme === 'master') { return modul.handlungsfelder?.DUX ? "DUX" : ""; }
       if(!modul.kompetenzen?.handlungsfelderOverall) return "";
 
       const kompetenzenImHandlungsfeld = modul.kompetenzen.handlungsfelderOverall[handlungsfeld];
@@ -464,7 +471,7 @@ exports.getModulMatrix = (obj) => {
         return accumulator + scoreBereich;
       }, 0);
       
-      return summeImactKompetenzenImHandlungsfeld > impactGateHandlungsfeld ? handlungsfeld : "";
+      return summeImactKompetenzenImHandlungsfeld > impactGateHandlungsfeld ? check : "";
 
     };
 
@@ -509,10 +516,10 @@ exports.getModulMatrix = (obj) => {
         <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.INDI?.selbstlernen)}</td>
   
         <!-- Zuordnung Studiengangkriterien -->
-        <td>${checkImpact(modul.studiengangkriterien?.globalcitizenship)}</td>
-        <td>${checkImpact(modul.studiengangkriterien?.internationalisierung)}</td>
-        <td>${checkImpact(modul.studiengangkriterien?.interdisziplinaritaet)}</td>
-        <td>${checkImpact(modul.studiengangkriterien?.transfer)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.globalcitizenship)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.internationalisierung)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.interdisziplinaritaet)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.transfer)}</td>
   
       </tr>
       `
