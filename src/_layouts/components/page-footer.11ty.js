@@ -19,6 +19,12 @@ exports.getPageFooter = (eleventy, data) => {
         ${date}.${month}.${year} // ${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}
       </p>
     </footer>
+    
     ${gallery.getLightboxDialog()}
+
+    <div id="scroll-to-top" data-js-to-top>
+      <a href="#top-of-page" class="scroll-to-top-link" aria-label="Scroll to top"><span class="icon">arrow_upward</span></a>
+    </div>
+
   `;
 };
