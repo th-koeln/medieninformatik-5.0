@@ -27,7 +27,7 @@ meta:
 
 ## Learning Outcome
 
-Die Studierenden kennen die verschiedene Paradigmen empirischer Forschung, können diese Anwenden und methodisch und epistemologisch kritisch einordnen um hinsichtlich eigener Forschungsvorhaben entscheiden zu können, welches Paradigma/Kombination von Paradigmen bei Ihrem Projekt angemessen ist.
+Die Studierenden kennen die verschiedene Paradigmen empirischer Forschung, können diese anwenden und methodisch und epistemologisch kritisch einordnen um hinsichtlich eigener Forschungsvorhaben entscheiden zu können, welches Paradigma/Kombination von Paradigmen bei Ihrem Projekt angemessen ist.
 
 Sie haben Gütekriterien quantitativer und qualitativer Forschung verstanden und können diese exemplarisch anhand von aktuellen Publikationen kritisch diskutieren um fachlich fundierte und angemessene Sichten auf aktuelle Forschungsbeiträge einnehmen zu können.
 
@@ -42,7 +42,7 @@ Die Studierenden wählen die Methoden der quantitative Datenanalyse in Abhängig
 
 Die Studierenden kennen Methoden der quantitativen und qualitativen Datenanalyse, können diese anwenden und die so erziehlten Ergebnisse im Lichte eines methodenkritischen Diskurses reflektiert hinsichtlich Tragfähigkeit der Erkenntnisse und potentieller Limitationen kritisch diskutieren.
 
-Die Teilnehmer sind in der Lage verschiedene methodische Rahmen für die Beantwortung empirischer Problem- oder Fragestellungen zu benennen, kritisch einzuordnen und für ihre konkreten Projekte (Zielsetzungen, Rahmenbedingungen, etc.) eine rational begründete Wahl eines (oder einer Kombination aus verschiedenen) methodischen Rahmen zu treffen und zu kommunizieren. Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwenden und Resultate angemessen zu interpretieren und kritisch zu diskutieren um einer wissenschaftlichen Community ihre Ergebnisse angemessen und in kritisch reflektierter Weise zu kommunizieren.
+Die Teilnehmenden sind in der Lage verschiedene methodische Rahmen für die Beantwortung empirischer Problem- oder Fragestellungen zu benennen, kritisch einzuordnen und für ihre konkreten Projekte (Zielsetzungen, Rahmenbedingungen, etc.) eine rational begründete Wahl eines (oder einer Kombination aus verschiedenen) methodischen Rahmen zu treffen und zu kommunizieren. Sie sind in der Lage, die Methoden projektgerecht und methodenkompetent anzuwenden und Resultate angemessen zu interpretieren und kritisch zu diskutieren um einer wissenschaftlichen Community ihre Ergebnisse angemessen und in kritisch reflektierter Weise zu kommunizieren.
 
 ## Inhalte
 
