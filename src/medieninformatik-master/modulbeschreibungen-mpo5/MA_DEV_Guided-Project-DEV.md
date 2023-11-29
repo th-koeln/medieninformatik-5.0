@@ -7,6 +7,8 @@ modulniveau: master
 dozierende: mi
 studiensemesterVierSemestrig: 3
 sprache: deutsch
+angebotImWs: true
+angebotImSs: true
 kreditpunkte: 12
 voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen zum Studium hinausgehenden
 empfohleneVoraussetzungen: keine
