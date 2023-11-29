@@ -27,6 +27,15 @@ module.exports = {
 
 		return `
       <div class="content-wrap">
+        <aside>
+          <nav>
+            ${tocTools.getPageTOC({
+              eleventy: this,
+              collection: data.collections.itemsKurzbericht,
+              maxLevel: 2
+            })}
+          </nav>
+        </aside>
 			  <main>
 			    <section class="cover">
 			    	<header>
@@ -44,15 +53,6 @@ module.exports = {
             ${kurzberichtList.join("\n")}
           </section>
 			  </main>
-        <aside>
-          <nav>
-            ${tocTools.getPageTOC({
-              eleventy: this,
-              collection: data.collections.itemsKurzbericht,
-              maxLevel: 2
-            })}
-          </nav>
-        </aside>
       </div>
 		`;
 	}

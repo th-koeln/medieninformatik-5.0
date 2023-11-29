@@ -228,6 +228,42 @@ const addScrollToTop = () => {
   };
 };
 
+/* Scrollspy
+############################################################################ */
+
+const addScrollSpy = () => {
+
+  const inlineNavigation = document.querySelector("[data-js-scrollspy]");
+  if(!inlineNavigation) return;
+
+  let scrollSpyActiveElement = false;
+  const sections = document.querySelectorAll("h2[id], h3[id]");
+    
+  const intersectionCallback = (entries, observer) => {
+    if (entries[0].intesectionRatio <= 0) return;
+
+    if (entries[0].intersectionRatio > 0 || entries[0].intersectionRatio < 0.2) {
+
+      if(scrollSpyActiveElement) scrollSpyActiveElement.classList.remove('is-active');
+
+      const {id} = entries[0].target;
+      const activeElement = inlineNavigation.querySelector(`[data-scrollspy-target="${id}"]`).querySelector("a");
+      activeElement.classList.add('is-active');
+
+      scrollSpyActiveElement = activeElement;
+    }
+  };
+  
+  const intersectionOptions = {};
+  const intersectionObserver = new IntersectionObserver(intersectionCallback, intersectionOptions);
+  
+  sections.forEach((section) => {
+    intersectionObserver.observe(section);
+  });
+
+  
+};
+
 /* Main
 ############################################################################ */
 
@@ -238,4 +274,5 @@ document.addEventListener("DOMContentLoaded", () => {
   addDynamicHyperlinks();
   addGalleryInteractions();
   addScrollToTop();
+  addScrollSpy();
 });

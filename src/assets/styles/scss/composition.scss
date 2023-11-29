@@ -33,17 +33,23 @@ table{
 
 @media screen and (min-width: 160ch){
   .content-wrap:has(aside){
-    display: grid;
+    display: flex;
     gap: var(--fluid-space-m);
-    grid-template-columns: 1fr var(--max-width-navigation);
+    flex-direction: row-reverse;
 
     aside{
       padding-right: var(--xl);
       font-size: var(--s);
+      max-width: var(--max-width-aside);
+      
       nav{
         position: sticky;
         top: calc(var(--fluid-space-l) * 1.5);
       }
+    }
+
+    main{
+      flex-grow: 2;
     }
   }
 }

@@ -2,6 +2,12 @@
 ############################################################################ */
 
 .inline-navigation{
+
+  .navigation-title{
+    font-size: var(--m);
+    padding-top: 0;
+  }
+
   li{
     line-height: var(--lh-tight);
     position: relative;
@@ -14,30 +20,11 @@
       transition: padding var(--tr-fast);
       padding-right: var(--fluid-space-s);
 
-      &:hover{
+      &:hover, &.is-active{
         padding-left: var(--half);
         padding-right: var(--fluid-space-xs);
-        
-      }
-    }
-
-    & > .icon{
-      transition: all var(--tr-fast);
-      position: absolute;
-      top: 0;
-      right: -20px;
-      bottom: 0;
-      line-height: var(--l);
-      vertical-align: bottom;
-      font-weight: var(--fw-bold);
-      opacity: 0;
-      color: var(--color-accent);
-    }
-
-    &:hover{
-      .icon{
-        opacity: 1;
-        right: var(--quat);
+        border-left: solid var(--border-width-m) var(--color-accent);
+        background-color: var(--darken);
       }
     }
   }

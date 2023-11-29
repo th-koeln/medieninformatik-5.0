@@ -40,6 +40,7 @@ h2 {
   padding-top: var(--fluid-space-s);
   margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
+
 }
 
 h3 {
@@ -47,6 +48,7 @@ h3 {
   font-size: var(--l);
   margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
+  font-weight: var(--fw-medium);
 }
 
 h4,
@@ -55,7 +57,11 @@ h6 {
   font-size: var(--m);
   padding-top: var(--fluid-space-xs);
   margin-bottom: var(--half);
-  color: var(--darkest);
+}
+
+h5,
+h6 {
+  padding-top: var(--xs);
 }
 
 p,
@@ -103,6 +109,13 @@ ul + h2,
 ul + h3,
 ul + h4{
   margin-top: var(--fluid-space-s);
+}
+
+p + h5,
+p + h6,
+ul + h5,
+ul + h6{
+  margin-top: var(--half);
 }
 
 hr{

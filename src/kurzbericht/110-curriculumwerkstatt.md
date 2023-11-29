@@ -8,14 +8,13 @@ meta:
   reviewers: cn, mb
   comments: 
     - ">rgr: keine Ahnung, ob das Teilkapitel hier in der Form gedacht ist oder nicht. Die Beschreibung im Web ist auch anders als auf dem pdf (beide im Absatz oben verlinkt). Wenn ich was ändern soll, gebt Bescheid."
+    - "<!-- Input Susanne: Damit ist eine zusammenfassende Beschreibung dazu gemeint, wer wann (und ggf. wie) zu welchen Schritten / Meilensteinen gearbeitet hat. (Gibt es dazu einen guten Begriff in Projektsprache?)  Also den Ablauf und die beteiligten Akteure: Wer war das Entwicklungsteam, wie habt ihr euch Feedback der anderen geholt. Das kann sogar eine Tabelle mit Terminen, Meilenstein und ggf. Fotos sein. Reicht das als Info? Ansonsten können wir auch gerne dazu sprechen? (ich habe auch nochmal den Ablauf angehängt) -->"
   purpose: | 
     Wann (genaue Datumsangaben) wurde die Curriculumwerkstatt durchgeführt? Hinweis: Diese Angaben werden für die Eintragung der Akkreditierung in der Datenbank des Akkreditierungsrates verwendet. 
 ---
 
 
-<!-- Input Susanne: Damit ist eine zusammenfassende Beschreibung dazu gemeint, wer wann (und ggf. wie) zu welchen Schritten / Meilensteinen gearbeitet hat. (Gibt es dazu einen guten Begriff in Projektsprache?)  Also den Ablauf und die beteiligten Akteure:
-Wer war das Entwicklungsteam, wie habt ihr euch Feedback der anderen geholt. Das kann sogar eine Tabelle mit Terminen, Meilenstein und ggf. Fotos sein.
-Reicht das als Info? Ansonsten können wir auch gerne dazu sprechen? (ich habe auch nochmal den Ablauf angehängt) -->
+
 
 Die Reakkreditierung der Studiengänge Medieninformatik Bachelor und Master erfolgte anhand des Entwicklungsprozesses der Curriculumwerkstatt der TH Köln (Stand 25.09.2018, Autoren ZLE / Referat 4). In jedem der sechs Schritten stellt der Prozess Konzepte für die Studiengangsentwicklung in den Fokus (siehe Aufzählung unten). Zu jedem der Konzepte sind zu erarbeitende Artefakte und Aufgaben definiert, siehe [Visualisierung der Schritte der Curriculumwerkstatt TH Köln](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/lehre/curriculumswerkstatt.pdf). Die im Folgenden beschriebene Gliederung orientiert sich an den [Erläuterungen des Zentrums für Lehrentwicklung (ZLE) zur Curriculumwerkstatt](https://www.th-koeln.de/hochschule/studiengangs--und-curriculumsentwicklung_49326.php)
 
@@ -47,12 +46,12 @@ Konkret wurden die [Erkenntnisse/Insights](/insights/) auch genutzt um die fünf
 
 Im Zuge dieser Entwicklungsphasen wurden auch die bestehenden Curricula der beiden Medieninformatikstudiengänge herangezogen, besonders um die Notwendigkeit der jeweiligen Modulen zu hinterfragen. Ausgerichtet auf die [Handlungsfelder](/handlungsfelder/) wurden dann die Learning Outcomes und Prüfungsformen erarbeitet und abgestimmt. Hierzu wurde auch für jedes Modul abgefragt und justiert, inwieweit das Modul auf die konkreten Kompetenzen der Handlungsfelder einzahlt und auf welche Kompetenzen es aufbaut.
 
-**Medieninformatik Bachelor**
+##### Medieninformatik Bachelor
 - [Kompetenzen der Module im Bachelor](/medieninformatik-bachelor/kompetenzen-der-module-bpo5/)
 - [Modulmatrix Bachelor](/medieninformatik-bachelor/modulmatrix-bpo5/)
 - [Modulhandbuch Bachelor](/medieninformatik-bachelor/modulhandbuch-bpo5/)
 
-**Medieninformatik Master**
+##### Medieninformatik Master
 - [Kompetenzen der Module im Master](/medieninformatik-master/kompetenzen-der-module-mpo5/)
 - [Modulmatrix Master](/medieninformatik-master/modulmatrix-mpo5/)
 - [Modulhandbuch Master](/medieninformatik-master/modulhandbuch-mpo5/)

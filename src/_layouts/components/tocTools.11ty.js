@@ -29,9 +29,10 @@ exports.getPageTOC = (obj) => {
   const createToc = (collection) => {
 
     const tocItems = collection.filter(item => item.data.level <= maxLevel).map((item) => {
+      const id = eleventy.slugify(item.data.title);
       return `
-        <li>
-          <a href="#${eleventy.slugify(item.data.title)}">${item.data.title}</a><span class="icon">navigate_next</span>
+        <li data-scrollspy-target="${id}">
+          <a href="#${id}">${item.data.title}</a>
         </li>
       `;
     });
@@ -43,7 +44,8 @@ exports.getPageTOC = (obj) => {
   }
 
   return `
-    <nav class="inline-navigation">
+    <nav class="inline-navigation" data-js-scrollspy>
+      <h2 class="navigation-title">Inhalt</h2>
       ${createToc(collection)}
     </nav>
   `;
