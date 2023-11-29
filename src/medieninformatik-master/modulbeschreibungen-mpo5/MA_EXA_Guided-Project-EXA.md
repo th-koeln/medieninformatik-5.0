@@ -79,8 +79,14 @@ entwickeln neue Konzepten für teambasierte und soziale Interaktionsformen in Mu
 
 ## Inhalte
 
-ToBeDone
-
+Teambildung und -management
+Projektmanagement
+Domänenanalyse und -modellierung
+Interaktionskonzepte und -technologien
+Softwareentwicklung mit Schwerpunkt auf Entwicklung der Anwendungslogik und entsprechender Algorithmen
+UI-Design und -Evaluation
+KI-Technologien und -Anwednung
+Ideation, Innovation und holistische Technikfolgenabschätzung
 
 ## Lehr- und Lernmethoden
 Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Lernen
@@ -92,9 +98,12 @@ Angeleitete, probelmorientierte Team- und Projektarbeit, problemorientiertes Ler
 300 h Projektarbeit
 
 ## Empfohlene Literatur
-....... hier bitte Quellen beisteuern....
+
 Augmented Reality and Artificial Intelligence, V. Geroimenko, Springer Verlag, 2023
 Springer Handbook of Augmented Reality, A.Nee & S. Ong, Springer Handbooks, 2023
+Software Engineering, E. C. Foster, Springer, 2014
+Handbuch Angewandte Ethik, C. Neuhäuser, Marie-Luise Raters, et al. Springer Verlag, 2023
+Handbuch Innovationsforschung, Birgit Blättel-Mink, Ingo Schulz-Schaeffer, Arnold Windeler, Springer Verlag, 2021
 
 
 ## Verwendung des Moduls in weiteren Studiengängen
