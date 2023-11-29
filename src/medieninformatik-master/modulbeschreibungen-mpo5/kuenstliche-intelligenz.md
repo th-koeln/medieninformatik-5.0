@@ -61,6 +61,7 @@ um später in der Lage zu sein selbstständig und im Team KI-Projekte in der Med
 - Convolutional neuronale Netze
 - Natürliche Sprachverarbeitung
     - Large Language Modelle
+- Wissensrepräsentation für KI
 - Anwendungen von KI in der Medieninformatik
 
 ## Medienformen
