@@ -592,16 +592,16 @@ table {
 /* Aside
 ############################################################################ */
 @media screen and (min-width: 180ch) {
-  main:has(aside) {
+  .content-wrap:has(aside) {
     display: grid;
     gap: var(--fluid-space-m);
-    grid-template-columns: var(--max-width-navigation) 1fr;
+    grid-template-columns: 1fr var(--max-width-navigation);
   }
-  main:has(aside) aside {
+  .content-wrap:has(aside) aside {
     padding-right: var(--xl);
     font-size: var(--s);
   }
-  main:has(aside) aside nav {
+  .content-wrap:has(aside) aside nav {
     position: sticky;
     top: calc(var(--fluid-space-l) * 1.5);
   }
@@ -987,7 +987,6 @@ ul.gallery-grid {
   display: grid;
   gap: var(--m);
   grid-template-columns: repeat(auto-fill, minmax(var(--image-width), 1fr));
-  margin-bottom: var(--fluid-space-l);
 }
 ul.gallery-grid.is-small {
   --image-width: var(--max-width-image-s);
@@ -1022,6 +1021,7 @@ ul.gallery-grid .gallery-item::before {
 ############################################################################ */
 ul:not([class]) {
   padding-left: 0;
+  margin-bottom: var(--fluid-space-s);
 }
 ul:not([class]) > li {
   display: block;
@@ -1036,6 +1036,10 @@ ul:not([class]) > li::before {
 }
 ul:not([class]) > li + li {
   margin-top: var(--quat);
+}
+
+p + ul:not([class]) {
+  margin-top: calc(var(--xs) * -1);
 }
 
 /* Liste in Liste
@@ -1264,16 +1268,22 @@ ul.hero-list > li + li {
 .content-blocks section .content {
   padding-top: calc(var(--fluid-space-s) * 1);
   padding-right: var(--fluid-space-s);
-  margin-bottom: var(--fluid-space-s);
 }
 .content-blocks section .content > * {
   max-width: var(--max-width-content);
 }
+.content-blocks section .content h2, .content-blocks section .content h3 {
+  padding-top: 0;
+  padding-bottom: var(--fluid-space-xs);
+}
+.content-blocks section .content p:last-child {
+  margin-bottom: 0;
+}
+.content-blocks section .content p + h3 {
+  margin-top: var(--fluid-space-xl);
+}
 @media screen and (min-width: 160ch) {
   .content-blocks section .content blockquote {
-    position: absolute;
-    margin-left: calc(var(--max-width-content) + var(--fluid-space-s));
-    max-width: calc(var(--max-width-content) / 2);
     font-size: var(--s);
     line-height: var(--lh-normal);
   }
@@ -1364,8 +1374,10 @@ ul.hero-list > li + li {
 .modulbeschreibung .module-core-data header h1 {
   margin-bottom: 0;
   flex-grow: 2;
+  padding-top: 0;
 }
 .modulbeschreibung table.core-data {
+  width: 100%;
   border-spacing: 0;
   padding-top: var(--s);
   padding-bottom: var(--m);
@@ -1377,6 +1389,7 @@ ul.hero-list > li + li {
 }
 .modulbeschreibung table.core-data th {
   font-weight: var(--fw-medium);
+  width: 33%;
 }
 .modulbeschreibung table.core-data th, .modulbeschreibung table.core-data td {
   padding-top: var(--half);
@@ -1566,7 +1579,7 @@ ul.hero-list > li + li {
 
 /* Page
 ############################################################################ */
-.page main h2, .page main h3, .page main h4, .page main p {
+.page main h2, .page main h3, .page main h4, .page main p, .page main blockquote, .page main ul, .page main ol {
   max-width: var(--max-width-content);
 }
 
@@ -1638,17 +1651,18 @@ ul.job-offer-overview .job-offer-data figcaption li {
 
 /* Kurzbericht
 ############################################################################ */
-@media screen and (min-width: 60rem) {
-  .kurzbericht .content > *:not(h4) {
+@media screen and (min-width: 120rem) {
+  .kurzbericht main > *:not(h4) {
     margin-left: 33%;
   }
-  .kurzbericht .content h4 {
+  .kurzbericht main h4 {
     width: 31%;
     height: 0;
     margin-bottom: 0;
     padding-bottom: 0;
+    margin-left: -33%;
   }
-  .kurzbericht .content h4 {
+  .kurzbericht main h4 {
     text-align: right;
     line-height: var(--lh-normal);
   }

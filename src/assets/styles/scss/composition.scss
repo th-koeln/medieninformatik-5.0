@@ -31,7 +31,7 @@ table{
 /* Aside
 ############################################################################ */
 
-@media screen and (min-width: 180ch){
+@media screen and (min-width: 160ch){
   .content-wrap:has(aside){
     display: grid;
     gap: var(--fluid-space-m);

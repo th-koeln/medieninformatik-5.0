@@ -25,7 +25,7 @@ meta:
   status: ok
   authors: Christian, Viet
   reviewers: Viet, Christian
-besonderheiten: 
+besonderheiten: unbenotetes Modul
 praesenzZeit: 72
 selbstStudium: 78
 angebotImWs: true
