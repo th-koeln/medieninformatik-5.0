@@ -27,6 +27,26 @@ p + ul:not([class]){
   margin-top: calc(var(--xs) * -1);
 }
 
+ol:not([class]){
+
+  padding-left: 2ch;
+  margin-bottom: var(--fluid-space-s);
+  
+  li{
+    margin-left: 1ch;
+
+    &::marker{
+      color: var(--dark);
+    }
+  }
+
+  li + li {
+    margin-top: var(--quat);
+
+  }
+
+}
+
 /* Liste in Liste
 ############################################################################ */
 
