@@ -3,9 +3,9 @@ title: Umsetzung Studiengangkriterien, Studierbarkeit, Forschungsaktivitäten in
 layout: page.11ty.js
 level: 1
 meta:
-  status: rfreview
+  status: ok
   authors: Raphi, Matthias
-  reviewers: 
+  reviewers: Christian
   purpose: |
     Legen Sie kurz und begründet dar, welche Schwerpunkte Sie in Ihrem Studiengang hinsichtlich der Studiengangkriterien Digitalisierung, Internationalisierung, Interdisziplinarität und Transfer setzen. Gibt es weitere Kriterien, die zur Profilierung des Studiengangs beitragen? Studierbarkeit wird im Rahmen der gesetzlichen Akkreditierungsregeln eng mit der Mindestgröße von Modulen im Umfang von 5 ECTS verknüpft. Falls in Ihrem Studiengang die Mindestgröße unterschritten wird, begründen Sie dies bitte für die entsprechenden Module. Im Falle der Akkreditierung von Master-Studiengängen ist darüber hinaus darzulegen, wie die Fakultät den geforderten Beteiligungsumfang forschungsaktiver Professor:innen (ggf. zukünftig über ein entsprechendes Forschungskonzept) sicherstellen wird.
 ---
@@ -60,8 +60,6 @@ Für die Konzeption der Studiengänge wurde ein Absolvent\*innenprofil erarbeite
 
 Anhand dieses Kompetenzkatalogs wurde in der Konzeption der Medieninformatik Bachelor- und Master-Studiengänge eine stringente **Kompetenzorientierung** hinterlegt. Die einzelnen Module wiederum greifen diese jeweiligen Kompetenzen auf (siehe Kompetenzübersicht der Module [im Bachelor](/medieninformatik-bachelor/kompetenzen-der-module-bpo5/) und [im Master](/medieninformatik-master/kompetenzen-der-module-mpo5/)) und formulieren Learning Outcomes, die den Erwerb der entsprechenden Fähigkeiten unterstützen. Je Modul wird in einer «Kompetenzblume» ersichtlich, in welcher Quantität und in welcher Qualität ein Modul den Kompetenzerwerb der Studierenden fördert und zu deren Kompetenzprofil beiträgt. 
 
-> CN: @Matthias: den hier versteh ich nicht: Diese setzen sich auf der höheren Ebene Profile der der Absolvent\*innen diese Kompetenzen in handlungsfähigen zusammen.
-
 {% screenshot "/images/kurzbericht/kompetenzblume-raw.png", "Kompetenzblume am Beispiel des Moduls [Medienprojekt](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Medienprojekt/)" %}
 
 Zur Sicherstellung der **Employability** bilden die Studiengänge ein hohes Maß an Anwendungsorientierung der Kompetenzen durch einen Projektfokus ab. Sowohl im Bachelor- als auch im Masterstudiengang Medieninformatik sind in jedem Semester mindestens ein Projekt im Curriculum verankert bzw. zu wählen. Damit adressieren die Curricula zum einen den Bedarf aus der Industrie, Studierende nicht nur anhand von Zeugnissen beurteilen zu müssen: Die verschiedenen Projekte werden es den Absolvent\*innen erlauben, sich mit einem repräsentativen Portfolio vorzustellen. Zum anderen bieten die Projekte einen Ort, um Querschnittskompetenzen (insbesondere aus dem Handlungsfeld [«Driving Creation Processes»](/handlungsfelder/#driving-creation-processes)) in der direkten Anwendung zu erwerben und zu festigen.
@@ -100,19 +98,14 @@ Gerade im Bachelor wird *wissenschaftliches Arbeiten* mit dem neuen [«Advanced 
 Der Master verankert als eins von zwei Pflichtmodulen das Thema Forschungsorientierung im Kernbereich des Curriculums. Das Modul zum Thema [«Research Methods»](/modulbeschreibungen-mpo5/MA_All_Research-Methods-for-Interactive-Media/) versetzt die Absolvent\*innen in die Lage, forschungsorientiert und wissenschaftsgeleitet methodisch fundiert zu agieren. Der Masterstudiengang sieht für die Qualifizierung des wissenschaftlichen Nachwuchs zudem entsprechende Module zu
 [den grundlegende Forschungsmethoden](/medieninformatik-master/modulbeschreibungen-mpo5/MA_All_Research-Methods-for-Interactive-Media/), 
 [angewandter Statistik für HCI](/medieninformatik-master/modulbeschreibungen-mpo5/MA_DUX_Modul-Statistical-Methods-for-HCI/), 
-und [der Verwertung wissenschaftlicher Ideen und Ergebnisse](/medieninformatik-master/modulbeschreibungen-mpo5/MA_P3-Vertiefungsworkshop-2/) vor. Explizit ist der Aufbau wissenschaftlicher und forschungsortientierter Kompetenzen grundlegend verpflichtend und für bestimmte Berufsbilder (wie bspw. »[HCI Researcher*in](/curricula/mpo5-90CP-persona-HCI-Researcherin/)«) im Wahlbereich möglich.
+und [der Verwertung wissenschaftlicher Ideen und Ergebnisse](/medieninformatik-master/modulbeschreibungen-mpo5/MA_P3-Vertiefungsworkshop-2/) vor. Explizit ist der Aufbau wissenschaftlicher und forschungsortientierter Kompetenzen grundlegend verpflichtend und für bestimmte Berufsbilder (wie bspw. [«HCI Researcher*in»](/curricula/mpo5-90CP-persona-HCI-Researcherin/)) im Wahlbereich möglich.
 
-Im Vergleich zur letzten Akkreditierung im Jahr 2017 ist jetzt noch stärker berücksichtigt, dass den Absolvent\*innen des Masterprogramms mit dem [Promotionskolleg NRW](https://www.pknrw.de/) eine neue Möglichkeit offensteht, sich nach dem Master mit einer Promotion weiter wissenschaftlich zu qualifizieren. Anschließend an den Medieninformatik Master kann insbesondere das Promotionsprogramm »[Mensch, Digitalität, Gesellschaft](https://www.pknrw.de/abteilungen/medien-und-interaktion/mensch-digitalitaet-gesellschaft)« der Abteilung »[Medien und Interaktion](https://www.pknrw.de/abteilungen/medien-und-interaktion)« des Promotionskolleg NRW für Medieninformatiker\*innen ein sehr guter Weg für eine Promotion sein.
-
-
-> cn: bin nun hier :)
-
+Im Vergleich zur letzten Akkreditierung im Jahr 2017 ist jetzt noch stärker berücksichtigt, dass den Absolvent\*innen des Masterprogramms mit dem [Promotionskolleg NRW](https://www.pknrw.de/) eine neue Möglichkeit offensteht, sich nach dem Master mit einer Promotion weiter wissenschaftlich zu qualifizieren. Anschließend an den Medieninformatik Master kann insbesondere das Promotionsprogramm »[Mensch, Digitalität, Gesellschaft](https://www.pknrw.de/abteilungen/medien-und-interaktion/mensch-digitalitaet-gesellschaft)« der Abteilung [«Medien und Interaktion»](https://www.pknrw.de/abteilungen/medien-und-interaktion) des Promotionskolleg NRW für Medieninformatiker\*innen ein sehr guter Weg für eine Promotion sein.
 
 
 ### Diversity
 
-Die Medieninformatik versteht **Diversität** als Potenzial für kreative Exploration und Auseinandersetzung mit Medien (bspw. für das Handlungsfeld »[Exploring Advanced Interactive Media](/handlungsfelder/#exploring-advanced-interactive-media)«). Beide Studiengänge sind inhaltlich und zeitlich flexibel, so dass sie für verschiedene heterogene Zielgruppen interessant und studierbar werden. Sie ermöglichen eine individuelle Profilbildungen. Inhaltlich bietet der Bachelor ein Wahlangebot in den Projekten der höheren Semester, sowie des [Praxis-, Forschungs- oder Auslandssemester](), [Wahlmodule]() und natürlich des Abschlusssemesters mit [Praxisprojekt]() und [Bachelorarbeit](). Der Master bietet inhaltlich ein breites Wahlangebot druch eine große Breite an Wahlmodulen und der Spezialisierung in drei Schwerpunkten (bspw. für verschiedene Berufsbilder). Zeitlich hält die Fakultät alternative Studienverläufe ( [Bachelor über 10 Semester](/curricula/bpo5-alternativ/), [90-ECTS-Master über 5 Semester](/curricula/mpo5-90CP-alternativ/) und [120-ECTS-Master über 6 Semester](/curricula/mpo5-90CP-alternativ/)) vor.
-
+Die Medieninformatik versteht **Diversität** als Potenzial für kreative Exploration und Auseinandersetzung mit Medien (bspw. für das Handlungsfeld [«Exploring Advanced Interactive Media»](/handlungsfelder/#exploring-advanced-interactive-media)). Beide Studiengänge sind inhaltlich und zeitlich flexibel, so dass sie für verschiedene, heterogene Zielgruppen interessant und studierbar sind. Sie ermöglichen eine individuelle Profilbildungen. Inhaltlich bietet der Bachelor ein Wahlangebot in den Projekten der höheren Semester, sowie des [Praxis-, Forschungs- oder Auslandssemester](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxissemester/), Wahlmodule und natürlich des Abschlusssemesters mit [Praxisprojekt](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxisprojekt/) und [Bachelorarbeit](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Bachelorarbeit/). Der Master bietet inhaltlich ein breites Wahlangebot durch großen Katalog an Wahlmodulen und der Spezialisierung in drei Schwerpunkten (bspw. für verschiedene Berufsbilder). Zeitlich hält die Fakultät alternative Studienverläufe ([Bachelor über 10 Semester](/curricula/bpo5-alternativ/), [90-ECTS-Master über 5 Semester](/curricula/mpo5-90CP-alternativ/) und [120-ECTS-Master über 6 Semester](/curricula/mpo5-90CP-alternativ/)) vor.
 
 Mit der neuen Prüfungsordnung wird vor allem der Master deutlich stärker flexibilisiert, unterstützt verschiedene Interessen, Erfahrungen und Erwartungen der Studierenden und ermöglicht individuelle Profilbildungen. Hier einige exemplarische Beispiele für indivisualisierte Studienverlaufspläne:
 - [Berufsbild »UX Designer*in mit Fokus auf den Auswirkungen der digitalen Transformation«](/curricula/mpo5-90CP-persona-UX-Design-Auswirkungen/)
@@ -125,20 +118,9 @@ Der Bachelor lässt, vor allem ab dem vierten Fachsemester durch einen großen W
 Die Modulhandbücher im Bachelor und Master stellen zudem ein breites Spektrum verschiedener Lehrmaterialien zur Verfügung. Die einzelnen Module bedienen sich aus einer Vielzahl verschiedener Prüfungsformate und adressieren eine Breite Vielfalt studentischer Anforderungen.
 
 
-
-
-
-
 ### Internationalisierung 
 
-Um Bachelor Studierenden ein möglichst einfachen Zugang zum Studium oder Praktikum im Ausland zu ermöglichen, wird im vierten oder fünften Fachsemester das bereits erwähnte [Praxis-, Forschungs- oder Auslandssemester](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxissemester/) eingeführt. Hierüber lässt sich nun deutlich einfacher ein Auslandssemester realisieren als bislang, da Leistungen deutlich einfacher und holistischer angerechnet und abgebildet werden können. Im Master wird eine Vielzahl von Wahlmodulen in englischer Sprache angeboten.
-
-
-
-
-
-
-
+Um Bachelor Studierenden ein möglichst einfachen Zugang zum Studium oder Praktikum im Ausland zu ermöglichen, wird im vierten oder fünften Fachsemester das bereits erwähnte [Praxis-, Forschungs- oder Auslandssemester](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxissemester/) eingeführt. Hierüber lässt sich nun deutlich einfacher ein Auslandssemester realisieren als bislang, da Leistungen einfacher und holistischer angerechnet und abgebildet werden können. Im Master wird eine Vielzahl von Wahlmodulen in englischer Sprache angeboten.
 
 
 ### Digitalisierung 
@@ -148,64 +130,46 @@ Kompetenzen in der **Digitalisierung** liegen im Kern der zwei Studiengänge Med
 Medieninformatik\*innen sind Treiber\*innen und Gestalter\*innen von Digitalisierung. 
 
 
-
-
-
 ### Demokratisierung
 
-Neben der üblichen Integration von Mitarbeiter\*innen und Studierenden in den verschiedenen Gremien, findet in der Medieninformatik monatliche eine offene Abstimmungsrunde statt, in der verschiedene Belange der Medieninformatik-Studiengänge besprochen und organisiert werden.
+Neben der üblichen Integration von Mitarbeiter\*innen und Studierenden in den verschiedenen Gremien, findet in der Medieninformatik monatlichn eine offene Abstimmungsrunde statt, in der verschiedene Belange der Medieninformatik-Studiengänge besprochen und organisiert werden.
 
 Mit der letzten Reakkreditierung der Medieninformatik Studiengänge im Jahr 2017 wurde ein offener, transparenter und öffentlich einsehbarer Prozess aufgesetzt und über ein Toolset abgebildet. Hierüber lassen sich z.B. alle [Änderungen an Modulbeschreibungen, bei Prüfungsformen u.Ä.](https://github.com/th-koeln/mi-2017/commits/master) voll umfänglich einsehen und transparent nachvollziehen. Das gleiche Toolset wurde auch für die Akkreditierung und fortlaufende Weiterentwicklung im [Master Studiengang Digital Sciences](http://digital-sciences.de) und im [Bachelor Studiengang Code & Context](https://coco.study/absolventinnenprofil/) genutzt. Auch in der hier vorliegenden Reakkreditierung wird auf selbiges Verfahren gesetzt. Somit steht ein Werkzeug zur Verfügung, über das alle Stakeholder stets Zugriff auf und Einsicht in die relvanten Unterlagen haben. Gleichzeitig wird hierüber ein inklusiver Partizipationsprozess ermöglicht und gelebt.
 
 
-
-
-
 ### Interdisziplinarität
 
-Die Medieninformatik ist in der **Disziplin der Informatik** verortet: Sie ist ein Informatikstudiengang im Anwendungsfeld Medien. Sie integriert dafür im Kompetenzprofil auch andere Disziplinen wie Design, Psychologie und wirtschaftliche Aspekte. Darüber hinaus werden in konkreten Projekten mit Medienbezug und der Entwicklung digitaler Produkte immmer auch weitere Fachperspektiven der jeweiligen Domänen berührt und integriert. Diese **Interdisziplinarität** wird in den Medieninformatik-Studiengängen bereits beim [Aufbau der Kompetenzbereiche](/handlungsfelder/) integriert. Zudem erwerben Studierende Kompetenzen zum empathischen Einfinden in neue Kontexte (bspw. im Kompetenzcluster »Anforderungen und Bedarfe« im Kompetenzbereich »[DUX](/handlungsfelder/#designing-for-user-experiences)«) und im Kompetenzcluster »Selbstlernen und Selbstkompetenz« im Kompetenzbereich »[INDI](/handlungsfelder/#enhancing-interactions-on-different-scales)«.
+Die Medieninformatik ist in der **Disziplin der Informatik** verortet: Sie ist ein Informatikstudiengang im Anwendungsfeld Medien. Sie integriert dafür im Kompetenzprofil auch andere Disziplinen wie Design, Psychologie und wirtschaftliche Aspekte. Darüber hinaus werden in konkreten Projekten mit Medienbezug und der Entwicklung digitaler Produkte immmer auch weitere Fachperspektiven der jeweiligen Domänen berührt und integriert. Diese **Interdisziplinarität** wird in den Medieninformatik-Studiengängen bereits beim [Aufbau der Kompetenzbereiche](/handlungsfelder/) integriert. Zudem erwerben Studierende Kompetenzen zum empathischen Einfinden in neue Kontexte (bspw. im Kompetenzcluster »Anforderungen und Bedarfe« im Kompetenzbereich [«Designing for User Experiences»](/handlungsfelder/#designing-for-user-experiences)) und im Kompetenzcluster »Selbstlernen und Selbstkompetenz« im Kompetenzbereich [«Enhancing Interactions on Different Scales»](/handlungsfelder/#enhancing-interactions-on-different-scales).
 
 Wie bereits im Profil beschrieben ist *die Medieninformatik … eine interdisziplinäre Vermittlerin zwischen fachlichen Welten* und somit im Kern ein interdisziplinärer Studiengang, der den Studierenden Sicht- und Denkweisen, Vokabular, Konzepte, Techniken und Methoden aus verschiedenen Fachdisziplinen näher bringt.
 
 
-
-
-
-
 ### Transfer
 
-Im Rahmen der Curriculumwerkstatt wurden verschiedene [externe Partner:innen](/interviews) in die Weiterentwicklung der Medieinformatik Studiengänge eingebunden. Curricular sind verschiedene projektbasierter Lehr- und Lernformen verankert, die teils auch in [Kooperation mit externen Partner:innen](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxisprojektarbeit/) durchgeführt werden.
+Im Rahmen der Curriculumwerkstatt wurden verschiedene [externe Partner:innen](/interviews) in die Weiterentwicklung der Medieinformatik Studiengänge eingebunden. Curricular sind unterschiedliche projektbasierte Lehr- und Lernformen verankert, die teils auch in [Kooperation mit externen Partner:innen](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxisprojektarbeit/) durchgeführt werden.
 
-Zur Förderung des unternehmerischen Denkens und Handelns wird im Bachelor Studiengang das Modul [Produktinnovation in digitalen Ökosystemen](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Produktinnovation-in-digitalen-oekosystemen/) eingeführt.
+Zur Förderung des unternehmerischen Denkens und Handelns wird im Bachelor Studiengang das Modul [«Produktinnovation in digitalen Ökosystemen»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Produktinnovation-in-digitalen-oekosystemen/) eingeführt.
 
-Mit dem bereits erwähnten [Praxis-, Forschungs- oder Auslandssemester](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxissemester/) ist nun auch eine verpflichtende Praxisphase integraler Bestandteil des Bachelor Studiengangs.
-
-
-
-
-
-<!-- content break -->
+Mit dem bereits erwähnten [«Praxis-, Forschungs- oder Auslandssemester»](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Praxissemester/) ist nun auch eine verpflichtende Praxisphase integraler Bestandteil des Bachelor Studiengangs.
 
 
 ### Studierbarkeit
 
-Die Module im Bachelor haben durchgehend einen Umfang von mindestens 5 ECTS (abgesehen vom Kolloquium). Größere Module in der Studieneingangsphase reduzieren dort die Anzahl der Prüfungen. Ein hoher Grad an Projektorientierung (ein Projekt in jedem Semester) ermöglich ein Studium mit einer direkten praktischen Anwendung der erworbenen Kompetenzen. Dies variiert zudem die Prüfungsformen innerhalb eines Semester. Die einzelnen Module sind nicht versperrt. Wo ein konsekutiver Kompetenzaufbau intendiert ist, werden entsprechende Informationen zu diesen Kompetenzen im Modulhandbuch als Voraussetzungen transparent dargestellt. Zudem lässt sich durch die Einordnung der Module in die Kompetenzcluster ablesen, welches Maß an Kompetenzen in einem Modul vorausgesetzt werden.
+Die Module im Bachelor haben durchgehend einen Umfang von mindestens 5 ECTS (abgesehen vom Kolloquium). Größere Module in der Studieneingangsphase reduzieren dort die Anzahl der Prüfungen. Ein hoher Grad an Projektorientierung (ein Projekt in jedem Semester) ermöglicht ein Studium mit einer direkten praktischen Anwendung der erworbenen Kompetenzen. Dies variiert zudem die Prüfungsformen innerhalb eines Semesters. Die einzelnen Module sind nicht versperrt. Wo ein konsekutiver Kompetenzaufbau intendiert ist, werden entsprechende Informationen zu diesen Kompetenzen im Modulhandbuch als Voraussetzungen transparent dargestellt. Zudem lässt sich durch die Einordnung der Module in die Kompetenzcluster ablesen, welches Maß an Kompetenzen in einem Modul vorausgesetzt werden.
 
-Hinsichtlich des Praxissemesters lässt sich das Curriculum für die Studierenden flexibel gestalten: entweder komplett als 30-ECTS-Modul im Wintersemester bzw. 5. Semester oder im Sommersemester bzw. 6. Semester. Zudem lässt sich das Praxissemester auf zwei Semester strecken, so dass die praktische Zeit außerhalb der Hochschule flexibel mit Modulen innerhalb der Hochschule kombiniert werden kann.
+Hinsichtlich des Praxissemesters lässt sich das Curriculum für die Studierenden flexibel gestalten: entweder komplett als 30-ECTS-Modul im Wintersemester bzw. fünften Semester oder im Sommersemester bzw. sechsten Semester. Zudem lässt sich das Praxissemester auf zwei Semester strecken, so dass die praktische Zeit außerhalb der Hochschule flexibel mit Modulen innerhalb der Hochschule kombiniert werden kann.
 
-Die Module im Master haben entsprechend eine durchgehende Modulgröße von mindestens 6 ECTS (abgesehen vom Kolloquium). Die Projekte haben zudem eine Modulgröße von 12 ECTS und erlauben damit eine vertiefende Auseinandersetzung mit den Projektgegenständen. Die verschiedenen Module können von den Studierenden flexibel im konkreten Studienverlauf platziert werden, sowohl in der zeitlichen Folge als auch inhaltlichen Ausrichtung.
+Die Module im Master haben eine durchgehende Modulgröße von mindestens 6 ECTS (abgesehen vom Kolloquium). Die Projekte haben zudem eine Modulgröße von 12 ECTS und erlauben damit eine vertiefende Auseinandersetzung mit dem jeweiligen Projektgegenstand. Die verschiedenen Module können von den Studierenden flexibel im konkreten Studienverlauf platziert werden, sowohl in zeitlicher Folge als auch in inhaltlicher Ausrichtung.
 
 [Alternative Verlaufspläne](/todo-404-auf-uebersicht-verlaufsplaene) zeigen exemplarisch die Studierbarkeit des Bachelors sowie des Masters vor dem Hintergrund besonderer Lebenssituationen.
 
 ### Aktivität in der Forschung
 
-<!-- Im Falle der Akkreditierung von Master-Studiengängen ist darüber hinaus darzulegen, wie die Fakultät den geforderten Beteiligungsumfang forschungsaktiver Professor:innen (ggf. zukünftig über ein entsprechendes Forschungskonzept) sicherstellen wird. -->
+Beide Studiengänge der Medieninformatik adressieren in besonderem Maße Aspekte der Forschung und Forschungsorientierung, wie bereits oben zur Wissenschaftlichkeit erläutert. Die forschungsstarke Fakultät für Informatik und Ingenieurwissenschaften bietet dafür ein ausgezeichnetees Umfeld, das über die letzten Jahre innerhalb der verschiedenen Institute ausgebaut wurde. Insbesondere der Master Medieninformatik knüpft in verschiedenen Lehrveranstaltugen und Projekten daran an.
 
-Beide Studiengänge der Medieninformatik adressieren in besonderem Maße Aspekte der Forschung und Forschungsorientierung, wie bereits oben zur Wissenschaftlichkeit erläutert. Die forschungsstarke Fakultät für Informatik und Ingenieurwissenscahften sowie insbesondere die Lehreinheit Informatik bieten dafür einen ausgezeichneten Umfeld, das über die letzten Jahre innerhalb der verschiedenen Institute ausgebaut wurde. Insbesondere der Master Medieninformatik knüpft in verschiedenen Lehrveranstaltugen und Projekten daran an.
+Die Fakultät bzw. ihre Mitglieder aus der Professorenschaft sind aktive Treiber und handelnde Mitglieder auf verschiedenen Ebenen der Forschung. Zu nennen sind beispielsweise das [«KI Forschungscluster»](https://www.th-koeln.de/forschung/ki-cluster_101889.php) sowie der Forschungsschwerpunkt [«Digitale Technologien und Soziale Dienste»](https://www.th-koeln.de/forschung/dites_98442.php). Forschungsgemeinschaften (also kollegiale, nicht-institutionalisierte Arbeitskreise) zum gibt es bspw. im Bereich «Human Computer Interaction» sowie «Serious Games». 
 
-Die Fakultät bzw. ihre Mitglieder aus der Professorenschaft sind aktive Treiber und handelnde Mitglieder auf verschiedenen Ebenen der Forschung. Zu nennen sind beispielsweise das «[KI Forschungscluster](https://www.th-koeln.de/forschung/ki-cluster_101889.php)» sowie der Forschungsschwerpunkt «[Digitale Technologien und Soziale Dienste]()». Forschungsgemeinschaften (also kollegiale, nicht-institutionalisierte Arbeitskreise) zum gibt es bspw. im Bereich «Human Computer Interaction» sowie «Serious Games». 
-
-Die Professor\*innen der Fakultät als Leitungen oder Mitwirkende in verschiedenen Forschungsprojekten aktiv, die durch Drittmittel gefördert werde. Exemplarisch in Bezug zur Medieninformatik sind die folgenden projekte zu nennen, die von Bund (BMBF und BMWK) und Land (insb. EFRE) gefördert wurden bzw. werden:
+Professor\*innen der Fakultät agieren in verschiedenen, Drittmittel geförderten Vorhaben. Exemplarisch in Bezug zur Medieninformatik sind die folgenden zu nennen, die von Bund (BMBF und BMWK) und Land (insb. EFRE) gefördert wurden bzw. werden:
 
 * [ARlebnis OBK - Augmented-Reality-Pfade durch Oberberger Kultur und Geschichte](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/arlebnis-obk---augmented-reality-pfade-durch-oberberger-kultur-und-geschichte_108322.php)
 * [Cranach Digital Archive](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/cranach-digital-archive_91698.php)
@@ -216,7 +180,7 @@ Die Professor\*innen der Fakultät als Leitungen oder Mitwirkende in verschieden
 * [SAN-DMP - Datenmanagementpläne für FHs und HAWs](https://www.th-koeln.de/informatik-und-ingenieurwissenschaften/san-dmp---datenmanagementplaene-fuer-fhs-und-haws_91678.php)
 * [VREUNDE - Verbundenheit zu guten Freunden über Distanz mittels physisch-digitaler Interaktions- und Kommunikationsräume erhalten](https://www.interaktive-technologien.de/projekte/vreunde)
 
-Zudem gehören die am Master-Studiengang beteiligten wissenschaftlichen Mitarbeiter\*innen und die Professor\*innen zu den Autor\*innen zahlreicher internationaler und peer-reviewed Publikationen. Darunter sind einige Werke, die sich im näheren mit den Themen der Medieninformatik, wie in den Handlungs- und Kompetenzfeldern inhaltlich beschrieben, beschäftigen, als auch Werke, die vertiefend über den Tellerrand der Medieninformatik hinausgehen oder in einem interdiszilinären Bezug zu ihr stehen. Statt hier jedoch ausschnittsweise Publikationen aufzulisten sei auf die Digitalen Hochschulbibliografie der TH Köln verwiesen, in der eine [Publikationslisten der Fakultät](https://bibliografie.th-koeln.de/servlets/solr/select?q=%28origin%3A%22fak_10%22+AND+status%3A%22confirmed%22%29&fl=*&sort=year+desc&rows=10&version=4.5&mask=search.xed) vorhanden ist.
+Zudem gehören die am Master-Studiengang beteiligten wissenschaftlichen Mitarbeiter\*innen und die Professor\*innen zu den Autor\*innen zahlreicher internationaler und peer-reviewed Publikationen. Darunter sind einige Werke, die sich im Näheren mit den Themen der Medieninformatik, wie in den Handlungs- und Kompetenzfeldern inhaltlich beschrieben, beschäftigen, als auch Werke, die vertiefend über den Tellerrand der Medieninformatik hinausgehen oder in einem interdiszilinären Bezug zu ihr stehen. Statt hier jedoch ausschnittsweise Publikationen aufzulisten sei auf die Digitalen Hochschulbibliografie der TH Köln verwiesen, in der eine [Publikationslisten der Fakultät](https://bibliografie.th-koeln.de/servlets/solr/select?q=%28origin%3A%22fak_10%22+AND+status%3A%22confirmed%22%29&fl=*&sort=year+desc&rows=10&version=4.5&mask=search.xed) vorhanden ist.
 
 <!-- hier könnte man ggfs. ein bisschen Bibliometrie aufführen -->
 
