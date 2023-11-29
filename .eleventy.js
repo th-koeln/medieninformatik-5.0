@@ -229,26 +229,49 @@ module.exports = function (eleventyConfig) {
 
 
   function pushHinweis(modul, hinweis) {
-    if (modul.data.hinweise) {
-      modul.data.hinweise.push(hinweis);
-    } else {
-      modul.data.hinweise = [hinweis];
-    }
+    
+    (modul.data.hinweise ??= []).push(hinweis);
+    (modul.data.meta ??= {}).status = "refactor"
+
+    console.error("checkModuleForMetaData:  " + modul.data.kuerzel + ": "+hinweis);
   }
 
   function checkModuleForMetaData(modul) {
     
     // ist das Modul einem Semester zugeordnet?
     if (!(modul.data.angebotImWs || modul.data.angebotImSs)) {
-      console.error("modul hat kein Semester: " + modul.data.title)
       pushHinweis(modul, "Das Modul hat kein Semester (WiSe oder SoSe)")
     }
 
     // hat das Modul eine Prüfung?
-    if (!(modul.data.studienleistungen?.Einzelleistung?.art)) {
-      console.error("Das Modul hat keine Prüfung: " + modul.data.title)
+    if (!(modul.data.studienleistungen?.Einzelleistung?.art) && !(modul.data.studienleistungen?. Teamleistung?.art)) {
       pushHinweis(modul, "Das Modul hat keine Prüfung")
     }
+
+    // hat das Modul die nötigen Studiengangskriterien?
+    if (modul.data.studiengangkriterien === undefined) {
+      pushHinweis(modul, "Keine Studiengangskriterien definiert");
+    } else {
+      
+      if (modul.data.studiengangkriterien.globalcitizenship === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »GlobalCitizenship« nicht definiert (muss 0 oder 1 sein)");
+      }
+    
+      if (modul.data.studiengangkriterien.internationalisierung === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »Internationalisierung« nicht definiert (muss 0 oder 1 sein)");
+      }
+
+      if (modul.data.studiengangkriterien.interdisziplinaritaet === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »Interdisziplinaritaet« nicht definiert (muss 0 oder 1 sein)");
+      }
+
+
+      if (modul.data.studiengangkriterien.transfer === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »Transfer« nicht definiert (muss 0 oder 1 sein)");
+      }
+    
+    }
+
     
   }
 
