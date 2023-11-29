@@ -72,6 +72,8 @@ Sie können Design-Dokumentationen oder Leitfäden, die für Entwickler, Stakeho
 Die Studierenden können ihre Projektergebnisse und die Prozesse kritisch reflektieren und Konsequenzen für die Projekte aber auch ihr individuelles oder kollektives Handeln ableiten. Sie sind ihn der Lage, ihre Projektergebnisse, Artefakte und Prozesse zielgruppenspezisch (Fach-Community oder Projekt-Stakeholder) zu kommunizieren,
 um konstrutiv zum Fachdiskurs beizutragen oder die weiteren Lifecycle-Phasen des Projektes zu befördern.
 
+Teamarbeit ist ein essentieller Bestandteil der Projektarbeit. Daher ist für diese Projekte eine Zahl von 2 Teilnehmer\*innen minimum. Idealerweilse wird ein größerer Projektkontext aufgespannt.
+
 ## Inhalte
 - Projekteams
 - Contextual Inquiry, explorative (qualitative & quantitative) Forschungsmethoden
