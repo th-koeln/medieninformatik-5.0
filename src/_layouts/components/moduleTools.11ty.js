@@ -87,7 +87,7 @@ const aggregateKompetenzen = (kompetenzen) => {
       handlungsfeldDataOverall[handlungsfeldKuerzel] = {};
     }
     if(!handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel]) {
-      handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel] = {'braucht': 0, 'liefert': 0};
+      handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel] = {'braucht': 0, 'liefert': 0.001};
     }
 
     handlungsfeldDataOverall[handlungsfeldKuerzel][bereichKuerzel].liefert += liefert;
@@ -107,7 +107,7 @@ exports.addCompetences = (data) => {
   const kuerzel = data.kuerzel ;
   const modulKompetenzen = {...data["modulkompetenzen-bachelor"], ...data["modulkompetenzen-master"]};
 
-  if(! modulKompetenzen[kuerzel]) return data;
+  if(!modulKompetenzen[kuerzel]) return data;
 
   const modulkompetenzenWithImpact = modulKompetenzen[kuerzel].filter(item => {
     return item.braucht > 0 || item.liefert > 0;
@@ -121,7 +121,12 @@ exports.addCompetences = (data) => {
     return item.braucht > 0;
   });
 
-  const aggregatedKompetenzen = aggregateKompetenzen(modulkompetenzenWithImpact);
+  // modulkompetenzenWithImpact zeigt nur die Kompetenzen an, die auch im Modul adressiert werden
+  // Damit aber die Diagramme vergleichbar sind, müssen wir auch die Kompetenzen anzeigen, die
+  // im Modul nicht adressiert werden, aber in anderen Modulen adressiert werden.
+  // vgl - https://github.com/th-koeln/medieninformatik-5.0/issues/49
+  // const aggregatedKompetenzen = aggregateKompetenzen(modulkompetenzenWithImpact);
+  const aggregatedKompetenzen = aggregateKompetenzen(modulKompetenzen[kuerzel]);
   const modulKompetenzenObject = {
     "all": modulkompetenzenWithImpact,
     "liefert": modulkompetenzenWithImpactLiefert,

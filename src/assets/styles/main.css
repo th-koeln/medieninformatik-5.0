@@ -168,18 +168,18 @@ select {
 }
 
 :root {
-  --bfs: 1.1rem;
+  --bfs: clamp(0.5rem, calc(0.86rem + 1vw), 1.2rem);
   --half: calc(var(--bfs) / 2);
   --quat: calc(var(--bfs) / 4);
   --xxs: calc(var(--bfs) * 0.4);
   --xs: calc(var(--bfs) * 0.6);
   --s: calc(var(--bfs) * 0.8);
   --m: calc(var(--bfs) * 1);
-  --l: calc(var(--bfs) * 1.3);
-  --xl: calc(var(--bfs) * 1.8);
-  --xxl: calc(var(--bfs) * 2.5);
-  --xxxl: calc(var(--bfs) * 3);
-  --xxxxl: calc(var(--bfs) * 4);
+  --l: calc(var(--bfs) * 1.2);
+  --xl: calc(var(--bfs) * 1.4);
+  --xxl: calc(var(--bfs) * 1.6);
+  --xxxl: calc(var(--bfs) * 1.8);
+  --xxxxl: calc(var(--bfs) * 2);
   --fluid-space-xs: calc(var(--xs) + 0.25vw);
   --fluid-space-s: calc(var(--s) + 0.5vw);
   --fluid-space-m: calc(var(--m) + 1vw);
@@ -821,13 +821,10 @@ table.is-narrow td {
 }
 .table-modulmatrix th.is-vertical > div {
   position: absolute;
-  left: 0;
+  left: 0.45ch;
   bottom: 1ch;
   transform: rotate(-90deg);
   width: 30px;
-}
-.table-modulmatrix th.is-vertical > div > span {
-  padding: 10px 0;
 }
 .table-modulmatrix th.module-name {
   text-align: left;
@@ -1040,6 +1037,20 @@ ul:not([class]) > li + li {
 
 p + ul:not([class]) {
   margin-top: calc(var(--xs) * -1);
+}
+
+ol:not([class]) {
+  padding-left: 2ch;
+  margin-bottom: var(--fluid-space-s);
+}
+ol:not([class]) li {
+  margin-left: 1ch;
+}
+ol:not([class]) li::marker {
+  color: var(--dark);
+}
+ol:not([class]) li + li {
+  margin-top: var(--quat);
 }
 
 /* Liste in Liste

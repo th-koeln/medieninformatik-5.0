@@ -38,8 +38,6 @@ module.exports = {
 
 		const getModulkompetenzenList = (modulkompetenzen) => {
 
-
-
 			const { handlungsfelderMap } = modulkompetenzen;
 
 			let lastHandlungsfeld = '';
