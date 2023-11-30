@@ -20,3 +20,6 @@ Die Dozent:innen der Lehreinheit Informatik wurden über eine SWOT Analyse, durc
 - [Erkenntnisse aus der SWOT Analyse](/insights/?filter={"Von"%3A"Lehrende%2F+MA"})
 - [Erkenntnisse aus dem Entwicklungsteam](/insights/?filter={"Von"%3A"Reak+Team"})
 - [Erkenntnisse aus dem Visions Workshop](/insights/?filter={"Von"%3A"Visions+Workshop"})
+- [SWOT Analyse Bachelor von Dozent\*innen](https://miro.com/app/board/uXjVPCcoUDQ=/?share_link_id=243202890340)
+- [SWOT Analyse Master von Dozent\*innen](https://miro.com/app/board/uXjVPCcoUOY=/?share_link_id=653020606081)
+

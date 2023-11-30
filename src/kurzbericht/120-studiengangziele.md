@@ -62,7 +62,7 @@ Seit 2000 bietet die TH Köln den Medieninformatik Bachelor und Master an und is
 > Raphi: Haben wir ja schon, können wir noch mal mit diesen aus dem Benchmarking abgleichen
 -->
 
-Die Berufsbilder, in denen Medieninformatiker:innen erfolgreich agieren, werden von den großen Branchen- und Interessenverbänden, wie der Bitkom oder der Gesellschaft für Informatik, diskutiert und etabliert. Zu den Kernaufgaben der Absolvent\*innen gehören nach dem Studium die drei Bereiche Development, Design und Exploration.
+Die Berufsbilder, in denen Medieninformatiker\*innen erfolgreich agieren, werden von den großen Branchen- und Interessenverbänden, wie der Bitkom oder der Gesellschaft für Informatik, diskutiert und etabliert. Zu den Kernaufgaben der Absolvent\*innen gehören nach dem Studium die drei Bereiche Development, Design und Exploration.
 
 Dazu können wir folgt beispielhaft Anwendungsgebiete und Branchen genannt werden.
 

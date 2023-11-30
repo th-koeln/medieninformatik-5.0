@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen mit guten Englisch Kenntnissen"
+title: "Suchen Medieninformatiker*innen mit guten Englisch Kenntnissen"
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

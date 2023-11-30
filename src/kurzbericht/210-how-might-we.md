@@ -14,10 +14,17 @@ meta:
 
 Alle gewonnen Erkenntnisse wurden systematisch festgehalten und nach relevanten Themengebieten gruppiert, um eine klar strukturierte Übersicht über die gesammelten Informationen zu erhalten. Hierbei wurden ausschließlich die Informationen einbezogen, die für den Prozess der Reakkreditierung von Bedeutung sind, um gezielt die Angriffspunkte zu setzen. Die identifizierten Angriffspunkte dienten als Ausgangspunkt für die Formulierung von How-Might-We Fragen, die nach Studiengang klassifiziert wurden. 
 
+{% screenshot "/images/moods/insights-portrait.png", "Miro Board mit allen gewonnenen Erkenntnissen" %}
+
 Die How-Might-We Fragen wurden durch das Entwicklungs- und Studiengangsteam priorisiert. Die Fragen wurden anschließend in drei Kategorien unterteilt: «Top Votes» mit mehr als sechs Sternen, «Middle Votes» mit mehr als drei Sternen und «Low Votes» für die übrigen Fragen.
 
 - [Übersicht über alle relevanten Erkenntnisse](/insights/)
 - [Übersicht über alle How-Might-We Fragen](/how-might-we/)
+
+<br>
+
+{% image "/images/moods/votings.png", "Priorisierung der How-Might-We Fragen" %}
+<br>
 
 Aus den Fragen wurden konkrete Maßnahmen abgeleitet und in die Studiengänge integriert. Einige der Maßnahmen wurden bereits im Kapitel [Studentische Beteiligung](#studentische-beteiligung) vorgestellt. Hier nun eine Auswahl weiterer How-Might-We Fragen und zugehöriger Maßnahmen.
 

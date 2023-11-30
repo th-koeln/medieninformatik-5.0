@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen mit sehr guten Deutsch Kenntnissen"
+title: "Suchen Medieninformatiker*innen mit sehr guten Deutsch Kenntnissen"
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

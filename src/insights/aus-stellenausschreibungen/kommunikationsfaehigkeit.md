@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen die kommunikations- und teamfähig sind."
+title: "Suchen Medieninformatiker*innen die kommunikations- und teamfähig sind."
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

@@ -506,6 +506,26 @@ blockquote {
   padding-right: var(--quat);
 }
 
+.is-dev-color {
+  color: var(--handlungsfeld-dev);
+}
+
+.is-dux-color {
+  color: var(--handlungsfeld-dux);
+}
+
+.is-crea-color {
+  color: var(--handlungsfeld-crea);
+}
+
+.is-exa-color {
+  color: var(--handlungsfeld-exa);
+}
+
+.is-indi-color {
+  color: var(--handlungsfeld-indi);
+}
+
 /* Status
 ############################################################################ */
 .status {
@@ -1016,6 +1036,7 @@ ul.gallery-grid {
   display: grid;
   gap: var(--m);
   grid-template-columns: repeat(auto-fill, minmax(var(--image-width), 1fr));
+  padding-top: var(--fluid-space-xs);
 }
 ul.gallery-grid.is-small {
   --image-width: var(--max-width-image-s);
@@ -1716,17 +1737,9 @@ ul.job-offer-overview .job-offer-data figcaption li {
 
 /* Kleine Optimierungen
 ###########################################################################  */
-.modulhandbuch p + div {
-  margin-top: var(--fluid-space-l);
-}
-.modulhandbuch h2 {
-  margin-top: var(--fluid-space-xl);
-}
-
-/* Modulhandbuch -> Handlungsfelder
-###########################################################################  */
-.modulhandbuch div {
-  margin-bottom: var(--fluid-space-s);
+.modulhandbuch ul:not([class]) li + li,
+.modulhandbuch ol:not([class]) li + li {
+  margin-top: var(--quat);
 }
 
 /* Kurzbericht
@@ -1754,6 +1767,28 @@ ul.job-offer-overview .job-offer-data figcaption li {
     margin-left: -40ch;
     width: 30ch;
   }
+}
+
+/* Handlungsfelder
+############################################################################ */
+.handlungsfelder h2 {
+  background: none;
+  padding-left: 0;
+}
+.handlungsfelder h2.is-dux {
+  color: var(--handlungsfeld-dux);
+}
+.handlungsfelder h2.is-dev {
+  color: var(--handlungsfeld-dev);
+}
+.handlungsfelder h2.is-exa {
+  color: var(--handlungsfeld-exa);
+}
+.handlungsfelder h2.is-indi {
+  color: var(--handlungsfeld-indi);
+}
+.handlungsfelder h2.is-crea {
+  color: var(--handlungsfeld-crea);
 }
 
 /*# sourceMappingURL=main.css.map */

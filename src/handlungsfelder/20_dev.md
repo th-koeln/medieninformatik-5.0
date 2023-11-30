@@ -45,7 +45,7 @@ competencies:
 
 **Leitfrage: Wie werden Softwaresysteme und -produkte gebaut?**
 
-Durch die Planung von Systemarchitekturen, die Umsetzung von Frontend- und Backend-Funktionalitäten, den Entwurf von Software-Systemen und Datenbankstrukturen sowie die Implementierung von Sicherheitsmaßnahmen schaffen Medieninformatiker\*innen qualitativ hochwertige Softwarelösungen. Durch enge Zusammenarbeit im Team tragen Medieninformatiker:innen dazu bei, innovative und zuverlässige Systeme zu schaffen, die den Anforderungen der Stakeholder gerecht werden.
+Durch die Planung von Systemarchitekturen, die Umsetzung von Frontend- und Backend-Funktionalitäten, den Entwurf von Software-Systemen und Datenbankstrukturen sowie die Implementierung von Sicherheitsmaßnahmen schaffen Medieninformatiker\*innen qualitativ hochwertige Softwarelösungen. Durch enge Zusammenarbeit im Team tragen Medieninformatiker\*innen dazu bei, innovative und zuverlässige Systeme zu schaffen, die den Anforderungen der Stakeholder gerecht werden.
 
 Im Arbeitsbereich «Developing Interactive and Distributed Systems« gibt es im Berufsalltag von Medieninformatiker\*innen verschiedene typische Vorgänge. Hier sind einige davon:
 

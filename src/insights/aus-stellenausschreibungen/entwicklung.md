@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen mit Entwicklungskompetenz"
+title: "Suchen Medieninformatiker*innen mit Entwicklungskompetenz"
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

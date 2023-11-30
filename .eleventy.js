@@ -128,6 +128,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.obj");
   eleventyConfig.addPassthroughCopy("src/**/*.mtl");
 
+  // Copy Downloads
+  eleventyConfig.addPassthroughCopy({ 'src/downloads': 'downloads' });
+
   // Copy Scripts
   eleventyConfig.addPassthroughCopy({ 'src/assets/scripts': 'assets/scripts' });
   eleventyConfig.addWatchTarget("./src/assets/scripts");

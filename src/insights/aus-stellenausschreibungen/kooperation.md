@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen die kooperationsfähig sind"
+title: "Suchen Medieninformatiker*innen die kooperationsfähig sind"
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

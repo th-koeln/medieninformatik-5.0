@@ -23,7 +23,7 @@ In den Studiengängen der Medieninformatik finden Prinzipien und Techniken der I
 > [!NOTE]
 > oder was auch immer ihr hier haben wollt
 
-Die Medieninformatik ist ein Vermittler zwischen fachlichen Welten. Sie integriert Perspektiven der Informatik, des Designs, der Psychologie sowie wirtschaftliche Aspekte. Medieninformatiker:innen reagieren auf den aktuellen und schnelllebigen technischen Wandel und gestalten ihn aktiv mit, genauso wie andere Informatikstudiengängen. Die Medieninformatik Studiengänge gehen dabei über das Ziel der technischen Machbarkeit hinaus und betrachten vor allen Dingen die gesellschaftlichen und individuellen Bedarfe, denen der technische Fortschritt in der Informatik dienen kann.
+Die Medieninformatik ist ein Vermittler zwischen fachlichen Welten. Sie integriert Perspektiven der Informatik, des Designs, der Psychologie sowie wirtschaftliche Aspekte. Medieninformatiker\*innen reagieren auf den aktuellen und schnelllebigen technischen Wandel und gestalten ihn aktiv mit, genauso wie andere Informatikstudiengängen. Die Medieninformatik Studiengänge gehen dabei über das Ziel der technischen Machbarkeit hinaus und betrachten vor allen Dingen die gesellschaftlichen und individuellen Bedarfe, denen der technische Fortschritt in der Informatik dienen kann.
 Die Medieninformatik fokussiert sich in Abgrenzung zu anderen Informatikstudiengängen mehr auf die Entwicklung und Gestaltung interaktiver, multimedialer Anwendungen und damit der Benutzererlebnisse.  Die Medieninformatik legt in Abgrenzung zu anderen Informatikstudiengängen mehr Wert auf Kreativität und zeigt ihre Ergebnisse oft erfahrbarer und visueller (* bei dem letzten Satz, bin ich unsicher, ob der hier rein soll*).
 
 #### Was sind die Ziele des Studiengangs / der Studiengänge?
@@ -47,7 +47,7 @@ Seit 2000 bietet die TH Köln Studiengänge der Medieninformatik an und ist dami
 > [!NOTE]
 > Haben wir ja schon, können wir noch mal mit diesen aus dem Benchmarking abgleichen
 
-Die Berufsbilder, in denen Medieninformatiker:innen erfolgreich agieren, werden von den großen Branchen- und Interessenverbänden, wie der Bitkom oder der Gesellschaft für Informatik diskutiert und etabliert.
+Die Berufsbilder, in denen Medieninformatiker\*innen erfolgreich agieren, werden von den großen Branchen- und Interessenverbänden, wie der Bitkom oder der Gesellschaft für Informatik diskutiert und etabliert.
 Anwendungsgebiete
 
 - User Researcher / Information Architect

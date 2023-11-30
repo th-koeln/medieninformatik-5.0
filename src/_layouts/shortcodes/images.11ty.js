@@ -4,8 +4,8 @@
 exports.getImageBlock = (src, caption) => {
 
   return `
-    <figure>
-      <img src="${src}" alt="${caption}" />
+    <figure class="image">
+      <img loading="lazy" src="${src}" alt="${caption}" />
       <figcaption>${caption}</figcaption>
     </figure>
   `;
@@ -19,7 +19,7 @@ exports.getScreenshotBlock = (src, caption) => {
   return `
     <figure class="screenshot">
       <div class="screenshot-wrapper">
-        <img src="${src}" alt="${caption}" />
+        <img loading="lazy" src="${src}" alt="${caption}" />
       </div>
       <figcaption>${caption}</figcaption>
     </figure>

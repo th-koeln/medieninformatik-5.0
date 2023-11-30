@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen mit Projekterfahrung"
+title: "Suchen Medieninformatiker*innen mit Projekterfahrung"
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte
