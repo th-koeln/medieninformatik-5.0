@@ -53,6 +53,24 @@ exports.getEditLink = (item, data) => {
   return editElement;
 };
 
+/* Zitat ausliefern
+############################################################################ */
+
+exports.getQuote = (data) => {
+
+  const quotes = data.collections.quotes;
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+  if(!randomQuote) return '';
+
+  return `
+    <div class="marginal-quote">
+      ${randomQuote.content}
+      <cite>${randomQuote.data.author}</cite>
+    </div>
+  `;
+};
+
 /* Open in New Window Link für Content erzeugen 
 ############################################################################ */
 

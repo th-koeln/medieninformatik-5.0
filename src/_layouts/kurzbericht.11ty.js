@@ -8,6 +8,8 @@ module.exports = {
     const tocTools = require('./components/tocTools.11ty.js');
     const utils = require('./components/utils.11ty.js');
 
+    const quote = utils.getQuote(data);
+
     const kurzberichtList = data.collections.itemsKurzbericht.map((item) => {
       const meta = utils.getContentMeta(this, item.data.meta);
       const status = item.data.meta && item.data.meta.status ? `is-${item.data.meta.status}` : '';
@@ -19,7 +21,6 @@ module.exports = {
             ${utils.getOpenInNewWindowLink(item, data)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
             ${meta}
             ${item.content}
-            
           </div>
         </section>
       `;
@@ -47,6 +48,7 @@ module.exports = {
 			    		<p class="date">Letzte Änderung am ${utils.getDate(data.page.date)}</p>
 			    		</div>
 			    	</header>
+            
 			    </section>
           ${data.content}
           <section>

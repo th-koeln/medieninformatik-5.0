@@ -18,7 +18,7 @@ ul:not([class]) {
     }
 
     & + li {
-      margin-top: var(--quat);
+      margin-top: 1%;
     }
   }
 }
@@ -37,7 +37,7 @@ ol:not([class]){
   }
 
   li + li {
-    margin-top: var(--quat);
+    margin-top: 1%;
 
   }
 

@@ -68,14 +68,14 @@ select {
   font-family: IBMplex;
   font-style: normal;
   font-weight: 300;
-  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf") format("truetype");
 }
 @font-face {
   font-display: swap;
   font-family: IBMplex;
   font-style: italic;
   font-weight: 300;
-  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf") format("truetype");
+  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf") format("truetype");
 }
 @font-face {
   font-display: swap;
@@ -192,6 +192,7 @@ select {
   --max-width-image-l: calc(var(--m) * 15);
   --max-width-image-s: calc(var(--m) * 5);
   --max-width-navigation: calc(var(--m) * 20);
+  --max-width-aside: calc(var(--m) * 25);
   --mi-lila: #9313ce;
   --mi-gruen: #00ad2f;
   --mi-orange: #F58700;
@@ -214,7 +215,7 @@ select {
   --darken-strong: rgb(0 0 0 / 20%);
   --darken-light: rgb(0 0 0 / 5%);
   --color-text: var(--darker);
-  --color-headline: var(--dark);
+  --color-headline: var(--darkest);
   --color-accent: var(--mi-pink);
   --color-highlight: var(--mi-lila);
   --color-decoration: var(--dark);
@@ -292,6 +293,7 @@ h2 {
   padding-top: var(--fluid-space-s);
   margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
+  font-weight: var(--fw-medium);
 }
 
 h3 {
@@ -299,6 +301,7 @@ h3 {
   font-size: var(--l);
   margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
+  font-weight: var(--fw-medium);
 }
 
 h4,
@@ -307,7 +310,11 @@ h6 {
   font-size: var(--m);
   padding-top: var(--fluid-space-xs);
   margin-bottom: var(--half);
-  color: var(--darkest);
+}
+
+h5,
+h6 {
+  padding-top: var(--xs);
 }
 
 p,
@@ -343,7 +350,7 @@ small {
 }
 
 p, ul, blockquote {
-  margin-bottom: var(--m);
+  margin-bottom: 1%;
 }
 
 p + h2,
@@ -353,6 +360,13 @@ ul + h2,
 ul + h3,
 ul + h4 {
   margin-top: var(--fluid-space-s);
+}
+
+p + h5,
+p + h6,
+ul + h5,
+ul + h6 {
+  margin-top: var(--half);
 }
 
 hr {
@@ -446,7 +460,7 @@ blockquote {
   display: block;
   width: 10%;
   border-top: solid var(--border-width-l) var(--mi-blau);
-  margin-bottom: var(--fluid-space-m);
+  margin-top: var(--fluid-space-l);
   content: "";
 }
 
@@ -501,6 +515,11 @@ blockquote {
 .status:hover {
   cursor: pointer;
   transform: rotate(90deg);
+}
+
+.composition, .is-refactor, .is-review, .is-rfreview, .is-wip, .is-tbd {
+  margin-top: var(--fluid-space-m) !important;
+  padding-bottom: var(--fluid-space-l) !important;
 }
 
 .is-tbd {
@@ -580,6 +599,7 @@ main, aside {
 
 section {
   padding-bottom: var(--fluid-space-m);
+  position: relative;
 }
 section.is-loose {
   padding-bottom: var(--fluid-space-xl);
@@ -593,17 +613,21 @@ table {
 ############################################################################ */
 @media screen and (min-width: 160ch) {
   .content-wrap:has(aside) {
-    display: grid;
+    display: flex;
     gap: var(--fluid-space-m);
-    grid-template-columns: 1fr var(--max-width-navigation);
+    flex-direction: row-reverse;
   }
   .content-wrap:has(aside) aside {
     padding-right: var(--xl);
     font-size: var(--s);
+    max-width: var(--max-width-aside);
   }
   .content-wrap:has(aside) aside nav {
     position: sticky;
     top: calc(var(--fluid-space-l) * 1.5);
+  }
+  .content-wrap:has(aside) main {
+    flex-grow: 2;
   }
 }
 /* Main Header
@@ -947,6 +971,14 @@ table.is-narrow td {
   max-width: var(--max-width-content);
 }
 
+/* Intro Text
+############################################################################ */
+.intro-text {
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-normal);
+  max-width: var(--max-width-content);
+}
+
 /* Content Meta
 ############################################################################ */
 ul.content-meta {
@@ -1032,11 +1064,7 @@ ul:not([class]) > li::before {
   margin-left: -1.5ch;
 }
 ul:not([class]) > li + li {
-  margin-top: var(--quat);
-}
-
-p + ul:not([class]) {
-  margin-top: calc(var(--xs) * -1);
+  margin-top: 1%;
 }
 
 ol:not([class]) {
@@ -1050,7 +1078,7 @@ ol:not([class]) li::marker {
   color: var(--dark);
 }
 ol:not([class]) li + li {
-  margin-top: var(--quat);
+  margin-top: 1%;
 }
 
 /* Liste in Liste
@@ -1200,6 +1228,10 @@ ul.hero-list > li + li {
 
 /* Navigation
 ############################################################################ */
+.inline-navigation .navigation-title {
+  font-size: var(--m);
+  padding-top: 0;
+}
 .inline-navigation li {
   line-height: var(--lh-tight);
   position: relative;
@@ -1212,25 +1244,11 @@ ul.hero-list > li + li {
   transition: padding var(--tr-fast);
   padding-right: var(--fluid-space-s);
 }
-.inline-navigation li a:hover {
+.inline-navigation li a:hover, .inline-navigation li a.is-active {
   padding-left: var(--half);
   padding-right: var(--fluid-space-xs);
-}
-.inline-navigation li > .icon {
-  transition: all var(--tr-fast);
-  position: absolute;
-  top: 0;
-  right: -20px;
-  bottom: 0;
-  line-height: var(--l);
-  vertical-align: bottom;
-  font-weight: var(--fw-bold);
-  opacity: 0;
-  color: var(--color-accent);
-}
-.inline-navigation li:hover .icon {
-  opacity: 1;
-  right: var(--quat);
+  border-left: solid var(--border-width-m) var(--color-accent);
+  background-color: var(--darken);
 }
 .inline-navigation li + li {
   border-top: solid var(--border-width-s) var(--darken);
@@ -1241,7 +1259,6 @@ ul.hero-list > li + li {
 .cover header {
   display: flex;
   flex-direction: column;
-  height: 50vh;
 }
 .cover .owner {
   margin-bottom: var(--fluid-space-xl);
@@ -1256,7 +1273,8 @@ ul.hero-list > li + li {
   font-size: var(--xxl);
   color: var(--darkest);
   font-weight: var(--fw-bold);
-  margin-bottom: var(--fluid-space-l);
+  padding-bottom: var(--fluid-space-xl);
+  margin-bottom: var(--fluid-space-xl);
   line-height: var(--lh-tight);
 }
 .cover .degree {
@@ -1310,8 +1328,27 @@ ul.hero-list > li + li {
   bottom: var(--xs);
 }
 
+/* Quotes
+############################################################################ */
+.marginal-quote {
+  display: none;
+}
+.marginal-quote cite {
+  font-style: normal;
+  color: var(--dark);
+}
+.marginal-quote p {
+  line-height: var(--lh-normal);
+  font-style: italic;
+  color: var(--mi-lila);
+  font-size: var(--xxl);
+}
+
 /* Content Blocks
 ############################################################################ */
+.content-blocks section {
+  padding-bottom: 0;
+}
 .content-blocks section .content {
   padding-top: calc(var(--fluid-space-s) * 1);
   padding-right: var(--fluid-space-s);
@@ -1319,15 +1356,8 @@ ul.hero-list > li + li {
 .content-blocks section .content > * {
   max-width: var(--max-width-content);
 }
-.content-blocks section .content h2, .content-blocks section .content h3 {
-  padding-top: 0;
-  padding-bottom: var(--fluid-space-xs);
-}
 .content-blocks section .content p:last-child {
   margin-bottom: 0;
-}
-.content-blocks section .content p + h3 {
-  margin-top: var(--fluid-space-xl);
 }
 @media screen and (min-width: 160ch) {
   .content-blocks section .content blockquote {
@@ -1470,8 +1500,9 @@ ul.hero-list > li + li {
 .modulbeschreibung .scores-and-charts .chart canvas {
   width: 100%;
 }
-.modulbeschreibung .scores-and-charts .scores .description-text {
+.modulbeschreibung .scores-and-charts .description-text {
   margin-bottom: var(--fluid-space-l);
+  padding-right: var(--fluid-space-m);
 }
 .modulbeschreibung .scores-and-charts .score {
   margin-bottom: var(--s);
@@ -1702,18 +1733,26 @@ ul.job-offer-overview .job-offer-data figcaption li {
 ############################################################################ */
 @media screen and (min-width: 120rem) {
   .kurzbericht main > *:not(h4) {
-    margin-left: 33%;
+    margin-left: 40ch;
   }
   .kurzbericht main h4 {
-    width: 31%;
+    width: 38ch;
     height: 0;
     margin-bottom: 0;
     padding-bottom: 0;
-    margin-left: -33%;
+    margin-left: -40ch;
   }
   .kurzbericht main h4 {
     text-align: right;
     line-height: var(--lh-normal);
+  }
+  .kurzbericht .marginal-quote {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    margin-left: -40ch;
+    width: 30ch;
   }
 }
 

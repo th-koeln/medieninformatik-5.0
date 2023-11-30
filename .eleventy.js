@@ -217,6 +217,15 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addCollection("quotes", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/quotes/*.md").sort((a, b) => {
+      if (a.fileSlug > b.fileSlug) return 1;
+      else if (a.fileSlug < b.fileSlug) return -1;
+      else return 0;
+    });
+  });
+
   eleventyConfig.addCollection("modulsMPO5", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/medieninformatik-master/modulbeschreibungen-mpo5/*.md").sort((a, b) => {

@@ -40,7 +40,7 @@ h2 {
   padding-top: var(--fluid-space-s);
   margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
-
+  font-weight: var(--fw-medium);
 }
 
 h3 {
@@ -99,7 +99,7 @@ small {
 }
 
 p, ul, blockquote {
-  margin-bottom: var(--xs);
+  margin-bottom: 1%;
 }
 
 p + h2,
