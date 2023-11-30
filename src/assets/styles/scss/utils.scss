@@ -181,3 +181,19 @@
   position: sticky;
   top: 0;
 }
+
+/* Size Indicator
+############################################################################ */
+[data-js-size-indicator-large]{
+  display: none;
+}
+
+@media screen and (min-width: 160ch){
+  [data-js-size-indicator-small]{
+    display: none;
+  }
+
+  [data-js-size-indicator-large]{
+    display: inline;
+  }
+}

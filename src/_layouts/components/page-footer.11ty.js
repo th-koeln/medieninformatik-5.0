@@ -26,5 +26,8 @@ exports.getPageFooter = (eleventy, data) => {
       <a href="#top-of-page" class="scroll-to-top-link" aria-label="Scroll to top"><span class="icon">arrow_upward</span></a>
     </div>
 
+    <div data-js-size-indicator-small>Small</div>
+    <div data-js-size-indicator-large>Large</div>
+
   `;
 };
