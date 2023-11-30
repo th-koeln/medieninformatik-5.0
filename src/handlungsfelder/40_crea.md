@@ -4,7 +4,7 @@ kuerzel: crea
 layout: page.11ty.js
 level: 1
 meta:
-  status: rfreview
+  status: ok
   authors: Entwicklungsteam, Christian
   reviewers: Matthias, Irma?
 
@@ -45,7 +45,7 @@ competencies:
 
 ---
 
-Leitfrage: Wie kriegen wir das auf die Straße?
+**Leitfrage: Wie kriegen wir das Produkt/ Konzept auf die Straße?**
 
 Im Handlungsfeld «Driving Creation Processes» steuern Absolvent\*innen verschiedene Prozesse der Produktentwicklung, von der Bedarfsermittlung, über die Konzeption und die Entwicklung bis zur Markteinführung. Dies umfasst Innovationsmanagement, Produktentwicklung, Projektmanagement und die erfolgreiche Positionierung eines neuen Produkts im Markt. Marktforschung, Finanzmanagement, Qualitätssicherung und die Berücksichtigung rechtlicher, ethischer und nachhaltiger Aspekte gehören ebenso zu den Aufgaben. Der Fokus liegt darauf, innovative Ideen nicht nur zu generieren, sondern auch effektiv auf den Markt zu bringen und dabei die Bedürfnisse der Zielgruppe zu erfüllen.
 

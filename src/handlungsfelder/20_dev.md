@@ -4,7 +4,7 @@ kuerzel: dev
 layout: page.11ty.js
 level: 1
 meta:
-  status: refactor
+  status: ok
   authors: Entwicklungsteam, Christian
   reviewers: Matthias, Viet, Volker
   comments:
@@ -42,9 +42,7 @@ competencies:
         competence: "Können digitale Produkte und verschiedene Software-Artefakte zur Evaluation und zur Nutzung auf typischen Distributionswegen (bspw. Clickdummy, Web-Deployment, App Store) für verschiedene Zielgruppen bereit stellen (lauffähig, sicher und gebrauchstauglich)."
 ---
 
-Leitfrage: Wie werden Softwaresysteme und -produkte gebaut?
-
-> cn: Vorschlag - Viet, Volker & Matthias bitte mal drüber schauen
+**Leitfrage: Wie werden Softwaresysteme und -produkte gebaut?**
 
 Durch die Planung von Systemarchitekturen, die Umsetzung von Frontend- und Backend-Funktionalitäten, den Entwurf von Software-Systemen und Datenbankstrukturen sowie die Implementierung von Sicherheitsmaßnahmen schaffen Medieninformatiker\*innen qualitativ hochwertige Softwarelösungen. Durch enge Zusammenarbeit im Team tragen Medieninformatiker:innen dazu bei, innovative und zuverlässige Systeme zu schaffen, die den Anforderungen der Stakeholder gerecht werden.
 
@@ -63,3 +61,5 @@ Im Arbeitsbereich «Developing Interactive and Distributed Systems« gibt es im 
 - Skalierbarkeit und Performance-Optimierung, um den Anforderungen einer wachsenden Benutzerbasis gerecht zu werden.
 - Erstellung von Dokumentationen sowie die Einhaltung von Clean Code Prinzipien, die den Quelltext, die Systemarchitektur und andere relevante Informationen und Entscheidungen umfassen, um eine einfache Wartung und Weiterentwicklung zu ermöglichen.
 - Koordinierung der Zusammenarbeit mit anderen Entwickler:innen, Designer:innen Productowner:innen und weiteren Stakeholdern, um sicherzustellen, dass die entwickelten Systeme den Anforderungen und Erwartungen entsprechen.
+- Implementierung von Technologien, die Interaktionen an verschiedene Umgebungen und Kontexte anpassen können, um eine nahtlose Nutzung zu ermöglichen.
+- Implementierung von Funktionen des maschinellen Lernens, um personalisierte Interaktionen auf Grundlage von Benutzerpräferenzen und -verhalten zu ermöglichen. 

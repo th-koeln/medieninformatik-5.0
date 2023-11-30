@@ -4,7 +4,7 @@ kuerzel: exa
 layout: page.11ty.js
 level: 1
 meta:
-  status: refactor
+  status: ok
   authors: Entwicklungsteam
   reviewers: 
   comments:
@@ -55,17 +55,15 @@ competencies:
         competence: "Können angemessene Prototypen für die jeweilige Fragestellung und Entwicklungsphase entwickeln und effizient einsetzen."
 ---
 
-Leitfrage: Was geht noch so? *bling* *bling* 
+**Leitfrage: Was geht noch so? *bling* *bling***
 
-> cn: Vorschlag - @Matthias, @Florian, @Raphi kann da mal jemand drüber schauen?
-> rgr: ab hier hab ich überarbeitet
+Im Handlungsfeld «Exploring Advanced Interactive Media» gestalten Medieninformatiker\*innen experimentelle und innovative interaktive Produkte und Services. Durch Erkenntnisse und Inspiration aus anderen Disziplinen, kreative Konzeption und Prototyping werden neue Technologien, Trends und Anwendungsszenarien erkundet. Für die Medieninformatik sind Technologien aus den Bereichen Virtual Reality (VR), Augmented Reality (AR), Mixed Reality, Ubiquitous Computing und Machine Learning zukunftsweisend. Daraus resultieren beispielsweise neue Kontexte für intelligente Sprach- und Textverarbeitung sowie multimodale Interfaces als Spielwiesen für fortschrittliche Interaktionsformen. 
 
-Im Handlungsfeld «Exploring Advanced Interactive Media» gestalten Medieninformatiker\*innen experimentelle und innovative interaktive Produkte und Services. Durch Erkenntnisse und Inspiration aus anderen Disziplinen, kreative Konzeption und Prototyping werden neue Technologien, Trends und Anwendungsszenarien erkundet. Für die Medieninformatik sind Technologien aus den Bereichen Virtual Reality (VR), Augmented Reality (AR), Mixed Reality, Ubiquitous Computing und Machine Learning zukunftsweisend. Daraus resultieren beispielsweise neue Kontexte für intelligente Sprach- und Textverarbeitung sowie multimodale Interfaces als Spielwiesen für fortschrittliche Interaktionsformen. Die Integration von Haptik, Gestensteuerung, künstlicher Intelligenz und experimentellen Benutzungsschnittstellen steht im Fokus, um immersive, alltagstaugliche und zukunftsweisende digitale Nutzungserlebnisse zu schaffen. Neben technischen Neuerungen betrachten Medieninformatiker\*innen hier auch Trends in der Interaktion, wie etwa spielerische Interaktionen im Kontext von Gamification und Serious Games oder neue Entwicklungen in der Visualisierung im Umfeld von Datenanalyse. Die frühzeitige Einbindung von Anwender:innen und deren Perspektiven in den Entwicklungsprozess stellt sicher, dass diese fortschrittlichen interaktiven Medien nicht nur technologisch exploriert werden, sondern auch den Anforderungen in den potentiellen Einsatzgebieten gerecht werden. Medieninformatiker\*innen treiben somit aktiv die Entwicklung und Erforschung modernster Interaktionstechnologien voran und gehen in eigenen Lösugen über den Stand der Technik hinaus.
+Die Integration von Haptik, Gestensteuerung, künstlicher Intelligenz und experimentellen Benutzungsschnittstellen steht im Fokus, um immersive, alltagstaugliche und zukunftsweisende digitale Nutzungserlebnisse zu schaffen. Neben technischen Neuerungen betrachten Medieninformatiker\*innen hier auch Trends in der Interaktion, wie etwa spielerische Interaktionen im Kontext von Gamification und Serious Games oder neue Entwicklungen in der Visualisierung im Umfeld von Datenanalyse. 
+
+Die frühzeitige Einbindung von Anwender:innen und deren Perspektiven in den Entwicklungsprozess stellt sicher, dass diese fortschrittlichen interaktiven Medien nicht nur technologisch exploriert werden, sondern auch den Anforderungen in den potentiellen Einsatzgebieten gerecht werden. Medieninformatiker\*innen treiben somit aktiv die Entwicklung und Erforschung modernster Interaktionstechnologien voran und gehen in eigenen Lösugen über den Stand der Technik hinaus.
 
 Hier sind typische Vorgänge, die in diesem Kontext stattfinden können:
-
-diskurs
-
 
 - Aktive Exploration und Erforschung neuer Technologien, Trends und Konzepte im Bereich interaktiver Medien, um innovative Ideen zu generieren. Techniken des Innovationsmonitorings, Technologiescreenings und Benchmarkings werden eingesetzt.
 - Entwicklung von Konzepten für fortschrittliche interaktive Medienprodukte, die über den aktuellen Stand der Forschung und Technik hinausgehen, sich dabei nicht oder nur teilweise an bestehenden Standards orientieren können und damit eine ausführliche Analyse des potenziellen Problem- und Lösungsraums erfordern.

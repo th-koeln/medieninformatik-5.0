@@ -55,29 +55,30 @@ module.exports = {
     });
 
 		return `
-			<main>
-				<section>
-					<header>
-						<h1>${data.title}</h1>
-					</header>
-				</section>
-
-        <section>
-          <nav>
-            ${tocTools.getPageTOC({
-              eleventy,
-              collection: data.collections.handlungsfelder,
-              maxLevel: 1
-            })}
-          </nav>
+    <div class="content-wrap">
+      <aside>
+        <nav>
+        ${tocTools.getPageTOC({
+          eleventy,
+          collection: data.collections.handlungsfelder,
+          maxLevel: 1
+        })}
+      </nav>
+      </aside>
+		  <main>
+			  <section>
+				  <header>
+					  <h1>${data.title}</h1>
+				  </header>
+			  </section>
+        <section class="intro-text">
+          ${data.content}
         </section>
-
-        ${data.content}
-
         <section>
           ${handlungsfelderList.join("\n")}
         </section>
-			</main>
+  		</main>
+    </div>
 		`;
 	}
 }
