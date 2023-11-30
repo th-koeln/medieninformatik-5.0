@@ -184,6 +184,14 @@
 
 /* Size Indicator
 ############################################################################ */
+
+[data-js-size-indicator-large],
+[data-js-size-indicator-small]{
+  display: inline;
+  margin: 0 !important;
+  height: 0;
+}
+
 [data-js-size-indicator-large]{
   display: none;
 }

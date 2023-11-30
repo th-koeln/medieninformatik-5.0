@@ -68,14 +68,14 @@ select {
   font-family: IBMplex;
   font-style: normal;
   font-weight: 300;
-  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Light.ttf") format("truetype");
+  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf") format("truetype");
 }
 @font-face {
   font-display: swap;
   font-family: IBMplex;
   font-style: italic;
   font-weight: 300;
-  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-LightItalic.ttf") format("truetype");
+  src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.woff2") format("woff2"), url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf") format("truetype");
 }
 @font-face {
   font-display: swap;
@@ -176,10 +176,10 @@ select {
   --s: calc(var(--bfs) * 0.8);
   --m: calc(var(--bfs) * 1);
   --l: calc(var(--bfs) * 1.2);
-  --xl: calc(var(--bfs) * 1.4);
-  --xxl: calc(var(--bfs) * 1.6);
-  --xxxl: calc(var(--bfs) * 1.8);
-  --xxxxl: calc(var(--bfs) * 2);
+  --xl: calc(var(--bfs) * 1.5);
+  --xxl: calc(var(--bfs) * 1.9);
+  --xxxl: calc(var(--bfs) * 2.4);
+  --xxxxl: calc(var(--bfs) * 3);
   --fluid-space-xs: calc(var(--xs) + 0.25vw);
   --fluid-space-s: calc(var(--s) + 0.5vw);
   --fluid-space-m: calc(var(--m) + 1vw);
@@ -602,6 +602,21 @@ blockquote {
   top: 0;
 }
 
+/* Size Indicator
+############################################################################ */
+[data-js-size-indicator-large] {
+  display: none;
+}
+
+@media screen and (min-width: 160ch) {
+  [data-js-size-indicator-small] {
+    display: none;
+  }
+
+  [data-js-size-indicator-large] {
+    display: inline;
+  }
+}
 body {
   display: flex;
   flex-direction: column;
@@ -632,22 +647,21 @@ table {
 /* Aside
 ############################################################################ */
 @media screen and (min-width: 160ch) {
-  .content-wrap:has(aside) {
-    display: flex;
+  main:has(#page-navigation) {
+    display: grid;
+    grid-template-columns: 1fr var(--max-width-aside);
+    grid-template-areas: "content toc" "content toc";
     gap: var(--fluid-space-m);
-    flex-direction: row-reverse;
   }
-  .content-wrap:has(aside) aside {
+  main:has(#page-navigation) #page-navigation {
+    grid-area: toc;
     padding-right: var(--xl);
     font-size: var(--s);
     max-width: var(--max-width-aside);
   }
-  .content-wrap:has(aside) aside nav {
+  main:has(#page-navigation) #page-navigation nav {
     position: sticky;
     top: calc(var(--fluid-space-l) * 1.5);
-  }
-  .content-wrap:has(aside) main {
-    flex-grow: 2;
   }
 }
 /* Main Header
@@ -1249,10 +1263,6 @@ ul.hero-list > li + li {
 
 /* Navigation
 ############################################################################ */
-.inline-navigation {
-  border-bottom: solid var(--border-width-m) var(--mi-lila);
-  padding-bottom: var(--fluid-space-s);
-}
 .inline-navigation .navigation-title {
   font-size: var(--m);
   padding-top: 0;
@@ -1277,6 +1287,19 @@ ul.hero-list > li + li {
 }
 .inline-navigation li + li {
   border-top: solid var(--border-width-s) var(--darken);
+}
+@media screen and (max-width: 160ch) {
+  .inline-navigation {
+    padding-bottom: var(--fluid-space-l);
+  }
+  .inline-navigation::before {
+    display: block;
+    width: 10%;
+    border-top: solid var(--border-width-l) var(--mi-blau);
+    margin-top: var(--fluid-space-l);
+    padding-top: var(--fluid-space-l);
+    content: "";
+  }
 }
 
 /* Cover
@@ -1749,7 +1772,7 @@ ul.job-offer-overview .job-offer-data figcaption li {
 /* Kurzbericht
 ############################################################################ */
 @media screen and (min-width: 120rem) {
-  .kurzbericht main > *:not(h4) {
+  .kurzbericht main > *:not(h4, #page-navigation) {
     margin-left: 40ch;
   }
   .kurzbericht main h4 {
