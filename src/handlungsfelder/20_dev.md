@@ -3,6 +3,7 @@ title: Developing Interactive and Distributed Systems
 kuerzel: dev
 layout: page.11ty.js
 level: 1
+cssClass: is-dev
 meta:
   status: ok
   authors: Entwicklungsteam, Christian

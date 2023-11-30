@@ -3,6 +3,7 @@ title: Exploring Advanced Interactive Media
 kuerzel: exa
 layout: page.11ty.js
 level: 1
+cssClass: is-exa
 meta:
   status: ok
   authors: Entwicklungsteam

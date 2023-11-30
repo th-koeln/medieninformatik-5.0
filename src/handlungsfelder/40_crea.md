@@ -3,6 +3,7 @@ title: Driving Creation Processes
 kuerzel: crea
 layout: page.11ty.js
 level: 1
+cssClass: is-crea
 meta:
   status: ok
   authors: Entwicklungsteam, Christian

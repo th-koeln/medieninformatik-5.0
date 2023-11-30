@@ -1,7 +1,7 @@
 module.exports = {
 	data: {
 		layout: "default.11ty.js",
-		bodyClass: "content-blocks",
+		bodyClass: "content-blocks handlungsfelder",
 	},
 	render(data, context) {
 
@@ -41,10 +41,12 @@ module.exports = {
       const competencies = getCompetencies(item.data.competencies, item.page.fileSlug)
       const meta = utils.getContentMeta(eleventy, item.data.meta);
       
+      const cssClass = item.data.cssClass ? `class="${item.data.cssClass}"` : '';
+
       return `
         <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
-            <h${item.data.level + 1} id="${eleventy.slugify(item.data.title)}">${item.data.title}
+            <h${item.data.level + 1} id="${eleventy.slugify(item.data.title)}" ${cssClass}>${item.data.title}
               ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
             ${meta}
            ${item.content}

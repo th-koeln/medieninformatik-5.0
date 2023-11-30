@@ -3,6 +3,7 @@ title: Enhancing Interactions on Different Scales
 kuerzel: indi
 layout: page.11ty.js
 level: 1
+cssClass: is-indi
 meta:
   status: ok
   authors: Entwicklungsteam

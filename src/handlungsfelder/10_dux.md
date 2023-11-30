@@ -3,6 +3,7 @@ title: Designing for User Experiences
 kuerzel: dux
 layout: page.11ty.js
 level: 1
+cssClass: is-dux
 toc:
   - handlungsfelder
 meta:
