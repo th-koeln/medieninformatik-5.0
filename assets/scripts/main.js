@@ -237,6 +237,13 @@ const addScrollSpy = () => {
   if(!inlineNavigation) return;
 
   let scrollSpyActiveElement = false;
+  if(viewportSize !== "large" && scrollSpyActiveElement) {
+    scrollSpyActiveElement.classList.remove('is-active');
+    scrollSpyActiveElement = false;
+    return;
+  }
+  if(viewportSize !== "large") return;
+
   const sections = document.querySelectorAll("h2[id], h3[id]");
     
   const intersectionCallback = (entries, observer) => {
@@ -260,14 +267,32 @@ const addScrollSpy = () => {
   sections.forEach((section) => {
     intersectionObserver.observe(section);
   });
+};
 
-  
+/* Größe des Viewports ermitteln
+############################################################################ */
+
+let viewportSize = "small";
+
+const isHidden = elem => {
+  const styles = window.getComputedStyle(elem)
+  return styles.display === 'none' || styles.visibility === 'hidden'
+}
+
+const checkViewportSize = () => {
+  const sizeIndicatorLarge = document.querySelector("[data-js-size-indicator-large]");
+  return !isHidden(sizeIndicatorLarge) ? "large" : "small";
 };
 
 /* Main
 ############################################################################ */
 
 document.addEventListener("DOMContentLoaded", () => {
+  addEventListener("resize", (event) => {
+    viewportSize = checkViewportSize();
+  });
+  viewportSize = checkViewportSize();
+
   addContentInjections();
   linkCompetencies();
   addListInteractions();
