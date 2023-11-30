@@ -47,7 +47,7 @@ module.exports = {
         <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
             <h${item.data.level + 1} id="${eleventy.slugify(item.data.title)}" ${cssClass}>${item.data.title}
-              ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
+              ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)} (${item.data.kuerzel.toUpperCase()})</h${item.data.level + 1}>
             ${meta}
            ${item.content}
             ${competencies}
