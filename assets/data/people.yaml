@@ -177,6 +177,12 @@ hg:
     personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
     avatar: '/professoren/guenther.jpg'
     mi: true
+jhenke:
+    id: jhenke
+    status: lba
+    name: 'Julia Henke'
+    avatar: '/lba/julia-henke.jpg'
+    mi: false    
 bn:
     id: bn
     status: prof
