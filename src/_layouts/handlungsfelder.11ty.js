@@ -57,30 +57,30 @@ module.exports = {
     });
 
 		return `
-    <div class="content-wrap">
-      <aside>
-        <nav>
-        ${tocTools.getPageTOC({
-          eleventy,
-          collection: data.collections.handlungsfelder,
-          maxLevel: 1
-        })}
-      </nav>
-      </aside>
+
 		  <main>
 			  <section>
 				  <header>
 					  <h1>${data.title}</h1>
 				  </header>
+
+          <div class="intro-text">
+            ${data.content}
+          </div>
 			  </section>
-        <section class="intro-text">
-          ${data.content}
-        </section>
+
+        <div id="page-navigation">
+          ${tocTools.getPageTOC({
+            eleventy,
+            collection: data.collections.handlungsfelder,
+            maxLevel: 1
+          })}
+        </div>
         <section>
           ${handlungsfelderList.join("\n")}
         </section>
   		</main>
-    </div>
+
 		`;
 	}
 }

@@ -27,35 +27,33 @@ module.exports = {
     });
 
 		return `
-      <div class="content-wrap">
-        <aside>
-          <nav>
-            ${tocTools.getPageTOC({
-              eleventy: this,
-              collection: data.collections.itemsKurzbericht,
-              maxLevel: 2
-            })}
-          </nav>
-        </aside>
-			  <main>
-			    <section class="cover">
-			    	<header>
-			    		<p class="owner">Fakultät für Informatik und Ingenieurwissenschaften</p>
-			    		<h1 class="title">${data.subtitle}</h1>
-			    		<h2 class="subtitle">${data.title}</h2>
-			    		<div class="version-and-date">
-			    		<p class="version">Version ${data.version}</p>
-			    		<p class="date">Letzte Änderung am ${utils.getDate(data.page.date)}</p>
-			    		</div>
-			    	</header>
-            
-			    </section>
-          ${data.content}
-          <section>
-            ${kurzberichtList.join("\n")}
-          </section>
-			  </main>
-      </div>
+    
+			<main>
+			  <section id="page-cover" class="cover">
+			  	<header>
+			  		<p class="owner">Fakultät für Informatik und Ingenieurwissenschaften</p>
+			  		<h1 class="title">${data.subtitle}</h1>
+			  		<h2 class="subtitle">${data.title}</h2>
+			  		<div class="version-and-date">
+			  		<p class="version">Version ${data.version}</p>
+			  		<p class="date">Letzte Änderung am ${utils.getDate(data.page.date)}</p>
+			  		</div>
+			  	</header>
+			  </section>
+
+        <div id="page-navigation">
+          ${tocTools.getPageTOC({
+            eleventy: this,
+            collection: data.collections.itemsKurzbericht,
+            maxLevel: 2
+          })}
+        </div>
+        ${data.content}
+        <section>
+          ${kurzberichtList.join("\n")}
+        </section>
+			</main>
+  
 		`;
 	}
 }

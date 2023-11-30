@@ -5,7 +5,7 @@
 
   @media screen and (min-width: 120rem){
     main{
-      & > *:not(h4) {
+      & > *:not(h4, #page-navigation) {
         margin-left: 40ch;
       }
 

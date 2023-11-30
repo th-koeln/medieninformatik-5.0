@@ -3,9 +3,6 @@
 
 .inline-navigation{
 
-  border-bottom: solid var(--border-width-m) var(--mi-lila);
-  padding-bottom: var(--fluid-space-s);
-
   .navigation-title{
     font-size: var(--m);
     padding-top: 0;
@@ -35,4 +32,19 @@
   li + li {
     border-top: solid var(--border-width-s) var(--darken);
   }
+
+  @media screen and (max-width: 160ch){
+    
+    &::before {
+      display: block;
+      width: 10%;
+      border-top: solid var(--border-width-l) var(--mi-blau);
+      margin-top: var(--fluid-space-l);
+      padding-top: var(--fluid-space-l);
+      content: "";
+    }
+
+    padding-bottom: var(--fluid-space-l);
+  }
+  
 }

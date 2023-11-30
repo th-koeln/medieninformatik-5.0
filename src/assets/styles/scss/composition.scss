@@ -33,24 +33,25 @@ table{
 ############################################################################ */
 
 @media screen and (min-width: 160ch){
-  .content-wrap:has(aside){
-    display: flex;
+  main:has(#page-navigation){
+    display: grid;
+    grid-template-columns: 1fr var(--max-width-aside);
+    grid-template-areas: 
+      "content toc"
+      "content toc";
     gap: var(--fluid-space-m);
-    flex-direction: row-reverse;
+    
 
-    aside{
+    #page-navigation{
+      grid-area: toc;
       padding-right: var(--xl);
       font-size: var(--s);
       max-width: var(--max-width-aside);
-      
+
       nav{
         position: sticky;
         top: calc(var(--fluid-space-l) * 1.5);
       }
-    }
-
-    main{
-      flex-grow: 2;
     }
   }
 }

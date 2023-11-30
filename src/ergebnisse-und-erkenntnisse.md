@@ -1,5 +1,5 @@
 ---
-title: Ergebnisse & Erkenntnisse aus dem Reakkreditierungsprozess
+title: Ergebnisse & Erkenntnisse aus der Analysephase
 layout: page.11ty.js
 inToc: true
 bodyClass: page
