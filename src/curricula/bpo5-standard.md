@@ -1,5 +1,5 @@
 ---
-title: Studienverlaufsplan Bachelor BPO5 (WIP)
+title: Studienverlaufsplan Bachelor BPO5
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:

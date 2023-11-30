@@ -1249,6 +1249,10 @@ ul.hero-list > li + li {
 
 /* Navigation
 ############################################################################ */
+.inline-navigation {
+  border-bottom: solid var(--border-width-m) var(--mi-lila);
+  padding-bottom: var(--fluid-space-s);
+}
 .inline-navigation .navigation-title {
   font-size: var(--m);
   padding-top: 0;

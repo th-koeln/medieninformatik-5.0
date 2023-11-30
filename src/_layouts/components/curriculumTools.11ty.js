@@ -433,7 +433,7 @@ exports.getModulMatrix = (obj) => {
   const { handlungsfelder } = obj;
   const { eleventy } = obj;
 
-  const impactGate = 2; // Soviel muss ein Modul mindestens liefern, damit es als "check" gilt
+  const impactGate = 4; // Soviel muss ein Modul mindestens liefern, damit es als "check" gilt
   const impactGateStudiengangkriterien = 0; // Soviel muss ein Modul mindestens liefern, damit es als "check" gilt
   const impactGateHandlungsfeld = 10; // Soviel muss ein Handlungsfeld liefern, damit es als "check" gilt
 
@@ -475,6 +475,15 @@ exports.getModulMatrix = (obj) => {
 
     };
 
+
+    const getExams = (modul) => {
+      if(!modul.studienleistungen) return "-";
+
+      const {studienleistungen} = modul;
+      return Object.keys(studienleistungen).length;
+    };
+
+
     return `
       <tr>
         <!-- Modul -->
@@ -484,7 +493,7 @@ exports.getModulMatrix = (obj) => {
         <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>
         
         <!-- Prüfungen -->
-        <td>${modul.studienleistungen?.Einzelleistung ? "1" : "?"}</td>
+        <td>${getExams(modul)}</td>
   
         <!-- Handlungsfelder -->
         <td>${checkImpactHandlungsfeld('DUX')}</td>
