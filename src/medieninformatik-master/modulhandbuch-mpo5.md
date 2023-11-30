@@ -19,8 +19,6 @@ collection: modulsMPO5
 <snippet type="text" id="absolventinnenprofil-allgemein" src="kurzbericht/130-absolventinnenprofil-allgemein"></snippet>
 <snippet type="text" id="absolventinnenprofil-master" src="kurzbericht/134-absolventinnenprofil-master"></snippet>
 
-## Handlungsfelder
-<snippet type="handlungsfelder" id="handlungsfelder"></snippet>
 
 ## Studienverlaufsplan
 <snippet type="curriculum" id="curriculum-master" src="curricula/mpo5-90CP-standard"></snippet>

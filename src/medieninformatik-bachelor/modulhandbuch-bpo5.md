@@ -19,9 +19,6 @@ collection: modulsBPO5
 <snippet type="text" id="absolventinnenprofil-allgemein" src="kurzbericht/130-absolventinnenprofil-allgemein"></snippet>
 <snippet type="text" id="absolventinnenprofil-bachelor" src="kurzbericht/132-absolventinnenprofil-bachelor"></snippet>
 
-## Handlungsfelder
-<snippet type="handlungsfelder" id="handlungsfelder"></snippet>
-
 ## Studienverlaufsplan
 <snippet type="curriculum" id="curriculum-bachelor" src="curricula/bpo5-standard"></snippet>
 

@@ -1,21 +1,12 @@
 /* Kleine Optimierungen
 ###########################################################################  */
 .modulhandbuch{
-  p + div{
-    margin-top: var(--fluid-space-l);
+
+  ul:not([class]),
+  ol:not([class]) {
+    li + li {
+      margin-top: var(--quat);
+    }
   }
 
-  h2{
-    margin-top: var(--fluid-space-xl);
-  }
-}
-
-/* Modulhandbuch -> Handlungsfelder
-###########################################################################  */
-
-.modulhandbuch{
-  
-  div{
-    margin-bottom: var(--fluid-space-s);
-  }
 }

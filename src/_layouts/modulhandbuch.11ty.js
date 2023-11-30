@@ -7,6 +7,11 @@ module.exports = {
 		const utils = require('./components/utils.11ty.js');
 		
 		return `
+
+		<div class="content-wrap">
+			<aside>
+				<nav data-js-toc></nav>
+			</aside>
 			<main>
 				<section class="cover">
 					<header>
@@ -25,6 +30,7 @@ module.exports = {
 					${utils.parseContent(this, data)}
 				</section>
 			</main>
+		</div>
 		`;
 	}
 }
