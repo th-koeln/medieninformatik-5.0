@@ -72,14 +72,13 @@ studienverlauf:
             - "SWA"
             - "FD"
             - "RE"
-            - "IUG"
+            - "IRG"
     - semester:
         fachsemester: 7
         label: "6. Semester"
         season: "wise"
         module:
-            - "PPS"
-            - "PPA"
+            - "PP"
             - "BA"
             - "BK"
 

@@ -437,6 +437,24 @@ blockquote {
   aspect-ratio: 1/1;
 }
 
+@media print {
+  :root {
+    --bfs: 10pt;
+  }
+
+  #scroll-to-top,
+.main-footer,
+.main-header {
+    visibility: hidden;
+  }
+
+  @page {
+    margin: 2cm 2cm 3cm 3cm;
+  }
+  h1, h2 {
+    page-break-before: always;
+  }
+}
 /* Vertikal zentriert
 ############################################################################ */
 .is-vertical-centered {
@@ -604,6 +622,13 @@ blockquote {
 
 /* Size Indicator
 ############################################################################ */
+[data-js-size-indicator-large],
+[data-js-size-indicator-small] {
+  display: inline;
+  margin: 0 !important;
+  height: 0;
+}
+
 [data-js-size-indicator-large] {
   display: none;
 }

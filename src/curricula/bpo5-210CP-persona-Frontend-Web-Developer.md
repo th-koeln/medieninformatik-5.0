@@ -78,8 +78,7 @@ studienverlauf:
         label: "6. Semester"
         season: "wise"
         module:
-            - "PPS"
-            - "PPA"
+            - "PP"
             - "BA"
             - "BK"
 

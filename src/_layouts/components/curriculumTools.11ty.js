@@ -16,8 +16,6 @@ const getChildModulList = (data) => {
 
 exports.getCurriculumList = (obj) => {
 
-
-
   const { moduls } = obj;
   const { data } = obj;
   const { eleventy } = obj;
@@ -38,6 +36,7 @@ exports.getCurriculumList = (obj) => {
     let cpsPerTerm = 0;
     
     const termModulsList = termModuls.map((modul) => {
+
       const examInfo = modul.data.studienleistungen === null
         ? ''
         : `<p class="module-exam is-small">${moduleTools.resolveExamInfoSimple(modul.data.studienleistungen)}</p>`;
