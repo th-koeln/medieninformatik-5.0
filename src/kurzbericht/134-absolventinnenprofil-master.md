@@ -3,9 +3,9 @@ title: Absolvent:innenprofil Medieninformatik Master
 layout: page.11ty.js
 level: 3
 meta:
-  status: rfreview
+  status: ok
   authors: Matthias
-  reviewers: 
+  reviewers: Raphaela, Gerhard
   purpose:
 ---
 
