@@ -48,7 +48,7 @@ Die Studierenden kennen grundlegende Konzepte und Verfahren der Inferenzstatisti
 
 Sie sind in der Lage, empirische Daten zu analysieren, Testverfahren für das Hypothesen-Testen aufgrund (1) der empirischen Rahmenbedingungen, (2) der skalenbezogenen Ausprägung der unabhängigen Variablen und (3) varianzhomo-/heterogener Charakteristika der gezogenen Stichproben auszuwählen, Hypothesen mit geeigenten Methoden zu testen und die Ergebnisse hinsichtlich empirischer Fragestellungen zu interpretieren; sie können Gütekriterien zur Auswahl unterschiedlicher Verfahren benennen, anwenden und kritisch einordnen um die von Ihnen angewandten Methoden, Verfahren und Prozesse einer Fach-Community kritisch reflektieren und kommunizieren zu können. 
 
-Die Studierenden kennen grundlegende Konzepte der multivariaten Statistik und können diese anwenden, kennen etablierte Verfahren und können Anwendungsgebiete und -beispiele benennen und kritische einordnen, um für menschenzentrierte Aktivitäten in Entwicklunsprozessen auf Basis empirischer Ansätze fundierte Aussagen über Annahmen zu den Anwendungsdomänen oder zugehörige Stakeholder treffen zu können.
+Die Studierenden kennen grundlegende Konzepte der multivariaten Statistik und können diese anwenden, kennen etablierte Verfahren (Regressions-, Varianz-, DIskriminanz-, Kontingenz-, Fakroren-, Cluster- und Conjoint-Analyse), können diese anwenden und kritische einordnen, um für menschenzentrierte Aktivitäten in Entwicklunsprozessen auf Basis empirischer Ansätze fundierte Aussagen über Annahmen zu den Anwendungsdomänen oder zugehörige Stakeholder treffen zu können.
 
 ## Inhalt
 
@@ -63,3 +63,4 @@ Skalen, Statistische Kennwerte, Stichproben und Grundgesamtheit, Wahrscheinlicht
 - “Deskriptive Statistik”; R. Kosfeld, H. Eckey, M. Türck; Springer,  2016
 - “Inferenzstatistik verstehen”; M. Janczyk, R. Pfister, Springer, 2013
 - "Discovering Statistics Using IBM SPSS Statistics", Andy Fields, 5th ed.,Sage Publ. 2017
+- "Multivariate Analysemethoden", K. Bakhaus et al., 17th ed., Springer Verlag 2023
