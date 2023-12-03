@@ -4,6 +4,7 @@ layout: modulmatrix.11ty.js
 inToc: false
 tocs:
   - master
+  - master-for-fakrat  
 collection: modulsMPO5
 showModuleList: true
 studyProgramme: master

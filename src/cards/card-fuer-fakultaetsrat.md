@@ -1,6 +1,6 @@
 ---
 title: Für Fakultätsrat
-target: "/fuer-fakultaetsrat/"
+target: "/fuer-fakultaetsrat-gate-1/"
 inOverview:
   - home-stakeholder
 ---

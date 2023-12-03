@@ -8,6 +8,7 @@ layout: modulhandbuch.11ty.js
 inToc: false
 tocs:
   - bachelor
+  - bachelor-for-fakrat
 collection: modulsBPO5
 
 ---

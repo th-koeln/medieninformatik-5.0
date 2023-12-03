@@ -4,6 +4,7 @@ layout: modulmatrix.11ty.js
 inToc: false
 tocs:
   - bachelor
+  - bachelor-for-fakrat
 collection: modulsBPO5
 showModuleList: true
 studyProgramme: bachelor

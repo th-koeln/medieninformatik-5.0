@@ -8,6 +8,7 @@ layout: modulhandbuch.11ty.js
 inToc: false
 tocs:
   - master
+  - master-for-fakrat
 collection: modulsMPO5
 
 ---
