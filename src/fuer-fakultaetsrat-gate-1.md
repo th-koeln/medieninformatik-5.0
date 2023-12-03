@@ -33,3 +33,28 @@ Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss, dass wir mit folgendem 
 ### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-fakrat"></snippet>
 - Prüfungsordnung Master (tbd)
+
+## Vorgehen
+
+Hier das Vorgehen des Entwicklungsteams in einer kurzen Zusammenfassung:
+
+- **19.11.2022** Einladung zur Mitwirkung an der Reakkreditierung
+- **30.11.2022** KickOff Entwicklungsteam
+- **12.2022 - 03.2023** [Analysephase](/insights/)
+  - [Anforderungen & Ideen von Dekanat, Dozent:innen und Entwicklungsteam](/kurzbericht/#einbeziehung-weiterer-stakeholder)
+  - [Anforderungen & Ideen von Studierenden und Alumni ](/kurzbericht/#studentische-beteiligung)
+  - [Anforderungen & Ideen von Unternehmen und Forschungseintrichtungen](/kurzbericht/#externe-expertise)
+  - [Entwicklung einer langfristigen Vision zur Medieninformatik an der TH Köln](/visions-workshop/)
+  - [Workshop zum  Verständnis des Medienbegriffs in der Medieninformatik](/medien-workshop/)
+- **03.2023 - 06.2023**
+  - [Ableitung von Absolvent\*innenprofil(en)](/kurzbericht/#absolvent-innenprofile)
+  - [Handlungsfeldern und zugehöriger Kompetenzen](/kurzbericht/#handlungsfelder)
+  - [Entwicklung von Angriffspunkten und How-Might-We-Fragen ](/how-might-we/)
+- **07.2023 - 10.2023**  
+  - [Entwicklung möglicher Studienverlaufspläne](https://miro.com/app/board/uXjVPMiDTf4=/?moveToWidget=3458764554605293484&cot=14)
+  - [Finetuning Handlungsfelder und Kompetenzen](/kurzbericht/#handlungsfelder)
+  - Vorbereitung Prüfungsordnungen, Praxissemesterordnung & Auslaufordnungen
+- **11.2023 - heute**
+    - [Kurzbericht verfasst](/kurzbericht)
+    - [Unterlagen für den Bachelor erstellt](/medieninformatik-bachelor)
+    - [Unterlagen für den Master erstellt](/medieninformatik-master)
