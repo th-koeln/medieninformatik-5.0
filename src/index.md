@@ -1,7 +1,7 @@
 ---
 title: Medieninformatik 5.0
 layout: page.11ty.js
-inToc: false
+inToc: true
 bodyClass: home
 ---
 

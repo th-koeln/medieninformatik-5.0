@@ -26,14 +26,16 @@ ul.content-card-overview.stakeholder{
   &-item{
     transition: all var(--tr-fast);
     background-color: var(--lightest);
-    padding: var(--fluid-space-xs);
+    padding: var(--fluid-space-xs) var(--fluid-space-xs) var(--fluid-space-s) var(--fluid-space-xs);
     border-left: solid var(--border-width-m) var(--color-accent);
 
     line-height: var(--lh-tight);
+    box-shadow: var(--shadow-l-light);
 
     &:hover{
       border-width: var(--border-width-l);
       padding-left: var(--fluid-space-s);
+      box-shadow: var(--shadow-l);
 
       * {
         text-decoration-style: dotted;
@@ -42,21 +44,26 @@ ul.content-card-overview.stakeholder{
       }
     }
 
-    h3{
-      font-size: var(--m);
-      padding-top: 0;
-      margin-bottom: var(--quat);
-    }
+
 
     a {
       text-decoration-color: transparent;
-    }
+      display: block;
 
-    p{
-      margin-bottom: 0;
+      &:hover{
+        background-color: transparent;
+      }
+
+      h3{
+        font-size: var(--m);
+        padding-top: 0;
+        margin-bottom: var(--quat);
+      }
+      
+      p{
+        margin-bottom: 0;
+        font-size: calc(var(--m) * 0.9);
+      }
     }
-  
   }
-
-
 }

@@ -238,7 +238,7 @@ select {
   --tr-delay: 1.2s;
   --op-low: 0.4;
   --op-medium: 0.6;
-  --shadow-l: 0 0 var(--xs) rgb(0 0 0 / 50%);
+  --shadow-l: 0 0 var(--xs) rgb(0 0 0 / 20%);
   --shadow-l-light: 0 0 var(--xs) rgb(0 0 0 / 5%);
   --shadow-xl: var(--half) var(--half) var(--m) rgb(0 0 0 / 30%);
   --shadow-xl-light: var(--half) var(--half) var(--m) rgb(0 0 0 / 10%);
@@ -1441,10 +1441,12 @@ ul.content-card-overview.stakeholder .content-card-item {
   padding: var(--fluid-space-xs);
   border-left: solid var(--border-width-m) var(--color-accent);
   line-height: var(--lh-tight);
+  box-shadow: var(--shadow-l-light);
 }
 .content-card-item:hover {
   border-width: var(--border-width-l);
   padding-left: var(--fluid-space-s);
+  box-shadow: var(--shadow-l);
 }
 .content-card-item:hover * {
   text-decoration-style: dotted;
