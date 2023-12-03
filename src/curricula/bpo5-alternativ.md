@@ -4,6 +4,7 @@ layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
     - bachelor
+    - bachelor-for-experts
 collection: modulsBPO5
 terms: [1,2,3,4,5,6,7,8,9,10]
 groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung']

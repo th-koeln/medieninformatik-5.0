@@ -1431,6 +1431,10 @@ ul.content-card-overview {
   }
 }
 
+ul.content-card-overview.stakeholder .content-card-item {
+  border-color: var(--mi-lila);
+}
+
 .content-card-item {
   transition: all var(--tr-fast);
   background-color: var(--lightest);

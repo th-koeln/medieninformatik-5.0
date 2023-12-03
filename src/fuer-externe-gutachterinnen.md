@@ -19,19 +19,15 @@ Für die Durchführung der externen Begutachtung liegt eine Checkliste auf Deuts
 
 ## Material zur Begutachtung
 
-- [Kurzbericht für Bachelor und Master (WIP)](../kurzbericht/)
+- [Kurzbericht für Bachelor und Master)](../kurzbericht/)
 
 **Bachelor**
-- [Studienverlaufsplan und Module Bachelor (WIP)](../curricula/bpo5)
-- [Alternativer Studienverlaufsplan und Module Bachelor (WIP)](../curricula/bpo5-alternativ)
+<snippet type="toc" id="table-of-content-bachelor" search="bachelor-for-experts"></snippet>
 - Prüfungsordnung Bachelor (tbd)
 - Praxissemesterordnung Bachelor (tbd)
 
 **Master**
-- [Studienverlaufsplan und Module Master // 3-semestrig (WIP)](../curricula/mpo5-90CP)
-- [Alternativer Studienverlaufsplan und Module Master // 3-semestrig (WIP)](../curricula/mpo5-90CP-alternativ)
-- [Studienverlaufsplan und Module Master // 4-semestrig (WIP)](../curricula/mpo5-120CP)
-- [Alternativer Studienverlaufsplan und Module Master // 4-semestrig (WIP)](../curricula/mpo5-120CP-alternativ)
+<snippet type="toc" id="table-of-content-bachelor" search="master-for-experts"></snippet>
 - Prüfungsordnung Master (tbd)
 
 Falls ihr einen GitHub Username habt (und ihn mir per Mail zukommen lassen) könnt ihr eure Fragen, Vorschläge oder Ideen auch sehr gerne als [Issue](https://github.com/th-koeln/medieninformatik-5.0/issues) eintragen.
