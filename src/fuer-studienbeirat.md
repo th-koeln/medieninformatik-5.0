@@ -1,14 +1,18 @@
 ---
-title: "Unterlagen und Infos für den Fakultätsrat: Umlaufbeschluss zur Freigabe der Unterlagen für die SK1"
-subtitle: "Danke für den Support!"
+title: "Unterlagen und Infos für den Studienbeirat"
+subtitle: "Danke für den Support 😎"
 layout: page.11ty.js
 inToc: false
 bodyClass: home
 ---
 
-Liebe Mitglieder des Fakultätsrats,
+Liebe Mitglieder des Studienbeirats,
 
-wir hatten den Stand der Reakkreditierung der Medieninformatik Studiengänge am 18. Oktober 2023 auf der Fakultätsratssitzung vorgestellt. Auf der Sitzung und im Nachgang, sind noch einige Anregungen/ Kommentare/ Hinweise gekommen. Diese haben wir im Entwicklungsteam in den darauf folgenden Meetings besprochen und teils integrieren können. Parallel dazu sind die Modulbeschreibungen geschrieben/ aktualisiert, die Studienverlaufspläne finalisiert, die Kompetenzen der Module justiert und der gesamte Prozess dokumentiert worden. Das Material liegt derzeit den externen Gutachter:innen vor. Diese sind:
+wir hatten den Stand der Reakkreditierung der Medieninformatik Studiengänge am 18. Oktober 2023 auf der Fakultätsratssitzung vorgestellt. Seit dem sind die Modulbeschreibungen geschrieben/ aktualisiert, die Studienverlaufspläne finalisiert, die Kompetenzen der Module justiert und der gesamte Prozess dokumentiert worden. 
+
+Im Kurzbericht gibt es ein eigenes Kapitel zum Punkt [Studentische Beteiligung](/kurzbericht/#studentische-beteiligung).
+
+Das erstellte Material liegt derzeit den externen Gutachter:innen vor. Diese sind:
 
 - [Prof. Katja Becker](https://www.w-hs.de/service/informationen-zur-person/person/becker/), Fachbereich Informatik und Kommunikation – Westfälische Hochschule
 - [Prof. Dr. Jens Gerken](https://reha.tu-dortmund.de/nachrichtendetail/die-fakultaet-rehabilitationswissenschaften-begruesst-zum-1-juli-2023-herrn-prof-dr-jens-gerken-am-neuen-fachgebiet-inklusive-mensch-roboter-interaktion-32897/), Fachgebiet Inklusive Mensch-Roboter-Interaktion – TU Dortmund
@@ -16,13 +20,11 @@ wir hatten den Stand der Reakkreditierung der Medieninformatik Studiengänge am 
 - Andrea Feuerstein, Studentische Gutachterin – Hochschule Düsseldorf
 
 Danke für den Support,  
-Euer MI Entwicklungsteam  
+Ihr Medieninformatik Entwicklungsteam  
 
 03.12.2023
 
-## Beschluss
-Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss, aus dem hervor geht, dass wir mit folgendem Material in die SK1 gehen können: 
-
+## Material
 - [Kurzbericht für den Medieninformatik Bachelor und Master](../kurzbericht/)
 
 ### Bachelor
