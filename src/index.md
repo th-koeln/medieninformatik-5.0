@@ -9,4 +9,4 @@ bodyClass: home
 
 <snippet type="card-overview" id="content-cards" search="home"></snippet>
 
-<snippet type="card-overview" id="content-cards" search="home-stakeholder"></snippet>
+<snippet type="card-overview" id="content-cards" search="home-stakeholder" className="stakeholder"></snippet>

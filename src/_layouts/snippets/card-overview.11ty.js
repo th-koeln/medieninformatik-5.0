@@ -3,6 +3,7 @@ exports.render = (eleventy, data, attributes) => {
   const {id} = attributes;
   const {search} = attributes;
   const searchParams = search.split('+');
+  const className = attributes.className || '';
 
   const filteredCards = data.collections.contentCards.filter(card => {
     const inOverview = card.data.inOverview || [];
@@ -28,7 +29,7 @@ exports.render = (eleventy, data, attributes) => {
   });
 
   return `
-    <ul id="${id}" class="content-card-overview">
+    <ul id="${id}" class="content-card-overview ${className}">
       ${cardsList.join('')}
     </ul>
   `;
