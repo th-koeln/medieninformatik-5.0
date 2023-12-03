@@ -6,12 +6,15 @@
   display: flex;
   gap: var(--xs);
 
-
   img{
+    background-color: var(--darkest);
     width: var(--max-width-image-s);
     height: var(--max-width-image-s);
     object-fit: cover;
     border-radius: 50%;
-    border: solid var(--border-width-m) var(--darken);
+    
+    &[src*=avatar]{
+      background-color: var(--light);
+    }
   }
 }

@@ -1190,11 +1190,11 @@ ul.hero-list > li + li {
   gap: var(--xs);
 }
 .avatars img {
+  background-color: var(--darkest);
   width: var(--max-width-image-s);
   height: var(--max-width-image-s);
   object-fit: cover;
   border-radius: 50%;
-  border: solid var(--border-width-m) var(--darken);
 }
 
 /* Kompetenz Liste
@@ -1438,7 +1438,7 @@ ul.content-card-overview.stakeholder .content-card-item {
 .content-card-item {
   transition: all var(--tr-fast);
   background-color: var(--lightest);
-  padding: var(--fluid-space-xs);
+  padding: var(--fluid-space-xs) var(--fluid-space-xs) var(--fluid-space-s) var(--fluid-space-xs);
   border-left: solid var(--border-width-m) var(--color-accent);
   line-height: var(--lh-tight);
   box-shadow: var(--shadow-l-light);
@@ -1453,15 +1453,19 @@ ul.content-card-overview.stakeholder .content-card-item {
   text-decoration-color: var(--color-accent);
   text-decoration-thickness: 2px;
 }
-.content-card-item h3 {
-  font-size: var(--m);
-  padding-top: 0;
-  margin-bottom: var(--quat);
-}
 .content-card-item a {
   text-decoration-color: transparent;
+  display: block;
 }
-.content-card-item p {
+.content-card-item a:hover {
+  background-color: transparent;
+}
+.content-card-item a h3 {
+  font-size: var(--);
+  padding-top: 0;
+  margin-bottom: var(--half);
+}
+.content-card-item a p {
   margin-bottom: 0;
 }
 

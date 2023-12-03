@@ -20,7 +20,7 @@ exports.resolvePerson = (people, modulverantwortliche) => {
 /* Personennamen auflösen und Avartar ausgeben
 ############################################################################ */
 
-exports.resolvePersonAndGetAvatar = (people, modulverantwortliche, eleventy) => {
+const resolvePersonAndGetAvatar = (people, modulverantwortliche, eleventy) => {
 
   if(!eleventy) return;
   const imagesBasePath = eleventy.getImagesBasePath('people');
@@ -49,6 +49,8 @@ exports.resolvePersonAndGetAvatar = (people, modulverantwortliche, eleventy) => 
   
 };
 
+exports.resolvePersonAndGetAvatar = resolvePersonAndGetAvatar;
+
 /* Liste der Dozentinnen und Dozenten
 ############################################################################ */
 
@@ -57,16 +59,16 @@ exports.getPeopleList = (obj) => {
   const { data } = obj;
   const { eleventy } = obj;
 
-  const isModulverantwortlich = (person, modul) => {
-    if(!modul.data.modulverantwortlich || modul.data.modulverantwortlich === null) return false;
-    const modulverantwortliche = modul.data.modulverantwortlich.replace(/\s/g, '').split(/,/);
-    return modulverantwortliche.includes(person);
+  const isLecturer = (person, modul) => {
+    if(!modul.data.dozierende || modul.data.dozierende === null) return false;
+    const dozentinnen = modul.data.dozierende.replace(/\s/g, '').split(/,/);
+    return dozentinnen.includes(person);
   };
 
   const peopleList = Object.keys(data.people).filter((person) => person !== 'eingesetzterPruefer').sort().map((person) => {
 
-    const personModulsSummerTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.angebotImSs === true);
-    const personModulsWinterTerm = moduls.filter((modul) => isModulverantwortlich(person, modul) && modul.data.angebotImWs === true);
+    const personModulsSummerTerm = moduls.filter((modul) => isLecturer(person, modul) && modul.data.angebotImSs === true);
+    const personModulsWinterTerm = moduls.filter((modul) => isLecturer(person, modul) && modul.data.angebotImWs === true);
     
     const personModulsListWinterTerm = personModulsWinterTerm.map((modul) => {
       return `
@@ -85,16 +87,18 @@ exports.getPeopleList = (obj) => {
     });
 
     const personName = data.people[person].personenseite 
-      ? `<a href="${data.people[person].personenseite}">${data.people[person].name}</a>`
+      ? `<strong><a href="${data.people[person].personenseite}">${data.people[person].name}</a></strong> // ${data.people[person].id}`
       : data.people[person].name;
 
 
     // do not show people without module
     if ((personModulsListWinterTerm.length + personModulsListSummerTerm.length) == 0) return '';
 
+    const avatars = resolvePersonAndGetAvatar(data.people, data.people[person].id, eleventy);
+
     return `
       <tr id="${data.people[person].id}">
-        <td>${data.people[person].id}</td>
+        <td>${avatars}</td>
         <td>${personName}</td>
         <td class="module-list">
           ${personModulsListWinterTerm.length > 0
@@ -113,7 +117,7 @@ exports.getPeopleList = (obj) => {
     <table>
       <thead>
         <tr>
-          <th width="10%">Kürzel</th>
+          <th width="10%"></th>
           <th width="30%">Name</th>
           <th>Module</th>
         </tr>
