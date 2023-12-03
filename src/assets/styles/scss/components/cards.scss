@@ -1,0 +1,55 @@
+/* Content Cards 
+############################################################################ */
+
+
+ul.content-card-overview{
+  padding-top: var(--fluid-space-m);
+  padding-bottom: var(--fluid-space-m);
+
+  display: grid;
+  gap: var(--fluid-space-xs);
+
+  @media screen and (min-width: 120ch){
+    grid-template-columns: repeat(auto-fill,minmax(var(--max-width-card),1fr));
+  }
+}
+
+.content-card{
+
+  &-item{
+    transition: all var(--tr-fast);
+    background-color: var(--lightest);
+    padding: var(--fluid-space-xs);
+    border-left: solid var(--border-width-m) var(--color-accent);
+
+    line-height: var(--lh-tight);
+
+    &:hover{
+      border-width: var(--border-width-l);
+      padding-left: var(--fluid-space-s);
+
+      * {
+        text-decoration-style: dotted;
+        text-decoration-color:  var(--color-accent);
+        text-decoration-thickness: 2px;
+      }
+    }
+
+    h3{
+      font-size: var(--m);
+      padding-top: 0;
+      margin-bottom: var(--quat);
+    }
+
+    a {
+      text-decoration-color: transparent;
+    }
+
+    p{
+      margin-bottom: 0;
+    }
+  
+  }
+
+
+}

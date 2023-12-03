@@ -10,7 +10,7 @@ ul:not([class]) {
     margin-left: 1.5ch;
 
     &::before {
-      color: var(--dark);
+      color: var(--mi-gruen);
       content: "»";
       display: inline-block;
       width: 1.5ch;

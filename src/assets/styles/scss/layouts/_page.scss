@@ -2,7 +2,7 @@
 ############################################################################ */
 
 .page main{
-  h2, h3, h4, p, blockquote, ul, ol{
+  h2, h3, h4, p, blockquote, ul:not(.content-card-overview), ol{
     max-width: var(--max-width-content);
   }
 }

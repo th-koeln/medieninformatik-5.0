@@ -1117,7 +1117,7 @@ ul:not([class]) > li {
   margin-left: 1.5ch;
 }
 ul:not([class]) > li::before {
-  color: var(--dark);
+  color: var(--mi-gruen);
   content: "»";
   display: inline-block;
   width: 1.5ch;
@@ -1415,6 +1415,48 @@ ul.hero-list > li + li {
   font-style: italic;
   color: var(--mi-lila);
   font-size: var(--xxl);
+}
+
+/* Content Cards 
+############################################################################ */
+ul.content-card-overview {
+  padding-top: var(--fluid-space-m);
+  padding-bottom: var(--fluid-space-m);
+  display: grid;
+  gap: var(--fluid-space-xs);
+}
+@media screen and (min-width: 120ch) {
+  ul.content-card-overview {
+    grid-template-columns: repeat(auto-fill, minmax(var(--max-width-card), 1fr));
+  }
+}
+
+.content-card-item {
+  transition: all var(--tr-fast);
+  background-color: var(--lightest);
+  padding: var(--fluid-space-xs);
+  border-left: solid var(--border-width-m) var(--color-accent);
+  line-height: var(--lh-tight);
+}
+.content-card-item:hover {
+  border-width: var(--border-width-l);
+  padding-left: var(--fluid-space-s);
+}
+.content-card-item:hover * {
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+}
+.content-card-item h3 {
+  font-size: var(--m);
+  padding-top: 0;
+  margin-bottom: var(--quat);
+}
+.content-card-item a {
+  text-decoration-color: transparent;
+}
+.content-card-item p {
+  margin-bottom: 0;
 }
 
 /* Content Blocks
@@ -1732,7 +1774,7 @@ ul.hero-list > li + li {
 
 /* Page
 ############################################################################ */
-.page main h2, .page main h3, .page main h4, .page main p, .page main blockquote, .page main ul, .page main ol {
+.page main h2, .page main h3, .page main h4, .page main p, .page main blockquote, .page main ul:not(.content-card-overview), .page main ol {
   max-width: var(--max-width-content);
 }
 
