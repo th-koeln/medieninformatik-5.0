@@ -1196,6 +1196,9 @@ ul.hero-list > li + li {
   object-fit: cover;
   border-radius: 50%;
 }
+.avatars img[src*=avatar] {
+  background-color: var(--light);
+}
 
 /* Kompetenz Liste
 ############################################################################ */
