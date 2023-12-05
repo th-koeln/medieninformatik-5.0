@@ -17,7 +17,7 @@ layout: modulbeschreibung.11ty.js
 kategorie: wahl
 studienleistungen:
   Einzelleistung:
-    art: siehe Modulbeschreibung des gewählten Moduls
+    art: Semesterbegleitendes Projekt, dokumentiert als wissenschaftliches Papier / Präsentation
     erstpruefer: 
     zweitpruefer: 
     datum:

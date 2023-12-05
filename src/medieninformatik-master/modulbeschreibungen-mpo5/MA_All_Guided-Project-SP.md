@@ -20,7 +20,7 @@ hideSchwerpunktloseChildren: true
 typ: pm
 studienleistungen:
   Einzelleistung:
-    art: siehe Modulbeschreibung des gewählten Guided Project
+    art: Semesterbegleitendes Projekt, dokumentiert als wissenschaftliches Papier / Präsentation
     erstpruefer: 
     zweitpruefer: 
     datum:

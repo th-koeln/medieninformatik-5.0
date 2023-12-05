@@ -21,7 +21,7 @@ parent: GP-SP
 typ: pm
 studienleistungen:
   Einzelleistung:
-    art: siehe Modulbeschreibung des gewählten Moduls
+    art: Semesterbegleitendes Projekt, dokumentiert als wissenschaftliches Papier / Präsentation
     erstpruefer: 
     zweitpruefer: 
     datum:
