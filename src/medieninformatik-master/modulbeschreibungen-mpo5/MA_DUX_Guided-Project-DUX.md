@@ -41,23 +41,13 @@ studiengangkriterien:
   transfer: 1
 ---
 
-## Sprache
-deutsch
-
-## Häufigkeit des Angebots
-
-jedes Semester
-
-## Dozierende
-Alle ProfessorInnen der Informatik-Studiengänge
-
 ## Learning Outcome
 
-Die Studierenden können unter Anleitung der Dozenten Problemstellungen aus spezifischen Domänen identifizieren, themenzentriert diverse Projektteams formieren und effizient und unter Anwendung von anwendungsorientierten Forschungsmethoden Domänenrecherchen ausführen, um auf Basis eines substantiellen multiperspektischen Verständnis der Domäne und der relevanten Stakeholder Problemstellungen in präzisierte Design Challenges zu transformieren.
+Die Studierenden können unter Anleitung der Dozent\*innen Problemstellungen aus spezifischen Domänen identifizieren, themenzentriert diverse Projektteams formieren und effizient und unter Anwendung von anwendungsorientierten Forschungsmethoden Domänenrecherchen ausführen, um auf Basis eines substantiellen multiperspektischen Verständnis der Domäne und der relevanten Stakeholder Problemstellungen in präzisierte Design Challenges zu transformieren.
 
 Die Studierenden kennen Konzepte und Methoden für die Planung, Durchführung und Analyse von Interviews, Umfragen oder anderen Verfahren der Benutzerforschung, können diese mit den Verfahren anwendungsorientierter Forschungsmethoden planen, ausführen, auswerten, interpretieren und kritisch diskutieren, um die Bedürfnisse, Erfordernisse und Erwartungen der stakeholdern zu verstehen, ggf. konfiktäre Perspektiven zu identifizieren und in nachfolgenden Designschritten konstuktiv damit umzugehen.
 
-Sie können die identizierten Erfordernisse in funktionale und nonfuktionalen Anforderunge transformieren sowie daraus multimodalen und multicodalen Interaktionskonzeptionen und konzeptionellen Designansätzen ableiten, um soziotechnische Systeme zu konzipieren und umzusetzen, die den Anforderungen zukünftiger Nutzer in ihren spezifischen Nutzungskontexten genügen und idealerweise ggf. konfiktären Erfordernissen verschiedener stakeholder befrieden.
+Sie können die identizierten Erfordernisse in funktionale und nonfuktionalen Anforderunge transformieren sowie daraus multimodalen und multicodalen Interaktionskonzeptionen und konzeptionellen Designansätzen ableiten, um soziotechnische Systeme zu konzipieren und umzusetzen, die den Anforderungen zukünftiger Nutzer\*innen in ihren spezifischen Nutzungskontexten genügen und idealerweise ggf. konfiktären Erfordernissen verschiedener stakeholder befrieden.
 
 Die Studierenden können funktionale und ästhetisch ansprechende Nutzungsschnittstellen unter Verwendung handlungs- und kognitionspsychologischen Konzepten sowie grundlegender Designprinzipien wie etwa Gestaltungsprinzipien, Farbtheorie und Typografie konzipieren und realisieren, um ein hohes Maß an Gebrauchstauglichkeit, eine positiv erlebte User Experience und ein integratives Maß an Zugänglichkeit zu gewährleisten.
 
@@ -67,10 +57,9 @@ Die Studierenden können Design- und Softwarelösungen in verschiedenen Projektp
 
 Die Studierenden können in muliprofessionellen und multiperspektischen Teams die Design-Lösungen in Software-Entwicklungsprojekten umsetzen, um sicherzustellen, dass Nutzungsschnittstellen technisch umsetzbar sind und eine nahtlose Integration in die Anwendung möglich ist.
 
-Sie können Design-Dokumentationen oder Leitfäden, die für Entwickler, Stakeholder und andere Teammitglieder verständlich sind, erstellen, um diese für andere stakeholder zu dokumentieren.
+Sie können Design-Dokumentationen oder Leitfäden, die für Entwickler\*innen, Stakeholder und andere Teammitglieder verständlich sind, erstellen, um diese für andere stakeholder zu dokumentieren.
 
-Die Studierenden können ihre Projektergebnisse und die Prozesse kritisch reflektieren und Konsequenzen für die Projekte aber auch ihr individuelles oder kollektives Handeln ableiten. Sie sind ihn der Lage, ihre Projektergebnisse, Artefakte und Prozesse zielgruppenspezisch (Fach-Community oder Projekt-Stakeholder) zu kommunizieren,
-um konstrutiv zum Fachdiskurs beizutragen oder die weiteren Lifecycle-Phasen des Projektes zu befördern.
+Die Studierenden können ihre Projektergebnisse und die Prozesse kritisch reflektieren und Konsequenzen für die Projekte aber auch ihr individuelles oder kollektives Handeln ableiten. Sie sind ihn der Lage, ihre Projektergebnisse, Artefakte und Prozesse zielgruppenspezisch (Fach-Community oder Projekt-Stakeholder) zu kommunizieren, um konstrutiv zum Fachdiskurs beizutragen oder die weiteren Lifecycle-Phasen des Projektes zu befördern.
 
 Teamarbeit ist ein essentieller Bestandteil der Projektarbeit. Daher ist für diese Projekte eine Zahl von 2 Teilnehmer\*innen minimum. Idealerweilse wird ein größerer Projektkontext aufgespannt.
 
