@@ -127,6 +127,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.glb");
   eleventyConfig.addPassthroughCopy("src/**/*.obj");
   eleventyConfig.addPassthroughCopy("src/**/*.mtl");
+  eleventyConfig.addPassthroughCopy("src/**/*.pdf");
 
   // Copy Downloads
   eleventyConfig.addPassthroughCopy({ 'src/downloads': 'downloads' });
