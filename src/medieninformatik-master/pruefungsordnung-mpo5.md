@@ -12,7 +12,7 @@ studyProgramme: master
 ---
 
 
-Steht als gesondertes Dokument in der aktuellen Fasszung hier zur Verfügung:
+Steht als gesondertes Dokument in der aktuellen Fassung hier zur Verfügung:
 
 * [Prüfungsordnung zum Master](/pruefungsordnungen/mpo5.pdf)
 
