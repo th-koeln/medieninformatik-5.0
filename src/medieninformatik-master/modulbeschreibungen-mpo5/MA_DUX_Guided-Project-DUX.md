@@ -25,7 +25,9 @@ studienleistungen:
     zweitpruefer: all
     datum:
 meta:
-  status: tbd    
+  status: ok
+  authors: Gerhard
+  reviewers: Raphaela, Matthias
 
 # Zuordnung Handlungsfelder, Kompetenzorientierung und Studiengangskriterien für Modulmatrix
 handlungsfelder:
