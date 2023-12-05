@@ -54,7 +54,7 @@ Im Arbeitsbereich «Developing Interactive and Distributed Systems« gibt es im 
 - Entwicklung von Web-Streaming-Diensten insbesondere für Live-Events, On-Demand Videos und Audio/Video-Konferenzsysteme.
 - Konzeptionierung und Implementierung von (web-basierten) Benutzeroberflächen unter Berückschitigung von Gestaltungsprinzipien und Gestaltungstechniken wie Farben, Konstrasten, Proportion, Typographie oder Räumlichkeit
 - Implementieren Benutzungsschnittstellen für verschiedene Clients (bspw. Mobile, Web, Dinge) und für verschiedene Nutzungskontexte, um funktionale Anforderungen umzusetzen.
-- Optimierung von graphischen und greifbaren Benutzerschnittstellen, um eine hohe Gebrauchstauglichkeit und eine positive Nutzererfahrung zu gewährleisten.
+- Optimierung von graphischen und greifbaren Benutzungschnittstellen, um eine hohe Gebrauchstauglichkeit und eine positive Nutzererfahrung zu gewährleisten.
 - Implementierung der Logik und Datenverarbeitung auf der Client- und Serverseite, um die Funktionalität der Anwendung sicherzustellen.
 - Entwicklung von Datenbankstrukturen und Integration von Datenbanken in das System, um Daten effizient zu speichern, abzurufen und zu verwalten.
 - Integration von Sicherheitsmaßnahmen, um die Integrität, Vertraulichkeit, Verfügbarkeit, Authentiztät als auch die Nicht-Abstreitbarkeit von Daten in verteilten Systemen zu gewährleisten.
