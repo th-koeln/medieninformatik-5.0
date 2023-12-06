@@ -1,0 +1,19 @@
+/* Quotes
+############################################################################ */
+
+.marginal-quote{
+  display: none;
+
+  cite{
+    font-style: normal;
+    color: var(--dark);
+  }
+
+  p{
+    line-height: var(--lh-normal);
+    font-style: italic;
+    color: var(--mi-lila);
+    font-size: var(--xxl);
+  }
+}
+

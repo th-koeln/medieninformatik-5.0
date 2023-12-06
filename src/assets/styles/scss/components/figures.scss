@@ -3,12 +3,62 @@
 
 figure.image{
 
+
+}
+
+/* Screenshot
+############################################################################ */
+
+.screenshot{
+
+  margin-top: var(--fluid-space-l);
+  margin-bottom: var(--fluid-space-l);
+
+  position: relative;
+  
+  &-wrapper{
+    display: block;
+    aspect-ratio: 16/9;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 50% -50%;
+    position: relative;
+    
+    img{
+      transform: perspective(200px) translateZ(50px) translateY(-25%) rotateY(5deg);
+      display: block;
+      z-index: 0;
+      position: relative;
+    }
+
+    &::before{
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background: radial-gradient(circle, rgba(255,255,255,0) 75%, rgba(0,0,0,0.25) 100%);
+    }
+  }
+}
+
+/* Bildunterschrift
+############################################################################ */
+
+.image, .screenshot{
   figcaption{
 
-    padding: var(--m) 0 var(--xl);
+    padding: var(--xs) 0 var(--xs);
+    font-weight: var(--fw-medium);
+
+    border-top: solid var(--border-width-m) var(--dark);
+    border-bottom: solid var(--border-width-m) var(--dark);
 
     strong{
       display: block;
     }
   }
-}
+}  

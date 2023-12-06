@@ -42,6 +42,11 @@ lehrmethoden:
   - Live-Coding und -Demonstration
   - Implementierung Webclients und serverseitgen Webanwendungen
   - Analyse von Webanwendungen durch Entwicklertools  
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0  
 ---
 
 ## Learning Outcome

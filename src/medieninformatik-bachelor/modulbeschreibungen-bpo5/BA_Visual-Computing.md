@@ -19,7 +19,7 @@ parent:
 infourl:
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, Mündliche Prüfung
+    art: Schriftliche Prüfung oder mündliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: fn
     zweitpruefer: hk
     datum: ende
@@ -40,7 +40,12 @@ lehrmethoden:
   - Wissenschaftliche Veröffentlichungen
 lehrform:
   - Vorlesung 2 SWS
-  - Workshop 2 SWS    
+  - Workshop 2 SWS   
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0   
 ---
 
 ## Learning Outcome

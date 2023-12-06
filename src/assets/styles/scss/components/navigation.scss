@@ -1,0 +1,50 @@
+/* Navigation
+############################################################################ */
+
+.inline-navigation{
+
+  .navigation-title{
+    font-size: var(--m);
+    padding-top: 0;
+  }
+
+  li{
+    line-height: var(--lh-tight);
+    position: relative;
+
+    a{
+      text-decoration: none;
+      display: block;
+      padding-bottom: var(--quat);
+      padding-top: var(--quat);
+      transition: padding var(--tr-fast);
+      padding-right: var(--fluid-space-s);
+
+      &:hover, &.is-active{
+        padding-left: var(--half);
+        padding-right: var(--fluid-space-xs);
+        border-left: solid var(--border-width-m) var(--color-accent);
+        background-color: var(--darken);
+      }
+    }
+  }
+
+  li + li {
+    border-top: solid var(--border-width-s) var(--darken);
+  }
+
+  @media screen and (max-width: 160ch){
+    
+    &::before {
+      display: block;
+      width: 10%;
+      border-top: solid var(--border-width-l) var(--mi-blau);
+      margin-top: var(--fluid-space-l);
+      padding-top: var(--fluid-space-l);
+      content: "";
+    }
+
+    padding-bottom: var(--fluid-space-l);
+  }
+  
+}

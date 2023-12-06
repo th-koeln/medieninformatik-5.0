@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: il
     datum: ws-2
 meta:
-  status: refactor
+  status: ok
   authors: Florian
   reviewers: Florian, Christian
 besonderheiten: 
@@ -38,6 +38,11 @@ lehrform:
 lehrmethoden:
   - Vermittlung der Theorie in der Vorlesung
   - Aufgaben zu den Lehrinhalten werden in kleinen Gruppen (Teamarbeit) selbständig gelöst. Die Lösungen sollen in den Übungsstunden vorgetragen und der Lösungsweg den Kommilitonen hierbei erläutert werden.  
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0  
 ---
 
 ## Learning Outcome

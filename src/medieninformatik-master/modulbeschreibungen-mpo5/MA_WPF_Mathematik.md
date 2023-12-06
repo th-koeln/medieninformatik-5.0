@@ -1,9 +1,9 @@
 ---
 title: Spezielle Gebiete der Mathematik
-modulverantwortlich: wk, dz
+modulverantwortlich: dz
 dozierende: wk, dz
 modulniveau: master
-kuerzel: SGM-D
+kuerzel: SGM
 angebotImWs: true
 informatik-master: ws
 sprache: deutsch
@@ -20,14 +20,23 @@ schwerpunkt:
 kategorie: wahl
 studienleistungen:
   Einzelleistung:
-    art: Fachvortrag (50%), schriftliche Ausarbeitung (50%)
-    erstpruefer: wk, dz
-    zweitpruefer: wk, dz
+    art: Klausur in Verbindung mit einem semesterbegleitendem wissenschaftlichen Paper / Präsentation
+    artkey: writtenexam-paper-presentation
+    erstpruefer: dz
+    zweitpruefer: wk
     datum: vereinbarung
 meta:
   status: rfreview     
-  authors: Wolfgang
-  reviewers: Wolfgang
+  authors: Dietlind
+  reviewers: Dietlind
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+
+
 ---
 
 ## Kurzbeschreibung
@@ -44,27 +53,42 @@ Gesamtaufwand 150 Stunden, davon
 - 102h Selbststudium 
 
 ## Angestrebte Lernergebnisse
-Mathematische Abstraktion und Fertigkeiten sind unverzichtbare Grundlagen wissenschaftlichen Arbeitens im Bereich der Informatik. Durch den Besuch dieser Veranstaltung sollen Studierende ihre mathematisch-abstrakte Analysefähigkeit weiter ausbauen, ihre Sicherheit im Umgang mit mathematischen Methoden mit Relevanz für die Informatik stärken, die Fähigkeit zur selbständigen Einarbeitung in neue mathematische Sachverhalte erhalten und ihre Beurteilungsfähigkeit im Umgang mit mathematisch-abstrakten Themen erhöhen.
+
+* Durch den Besuch dieser Veranstaltung sollen Studierende  
+    * ihre mathematisch-abstrakte Analysefähigkeit weiter ausbauen,
+    * ihre Sicherheit im Umgang mit mathematischen Methoden mit Relevanz für die Informatik stärken, 
+    * ihre Kompetenz im Verfassen wissenschaftlicher Publikationen erhöhen,
+* so dass sie die Fähigkeit zur selbständigen Einarbeitung in neue mathematische Sachverhalte erhalten und ihre Beurteilungsfähigkeit im Umgang mit mathematisch-abstrakten Themen erhöhen.
 
 
 ## Inhalt
-Exemplarische Fragestellungen der Mathematik in der Informatik mit beispielhaften Themen wie:
 
-- Deskriptive Statistik, Datenanalyse, Visualisierung
-- Schließende Statistik, Trendanalyse
-- Prädikatenlogik
-- gemischt-ganzzahlige Optimierung
-- Simulationsverfahren
-- Differentialgleichung und ihre numerische Lösung
+Exemplarische Fragestellungen der Mathematik in der Informatik mit beispielhaften Themen wie:
+1. Deskriptive Statistik, Datenanalyse, Visualisierung
+2. Schließende Statistik, Trendanalyse
+3. Mathematische Optimierung
+4. Simulationsverfahren
+5. Eigenwerte und Hauptkomponentenanalyse
+
+## Lehr- und Lernformen
+
+* Vorlesung
+* Seminar
+* Projektarbeit
+
+
+## Lehrmaterial
+
+* Vorlesungsskripte
+* Literaturstellen / Literatur
 
 ## Medienformen
 Präsentationsmaterialien, Arbeitsblätter
 
 ## Literatur
-- Liu, Eric Zhi-Feng, e.a., Web-based Peer Review: The learner as both Adapter and Reviewer, IEEE Transactions on Education, Vol 44, No 3, August 2001
-- Tufte, E.R., The Visual Display of Quantitative Information, Cheshire,CT, Graphics Press 1983
-- Hanke-Bourgeois, M., Grundlagen der Numerischen Mathematik und des Wissenschaftlichen Rechnens, 2. Aufl., Teubner 2006.
-- Siehe ILIAS Modul MAS & SGM, Dokument Allgemeine Hinweise
+* Liu, Eric Zhi-Feng, e.a., Web-based Peer Review: The learner as both Adapter and Reviewer, IEEE Transactions on Education, Vol 44, No 3, August 2001
+* Tufte, E.R., The Visual Display of Quantitative Information, Cheshire,CT, Graphics Press 1983
+* Hanke-Bourgeois, M., Grundlagen der Numerischen Mathematik und des Wissenschaftlichen Rechnens, 2. Aufl., Teubner 2006.
 
 
 

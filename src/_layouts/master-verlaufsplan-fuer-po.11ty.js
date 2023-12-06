@@ -30,7 +30,7 @@ module.exports = {
           <!-- Modul -->
           <td rowspan="${modules.length}">${anforderung}</td>
           ${extraColumn ? "<th></th>": ""}
-          <th class="module-name"><a href="${eleventy.url(modulItem.url)}">${modul.title}</a></th>
+          <th class="module-name"><a href="${ modulItem.url}">${modul.title}</a></th>
           <th colspan=1>${modul.kreditpunkte}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DUX") ? "X" : ""}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DEV") ? "X" : ""}</th>
@@ -46,7 +46,7 @@ module.exports = {
         <tr>
           <!-- Modul -->
           ${extraColumn ? "<th></th>": ""}
-          <th class="module-name"}><a href="${eleventy.url(modulItem.url)}">${modul.title}</a></th>
+          <th class="module-name"}><a href="${ modulItem.url}">${modul.title}</a></th>
           <th colspan=1>${modul.kreditpunkte}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DUX") ? "X" : ""}</th>
           <th colspan=1>${modul.schwerpunkt?.includes("DEV") ? "X" : ""}</th>

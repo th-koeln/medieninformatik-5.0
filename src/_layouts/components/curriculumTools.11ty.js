@@ -16,8 +16,6 @@ const getChildModulList = (data) => {
 
 exports.getCurriculumList = (obj) => {
 
-
-
   const { moduls } = obj;
   const { data } = obj;
   const { eleventy } = obj;
@@ -38,6 +36,7 @@ exports.getCurriculumList = (obj) => {
     let cpsPerTerm = 0;
     
     const termModulsList = termModuls.map((modul) => {
+
       const examInfo = modul.data.studienleistungen === null
         ? ''
         : `<p class="module-exam is-small">${moduleTools.resolveExamInfoSimple(modul.data.studienleistungen)}</p>`;
@@ -53,7 +52,7 @@ exports.getCurriculumList = (obj) => {
       return `
         <tr class="${status}">
           <td>
-            <h3 class="module-title"><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></h3>
+            <h3 class="module-title"><a href="${ modul.url}">${modul.data.title}</a></h3>
             ${examInfo}
           </td>
           <td class="no-wrap">${modul.data.kuerzel}</td>
@@ -109,6 +108,7 @@ const getCurriculumTable = (obj) => {
   const { eleventy } = obj;
   const { terms } = obj;
 
+  
   const totalCPS = {};
   
   const modulsForGroup = (group) =>  {
@@ -130,7 +130,7 @@ const getCurriculumTable = (obj) => {
         : parseInt(modul.data.kreditpunkte);
       return `
         <tr class="${status}">
-          <th><a href="${eleventy.url(modul.url)}">${modul.data.title}</a></th>
+          <th><a href="${ modul.url}">${modul.data.title}</a></th>
           <td>${pvl}</td>
           <td>${modul.data.kreditpunkte}</td>
           ${terms.map((term) => {
@@ -232,7 +232,16 @@ exports.getCurriculumVerlaufsplanTable = (obj) => {
       if (row.semester.season === "wise" && !modulClone.data.angebotImWs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" (platziert im "+row.semester.fachsemester+". Semester) wird nicht im WiSe angeboten");
       if (row.semester.season === "sose" && !modulClone.data.angebotImSs) obj.data.hinweise.push("Modul "+modulClone.data.kuerzel+" (platziert im "+row.semester.fachsemester+". Semester) wird nicht im SoSe angeboten");
 
+        
+      if (row.semester?.creditsplits) {
+        if (row.semester?.creditsplits[kuerzel]) {
+          modulClone.data.kreditpunkte = row.semester.creditsplits[kuerzel];
+          modulClone.data.title = modulClone.data.title + " (gesplittet)";
+        }
+      }
+      
       istECTS += modulClone.data.kreditpunkte;
+
       moduleImVerlauf.push(modulClone);
       
     };
@@ -260,7 +269,7 @@ exports.getAllModuls = (obj) => {
 
     return `
       <li>${status}
-        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+        <a href="${ modul.url}">${modul.data.title}</a>
       </li>
     `;
   });
@@ -293,7 +302,7 @@ exports.getAllModulsMaster = (obj) => {
 
     return `
     <tr>
-      <td>${status}&nbsp;<a href="${eleventy.url(modul.url)}">${modul.data.title} </a></td>
+      <td>${status}&nbsp;<a href="${ modul.url}">${modul.data.title} </a></td>
       <td>Semester</td>
       <td>${modul.data.modulverantwortlich}</td>
       <td>${isDUX}</td>
@@ -342,7 +351,7 @@ exports.getChildModulList = (data, headlineChilds, eleventy) => {
   const childModulsList = childModuls.map((modul) => {
     return `
       <li>
-        <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>${resolveSchwerpunkt(modul.data.schwerpunkt)}
+        <a href="${ modul.url}">${modul.data.title}</a>${resolveSchwerpunkt(modul.data.schwerpunkt)}
       </li>
     `;
   });
@@ -387,7 +396,7 @@ exports.getChildModulListBySchwerpunkt = (data, headlineChilds, eleventy) => {
 
       return `
         <li>
-          <a href="${eleventy.url(modul.url)}">${modul.data.title}</a>
+          <a href="${ modul.url}">${modul.data.title}</a>
         </li>
       `;
     });
@@ -421,8 +430,10 @@ exports.getModulMatrix = (obj) => {
   const { moduls } = obj;
   const studyProgramme = obj.studyProgramme ? obj.studyProgramme : 'master';
   const { handlungsfelder } = obj;
+  const { eleventy } = obj;
 
-  const impactGate = 0; // Soviel muss ein Modul liefern, damit es als "check" gilt
+  const impactGate = 4; // Soviel muss ein Modul mindestens liefern, damit es als "check" gilt
+  const impactGateStudiengangkriterien = 0; // Soviel muss ein Modul mindestens liefern, damit es als "check" gilt
   const impactGateHandlungsfeld = 10; // Soviel muss ein Handlungsfeld liefern, damit es als "check" gilt
 
   const modulRows = moduls.map((modulItem) => {
@@ -433,12 +444,18 @@ exports.getModulMatrix = (obj) => {
     const checkImpact = ( value ) => {
       if(!value) return "";
       if(!value.liefert) return "";
-      return value.liefert > impactGate ? check : "";
+      const opacity = value.liefert / 10;
+      return value.liefert > impactGate ? `<span style="opacity: ${opacity}" class="icon is-checked">check</span>` : "";
+    };
+
+    const checkImpactStudiengangkriterien = ( value ) => {
+      if(!value) return "";
+      return value > impactGateStudiengangkriterien ? check : "";
     };
 
     const checkImpactHandlungsfeld = ( handlungsfeld ) => {
 
-      if(studyProgramme === 'master') { return modul.handlungsfelder?.DUX ? "DUX" : ""; }
+      // if(studyProgramme === 'master') { return modul.handlungsfelder?.DUX ? "DUX" : ""; }
       if(!modul.kompetenzen?.handlungsfelderOverall) return "";
 
       const kompetenzenImHandlungsfeld = modul.kompetenzen.handlungsfelderOverall[handlungsfeld];
@@ -453,20 +470,29 @@ exports.getModulMatrix = (obj) => {
         return accumulator + scoreBereich;
       }, 0);
       
-      return summeImactKompetenzenImHandlungsfeld > impactGateHandlungsfeld ? handlungsfeld : "";
+      return summeImactKompetenzenImHandlungsfeld > impactGateHandlungsfeld ? check : "";
 
     };
+
+
+    const getExams = (modul) => {
+      if(!modul.studienleistungen) return "-";
+
+      const {studienleistungen} = modul;
+      return Object.keys(studienleistungen).length;
+    };
+
 
     return `
       <tr>
         <!-- Modul -->
-        <th class="module-name"><a href="${modulItem.url}">${modul.title}</a></th>
+        <th class="module-name"><a href="${ modulItem.url}">${modul.title}</a></th>
         <td>${modul.typ === 'pm' ? check : ''}</td>
         <td>${modul.kreditpunkte}</td>
         <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>
         
         <!-- Prüfungen -->
-        <td>${modul.studienleistungen?.Einzelleistung ? "1" : "?"}</td>
+        <td>${getExams(modul)}</td>
   
         <!-- Handlungsfelder -->
         <td>${checkImpactHandlungsfeld('DUX')}</td>
@@ -498,10 +524,10 @@ exports.getModulMatrix = (obj) => {
         <td>${checkImpact(modul.kompetenzen?.handlungsfelderOverall.INDI?.selbstlernen)}</td>
   
         <!-- Zuordnung Studiengangkriterien -->
-        <td>${checkImpact(modul.studiengangkriterien?.globalcitizenship)}</td>
-        <td>${checkImpact(modul.studiengangkriterien?.internationalisierung)}</td>
-        <td>${checkImpact(modul.studiengangkriterien?.interdisziplinaritaet)}</td>
-        <td>${checkImpact(modul.studiengangkriterien?.transfer)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.globalcitizenship)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.internationalisierung)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.interdisziplinaritaet)}</td>
+        <td>${checkImpactStudiengangkriterien(modul.studiengangkriterien?.transfer)}</td>
   
       </tr>
       `

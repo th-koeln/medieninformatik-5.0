@@ -31,6 +31,7 @@
       h1{
         margin-bottom: 0;
         flex-grow: 2;
+        padding-top: 0;
       }
     }
 
@@ -67,6 +68,7 @@
 
   table.core-data{
 
+    width: 100%;
     border-spacing: 0;
     padding-top: var(--s);
     padding-bottom: var(--m);
@@ -81,6 +83,7 @@
 
     th{
       font-weight: var(--fw-medium);
+      width: 33%;
     }
     
     th, td{
@@ -122,11 +125,9 @@
         width: 100%;
       }
     }
-
-    .scores{
-      .description-text{
-        margin-bottom: var(--fluid-space-l);
-      }
+    .description-text{
+      margin-bottom: var(--fluid-space-l);
+      padding-right: var(--fluid-space-m);
     }
 
     .score{
@@ -146,6 +147,8 @@
         font-size: var(--m);
         padding-left: var(--s);
         padding-bottom: var(--half);
+        padding-top: 0;
+        margin-bottom: 0;
       }
 
       .score-list{

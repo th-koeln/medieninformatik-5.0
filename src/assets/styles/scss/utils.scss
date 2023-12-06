@@ -25,7 +25,7 @@
     display: block;
     width: 10%;
     border-top: solid var(--border-width-l) var(--mi-blau);
-    margin-bottom: var(--fluid-space-m);
+    margin-top: var(--fluid-space-l);
     content: "";
   }
 }
@@ -73,6 +73,30 @@
   padding-right: var(--quat);
 }
 
+
+
+
+.is-dev-color{
+  color: var(--handlungsfeld-dev);
+}
+
+.is-dux-color{
+  color: var(--handlungsfeld-dux);
+}
+
+.is-crea-color{
+  color: var(--handlungsfeld-crea);
+}
+
+.is-exa-color{
+  color: var(--handlungsfeld-exa);
+}
+
+.is-indi-color{
+  color: var(--handlungsfeld-indi);
+}
+
+
 /* Status
 ############################################################################ */
 
@@ -85,34 +109,44 @@
   }
 }
 
+.composition{
+  margin-top: var(--fluid-space-m) !important;
+  padding-bottom: var(--fluid-space-l) !important;
+}
+
 .is-tbd{
   background-color: hsla(0, 100%, 80%, 0.5);
   border-left: solid var(--border-width-l) hsla(0, 100%, 50%, 1);
   padding-left: var(--fluid-space-s);
+  @extend .composition;
 }
 
 .is-wip{
   background-color: hsla(0, 100%, 80%, 0.3);
   border-left: solid var(--border-width-l) hsla(0, 100%, 80%, 1);
   padding-left: var(--fluid-space-s);
+  @extend .composition;
 }
 
 .is-rfreview{
   background-color: hsla(60, 100%, 80%, 0.5);
   border-left: solid var(--border-width-l) hsla(60, 100%, 50%, 1);
   padding-left: var(--fluid-space-s);
+  @extend .composition;
 }
 
 .is-review{
   background-color: hsla(60, 100%, 80%, 0.3);
   border-left: solid var(--border-width-l) hsla(60, 100%, 40%, 1);
   padding-left: var(--fluid-space-s);
+  @extend .composition;
 }
 
 .is-refactor{
   background-color: hsla(320, 100%, 80%, 0.3);
   border-left: solid var(--border-width-l) hsla(320, 100%, 40%, 1);
   padding-left: var(--fluid-space-s);
+  @extend .composition;
 }
 
 /* Has Interaction
@@ -146,4 +180,28 @@
 .is-sticky{
   position: sticky;
   top: 0;
+}
+
+/* Size Indicator
+############################################################################ */
+
+[data-js-size-indicator-large],
+[data-js-size-indicator-small]{
+  display: inline;
+  margin: 0 !important;
+  height: 0;
+}
+
+[data-js-size-indicator-large]{
+  display: none;
+}
+
+@media screen and (min-width: 160ch){
+  [data-js-size-indicator-small]{
+    display: none;
+  }
+
+  [data-js-size-indicator-large]{
+    display: inline;
+  }
 }

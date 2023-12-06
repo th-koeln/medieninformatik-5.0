@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen die u.A. HTML, Javascript, Java, C beherrschen."
+title: "Suchen Medieninformatiker*innen die u.A. HTML, Javascript, Java, C beherrschen."
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

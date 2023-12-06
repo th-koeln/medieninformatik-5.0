@@ -20,14 +20,19 @@ hideSchwerpunktloseChildren: true
 typ: pm
 studienleistungen:
   Einzelleistung:
-    art: siehe Modulbeschreibung des gewählten Moduls
+    art: Semesterbegleitendes Projekt, dokumentiert als wissenschaftliches Papier / Präsentation
     erstpruefer: 
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: ok   
+  
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 1
+  interdisziplinaritaet: 1
+  transfer: 1
+
 ---
 
-## Kurzbeschreibung
-
-Konkrete Guided Projects im Schwerpunkt können  aus dem Katalog der Guided Projects gewählt werden, die für ein konkretes Guided Projects in einem der Schwerpunkte angeboten werden.
+Konkrete Guided Projects in einem der drei Schwerpunkte können aus dem Katalog der Guided Projects gewählt werden, die für einen Schwerpunkt angeboten werden.

@@ -40,12 +40,17 @@ lehrmethoden:
   - Prototyping
 lehrform:
   - Seminar/ Workshop 4 SWS
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 1 
 ---
 
 
 ## Learning Outcome
 (WAS) Die Studierenden können innovative Geschäftsideen entwickeln und kriteriengeleitet evaluieren …
-(WOMIT) indem sie verschiedene Rahmenwerke und Komponenten zur Entwicklung von Geschäftsmodellen analysieren, Methoden und Instrumente zum Prototyping von marktrelevanten Produktideen anwenden und diese auf Basis fachlicher, organisatorischer und technologischer Aspekte kritisch reflektieren, (WOZU) um später Geschäftsideen zu entwickeln und deren Markakzeptanz überprüfen zu können.
+(WOMIT) indem sie verschiedene Rahmenwerke und Komponenten zur Entwicklung von Geschäftsmodellen analysieren, Methoden und Instrumente zum Prototyping von marktrelevanten Produktideen anwenden und diese auf Basis fachlicher, organisatorischer und technologischer Aspekte kritisch reflektieren, (WOZU) um später Geschäftsideen zu entwickeln und deren Marktakzeptanz überprüfen zu können.
 
 ## Inhalte
 - Business Innovation (u.a. Lean Startup Methode)

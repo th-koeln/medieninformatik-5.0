@@ -1,0 +1,43 @@
+/* Scroll to top
+############################################################################ */
+
+#scroll-to-top{
+  position: fixed;
+  z-index: 100;
+  right: var(--xs);
+  bottom: -200px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all var(--tr-fast);
+
+  &:hover{
+    background-color: var(--darkest);
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--xl);
+    color: var(--lightest);
+    width: 3ch;
+    height: 3ch;
+    text-decoration: none;
+
+    span{
+      transition: margin var(--tr-fast);
+      margin-top: 0;
+    }
+
+    &:hover{
+      span{
+        margin-top: -0.5ch;
+      }
+    }
+  }
+
+  &.is-visible{
+    bottom: var(--xs);
+  }
+}

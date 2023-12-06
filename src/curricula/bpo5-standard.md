@@ -1,7 +1,11 @@
 ---
-title: Studienverlaufsplan Bachelor BPO5 (WIP)
+title: Studienverlaufsplan Bachelor BPO5
 layout: verlaufsplan.11ty.js
-inToc: true
+inToc: false
+tocs:
+    - bachelor
+    - bachelor-for-experts
+    - bachelor-for-fakrat
 collection: modulsBPO5
 terms: [1,2,3,4,5,6,7]
 groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung']
@@ -43,7 +47,7 @@ studienverlauf:
         label: "Finales Semester"
         fachsemester: 7
         season: "wise"
-        module: ["PPS", "PPA", "BA", "BK"]                
+        module: ["PP", "BA", "BK"]                
 ---
 
 Der Bachelor Studiengang Medieninformatik ist ein berufsqualifizierendes grundständiges Studium und führt zum ersten Hochschulabschluss. Die Regelstudienzeit des anwendungsorientierten Informatikstudiengangs beträgt 7 Semester. Die Einschreibung ist ausschließlich zum Wintersemester möglich.

@@ -1,0 +1,30 @@
+/* Handlungsfelder
+############################################################################ */
+
+.handlungsfelder{
+
+  h2{
+    background: none;
+    padding-left: 0;
+  }
+
+  h2.is-dux{
+    color: var(--handlungsfeld-dux);
+  }
+
+  h2.is-dev{
+    color: var(--handlungsfeld-dev);
+  }
+
+  h2.is-exa{
+    color: var(--handlungsfeld-exa);
+  }
+
+  h2.is-indi{
+    color: var(--handlungsfeld-indi);
+  }
+
+  h2.is-crea{
+    color: var(--handlungsfeld-crea);
+  }
+}

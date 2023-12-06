@@ -38,8 +38,6 @@ module.exports = {
 
 		const getModulkompetenzenList = (modulkompetenzen) => {
 
-
-
 			const { handlungsfelderMap } = modulkompetenzen;
 
 			let lastHandlungsfeld = '';
@@ -178,15 +176,18 @@ module.exports = {
 					<h2>Geförderter Kompetenzerwerb</h2>
 
 					<div class="scores-and-charts">
-						<div class="chart" 
-							data-chart='${modulkompetenzenData}' 
-							data-handlungsfelder='${handlungsfelderMapInverted}' 
-							data-target="competence-chart-erwerb"
-							data-direction="erwerb">
-							<canvas id="competence-chart-erwerb"></canvas>
+
+						<div>
+							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der konkreten Komptenzen finden Sie weiter unten.</p>
+							<div class="chart" 
+								data-chart='${modulkompetenzenData}' 
+								data-handlungsfelder='${handlungsfelderMapInverted}' 
+								data-target="competence-chart-erwerb"
+								data-direction="erwerb">
+								<canvas id="competence-chart-erwerb"></canvas>
+							</div>
 						</div>
 						<div class="scores">
-							<p class="description-text">Das Modul zahlt auf folgende Handlungsfelder und Kompetenzbereiche ein. Eine ausführliche Beschreibung der konkreten Komptenzen finden Sie weiter unten.</p>
 							${getCompetenceScores(data.kompetenzen)}
 						</div>
 					</div>

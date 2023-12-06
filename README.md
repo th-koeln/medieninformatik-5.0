@@ -44,10 +44,10 @@ kurzbericht                        Snippets Kurzbericht
 - `npm install`
 - `npm run build` 
 - `npm run dev` 
+- `npm run quiet` 
 - `npm run convert:comp`
 
 ## Review Guidelines
-
 - Modulkürzel passen?
 
 ### Module

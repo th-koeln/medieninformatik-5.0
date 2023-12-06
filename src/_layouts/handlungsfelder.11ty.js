@@ -1,7 +1,7 @@
 module.exports = {
 	data: {
 		layout: "default.11ty.js",
-		bodyClass: "content-blocks",
+		bodyClass: "content-blocks handlungsfelder",
 	},
 	render(data, context) {
 
@@ -41,11 +41,13 @@ module.exports = {
       const competencies = getCompetencies(item.data.competencies, item.page.fileSlug)
       const meta = utils.getContentMeta(eleventy, item.data.meta);
       
+      const cssClass = item.data.cssClass ? `class="${item.data.cssClass}"` : '';
+
       return `
         <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
-            <h${item.data.level + 1} id="${eleventy.slugify(item.data.title)}">${item.data.title}
-              ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
+            <h${item.data.level + 1} id="${eleventy.slugify(item.data.title)}" ${cssClass}>${item.data.title}
+              ${utils.getOpenInNewWindowLink(item)}${utils.getEditLink(item, data)} (${item.data.kuerzel.toUpperCase()})</h${item.data.level + 1}>
             ${meta}
            ${item.content}
             ${competencies}
@@ -55,29 +57,30 @@ module.exports = {
     });
 
 		return `
-			<main>
-				<section>
-					<header>
-						<h1>${data.title}</h1>
-					</header>
-				</section>
 
-        <section>
-          <nav>
-            ${tocTools.getPageTOC({
-              eleventy,
-              collection: data.collections.handlungsfelder,
-              maxLevel: 1
-            })}
-          </nav>
-        </section>
+		  <main>
+			  <section>
+				  <header>
+					  <h1>${data.title}</h1>
+				  </header>
 
-        ${data.content}
+          <div class="intro-text">
+            ${data.content}
+          </div>
+			  </section>
 
+        <div id="page-navigation">
+          ${tocTools.getPageTOC({
+            eleventy,
+            collection: data.collections.handlungsfelder,
+            maxLevel: 1
+          })}
+        </div>
         <section>
           ${handlungsfelderList.join("\n")}
         </section>
-			</main>
+  		</main>
+
 		`;
 	}
 }

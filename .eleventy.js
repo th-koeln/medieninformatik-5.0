@@ -1,8 +1,12 @@
-const htmlmin = require('html-minifier');
+const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const markdownIt = require("markdown-it");
 const yaml = require("js-yaml");
 const fg = require('fast-glob');
-const fs = require('fs');
+
+const shortcodeModuls = {
+  "images": require('./src/_layouts/shortcodes/images.11ty.js'),
+};
+
 
 const pathPrefix = (process.env.ELEVENTY_ENV === 'production') ? "/medieninformatik-5.0" : "";
 const pathes = {
@@ -123,6 +127,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/**/*.glb");
   eleventyConfig.addPassthroughCopy("src/**/*.obj");
   eleventyConfig.addPassthroughCopy("src/**/*.mtl");
+  eleventyConfig.addPassthroughCopy("src/**/*.pdf");
+
+  // Copy Downloads
+  eleventyConfig.addPassthroughCopy({ 'src/downloads': 'downloads' });
 
   // Copy Scripts
   eleventyConfig.addPassthroughCopy({ 'src/assets/scripts': 'assets/scripts' });
@@ -131,9 +139,9 @@ module.exports = function (eleventyConfig) {
   // Copy CNAME
   eleventyConfig.addPassthroughCopy({ 'src/CNAME': '' });
 
-  /* Data
+  /* BaseUrl
  ########################################################################## */
-
+ eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
   /* Functions
  ########################################################################## */
@@ -147,11 +155,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addJavaScriptFunction("getImagesBasePath", function (section) {
-    return `${pathPrefix}/${pathes.images[section]}`;
+    return `/${pathes.images[section]}`;
   });
 
   eleventyConfig.addJavaScriptFunction("getCompetencesToModuleMapPath", function (studyProgramme) {
-    return `${pathPrefix}/${pathes.competencesToModuleMap[studyProgramme]}`;
+    return `/${pathes.competencesToModuleMap[studyProgramme]}`;
   });
 
   /* Filter
@@ -207,6 +215,24 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("itemsKurzbericht", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/kurzbericht/*.md").sort((a, b) => {
+      if (a.fileSlug > b.fileSlug) return 1;
+      else if (a.fileSlug < b.fileSlug) return -1;
+      else return 0;
+    });
+  });
+
+  eleventyConfig.addCollection("contentCards", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/cards/*.md").sort((a, b) => {
+      if (a.fileSlug > b.fileSlug) return 1;
+      else if (a.fileSlug < b.fileSlug) return -1;
+      else return 0;
+    });
+  });
+
+  eleventyConfig.addCollection("quotes", function (collection) {
+    clearRequireCache();
+    return collection.getFilteredByGlob("./src/quotes/*.md").sort((a, b) => {
       if (a.fileSlug > b.fileSlug) return 1;
       else if (a.fileSlug < b.fileSlug) return -1;
       else return 0;
@@ -309,6 +335,26 @@ module.exports = function (eleventyConfig) {
 
   /* Shortcodes
  ########################################################################## */
+
+  eleventyConfig.addShortcode("image", function(src, caption) { 
+    return shortcodeModuls.images.getImageBlock(src, caption);
+  });
+
+  eleventyConfig.addShortcode("screenshot", function(src, caption) { 
+    return shortcodeModuls.images.getScreenshotBlock(src, caption);
+  });
+
+  eleventyConfig.addShortcode("gallery", function(src, classname, caption) { 
+    caption = caption || '';
+    classname = classname || '';
+    if(!src) return console.error('No src given for gallery shortcode');
+    const attributes = {
+      src: src,
+      id: 'gallery-' + src.replace(/\//g, '-').replace(/\./g, '-').replace(/_/g, '-').replace(/ /g, '-').toLowerCase(),
+      class: classname
+    };
+    return shortcodeModuls.images.getGallery(this.ctx, this.ctx, attributes);
+  });
 
   /* Data Extension
   ########################################################################## */

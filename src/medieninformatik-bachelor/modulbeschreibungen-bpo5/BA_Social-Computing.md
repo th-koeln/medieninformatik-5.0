@@ -23,28 +23,47 @@ studienleistungen:
     zweitpruefer:
     datum: 
 meta:
-  status: tbd    
+  status: ok    
   authors: Christian Kohls
   reviewers: Christian Kohls
 besonderheiten: 
-praesenzZeit: 72
-selbstStudium: 78
+praesenzZeit: 50
+selbstStudium: 100
 angebotImWs: false
 angebotImSs: true
 weitereStudiengaenge: 
 lehrmethoden:
-  - Vorlesung mit Fallbeispielen
+  - Impulsvorträge am interaktiven Whiteboard
+  - Screencasts und Handouts
+  - Aktuelle Blogbeiträge, Zeitungsartikel und Videos
+  - Arbeit im Innovationsraum mit Gestaltungsmaterialien
 lehrform:
-  - Vorlesung 2 SWS
-  - Praktikum 2 SWS
+  - Vorlesung 1 SWS
+  - Seminar 2 SWS
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0  
 ---
 
+
 ## Learning Outcome
-(WAS)(WOMIT)(WOZU)
-[Learning-Outcomes ‚lupenrein‘ formulieren](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/lehre/steckbrief_learning_outcomes.pdf)
+(WAS) Die Studierenden können das komplexe Wechselspiel zwischen informationstechnischen Systemen und gesellschaftlichen Normen und Prozessen verstehen, analysieren und einordnen, (WOMIT) indem sie sich mit aktuellen sozialen Medien auseinandersetzen, diese mit medientheoretischen Hintergründen und Designprinzipien in Beziehung setzen und eigene Konzepte skizzieren, (WOZU) um neue soziale Medienangebote zu gestalten und deren Technikfolgen einschätzen zu können.
 
 ## Inhalte
-
+- Modelle der Sozioinformatik
+- Soziologische, Psychologische und medientheoretische Grundlagen
+- Computerethische Grundlagen
+- Technikgenese und Ko-Evolution
+- Dark Patterns
+- Aufmerksamkeits-Ökonomie
+- Positive Computing
+- Gestaltungsprinzipien für soziotechnische Systeme
+- Gamification
+- Behaviour Design
+- Diversity in Computer Science
+- Code und gesellschaftliche Normen
+- Algorithmen für Empfehlungssysteme
 
 ## Empfohlene Literatur
-

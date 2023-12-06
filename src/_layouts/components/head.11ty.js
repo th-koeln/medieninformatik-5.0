@@ -12,27 +12,27 @@ exports.getHeader = (eleventy, data) => {
       <meta property="article:published_time" content="${publishDate}">
       <meta name="author" content="Medieninformatik 5.0">
 
-      <link rel="apple-touch-icon" sizes="180x180" href="${eleventy.url('/assets/images/favicons/apple-touch-icon.png')}">
-      <link rel="icon" type="image/png" sizes="32x32" href="${eleventy.url('/assets/images/favicons/favicon-32x32.png')}">
-      <link rel="icon" type="image/png" sizes="16x16" href="${eleventy.url('/assets/images/favicons/favicon-16x16.png')}">
-      <link rel="manifest" href="${eleventy.url('/assets/images/favicons/site.webmanifest')}">
-      <link rel="mask-icon" href="${eleventy.url('/assets/images/favicons/safari-pinned-tab.svg')}" color="#5bbad5">
+      <link rel="apple-touch-icon" sizes="180x180" href="${ '/assets/images/favicons/apple-touch-icon.png'}">
+      <link rel="icon" type="image/png" sizes="32x32" href="${ '/assets/images/favicons/favicon-32x32.png'}">
+      <link rel="icon" type="image/png" sizes="16x16" href="${ '/assets/images/favicons/favicon-16x16.png'}">
+      <link rel="manifest" href="${ '/assets/images/favicons/site.webmanifest'}">
+      <link rel="mask-icon" href="${ '/assets/images/favicons/safari-pinned-tab.svg'}" color="#5bbad5">
       
       <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
       <meta name="msapplication-TileColor" content="#da532c">
       <meta name="theme-color" content="#ffffff">
 
-      <link href="${eleventy.url('/compiled-assets/main.css')}" rel="stylesheet">
-      <script src="${eleventy.url('/assets/scripts/main.js')}" defer></script>
+      <link href="${ '/compiled-assets/main.css'}" rel="stylesheet">
+      <script src="${ '/assets/scripts/main.js'}" defer></script>
 
-      <link href="${eleventy.url('/assets/styles/libs/blueimp-gallery.min.css')}" rel="stylesheet">
-      <script src="${eleventy.url('/assets/scripts/blueimp-gallery.min.js')}" defer></script>
-      <script src="${eleventy.url('/assets/scripts/charts.js')}" defer></script>
+      <link href="${ '/assets/styles/libs/blueimp-gallery.min.css'}" rel="stylesheet">
+      <script src="${ '/assets/scripts/blueimp-gallery.min.js'}" defer></script>
+      <script src="${ '/assets/scripts/charts.js'}" defer></script>
       <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
       <script>
         const settings = {
-          pathPrefix: "${eleventy.url('/')}",
+          pathPrefix: "${ '/'}",
         };
       </script>
 

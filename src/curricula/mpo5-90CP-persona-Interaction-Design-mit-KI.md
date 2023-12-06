@@ -1,7 +1,10 @@
 ---
 title: Berufsbild »Interaction Design mit Fokus auf Künstliche Intelligenz« (Master of Science)
 layout: verlaufsplan.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - master
+  - persona
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
@@ -20,7 +23,7 @@ studienverlauf:
         label: "2. Semester"
         fachsemester: 2
         season: "sose"
-        module: ["IMP", "SGMCI", "SHCI", "GP-DUX"]
+        module: ["IMP", "SGMCI", "KI", "GP-DUX"]
     - semester:
         fachsemester: 3
         label: "Finales Semester"
@@ -33,4 +36,4 @@ hinweise:
 
 ## Berufsbild Interaction Design mit Fokus auf Künstliche Intelligenz
 
-Diese Absolvent*in hat im Schwerpunkt DUX richtung Interaction Design studiert und im Bereich Künstliche Intelligenz und Statistik spezialisiert.
+Diese Absolvent*in hat im Schwerpunkt DUX in Richtung Interaction Design studiert und sich im Bereich Künstliche Intelligenz und Statistik spezialisiert.

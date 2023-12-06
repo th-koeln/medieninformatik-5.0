@@ -44,6 +44,12 @@ participants:
     min: 5
     max: 20
 
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 1
+
 effort:
     lecture: 30
     seminar: 0

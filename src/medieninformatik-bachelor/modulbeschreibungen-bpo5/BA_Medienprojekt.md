@@ -25,7 +25,7 @@ meta:
   status: ok
   authors: Christian
   reviewers: Hans
-besonderheiten: 
+besonderheiten: unbenotetes Modul
 praesenzZeit: 64
 selbstStudium: 86
 angebotImWs: false
@@ -33,6 +33,11 @@ angebotImSs: true
 weitereStudiengaenge: 
 lehrform:
   - Seminar/ Workshop/ Projekt 4 SWS
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 1  
 ---
 
 ## Learning Outcome

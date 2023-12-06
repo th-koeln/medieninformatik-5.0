@@ -4,6 +4,7 @@
 @import 'global/variables';
 @import 'global/base';
 @import 'global/blueprints';
+@import 'global/print';
 
 @import 'utils';
 @import 'composition';
@@ -21,6 +22,11 @@
 @import 'components/lists';
 @import 'components/avatars';
 @import 'components/competences';
+@import 'components/navigation';
+@import 'components/cover';
+@import 'components/scroll-to-top';
+@import 'components/quotes';
+@import 'components/cards';
 
 @import 'layouts/content-blocks';
 @import 'layouts/article';
@@ -33,4 +39,6 @@
 @import 'layouts/job-offers';
 @import 'layouts/image';
 @import 'layouts/modulhandbuch';
+@import 'layouts/kurzbericht';
+@import 'layouts/handlungsfelder';
 

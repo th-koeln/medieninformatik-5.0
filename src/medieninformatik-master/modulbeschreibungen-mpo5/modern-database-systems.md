@@ -2,7 +2,7 @@
 title: Modern Database Systems
 kuerzel: MDS
 modulverantwortlich: jschaible
-dozierende: jschaible, bb
+dozierende: jschaible
 modulniveau: master
 
 infourl: 
@@ -55,6 +55,12 @@ effort:
     project_work: 0
 
 empfohleneVoraussetzungen: Lectures "DBS I" from the undergraduate computer science courses or adequate skills
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
 
 ---
 

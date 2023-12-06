@@ -5,7 +5,10 @@ degree: Bachelor of Science
 version: 5.0.0
 date: last Modified
 layout: modulhandbuch.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - bachelor
+  - bachelor-for-fakrat
 collection: modulsBPO5
 
 ---
@@ -16,9 +19,6 @@ collection: modulsBPO5
 ## Absolvent\:innenprofil
 <snippet type="text" id="absolventinnenprofil-allgemein" src="kurzbericht/130-absolventinnenprofil-allgemein"></snippet>
 <snippet type="text" id="absolventinnenprofil-bachelor" src="kurzbericht/132-absolventinnenprofil-bachelor"></snippet>
-
-## Handlungsfelder
-<snippet type="handlungsfelder" id="handlungsfelder"></snippet>
 
 ## Studienverlaufsplan
 <snippet type="curriculum" id="curriculum-bachelor" src="curricula/bpo5-standard"></snippet>

@@ -42,7 +42,7 @@ module.exports = {
                     <span title="Modul erfordert ${translateStars(braucht)} dieser Kompetenz." class="score-value-indicator braucht" style="width: calc(${braucht} * 9%); transform: translateX(-100%)"></span>
                   </div>
                 </div>
-                <p><a href="${eleventy.url(modulItem.url)}">${modul.title}</a></p>
+                <p><a href="${ modulItem.url}">${modul.title}</a></p>
               </li>
             `;
           });

@@ -5,22 +5,24 @@
 
   section {
 
+    padding-bottom: 0;
+
     .content{
       padding-top: calc(var(--fluid-space-s) * 1);
       padding-right: var(--fluid-space-s);
-      margin-bottom: var(--fluid-space-s);
-
+    
       & > *{
         max-width: var(--max-width-content);
+      }
+
+      p:last-child{
+        margin-bottom: 0;
       }
     }
 
     @media screen and (min-width: 160ch) {
       .content{
         blockquote{
-          position: absolute;
-          margin-left: calc(var(--max-width-content) + var(--fluid-space-s));
-          max-width: calc(var(--max-width-content) / 2);
           font-size: var(--s);
           line-height: var(--lh-normal);
         }

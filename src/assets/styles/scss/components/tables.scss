@@ -33,15 +33,18 @@ table {
 
 .table-module-list {
 
+  border-collapse:collapse;
+
   * {
     line-height: var(--lh-semi-tight);
     vertical-align: top;
   }
 
   .module-title {
-    font-weight: var(--fw-light);
+    font-weight: var(--fw-medium);
     margin-bottom: var(--quat);
     font-size: var(--m);
+    padding-top: 0;
   }
 
   .module-exam {
@@ -59,6 +62,11 @@ table {
   th:first-child,
   td:first-child {
     padding-left: 0;
+
+  }
+
+  tr[class*=is-]:not([class=is-ok]) td:first-child{
+    padding-left: var(--half);
   }
 }
 
@@ -185,21 +193,17 @@ table {
 
     position: relative;
     /* Something you can count on */
-    height: 30ch;
+    height: 34ch;
     width: 3ch;
     white-space: nowrap;
 
     & > div {
       position: absolute;
       
-      left: 0;
-      bottom: 0;
+      left: 0.45ch;
+      bottom: 1ch;
       transform: rotate(-90deg);
       width: 30px;
-
-      & > span {
-        padding: 5px 0;
-      }
     }
   }
 

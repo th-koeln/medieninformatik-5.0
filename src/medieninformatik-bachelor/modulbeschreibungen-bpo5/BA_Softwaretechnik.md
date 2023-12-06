@@ -12,7 +12,7 @@ voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektorientierte Programmierung
 published: true
 layout: modulbeschreibung.11ty.js
-typ: pm
+typ: wpf
 pvl: true
 veranstaltungsform: 
 infourl: 
@@ -22,10 +22,17 @@ studienleistungen:
     erstpruefer: mw
     zweitpruefer: sb
     datum: ss-2
+angebotImWs: false
+angebotImSs: true    
 meta:
   status: tbd    
   authors: Mario Winter
   reviewers: Mario Winter
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0  
 ---
 
 ## Sprache

@@ -5,7 +5,10 @@ degree: Master of Science
 version: 5.0.0
 date: last Modified
 layout: modulhandbuch.11ty.js
-inToc: true
+inToc: false
+tocs:
+  - master
+  - master-for-fakrat
 collection: modulsMPO5
 
 ---
@@ -17,8 +20,6 @@ collection: modulsMPO5
 <snippet type="text" id="absolventinnenprofil-allgemein" src="kurzbericht/130-absolventinnenprofil-allgemein"></snippet>
 <snippet type="text" id="absolventinnenprofil-master" src="kurzbericht/134-absolventinnenprofil-master"></snippet>
 
-## Handlungsfelder
-<snippet type="handlungsfelder" id="handlungsfelder"></snippet>
 
 ## Studienverlaufsplan
 <snippet type="curriculum" id="curriculum-master" src="curricula/mpo5-90CP-standard"></snippet>

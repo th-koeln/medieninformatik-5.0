@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen die fit im Umgang mit Figma, Sketch o.Ä. sind."
+title: "Suchen Medieninformatiker*innen die fit im Umgang mit Figma, Sketch o.Ä. sind."
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

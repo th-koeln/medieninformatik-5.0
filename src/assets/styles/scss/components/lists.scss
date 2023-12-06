@@ -3,13 +3,14 @@
 
 ul:not([class]) {
   padding-left: 0;
-  
+  margin-bottom: var(--fluid-space-s);
+
   & > li {
     display: block;
     margin-left: 1.5ch;
 
     &::before {
-      color: var(--dark);
+      color: var(--mi-gruen);
       content: "»";
       display: inline-block;
       width: 1.5ch;
@@ -17,8 +18,27 @@ ul:not([class]) {
     }
 
     & + li {
-      margin-top: var(--quat);
+      margin-top: 1%;
     }
+  }
+}
+
+ol:not([class]){
+
+  padding-left: 2ch;
+  margin-bottom: var(--fluid-space-s);
+  
+  li{
+    margin-left: 1ch;
+
+    &::marker{
+      color: var(--dark);
+    }
+  }
+
+  li + li {
+    margin-top: 1%;
+
   }
 
 }

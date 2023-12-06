@@ -25,7 +25,7 @@ meta:
   status: ok
   authors: Christian, Viet
   reviewers: Viet, Christian
-besonderheiten: 
+besonderheiten: unbenotetes Modul
 praesenzZeit: 72
 selbstStudium: 78
 angebotImWs: true
@@ -36,7 +36,12 @@ lehrmethoden:
   - Projekt
 lehrform:
   - Vorlesung 2 SWS
-  - Praktikum 2 SWS  
+  - Praktikum 2 SWS
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0  
 ---
 
 ## Learning Outcomes

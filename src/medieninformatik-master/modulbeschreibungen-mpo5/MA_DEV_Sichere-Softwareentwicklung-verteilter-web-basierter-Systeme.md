@@ -10,11 +10,12 @@ voraussetzungenNachPruefungsordnung: keine über die Zulassungsvorrausetzungen z
 empfohleneVoraussetzungen: IT-Sicherheit,Fortgeschrittene Themen verteilter, web-basierter Systeme (Web Architekturen), Web Technologien
 published: true
 layout: modulbeschreibung.11ty.js
-kategorie: wahl
+kategorie: schwerpunkt
 parent: WAMO-SP, WAMO
 angebotImWs: false
 angebotImSs: true
 schwerpunkt: DEV
+typ: wpm
 studienleistungen:
   Einzelleistung:
     art: schriftliche Ausarbeitung (50%) und mündliche Prüfung (50%)
@@ -25,6 +26,13 @@ meta:
   status: ok
   authors: viet
   reviewers: cn
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+
 ---
 ## Kurzbeschreibung
 

@@ -22,7 +22,7 @@ mza:
     id: moe
     status: prof
     name: 'Prof. Dr. Matthias Zapp'
-    avatar: 'https://www.th-koeln.de/pseimg/4a9c05baccf47cbfb88806924252a25fdc1c5b43.png'
+    avatar: '/professoren/zapp.png'
     personenseite: 'https://www.th-koeln.de/personen/matthias.zapp/'
 
 fn:
@@ -64,7 +64,7 @@ ald:
     status: wma
     name: 'Alexander Dobrynin'
     personenseite: 'https://www.th-koeln.de/personen/alexander.dobrynin/'
-    avatar: 'https://www.th-koeln.de/pseimg/e1676cb0ca4b76df2d2c5205d8901190f067fe99.png'
+    avatar: '/wissmas/dobrynin.png'
     mi: true
 gh:
     id: gh
@@ -139,7 +139,7 @@ dpeterson:
     id: dpeterson
     status: wma
     name: 'David Petersen'
-    avatar: '/professoren/petersen.png'
+    avatar: '/wissmas/peterson.jpeg'
     personenseite: 'https://www.th-koeln.de/personen/david.petersen/'
     mi: true
     
@@ -177,6 +177,12 @@ hg:
     personenseite: 'https://www.th-koeln.de/personen/holger.guenther/'
     avatar: '/professoren/guenther.jpg'
     mi: true
+jhenke:
+    id: jhenke
+    status: lba
+    name: 'Julia Henke'
+    avatar: '/avatar.png'
+    mi: false    
 bn:
     id: bn
     status: prof
@@ -196,7 +202,7 @@ cfrick:
     status: prof
     name: 'Prof. Dr. Claudia Frick'
     personenseite: 'https://www.th-koeln.de/personen/claudia.frick/'
-    avatar: 'https://www.th-koeln.de/pseimg/af851d434aba8420d33d178dae1b9acc7456b120.png'
+    avatar: '/professoren/frick.jpg'
 
 dgaida:
     id: dgaida
@@ -216,7 +222,7 @@ dz:
     id: dz
     status: prof
     name: 'Prof. Dr. Dietlind Zühlke'
-    avatar: '/professoren/dietlind.png'
+    avatar: '/professoren/zuehlke.jpeg'
     personenseite: 'https://www.th-koeln.de/personen/dietlind.zuehlke/'
     mi: false    
 
@@ -244,6 +250,14 @@ seckstein:
     personenseite: 'https://www.th-koeln.de/personen/stefan.eckstein/'
     mi: true
 
+skullack:
+    id: skullack
+    status: wma
+    name: 'Sven Kullack'
+    avatar: '/avatar.png'
+    personenseite: 'https://www.th-koeln.de/personen/sven.kullack/'
+    mi: false    
+
 mlinden:
     id: mlinden
     status: prof
@@ -256,75 +270,75 @@ tbb:
     id: tbb
     status: prof
     name: 'Prof. Dr. Thomas Bartz-Beielstein'
-    avatar: 'https://www.th-koeln.de/pseimg/10dccc59def9a160263131620e15590c9ad0040a.png'
+    avatar: '/professoren/bartz.png'
     personenseite: 'https://www.th-koeln.de/personen/thomas.bartz-beielstein/'
     
 hwe:
     id: hwe
     status: prof
     name: 'Prof. Dr. Hartmut Westenberger'
-    avatar: 'https://www.th-koeln.de/pseimg/82ff2247c511a82f928dfb63a1563229c839d7ab.png'
+    avatar: '/professoren/westenberger.png'
     personenseite: 'https://www.th-koeln.de/personen/hartmut.westenberger/'
     
 cwe:
     id: cwe
     status: prof
     name: 'Prof. Dr. Christina Werner'
-    avatar: 'https://www.th-koeln.de/pseimg/e04761e7386c45500908c079be601b1c7286a65d.png'
+    avatar: '/professoren/werner.png'
     personenseite: 'https://www.th-koeln.de/personen/christina.werner1/'
 
 tkl:
     id: tkl
     status: prof
     name: 'Prof. Dr. Torsten Klein'
-    avatar: 'https://www.th-koeln.de/mam/bilder/hochschule/aktuelles/nachrichten/2018/fittosize__358_201_c4dfc5b5375186d740031bcfd6793dc6_thorsten_klein.jpg'
+    avatar: '/professoren/klein.jpg'
     personenseite: 'https://www.th-koeln.de/personen/torsten.klein/'
 
 rma:
     id: rma
     status: prof
     name: 'Prof. Dr. Roman Majewski'
-    avatar: 'https://www.th-koeln.de/pseimg/1f93c5704fb3ae27a37884c47227f821edefeedf.png'
+    avatar: '/professoren/majewski.png'
     personenseite: 'https://www.th-koeln.de/personen/roman.majewski/'
 
 cpa:
     id: cpa
     status: prof
     name: 'Prof. Dr. Dr. Carolin Palmer'
-    avatar: 'https://www.th-koeln.de/mam/bilder/hochschule/aktuelles/nachrichten/2021insideout/2021/fittosize_358_201_b7753e7f3911c54459854761005ddb71_caroline_palmer.jpg'
+    avatar: '/professoren/palmer.jpeg'
     personenseite: 'https://www.th-koeln.de/personen/carolin.palmer/'
 
 sbe:
     id: sbe
     status: prof
     name: 'Prof. Dr. Stefan Bente'
-    avatar: 'https://www.th-koeln.de/pseimg/b0396220808a1541735c9f7004ac8ab45a1bbb53.png'
+    avatar: '/professoren/bente.png'
     personenseite: 'https://www.th-koeln.de/personen/stefan.bente/'
 
 jka:
     id: jka
     status: prof
     name: 'Prof. Dr. Jan Karpe'
-    avatar: 'https://www.th-koeln.de/pseimg/e6a255c9ab5ba616f5094cc4b074199523e50e6b.png'
+    avatar: '/professoren/karpe.png'
     personenseite: 'https://www.th-koeln.de/personen/jan.karpe/'
 
 sst:
     id: sst
     status: prof
     name: 'Prof. Dr. Siegfried Stumpf'
-    avatar: 'https://moxd.io/files/2016/09/Platzhalter_Icon.png'
+    avatar: '/professoren/stumpf.png'
     personenseite: 'https://www.th-koeln.de/personen/siegfried.stumpf/'
-
-
-
 
 
 mi:
     id: mi
     name: 'Prof. Dr. Mirjam Blümm, Prof. Dr. Gerhard Hartmann, Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Christian Noss, Prof. Dr. Mario Winter, Prof. Dr. Matthias Böhmer, Prof. Dr. Raphaela Groten, Prof. Dr. Florian Niebling, Prof. Dr. Hoai Viet Nguyen, Prof. Dr. Irma Lindt'
+    avatar: '/avatar.png'
+
 all:
     id: all
     name: 'alle Professor:innen'
+    avatar: '/avatar.png'
     
 eingesetzterPruefer:
     id: eingesetzterPruefer

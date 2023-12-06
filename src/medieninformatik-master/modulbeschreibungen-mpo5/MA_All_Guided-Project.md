@@ -17,12 +17,19 @@ layout: modulbeschreibung.11ty.js
 kategorie: wahl
 studienleistungen:
   Einzelleistung:
-    art: siehe Modulbeschreibung des gewählten Moduls
+    art: Semesterbegleitendes Projekt, dokumentiert als wissenschaftliches Papier / Präsentation
     erstpruefer: 
     zweitpruefer: 
     datum:
 meta:
   status: tbd    
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 1
+  interdisziplinaritaet: 1
+  transfer: 1
+
 ---
 
 ## Learning Outcome

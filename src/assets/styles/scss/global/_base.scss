@@ -31,27 +31,37 @@ h6 {
 }
 
 h1 {
+  padding-top: var(--fluid-space-m);
   margin-bottom: var(--fluid-space-m);
   font-size: var(--xxl);
 }
 
 h2 {
+  padding-top: var(--fluid-space-s);
   margin-bottom: var(--fluid-space-s);
   font-size: var(--xl);
+  font-weight: var(--fw-medium);
 }
 
 h3 {
+  padding-top: var(--fluid-space-xs);
   font-size: var(--l);
   margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
+  font-weight: var(--fw-medium);
 }
 
 h4,
 h5,
 h6 {
   font-size: var(--m);
-  margin-bottom: var(--fluid-space-s);
-  color: var(--darkest);
+  padding-top: var(--fluid-space-xs);
+  margin-bottom: var(--half);
+}
+
+h5,
+h6 {
+  padding-top: var(--xs);
 }
 
 p,
@@ -66,8 +76,21 @@ div {
 }
 
 a {
-  color: var(--color-accent);
-  text-decoration: none;
+  transition: background-color var(--tr-fast);
+  color: var(--darker);
+  text-decoration-style: dotted;
+  text-decoration-color:  var(--color-accent);
+  text-decoration-thickness: 2px;
+
+  &:visited{
+    color: var(--dark);
+  }
+
+  &:hover{
+    color: var(--darkest);
+    background-color: var(--darken);
+    text-decoration-style: solid;
+  }
 }
 
 small {
@@ -76,7 +99,7 @@ small {
 }
 
 p, ul, blockquote {
-  margin-bottom: var(--m);
+  margin-bottom: 1%;
 }
 
 p + h2,
@@ -85,7 +108,14 @@ p + h4,
 ul + h2,
 ul + h3,
 ul + h4{
-  margin-top: var(--fluid-space-l);
+  margin-top: var(--fluid-space-s);
+}
+
+p + h5,
+p + h6,
+ul + h5,
+ul + h6{
+  margin-top: var(--half);
 }
 
 hr{
@@ -104,3 +134,14 @@ blockquote {
   margin-bottom: var(--fluid-space-m);
   background-color: var(--darken);
 }
+
+
+/* Einrückung und Headlines
+############################################################################ */
+
+/*.content{
+  & > *:not(h1,h2,h3, h4){
+    margin-left: var(--fluid-space-m);
+  }
+
+}*/

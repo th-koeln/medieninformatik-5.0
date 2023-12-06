@@ -26,8 +26,15 @@ studienleistungen:
     datum:
 meta:
   status: rfreview
-  authors: Matthias, Raphi
+  authors: Raphi
   reviewers: all
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
+
 ---
 
 

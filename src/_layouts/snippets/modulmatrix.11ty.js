@@ -13,7 +13,7 @@ exports.render = (eleventy, data, attributes) => {
     handlungsfelder: data.collections.handlungsfelder,
     programme,
     data,
-    eleventy: this
+    eleventy
   });
 
   return `

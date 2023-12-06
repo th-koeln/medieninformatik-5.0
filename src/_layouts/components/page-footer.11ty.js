@@ -1,5 +1,6 @@
 exports.getPageFooter = (eleventy, data) => {
 
+  const gallery = require('../components/gallery.11ty.js');
   const toc = require('../components/tocTools.11ty.js');
   const tocContent = toc.getTocContent(eleventy, data);
 
@@ -18,5 +19,15 @@ exports.getPageFooter = (eleventy, data) => {
         ${date}.${month}.${year} // ${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}
       </p>
     </footer>
+    
+    ${gallery.getLightboxDialog()}
+
+    <div id="scroll-to-top" data-js-to-top>
+      <a href="#top-of-page" class="scroll-to-top-link" aria-label="Scroll to top"><span class="icon">arrow_upward</span></a>
+    </div>
+
+    <div data-js-size-indicator-small></div>
+    <div data-js-size-indicator-large></div>
+
   `;
 };

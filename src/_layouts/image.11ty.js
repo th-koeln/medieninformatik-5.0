@@ -20,7 +20,7 @@ module.exports = {
 
     return `
       <figure class="image">
-        <img src="${this.url(imageUrl)}" alt="${data.title}" />
+        <img src="${ imageUrl}" alt="${data.title}" />
         <figcaption>
         <h1 class="title">${data.title}</h1>
         <h2 class="subtitle">${data.info}</h2>

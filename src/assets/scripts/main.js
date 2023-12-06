@@ -195,13 +195,109 @@ const addDynamicHyperlinks = () => {
 
 
 
+/* Galerien interaktiv machen
+############################################################################ */
+
+const addGalleryInteractions = () => {
+  const galleries = document.querySelectorAll("[data-js-bluimp-gallery]");
+  galleries.forEach((gallery) => {
+    gallery.onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement;
+      var link = target.src ? target.parentNode : target;
+      var options = { index: link, event: event };
+      var links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+    }
+  });
+};
+
+/* Scroll to Top
+############################################################################ */
+
+const addScrollToTop = () => {
+  const scrollToTop = document.querySelector("[data-js-to-top]");
+  if(!scrollToTop || scrollToTop === null) return;
+
+  window.onscroll = () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      scrollToTop.classList.add("is-visible");
+    } else {
+      scrollToTop.classList.remove("is-visible");
+    }
+  };
+};
+
+/* Scrollspy
+############################################################################ */
+
+const addScrollSpy = () => {
+
+  const inlineNavigation = document.querySelector("[data-js-scrollspy]");
+  if(!inlineNavigation) return;
+
+  let scrollSpyActiveElement = false;
+  if(viewportSize !== "large" && scrollSpyActiveElement) {
+    scrollSpyActiveElement.classList.remove('is-active');
+    scrollSpyActiveElement = false;
+    return;
+  }
+  if(viewportSize !== "large") return;
+
+  const sections = document.querySelectorAll("h2[id], h3[id]");
+    
+  const intersectionCallback = (entries, observer) => {
+    if (entries[0].intesectionRatio <= 0) return;
+
+    if (entries[0].intersectionRatio > 0 || entries[0].intersectionRatio < 0.2) {
+
+      if(scrollSpyActiveElement) scrollSpyActiveElement.classList.remove('is-active');
+
+      const {id} = entries[0].target;
+      const activeElement = inlineNavigation.querySelector(`[data-scrollspy-target="${id}"]`).querySelector("a");
+      activeElement.classList.add('is-active');
+
+      scrollSpyActiveElement = activeElement;
+    }
+  };
+  
+  const intersectionOptions = {};
+  const intersectionObserver = new IntersectionObserver(intersectionCallback, intersectionOptions);
+  
+  sections.forEach((section) => {
+    intersectionObserver.observe(section);
+  });
+};
+
+/* Größe des Viewports ermitteln
+############################################################################ */
+
+let viewportSize = "small";
+
+const isHidden = elem => {
+  const styles = window.getComputedStyle(elem)
+  return styles.display === 'none' || styles.visibility === 'hidden'
+}
+
+const checkViewportSize = () => {
+  const sizeIndicatorLarge = document.querySelector("[data-js-size-indicator-large]");
+  return !isHidden(sizeIndicatorLarge) ? "large" : "small";
+};
 
 /* Main
 ############################################################################ */
 
 document.addEventListener("DOMContentLoaded", () => {
+  addEventListener("resize", (event) => {
+    viewportSize = checkViewportSize();
+  });
+  viewportSize = checkViewportSize();
+
   addContentInjections();
   linkCompetencies();
   addListInteractions();
   addDynamicHyperlinks();
+  addGalleryInteractions();
+  addScrollToTop();
+  addScrollSpy();
 });

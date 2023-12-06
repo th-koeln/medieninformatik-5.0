@@ -13,15 +13,4 @@
       padding-top: var(--fluid-space-s);
     }
   }
-
-
-
-  .table-module-list{
-
-    border-collapse:collapse;
-
-    tr[class*=is-] td:first-child{
-      padding-left: var(--half);
-    }
-  }
 }

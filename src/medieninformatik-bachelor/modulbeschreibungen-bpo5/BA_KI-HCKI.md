@@ -71,4 +71,5 @@ um später innovative KI-Systeme zu gestalten, die die Bedürfnisse und Erwartun
 
 ## Empfohlene Literatur
 - Géron, Aurélien. Hands-on machine learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2023.
+- Shneiderman, Ben. Human-centered AI. Oxford University Press, 2022.
 

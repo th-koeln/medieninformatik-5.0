@@ -4,7 +4,7 @@
 exports.getTocContent = (eleventy, data) => {
 
   const createToc = (collection) => {
-    const tocItems = collection.map((item) => `<li><a href="${eleventy.url(item.url)}">${item.data.title}</a></li>`);
+    const tocItems = collection.map((item) => `<li><a href="${ item.url}">${item.data.title}</a></li>`);
 
     return `
       <ul class="item-list is-tight">
@@ -29,9 +29,10 @@ exports.getPageTOC = (obj) => {
   const createToc = (collection) => {
 
     const tocItems = collection.filter(item => item.data.level <= maxLevel).map((item) => {
+      const id = eleventy.slugify(item.data.title);
       return `
-        <li>
-          <a href="#${eleventy.slugify(item.data.title)}">${item.data.title}</a>
+        <li data-scrollspy-target="${id}">
+          <a href="#${id}">${item.data.title}</a>
         </li>
       `;
     });
@@ -43,7 +44,8 @@ exports.getPageTOC = (obj) => {
   }
 
   return `
-    <nav class="inline-navigation">
+    <nav class="inline-navigation" data-js-scrollspy>
+      <h2 class="navigation-title">Inhalt</h2>
       ${createToc(collection)}
     </nav>
   `;

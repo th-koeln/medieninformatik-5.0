@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: viet
     datum: ende
 meta:
-  status: refreview
+  status: ok
   authors: Christian
   reviewers: Christian, Nathalie
 besonderheiten: unbenotetes Modul
@@ -37,6 +37,11 @@ lehrform:
 lehrmethoden:
   - Seminaristischer Unterricht
   - Projekt
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0  
 ---
 
 ## Learning Outcome

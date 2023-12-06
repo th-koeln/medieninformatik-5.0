@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen die Benutzerschnittstellen und Interaktionen gestalten und implementieren können."
+title: "Suchen Medieninformatiker*innen die Benutzerschnittstellen und Interaktionen gestalten und implementieren können."
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte

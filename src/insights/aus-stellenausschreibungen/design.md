@@ -1,5 +1,5 @@
 ---
-title: "Suchen Medieninformatiker:innen mit Designkompetenz"
+title: "Suchen Medieninformatiker*innen mit Designkompetenz"
 tags:
   - Handlungsbereich: BackLog
   - Handlungsbereich: Inhalte
