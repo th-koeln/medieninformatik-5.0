@@ -30,7 +30,7 @@ Veränderung tut mitunter auch weh. Die spürbarste Auswirkung einer Reakkrediti
 
 ### Zeitplan
 
-Der Prozess wird, gerade gegen Ende, sehr stark in die Länge gezogen. Das ist aus dem Übersichtsplan nicht zu entnehmen. Somit ist es für das Entwicklungsteam enorm schwer einzuschätzen, wann deer Prozess gestartet werden muss, um die Änderungen fristgerecht implementieren zu können. Im Rahmen dieser Reakkreditierung waren gerade die Quality Gates beim Fakultätsrat in Kombination mit anderen termingebundenen Prozessschritten problematisch. Der Fakultätsrat tagt in der F10 am Anfang und Ende der jeweiligen Vorlesungszeit. Hier ein sehr grober Ablaufplan.
+Der Prozess wird, gerade gegen Ende, beim Durchlaufen der verschiedenen Gremien, sehr stark in die Länge gezogen. Dies ist aus dem Übersichtsplan nur schwer zu entnehmen. Somit ist es für das Entwicklungsteam enorm schwer einzuschätzen, wann der Prozess gestartet werden muss, um die Änderungen fristgerecht implementieren zu können. Im Rahmen dieser Reakkreditierung waren gerade die Quality Gates beim Fakultätsrat in Kombination mit anderen termingebundenen Prozessschritten problematisch. Der Fakultätsrat tagt in der F10 am Anfang und Ende der jeweiligen Vorlesungszeit. Im «Ablaufplan: Qualitätssicherung eines bestehenden Studiengangs» ist unter Punkt 4d vermerkt, dass *Wesentliche Änderungen des Studiengangs/ finale Studiengangdokumente … dem Fakultätsrat zur Abstimmung vorgelegt werden. In Gesprächen mit dem Hochschulreferat Qualitätsmanagement ging jedoch auch hervor, dass die finale Prüfungsordnung nebst Modulhandbüchern nach der SK1 und etwaigen Änderungen auch noch mal vom Fakultätsrat beschlossen werden müssen. In diesem Zusammenhang ist unklar, wann und wie der Studienbeirat einzubinden ist.
 
 
 

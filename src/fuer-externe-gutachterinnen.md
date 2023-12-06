@@ -19,15 +19,10 @@ Für die Durchführung der externen Begutachtung liegt eine Checkliste auf Deuts
 
 ## Material zur Begutachtung
 
-- [Kurzbericht für Bachelor und Master)](../kurzbericht/)
+- [Kurzbericht für Bachelor und Master](../kurzbericht/)
 
 **Bachelor**
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor-for-experts"></snippet>
-- Prüfungsordnung Bachelor (tbd)
-- Praxissemesterordnung Bachelor (tbd)
 
 **Master**
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-experts"></snippet>
-- Prüfungsordnung Master (tbd)
-
-Falls ihr einen GitHub Username habt (und ihn mir per Mail zukommen lassen) könnt ihr eure Fragen, Vorschläge oder Ideen auch sehr gerne als [Issue](https://github.com/th-koeln/medieninformatik-5.0/issues) eintragen.

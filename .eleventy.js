@@ -110,8 +110,11 @@ module.exports = function (eleventyConfig) {
   // Copy asset images
   eleventyConfig.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
 
-    // Copy CSS (libs)
-    eleventyConfig.addPassthroughCopy({ 'src/assets/styles/libs': 'assets/styles/libs' });
+  // Copy Downloads
+  eleventyConfig.addPassthroughCopy({ 'src/downloads': 'downloads' });
+
+  // Copy CSS (libs)
+  eleventyConfig.addPassthroughCopy({ 'src/assets/styles/libs': 'assets/styles/libs' });
 
   // Copy images
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
