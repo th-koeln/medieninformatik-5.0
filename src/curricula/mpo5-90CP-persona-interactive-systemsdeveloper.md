@@ -25,7 +25,7 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DEV" 
-            - "MATS"
+            - "FTW"
             - "PEM"
     - semester:
         fachsemester: 3
@@ -41,3 +41,4 @@ hinweise:
 ## Berufsbild »Interactive Systems Developer«
 
 Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Developing Interactive and Distributed Systems" (DEV) spezialisiert. Sie entwickeln mobile und verteilte interaktive Systeme und haben fundierte Kenntnisse in der Modellierung und Analyse technischer Systeme. Ihre Kompetenzen umfassen auch Aspekte der IT-Strategie und des Performance Managements, wodurch sie in der Lage sind, leistungsfähige und zukunftsorientierte interaktive Systeme zu entwickeln und zu managen.
+

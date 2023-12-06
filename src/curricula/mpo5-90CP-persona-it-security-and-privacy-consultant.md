@@ -40,4 +40,4 @@ hinweise:
 
 ## Berufsbild »IT Security and Privacy Consultant«
 
-Dieser Absolvent\innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) spezialisiert und verfügen über umfassende Kenntnisse in Sicherheit, Privatsphäre und Vertrauen in digitalen Systemen. Sie beraten Unternehmen in Fragen der IT-Sicherheit, entwickeln Strategien zum Schutz der Privatsphäre und sorgen für die Einhaltung ethischer Standards. Ihre Expertise in IT Consulting und Enterprise Architecture Management ermöglicht es ihnen, robuste und sichere IT-Architekturen zu entwerfen.
+Diese Absolvent\innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) spezialisiert und verfügen über umfassende Kenntnisse in Sicherheit, Privatsphäre und Vertrauen in digitalen Systemen. Sie beraten Unternehmen in Fragen der IT-Sicherheit, entwickeln Strategien zum Schutz der Privatsphäre und sorgen für die Einhaltung ethischer Standards. Ihre Expertise in IT Consulting und Enterprise Architecture Management ermöglicht es ihnen, robuste und sichere IT-Architekturen zu entwerfen.

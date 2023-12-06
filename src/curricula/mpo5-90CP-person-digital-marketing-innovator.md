@@ -16,7 +16,7 @@ studienverlauf:
         module: 
             - "RIM"
             - "GP"
-            - "PB"
+            - "ART"
             - "AMI"
     - semester:
         label: "2. Semester"
@@ -26,7 +26,7 @@ studienverlauf:
             - "IMP"
             - "GP-EXA"
             - "AR"
-            - "VI"
+            - "VIS"
     - semester:
         fachsemester: 3
         label: "Finales Semester"
@@ -40,4 +40,4 @@ hinweise:
 
 ## Berufsbild »Digital Marketing Innovator«
 
-Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) spezialisiert. Sind sind Experten in der Verwendung fortschrittlicher Medien für Marketingzwecke, mit einem tiefen Verständnis für Photorealistische Bildsynthese und Augmented Reality. Ihre Fähigkeiten in den aktuellen Ansätzen des Marketings und Innovationsmanagements ermöglichen es ihnen, einzigartige Marketingstrategien zu entwickeln, die auf den neuesten interaktiven und visuellen Technologien basieren.
+Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) konzentriert. Sie sind Experte in der Verwendung fortschrittlicher Medien für Marketingzwecke, mit einem tiefen Verständnis für Photorealistische Bildsynthese und Augmented Reality. Ihre Fähigkeiten in den aktuellen Ansätzen des Marketings und Innovationsmanagements ermöglichen es ihnen, einzigartige Marketingstrategien zu entwickeln, die auf den neuesten interaktiven und visuellen Technologien basieren.

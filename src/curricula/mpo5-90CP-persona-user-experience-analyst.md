@@ -40,3 +40,5 @@ hinweise:
 ## Berufsbild »User Experience Analyst«
 
 Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) spezialisiert. Sie sind Experten in der Analyse und Bewertung von Benutzererfahrungen und Schnittstellengestaltung. Ihre Fähigkeiten umfassen die Anwendung statistischer Methoden zur Verbesserung der Mensch-Computer-Interaktion und das Design ansprechender Benutzeroberflächen. Mit Kenntnissen in Business Intelligence und Ethik, sind sie in der Lage, datengestützte und ethisch verantwortungsvolle Benutzererfahrungen zu schaffen.
+
+

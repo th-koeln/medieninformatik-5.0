@@ -25,7 +25,7 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DUX"
-            - "SOZE"
+            - "RE"
             - "BPM"
     - semester:
         fachsemester: 3
@@ -40,4 +40,4 @@ hinweise:
 
 ## Berufsbild »Digital Transformation Manager«
 
-Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) konzentriert. Sie sind Experten in der Leitung von Digitalisierungsprojekten und in der Integration neuer Technologien in bestehende Geschäftsmodelle. Ihre Kenntnisse in Interaktionsdesign und soziotechnischen Entwurfsmustern ermöglichen es ihnen, benutzerfreundliche und effektive digitale Lösungen zu entwickeln. Ihr Verständnis für Enterprise Architecture Management und Business Process Management hilft ihnen, die digitale Transformation in Unternehmen strategisch und effizient zu gestalten.
+Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) konzentriert. Sie sind Experten in der Leitung von Digitalisierungsprojekten und in der Integration neuer Technologien in bestehende Geschäftsmodelle. Ihre Kenntnisse in Interaction Design und Requirements Engineering ermöglichen es ihnen, benutzerfreundliche und effektive digitale Lösungen zu entwickeln. Ihr Verständnis für Enterprise Architecture Management und Business Process Management hilft ihnen, die digitale Transformation in Unternehmen strategisch und effizient zu gestalten.
