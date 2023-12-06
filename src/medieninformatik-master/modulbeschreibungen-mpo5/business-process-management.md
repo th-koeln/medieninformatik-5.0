@@ -44,11 +44,12 @@ studienleistungen:
     zweitpruefer: 
     datum:
 
-global_criteria:
-    internationalization: 
-    interdisciplinarity: 
-    digitization: 
-    transfer: 
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 1
+  interdisziplinaritaet: 0
+  transfer: 1
+
 participants: 
     min: 5
     max: 25

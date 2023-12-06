@@ -26,6 +26,12 @@ studienleistungen:
     datum:
 meta:
   status: ok
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 1
+  interdisziplinaritaet: 1
+  transfer: 1
+
 ---
 
 

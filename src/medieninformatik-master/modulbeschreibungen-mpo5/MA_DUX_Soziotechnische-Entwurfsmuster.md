@@ -28,6 +28,14 @@ meta:
   status: rfreview   
   authors: Christian Kohls
   reviewers: Christian Kohls
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
+
+
 ---
 
 ## Lehrform/SWS

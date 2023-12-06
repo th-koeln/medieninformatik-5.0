@@ -42,6 +42,13 @@ studienleistungen:
     art: schriftliche Ausarbeitung (100%)
     erstpruefer: mbluemm
     zweitpruefer: 
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 1
+
 ---
 
 ## Kurzbeschreibung

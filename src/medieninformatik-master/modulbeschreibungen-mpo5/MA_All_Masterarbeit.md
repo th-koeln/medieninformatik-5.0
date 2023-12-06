@@ -22,6 +22,13 @@ studienleistungen:
     datum: antrag
 meta:
   status: ok    
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 1
+
 ---
 
 ## Kurzbeschreibung

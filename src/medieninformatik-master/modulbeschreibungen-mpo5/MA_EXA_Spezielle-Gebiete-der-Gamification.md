@@ -26,6 +26,11 @@ meta:
   status: rfreview    
   authors: uwe
   reviewers: uwe
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
 ---
 
 ## Kurzbeschreibung

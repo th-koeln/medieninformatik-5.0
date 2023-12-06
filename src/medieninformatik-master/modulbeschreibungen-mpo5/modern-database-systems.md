@@ -56,6 +56,12 @@ effort:
 
 empfohleneVoraussetzungen: Lectures "DBS I" from the undergraduate computer science courses or adequate skills
 
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+
 ---
 
 
