@@ -232,7 +232,6 @@ const addScrollToTop = () => {
 ############################################################################ */
 
 const addScrollSpy = () => {
-
   const inlineNavigation = document.querySelector("[data-js-scrollspy]");
   if(!inlineNavigation) return;
 
@@ -244,25 +243,86 @@ const addScrollSpy = () => {
   }
   if(viewportSize !== "large") return;
 
-  const sections = document.querySelectorAll("h2[id], h3[id]");
-    
+  const sections = document.querySelectorAll("[data-js-scrollspy-section]");
   const intersectionCallback = (entries, observer) => {
-    if (entries[0].intesectionRatio <= 0) return;
+    let updated = false;    
+    entries.forEach(entry => {
+    // if the menu was aleady updated by a previous entry, we don't need to check the other entries.
+    if (updated) {
+      return;
+    }  
+    let activeBlock; // the block that should be highlighted in the menu.
+    if(!entry.isIntersecting) {
+      
+      // This element has just left the viewport. This means at least one of 2 possibilities:
+      // 1. the next element has its top aligned with the top of the viewport.
+      //    In this case the next element should be activated.
+      // 2. the previous element is (at least partly) visible.
+      //    In this case we need to keep looking at previous elements until
+      //    we find the highest one that is still visible.
+      if (isInViewport(entry.target.nextElementSibling)) {        
+        // possibility 1.
+        activeBlock = entry.target.nextElementSibling;
 
-    if (entries[0].intersectionRatio > 0 || entries[0].intersectionRatio < 0.2) {
-
-      if(scrollSpyActiveElement) scrollSpyActiveElement.classList.remove('is-active');
-
-      const {id} = entries[0].target;
-      const activeElement = inlineNavigation.querySelector(`[data-scrollspy-target="${id}"]`).querySelector("a");
-      activeElement.classList.add('is-active');
-
-      scrollSpyActiveElement = activeElement;
+      } else if (isInViewport(entry.target.previousElementSibling)) {
+        // possibility 2.
+        activeBlock = entry.target.previousElementSibling;
+        while ( isInViewport(activeBlock.previousElementSibling) ) {
+          activeBlock = activeBlock.previousElementSibling;
+        } 
+      }
+    } else {
+      // This element just entered the viewport. 2 possibilities:
+      // 1. The top of the element moved in from the bottom.
+      //    In this case nothing needs to happen.
+      // 2. The bottom of the element moved in from the top.
+      //    In this case the current element should also become active.
+      if (!isInViewport(entry.target.nextElementSibling)) {
+        // possibility 1.
+        return;
+        
+      } else if (!isInViewport(entry.target.previousElementSibling)) {
+        // possibility 2.
+        activeBlock = entry.target;
+      }
     }
+    
+    // remove active class on all elements.
+    inlineNavigation.querySelectorAll('.is-active').forEach((item) => {
+      item.classList.remove('is-active');
+    });
+    // Couldn't deternmine an active block. So don't do anything.
+    if (!activeBlock) {
+      return;
+    }
+
+    // get id of the intersecting section
+    const id = activeBlock.getAttribute('id');
+    
+    // find matching link and add appropriate class
+    const navElement = inlineNavigation.querySelector(`[data-scrollspy-target="${id}"] a`);
+
+    if(!navElement) return;
+    navElement.classList.add('is-active');
+
+    // Wer're done. Set flag to make sure that we don't check other entries.
+    updated = true;      
+    });
   };
   
-  const intersectionOptions = {};
-  const intersectionObserver = new IntersectionObserver(intersectionCallback, intersectionOptions);
+  
+  const isInViewport = (element) => {
+    if (!element) {
+      return false;
+    }
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.bottom >= 0 &&
+        rect.top <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+  }
+
+  const intersectionObserver = new IntersectionObserver(intersectionCallback, { });
   
   sections.forEach((section) => {
     intersectionObserver.observe(section);
