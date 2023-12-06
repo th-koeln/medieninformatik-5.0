@@ -322,7 +322,9 @@ const addScrollSpy = () => {
     );
   }
 
-  const intersectionObserver = new IntersectionObserver(intersectionCallback, { });
+  const intersectionObserver = new IntersectionObserver(intersectionCallback, { 
+    rootMargin: '-1px',
+  });
   
   sections.forEach((section) => {
     intersectionObserver.observe(section);
