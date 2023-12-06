@@ -26,6 +26,13 @@ meta:
   status: rfreview   
   authors: Mirjam
   reviewers: Mirjam
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
+
 ---
 
 ## Lehrform/SWS

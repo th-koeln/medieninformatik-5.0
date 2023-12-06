@@ -29,7 +29,7 @@ veranstaltungsform:
 
 lehrmethoden:
 
-sprache: deutsch
+sprache: Englisch
 
 lehrform:
 
@@ -48,11 +48,13 @@ studienleistungen:
 participants: 
     min: 5
     max: 20
-global_criteria:
-    internationalization:
-    interdisciplinarity:
-    digitization: 1
-    transfer: 1
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 1
+  interdisziplinaritaet: 0
+  transfer: 1
+
 effort:
     lecture: 12
     seminar: 24

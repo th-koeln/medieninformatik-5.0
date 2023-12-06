@@ -37,6 +37,7 @@ handlungsfelder:
   EXA: 1
   CREA: 1
   INDI: 1
+
 studiengangkriterien:
   globalcitizenship: 1
   internationalisierung: 0

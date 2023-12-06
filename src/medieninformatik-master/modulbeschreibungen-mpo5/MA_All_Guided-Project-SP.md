@@ -25,7 +25,14 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: ok    
+  status: ok   
+  
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 1
+  interdisziplinaritaet: 1
+  transfer: 1
+
 ---
 
 Konkrete Guided Projects in einem der drei Schwerpunkte können aus dem Katalog der Guided Projects gewählt werden, die für einen Schwerpunkt angeboten werden.

@@ -25,6 +25,13 @@ meta:
   status: tbd
   authors: Christian    
   reviewers: Matthias, Raphi
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 1
+
 ---
 
 > Christian: Runde 1 … noch nicht als Learning Outcome formuliert

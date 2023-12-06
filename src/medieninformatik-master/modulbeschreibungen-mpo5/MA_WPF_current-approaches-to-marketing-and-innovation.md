@@ -45,11 +45,14 @@ studienleistungen:
 participants:
     min: 5 
     max: 15
-global_criteria:
-    internationalization:
-    interdisciplinarity: 1
-    digitization: 1
-    transfer:
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 1
+  transfer: 0
+
+
 effort:
     lecture: 30
     seminar: 30

@@ -27,6 +27,13 @@ meta:
   status: rfreview
   authors: Stefan
   reviewers: Stefan
+
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+
 ---
 
 ## Kurzbeschreibung
