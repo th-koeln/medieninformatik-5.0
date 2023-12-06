@@ -40,4 +40,4 @@ hinweise:
 
 ## Berufsbild »Digital Marketing Innovator«
 
-Dieser Absolvent im Masterstudium Medieninformatik hat sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) spezialisiert. Er ist Experte in der Verwendung fortschrittlicher Medien für Marketingzwecke, mit einem tiefen Verständnis für Photorealistische Bildsynthese und Augmented Reality. Seine Fähigkeiten in den aktuellen Ansätzen des Marketings und Innovationsmanagements ermöglichen es ihm, einzigartige Marketingstrategien zu entwickeln, die auf den neuesten interaktiven und visuellen Technologien basieren.
+Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) spezialisiert. Sind sind Experten in der Verwendung fortschrittlicher Medien für Marketingzwecke, mit einem tiefen Verständnis für Photorealistische Bildsynthese und Augmented Reality. Ihre Fähigkeiten in den aktuellen Ansätzen des Marketings und Innovationsmanagements ermöglichen es ihnen, einzigartige Marketingstrategien zu entwickeln, die auf den neuesten interaktiven und visuellen Technologien basieren.

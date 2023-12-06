@@ -40,4 +40,4 @@ hinweise:
 
 ## Berufsbild »Interactive Systems Developer«
 
-Dieser Absolvent im Masterstudium Medieninformatik hat sich auf den Schwerpunkt "Developing Interactive and Distributed Systems" (DEV) spezialisiert. Er entwickelt mobile und verteilte interaktive Systeme und hat fundierte Kenntnisse in der Modellierung und Analyse technischer Systeme. Seine Kompetenzen umfassen auch Aspekte der IT-Strategie und des Performance Managements, wodurch er in der Lage ist, leistungsfähige und zukunftsorientierte interaktive Systeme zu entwickeln und zu managen.
+Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Developing Interactive and Distributed Systems" (DEV) spezialisiert. Sie entwickeln mobile und verteilte interaktive Systeme und haben fundierte Kenntnisse in der Modellierung und Analyse technischer Systeme. Ihre Kompetenzen umfassen auch Aspekte der IT-Strategie und des Performance Managements, wodurch sie in der Lage sind, leistungsfähige und zukunftsorientierte interaktive Systeme zu entwickeln und zu managen.

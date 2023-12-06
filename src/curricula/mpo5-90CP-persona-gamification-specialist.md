@@ -40,5 +40,5 @@ hinweise:
 
 ## Berufsbild »Gamification Specialist«
 
-Diese Absolvent im Masterstudium Medieninformatik hat sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) konzentriert. Er ist spezialisiert auf die Entwicklung von Gamification-Strategien und die Implementierung von narrativen Strukturen in digitalen Medien. Mit seiner Expertise in Augmented Reality und seinem Verständnis für visuelle Datenpräsentation kann er immersive und interaktive Erlebnisse schaffen, die sowohl unterhaltend als auch informativ sind.
+Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) konzentriert. Sie sind spezialisiert auf die Entwicklung von Gamification-Strategien und die Implementierung von narrativen Strukturen in digitalen Medien. Mit ihrer Expertise in Augmented Reality und ihrem Verständnis für visuelle Datenpräsentation können sie immersive und interaktive Erlebnisse schaffen, die sowohl unterhaltend als auch informativ sind.
 

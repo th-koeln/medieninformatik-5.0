@@ -40,4 +40,4 @@ hinweise:
 
 ## Berufsbild »AR/VR Developer«
 
-Dieser Absolvent im Masterstudium Medieninformatik hat sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) konzentriert. Er spezialisiert sich auf die Entwicklung von Augmented und Virtual Reality Anwendungen. Durch sein Wissen in Photorealistischer Bildsynthese und Visualisierung ist er in der Lage, immersive und visuell ansprechende AR/VR-Umgebungen zu schaffen. Sein Verständnis für Ubiquitous Computing und Storytelling ermöglicht es ihm, interaktive und narrative Elemente in seine Projekte zu integrieren.
+Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Exploring Advanced Interactive Media" (EXA) konzentriert. Sie spezialisieren sich auf die Entwicklung von Augmented und Virtual Reality Anwendungen. Durch ihr Wissen in Photorealistischer Bildsynthese und Visualisierung sind sie in der Lage, immersive und visuell ansprechende AR/VR-Umgebungen zu schaffen. Ihr Verständnis für Ubiquitous Computing und Storytelling ermöglicht ihnen, interaktive und narrative Elemente in ihre Projekte zu integrieren.
