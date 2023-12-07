@@ -250,7 +250,6 @@ const addScrollSpy = () => {
       if (entry.isIntersecting) {
         let position = (entry.boundingClientRect.top + (entry.boundingClientRect.top - entry.boundingClientRect.bottom));
         if (position < 0) {
-          console.log('enter viewport top')
           if (arrayHeadlines.indexOf(entry.target) >  0) {
             if (lastActiveElementId) {
               setStatusNavElement(lastActiveElementId, false);
@@ -259,22 +258,16 @@ const addScrollSpy = () => {
             setStatusNavElement(previousElement, true);
             lastActiveElementId = previousElement;
           }
-        } else {
-          console.log('enter viewport bottom');
-        }          
+        }      
       } else {
-
         if (entry.intersectionRatio < 0) {
         } else {
           if (entry.boundingClientRect.top < 1) { 
             if (lastActiveElementId) {
               setStatusNavElement(lastActiveElementId, false);
             }
-            //console.log('leave viewport top');
-            console.log(entry.target)
             setStatusNavElement(entry.target, true);
             lastActiveElementId = entry.target;
-          } else {
           }
         }
       }
