@@ -13,3 +13,6 @@ bodyClass: home
 
 ## Ergebnisse & Erkenntnisse aus dem Reakkreditierungsprozess
 <snippet type="toc" id="table-of-content-learnings" search="learnings"></snippet>
+
+## Für verschiedene Gremien
+<snippet type="toc" id="table-of-content-boards" search="boards"></snippet>
