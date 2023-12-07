@@ -43,3 +43,15 @@ Der Gesamtprozess ist sehr umfang- und facettenreich. Es gibt sehr viele Stakeho
 «Der Umfang des Kurzberichts sollte für einen Studiengang sieben (7) Seiten (ohne Formatie-rungstexte) nicht überschreiten.» 
 
 Den Kurzbericht *Kurzbericht* zu nennen ist eine hervorragende Idee! Die inhaltichen Anforderungen sind allerdings sehr hoch, was sich auch in den Erläuterungen (12 Seiten) niederschlägt. Da müssten entweder die Anforderungen reduziert werden, was sich auch in einer signifikant kürzeren Beschreibung der Anforderungen niederschlagen muss, sprich: die Vorlage inkl. Erläuterungen dürfte keinesfall umfangreicher sein, als die Zielvorgabe für den finalen Kurzbericht selbst.
+
+### Versionierung Prüfungsordnungen
+
+Hier wäre es ggf. hilfreich, wenn die Versionierung angelehnt an das Konzepts der [semantischen Versionierung](https://semver.org/lang/de/) mit einer Versionsnummer  bestehend aus `MAJOR.MINOR.PATCH`. Hierbei werden die einzelnen Elemente folgendermaßen erhöht:
+
+| Element | Trigger |
+|-------|-------|
+| MAJOR |  bei wesentlicher Änderung |
+| MINOR |  bei qualitätsverbessernden Maßnahmen, aber ohne wesentliche Änderung |
+| PATCH |  bei Korrekturen, Änderungen oder Ergänzungen auf Modulebene |
+
+
