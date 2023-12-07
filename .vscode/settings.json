@@ -1,4 +1,11 @@
 {
     "liveServer.settings.root": "/docs",
-    "editor.minimap.enabled": false
+    "editor.minimap.enabled": false,
+
+    "stylelint.enable": true,
+    "stylelint.validate": ["scss"],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+    }
+
 }

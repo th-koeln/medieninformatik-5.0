@@ -2,7 +2,6 @@
 ############################################################################ */
 
 .how-might-we{
-
   .question-overview{
     display: grid;
     gap: var(--fluid-space-s);
@@ -10,8 +9,8 @@
   }
 
   &-meta{
-    border-top: solid var(--border-width-l) var(--darker);
     padding-top: var(--m);
+    border-top: solid var(--border-width-l) var(--darker);
 
     header{
       margin-bottom: var(--fluid-space-s);
@@ -19,11 +18,10 @@
   }
 
   .question{
-
-    border-top: solid var(--border-width-l) var(--light);
-    margin-left: 0;
     padding-top: var(--half);
     padding-bottom: var(--s);
+    border-top: solid var(--border-width-l) var(--light);
+    margin-left: 0;
 
     
 

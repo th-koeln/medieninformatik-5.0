@@ -58,7 +58,7 @@ Die Studierenden können unter Anleitung Software und Softwarekomponenten unter 
 
 Sie können Benutzeroberflächen (bspw. web-basiert, mobil, tangible) unter Berückschitigung von Gestaltungsprinzipien und Gestaltungstechniken wie Farben, Konstrasten, Proportion, Typographie oder Räumlichkeit konzipieren und implementieren, um nutzerseitige Schnittstellen realisieren zu können, die professionellen Anforderungen und gegebenen Standards (z.B. ISO 9241, Teil 110 oder WCAG-Standards) genügt.
 
-Die Studierenden sind in der Lage, Benutzerschnittstellen zu optimieren, um eine hohe Gebrauchstauglichkeit, eine positive Nutzererfahrung und einen hohen Grad an Zugänglichkeit zu gewährleisten.
+Die Studierenden sind in der Lage, Benutzungschnittstellen zu optimieren, um eine hohe Gebrauchstauglichkeit, eine positive Nutzererfahrung und einen hohen Grad an Zugänglichkeit zu gewährleisten.
 
 Sie können aus spezifizierten Anforderungen die erforderliche systemseitige Anwendungslogik implementieren sowie eine angemessene Verteiltheit der Anwendungslogik und Datenverarbeitung konzipieren und realisieren, um eine sichere, robuste, performante und andere qualitätsbezogenen Anforderungen an eine Funktionalität der Anwendung sicherzustellen.
 

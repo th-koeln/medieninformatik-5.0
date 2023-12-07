@@ -2,9 +2,16 @@
 title: "Material für die externen Gutachter:innen"
 subtitle: "Danke für den Support 😎"
 layout: page.11ty.js
-inToc: true
+inToc: false
 bodyClass: home
+inOverview:
+  - home-stakeholder
+tocs:
+  - boards
+cardTitle: "Für externe Gutachter*innen"
+teaserText: "Material, Infos und Checkliste für die externen Gutachter*innen"
 ---
+
 
 Liebe externe Gutachter:innen,
 
@@ -19,15 +26,31 @@ Für die Durchführung der externen Begutachtung liegt eine Checkliste auf Deuts
 
 ## Material zur Begutachtung
 
-- [Kurzbericht für Bachelor und Master)](../kurzbericht/)
+- [Kurzbericht für Bachelor und Master](../kurzbericht/)
 
-**Bachelor**
+### Bachelor
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor-for-experts"></snippet>
-- Prüfungsordnung Bachelor (tbd)
-- Praxissemesterordnung Bachelor (tbd)
 
-**Master**
+### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-experts"></snippet>
-- Prüfungsordnung Master (tbd)
 
-Falls ihr einen GitHub Username habt (und ihn mir per Mail zukommen lassen) könnt ihr eure Fragen, Vorschläge oder Ideen auch sehr gerne als [Issue](https://github.com/th-koeln/medieninformatik-5.0/issues) eintragen.
+
+## Keine Papierversion
+
+<snippet type="text" id="no-paper-statement" src="misc/no-paper"></snippet>
+
+
+## Hinweis zu Punkt 4 in der Checkliste: Adäquate Umsetzung – Ressourcen
+
+Hierzu wird die Anfrage zur «Bestätigung des Dekans über die für den Studienbetrieb der Medieninformatik Studiengänge hinreichenden personellen und sächlichen Ressourcen» derzeit noch vom Dekanat bearbeitet und liegt erst am 11.12.2023 vor.
+
+In dieser Tabelle sind einige Zahlen zu [Änderungen in den Studiengängen](https://www.icloud.com/numbers/07aW6jS58amTeOHNAIV3KNe9w#aenderungen-studienverlaufsplan-bpo4-bpo5) zusammengefasst, aus denen hervor geht, dass die Studiengängen nun mit signifikant geringerem Workload seitens der Lehrenden und Mitarbeiter\*innen betrieben werden können. Da sich die räumliche Situation am Campus nicht verändert hat und die Studiengänge bislang auch hier betrieben wurden, ist eine angemessene Raumausstattung gegeben. Das können wir aber gerne noch mal im Gespräch oder beim (virtuellen) Rundgang erörtern. 😀
+
+Hier eine Zusammenfassung der Zahlen aus der Tabelle. Insgesamt können die Studiengänge mit den Maßnahmen der neuen Akkreditierung deutlich «günstiger» als zuvor betrieben werden, weil u.A.:
+- im Bachelor die Vertiefungsmodule aufgegeben wurden
+- im Bachelor eine größerer WPF Bereich installiert wurde, der Module des gesamten Lehrbereichs nutzt
+- der Master von 5 auf 3 Schwerpunkte reduziert wurde
+- im Master die Projekte jetzt offener konsruiert sind und somit mehr Synergien nutzbar sind
+- in den Master Schwerpunkten jetzt mehr Synergien genutzt werden (können)
+
+Rückfragen zum Bachelor gerne an [Christian Noss](https://www.th-koeln.de/personen/christian.noss/). Rückfragen zum Master gerne an [Matthias Böhmer](https://www.th-koeln.de/personen/matthias.boehmer/).

@@ -15,9 +15,16 @@ exports.getPageFooter = (eleventy, data) => {
   return `
     <footer class="main-footer">
       ${tocContent}
-      <p class="info">
-        ${date}.${month}.${year} // ${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}
-      </p>
+      
+      <ul class="footer-info">
+        <li class="copyright"> 
+          <a href="https://www.medieninformatik.th-koeln.de">Medieninformatik an der TH Köln</a>
+        </li>
+        <li class="imprint"><a href="https://www.th-koeln.de/hochschule/impressum_8159.php">Impressum</a></li>
+        <li>Verantwortlich für die Inhalte <a href="https://www.th-koeln.de/personen/christian.noss/">Christian Noss</a> und <a href="https://www.th-koeln.de/personen/matthias.boehmer/">Matthias Böhmer</a></li>
+        <li class="last-update">Letzte Aktualisierung am ${date}.${month}.${year}, ${hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}
+        </li>
+      </ul>
     </footer>
     
     ${gallery.getLightboxDialog()}

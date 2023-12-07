@@ -28,6 +28,13 @@ meta:
   status: rfreview
   authors: Florian
   reviewers: Florian
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+  
 ---
 
 ## Kurzbeschreibung

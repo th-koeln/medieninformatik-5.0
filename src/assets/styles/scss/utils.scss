@@ -2,98 +2,97 @@
 ############################################################################ */
 
 .is-vertical-centered {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
 }
 
 /* No Wrap
 ############################################################################ */
 
 .no-wrap {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 /* Seperator
 ############################################################################ */
 
 .has-seperator {
+    padding-top: 0;
 
-  padding-top: 0;
-
-  &::before {
-    display: block;
-    width: 10%;
-    border-top: solid var(--border-width-l) var(--mi-blau);
-    margin-top: var(--fluid-space-l);
-    content: "";
-  }
+    &::before {
+        display: block;
+        width: 10%;
+        border-top: solid var(--border-width-l) var(--mi-blau);
+        margin-top: var(--fluid-space-l);
+        content: "";
+    }
 }
 
 /* Handliungsfelder
 ############################################################################ */
 
 .is-dev{
-  background-color: var(--handlungsfeld-dev);
-  color: var(--lightest);
-  display: inline-block;
-  padding-left: var(--quat);
-  padding-right: var(--quat);
+    display: inline-block;
+    padding-right: var(--quat);
+    padding-left: var(--quat);
+    background-color: var(--handlungsfeld-dev);
+    color: var(--lightest);
 }
 
 .is-dux{
-  background-color: var(--handlungsfeld-dux);
-  color: var(--lightest);
-  display: inline-block;
-  padding-left: var(--quat);
-  padding-right: var(--quat);
+    display: inline-block;
+    padding-right: var(--quat);
+    padding-left: var(--quat);
+    background-color: var(--handlungsfeld-dux);
+    color: var(--lightest);
 }
 
 .is-crea{
-  background-color: var(--handlungsfeld-crea);
-  color: var(--lightest);
-  display: inline-block;
-  padding-left: var(--quat);
-  padding-right: var(--quat);
+    display: inline-block;
+    padding-right: var(--quat);
+    padding-left: var(--quat);
+    background-color: var(--handlungsfeld-crea);
+    color: var(--lightest);
 }
 
 .is-exa{
-  background-color: var(--handlungsfeld-exa);
-  color: var(--lightest);
-  display: inline-block;
-  padding-left: var(--quat);
-  padding-right: var(--quat);
+    display: inline-block;
+    padding-right: var(--quat);
+    padding-left: var(--quat);
+    background-color: var(--handlungsfeld-exa);
+    color: var(--lightest);
 }
 
 .is-indi{
-  background-color: var(--handlungsfeld-indi);
-  color: var(--lightest);
-  display: inline-block;
-  padding-left: var(--quat);
-  padding-right: var(--quat);
+    display: inline-block;
+    padding-right: var(--quat);
+    padding-left: var(--quat);
+    background-color: var(--handlungsfeld-indi);
+    color: var(--lightest);
 }
 
 
 
 
 .is-dev-color{
-  color: var(--handlungsfeld-dev);
+    color: var(--handlungsfeld-dev);
 }
 
 .is-dux-color{
-  color: var(--handlungsfeld-dux);
+    color: var(--handlungsfeld-dux);
 }
 
 .is-crea-color{
-  color: var(--handlungsfeld-crea);
+    color: var(--handlungsfeld-crea);
 }
 
 .is-exa-color{
-  color: var(--handlungsfeld-exa);
+    color: var(--handlungsfeld-exa);
 }
 
 .is-indi-color{
-  color: var(--handlungsfeld-indi);
+    color: var(--handlungsfeld-indi);
 }
 
 
@@ -101,107 +100,114 @@
 ############################################################################ */
 
 .status{
-  color: var(--color-wip);
-  font-weight: var(--fw-bold);
-  &:hover{
-    cursor: pointer;
-    transform: rotate(90deg);
-  }
+    color: var(--color-wip);
+    font-weight: var(--fw-bold);
+
+    &:hover{
+        cursor: pointer;
+        transform: rotate(90deg);
+    }
 }
 
 .composition{
-  margin-top: var(--fluid-space-m) !important;
-  padding-bottom: var(--fluid-space-l) !important;
+    padding-bottom: var(--fluid-space-l) !important;
+    margin-top: var(--fluid-space-m) !important;
 }
 
 .is-tbd{
-  background-color: hsla(0, 100%, 80%, 0.5);
-  border-left: solid var(--border-width-l) hsla(0, 100%, 50%, 1);
-  padding-left: var(--fluid-space-s);
-  @extend .composition;
+    padding-left: var(--fluid-space-s);
+    border-left: solid var(--border-width-l) hsl(0deg 100% 50% / 100%);
+    background-color: hsl(0deg 100% 80% / 50%);
+
+    @extend .composition;
 }
 
 .is-wip{
-  background-color: hsla(0, 100%, 80%, 0.3);
-  border-left: solid var(--border-width-l) hsla(0, 100%, 80%, 1);
-  padding-left: var(--fluid-space-s);
-  @extend .composition;
+    padding-left: var(--fluid-space-s);
+    border-left: solid var(--border-width-l) hsl(0deg 100% 80% / 100%);
+    background-color: hsl(0deg 100% 80% / 30%);
+
+    @extend .composition;
 }
 
 .is-rfreview{
-  background-color: hsla(60, 100%, 80%, 0.5);
-  border-left: solid var(--border-width-l) hsla(60, 100%, 50%, 1);
-  padding-left: var(--fluid-space-s);
-  @extend .composition;
+    padding-left: var(--fluid-space-s);
+    border-left: solid var(--border-width-l) hsl(60deg 100% 50% / 100%);
+    background-color: hsl(60deg 100% 80% / 50%);
+
+    @extend .composition;
 }
 
 .is-review{
-  background-color: hsla(60, 100%, 80%, 0.3);
-  border-left: solid var(--border-width-l) hsla(60, 100%, 40%, 1);
-  padding-left: var(--fluid-space-s);
-  @extend .composition;
+    padding-left: var(--fluid-space-s);
+    border-left: solid var(--border-width-l) hsl(60deg 100% 40% / 100%);
+    background-color: hsl(60deg 100% 80% / 30%);
+
+    @extend .composition;
 }
 
 .is-refactor{
-  background-color: hsla(320, 100%, 80%, 0.3);
-  border-left: solid var(--border-width-l) hsla(320, 100%, 40%, 1);
-  padding-left: var(--fluid-space-s);
-  @extend .composition;
+    padding-left: var(--fluid-space-s);
+    border-left: solid var(--border-width-l) hsl(320deg 100% 40% / 100%);
+    background-color: hsl(320deg 100% 80% / 30%);
+
+    @extend .composition;
 }
 
 /* Has Interaction
 ############################################################################ */
 
 .has-interaction{
-  color: var(--color-accent);
-  &:hover{
-    cursor: pointer;
-  }
+    color: var(--color-accent);
+
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 /* Text Tweaks
 ############################################################################ */
 
 .is-small{
-  font-size: small;
+    font-size: small;
 }
 
 .is-less-important{
-  font-weight: var(--fw-normal);
+    font-weight: var(--fw-normal);
 }
 
 .is-centered{
-  text-align: center;
+    text-align: center;
 }
 
 /* Sticky
 ############################################################################ */
 
 .is-sticky{
-  position: sticky;
-  top: 0;
-}
+    position: sticky;
+    top: 0;
+} 
 
 /* Size Indicator
 ############################################################################ */
 
 [data-js-size-indicator-large],
 [data-js-size-indicator-small]{
-  display: inline;
-  margin: 0 !important;
-  height: 0;
+    display: inline;
+    height: 0;
+    margin: 0 !important;
 }
 
 [data-js-size-indicator-large]{
-  display: none;
+    display: none;
 }
 
-@media screen and (min-width: 160ch){
-  [data-js-size-indicator-small]{
-    display: none;
-  }
+@media screen and (width >= 160ch){
+    [data-js-size-indicator-small]{
+        display: none;
+    }
 
-  [data-js-size-indicator-large]{
-    display: inline;
-  }
+    [data-js-size-indicator-large]{
+        display: inline;
+    }
 }

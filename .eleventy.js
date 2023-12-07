@@ -110,8 +110,11 @@ module.exports = function (eleventyConfig) {
   // Copy asset images
   eleventyConfig.addPassthroughCopy({ 'src/assets/images': 'assets/images' });
 
-    // Copy CSS (libs)
-    eleventyConfig.addPassthroughCopy({ 'src/assets/styles/libs': 'assets/styles/libs' });
+  // Copy Downloads
+  eleventyConfig.addPassthroughCopy({ 'src/downloads': 'downloads' });
+
+  // Copy CSS (libs)
+  eleventyConfig.addPassthroughCopy({ 'src/assets/styles/libs': 'assets/styles/libs' });
 
   // Copy images
   eleventyConfig.addPassthroughCopy("src/**/*.jpg");
@@ -215,15 +218,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("itemsKurzbericht", function (collection) {
     clearRequireCache();
     return collection.getFilteredByGlob("./src/kurzbericht/*.md").sort((a, b) => {
-      if (a.fileSlug > b.fileSlug) return 1;
-      else if (a.fileSlug < b.fileSlug) return -1;
-      else return 0;
-    });
-  });
-
-  eleventyConfig.addCollection("contentCards", function (collection) {
-    clearRequireCache();
-    return collection.getFilteredByGlob("./src/cards/*.md").sort((a, b) => {
       if (a.fileSlug > b.fileSlug) return 1;
       else if (a.fileSlug < b.fileSlug) return -1;
       else return 0;

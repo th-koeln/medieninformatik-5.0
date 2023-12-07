@@ -2,7 +2,11 @@
 title: Handlungsfelder
 layout: handlungsfelder.11ty.js
 inToc: true
+inOverview:
+  - home-misc
+teaserText: "Übersicht über die thematischen Schwerpunkte der Medieninformatik Studiengänge"
 ---
+
 
 Die hier dargestellten Handlungsfelder repräsentieren verschiedene thematische Schwerpunkte, in denen Studierende spezifische Kompetenzen erwerben und anwenden können. Sie dienen als Rahmen für die Organisation der Lehrinhalte und fördern eine ganzheitliche Herangehensweise an die Medieninformatik. Jedes Handlungsfeld ist darauf ausgerichtet, den Studierenden sowohl theoretisches Wissen als auch praktische Fähigkeiten zu vermitteln, um sie optimal auf die Anforderungen in der Berufswelt vorzubereiten.
 

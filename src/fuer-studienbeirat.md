@@ -4,6 +4,11 @@ subtitle: "Danke für den Support 😎"
 layout: page.11ty.js
 inToc: false
 bodyClass: home
+inOverview:
+  - home-stakeholder
+tocs:
+  - boards  
+teaserText: "Material und Infos für den Studienbeirat"
 ---
 
 Liebe Mitglieder des Studienbeirats,
@@ -35,6 +40,12 @@ Ihr Medieninformatik Entwicklungsteam
 ### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-fakrat"></snippet>
 - Prüfungsordnung Master (tbd)
+
+---
+
+## Keine Papierversion
+
+<snippet type="text" id="no-paper-statement" src="misc/no-paper"></snippet>
 
 ---
 

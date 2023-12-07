@@ -4,25 +4,26 @@
 .inline-navigation{
 
   .navigation-title{
-    font-size: var(--m);
     padding-top: 0;
+    font-size: var(--m);
   }
 
   li{
-    line-height: var(--lh-tight);
     position: relative;
+    line-height: var(--lh-tight);
 
     a{
-      text-decoration: none;
       display: block;
-      padding-bottom: var(--quat);
       padding-top: var(--quat);
-      transition: padding var(--tr-fast);
       padding-right: var(--fluid-space-s);
+      padding-bottom: var(--quat);
+      text-decoration: none;
+      transition: padding var(--tr-fast);
+      border-left: solid var(--border-width-m) transparent;
 
       &:hover, &.is-active{
-        padding-left: var(--half);
         padding-right: var(--fluid-space-xs);
+        padding-left: var(--half);
         border-left: solid var(--border-width-m) var(--color-accent);
         background-color: var(--darken);
       }
@@ -33,14 +34,13 @@
     border-top: solid var(--border-width-s) var(--darken);
   }
 
-  @media screen and (max-width: 160ch){
-    
+  @media screen and (width <= 160ch){
     &::before {
       display: block;
       width: 10%;
+      padding-top: var(--fluid-space-l);
       border-top: solid var(--border-width-l) var(--mi-blau);
       margin-top: var(--fluid-space-l);
-      padding-top: var(--fluid-space-l);
       content: "";
     }
 

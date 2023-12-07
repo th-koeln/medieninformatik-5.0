@@ -45,10 +45,11 @@ studienleistungen:
     datum:
 
 global_criteria:
-    internationalization: 
+    internationalization: 0
     interdisciplinarity: 1
     digitization: 1
     transfer: 1
+
 participants: 
     min: 4
     max: 20

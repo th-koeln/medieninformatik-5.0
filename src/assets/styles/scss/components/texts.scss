@@ -2,9 +2,9 @@
 ############################################################################ */
 
 .hero-text{
+  max-width: var(--max-width-content);
   font-size: var(--l);
   line-height: var(--lh-normal);
-  max-width: var(--max-width-content);
 }
 
 
@@ -12,8 +12,7 @@
 ############################################################################ */
 
 .intro-text{
-  
+  max-width: var(--max-width-content);
   font-weight: var(--fw-medium);
   line-height: var(--lh-normal);
-  max-width: var(--max-width-content);
 }

@@ -2,7 +2,7 @@ Handlungsfeld;Bereich;Kompetenzen;Braucht;Liefert;Kommentar
 Designing for User Experiences;Anforderungen und Bedarfe;Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.;0;0;"Verständnisfrage: Was bedeutet ""Braucht""? Ich habe das interpretiert als ""Was braucht das Handlungsfeld"" und nicht als ""Was braucht AP 1"". Ich hoffe, das ist richtig."
 ;;Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.;0;0;"Bei ""Liefert"" habe ich das anders interpretiert, nämlich ""welche Beitrag liefert zum Handlungsfeld AP 1."""
 ;;Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.;0;0;
-;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;0;1;
+;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;0;3;
 ;;Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten.;0;0;
 ;;Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.;0;0;
 ;;Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.;0;0;
@@ -16,11 +16,11 @@ Developing Interactive and Distributed Systems;"Technologie
 ;;Kennen State-of-the-art Technologie zur Umsetzung von software-basierten Anwendungen (insb. in den Bereichen Web, Mobile, IoT, AR/VR, AI), können konkurrierende alternative Technologien auswählen und evaluieren, sich neue technologische Möglichkeiten erschließen, diese bewerten, nutzen, und integrieren sowie zukunftsorientiert neue Möglichkeiten screenen.;0;0;
 ;;Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, MQTT).;0;1;
 ;;Wissen was ein Computer ist und wie Software darauf ausgeführt wird.;1;2;
-;Entwurf;Verstehen formale Strukturen.;0;2;
-;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;0;2;
-;;Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.;0;0;
-;;Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können.;0;0;
-;Implementierung;Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).;0;1;
+;Entwurf;Verstehen formale Strukturen.;0;3;
+;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;0;3;
+;;Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.;0;4;
+;;Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können.;0;1;
+;Implementierung;Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).;0;2;
 ;;Können (komplexe) Softwaresysteme im Team entwickeln.;0;0;
 ;;Kennen Grundkonzepte agiler Entwicklung und agilen Arbeitens wie iterative und inkrementelle Entwicklung, selbstorganisierte Teams, Transparente Kommunikation, etc. und können diese in Projekten anwenden.;0;0;
 ;;Können digitale Produkte und verschiedene Software-Artefakte zur Evaluation und zur Nutzung auf typischen Distributionswegen (bspw. Clickdummy, Web-Deployment, App Store) für verschiedene Zielgruppen bereit stellen (lauffähig, sicher und gebrauchstauglich).;0;0;
@@ -32,7 +32,7 @@ Driving Creation Process;"Innovation
 ;;Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.;0;0;
 ;;Können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch Dritte in ein Ökosystem bereitstellen.;0;0;
 ;;Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc;0;0;
-;Management;Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.;0;0;
+;Management;Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.;0;2;
 ;;Können ein Team zusammenstellen und dieses lauf- und lebensfähig halten.;0;0;
 ;;Können kreative und agile Prozesse hinsichtlich Zeit- und Ressourcenmanagement effizient durchführen und verwalten.;0;0;
 ;Kommunikation;Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln.;0;0;
@@ -68,8 +68,8 @@ Enhancing Interactions on Different Scales;"Analyse, Studien und Experimente
 ;Selbstlernen;Können wissenschaftlich Arbeiten und Schreiben.;0;0;
 ;;Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.;0;0;
 ;;;;;
-Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.;;;0;0;
-Programmierparadigmen;;;0;1;
-Aufwand von Programmen;;;0;1;
-Korrektheit von programmen;;;0;1;
-Dokumentation;;;0;1;
+Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.;Programmierparadigmen;;0;0;
+;;;0;1;
+;Aufwand von Programmen;;0;1;
+;Korrektheit von Programmen;;0;1;
+;Dokumentation;;0;1;

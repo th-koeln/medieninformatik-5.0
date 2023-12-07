@@ -4,26 +4,28 @@
 
 
 .competence-block {
-
   max-width: var(--max-width-table);
-  border-top: solid var(--border-width-m) var(--darkest);
   padding-top: var(--half);
   padding-bottom: var(--fluid-space-m);
+  border-top: solid var(--border-width-m) var(--darkest);
 
-  @media only screen and (min-width: 42em) {
+  @media only screen and (width >= 42em) {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
   h3 {
-    font-size: var(--m);
-    margin-top: 0;
     max-width: 66%;
+    margin-top: 0;
     margin-bottom: var(--fluid-space-l);
+    font-size: var(--m);
+  }
+
+  h4{
+    margin-bottom: var(--fluid-space-s);
   }
 
   .competence-bereiche {
-
     &>li {
       position: relative;
       padding-top: var(--quat);
@@ -34,15 +36,15 @@
         position: relative;
         width: 99%;
         height: 0;
-        margin-left: -100%;
         border-top: solid var(--border-width-s) var(--darken);
+        margin-left: -100%;
 
         .score-indicator-group {
           position: relative;
-          height: var(--border-width-l);
           width: 100%;
-          margin-left: 50%;
+          height: var(--border-width-l);
           border-left: solid var(--border-width-s) var(--darkest);
+          margin-left: 50%;
 
           span.score-value-indicator {
             position: absolute;
@@ -108,6 +110,7 @@
   .competence-module-list{
     margin-top: var(--s);
     margin-bottom: var(--fluid-space-s);
+
     li{
       position: relative;
       width: 100%;

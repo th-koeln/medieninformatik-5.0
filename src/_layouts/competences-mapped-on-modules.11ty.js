@@ -18,6 +18,8 @@ module.exports = {
 
         const bereiche = bereich.sub.map((item) => {
 
+          if(item.status && item.status === 'new') return '';
+          
           const kompetenzId = eleventy.slugify(item.competence).substr(0,48);
 
           const modulesProvidingThisCompetence = modules.map((modulItem) => {
@@ -26,7 +28,8 @@ module.exports = {
             if(!modul.kompetenzen) return;
 
             const provider = modul.kompetenzen.liefert.filter((element) => {
-              return element.Kompetenz === item.competence && element.liefert > 1;
+              const competenceString = item.excelString ? item.excelString : item.competence;
+              return element.Kompetenz === competenceString && element.liefert > 1;
             });
 
             if(provider.length === 0) return;
@@ -47,9 +50,11 @@ module.exports = {
             `;
           });
 
+          const competenceString = item.excelString ? item.excelString : item.competence;
+
           return `
             <li id="${kompetenzId}">
-              <div>${item.competence}</div>
+              <div>${competenceString}</div>
               <ul class="competence-module-list">
                 ${modulesProvidingThisCompetence.join("\n")}
               </ul>

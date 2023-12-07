@@ -28,6 +28,13 @@ meta:
   status: rfreview   
   authors: Gerhard
   reviewers: Gerhard
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+
 ---
 
 ## Lehrform/SWS

@@ -22,7 +22,14 @@ studienleistungen:
     zweitpruefer: gh, mbluemm, nkuhn
     datum: vereinbarung
 meta:
-  status: tbd      
+  status: tbd   
+  
+studiengangkriterien:
+  globalcitizenship: 1
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+
 ---
 
 ## Learning Outcome

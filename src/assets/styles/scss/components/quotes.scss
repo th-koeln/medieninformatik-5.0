@@ -5,15 +5,15 @@
   display: none;
 
   cite{
-    font-style: normal;
     color: var(--dark);
+    font-style: normal;
   }
 
   p{
-    line-height: var(--lh-normal);
-    font-style: italic;
     color: var(--mi-lila);
     font-size: var(--xxl);
+    font-style: italic;
+    line-height: var(--lh-normal);
   }
 }
 

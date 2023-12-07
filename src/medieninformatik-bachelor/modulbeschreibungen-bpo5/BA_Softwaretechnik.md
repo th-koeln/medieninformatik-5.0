@@ -25,7 +25,7 @@ studienleistungen:
 angebotImWs: false
 angebotImSs: true    
 meta:
-  status: tbd    
+  status: ok    
   authors: Mario Winter
   reviewers: Mario Winter
 studiengangkriterien:
@@ -33,48 +33,16 @@ studiengangkriterien:
   internationalisierung: 0
   interdisziplinaritaet: 0
   transfer: 0  
+lehrform:
+  - Vorlesung 2 SWS
+  - Praktikum 2 SWS  
 ---
 
-## Sprache
-
-## Häufigkeit des Angebots
-
-## Dozierende
-
-## Learning Outcome
-
-## Inhalte
-
-## Lehr- und Lernmethoden
-
-## Präsenzzeit
-
-## Selbststudium
-
-## Empfohlene Literatur
-
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
-
----
 
 ## Kurzbeschreibung
 Prinzipien, Methoden und Techniken der modellbasierten methodischen objektorientierten Softwareentwicklung
 
-## Lehrform/SWS
-4 SWS: Vorlesung 2 SWS; Praktikum 2 SWS
-
-max. 15 Studierende/Praktikumsgruppe;
-
-## Arbeitsaufwand
-Gesamtaufwand 150h, davon 
-
-- 36h Vorlesung 
-- 36h Praktikum
-- 78h Selbststudium 
-
-## Angestrebte Lernergebnisse
+## Learning Outcome
 Die Studierenden sollen befähigt werden, 
 - zu abstrahieren, Modelle zu entwickeln, Unterschiede zwischen Modell und Realität zu beurteilen sowie gegebene Modelle zu interpretieren, zu analysieren und zu bewerten, 
 - indem sie im Rahmen methodischer Vorgehensweisen im Team komplexe Systeme analysieren, spezifizieren und kritisch diskutieren,
@@ -90,12 +58,6 @@ Das Modul gliedert sich in folgende Inhalte:
 - (50%) Modellbasierte Softwareentwicklung (Anforderungsermittlung, Softwarespezifizierung sowie Architekturkonzeption und Grobentwurf);
 - (10%) Zusammenfassung und Ausblick (Entwurfskonzepte, Feinentwurf und Modellgetriebene Softwareentwicklung);
 
-
-## Medienformen
-- Flipped-Classroom mit Diskussion und Übungen als Einzel- und Kleinstgrupen
-- e-Vorlesungen (Video-Clips und Folien in elektronischer Form zum Selbststudium);
-- Vertiefende Materialien in elektronischer Form (z.B. SWEBOK)
-- Praktika in Kleingruppen, um die erlernten Modelle und Methoden einzuüben und zu vertiefen (Seminarraum, Rechnerlabor); In den Praktika werden Modellierungs- und Entwicklungswerkzeuge eingesetzt.
 
 
 ## Literatur

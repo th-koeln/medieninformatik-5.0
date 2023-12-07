@@ -22,28 +22,36 @@ competencies:
         competence: "Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert."
       - title: Requirements
         competence: "Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse, Erfordernisse und die Erwartungen der BenutzerInnen verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden."
+        excelString: "Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden."
       - title: Kontexte
         competence: "Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern."
+        excelString: 
   - title: Konzepte
     sub:
       - title: Konzeptionelles Denken
         competence: "Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen."
       - title: Interaktionskonzepte
         competence: "Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, zu adressierenden Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten."
+        excelString: "Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten."
       - title: Interaktionsdesigns
         competence: "Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Handlungs- und Interaktionsflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden."
+        excelString: "Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden."
       - title: Informationsarchitekturen
         competence: "Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren."
   - title: Gestaltung
     sub:
       - title: Visuelles Design
         competence: "Haben ein gutes Verständnis für visuelles Design: Farbe, Typografie, Layout, visuelle Hierarchisierung, Designsysteme etc."
+        excelString: 
       - title: Daten Visualisierung
         competence: "Können visuelle Darstellung und Präsentation komplexer Daten und Informationen für verschiedene Zielgruppen konzipieren und erstellen."
+        excelString: 
       - title: Inklusion
         competence: "Verfügen über Kenntnisse in der Gestaltung und Umsetzung barrierefreier, inklusiver und zugänglicher Interaktionen, Systeme und Medienprodukte."
+        excelString: "Verfügen über Kenntnisse in der Gestaltung und Umsetzung barrierefreier und inklusiver Interaktionen, Systeme und Medienprodukte."
       - title: Story Telling
         competence: "Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen."
+        excelString: 
 ---
 
 
@@ -59,7 +67,7 @@ Weitere Aktivitäten der Absolvent\*innen in diesem Handlungsfeld werden beispie
 - Konzeption und Entwicklung von ästhetisch ansprechenden und funktionalen Nutzungsschnittstellen unter Verwendung handlungs- und kognitionspsychologischer Konzepte sowie grundlegender Designprinzipien wie etwa Gestaltungsprinzipien, Farbtheorie und Typografie.
 - Erstellung von Prototypen, um Ideen schnell zu repräsentieren/visualisieren und evaluieren zu können, bevor sie in die Entwicklung übergehen. Medieninformatiker\*innen verwenden oft Tools für das Prototyping, um Interaktionen und Benutzungsschnittstelle zu demonstrieren.
 - Enge Zusammenarbeit mit Softwareentwickler\*innen, um sicherzustellen, dass Nutzungsschnittstellen technisch umsetzbar sind und eine nahtlose Integration in die Anwendung möglich ist.
-- Durchführung von Analysen zur Gebrauchstauglichkeit von Anwendungen. Dies beinhaltet oft die Bewertung von Benutzerschnittstellen, Interaktionsflüssen und der allgemeinen Benutzererfahrung.
+- Durchführung von Analysen zur Gebrauchstauglichkeit von Anwendungen. Dies beinhaltet oft die Bewertung von Benutzungschnittstellen, Interaktionsflüssen und der allgemeinen Benutzererfahrung.
 - Durchführung von Evaluationen, oftmals in Form von Tests mit tatsächlichen Benutzer\*innen, um die Wirksamkeit des (Interaktions-)designs zu überprüfen. Dies beinhaltet oft das Sammeln von Feedback und das Identifizieren von Elementen, Bereichen und Interaktionen, die (i.d.R.) iterativ verbessert werden können.
 - Analyse von Gestaltungskontexten und Erstellung von Design-Dokumentationen oder Leitfäden, die für Entwickler\*innen, Stakeholder und andere Teammitglieder verständlich sind. Dies kann Designentscheidungen, Interaktionsmuster, Farbreihen und andere relevante Informationen umfassen.
 - Entwicklung von Interaktionskonzepten, die auf den spezifischen Kontext, Erfahrungen, Fähigkeiten, Erwartungen und Bedürfnisse der Benutzer abgestimmt sind.

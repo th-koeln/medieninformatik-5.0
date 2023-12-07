@@ -8,6 +8,7 @@ exports.getTocContent = (eleventy, data) => {
 
     return `
       <ul class="item-list is-tight">
+        <li><a href="/">Home</a></li>
         ${tocItems.join("\n")}
       </ul>`;
   }

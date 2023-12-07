@@ -346,6 +346,61 @@ const checkViewportSize = () => {
   return !isHidden(sizeIndicatorLarge) ? "large" : "small";
 };
 
+
+/* Clientseitig generierte Navigation
+############################################################################ */
+
+const slugify = (str) => {
+  return String(str)
+    .normalize('NFKD') // split accented characters into their base characters and diacritical marks
+    .replace(/[\u0300-\u036f]/g, '') // remove all the accents, which happen to be all in the \u03xx UNICODE block.
+    .trim() // trim leading or trailing whitespace
+    .toLowerCase() // convert to lowercase
+    .replace(/[^a-z0-9 -]/g, '') // remove non-alphanumeric characters
+    .replace(/\s+/g, '-') // replace spaces with hyphens
+    .replace(/-+/g, '-'); // remove consecutive hyphens
+}
+
+const addDynamicPageNavigation = () => {
+  const pageNavigationElement = document.querySelector("[data-js-page-navigation]");
+  if(!pageNavigationElement || pageNavigationElement === null) return;
+
+  pageNavigationElement.id = "page-navigation";
+
+  const navWrap = document.createElement("nav");
+  navWrap.classList.add("inline-navigation");
+  navWrap.dataset.jsScrollspy = true;
+  pageNavigationElement.appendChild(navWrap);
+
+  const headline = document.createElement("h2");
+  headline.classList.add("navigation-title");
+  headline.innerHTML = "Inhalt";
+  navWrap.appendChild(headline);
+
+  const pageNavigationElementLevel = pageNavigationElement.dataset.jsPageNavigation;
+  const pageNavigationHeadings = document.querySelectorAll(pageNavigationElementLevel);
+
+  const pageNavigationList = document.createElement("ul");
+  pageNavigationList.classList.add("item-list");
+  pageNavigationList.classList.add("is-tight");
+  navWrap.appendChild(pageNavigationList);
+
+  pageNavigationHeadings.forEach((pageNavigationHeading) => {
+
+    const id = slugify(pageNavigationHeading.innerText);
+    if(!pageNavigationHeading.id) pageNavigationHeading.id = id;
+    const pageNavigationListItem = document.createElement("li");
+    pageNavigationListItem.dataset.scrollspyTarget = pageNavigationHeading.id;
+    pageNavigationList.appendChild(pageNavigationListItem);
+
+    const pageNavigationLink = document.createElement("a");
+    pageNavigationLink.setAttribute("href", `#${pageNavigationHeading.id}`);
+    pageNavigationLink.innerHTML = pageNavigationHeading.innerHTML;
+    pageNavigationListItem.appendChild(pageNavigationLink);
+  });
+
+};
+
 /* Main
 ############################################################################ */
 
@@ -361,5 +416,6 @@ document.addEventListener("DOMContentLoaded", () => {
   addDynamicHyperlinks();
   addGalleryInteractions();
   addScrollToTop();
+  addDynamicPageNavigation();
   addScrollSpy();
 });

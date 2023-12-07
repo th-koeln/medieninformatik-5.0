@@ -2,9 +2,7 @@
 ############################################################################ */
 
 .kurzbericht{
-
-
-  @media screen and (min-width: 120rem){
+  @media screen and (width >= 120rem){
     main{
       & > *:not(h4, #page-navigation) {
         margin-left: 40ch;
@@ -13,14 +11,14 @@
       h4{
         width: 38ch;
         height: 0;
-        margin-bottom: 0;
         padding-bottom: 0;
+        margin-bottom: 0;
         margin-left: -40ch;
       }
 
       h4{
-        text-align: right;
         line-height: var(--lh-normal);
+        text-align: right;
       }
     }
 
@@ -29,8 +27,8 @@
       top: 50%;
       left: 0;
       display: block;
-      margin-left: -40ch;
       width: 30ch;
+      margin-left: -40ch;
     }
   }
 

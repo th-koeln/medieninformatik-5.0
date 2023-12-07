@@ -54,6 +54,14 @@ effort:
     exercise: 36
     project_supervision: 0
     project_work: 90
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 1
+
+
 ---
 
 

@@ -2,15 +2,14 @@
 ############################################################################ */
 
 .curriculum{
-
   .content{
     max-width: var(--max-width-content);
   }
 
   .next-term{
     th, td{
-      border-top: none;
       padding-top: var(--fluid-space-s);
+      border-top: none;
     }
   }
 }

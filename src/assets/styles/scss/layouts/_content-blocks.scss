@@ -2,9 +2,7 @@
 ############################################################################ */
 
 .content-blocks {
-
   section {
-
     padding-bottom: 0;
 
     .content{
@@ -20,7 +18,7 @@
       }
     }
 
-    @media screen and (min-width: 160ch) {
+    @media screen and (width >= 160ch) {
       .content{
         blockquote{
           font-size: var(--s);

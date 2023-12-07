@@ -2,23 +2,21 @@
 ############################################################################ */
 
 ul.job-offer-overview{
-
   display: grid;
+  margin-bottom: var(--fluid-space-l);
   gap: var(--fluid-space-s);
   grid-template-columns: repeat(auto-fill,minmax(calc(var(--max-width-card) * 2),1fr));
-  margin-bottom: var(--fluid-space-l);
 
   .job-offer-data{
-
     & + .job-offer-data{
       margin-top: 0;
     }
 
+    padding: var(--s);
+    margin-left: 0;
+    background-color: var(--lightest);
     box-shadow: var(--shadow-l-light);
     transition: all var(--tr-slow);
-    background-color: var(--lightest);
-    margin-left: 0;
-    padding: var(--s);
 
     &:hover{
       box-shadow: var(--shadow-xl-light);
@@ -26,17 +24,17 @@ ul.job-offer-overview{
     }
 
     img{
-      aspect-ratio: 1/1;
       width: 100%;
       height: 100%;
+      aspect-ratio: 1/1;
       object-fit: contain;
     }
 
     &::before{
-      content: "";
       display: inline;
       width: 0;
       margin-left: 0;
+      content: "";
     }
 
     figcaption{

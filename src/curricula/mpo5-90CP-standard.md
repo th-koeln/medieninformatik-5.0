@@ -1,5 +1,5 @@
 ---
-title: Studienverlaufsplan Master MPO5 mit 90 CP (WIP)
+title: Studienverlaufsplan Master MPO5 mit 90 CP
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:

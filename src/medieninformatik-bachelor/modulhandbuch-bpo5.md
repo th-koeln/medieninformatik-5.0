@@ -9,6 +9,7 @@ inToc: false
 tocs:
   - bachelor
   - bachelor-for-fakrat
+  - bachelor-for-experts
 collection: modulsBPO5
 
 ---

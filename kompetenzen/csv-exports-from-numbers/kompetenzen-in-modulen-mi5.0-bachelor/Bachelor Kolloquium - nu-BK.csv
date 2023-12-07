@@ -1,15 +1,15 @@
 Handlungsfeld;Bereich;Kompetenzen;Braucht;Liefert;Kommentar
-Designing for User Experiences;Anforderungen und Bedarfe;Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.;0;0;
+Designing for User Experiences;Anforderungen und Bedarfe;Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.;3;0;
 ;;Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.;0;0;
 ;;Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.;0;0;
-;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;0;0;
+;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;3;0;
 ;;Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten.;0;0;
 ;;Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.;0;0;
-;;Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.;0;0;
-;Gestaltung;Haben ein gutes Verständnis für visuelles Design: Farbe, Typografie, Layout, visuelle Hierarchisierung, Designsysteme etc.;2;0;
+;;Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.;3;0;
+;Gestaltung;Haben ein gutes Verständnis für visuelles Design: Farbe, Typografie, Layout, visuelle Hierarchisierung, Designsysteme etc.;3;2;
 ;;Können visuelle Darstellung und Präsentation komplexer Daten und Informationen für verschiedene Zielgruppen konzipieren und erstellen.;2;4;
 ;;Verfügen über Kenntnisse in der Gestaltung und Umsetzung barrierefreier und inklusiver Interaktionen, Systeme und Medienprodukte.;0;0;
-;;Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen.;1;2;
+;;Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen.;2;3;
 ;;;;;
 Developing Interactive and Distributed Systems;"Technologie
 ";Können hardware-basierte Technologien zur Interaktion mit Computern in verschiedenen Modalitäten einsetzen (bspw. sprachbasierte Interaktion, Tangible Computing, Physical Computing, Sensoren und Aktoren).;0;0;
@@ -46,9 +46,9 @@ Exploring Advanced Interactive Media;Medien;Verfügen über tiefe Kenntnisse im 
 ;;Haben vertiefte Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen z.B. in der Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung.;0;0;
 ;;Haben die Fähigkeit zur Darstellung und Visualisierung großer Datenmengen, um komplexe Daten auf verständliche und ansprechende Weise zu präsentieren.;0;0;
 ;;Können Serious Games oder gamifizierte Anwendungen konzipieren und entwickeln, die Lern- oder Trainingsziele unterstützen: z.B. Integration von Spielmechaniken, Puzzles oder Belohnungssystemen in interaktive Medien.;0;0;
-;Exploration & Kreativität;Können neue und unkonventionelle Ideen generieren, diese (systematisch) variieren und weiter entwickeln.;3;4;
+;Exploration & Kreativität;Können neue und unkonventionelle Ideen generieren, diese (systematisch) variieren und weiter entwickeln.;3;1;
 ;;Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen.;3;4;
-;;Haben eine offene Fehlerkultur in der Fehler nicht als Endpunkt betrachtet, sondern als Teil des Lernprozesses verstanden und genutzt werden, um Prozesse zu verbessern, zukünftige Fehler zu vermeiden und exploratives Handeln zu fördern.;0;0;
+;;Haben eine offene Fehlerkultur in der Fehler nicht als Endpunkt betrachtet, sondern als Teil des Lernprozesses verstanden und genutzt werden, um Prozesse zu verbessern, zukünftige Fehler zu vermeiden und exploratives Handeln zu fördern.;3;2;
 ;;Haben die Fähigkeit zur Selbstreflexion um Handlungen und Entscheidungen evaluieren und iterieren zu können.;4;5;
 ;;Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen.;5;5;
 ;Prototyping;Beherrschen verschiedene Formen von Prototyping zum frühzeitigen Einholen von Feedback und zum Erklären, Erkunden und erlebbar machen von Ideen und Ansätzen.;0;0;
@@ -57,7 +57,7 @@ Exploring Advanced Interactive Media;Medien;Verfügen über tiefe Kenntnisse im 
 Enhancing Interactions on Different Scales;"Analyse, Studien und Experimente
 ";Kennen verschiedene Methoden der Benutzerforschung, können diese einordnen und anwenden (z.B. Interviews, Umfragen, Beobachtungen, Experience Sampling).;0;0;
 ;;Können schließende Statistik anwenden um Hypothesen in Experimenten zu überprüfen und statistische Zusammenhänge in empirischen Daten auszuwerten.;0;0;
-;;Sind erfahren und geübt Kooperation und Umgang mit Stakeholdern und zukünftigen Nutzer:innen.;0;0;
+;;Sind erfahren und geübt Kooperation und Umgang mit Stakeholdern und zukünftigen Nutzer:innen.;2;2;
 ;Situated Interaction;Haben ein tiefes Verständnis für die Bedürfnisse, Verhaltensweisen und Erwartungen der Benutzer:innen.;0;0;
 ;;Können technologische Aspekte, die bei der Implementierung situierter Interaktion eine Rolle spielen, berücksichtigen, dies beinhaltet Kenntnisse über Sensortechnologien, Datenverarbeitung, maschinelles Lernen und die Integration von Software in physische Umgebungen.;0;0;
 ;;Haben die Fähigkeit den Kontext von Interaktionen zu verstehen und darauf zu reagieren.;0;0;

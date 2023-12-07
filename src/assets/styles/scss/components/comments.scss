@@ -2,30 +2,28 @@
 ############################################################################ */
 
 .comments{
-
   &-count{
-    font-weight: var(--fw-normal);
     display: inline-block;
     padding-left: var(--quat);
+    font-weight: var(--fw-normal);
   }
 }
 
 .comment{
-
   &-head{
       display: flex;
+      width: 100%;
       flex-direction: row;
       align-items: center;
-      width: 100%;
       padding-bottom: var(--fluid-space-s);
     
       img{
         display: inline-block;
-        width: 4rem;
         overflow: hidden;
-        aspect-ratio: 1/1;
+        width: 4rem;
         border-radius: 50%;
         margin-right: var(--s);
+        aspect-ratio: 1/1;
       }
   }
 

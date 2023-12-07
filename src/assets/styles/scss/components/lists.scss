@@ -10,21 +10,20 @@ ul:not([class]) {
     margin-left: 1.5ch;
 
     &::before {
-      color: var(--mi-gruen);
-      content: "»";
       display: inline-block;
       width: 1.5ch;
       margin-left: -1.5ch;
+      color: var(--mi-gruen);
+      content: "»";
     }
 
     & + li {
-      margin-top: 1%;
+      margin-top: 0.5%;
     }
   }
 }
 
 ol:not([class]){
-
   padding-left: 2ch;
   margin-bottom: var(--fluid-space-s);
   
@@ -37,7 +36,7 @@ ol:not([class]){
   }
 
   li + li {
-    margin-top: 1%;
+    margin-top: 0.5%;
 
   }
 
@@ -48,8 +47,8 @@ ol:not([class]){
 
 ul:not([class]) {
   ul{
-
     margin-bottom: var(--quat);
+
     li{
       &::before{
         content: "-";
@@ -65,7 +64,6 @@ ul:not([class]) {
 ############################################################################ */
 
 ul.is-tight {
-
   li + li{
     margin-top: 0;
   }
@@ -76,21 +74,21 @@ ul.is-tight {
 ############################################################################ */
 
 ul.hero-list {
-  padding-left: 0;
   padding-bottom: var(--fluid-space-m);
+  padding-left: 0;
   
   & > li {
     display: block;
+    margin-bottom: var(--s);
     margin-left: 1.5ch;
     font-size: var(--l);
-    margin-bottom: var(--s);
 
     &::before {
-      color: var(--mi-lila);
-      content: "»";
       display: inline-block;
       width: 1.5ch;
       margin-left: -1.5ch;
+      color: var(--mi-lila);
+      content: "»";
       font-weight: var(--fw-bold);
     }
 

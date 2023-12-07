@@ -12,7 +12,6 @@ table {
   }
 
   tbody {
-
     tr td,
     tr th {
       border-top: solid var(--border-width-s) var(--darken);
@@ -20,7 +19,6 @@ table {
   }
 
   &.is-narrow {
-
     th,
     td {
       padding: var(--quat);
@@ -32,7 +30,9 @@ table {
 ###########################################################################  */
 
 .table-module-list {
-
+  position: relative;
+  z-index: var(--z-level-front);
+  background-color: var(--lighter);
   border-collapse:collapse;
 
   * {
@@ -41,10 +41,10 @@ table {
   }
 
   .module-title {
-    font-weight: var(--fw-medium);
+    padding-top: 0;
     margin-bottom: var(--quat);
     font-size: var(--m);
-    padding-top: 0;
+    font-weight: var(--fw-medium);
   }
 
   .module-exam {
@@ -65,7 +65,7 @@ table {
 
   }
 
-  tr[class*=is-]:not([class=is-ok]) td:first-child{
+  tr[class*="is-"]:not([class="is-ok"]) td:first-child{
     padding-left: var(--half);
   }
 }
@@ -74,7 +74,10 @@ table {
 ###########################################################################  */
 
 .table-curriculum {
+  position: relative;
+  z-index: var(--z-level-front);
   width: 100%;
+  background-color: var(--lighter);
   border-spacing: 0;
 
   thead {
@@ -98,9 +101,9 @@ table {
   }
 
   th {
-    font-weight: var(--fw-normal);
     padding-top: var(--quat);
     padding-bottom: var(--quat);
+    font-weight: var(--fw-normal);
   }
 
   td {
@@ -116,21 +119,19 @@ table {
   }
 
   th.is-vertical {
-
     /* Something you can count on */
     height: 30ch;
     white-space: nowrap;
 
     & > div {
+      width: 30px;
       transform: 
         /* Magic Numbers */
         translate(0, 11ch)
         /* 45 is really 360 - 45 */
         rotate(-90deg);
-      width: 30px;
 
       & > span {
-        
         padding: 5px 10px;
       }
     }
@@ -141,17 +142,24 @@ table {
 /* Table Modul Matrix
 ###########################################################################  */
 
+.modulmatrix-wrap{
+  width: 100%;
+  overflow-x: auto;
+}
+
 .table-modulmatrix {
-  
-  min-width: 150ch;
-  line-height: var(--lh-tight);
+  position: relative;
+  z-index: var(--z-level-front);
+  min-width: 120ch;
   border-spacing: 0;
+  line-height: var(--lh-tight);
+  background-color: var(--lighter);
   
   thead {
-    background-color: var(--lightest);
     position: sticky;
-    top: 0;
     z-index: 1;
+    top: 0;
+    background-color: var(--lightest);
 
     * {
       color: var(--darkest);
@@ -170,8 +178,8 @@ table {
   }
 
   th {
-    font-weight: var(--fw-normal);
     border-left: dotted var(--border-width-s) var(--dark);
+    font-weight: var(--fw-normal);
   }
 
   th, td{
@@ -183,42 +191,39 @@ table {
   }
 
   td {
-    text-align: center;
-    border-left: dotted var(--border-width-s) var(--dark);
     position: relative;
     height: 2em;
+    border-left: dotted var(--border-width-s) var(--dark);
+    text-align: center;
   }
 
   th.is-vertical {
-
     position: relative;
+    width: 3ch;
+
     /* Something you can count on */
     height: 34ch;
-    width: 3ch;
     white-space: nowrap;
 
     & > div {
       position: absolute;
-      
-      left: 0.45ch;
       bottom: 1ch;
-      transform: rotate(-90deg);
+      left: 0;
       width: 30px;
+      transform: rotate(-90deg);
     }
   }
 
   th.module-name{
+    width: fit-content;
     text-align: left;
-    width: 30ch;
   }
 
   .is-checked{
-    background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    inset: 0;
+    background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
+
     &::before{
       line-height: 2ch;
     }

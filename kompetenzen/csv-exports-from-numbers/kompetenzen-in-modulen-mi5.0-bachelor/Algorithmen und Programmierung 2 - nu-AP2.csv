@@ -15,10 +15,10 @@ Developing Interactive and Distributed Systems;"Technologie
 ";Können hardware-basierte Technologien zur Interaktion mit Computern in verschiedenen Modalitäten einsetzen (bspw. sprachbasierte Interaktion, Tangible Computing, Physical Computing, Sensoren und Aktoren).;0;0;
 ;;Kennen State-of-the-art Technologie zur Umsetzung von software-basierten Anwendungen (insb. in den Bereichen Web, Mobile, IoT, AR/VR, AI), können konkurrierende alternative Technologien auswählen und evaluieren, sich neue technologische Möglichkeiten erschließen, diese bewerten, nutzen, und integrieren sowie zukunftsorientiert neue Möglichkeiten screenen.;0;0;
 ;;Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, MQTT).;0;0;
-;;Wissen was ein Computer ist und wie Software darauf ausgeführt wird.;2;0;
-;Entwurf;Verstehen formale Strukturen.;1;2;
-;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;1;2;
-;;Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.;0;3;
+;;Wissen was ein Computer ist und wie Software darauf ausgeführt wird.;2;1;
+;Entwurf;Verstehen formale Strukturen.;1;3;
+;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;1;3;
+;;Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.;0;4;
 ;;Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können.;0;0;
 ;Implementierung;Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).;0;2;
 ;;Können (komplexe) Softwaresysteme im Team entwickeln.;0;0;
@@ -32,7 +32,7 @@ Driving Creation Process;"Innovation
 ;;Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.;0;0;
 ;;Können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch Dritte in ein Ökosystem bereitstellen.;0;0;
 ;;Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc;0;0;
-;Management;Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.;1;1;
+;Management;Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.;1;2;
 ;;Können ein Team zusammenstellen und dieses lauf- und lebensfähig halten.;0;0;
 ;;Können kreative und agile Prozesse hinsichtlich Zeit- und Ressourcenmanagement effizient durchführen und verwalten.;0;0;
 ;Kommunikation;Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln.;0;0;
@@ -66,6 +66,6 @@ Enhancing Interactions on Different Scales;"Analyse, Studien und Experimente
 ;;Haben ein Verständnis von ethischen Richtlinien, Standards sowie dem Schutz der Privatsphäre zum Wohlergehen der Nutzer:innen und können dieses in eigenes Handeln integrieren.;0;0;
 ;;Können die Wirkung etablierter und neu entwickelter (interaktiver) Medien auf die Gesellschaft reflektieren und in der eigenen Entwicklung berücksichtigen.;0;0;
 ;Selbstlernen;Können wissenschaftlich Arbeiten und Schreiben.;0;0;
-;;Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.;0;2;
+;;Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen.;0;3;
 ;;;;;
 Weitere Kompetenzen, die für dieses Modul erforderlich sind oder durch das Modul ausgebildet werden.;;;0;0;

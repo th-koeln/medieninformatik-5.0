@@ -26,6 +26,13 @@ meta:
   status: ok   
   authors: viet
   reviewers: viet
+
+studiengangkriterien:
+  globalcitizenship: 0
+  internationalisierung: 0
+  interdisziplinaritaet: 0
+  transfer: 0
+
 ---
 ## Kurzbeschreibung
 

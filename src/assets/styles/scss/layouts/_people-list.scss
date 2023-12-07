@@ -2,13 +2,11 @@
 ############################################################################ */
 
 .people-list{
-
   .module-list{
-
     h3{
-      font-size: var(--m);
-      margin-bottom: 0;
       margin-top: var(--s);
+      margin-bottom: 0;
+      font-size: var(--m);
     }
 
     ul{
