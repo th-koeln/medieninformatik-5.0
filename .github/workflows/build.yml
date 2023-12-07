@@ -2,7 +2,7 @@ name: 11ty Build
 
 on:
   push:
-    branches: ['main']
+    branches: ['public']
   workflow_dispatch:
     inputs:
       environment:
@@ -35,6 +35,7 @@ jobs:
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/public'
         with:
           publish_dir: docs 
           publish_branch: gh-pages
