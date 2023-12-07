@@ -6,6 +6,8 @@ inToc: false
 bodyClass: home
 inOverview:
   - home-stakeholder
+tocs:
+  - boards  
 cardTitle: "Für Fakultätsrat"
 teaserText: "Unterlagen und Infos für den Fakultätsrat: Umlaufbeschluss zur Freigabe der Unterlagen für die SK1"
 ---
@@ -37,6 +39,12 @@ Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss, aus dem hervor geht, da
 ### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-fakrat"></snippet>
 - Prüfungsordnung Master (tbd)
+
+---
+
+## Keine Papierversion
+
+<snippet type="text" id="no-paper-statement" src="misc/no-paper"></snippet>
 
 ---
 

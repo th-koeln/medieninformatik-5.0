@@ -2,10 +2,12 @@
 title: "Material für die externen Gutachter:innen"
 subtitle: "Danke für den Support 😎"
 layout: page.11ty.js
-inToc: true
+inToc: false
 bodyClass: home
 inOverview:
   - home-stakeholder
+tocs:
+  - boards
 cardTitle: "Für externe Gutachter*innen"
 teaserText: "Material, Infos und Checkliste für die externen Gutachter*innen"
 ---
@@ -26,8 +28,13 @@ Für die Durchführung der externen Begutachtung liegt eine Checkliste auf Deuts
 
 - [Kurzbericht für Bachelor und Master](../kurzbericht/)
 
-**Bachelor**
+### Bachelor
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor-for-experts"></snippet>
 
-**Master**
+### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-experts"></snippet>
+
+
+## Keine Papierversion
+
+<snippet type="text" id="no-paper-statement" src="misc/no-paper"></snippet>
