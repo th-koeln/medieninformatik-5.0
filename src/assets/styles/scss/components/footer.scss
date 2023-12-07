@@ -6,6 +6,7 @@
   background-color: var(--darken);
 
   nav{
+    flex-grow: 2;
     padding: var(--m) var(--fluid-space-m) var(--xl);
   }
 
@@ -13,5 +14,15 @@
     padding: var(--m) var(--fluid-space-m) var(--xl);
     margin-bottom: 0;
     background-color: var(--darken);
+  }
+
+  .footer-info{
+    padding: var(--m) var(--fluid-space-m) var(--xl);
+    font-size: var(--s);
+  }
+
+  @media screen and (width >= 160ch){
+    display: flex;
+    grid-template-columns: 1fr 1fr;
   }
 }
