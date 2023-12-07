@@ -45,18 +45,18 @@ h2 {
 
 h3 {
   padding-top: var(--fluid-space-xs);
-  font-size: var(--l);
   margin-bottom: var(--fluid-space-xs);
   color: var(--darkest);
+  font-size: var(--l);
   font-weight: var(--fw-medium);
 }
 
 h4,
 h5,
 h6 {
-  font-size: var(--m);
   padding-top: var(--fluid-space-xs);
   margin-bottom: var(--half);
+  font-size: var(--m);
 }
 
 h5,
@@ -76,19 +76,19 @@ div {
 }
 
 a {
-  transition: background-color var(--tr-fast);
   color: var(--darker);
-  text-decoration-style: dotted;
   text-decoration-color:  var(--color-accent);
+  text-decoration-style: dotted;
   text-decoration-thickness: 2px;
+  transition: background-color var(--tr-fast);
 
   &:visited{
     color: var(--dark);
   }
 
   &:hover{
-    color: var(--darkest);
     background-color: var(--darken);
+    color: var(--darkest);
     text-decoration-style: solid;
   }
 }
@@ -139,9 +139,9 @@ blockquote {
 /* Einrückung und Headlines
 ############################################################################ */
 
-/*.content{
+/* .content{
   & > *:not(h1,h2,h3, h4){
     margin-left: var(--fluid-space-m);
   }
 
-}*/
+} */

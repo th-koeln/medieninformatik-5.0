@@ -26,7 +26,9 @@ module.exports = {
 					</header>
 				</section>
 
-				<section class="content">
+        <div data-js-page-navigation=".content h2"></div>
+				
+				<section class="content has-seperator">
 					${utils.parseContent(this, data)}
 				</section>
 			</main>

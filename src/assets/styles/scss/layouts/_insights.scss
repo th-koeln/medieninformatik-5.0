@@ -2,14 +2,13 @@
 ############################################################################ */
 
 .insights{
-
   .filter-wrap{
     max-width: var(--max-width-table);
   }
 
   .insight-meta{
-    border-top: solid var(--border-width-l) var(--darker);
     padding-top: var(--m);
+    border-top: solid var(--border-width-l) var(--darker);
 
     header{
       margin-bottom: var(--fluid-space-s);
@@ -24,9 +23,9 @@
 
   .insight-overview{
     display: grid;
+    padding-bottom: var(--fluid-space-m);
     gap: var(--fluid-space-s);
     grid-template-columns: repeat(auto-fill,minmax(var(--max-width-card),1fr));
-    padding-bottom: var(--fluid-space-m);
 
     &.without-tags{
       .tag{
@@ -36,11 +35,10 @@
   }
 
   .insight{
-
-    border-top: solid var(--border-width-l) var(--light);
-    margin-left: 0;
     padding-top: var(--half);
     padding-bottom: var(--s);
+    border-top: solid var(--border-width-l) var(--light);
+    margin-left: 0;
 
     & + .insight{
       margin-top: 0;

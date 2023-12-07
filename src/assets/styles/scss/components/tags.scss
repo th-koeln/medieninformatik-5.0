@@ -2,16 +2,13 @@
 ############################################################################ */
 
 .tag {
-  border: solid var(--border-width-s) var(--color-accent);
-  display: inline-block;
-  margin-right: var(--quat);
-  margin-bottom: var(--half);
-  margin-left: 0;
-  margin-top: 0;
-  padding: var(--quat) var(--quat);
-  border-radius: var(--border-radius-m);
   position: relative;
   z-index: 1;
+  display: inline-block;
+  padding: var(--quat) var(--quat);
+  border: solid var(--border-width-s) var(--color-accent);
+  border-radius: var(--border-radius-m);
+  margin: 0 var(--quat) var(--half) 0;
   color: var(--darkest);
   line-height: var(--lh-tight);
 
@@ -20,7 +17,6 @@
   }
 
   &.is-active {
-
     color: var(--lightest);
 
     &::before {
@@ -30,16 +26,13 @@
   }
 
   &::before {
-    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--color-accent);
-    opacity: 0.1;
     z-index: -1;
-    margin-left: 0;
+    inset: 0;
     width: 100%;
+    margin-left: 0;
+    background-color: var(--color-accent);
+    content: "";
+    opacity: 0.1;
   }
 }

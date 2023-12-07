@@ -4,6 +4,9 @@ subtitle: "Danke für den Support 😎"
 layout: page.11ty.js
 inToc: false
 bodyClass: home
+inOverview:
+  - home-stakeholder
+teaserText: "Material und Infos für den Studienbeirat"
 ---
 
 Liebe Mitglieder des Studienbeirats,

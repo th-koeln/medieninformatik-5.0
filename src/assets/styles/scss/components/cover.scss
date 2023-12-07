@@ -12,36 +12,36 @@
   }
 
   .title {
-    font-size: var(--xl);
-    color: var(--darker);
-    font-weight: var(--fw-light);
     max-width: var(--max-width-content);
+    color: var(--darker);
+    font-size: var(--xl);
+    font-weight: var(--fw-light);
   }
 
   .subtitle {
-    font-size: var(--xxl);
-    color: var(--darkest);
-    font-weight: var(--fw-bold);
     padding-bottom: var(--fluid-space-xl);
     margin-bottom: var(--fluid-space-xl);
+    color: var(--darkest);
+    font-size: var(--xxl);
+    font-weight: var(--fw-bold);
     line-height: var(--lh-tight);
   }
 
   .degree {
-    font-size: var(--xl);
     flex-grow: 2;
+    font-size: var(--xl);
   }
 
   .version-and-date {
     display: flex;
 
     *+* {
-      &:before {
-        content: "//";
+      &::before {
         display: inline-block;
-        padding-left: var(--half);
         padding-right: var(--half);
-        color: var(--dark)
+        padding-left: var(--half);
+        color: var(--dark);
+        content: "//"
       }
     }
   }

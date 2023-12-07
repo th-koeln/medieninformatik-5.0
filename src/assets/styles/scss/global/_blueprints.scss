@@ -2,25 +2,24 @@
 ############################################################################ */
 
 .button{
-  background-color: var(--color-accent);
-  padding: var(--s);
-  font-size: var(--m);
   display: inline-block;
-  color: var(--lightest);
+  padding: var(--s);
   border-radius: var(--border-radius-s);
   margin-left: var(--m);
-  vertical-align: top;
-
+  background-color: var(--color-accent);
+  color: var(--lightest);
+  font-size: var(--m);
   transition: transform var(--tr-fast) ease-in-out;
+  vertical-align: top;
 
   &:hover{
     transform: rotate(90deg);
   }
 
   i{
+    display: flex;
     width: var(--m);
     height: var(--m);
-    display: flex;
     align-items: center;
     justify-content: center;
     aspect-ratio: 1/1;
@@ -31,20 +30,19 @@
 ############################################################################ */
 
 .cta{
-  background-color: var(--color-accent);
-  padding: var(--s);
-  font-size: var(--m);
   display: inline-block;
-  color: var(--lightest);
+  padding: var(--s);
   border-radius: var(--border-radius-s);
+  background-color: var(--color-accent);
+  color: var(--lightest);
+  font-size: var(--m);
+  transition: transform var(--tr-fast) ease-in-out;
   vertical-align: top;
 
-  transition: transform var(--tr-fast) ease-in-out;
-
   i{
+    display: flex;
     width: var(--m);
     height: var(--m);
-    display: flex;
     align-items: center;
     justify-content: center;
     aspect-ratio: 1/1;

@@ -39,9 +39,9 @@
   --lightest: #fff;
   --lighten: rgb(255 255 255 / 50%);
   --lighten-strong: rgb(255 255 255 / 80%);
-  --dark: rgba(0,0,0,0.6);
-  --darker: rgba(0,0,0,0.8);
-  --darkest: rgba(0,0,0,1);
+  --dark: rgb(0 0 0 / 60%);
+  --darker: rgb(0 0 0 / 80%);
+  --darkest: rgb(0 0 0 / 100%);
   --darken: rgb(0 0 0 / 10%);
   --darken-strong: rgb(0 0 0 / 20%);
   --darken-light: rgb(0 0 0 / 5%);
@@ -52,10 +52,10 @@
   --color-decoration: var(--dark);
   --color-background: var(--lighter);
   --color-wip: var(--darker);
-  --ff-normal: IBMplex, sans-serif;
-  --ff-serif: IBMplex, serif;
-  --ff-code: IBMplex, monospace;
-  --ff-headline: IBMplex, monospace;
+  --ff-normal: ibmplex, sans-serif;
+  --ff-serif: ibmplex, serif;
+  --ff-code: ibmplex, monospace;
+  --ff-headline: ibmplex, monospace;
   --ff-icons: "MaterialIcons", serif;
   --fw-normal: 300;
   --fw-medium: 500;
@@ -78,6 +78,9 @@
   --border-width-l: 6px;
   --border-radius-s: 3px;
   --border-radius-m: 0.5ch;
+  --z-level-front: 10;
+  --z-level-middle: 5;
+  --z-level-back: 0;
 }
 
 /* Viewportgrößen für Media Queries

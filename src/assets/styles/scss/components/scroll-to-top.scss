@@ -6,9 +6,9 @@
   z-index: 100;
   right: var(--xs);
   bottom: -200px;
-  background-color: var(--color-accent);
-  border-radius: 50%;
   overflow: hidden;
+  border-radius: 50%;
+  background-color: var(--color-accent);
   transition: all var(--tr-fast);
 
   &:hover{
@@ -17,17 +17,17 @@
 
   a {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: var(--xl);
-    color: var(--lightest);
     width: 3ch;
     height: 3ch;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightest);
+    font-size: var(--xl);
     text-decoration: none;
 
     span{
-      transition: margin var(--tr-fast);
       margin-top: 0;
+      transition: margin var(--tr-fast);
     }
 
     &:hover{

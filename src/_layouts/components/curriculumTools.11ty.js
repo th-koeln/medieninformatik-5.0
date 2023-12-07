@@ -428,7 +428,6 @@ exports.getChildModulListBySchwerpunkt = (data, headlineChilds, eleventy) => {
 exports.getModulMatrix = (obj) => {
 
   const { moduls } = obj;
-  const studyProgramme = obj.studyProgramme ? obj.studyProgramme : 'master';
   const { handlungsfelder } = obj;
   const { eleventy } = obj;
 
@@ -540,43 +539,44 @@ exports.getModulMatrix = (obj) => {
   }).join("");
   
   return `
-    <table class="table-modulmatrix is-narrow">
-      <thead>
-        <tr>
-          <th colspan=5>Modul</th>
-          <th colspan=5>Handlungsfelder</th>
-          <th colspan=16>Zuordnung Kompetenzen</th>
-          <th colspan=4>Zuordnung Studiengangkriterien</th>
-        </tr>
-        <tr>
-          <!-- Modul -->
-          <th class="module-name"></th>
-          <th class="is-vertical"><div><span>Pflicht</span></div></th>
-          <th class="is-vertical"><div><span>ECTS</span></div></th>
-          <th class="is-vertical"><div><span>Semester</span></div></th>
-          <th class="is-vertical"><div><span>Prüfungen</span></div></th>
-  
-          <!-- Handlungsfelder -->
-          <th class="is-vertical"><div><span>DUX</span></div></th>
-          <th class="is-vertical"><div><span>DEV</span></div></th>
-          <th class="is-vertical"><div><span>EXA</span></div></th>
-          <th class="is-vertical"><div><span>CREA</span></div></th>
-          <th class="is-vertical"><div><span>INDI</span></div></th>
-  
-          <!-- Zuordnung Kompetenzen -->
-          ${kompetenzSpalten}
-  
-          <!-- Zuordnung Studiengangkriterien -->
-          <th class="is-vertical"><div><span>Global Citizenship</span></div></th>
-          <th class="is-vertical"><div><span>Internationalisierung</span></div></th>
-          <th class="is-vertical"><div><span>Interdisziplinarität</span></div></th>
-          <th class="is-vertical"><div><span>Transfer</span></div></th>
-  
-        </tr>
-      </thead>
-      <tbody>
-        ${modulRows}
-      </tbody> 
-    </table>
+    <div class="modulmatrix-wrap">
+      <table class="table-modulmatrix is-narrow">
+        <thead>
+          <tr>
+            <th colspan=5>Modul</th>
+            <th colspan=5>Handlungsfelder</th>
+            <th colspan=16>Zuordnung Kompetenzen</th>
+            <th colspan=4>Zuordnung Studiengangkriterien</th>
+          </tr>
+          <tr>
+            <!-- Modul -->
+            <th class="module-name"></th>
+            <th class="is-vertical"><div><span>Pflicht</span></div></th>
+            <th class="is-vertical"><div><span>ECTS</span></div></th>
+            <th class="is-vertical"><div><span>Semester</span></div></th>
+            <th class="is-vertical"><div><span>Prüfungen</span></div></th>
+
+            <!-- Handlungsfelder -->
+            <th class="is-vertical"><div><span>DUX</span></div></th>
+            <th class="is-vertical"><div><span>DEV</span></div></th>
+            <th class="is-vertical"><div><span>EXA</span></div></th>
+            <th class="is-vertical"><div><span>CREA</span></div></th>
+            <th class="is-vertical"><div><span>INDI</span></div></th>
+
+            <!-- Zuordnung Kompetenzen -->
+            ${kompetenzSpalten}
+
+            <!-- Zuordnung Studiengangkriterien -->
+            <th class="is-vertical"><div><span>Global Citizenship</span></div></th>
+            <th class="is-vertical"><div><span>Internationalisierung</span></div></th>
+            <th class="is-vertical"><div><span>Interdisziplinarität</span></div></th>
+            <th class="is-vertical"><div><span>Transfer</span></div></th>
+          </tr>
+        </thead>
+        <tbody>
+          ${modulRows}
+        </tbody> 
+      </table>
+    </div>
   `;
 };

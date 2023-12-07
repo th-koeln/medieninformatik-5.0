@@ -4,7 +4,12 @@ subtitle: "Danke für den Support 😎"
 layout: page.11ty.js
 inToc: true
 bodyClass: home
+inOverview:
+  - home-stakeholder
+cardTitle: "Für externe Gutachter*innen"
+teaserText: "Material, Infos und Checkliste für die externen Gutachter*innen"
 ---
+
 
 Liebe externe Gutachter:innen,
 

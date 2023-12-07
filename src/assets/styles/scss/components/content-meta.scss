@@ -2,17 +2,16 @@
 ############################################################################ */
 
 ul.content-meta{
-  
-  margin-bottom: var(--m);
-  border-bottom: dotted var(--border-width-m) var(--darken);
-  padding-bottom: var(--m);
   position: relative;
+  padding-bottom: var(--m);
+  border-bottom: dotted var(--border-width-m) var(--darken);
+  margin-bottom: var(--m);
 
   & > li{
-    margin-left: 0;
     padding-right: var(--fluid-space-l);
+    margin-left: 0;
 
-    &:before{
+    &::before{
       content: "";
     }
   }
@@ -22,12 +21,11 @@ ul.content-meta{
   }
 
   .animated-icon {
+    position: absolute;
+    top: calc(var(--m) * -1);
+    right: 0;
     max-width: var(--fluid-space-l);
     max-height: var(--fluid-space-l);
-    position: absolute;
-    right: 0;
-    top: calc(var(--m) * -1);
-
     transition: all var(--tr-slow);
 
     &:hover{

@@ -2,18 +2,19 @@
 ###########################################################################  */
 
 .main-header {
+  z-index: 100;
   padding: var(--xs) var(--fluid-space-m);
   margin: 0;
   background-color: var(--darken);
-  z-index: 100;
   
   ul{
-    margin: 0;
     padding: 0;
+    margin: 0;
     
     li{
-      font-size: var(--l);
       margin-left: 0;
+      font-size: var(--l);
+
       &::before{
         content: "";
       }
@@ -25,6 +26,6 @@
 ###########################################################################  */
 
 .content-header{
-  margin-bottom: var(--fluid-space-l);
   padding-bottom: var(--fluid-space-s);
+  margin-bottom: var(--fluid-space-l);
 }

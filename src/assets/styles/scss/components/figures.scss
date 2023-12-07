@@ -10,37 +10,32 @@ figure.image{
 ############################################################################ */
 
 .screenshot{
-
+  position: relative;
   margin-top: var(--fluid-space-l);
   margin-bottom: var(--fluid-space-l);
-
-  position: relative;
   
   &-wrapper{
+    position: relative;
     display: block;
-    aspect-ratio: 16/9;
-    width: 100%;
     overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16/9;
     object-fit: cover;
     object-position: 50% -50%;
-    position: relative;
     
     img{
-      transform: perspective(200px) translateZ(50px) translateY(-25%) rotateY(5deg);
-      display: block;
-      z-index: 0;
       position: relative;
+      z-index: 0;
+      display: block;
+      transform: perspective(200px) translateZ(50px) translateY(-25%) rotateY(5deg);
     }
 
     &::before{
-      content: "";
       position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
       z-index: 1;
-      background: radial-gradient(circle, rgba(255,255,255,0) 75%, rgba(0,0,0,0.25) 100%);
+      inset: 0;
+      background: radial-gradient(circle, rgb(255 255 255 / 0%) 75%, rgb(0 0 0 / 25%) 100%);
+      content: "";
     }
   }
 }
@@ -50,12 +45,10 @@ figure.image{
 
 .image, .screenshot{
   figcaption{
-
     padding: var(--xs) 0 var(--xs);
-    font-weight: var(--fw-medium);
-
     border-top: solid var(--border-width-m) var(--dark);
     border-bottom: solid var(--border-width-m) var(--dark);
+    font-weight: var(--fw-medium);
 
     strong{
       display: block;
