@@ -19,13 +19,17 @@ competencies:
         competence: "Verfügen über tiefe Kenntnisse im Bereich Interaktionsdesign: z.B. multimodaler Interaktion, gestenbasiertem Design, taktilem Feedback, Berührungsschnittstellen oder natürlicher sowie greifbarer Benutzungsschnittstellen."
       - title: Mixed Reality
         competence: "Können immersive und interaktive Erfahrungen in virtuellen oder erweiterten Umgebungen entwerfen, entwickeln und evaluieren."
+        excelString: "Können immersive und interaktive Erfahrungen in virtuellen oder erweiterten Umgebungen entwerfen und entwickeln."
       - title: "3D Modell"
         competence: "Können dreidimensionale Modelle erstellen und diese für Animationen, Visualisierungen oder Mixed Reality anwenden und kennen und beherrschen dazu erforderliche Workflows und Softwarewerkzeuge."
+        excelString: "Können dreidimensionale Modelle erstellen und diese für Animationen, Visualisierungen oder Augmented/ Mixed/ Virtual-Reality anwenden und kennen und beherrschend dazu erforderliche Tools und Software."
       - title: Künstliche Intelligenz
         competence: "Haben vertiefte Kenntnisse in den Bereichen künstliche Intelligenz (KI) und maschinelles Lernen z.B. in der Implementierung von intelligentem Verhalten, maschinellem Sehen oder natürlicher Sprachverarbeitung."
       - title: Interaktive Computergrafik
+        status: 'new'
         competence: "Können moderne Grafikhardware effizient für fortschrittliche Rendering Techniken einsetzen, um interaktive Anwendungen in 2D und 3D Kontexten zu konzipieren und umzusetzen."
       - title: Datenvisualisierung
+        status: 'new'
         competence: "Haben die Fähigkeit zur Untersuchung und Visualisierung großer Datenmengen, um komplexe Daten zu analysieren, kontextualisieren und Ergebnisse auf verständliche und ansprechende Weise zu präsentieren."
       - title: Gamification
         competence: "Können Serious Games oder gamifizierte Anwendungen konzipieren und entwickeln, die Lern- oder Trainingsziele unterstützen: z.B. Integration von Spielmechaniken, Puzzles oder Belohnungssystemen in interaktive Medien."
@@ -35,6 +39,7 @@ competencies:
       - title: Ideen generieren
         competence: "Können neue und unkonventionelle Ideen generieren, diese (systematisch) variieren und weiter entwickeln."
       - title: Analytisches Vorgehen
+        status: 'new'
         competence: "Können Nutzungsszenarien entwickeln und untersuchen, Nutzungsbedarfe daraus methodisch herausarbeiten, um diese in die Konzeption, Umsetzung und Evaluation neuartiger Lösungen zielgerichtet einfließen zu lassen."
       - title: Interdisziplinarität
         competence: "Können Ansätze, Denk- und Vorgehensweisen aus verschiedenen Fachrichtungen nutzen, kombinieren und einsetzen um neue Ideen und Lösungen zu erzeugen."
@@ -49,6 +54,7 @@ competencies:
   - title: Entwicklungsmethoden und Prototyping
     sub:
       - title: Entwicklungsprozesse
+        status: 'new'
         competence: "Können verschiedene Vorgehensmodelle für die Anforderungsanalyse, Konzeption, Entwicklung und Evaluation interaktiver Systeme einsetzen und kritisch bewerten."
       - title: Formen
         competence: "Beherrschen verschiedene Formen von Prototyping zum frühzeitigen Einholen von Feedback und zum Erklären, Erkunden und erlebbar machen von Ideen und Ansätzen."

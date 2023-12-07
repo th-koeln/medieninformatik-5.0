@@ -49,6 +49,7 @@ competencies:
       - title: Selbstständigkeit
         competence: "Können sich selbstständig neue Wissens- und Kompetenzbereiche zu Methoden, Technologien oder Domänen erschließen."
       - title: Selbstkompetenz
+        status: 'new'
         competence: "Fähigkeit und Bereitschaft, eigenständig und verantwortlich zu handeln, das eigene und das Handeln anderer zu reflektieren und die eigene Handlungsfähigkeit weiterzuentwickeln"
 
 ---

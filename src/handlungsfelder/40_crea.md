@@ -1,5 +1,5 @@
 ---
-title: Driving Creation Processes
+title: Driving Creation Process
 kuerzel: crea
 layout: page.11ty.js
 level: 1
@@ -40,6 +40,7 @@ competencies:
         competence: "Können effektive und transparente Kommunikation und Zusammenarbeit fördern, Konflikte erkennen, analysieren und lösen."
       - title: Präsentation
         competence: "Sind in der Lage Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren."
+        excelString: "Sind in der Lage Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren."
       - title: Fachperspektiven
         competence: "Haben die Fähigkeit effektiv in multidisziplinären Teams zu arbeiten und die verschiedenen Fachperspektiven und -sprachen zu verstehen."
 

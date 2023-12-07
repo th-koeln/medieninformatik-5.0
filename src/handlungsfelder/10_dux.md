@@ -22,28 +22,36 @@ competencies:
         competence: "Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert."
       - title: Requirements
         competence: "Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse, Erfordernisse und die Erwartungen der BenutzerInnen verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden."
+        excelString: "Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden."
       - title: Kontexte
         competence: "Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern."
+        excelString: 
   - title: Konzepte
     sub:
       - title: Konzeptionelles Denken
         competence: "Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen."
       - title: Interaktionskonzepte
         competence: "Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, zu adressierenden Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten."
+        excelString: "Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten."
       - title: Interaktionsdesigns
         competence: "Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Handlungs- und Interaktionsflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden."
+        excelString: "Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden."
       - title: Informationsarchitekturen
         competence: "Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren."
   - title: Gestaltung
     sub:
       - title: Visuelles Design
         competence: "Haben ein gutes Verständnis für visuelles Design: Farbe, Typografie, Layout, visuelle Hierarchisierung, Designsysteme etc."
+        excelString: 
       - title: Daten Visualisierung
         competence: "Können visuelle Darstellung und Präsentation komplexer Daten und Informationen für verschiedene Zielgruppen konzipieren und erstellen."
+        excelString: 
       - title: Inklusion
         competence: "Verfügen über Kenntnisse in der Gestaltung und Umsetzung barrierefreier, inklusiver und zugänglicher Interaktionen, Systeme und Medienprodukte."
+        excelString: "Verfügen über Kenntnisse in der Gestaltung und Umsetzung barrierefreier und inklusiver Interaktionen, Systeme und Medienprodukte."
       - title: Story Telling
         competence: "Verstehen narrative Strukturen und können diese in unterschiedlichen Medien und Kontexten zum Storytelling einsetzen."
+        excelString: 
 ---
 
 

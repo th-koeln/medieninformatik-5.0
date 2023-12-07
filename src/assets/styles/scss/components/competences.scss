@@ -21,6 +21,10 @@
     font-size: var(--m);
   }
 
+  h4{
+    margin-bottom: var(--fluid-space-s);
+  }
+
   .competence-bereiche {
     &>li {
       position: relative;
