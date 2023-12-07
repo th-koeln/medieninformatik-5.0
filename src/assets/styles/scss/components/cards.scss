@@ -1,3 +1,5 @@
+/* stylelint-disable custom-property-pattern */
+
 /* Content Cards 
 ############################################################################ */
 
@@ -17,22 +19,11 @@ ul.content-card-overview + ul.content-card-overview {
   padding-top: 0;
 }
 
-
-ul.content-card-overview.stakeholder{
-  .content-card-item{
-    border-color: var(--mi-lila);
-  }
-}
-
-ul.content-card-overview.misc{
-  .content-card-item{
-    border-color: var(--mi-blau);
-  }
-}
-
 .content-card{
   &-item{
+    height: 100%;
     padding: var(--fluid-space-xs) var(--fluid-space-xs) var(--fluid-space-s) var(--fluid-space-xs);
+    padding-right: calc(var(--fluid-space-xs) * 2);
     border-left: solid var(--border-width-m) var(--color-accent);
     background-color: var(--lightest);
     box-shadow: var(--shadow-l-light);
@@ -40,6 +31,7 @@ ul.content-card-overview.misc{
     transition: all var(--tr-fast);
 
     &:hover{
+      padding-right: var(--fluid-space-xs);
       padding-left: var(--fluid-space-s);
       border-width: var(--border-width-l);
       box-shadow: var(--shadow-l);
@@ -50,8 +42,6 @@ ul.content-card-overview.misc{
         text-decoration-thickness: 2px;
       }
     }
-
-
 
     a {
       display: block;
@@ -72,5 +62,17 @@ ul.content-card-overview.misc{
         
       }
     }
+  }
+}
+
+ul.content-card-overview.stakeholder{
+  .content-card-item{
+    border-color: var(--mi-lila);
+  }
+}
+
+ul.content-card-overview.misc{
+  .content-card-item{
+    border-color: var(--mi-blau);
   }
 }
