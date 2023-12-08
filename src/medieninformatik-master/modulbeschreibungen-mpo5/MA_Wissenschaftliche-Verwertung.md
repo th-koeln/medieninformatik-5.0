@@ -1,6 +1,7 @@
 ---
 title: In der Forschung punkten – wissenschaftliche Verwertung von Forschungsideen und -ergebnissen
-kuerzel: VW2
+kuerzel: WIVE
+
 modulverantwortlich: mbluemm
 dozierende: mbluemm
 modulniveau: master
