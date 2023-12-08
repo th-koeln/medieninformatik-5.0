@@ -15,7 +15,7 @@ Nutzt [11ty](https://www.11ty.dev) für die strukturierte Ablage von Content.
 
 ## Deployment
 
-Seit dem 07.12.2023 wird der `public` Branch deployt, da wir jetzt die URL an externe weiter gegeban haben und der Stand stabil sein muss. Wenn ihr Änderungen habt, benutzt bitte am Besten einen Pull Request.
+Seit dem 07.12.2023 wird der `public` Branch deployt, da wir jetzt die URL an externe weiter gegeben haben und der Stand stabil sein muss. Wenn ihr Änderungen habt, benutzt bitte am Besten einen Pull Request.
 
 ## Ordnerstruktur
 
