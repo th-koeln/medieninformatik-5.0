@@ -13,7 +13,6 @@ angebotImSs: true
 layout: modulbeschreibung.11ty.js
 parent: WAMO-SP, WAMO
 schwerpunkt: DEV
-typ: pm
 kategorie: schwerpunkt
 
 studienleistungen:

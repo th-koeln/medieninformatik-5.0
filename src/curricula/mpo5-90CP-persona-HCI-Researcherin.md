@@ -23,7 +23,7 @@ studienverlauf:
             - "RIM" # Pflicht
             - "ID" # Schwerpunkt
             - "DM" # Wahl
-            - "VW2" # Wahl
+            - "WIVE" # Wahl
             - "UC" # Wahl
     - semester:
         label: "2. Semester"
