@@ -19,10 +19,10 @@ moe:
     mi: true
 
 mza:
-    id: moe
+    id: mza
     status: prof
     name: 'Prof. Dr. Matthias Zapp'
-    avatar: '/professoren/zapp.png'
+    avatar: '/professoren/zapp.jpg'
     personenseite: 'https://www.th-koeln.de/personen/matthias.zapp/'
 
 fn:
