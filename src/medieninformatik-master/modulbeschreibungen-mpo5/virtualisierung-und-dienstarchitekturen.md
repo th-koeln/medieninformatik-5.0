@@ -62,6 +62,10 @@ effort:
     exercise: 0
     project_supervision: 0
     project_work: 0
+
+meta:
+  status: ok
+  
 ---
 
 

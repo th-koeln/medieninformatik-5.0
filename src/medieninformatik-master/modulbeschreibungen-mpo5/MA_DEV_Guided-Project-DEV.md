@@ -26,7 +26,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: rfreview
+  status: ok
   authors: Gerhard
   reviewers: Matthias
 

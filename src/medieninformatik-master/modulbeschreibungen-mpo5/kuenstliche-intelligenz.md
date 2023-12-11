@@ -25,7 +25,7 @@ studienleistungen:
     zweitpruefer: jschaible
     datum: 
 meta:
-  status: tbd
+  status: ok
 
 studiengangkriterien:
   globalcitizenship: 1

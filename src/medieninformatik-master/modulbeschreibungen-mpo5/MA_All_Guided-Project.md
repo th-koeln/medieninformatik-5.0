@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: tbd    
+  status: ok    
 
 studiengangkriterien:
   globalcitizenship: 1
@@ -61,13 +61,15 @@ The students work on documentation of the project results, research state of the
 The overall grade is based on the project results, project report, presentation, and possibly other parts (at the discretion of the individual lecturer). 
 
 ## Präsenzzeit
+- 30 h Projekt-Audits
+- 30 h Feedback-Termine 
 
 ## Selbststudium
+- 300 h Projektarbeit
 
 ## Empfohlene Literatur
 
 Depending on the project.
 
 ## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten
+- Digital Sciences

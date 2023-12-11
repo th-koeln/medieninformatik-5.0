@@ -60,20 +60,22 @@ effort:
     exercise: 0
     project_supervision: 12
     project_work: 90
+
+meta:
+  status: ok
+  
 ---
                 
-## Learning Outcome 
-
-As a requirements engineer or a business analyst on Master level, I can ...
-* analyse stakeholders, constraints, and goals for a planned IT system, 
-* obtain requirements for an IT system using observations, conversations, and documents; all of which 
+## Learning Outcome
+As a requirements engineer or a business analyst on Master level, I can
+- analyse stakeholders, constraints, and goals for a planned IT system, 
+- obtain requirements for an IT system using observations, conversations, and documents; all of which 
 will be based on natural-language, and may contain implicit, potentially incomplete, and 
 contradictory information,
-* structure and formalize these information as requirements in a complete und consistent way,     
-* prioritize these requirements for software design and implementation, 
-* and document the requirements as a specification for a waterfall or agile project 
-
-* by doing the following:
+- structure and formalize these information as requirements in a complete und consistent way,     
+- prioritize these requirements for software design and implementation, 
+- and document the requirements as a specification for a waterfall or agile project 
+- by doing the following:
     * knowing, selecting, and applying the appropriate method(s) für requirements engineering, analysis, 
         documentation, testing, and management   
     * consciously deciding which method(s) are applicable in a given context with its stakeholder and boundary 

@@ -25,7 +25,7 @@ studienleistungen:
     zweitpruefer: gh
     datum: ende
 meta:
-  status: rfreview  
+  status: ok  
   authors: Christian Kohls
   reviewers: Christian Kohls  
 studiengangkriterien:

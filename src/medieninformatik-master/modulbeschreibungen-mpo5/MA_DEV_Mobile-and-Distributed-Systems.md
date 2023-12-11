@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: 
     datum: 
 meta:
-  status: rfreview     
+  status: ok
 
 studiengangkriterien:
   globalcitizenship: 0

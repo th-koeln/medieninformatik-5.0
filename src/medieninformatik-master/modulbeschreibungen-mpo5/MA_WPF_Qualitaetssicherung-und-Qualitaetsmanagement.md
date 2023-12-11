@@ -27,7 +27,7 @@ studienleistungen:
     zweitpruefer: alm
     datum:
 meta:
-  status: rfreview  
+  status: ok  
   authors: Mario Winter
   reviewers: Mario Winter
 

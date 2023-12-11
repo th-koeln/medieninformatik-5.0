@@ -25,7 +25,7 @@ studienleistungen:
     zweitpruefer: nkuhn
     datum: vereinbarung
 meta:
-  status: rfreview
+  status: ok
   authors: Gerhard
   reviewers: Gerhard
 
