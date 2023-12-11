@@ -27,7 +27,7 @@ Euer MI Entwicklungsteam
 03.12.2023
 
 ## Beschluss
-Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss, aus dem hervor geht, dass wir mit folgendem Material in die SK1 gehen können: 
+Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss: Beschluss des Fakultätsrats zur Freigabe der Studiengangdokumente einschließlich der Prüfungsordnungen, um mit dem folgenden Material in die SK1 gehen zu können:
 
 - [Kurzbericht für den Medieninformatik Bachelor und Master](../kurzbericht/)
 
