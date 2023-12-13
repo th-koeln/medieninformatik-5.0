@@ -44,12 +44,10 @@ Einsatzszenarien von IT und entsprechende Sicherheitseigenschaften und Sicherhei
 4 SWS: Vorlesung 2 SWS; Seminar 2 SWS
 
 ## Arbeitsaufwand 
-Gesamtaufwand 180 Stunden, davon 
 
-- 36h Vorlesung 
-- 36h Seminar
-- 36h Projektarbeit  
-- 72h Selbststudium 
+- Kontaktzeit: 90h (54h Vorlesung / 36h Seminar)
+- Selbstlernzeit 90h
+
 
 ## Angestrebte Lernergebnisse
 
