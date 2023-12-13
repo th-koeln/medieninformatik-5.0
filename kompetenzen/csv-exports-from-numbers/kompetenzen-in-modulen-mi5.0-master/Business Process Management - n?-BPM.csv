@@ -16,20 +16,20 @@ Developing Interactive and Distributed Systems;"Technologie
 ;;Kennen State-of-the-art Technologie zur Umsetzung von software-basierten Anwendungen (insb. in den Bereichen Web, Mobile, IoT, AR/VR, AI), können konkurrierende alternative Technologien auswählen und evaluieren, sich neue technologische Möglichkeiten erschließen, diese bewerten, nutzen, und integrieren sowie zukunftsorientiert neue Möglichkeiten screenen.;0;0;
 ;;Wissen wie Kommunikation zwischen Computern realisiert wird (bspw. req/res, pub/sub und Protokolle wie HTTP, MQTT).;0;0;
 ;;Wissen was ein Computer ist und wie Software darauf ausgeführt wird.;0;0;
-;Entwurf;Verstehen formale Strukturen.;2;2;
-;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;2;3;
-;;Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.;0;2;
+;Entwurf;Verstehen formale Strukturen.;2;4;
+;;Können abstrahieren, logisch denken und komplexe Zusammenhänge verstehen.;2;4;
+;;Können Aspekte realweltlicher Probleme zu identifizieren, die für eine informatische Modellierung geeignet sind, algorithmische Lösungen für diese (Teil-)Probleme bewerten und selbst so zu entwickeln, dass diese Lösungen mit einem Computer operationalisiert werden können.;0;3;
 ;;Konzepte (bspw. Paradigmen, Architekturen, Pattern) für die web-basierte Verteilung von Komponenten (bspw. Frontend/Clients/Apps, Backend/Server/Cloud) für verteilte interaktive Anwendungen kennen und umsetzen können.;0;0;
-;Implementierung;Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).;0;0;
-;;Können (komplexe) Softwaresysteme im Team entwickeln.;0;0;
+;Implementierung;Kennen Entwicklungsumgebungen, Tools und entwicklungsnahe Prozesse und diese praktisch nutzen (insb. IDE, Compiler, Linker, Libraries, Debugging, Unit-Testing, Repositories für eigenen Code / git, Build Tools, Paketmanager).;0;2;
+;;Können (komplexe) Softwaresysteme im Team entwickeln.;0;1;
 ;;Kennen Grundkonzepte agiler Entwicklung und agilen Arbeitens wie iterative und inkrementelle Entwicklung, selbstorganisierte Teams, Transparente Kommunikation, etc. und können diese in Projekten anwenden.;1;3;
 ;;Können digitale Produkte und verschiedene Software-Artefakte zur Evaluation und zur Nutzung auf typischen Distributionswegen (bspw. Clickdummy, Web-Deployment, App Store) für verschiedene Zielgruppen bereit stellen (lauffähig, sicher und gebrauchstauglich).;0;0;
 ;;;;;
 Driving Creation Process;"Innovation
 ";Haben die Fähigkeit zur Förderung von Kreativität und Innovation: Schaffen einer unterstützenden Umgebung, das Einbringen Kreativitätstechniken, etc.;1;2;
-;;Kennen verschiedene Geschäftsmodelle und können einschätzen für welche Art von digitalem Produkt und Markt diese anwendbar sind.;0;4;
-;;Haben ein Grundverständnis, wie ein Unternehmen funktioniert.;0;4;
-;;Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.;0;4;
+;;Kennen verschiedene Geschäftsmodelle und können einschätzen für welche Art von digitalem Produkt und Markt diese anwendbar sind.;0;2;
+;;Haben ein Grundverständnis, wie ein Unternehmen funktioniert.;0;3;
+;;Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.;0;3;
 ;;Können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch Dritte in ein Ökosystem bereitstellen.;0;2;
 ;;Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc;0;3;
 ;Management;Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.;0;1;
