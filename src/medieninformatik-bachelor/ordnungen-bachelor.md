@@ -9,4 +9,4 @@ tocs:
 ---
 
 - [Praxissemesterordnung (Entwurf)](/downloads/praxissemesterordnung-mi-bachelor-v1.0.0-cn.pdf)
-- [Prüfungsordnung BPO 5 (Entwurf)](/downloads/bpo5-mi-bachelor-v1-cn.pdf)
+- [Prüfungsordnung BPO 5 (Entwurf)](/downloads/bpo5-mi-bachelor-v2-cn.pdf)
