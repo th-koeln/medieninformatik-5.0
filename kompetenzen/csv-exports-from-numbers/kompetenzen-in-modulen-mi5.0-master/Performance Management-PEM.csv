@@ -2,7 +2,7 @@ Handlungsfeld;Bereich;Kompetenzen;Braucht;Liefert;Kommentar
 Designing for User Experiences;Anforderungen und Bedarfe;Verstehen, wie menschliche Wahrnehmung, Denken und Handeln, Kommunikation und Interaktion funktioniert.;0;0;
 ;;Kennen Methoden und Techniken, mit deren Hilfe das Verhalten, die Bedürfnisse und die Erwartungen der Benutzer verstanden, erfasst und nutzbar gemacht werden können und können diese anwenden.;0;0;
 ;;Können Nutzungs- und Unternehmenskontexte analysieren und deren Auswirkungen auf Medienwahl und -ausgestaltung erörtern.;0;0;
-;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;0;0;
+;Konzepte;Haben ein ausgeprägtes konzeptionelles Denkvermögen entwickelt, um komplexe Probleme zu analysieren, innovative Lösungsansätze zu konzipieren und diese in verständliche und erfahrbare Konzepte zu überführen.;0;2;
 ;;Können multimodale/ multicodale Interaktionskonzepte unter Berücksichtigung von Benutzercharakteristika, avisierten Nutzungskontexten, ggf. regulatorischer Rahmenbedingungen (z.B. Accessibility), Designzielsetzungen etc. erarbeiten.;0;0;
 ;;Kennen Grundlagen des Interaktionsdesigns wie Modellierung von Benutzerflüssen, Erstellung von Wireframes und Prototypen, etc. und können diese in konkreten Projekten anwenden.;0;0;
 ;;Können angemessene Informationsarchitekturen entwicklen, evaluieren, iterieren und optimieren.;0;0;
@@ -27,17 +27,17 @@ Developing Interactive and Distributed Systems;"Technologie
 ;;;;;
 Driving Creation Process;"Innovation
 ";Haben die Fähigkeit zur Förderung von Kreativität und Innovation: Schaffen einer unterstützenden Umgebung, das Einbringen Kreativitätstechniken, etc.;0;0;
-;;Kennen verschiedene Geschäftsmodelle und können einschätzen für welche Art von digitalem Produkt und Markt diese anwendbar sind.;0;0;
-;;Haben ein Grundverständnis, wie ein Unternehmen funktioniert.;0;0;
-;;Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.;0;0;
+;;Kennen verschiedene Geschäftsmodelle und können einschätzen für welche Art von digitalem Produkt und Markt diese anwendbar sind.;0;3;
+;;Haben ein Grundverständnis, wie ein Unternehmen funktioniert.;0;5;
+;;Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung.;0;2;
 ;;Können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch Dritte in ein Ökosystem bereitstellen.;0;0;
 ;;Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc;0;0;
-;Management;Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.;0;0;
+;Management;Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind.;0;2;
 ;;Können ein Team zusammenstellen und dieses lauf- und lebensfähig halten.;0;0;
-;;Können kreative und agile Prozesse hinsichtlich Zeit- und Ressourcenmanagement effizient durchführen und verwalten.;0;0;
-;Kommunikation;Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln.;0;0;
+;;Können kreative und agile Prozesse hinsichtlich Zeit- und Ressourcenmanagement effizient durchführen und verwalten.;0;2;
+;Kommunikation;Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln.;0;2;
 ;;Können effektive und transparente Kommunikation und Zusammenarbeit fördern, Konflikte erkennen, analysieren und lösen.;0;0;
-;;Sind in der Lage Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren.;0;0;
+;;Sind in der Lage Arbeits- und Forschungsergebnisse klar und verständlich in aussagekräftigen, zielgruppengerechten Berichten, Präsentationen o.Ä. zu kommunizieren.;0;3;
 ;;Haben die Fähigkeit effektiv in multidisziplinären Teams zu arbeiten und die verschiedenen Fachperspektiven und -sprachen zu verstehen.;0;0;
 ;;;;;
 Exploring Advanced Interactive Media;Medien;Verfügen über tiefe Kenntnisse im Bereich Interaktionsdesign: z.B. multimodaler Interaktion, gestenbasiertem Design, taktilem Feedback, Berührungsschnittstellen oder natürlicher sowie greifbarer Benutzungsschnittstellen.;0;0;
