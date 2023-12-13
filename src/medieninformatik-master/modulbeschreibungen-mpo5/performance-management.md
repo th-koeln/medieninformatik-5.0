@@ -117,4 +117,5 @@ Lehrvideos, Folien in elektronischer Form, Fachartikel
 * Kaplan, R.S. / Norton, D.P.: The Balanced Scorecard: Translating Strategy Into Action, Harvard Business Review Press 1996
 * Few, S.: Information Dashboard Design, O’Reilly 2006
 * Oehler, K.: Corporate Performance Management mit Business Intelligence Werkzeugen, Hanser 2006
-* Creelman, J. / Smart, A.: Risk-Based Performance Management: Integrating Strategy and Risk Management, Palgrave Macmillan 2013
+* Creelman, J. / Smart, A.: Risk-Based Performance Management: Integrating Strategy and Risk Management, Palgrave Macmillan 2013* Creelman, J. / Smart, A.: Risk-Based Performance Management: Integrating Strategy and Risk Management, Palgrave Macmillan 2013
+* Buckingham, M. / Gardner, K. / Gratton, L. / Cappelli, P.: HBR's 10 Must Reads on Performance Management (English Edition),  Harvard Business Review 2023
