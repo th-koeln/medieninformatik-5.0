@@ -24,7 +24,7 @@ studienleistungen:
     erstpruefer: ck
     zweitpruefer: 
 meta:
-  status: rfreview    
+  status: ok    
   authors: Christian Kohls
   reviewers: Christian Kohls
 

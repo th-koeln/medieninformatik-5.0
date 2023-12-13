@@ -25,7 +25,7 @@ studienleistungen:
     zweitpruefer: hk
     datum: ende
 meta:
-  status: rfreview
+  status: ok
   authors: Florian
   reviewers: Florian
 
