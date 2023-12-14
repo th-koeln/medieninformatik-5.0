@@ -34,6 +34,14 @@ Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss: Beschluss des Fakultät
 ### Bachelor
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor-for-fakrat"></snippet>
 
+#### Hinweis zum Studienverlaufsplan Bachelor: 
+Im Vorschlag vom [Entwicklungsteam](/kurzbericht/#praeludium) war das Modul [Screendesign](/medieninformatik-bachelor/modulbeschreibungen-bpo5/BA_Screendesign/) im ersten Fachsemester verankert, um der [How Might We Frage](/how-might-we/?filter={"Bewertung"%3A4}) «Wie können wir die ersten zwei Semester interessanter/ (medienlastiger?) gestalten?» gerecht zu werden.
+
+Um der Forderung des Dekanats gerecht zu Inhalte zu Betriebsystemen und Rechnerarchitektur wurden folgende Varianten vorgeschlagen:
+- [Studienverlaufsplan Bachelor BPO5, Vorschlag Entwicklungsteam](/curricula/bpo5-standard/)
+- [Studienverlaufsplan Bachelor BPO5, Anpassung mit EBR und ohne Requirements Engineering](/curricula/bpo5-ebr-v2/)
+- [Studienverlaufsplan Bachelor BPO5, Anpassung mit EBR und ohne ITS](/curricula/bpo5-ebr-v2/)
+
 ### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-fakrat"></snippet>
 
