@@ -5,7 +5,7 @@ module.exports = {
 	},
 	render(data) {
 		const utils = require('./components/utils.11ty.js');
-		
+		const printUrl = data.page.url.replace(/(.*)\//, "$1-print/");
 		return `
 
 		<div class="content-wrap">
@@ -31,6 +31,8 @@ module.exports = {
 				<section class="content has-seperator">
 					${utils.parseContent(this, data)}
 				</section>
+
+				<a href="${printUrl}"><span class="icon">print</span> Druckversion zum Abheften</a>
 			</main>
 		</div>
 		`;

@@ -457,6 +457,10 @@ blockquote {
   h1, h2 {
     page-break-before: always;
   }
+
+  .competence-list {
+    display: none;
+  }
 }
 /* Vertikal zentriert
 ############################################################################ */

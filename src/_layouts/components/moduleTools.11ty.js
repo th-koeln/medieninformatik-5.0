@@ -148,6 +148,8 @@ exports.addCompetences = (data) => {
 
 exports.resolveExamInfoSimple = (examInfo) => {
 
+  if(!examInfo || examInfo === undefined) return false;
+  
   const formatExamItem = (examInfo, type) => {
     if(!examInfo[type]) return false;
     return `${examInfo[type].art}`;
