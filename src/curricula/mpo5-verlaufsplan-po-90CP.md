@@ -3,7 +3,7 @@ title: Studienverlaufsplan mit 3 Semestern (90 ECTS) als Anhang für MPO5
 layout: master-verlaufsplan-fuer-po.11ty.js
 inToc: false
 tocs:
-  - master
+  - master-verlaufsplaene
 collection: modulsMPO5
 maxCPS: 90
 

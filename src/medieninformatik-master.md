@@ -8,4 +8,11 @@ inOverview:
 teaserText: "Unterlagen und Infos zum Medieninformatik Master"
 ---
 
+### Kompetenzen, Module und Ordnungen
 <snippet type="toc" id="table-of-content-master" search="master"></snippet>
+
+### Studienverlaufspläne
+<snippet type="toc" id="table-of-content-master-curriculum" search="master-verlaufsplaene"></snippet>
+
+### Berufsbildbezogene Studienverlaufspläne
+<snippet type="toc" id="table-of-content-master-persona" search="master-berufsbilder"></snippet>

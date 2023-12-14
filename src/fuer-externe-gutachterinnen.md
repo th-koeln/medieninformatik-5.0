@@ -51,7 +51,7 @@ Hier eine Zusammenfassung der Zahlen aus der Tabelle. Insgesamt können die Stud
 - im Bachelor die Vertiefungsmodule aufgegeben wurden
 - im Bachelor eine größerer WPF Bereich installiert wurde, der Module des gesamten Lehrbereichs nutzt
 - der Master von 5 auf 3 Schwerpunkte reduziert wurde
-- im Master die Projekte jetzt offener konsruiert sind und somit mehr Synergien nutzbar sind
+- im Master die Projekte jetzt offener konstruiert sind und somit mehr Synergien nutzbar sind
 - in den Master Schwerpunkten jetzt mehr Synergien genutzt werden (können)
 
 Rückfragen zum Bachelor gerne an [Christian Noss](https://www.th-koeln.de/personen/christian.noss/). Rückfragen zum Master gerne an [Matthias Böhmer](https://www.th-koeln.de/personen/matthias.boehmer/).

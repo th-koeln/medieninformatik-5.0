@@ -3,7 +3,7 @@ title: Studienverlaufsplan alternativ Bachelor BPO5
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-    - bachelor
+    - bachelor-verlaufsplaene
     - bachelor-for-experts
     - bachelor-for-fakrat
 collection: modulsBPO5

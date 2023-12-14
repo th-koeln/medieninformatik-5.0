@@ -3,7 +3,7 @@ title: Studienverlaufsplan Bachelor BPO5 mit gestrecktem Praxissemester
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-    - bachelor
+    - bachelor-verlaufsplaene
     - bachelor-for-experts
     - bachelor-for-fakrat
 collection: modulsBPO5
