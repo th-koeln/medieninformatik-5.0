@@ -39,7 +39,7 @@ Im Vorschlag vom [Entwicklungsteam](/kurzbericht/#praeludium) war das Modul [Scr
 
 Um der Forderung des Dekanats gerecht zu Inhalte zu Betriebsystemen und Rechnerarchitektur wurden folgende Varianten vorgeschlagen:
 - [Studienverlaufsplan Bachelor BPO5, Vorschlag Entwicklungsteam](/curricula/bpo5-standard/)
-- [Studienverlaufsplan Bachelor BPO5, Anpassung mit EBR und ohne Requirements Engineering](/curricula/bpo5-ebr-v2/)
+- [Studienverlaufsplan Bachelor BPO5, Anpassung mit EBR und ohne Requirements Engineering](/curricula/bpo5-ebr/)
 - [Studienverlaufsplan Bachelor BPO5, Anpassung mit EBR und ohne ITS](/curricula/bpo5-ebr-v2/)
 
 ### Master
