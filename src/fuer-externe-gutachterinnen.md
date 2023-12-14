@@ -22,7 +22,8 @@ vielen Dank, dass ihr uns bei dem Reakkreditierungsprozess unterstützt. Wir ste
 ## Auftrag
 Für die Durchführung der externen Begutachtung liegt eine Checkliste auf Deutsch und auf Englisch vor, welche die gesetzlichen Regelungen zur inhaltlichen Konzeption von Studiengängen umfasst. Diese Checkliste dient auch der Dokumentation des Ergebnisses der externen Begutachtung. Je nach Begutachtungsformat sind getroffene Aussagen der Gutachter\:innen im Sinne eines Ergebnisprotokolls festzuhalten. Hier finden Sie entsprechende [Protokoll-Vorlage](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/vorlage_protokoll_externe_begutachtung.docx). Darüber hinaus gibt es eine [Checkliste zu formalen Vorgaben](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/checkliste_interne_prufung.xlsx). Diese werden intern durch verschiedene Hochschulreferate und die SK1 geprüft. Beide Checklisten sollen den Fakultäten die Orientierung zu den im Rahmen des Bologna-Prozesses zu beachtenden Regelungen erleichtern. Hier gibt es eine umfassende [Beschreibung zum Prozess der Studiengangentwicklung](https://www.th-koeln.de/hochschule/studiengangsentwicklung_53556.php).
 
-**Bitte nutzt diese [Checkliste für externe Begutachtung](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/checkliste_externe_begutachtung.xlsx).**
+* Bitte nutzt für den Bachelor diese [Checkliste für externe Begutachtung](/downloads/checkliste_externe_begutachtung-ba.xlsx)
+* Bitte nutzt für den Master diese [Checkliste für externe Begutachtung](/downloads/checkliste_externe_begutachtung-ma.xlsx)
 
 ## Material zur Begutachtung
 
