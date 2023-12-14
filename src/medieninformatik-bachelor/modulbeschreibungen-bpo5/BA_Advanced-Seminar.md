@@ -29,7 +29,7 @@ besonderheiten:
 praesenzZeit: 40
 selbstStudium: 110
 angebotImWs: true
-angebotImSs: false
+angebotImSs: true
 weitereStudiengaenge:
 lehrmethoden:
   - Flippeed Classroom
