@@ -17,7 +17,7 @@ exports.render = (eleventy, data, attributes) => {
     return hitCount === searchParams.length;
   });
   
-  const cardsList = filteredCards.map(card => {
+  const cardsList = filteredCards.sort().map(card => {
     
     const title = card.data.cardTitle ? card.data.cardTitle : card.data.title;
     const text = card.data.teaserText ? card.data.teaserText : '';

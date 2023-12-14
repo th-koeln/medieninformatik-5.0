@@ -55,3 +55,19 @@ Hier eine Zusammenfassung der Zahlen aus der Tabelle. Insgesamt können die Stud
 - in den Master Schwerpunkten jetzt mehr Synergien genutzt werden (können)
 
 Rückfragen zum Bachelor gerne an [Christian Noss](https://www.th-koeln.de/personen/christian.noss/). Rückfragen zum Master gerne an [Matthias Böhmer](https://www.th-koeln.de/personen/matthias.boehmer/).
+
+## Weiteres Material
+
+Ich hab eine Mail mit weiterem Material (Zahlen und Abschlussarbeiten) geschickt.
+
+### Infos zu den Unterlagen im Sciebo:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HIlMpd2wygM?si=uds9Idmgjtwsv4bz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Praxisprojekte
+
+Hier gibt es eine [Übersicht über alle Praxisprojekte der letzten Jahre](https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/alle-abschlussvortraege/) mit zugehöriger Teaserseite.
+
+### Kleiner Einblick in die Räumlichkeiten
+
+Einblick-Videos folgen spätestens am 19.12.
