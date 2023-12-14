@@ -8,4 +8,11 @@ inOverview:
 teaserText: "Unterlagen und Infos zum Medieninformatik Bachelor"
 ---
 
+### Kompetenzen, Module und Ordnungen
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor"></snippet>
+
+### Studienverlaufspläne
+<snippet type="toc" id="table-of-content-bachelor" search="bachelor-verlaufsplaene"></snippet>
+
+### Berufsbildbezogene Studienverlaufspläne
+<snippet type="toc" id="table-of-content-bachelor" search="bachelor-berufsbilder"></snippet>

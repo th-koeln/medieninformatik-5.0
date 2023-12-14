@@ -3,7 +3,7 @@ title: Berufsbild »Fullstack Web-Developer« (Bachelor of Science)
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - bachelor
+  - bachelor-berufsbilder
   - persona
 collection: allModuls
 terms: [1,2,3,4,5,6,7]

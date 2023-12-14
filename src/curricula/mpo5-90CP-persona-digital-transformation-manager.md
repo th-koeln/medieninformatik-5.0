@@ -3,7 +3,7 @@ title: Berufsbild »Digital Transformation Manager« (Master of Science)
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - master
+  - master-berufsbilder
   - persona
 collection: modulsMPO5
 terms: [1,2,3]

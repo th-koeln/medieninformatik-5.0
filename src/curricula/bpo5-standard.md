@@ -3,9 +3,9 @@ title: Studienverlaufsplan Bachelor BPO5
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-    - bachelor
     - bachelor-for-experts
     - bachelor-for-fakrat
+    - bachelor-verlaufsplaene
 collection: modulsBPO5
 terms: [1,2,3,4,5,6,7]
 groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung']

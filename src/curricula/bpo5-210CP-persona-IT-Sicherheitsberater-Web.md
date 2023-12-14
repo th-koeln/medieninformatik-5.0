@@ -3,7 +3,7 @@ title: Berufsbild »IT-Sicherheitsberater mit Fokus auf Webanwendungen und Web S
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - bachelor
+  - bachelor-berufsbilder
   - persona
 collection: allModuls
 terms: [1,2,3,4,5,6,7]
