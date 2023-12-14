@@ -6,10 +6,6 @@ version: 5.0.0
 date: last Modified
 layout: modulhandbuch.11ty.js
 inToc: false
-tocs:
-  - master
-  - master-for-fakrat
-  - master-for-experts  
 collection: modulsMPO5
 
 ---
