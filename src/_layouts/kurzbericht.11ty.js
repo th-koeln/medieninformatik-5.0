@@ -31,7 +31,7 @@ module.exports = {
 			<main>
 			  <section id="page-cover" class="cover">
 			  	<header>
-			  		<p class="owner">Fakultät für Informatik und Ingenieurwissenschaften</p>
+			  		<p class="owner">Technische Hochschule Köln<br/>Fakultät für Informatik und Ingenieurwissenschaften</p>
 			  		<h1 class="title">${data.subtitle}</h1>
 			  		<h2 class="subtitle">${data.title}</h2>
 			  		<div class="version-and-date">
