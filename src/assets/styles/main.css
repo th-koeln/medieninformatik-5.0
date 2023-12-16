@@ -452,13 +452,17 @@ blockquote {
   }
 
   @page {
-    margin: 2cm 1.5cm 1.5cm 3cm;
+    margin: 2cm 1.5cm 3cm;
   }
-  h1, h2 {
+  h1, h2, .modulbeschreibung.print header {
     page-break-before: always;
   }
 
   .competence-list {
+    display: none;
+  }
+
+  .icon {
     display: none;
   }
 }

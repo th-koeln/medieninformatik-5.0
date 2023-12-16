@@ -59,4 +59,4 @@ Hier gibt es eine [Übersicht über alle Praxisprojekte der letzten Jahre](https
 
 ### Kleiner Einblick in die Räumlichkeiten
 
-Einblick-Videos folgen spätestens am 19.12.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0YOUQbCbOgo?si=L-II6EJcDy-ihiiV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
