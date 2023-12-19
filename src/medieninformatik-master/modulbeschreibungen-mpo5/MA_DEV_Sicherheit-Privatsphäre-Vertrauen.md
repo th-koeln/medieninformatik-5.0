@@ -25,7 +25,7 @@ studienleistungen:
     zweitpruefer: 
     datum: vereinbarung
 meta:
-  status: rfreview
+  status: ok
   authors: Stefan
   reviewers: Stefan
 

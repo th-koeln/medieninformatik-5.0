@@ -25,7 +25,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: rfreview
+  status: ok
   authors: Raphi
   reviewers: all
 

@@ -7,25 +7,33 @@ cssClass: is-crea
 meta:
   status: ok
   authors: Entwicklungsteam, Christian
-  reviewers: Matthias, Irma?
+  reviewers: Matthias, Irma
 
 competencies:
   - title: Innovation
     sub:
+
+      - title: Innovationskultur
+        competence: "Wissen was eine gute Innovationskultur ausmacht und können diese positiv beeinflussen sowie eine unterstützenden Innovationsumgebungen schaffen."
       - title: Kreativität
         competence: "Haben die Fähigkeit zur Förderung von Kreativität und Innovation: Schaffen einer unterstützenden Umgebung, das Einbringen Kreativitätstechniken, etc."
+      - title: Prototyping
+        competence: "Können gezielt Prototypen erstellen, um Fragen bzgl. Nutzerbedürfnisse, technischer Machbarkeit und Wirtschaftlichkeit zu klären."
       - title: Geschäftsmodelle
         competence: "Kennen verschiedene Geschäftsmodelle und können einschätzen für welche Art von digitalem Produkt und Markt diese anwendbar sind."
       - title: Betriebswirtschaft
         competence: "Haben ein Grundverständnis, wie ein Unternehmen funktioniert."
       - title: Marktbedürfnisse
-        competence: "Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung."
+        competence: "Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendscouting und -analyse und Positionierung."
+        excelString: "Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung."
       - title: Produktentwicklung
         competence: "Können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch Dritte in ein Ökosystem bereitstellen."
       - title: Wirtschaftlichkeit
         competence: "Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc"
   - title: Management
     sub: 
+      - title: Teamplayer
+        competence: "Können sich selbst mit ihren Fähigkeiten gewinnbringend in ein Team einbringen."
       - title: Problemlösung
         competence: "Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind."
       - title: Teambuilding
@@ -35,7 +43,8 @@ competencies:
   - title: Kommunikation
     sub:
       - title: Kommunikationsfähigkeit
-        competence: "Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln."
+        competence: "Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen interagieren und verhandeln."
+        excelString: "Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln."
       - title: Kooperationsfähigkeit
         competence: "Können effektive und transparente Kommunikation und Zusammenarbeit fördern, Konflikte erkennen, analysieren und lösen."
       - title: Präsentation
@@ -49,15 +58,15 @@ competencies:
 
 **Leitfrage: Wie kriegen wir das Produkt/ Konzept auf die Straße?**
 
-Im Handlungsfeld «Driving Creation Processes» steuern Absolvent\*innen verschiedene Prozesse der Produktentwicklung, von der Bedarfsermittlung, über die Konzeption und die Entwicklung bis zur Markteinführung. Dies umfasst Innovationsmanagement, Produktentwicklung, Projektmanagement und die erfolgreiche Positionierung eines neuen Produkts im Markt. Marktforschung, Finanzmanagement, Qualitätssicherung und die Berücksichtigung rechtlicher, ethischer und nachhaltiger Aspekte gehören ebenso zu den Aufgaben. Der Fokus liegt darauf, innovative Ideen nicht nur zu generieren, sondern auch effektiv auf den Markt zu bringen und dabei die Bedürfnisse der Zielgruppe zu erfüllen.
+Im Handlungsfeld «Driving Creation Processes» steuern Absolvent\*innen verschiedene Prozesse der Produktentwicklung entlang des Innovation Funnels, von der frühen Ermittlung von Bedürfnissen und Bedarfen, über die Konzeption und die Entwicklung bis zur Markteinführung. Dies umfasst Innovationsmanagement, Produktentwicklung, Projektmanagement und die erfolgreiche Positionierung eines neuen Produkts im Markt. Marktforschung, Wirtschaftlichkeitsbetrachtung, frühes Prototyping inkl. der Entwicklung von Minimum Viable Products, Qualitätssicherung und die Berücksichtigung rechtlicher, ethischer und nachhaltiger Aspekte gehören ebenso zu den Aufgaben. Der Fokus liegt darauf, innovative Ideen nicht nur zu generieren, sondern auch effektiv auf den Markt zu bringen und dabei die Bedürfnisse der Zielgruppe zu erfüllen.
 
 Dieser Arbeitsbereich umfasst typischerweise folgende Vorgänge:
 
-- Identifikation von Marktchancen, Analyse von Trends und die Entwicklung innovativer Ideen, die das Potenzial haben, einzigartige Produkte auf den Markt zu bringen.
-- Planung und Umsetzung des gesamten Produktentwicklungszyklus, einschließlich Konzeptentwicklung, Prototyping, Design und Implementierung.
+- Identifikation von Marktchancen, Trendscouting und -analyse und die Entwicklung neuer Ideen, die das Potenzial haben, einzigartige Produkte auf den Markt zu bringen.
+- Planung und Umsetzung des gesamten Produktentwicklungszyklus, einschließlich Konzeptentwicklung, Prototyping, Design, Implementierung und Testen.
 - Effiziente Organisation und Steuerung von Projektteams, Ressourcen, Zeitplänen und Iterationen, um sicherzustellen, dass das Produkt erfolgreich entwickelt und eingeführt wird.
 - Durchführung von Marktforschungen, um die Bedürfnisse und Präferenzen der Zielgruppe zu verstehen und sicherzustellen, dass das Produkt eine Marktlücke füllt.
-- Schätzung von Budgets, Überwachung von Ausgaben und Gewährleistung einer rentablen Produktentwicklung und Markteinführung.
+- Schätzung von Budgets, Wirtschaftlichkeitsberechnung, Überwachung von Ausgaben und Gewährleistung einer rentablen Produktentwicklung und Markteinführung.
 - Sicherstellung der Qualität des Endprodukts durch Implementierung von Qualitätsstandards und -prozessen.
 - Sammeln von Feedback von potenziellen Benutzer\*innen und Kunden, um das Produkt kontinuierlich zu verbessern und an die Bedürfnisse des Marktes anzupassen.
 - Berücksichtigung von Umwelt- und Ethikfragen, um sicherzustellen, dass das Produkt nachhaltig und ethisch verantwortlich entwickelt und vermarktet wird.

@@ -23,8 +23,8 @@ schwerpunkt:
 kategorie: wahl
 
 weitereStudiengaenge: 
-    - ProDes Master
-    - Wing Master
+    - Master Produktdesign
+    - Master Wirtschaftsingenieurwesen
 
 veranstaltungsform: 
 
@@ -39,9 +39,8 @@ selbstStudium:
 
 studienleistungen:
   Einzelleistung:
-    art: Klausur in Verbindung mit semesterbegleitendem Projekt / Präsentation
-    artkey: writtenexam-project-presentation
-    erstpruefer: 
+    art: schriftlich ausgearbeiteter Businessplan (60%), Präsentation des Businessplans (40%)
+    erstpruefer: moe
     zweitpruefer: 
     datum:
 

@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer: ck 
     datum: ende
 meta:
-  status: rfreview    
+  status: ok    
   authors: uwe
   reviewers: uwe
 studiengangkriterien:

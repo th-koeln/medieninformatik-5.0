@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer: 
     datum:
 meta:
-  status: ok    
+  status: ok
   authors: Matthias
   reviewers: Matthias
 
