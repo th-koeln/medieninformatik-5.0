@@ -52,6 +52,9 @@ module.exports = {
 
           const competenceString = item.excelString ? item.excelString : item.competence;
 
+          // hide competencies which are not adressed by any module
+          if (modulesProvidingThisCompetence.join("").length == 0) return '';
+          
           return `
             <li id="${kompetenzId}">
               <div>${competenceString}</div>
