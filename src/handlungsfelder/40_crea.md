@@ -7,7 +7,7 @@ cssClass: is-crea
 meta:
   status: ok
   authors: Entwicklungsteam, Christian
-  reviewers: Matthias, Irma?
+  reviewers: Matthias, Irma
 
 competencies:
   - title: Innovation
@@ -49,15 +49,15 @@ competencies:
 
 **Leitfrage: Wie kriegen wir das Produkt/ Konzept auf die Straße?**
 
-Im Handlungsfeld «Driving Creation Processes» steuern Absolvent\*innen verschiedene Prozesse der Produktentwicklung, von der Bedarfsermittlung, über die Konzeption und die Entwicklung bis zur Markteinführung. Dies umfasst Innovationsmanagement, Produktentwicklung, Projektmanagement und die erfolgreiche Positionierung eines neuen Produkts im Markt. Marktforschung, Finanzmanagement, Qualitätssicherung und die Berücksichtigung rechtlicher, ethischer und nachhaltiger Aspekte gehören ebenso zu den Aufgaben. Der Fokus liegt darauf, innovative Ideen nicht nur zu generieren, sondern auch effektiv auf den Markt zu bringen und dabei die Bedürfnisse der Zielgruppe zu erfüllen.
+Im Handlungsfeld «Driving Creation Processes» steuern Absolvent\*innen verschiedene Prozesse der Produktentwicklung entlang des Innovation Funnels, von der frühen Ermittlung von Bedürfnissen und Bedarfen, über die Konzeption und die Entwicklung bis zur Markteinführung. Dies umfasst Innovationsmanagement, Produktentwicklung, Projektmanagement und die erfolgreiche Positionierung eines neuen Produkts im Markt. Marktforschung, Wirtschaftlichkeitsbetrachtung, frühes Prototyping inkl. der Entwicklung von Minimum Viable Products, Qualitätssicherung und die Berücksichtigung rechtlicher, ethischer und nachhaltiger Aspekte gehören ebenso zu den Aufgaben. Der Fokus liegt darauf, innovative Ideen nicht nur zu generieren, sondern auch effektiv auf den Markt zu bringen und dabei die Bedürfnisse der Zielgruppe zu erfüllen.
 
 Dieser Arbeitsbereich umfasst typischerweise folgende Vorgänge:
 
-- Identifikation von Marktchancen, Analyse von Trends und die Entwicklung innovativer Ideen, die das Potenzial haben, einzigartige Produkte auf den Markt zu bringen.
-- Planung und Umsetzung des gesamten Produktentwicklungszyklus, einschließlich Konzeptentwicklung, Prototyping, Design und Implementierung.
+- Identifikation von Marktchancen, Trendscouting und -analyse und die Entwicklung neuer Ideen, die das Potenzial haben, einzigartige Produkte auf den Markt zu bringen.
+- Planung und Umsetzung des gesamten Produktentwicklungszyklus, einschließlich Konzeptentwicklung, Prototyping, Design, Implementierung und Testen.
 - Effiziente Organisation und Steuerung von Projektteams, Ressourcen, Zeitplänen und Iterationen, um sicherzustellen, dass das Produkt erfolgreich entwickelt und eingeführt wird.
 - Durchführung von Marktforschungen, um die Bedürfnisse und Präferenzen der Zielgruppe zu verstehen und sicherzustellen, dass das Produkt eine Marktlücke füllt.
-- Schätzung von Budgets, Überwachung von Ausgaben und Gewährleistung einer rentablen Produktentwicklung und Markteinführung.
+- Schätzung von Budgets, Wirtschaftlichkeitsberechnung, Überwachung von Ausgaben und Gewährleistung einer rentablen Produktentwicklung und Markteinführung.
 - Sicherstellung der Qualität des Endprodukts durch Implementierung von Qualitätsstandards und -prozessen.
 - Sammeln von Feedback von potenziellen Benutzer\*innen und Kunden, um das Produkt kontinuierlich zu verbessern und an die Bedürfnisse des Marktes anzupassen.
 - Berücksichtigung von Umwelt- und Ethikfragen, um sicherzustellen, dass das Produkt nachhaltig und ethisch verantwortlich entwickelt und vermarktet wird.
