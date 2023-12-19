@@ -26,7 +26,7 @@ studienleistungen:
     zweitpruefer: wk
     datum: vereinbarung
 meta:
-  status: rfreview     
+  status: ok     
   authors: Dietlind
   reviewers: Dietlind
 

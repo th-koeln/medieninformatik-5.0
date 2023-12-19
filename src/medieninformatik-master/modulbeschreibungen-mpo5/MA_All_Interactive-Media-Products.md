@@ -23,7 +23,7 @@ studienleistungen:
     zweitpruefer: 
     datum: 19.07.23
 meta:
-  status: rfreview
+  status: ok
   authors: Christian    
   reviewers: Matthias, Raphi
 
