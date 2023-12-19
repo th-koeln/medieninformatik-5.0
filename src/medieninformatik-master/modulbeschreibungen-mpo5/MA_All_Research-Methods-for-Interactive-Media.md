@@ -1,7 +1,7 @@
 ---
-title: Research Methods and Statistics for Interactive Media
+title: Research Methods for Interactive Media
 modulverantwortlich: gh
-dozierende: mbluemm, gh, rgr
+dozierende: mbluemm, gh, rgroten
 modulniveau: master
 kuerzel: RIM
 angebotImWs: true
@@ -22,7 +22,7 @@ studienleistungen:
     zweitpruefer: gh, mbluemm, nkuhn
     datum: vereinbarung
 meta:
-  status: rfreview   
+  status: ok   
   
 studiengangkriterien:
   globalcitizenship: 1
