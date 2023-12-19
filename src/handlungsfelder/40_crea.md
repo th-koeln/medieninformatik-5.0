@@ -12,20 +12,28 @@ meta:
 competencies:
   - title: Innovation
     sub:
+
+      - title: Innovationskultur
+        competence: "Wissen was eine gute Innovationskultur ausmacht und können diese positiv beeinflussen sowie eine unterstützenden Innovationsumgebungen schaffen."
       - title: Kreativität
         competence: "Haben die Fähigkeit zur Förderung von Kreativität und Innovation: Schaffen einer unterstützenden Umgebung, das Einbringen Kreativitätstechniken, etc."
+      - title: Prototyping
+        competence: "Können gezielt Prototypen erstellen, um Fragen bzgl. Nutzerbedürfnisse, technischer Machbarkeit und Wirtschaftlichkeit zu klären."
       - title: Geschäftsmodelle
         competence: "Kennen verschiedene Geschäftsmodelle und können einschätzen für welche Art von digitalem Produkt und Markt diese anwendbar sind."
       - title: Betriebswirtschaft
         competence: "Haben ein Grundverständnis, wie ein Unternehmen funktioniert."
       - title: Marktbedürfnisse
-        competence: "Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung."
+        competence: "Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendscouting und -analyse und Positionierung."
+        excelString: "Marktbedürfnisse verstehen: Haben Grundkenntnisse in den Bereichen Zielgruppenanalyse, Marktforschung, Trendanalyse und Positionierung."
       - title: Produktentwicklung
         competence: "Können Prozesse zur Herstellung digitaler Produkte und Services managen und diese als Artefakte zur Nutzung durch Dritte in ein Ökosystem bereitstellen."
       - title: Wirtschaftlichkeit
         competence: "Haben ein grundlegendes Verständnis wirtschaftlicher Aspekte, wie Budgetierung, Rentabilität und Geschäftsmodelle, etc"
   - title: Management
     sub: 
+      - title: Teamplayer
+        competence: "Können sich selbst mit ihren Fähigkeiten gewinnbringend in ein Team einbringen."
       - title: Problemlösung
         competence: "Können erkennen, welche Kompetenzen zur Lösung eines Problems erforderlich sind."
       - title: Teambuilding
@@ -35,7 +43,8 @@ competencies:
   - title: Kommunikation
     sub:
       - title: Kommunikationsfähigkeit
-        competence: "Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln."
+        competence: "Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen interagieren und verhandeln."
+        excelString: "Können Ideen vermitteln, sich über Anforderungen verständigen, Feedback einholen und mit verschiedenen Interessengruppen zu interagieren und verhandeln."
       - title: Kooperationsfähigkeit
         competence: "Können effektive und transparente Kommunikation und Zusammenarbeit fördern, Konflikte erkennen, analysieren und lösen."
       - title: Präsentation
