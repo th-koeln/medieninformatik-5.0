@@ -17,8 +17,10 @@ module.exports = {
 	
 		const translateStars = moduleTools.translateStars;
 		
+		const urlPrefix = eleventy.urlPrefix();
 		const studyProgramme = moduleData.modulniveau;
-		const pathToCompetenceMap = eleventy.getCompetencesToModuleMapPath(studyProgramme) ? eleventy.getCompetencesToModuleMapPath(studyProgramme) : '';
+		const pathToCompetenceMap = eleventy.getCompetencesToModuleMapPath(studyProgramme) 
+			? `${urlPrefix}/${eleventy.getCompetencesToModuleMapPath(studyProgramme)}` : '';
 
 		data = moduleTools.addCompetences(moduleData);
 		const idModul = eleventy.slugify(data.title);
