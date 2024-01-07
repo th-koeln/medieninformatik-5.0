@@ -6,6 +6,9 @@ module.exports = {
 	render(data) {
 		const utils = require('./components/utils.11ty.js');
 		const printUrl = data.page.url.replace(/(.*)\//, "$1-print/");
+		const printLink = !data.page.url.match(/-print/) 
+		? `<a href="${printUrl}"><span class="icon">print</span> Druckversion</a>`
+		: "";
 		return `
 
 		<div class="content-wrap">
@@ -32,7 +35,8 @@ module.exports = {
 					${utils.parseContent(this, data)}
 				</section>
 
-				<a href="${printUrl}"><span class="icon">print</span> Druckversion zum Abheften</a>
+				${printLink}
+				
 			</main>
 		</div>
 		`;

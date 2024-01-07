@@ -11,7 +11,7 @@ meta:
     Wer wurde noch beteiligt
 ---
 
-Neben [externer Expert\*innen](#externe-expertise) und [Studierenden](studentische-beteiligung), wurden auch das Dekanat und die Dozent\*innen als weitere [Stakeholder](/analysen/stakeholder/stakeholder-analyse/) aktiv in den Prozess mit einbezogen. Dass Dekanat wurde vertreten durch den Dekan und den Studiendekan der Lehreinheit Informatik. 
+Neben [externer Expert\*innen](#externe-expertise) und [Studierenden](#studentische-beteiligung), wurden auch das Dekanat und die Dozent\*innen als weitere [Stakeholder](/analysen/stakeholder/stakeholder-analyse/) aktiv in den Prozess mit einbezogen. Dass Dekanat wurde vertreten durch den Dekan und den Studiendekan der Lehreinheit Informatik. 
 
 - [Erkenntnisse aus dem Gespräch mit dem Dekanat](/insights/?filter={"Von"%3A"Dekanat"})
 

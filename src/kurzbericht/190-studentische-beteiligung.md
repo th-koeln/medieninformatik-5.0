@@ -45,7 +45,7 @@ Studierende waren auch zu den Sitzungen des Studiengangsteams eingeladen und hab
 
 ### Was wurde an den Studiengängen aufgrund der Stellungnahme der Studierenden geändert bzw. neu abgestimmt?
 
-Wie im Kapitel [«How Might We – Wie wurden die Erkenntnisse nutzbar gemacht?»](/kurzbericht/how-might-we-wie-wurden-die-erkenntnisse-nutzbar-gemacht/) beschrieben, wurde Erkenntnisse aus der studentischen Beteiligung systematisch festgehalten. Anschließend wurden die gewonnenen Erkenntnisse nach relevanten Themengebieten gruppiert. Hierbei wurden ausschließlich die Erkenntnisse einbezogen, die für den Prozess der Reakkreditierung von Bedeutung sind bzw. durch Maßnahmen innerhalb der Reakkreditierung beeinflusst werden können, um gezielt die Angriffspunkte zu setzen. Die identifizierten Angriffspunkte dienten als Ausgangspunkt für die Formulierung von How-Might-We-Fragen um Möglichkeitsräume zu öffenen.
+Wie im Kapitel [«How Might We – Wie wurden die Erkenntnisse nutzbar gemacht?»](/kurzbericht/#how-might-we-wie-wurden-die-erkenntnisse-nutzbar-gemacht) beschrieben, wurde Erkenntnisse aus der studentischen Beteiligung systematisch festgehalten. Anschließend wurden die gewonnenen Erkenntnisse nach relevanten Themengebieten gruppiert. Hierbei wurden ausschließlich die Erkenntnisse einbezogen, die für den Prozess der Reakkreditierung von Bedeutung sind bzw. durch Maßnahmen innerhalb der Reakkreditierung beeinflusst werden können, um gezielt die Angriffspunkte zu setzen. Die identifizierten Angriffspunkte dienten als Ausgangspunkt für die Formulierung von How-Might-We-Fragen um Möglichkeitsräume zu öffenen.
 
 Folgende How-Might-We-Fragen wurden aus studentischen Inputs abgeleitet. Dazu jeweils die konkreten Änderungen.
 
@@ -68,7 +68,7 @@ Insgesamt wurde der Wahlbereich von *einem* auf *vier* Module erhöht, so dass a
 Hiervon wurde, aus kapazitären Gründen, abgesehen. Mit dem deutlich größeren Wahlplfichtbereich und dem entsprechenden Modulangebot lassen sich jedoch vertiefungsadäquate Kompetenzen im Bereich Mensch-Computer Interaktion aufbauen.
 
 #### Wie können wir MCI ggf. mit Social Computing vereinen? (Master)
-Hier wurden die Schwerpunkte restrukturiert und mit Wahlmöglichkeiten ausgestattet, so dass sich ein entsprechendes Kompetenzprofil abbilden lässt. Siehe [Studienverlaufspläne für Persona im Master](/medieninformatik-master/personas/).
+Hier wurden die Schwerpunkte restrukturiert und mit Wahlmöglichkeiten ausgestattet, so dass sich ein entsprechendes Kompetenzprofil abbilden lässt. Siehe [Studienverlaufspläne für Persona im Master](/medieninformatik-master/#table-of-content-master-curriculum).
 
 #### Wie können wir die Projekte im Master reformieren, dass sie verschiedene Anforderungen besser erfüllen? (Master)
 Hier wurde der semantische Aufbau der Projekte 1-3 im bestehenden Masterstudiengang als hinderlich angesehen. Die Verknüpfungen der Projekte wurde in der Neugestaltung aufgehoben, was die Organisation und Studierbarkeit erheblich verbessert, Kooperationen mit externen Partnern erleichtert und die Integration in Forschungsvorhaben fördert.
@@ -76,4 +76,4 @@ Hier wurde der semantische Aufbau der Projekte 1-3 im bestehenden Masterstudieng
 #### Wie kann das Curriculum stärker individualisiert werden? Wie können wir die Vielfalt der Inhalte erhalten? (Bachelor & Master)
 Im Bachelor wird nun auf die Vertiefungsschwerpunkte verzichtet, um den Studierenden die Möglichkeit zu bieten, alle Bereiche der Medieninformatik kennenzulernen, sodass sie darüber ihre Interessen, Stärken und Schwächen identifizieren können. Der Spezialisierungsabschnitt im Studium bietet dann mit 90 ECTS die Möglichkeit eigene Schwerpunkte zu setzen. Yeah!
 
-Im Master war die begrenzte Anzahl an Optionen von Modulen als Wahlpflichtmodul, bezogen auf den gewählten Schwerpunkt, ein Problem. Hier werden nun neue Wahlmöglichkeiten eröffnet. Die Studierenden haben darüber hinaus die Möglichkeit den Master mit oder ohne Schwerpunkt abzuschließen. Insgesamt ist die Studienstruktur deutlich offener und bietet sehr viel mehr Raum für individuelle Studienverläufe. Siehe [Studienverlaufspläne für Persona im Master](/medieninformatik-master/personas/).
+Im Master war die begrenzte Anzahl an Optionen von Modulen als Wahlpflichtmodul, bezogen auf den gewählten Schwerpunkt, ein Problem. Hier werden nun neue Wahlmöglichkeiten eröffnet. Die Studierenden haben darüber hinaus die Möglichkeit den Master mit oder ohne Schwerpunkt abzuschließen. Insgesamt ist die Studienstruktur deutlich offener und bietet sehr viel mehr Raum für individuelle Studienverläufe. Siehe [Studienverlaufspläne für Persona im Master](/medieninformatik-master/#table-of-content-master-curriculum).
