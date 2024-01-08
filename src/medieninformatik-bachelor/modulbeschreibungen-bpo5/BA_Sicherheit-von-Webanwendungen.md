@@ -2,6 +2,7 @@
 title: Sicherheit von Webanwendungen
 modulverantwortlich: viet
 modulniveau: bachelor
+dozierende: viet
 kuerzel: SWA
 untertitel:
 studiensemester: 5

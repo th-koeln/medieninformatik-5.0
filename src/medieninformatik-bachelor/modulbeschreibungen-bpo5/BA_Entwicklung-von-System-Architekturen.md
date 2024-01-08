@@ -2,6 +2,7 @@
 title: Entwicklung von System-Architekturen
 modulverantwortlich: viet
 modulniveau: bachelor
+dozierende: viet
 kuerzel: ESA
 untertitel:
 studiensemester: 4
@@ -39,9 +40,8 @@ studiengangkriterien:
   globalcitizenship: 0
   internationalisierung: 0
   interdisziplinaritaet: 0
-  transfer: 0  
+  transfer: 0
 ---
-
 ## Learning Outcomes
 
 (WAS) Studierende sollen die Vorgehensweisen für die Entwicklung von System-Architekturen kennenlernen,
@@ -61,7 +61,6 @@ studiengangkriterien:
 - Entwurfsmuster (Design Patterns)
 - Qualitätsmetriken
 - Refactoring
-
 
 ## Literatur
 
