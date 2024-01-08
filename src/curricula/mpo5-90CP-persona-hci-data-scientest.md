@@ -23,7 +23,7 @@ studienverlauf:
         module: 
             - "RIM"
             - "GP"
-            - "SHCI"
+            - "ART"
             - "DDM"
     - semester:
         label: "2. Semester"
@@ -32,8 +32,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DUX"
-            - "SGMCI"
-            - "ABIA"
+            - "SHCI"
+            - "MDS"
     - semester:
         fachsemester: 3
         label: "Finales Semester"

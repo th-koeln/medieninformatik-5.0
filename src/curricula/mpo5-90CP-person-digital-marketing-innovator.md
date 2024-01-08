@@ -24,7 +24,7 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "ART"
-            - "AMI"
+            - "DDM"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,8 +32,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-EXA"
-            - "AR"
-            - "VIS"
+            - "SHCI"
+            - "MDS"
     - semester:
         fachsemester: 3
         label: "Finales Semester"

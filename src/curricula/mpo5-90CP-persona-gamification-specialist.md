@@ -24,7 +24,7 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "SGG"
-            - "AR"
+            - "SNS"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,7 +32,7 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-EXA"
-            - "SNS"
+            - "EAM"
             - "VIS"
     - semester:
         fachsemester: 3

@@ -1,5 +1,5 @@
 ---
-title: Berufsbild »Interactive Systems Developer« (Master of Science)
+title: Berufsbild »IT-Stragegieberater« (Master of Science)
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
@@ -23,8 +23,8 @@ studienverlauf:
         module: 
             - "RIM"
             - "GP"
-            - "MODI"
-            - "ITC"
+            - "FTW"
+            - "DDD"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,7 +32,7 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DEV"
-            - "FTW"
+            - "SSW"
             - "ITSTR"
     - semester:
         fachsemester: 3
@@ -45,6 +45,6 @@ hinweise:
 ---
 
 
-## Berufsbild »Interactive Systems Developer«
+## Berufsbild »IT-Stragegieberater«
 
 Diese Absolvent\*innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Developing Interactive and Distributed Systems" (DEV) spezialisiert. Sie sind Experten in der Entwicklung und Implementierung von IT-Strategien für Unternehmen. Ihr Wissen in Mobile and Distributed Interactive Systems und Fortgeschrittenen Themen verteilter, web-basierter Systeme versetzt sie in die Lage, effiziente und innovative IT-Lösungen zu entwickeln. Mit ihrem Hintergrund in IT Consulting und IT Strategy können sie umfassende Beratungsdienste anbieten, um Unternehmen bei der Gestaltung ihrer IT-Landschaft zu unterstützen.

@@ -23,8 +23,8 @@ studienverlauf:
         module: 
             - "RIM"
             - "GP"
-            - "WEBT"
-            - "UC"
+            - "BC"
+            - "NADI"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,8 +32,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DEV"
-            - "QSQM"
-            - "MDS"
+            - "MODI"
+            - "WEBT"
     - semester:
         fachsemester: 3
         label: "Finales Semester"
