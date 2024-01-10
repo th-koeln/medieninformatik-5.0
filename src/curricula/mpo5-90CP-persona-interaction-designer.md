@@ -1,5 +1,5 @@
 ---
-title: Berufsbild »User Interface Designer« (Master of Science)
+title: Berufsbild »Interaction-Designer« (Master of Science)
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
@@ -24,14 +24,14 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "ID"
-            - "DM"
+            - "OSC"
     - semester:
         label: "2. Semester"
         fachsemester: 2
         season: "sose"
         module: 
             - "IMP"
-            - "GP-DUX"
+            - "GP-DEV"
             - "SHCI"
             - "CE"
     - semester:
@@ -45,6 +45,6 @@ hinweise:
 ---
 
 
-## Berufsbild »User Interface Designer«
+## Berufsbild »Interaction-Designer«
 
-Diese Absolvent\*innenim Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) konzentriert. Sie sind spezialisiert auf die Gestaltung intuitiver und benutzerfreundlicher Schnittstellen. Ihre Fähigkeiten im Interaction Design und in der Psychophysik multimodaler Benutzungsschnittstellen ermöglichen es ihnen, Schnittstellen zu entwickeln, die sowohl ästhetisch ansprechend als auch funktional sind. Ihr Wissen in Visualisierung und Computerethik stellen sicher, dass ihre Designs nicht nur technisch herausragend, sondern auch ethisch verantwortungsvoll sind.
+Absolvent\*innen dieses Masterstudiums in Medieninformatik mit Fokus auf "Designing for User Experiences" (DUX) spezialisieren sich als Interaction-Designer. Sie sind Fachleute in der Entwicklung gebrauchstauglicher und ansprechender Benutzerschnittstellen. Durch ihr Studium im Bereich Interaction Design gepaart mit Kenntnissen aus Open Science sind sie in der Lage, wissenschaftlich fundierte und zugleich kreative Lösungen zu entwickeln. Ihre Fähigkeiten in der angewandten Statistik und ihr Verständnis für Computerethik qualifizieren sie dazu, gebrauchstaugliche und ethisch verantwortungsbewusste Schnittstellen zu gestalten.
