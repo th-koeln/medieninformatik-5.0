@@ -58,15 +58,15 @@ Im Arbeitsbereich «Developing Interactive and Distributed Systems« gibt es im 
 - Entwurf der Architektur von interaktiven und verteilten Systemen. Dies beinhaltet die Festlegung von Strukturen, Schnittstellen und Kommunikationsprotokollen.
 - Modellierung und Entwicklung von Software und Softwarekomponenten unter Verwendung verschiedener Entwurfsmuster, Entwurfsprinzipien, Architekturstilen, Programmiersprachen und Frameworks.
 - Entwicklung von Web-Streaming-Diensten insbesondere für Live-Events, On-Demand Videos und Audio/Video-Konferenzsysteme.
-- Konzeptionierung und Implementierung von (web-basierten) Benutzeroberflächen unter Berückschitigung von Gestaltungsprinzipien und Gestaltungstechniken wie Farben, Konstrasten, Proportion, Typographie oder Räumlichkeit
-- Implementieren Benutzungsschnittstellen für verschiedene Clients (bspw. Mobile, Web, Dinge) und für verschiedene Nutzungskontexte, um funktionale Anforderungen umzusetzen.
-- Optimierung von graphischen und greifbaren Benutzungschnittstellen, um eine hohe Gebrauchstauglichkeit und eine positive Nutzererfahrung zu gewährleisten.
+- Konzeptionierung und Implementierung von (web-basierten) Benutzungsoberflächen unter Berückschitigung von Gestaltungsprinzipien und Gestaltungstechniken wie Farben, Konstrasten, Proportion, Typographie oder Räumlichkeit
+- Implementieren Benutzungsschnittstellen für verschiedene Clients (bspw. Mobile, Web, IoT) und für verschiedene Nutzungskontexte, um funktionale Anforderungen umzusetzen.
+- Optimierung von graphischen und greifbaren Benutzungschnittstellen, um eine hohe Gebrauchstauglichkeit und eine positive Nutzungserfahrung zu gewährleisten.
 - Implementierung der Logik und Datenverarbeitung auf der Client- und Serverseite, um die Funktionalität der Anwendung sicherzustellen.
 - Entwicklung von Datenbankstrukturen und Integration von Datenbanken in das System, um Daten effizient zu speichern, abzurufen und zu verwalten.
-- Integration von Sicherheitsmaßnahmen, um die Integrität, Vertraulichkeit, Verfügbarkeit, Authentiztät als auch die Nicht-Abstreitbarkeit von Daten in verteilten Systemen zu gewährleisten.
+- Integration von Sicherheitsmaßnahmen, um die Integrität, Vertraulichkeit, Verfügbarkeit, Authentiztät als auch die Nichtabstreitbarkeit von Daten in verteilten Systemen zu gewährleisten.
 - Durchführung von Tests, um sicherzustellen, dass das System die definierten Anforderungen erfüllt.
-- Skalierbarkeit und Performance-Optimierung, um den Anforderungen einer wachsenden Benutzerbasis gerecht zu werden.
+- Skalierbarkeit und Performance-Optimierung, um den Anforderungen einer wachsenden Benutzer\*innenbasis gerecht zu werden.
 - Erstellung von Dokumentationen sowie die Einhaltung von Clean Code Prinzipien, die den Quelltext, die Systemarchitektur und andere relevante Informationen und Entscheidungen umfassen, um eine einfache Wartung und Weiterentwicklung zu ermöglichen.
-- Koordinierung der Zusammenarbeit mit anderen Entwickler:innen, Designer:innen Productowner:innen und weiteren Stakeholdern, um sicherzustellen, dass die entwickelten Systeme den Anforderungen und Erwartungen entsprechen.
+- Koordinierung der Zusammenarbeit mit anderen Entwickler\*innen, Designer\*innen Productownern und weiteren Stakeholdern, um sicherzustellen, dass die entwickelten Systeme den Anforderungen und Erwartungen entsprechen.
 - Implementierung von Technologien, die Interaktionen an verschiedene Umgebungen und Kontexte anpassen können, um eine nahtlose Nutzung zu ermöglichen.
-- Implementierung von Funktionen des maschinellen Lernens, um personalisierte Interaktionen auf Grundlage von Benutzerpräferenzen und -verhalten zu ermöglichen. 
+- Implementierung von Funktionen des maschinellen Lernens, um personalisierte Interaktionen auf Grundlage von Benutzer\ü*innenpräferenzen und -verhalten zu ermöglichen. 
