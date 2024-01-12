@@ -12,6 +12,4 @@ Exemplarisch sind die folgenden Berufsbilder zu nennen, für die in diesem Schwe
 
 ### Berufsbilder
 
-> TODO: Berufsbilder mit snippet auflisten
-
-<snippet type="toc" id="id-berufsbilder-dev" search="master"></snippet>
+<snippet type="toc" id="id-berufsbilder-dev" search="persona-dux"></snippet>

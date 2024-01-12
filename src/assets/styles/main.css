@@ -1225,9 +1225,6 @@ ul.hero-list > li + li {
 .avatars img[src*=avatar] {
   background-color: var(--light);
 }
-.avatars img[src*=avatar] {
-  background-color: var(--light);
-}
 
 /* Kompetenz Liste
 ############################################################################ */
@@ -1689,7 +1686,7 @@ ul.content-card-overview.misc .content-card-item {
   display: block;
   background-color: var(--darken);
 }
-.modulbeschreibung .scores-and-charts .score h3 {
+.modulbeschreibung .scores-and-charts .score h3, .modulbeschreibung .scores-and-charts .score h5 {
   padding-top: 0;
   padding-bottom: var(--half);
   padding-left: var(--s);
