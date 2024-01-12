@@ -5,6 +5,7 @@ inToc: false
 tocs:
   - master-berufsbilder
   - persona
+  - persona-dux
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']

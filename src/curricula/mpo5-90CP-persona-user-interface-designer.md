@@ -1,5 +1,5 @@
 ---
-title: Berufsbild »IT Security and Privacy Consultant« (Master of Science)
+title: Berufsbild »User Interface Designer« (Master of Science)
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
@@ -24,8 +24,8 @@ studienverlauf:
         module: 
             - "RIM"
             - "GP"
-            - "SPV"
-            - "ABIA"
+            - "ID"
+            - "VIS"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -33,8 +33,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DUX"
-            - "RE"
-            - "ITC"
+            - "PPMB"
+            - "CE"
     - semester:
         fachsemester: 3
         label: "Finales Semester"
@@ -46,6 +46,6 @@ hinweise:
 ---
 
 
-## Berufsbild »IT Security and Privacy Consultant«
+## Berufsbild »User Interface Designer«
 
-Diese Absolvent\innen im Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) spezialisiert und verfügen über umfassende Kenntnisse in Sicherheit, Privatsphäre und Vertrauen in digitalen Systemen. Sie beraten Unternehmen in Fragen der IT-Sicherheit, entwickeln Strategien zum Schutz der Privatsphäre und sorgen für die Einhaltung ethischer Standards. Ihre Expertise in IT Consulting und Enterprise Architecture Management ermöglicht es ihnen, robuste und sichere IT-Architekturen zu entwerfen.
+Diese Absolvent\*innenim Masterstudium Medieninformatik haben sich auf den Schwerpunkt "Designing for User Experiences" (DUX) konzentriert. Sie sind spezialisiert auf die Gestaltung intuitiver und benutzerfreundlicher Schnittstellen. Ihre Fähigkeiten im Interaction Design und in der Psychophysik multimodaler Benutzungsschnittstellen ermöglichen es ihnen, Schnittstellen zu entwickeln, die sowohl ästhetisch ansprechend als auch funktional sind. Ihr Wissen in Visualisierung und Computerethik stellen sicher, dass ihre Designs nicht nur technisch herausragend, sondern auch ethisch verantwortungsvoll sind.

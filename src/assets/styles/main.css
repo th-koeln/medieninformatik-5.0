@@ -1225,9 +1225,6 @@ ul.hero-list > li + li {
 .avatars img[src*=avatar] {
   background-color: var(--light);
 }
-.avatars img[src*=avatar] {
-  background-color: var(--light);
-}
 
 /* Kompetenz Liste
 ############################################################################ */
