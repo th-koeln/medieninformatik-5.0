@@ -25,7 +25,7 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "ID"
-            - "VIS"
+            - "PPMB"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -33,7 +33,7 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DUX"
-            - "PPMB"
+            - "VIS"
             - "CE"
     - semester:
         fachsemester: 3

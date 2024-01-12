@@ -62,7 +62,9 @@ Zu erwerbende Kompetenzen gliederen sich in die folgenden Bereiche:
 
 <h4 class="is-indi-color">Enhancing Interactions on Different Scales (INDI)</h4>
 
-Dieses Handlungsfeld dreht sich um nachhaltige, anforderungsgerechte und ethisch verantwortliche digitale Produkte. Mit Hilfe von Analysen, Studien und Experimenten wird sichergestellt, dass entwickelte Produkte nicht nur funktional, sondern auch sinnvoll, effektiv und effizient in verschiedenen Kontexten nutzbar sind. Die Umsetzung von «Situated Interaction» gewährleistet, dass Interaktionen auf die spezifischen Umgebungen, Erfahrungen, Fähigkeiten, Erwartungen und Bedürfnisse der Nutzer\*innen abgestimmt sind. Ethik und gesellschaftliche Verantwortung stehen im Fokus, wobei kontinuierliche Evaluierungen die Grundlage für fortlaufende Verbesserungen bilden. Medieninformatiker\*innen streben nicht nur nach technologischer Innovation, sondern schaffen digitale Interaktionen, die einen positiven Einfluss auf die Gesellschaft haben und sich im Einklang mit ethischen Prinzipien befinden. 
+Dieses Handlungsfeld dreht sich um nachhaltige, anforderungsgerechte und ethisch verantwortliche digitale Produkte. Mit Hilfe von Analysen, Studien und Experimenten wird sichergestellt, dass entwickelte Produkte nicht nur funktional, sondern auch sinnvoll, effektiv und effizient in verschiedenen Kontexten nutzbar sind. Die Umsetzung von «Situated Interaction» gewährleistet, dass Interaktionen auf die spezifischen Umgebungen, Erfahrungen, Fähigkeiten, Erwartungen und Bedürfnisse der Nutzer\*innen abgestimmt sind. Ethik und gesellschaftliche Verantwortung stehen im Fokus, wobei kontinuierliche Evaluierungen die Grundlage für fortlaufende Verbesserungen bilden. Medieninformatiker\*innen streben nicht nur nach technologischer Innovation, sondern schaffen digitale Interaktionen, die einen positiven Einfluss auf die Gesellschaft haben und sich im Einklang mit ethischen Prinzipien befinden.
+
+Zu erwerbende Kompetenzen gliedern sich in die folgenden Bereiche:
 
 - Analyse, Studien und Experimente
 - Situated Interaction

@@ -69,4 +69,4 @@ Im Arbeitsbereich «Developing Interactive and Distributed Systems« gibt es im 
 - Erstellung von Dokumentationen sowie die Einhaltung von Clean Code Prinzipien, die den Quelltext, die Systemarchitektur und andere relevante Informationen und Entscheidungen umfassen, um eine einfache Wartung und Weiterentwicklung zu ermöglichen.
 - Koordinierung der Zusammenarbeit mit anderen Entwickler\*innen, Designer\*innen Productownern und weiteren Stakeholdern, um sicherzustellen, dass die entwickelten Systeme den Anforderungen und Erwartungen entsprechen.
 - Implementierung von Technologien, die Interaktionen an verschiedene Umgebungen und Kontexte anpassen können, um eine nahtlose Nutzung zu ermöglichen.
-- Implementierung von Funktionen des maschinellen Lernens, um personalisierte Interaktionen auf Grundlage von Benutzer\ü*innenpräferenzen und -verhalten zu ermöglichen. 
+- Implementierung von Funktionen des maschinellen Lernens, um personalisierte Interaktionen auf Grundlage von Benutzer\*innenpräferenzen und -verhalten zu ermöglichen. 
