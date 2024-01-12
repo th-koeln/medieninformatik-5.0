@@ -29,5 +29,5 @@ Zu Schaffung eines gemeinsamen Zielbildes, über den Akkreditierungszeitraum hin
 ### Workshop zum Verständnis des Medienbegriffs in der Medieninformatik 
 Eine Aufgabe aus dem [Visionsworkshop](../visions-workshop) war die Schärfung bzw. Reformulierung des Medienbegriffs in der Medieninformatik an der TH Köln. Zu diesem Zweck wurde am 09. März 2023 ein Kurzworkshop «Lasst uns über *Medien* sprechen» durchgeführt. Eingeladen waren Akteure der Lehreinheit Informatik aus dem Umfeld der Medieninformatik, bspw. Prof. Dr. Christian Kohls, Prof. Hans Kornacher, Prof. Dr. Mario Winter, Prof. Dr. Irma Lindt, Prof. Dr. Matthias Böhmer, Prof. Dr. Gerhard Hartmann, Prof. Dr. Raphaela Groten, Susanne Gotzen, Nathalie Kuhn, Uwe Müsse, Volker Schaefer und Prof. Christian Noss. Hier kann das [Workshop Board](https://miro.com/app/board/uXjVPkUtR4k=/?share_link_id=44476913146) eingesehen werden.
 
-**Wesentlicher Outcome des Workshops: «Wir verstehen Medien in der Medieninformatik in der Regel als interaktive (Kommunikations)medien/ systeme.»**
+**Wesentlicher Outcome des Workshops: «Wir verstehen Medien in der Medieninformatik in der Regel als interaktive (Kommunikations-) Medien/ Systeme.»**
 

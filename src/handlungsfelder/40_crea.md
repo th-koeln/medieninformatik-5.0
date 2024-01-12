@@ -68,7 +68,7 @@ Dieser Arbeitsbereich umfasst typischerweise folgende Vorgänge:
 - Durchführung von Marktforschungen, um die Bedürfnisse und Präferenzen der Zielgruppe zu verstehen und sicherzustellen, dass das Produkt eine Marktlücke füllt.
 - Schätzung von Budgets, Wirtschaftlichkeitsberechnung, Überwachung von Ausgaben und Gewährleistung einer rentablen Produktentwicklung und Markteinführung.
 - Sicherstellung der Qualität des Endprodukts durch Implementierung von Qualitätsstandards und -prozessen.
-- Sammeln von Feedback von potenziellen Benutzer\*innen und Kunden, um das Produkt kontinuierlich zu verbessern und an die Bedürfnisse des Marktes anzupassen.
+- Sammeln von Feedback von potenziellen Benutzer\*innen und Kund\*innen, um das Produkt kontinuierlich zu verbessern und an die Bedürfnisse des Marktes anzupassen.
 - Berücksichtigung von Umwelt- und Ethikfragen, um sicherzustellen, dass das Produkt nachhaltig und ethisch verantwortlich entwickelt und vermarktet wird.
-- Kommunikation von Ideen, Ansätzen, Chancenn, Risiken und Lösungen an verschiedene Stakeholder im Team und im Unternehmen sowie im Austausch mit anderen Teams und Organisationen.
+- Kommunikation von Ideen, Ansätzen, Chancen, Risiken und Lösungen an verschiedene Stakeholder im Team und im Unternehmen sowie im Austausch mit anderen Teams und Organisationen.
 - Vermarktung von Produkten und Begleitung des Marketings zu Produkten.

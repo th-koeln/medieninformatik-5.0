@@ -12,15 +12,15 @@ tocs:
 
 Der Master Medieninformatik bereitet die Studierenden auf eine berufliche Tätigkeit in den fünf relevanten Handlungsfelder der Medieninformatik vor:
 
-- Designing for User Experiences
-- Developing Interactive and Distributed Systems
-- Driving Creation Processes
-- Enhancing Interactions on Different Scales
-- Exploring Advanced Interactive Media
+- Designing for User Experiences (DUX)
+- Developing Interactive and Distributed Systems (DEV)
+- Driving Creation Processes (CREA)
+- Enhancing Interactions on Different Scales (INDI)
+- Exploring Advanced Interactive Media (EXA)
 
-Auf Basis des vorausgegangenen Bachelorstudium erwerben die Studierenden im Master vertiefende anwendungs- und forschungsorientierte Kompetenzen, um in diesen fünf Bereichen als Absolvent\*innen zu handeln. Leitend sind die dabei Kompetenzen für Konzeption- und Entwicklungprozesse interaktiver Medien-Produkte (Kompetenzbereich «CREA», Modul «IMP») und wissenschaftliche Methoden zur Evaluation und Reflexion von deren Wirkungsweisen (Kompetenzbereich «INDI», Pflichtmodul «RIM»).
+Auf Basis des vorausgegangenen Bachelorstudium erwerben die Studierenden im Master vertiefende anwendungs- und forschungsorientierte Kompetenzen, um in diesen fünf Bereichen als Absolvent\*innen zu handeln. Leitend sind dabei die Kompetenzen für Konzeption- und Entwicklungprozesse interaktiver Medien-Produkte (Kompetenzbereich «CREA», Modul «IMP») und wissenschaftliche Methoden zur Evaluation und Reflexion von deren Wirkungsweisen (Kompetenzbereich «INDI», Pflichtmodul «RIM»).
 
-Darüber hinausgehend ermöglich der Masterstudiengang den Studierenden eine Vertiefung der Kompetenzen in drei Schwerpunkten. Die drei Schwerpunkte werden stringent entlang der drei inhaltich maßgeblichen Handlungsfelder der Medieninformatik definiert (ebenfalls die Namen sind identisch):
+Darüber hinausgehend ermöglicht der Masterstudiengang den Studierenden eine Vertiefung der Kompetenzen in drei Schwerpunkten. Die drei Schwerpunkte werden stringent entlang der drei inhaltich maßgeblichen Handlungsfelder der Medieninformatik definiert (die Namen sind identisch):
 
 - Schwerpunkt «Developing for User Experiences»
 - Schwerpunkt «Developing Interactive and Distributed Systems»
