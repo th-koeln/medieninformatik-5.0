@@ -51,7 +51,7 @@ competencies:
         competence: "Sind neugierig, offen und in der Lage Fragen zu stellen, Unbekanntes zu erkunden und verschiedene Perspektiven zu berücksichtigen."
 
 
-  - title: Entwicklungsmethoden und Prototyping
+  - title: Entwicklungsmethoden & Prototyping
     sub:
       - title: Entwicklungsprozesse
         status: 'new'

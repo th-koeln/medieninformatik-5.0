@@ -24,8 +24,7 @@ exports.render = (eleventy, data, attributes) => {
       .replace(/<h4/g, '<h6')
       .replace(/<h3/g, '<h5')
       .replace(/<h2/g, '<h4')
-      .replace(/<h1/g, '<h3')
-      .replace(/<main>(.*?)<\/main>/isg, "$1");
+      .replace(/<h1/g, '<h3');
 
     return `
       <div class="modulbeschreibung print">

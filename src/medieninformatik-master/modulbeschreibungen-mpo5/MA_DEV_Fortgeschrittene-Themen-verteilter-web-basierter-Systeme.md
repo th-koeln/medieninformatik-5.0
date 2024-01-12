@@ -1,6 +1,7 @@
 ---
 title: Fortgeschrittene Themen verteilter, web-basierter Systeme
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: master
 kuerzel: FTW
 sprache: deutsch

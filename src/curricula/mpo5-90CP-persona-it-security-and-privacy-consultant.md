@@ -1,10 +1,11 @@
 ---
-title: Berufsbild »IT Security and Privacy Consultantr« (Master of Science)
+title: Berufsbild »IT Security and Privacy Consultant« (Master of Science)
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
   - master-berufsbilder
   - persona
+  - persona-dux
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
@@ -24,7 +25,7 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "SPV"
-            - "ITC"
+            - "ABIA"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,8 +33,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DUX"
-            - "SOZE"
-            - "EAM"
+            - "RE"
+            - "ITC"
     - semester:
         fachsemester: 3
         label: "Finales Semester"

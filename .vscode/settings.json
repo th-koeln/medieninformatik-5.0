@@ -6,6 +6,7 @@
     "stylelint.validate": ["scss"],
     "editor.codeActionsOnSave": {
         "source.fixAll.stylelint": "explicit"
-    }
+    },
+    "languageTool.language": "de-DE"
 
 }

@@ -4,6 +4,7 @@ layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
     - bachelor-verlaufsplaene
+    - bachelor-verlaufsplaene-alternativ
     - bachelor-for-experts
     - bachelor-for-fakrat
 collection: modulsBPO5

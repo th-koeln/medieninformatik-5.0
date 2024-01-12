@@ -5,6 +5,7 @@ module.exports = {
 	},
 	render(data) {
 
+    const utils = require('./components/utils.11ty.js');
     const tocTools = require('./components/tocTools.11ty.js');
     const curriculumTools = require('./components/curriculumTools.11ty.js');
     
@@ -19,11 +20,14 @@ module.exports = {
         eleventy: this
       });
 
+      item.collections = data.collections;
+
       return `
         <section class="${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
             <h${item.data.level + 1} id="${this.slugify(item.data.title)}">${status}${item.data.title} <a href="${editUrl}" title="Inhalt ändern"><span class="icon icon--inline">edit</span></a></h${item.data.level + 1}>
               ${item.content}
+              ${utils.parseContent(this, item)}
               <h${item.data.level + 2}>Module für diesen Schwerpunkt</h${item.data.level + 2}>
               ${moduls}
           </div>

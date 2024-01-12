@@ -1304,29 +1304,29 @@ Beamergestützte Vorträge, Rechnergestützte Workshops
 
 
 
-# Praxisprojekt, praktischer Teil§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojektarbeit§
+# Praxisprojekt, praktischer Teil§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojekt§
 
 
 
 %begin-modulMeta%**Modulverantwortlich**: alle Professor:innen der TH Köln%end-modulMeta%%begin-modulMeta%**Studiensemester**: 7%end-modulMeta%%begin-modulMeta%**Sprache**: deutsch%end-modulMeta%%begin-modulMeta%**Kreditpunkte**: 12%end-modulMeta%%begin-modulMeta%**Typ**: Pflichtmodul%end-modulMeta%%begin-modulMeta%**Prüfungsleistung**: Schriftliche Ausarbeitung, Projektdokumentation%end-modulMeta%
 
 
-## Besonderheiten§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojektarbeit§
+## Besonderheiten§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojekt§
 
 ---
 
 
-## Lehrform/SWS§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojektarbeit§
+## Lehrform/SWS§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojekt§
 
 Angeleitetes, eigenverantwortliches Arbeiten
 
 
-## Arbeitsaufwand§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojektarbeit§
+## Arbeitsaufwand§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojekt§
 
 315 h Projektarbeit
 
 
-## Angestrebte Lernergebnisse§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojektarbeit§
+## Angestrebte Lernergebnisse§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojekt§
 
 Die Studierenden 
 
@@ -1335,7 +1335,7 @@ Die Studierenden
 - haben erste Erfahrungen mit der Selbststeuerung und proaktiven Kommunikation in einem Projekt mittlerer Größe und der Einordnung von Projektarbeit in betriebliche, gesellschaftliche und rechtliche Rahmenbedingungen gesammelt
 
 
-## Inhalt§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojektarbeit§
+## Inhalt§pathlabel:../../src/modulbeschreibungen-bachelor-bpo5/BA_Praxisprojekt§
 
 Modulinhalte des ersten bis fünften Semesters anhand von realen Anforderungen in einem praxisrelevanten Kontext anwenden und den Studierenden durch die Betreuung des Dozenten an eine selbstständige Projektdurchführung und Kommunikation heranführen. Das Praxisprojekt kann entweder in einem Unternehmen oder in der Hochschule - dann eingebettet in Forschungsprojekte - erfolgen.
 

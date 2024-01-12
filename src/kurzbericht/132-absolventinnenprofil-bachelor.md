@@ -16,7 +16,4 @@ Medieninformatiker\*innen können die Anforderungen und Bedürfnisse der Nutzer\
 
 Medieninformatiker\*innen erkunden fortgeschrittene interaktive Medien und Technologien, können deren Nutzungs- und Problemlösungspotentiale einschätzen und in sinnvolle Lösungen überführen. Dabei berücksichtigen sie ethische und gesellschaftliche Aspekte und Bedarfe und entwickeln kreative und explorative Ansätze, die über bestehende Standards hinausgehen.
 
-Absolvent\*innen verfügen über ein breites, interdiszipliäres Wissen in der Medieninformatik und sind in der Lage, dieses Wissen in konkrete Anwendungen umzusetzen, kritisch zu reflektieren und innovative Lösungen für verschiedene Kontexte zu schaffen.
-
-
-
+Absolvent\*innen verfügen über ein breites, interdisziplinäres Wissen in der Medieninformatik und sind in der Lage, dieses Wissen in konkrete Anwendungen umzusetzen, kritisch zu reflektieren und innovative Lösungen für verschiedene Kontexte zu schaffen.

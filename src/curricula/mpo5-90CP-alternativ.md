@@ -4,6 +4,7 @@ layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
   - master-verlaufsplaene
+  - master-verlaufsplaene-alternativ
   - master-for-experts
   - master-for-fakrat
 collection: modulsMPO5
