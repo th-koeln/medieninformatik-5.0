@@ -5,6 +5,7 @@ inToc: false
 tocs:
   - master-berufsbilder
   - persona
+  - persona-exa
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
@@ -24,7 +25,7 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "AR"
-            - "UC"
+            - "DM"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,8 +33,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-EXA"
-            - "ART"
-            - "SNS"
+            - "VIS"
+            - "VDM"
     - semester:
         fachsemester: 3
         label: "Finales Semester"

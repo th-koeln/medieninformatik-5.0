@@ -13,14 +13,13 @@ meta:
 ---
 Die Menschen mit ihren Bedürfnissen stehen im Zentrum der Medieninformatik.
 
-Absolvent:innen unserer Medieninformatik-Studiengänge `<span class="is-dux">`konzipieren und `<span class="is-exa">`explorieren neue digitale Medien und interaktive digitale Produkte, `<span class="is-dev">`implementieren diese in Hard- und Software, `<span class="is-crea">`treiben interdisziplinäre Entwicklungsprozesse voran und `<span class="is-indi">`analysieren und `<span class="is-indi">`evaluieren deren Nutzung.
+Absolvent\*innen unserer Medieninformatik-Studiengänge <span class="is-dux">konzipieren</span> und <span class="is-exa">explorieren</span> neue digitale Medien und interaktive digitale Produkte, <span class="is-dev">implementieren</span> diese in Hard- und Software, <span class="is-crea">treiben</span> interdisziplinäre Entwicklungsprozesse voran, und <span class="is-indi">analysieren</span> und <span class="is-indi">evaluieren</span> deren Nutzung.
 
 Daraus wurden die folgenden Handlungsfelder abgeleitet:
 
 <h4 class="is-dux-color">Designing for User Experiences (DUX)</h4>
 
-Hier befassen sich Medieninformatiker\*innen mit der Ausgestaltung digitaler Anwendungen und ggf. deren Einbettung in digitale Ökosysteme von Unternehmen oder Institutionen, deren Nutzung dann in spezifische Erlebnisse von Benuzter\*innen mündet. Die Ausgestaltung umfasst die Analyse relevanter Nutzungskontexte, die Durchführung von Benutzerforschung, das konzeptionelle Design digitaler Anwendungen und die Entwicklung von Interaktionskonzepten für die zu adressierenden Nutzergruppen, die Erstellung von Prototypen und Wireframes, sowie die enge Zusammenarbeit mit Entwickler\*innen. Zu erwerbende Kompetenzen gliedern sich in die folgenden Bereiche:
-
+Hier befassen sich Medieninformatiker\*innen mit der Ausgestaltung digitaler Anwendungen und ggf. deren Einbettung in digitale Ökosysteme von Unternehmen oder Institutionen, deren Nutzung dann in spezifische Erlebnisse von Benuzter\*innen mündet. Die Ausgestaltung umfasst die Analyse relevanter Nutzungskontexte, die Durchführung von Benutzer\*innenforschung, das konzeptionelle Design digitaler Anwendungen und die Entwicklung von Interaktionskonzepten für die zu adressierenden Nutzer\*innengruppen, die Erstellung von Prototypen und Wireframes, sowie die enge Zusammenarbeit mit Entwickler\*innen. Zu erwerbende Kompetenzen gliederen sich in die folgenden Bereiche:
 - Anforderungen und Bedarfe
 - Konzeption
 - Gestaltung
@@ -41,9 +40,7 @@ Zu erwerbende Kompetenzen gliedern sich in die folgenden Bereiche:
 
 <h4 class="is-exa-color">Exploring Advanced Interactive Media (EXA)</h4>
 
-Hier stehen experimentelle und innovative, interaktive Produkte und Services im Vordergrund. Durch Erkenntnisse und Inspiration aus anderen Disziplinen, kreative Konzeption und Prototyping werden neue Technologien, Trends und Anwendungsszenarien erkundet. Für die Medieninformatik sind Technologien aus den Bereichen Virtual Reality (VR), Augmented Reality (AR), Mixed Reality, Ubiquitous Computing und Machine Learning zukunftsweisend.
-
-Zu erwerbende Kompetenzen gliedern sich in die folgenden Bereiche:
+Hier stehen experimentelle und innovative, interaktive Produkte und Services im Vordergrund. Durch Erkenntnisse und Inspiration aus anderen Disziplinen, kreative Konzeption und Prototyping werden neue Technologien, Trends und Anwendungsszenarien erkundet. Für die Medieninformatik sind Technologien aus den Bereichen Virtual Reality (VR), Augmented Reality (AR), Mixed Reality (MR), Ubiquitous Computing und Machine Learning zukunftsweisend. 
 
 - Medien
 - Exploration & Kreativität
@@ -65,7 +62,7 @@ Zu erwerbende Kompetenzen gliederen sich in die folgenden Bereiche:
 
 <h4 class="is-indi-color">Enhancing Interactions on Different Scales (INDI)</h4>
 
-Dieses Handlungsfeld dreht sich um nachhaltige, anforderungsgerechte und ethisch verantwortliche digitale Produkte. Mit Hilfe von Analysen, Studien und Experimenten wird sichergestellt, dass entwickelte Produkte nicht nur funktional, sondern auch sinnvoll, effizient und effektiv in verschiedenen Kontexten nutzbar sind. Die Umsetzung von «Situated Interaction» gewährleistet, dass Interaktionen auf die spezifischen Umgebungen, Erfahrungen, Fähigkeiten, Erwartungen und Bedürfnisse der Nutzer\*innen abgestimmt sind. Ethik und gesellschaftliche Verantwortung stehen im Fokus, wobei kontinuierliche Evaluierungen die Grundlage für fortlaufende Verbesserungen bilden. Medieninformatiker\*innen streben nicht nur nach technologischer Innovation, sondern schaffen digitale Interaktionen, die einen positiven Einfluss auf die Gesellschaft haben und sich im Einklang mit ethischen Prinzipien befinden.
+Dieses Handlungsfeld dreht sich um nachhaltige, anforderungsgerechte und ethisch verantwortliche digitale Produkte. Mit Hilfe von Analysen, Studien und Experimenten wird sichergestellt, dass entwickelte Produkte nicht nur funktional, sondern auch sinnvoll, effektiv und effizient in verschiedenen Kontexten nutzbar sind. Die Umsetzung von «Situated Interaction» gewährleistet, dass Interaktionen auf die spezifischen Umgebungen, Erfahrungen, Fähigkeiten, Erwartungen und Bedürfnisse der Nutzer\*innen abgestimmt sind. Ethik und gesellschaftliche Verantwortung stehen im Fokus, wobei kontinuierliche Evaluierungen die Grundlage für fortlaufende Verbesserungen bilden. Medieninformatiker\*innen streben nicht nur nach technologischer Innovation, sondern schaffen digitale Interaktionen, die einen positiven Einfluss auf die Gesellschaft haben und sich im Einklang mit ethischen Prinzipien befinden.
 
 Zu erwerbende Kompetenzen gliedern sich in die folgenden Bereiche:
 

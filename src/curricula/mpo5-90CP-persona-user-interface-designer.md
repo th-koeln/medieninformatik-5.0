@@ -5,6 +5,7 @@ inToc: false
 tocs:
   - master-berufsbilder
   - persona
+  - persona-dux
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
@@ -24,7 +25,7 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "ID"
-            - "VIS"
+            - "PPMB"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -32,7 +33,7 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DUX"
-            - "PPMB"
+            - "VIS"
             - "CE"
     - semester:
         fachsemester: 3
