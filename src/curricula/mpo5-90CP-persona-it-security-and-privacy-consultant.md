@@ -25,7 +25,7 @@ studienverlauf:
             - "RIM"
             - "GP"
             - "SPV"
-            - "ITC"
+            - "ABIA"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -33,8 +33,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DUX"
-            - "SOZE"
-            - "EAM"
+            - "RE"
+            - "ITC"
     - semester:
         fachsemester: 3
         label: "Finales Semester"

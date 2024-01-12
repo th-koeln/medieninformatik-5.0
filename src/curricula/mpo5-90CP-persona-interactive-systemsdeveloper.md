@@ -24,8 +24,8 @@ studienverlauf:
         module: 
             - "RIM"
             - "GP"
-            - "MODI" 
-            - "ITSTR"
+            - "BC" 
+            - "OSC"
     - semester:
         label: "2. Semester"
         fachsemester: 2
@@ -33,8 +33,8 @@ studienverlauf:
         module: 
             - "IMP"
             - "GP-DEV" 
-            - "FTW"
-            - "PEM"
+            - "MODI"
+            - "WEBT"
     - semester:
         fachsemester: 3
         label: "Finales Semester"
