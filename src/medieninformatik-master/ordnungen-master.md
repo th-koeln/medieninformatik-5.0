@@ -8,5 +8,5 @@ tocs:
   - master-for-experts
 ---
 
-- [Prüfungsordnung MPO 5 (Entwurf)](/downloads/mpo5-mi-bachelor-v3-mb.pdf)
+- [Prüfungsordnung MPO 5 (Entwurf)](/downloads/mpo5-mi-master.pdf)
 
