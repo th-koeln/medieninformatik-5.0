@@ -18,15 +18,10 @@ veranstaltungsform: Remote, teils hybrid
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung
+    art: Mündliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: viet
     zweitpruefer: mfaske
     datum: vereinbarung
-  Teamleistung:
-    art: Projektarbeit
-    erstpruefer: viet
-    zweitpruefer: maa, nkuhn, mfaske
-    datum: ende
 meta:
   status: ok  
   authors: viet

@@ -19,7 +19,7 @@ schwerpunkt: DEV
 typ: wpm
 studienleistungen:
   Einzelleistung:
-    art: Fachgespräch (50%), Projektarbeit (50%)
+    art: schriftliche Ausarbeitung (50%) und mündliche Prüfung (50%)
     erstpruefer: viet
     zweitpruefer: cn
     datum: vereinbarung
@@ -33,7 +33,6 @@ studiengangkriterien:
   internationalisierung: 0
   interdisziplinaritaet: 0
   transfer: 0
-
 ---
 ## Kurzbeschreibung
 

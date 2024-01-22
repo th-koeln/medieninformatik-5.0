@@ -18,7 +18,7 @@ veranstaltungsform: Präsenz
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung und schritliche Ausarbeitung
+    art: Mündliche Prüfung und schritliche Ausarbeitung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsleistung
     erstpruefer: viet
     zweitpruefer: sk
     datum: vereinbarung
@@ -52,11 +52,17 @@ Gesamtaufwand 150h, davon
 
 ## Angestrebte Lernergebnisse
 
-Die Studierenden wenden gängige Angriffsvektoren in Webanwendungen an und analysieren deren Ursachen.
 
-Die Studierenden verstehen Sicherheitskonzepte und Sicherheitsmaßnahmen, die vor Angriffen auf Webanwendungen schützen.
 
-Die Studierenden sind in der Lage, Penetrationstests auf Webanwendungen durchzuführen.
+(WAS) Studierende können Sicherheitsanalysen an Webanwendungen durchführen
+
+(WOMIT) indem sie
+
+* Angriffe mit gängigen Werkzeugen durchführen und Sicherheitslücken entdecken
+* Risiken und Konsequenzen der gefundenen Schwachstellen bewerten bzw. beschreiben
+* geeignete Gegenmaßnahmen definieren
+
+(WOZU) um später qualative hochwertige Penterationstest durchzuführen mit dem Ziel die Sicherheit von Webanwendungen nachaltig zu optimieren.
 
 ## Inhalt
 
