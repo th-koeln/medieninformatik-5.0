@@ -17,7 +17,7 @@ veranstaltungsform:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Projektarbeit (40%) und Klausur (60%)
+    art: Projektarbeit und Klausurarbeit
     erstpruefer: rgroten
     zweitpruefer: gh
     datum: vereinbarung

@@ -18,7 +18,7 @@ layout: modulbeschreibung.11ty.js
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Klausurarbeit, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: ck
     zweitpruefer: ald
     datum: ss-2

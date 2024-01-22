@@ -17,7 +17,7 @@ veranstaltungsform:
 infourl: https://ilias.th-koeln.de/ilias.php?ref_id=692123&cmdClass=ilrepositorygui&cmdNode=w4&baseClass=ilrepositorygui
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung
+    art: Klausurarbeit
     erstpruefer: fn
     zweitpruefer: il
     datum: ws-2

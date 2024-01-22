@@ -18,10 +18,11 @@ parent:
 infourl: 
 studienleistungen:
   Teamleistung:
-    art: Projektarbeit mit Projektpräsentationsprüfung und Fachgespräch, sowie schriftliche Ausarbeitung
+    art: Projektarbeit, sowie schriftliche Ausarbeitung
     erstpruefer: geha, mbluemm
     zweitpruefer: nkuhn, simonschulte
     datum: ende
+    anzahl: 2
 meta:
   status: ok
   authors: Gerhard, Christian
@@ -32,7 +33,7 @@ meta:
     - "mb: Sollten wir im WiSe und SoSe anbieten, damit es klappt, das PS auch ins SoSe zu legen"
 praesenzZeit: 36
 selbstStudium: 264  
-angebotImWs: false
+angebotImWs: true
 angebotImSs: true
 lehrmethoden:
   - begleitete Projektarbeit

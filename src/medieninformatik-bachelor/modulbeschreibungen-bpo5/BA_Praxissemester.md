@@ -16,7 +16,7 @@ veranstaltungsform:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Bericht
+    art: Nach Abschluss des Praxissemesters wird dem betreuenden Mentor ein wissenschaftlicher Praxissemesterbericht sowie das Zeugnis der Praxisstelle zur Anerkennung vorgelegt. Der Bericht wird nicht benotet.
     erstpruefer: all
     zweitpruefer: seckstein
     datum: vereinbarung

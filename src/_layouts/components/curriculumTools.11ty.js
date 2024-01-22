@@ -97,6 +97,121 @@ exports.getCurriculumList = (obj) => {
   `;
 };
 
+/* Tabelle der Module eines Studiengangs im Curriculum mit Prüfungsleistungen
+############################################################################ */
+
+exports.getCurriculumVerlaufsplanExamTable = (obj) => {
+
+  const { moduls } = obj;
+  const { data } = obj;
+  const { eleventy } = obj;
+  const { studienverlauf } = obj;
+
+  const modulTypMap = {
+    "pm": "Pflichtmodul",
+    "wpf": "Wahlpflichtmodul",
+    "wf": "Wahlmodul",
+  };
+
+  if(!studienverlauf) return '';
+
+  const tableHeader = `
+    <thead>
+      <tr>
+        <th colspan=3>Module / Lehrveranstaltungen</th>
+        <th>Pflicht- / Wahlmodule</th>
+        <th colspan=2>ECTS - Leistungspunkte</th>
+        <th colspan=3>Anwesenheitspflicht als Zulassungsvoraussetzung zur (Teil) Modulprüfung</th>
+        <th colspan=3>Prüfungsvorleistung als Zulassungsvoraussetzung zur Modulprüfung</th>
+        <th>Prüfungsform</th>
+        <th colspan=2>Anzahl</th>
+        <th>Summe</th>
+      </tr>
+      <tr>
+        <th>Semester</th>
+        <th>Modul</th>
+        <th>Teilmodul / Lehrveranstaltung (optional)</th>
+        <th>Pflichtmodul (PF) Wahlpflichtmodul (WPF) Wahlmodul (WF)</th>
+        <th>Teilmodul</th>
+        <th>Gesamt</th>
+        <th>ja / nein</th>
+        <th>wenn ja, Mindestpräsenzzeit angeben</th>
+        <th>wenn ja, bitte begründen</th>
+        <th>ja / nein?</th>
+        <th>wenn ja, welche(s) (Teil)Modul(e)</th>
+        <th>wenn ja, bitte begründen</th>
+        <th></th>
+        <th>Prüfungs-leistungen pro (Teil)Modul</th>
+        <th>Mindest-anzahl zu belegender WPF, WF</th>
+        <th>Prüfungen</th>
+      <tr>
+    </thead>
+  `;
+
+  const tableBodyByTerm = studienverlauf.map((row) => {
+
+    const termModuls = row.semester.module.map((kuerzel) => {
+      const modul = moduls.filter((modul) => modul.data.kuerzel === kuerzel)[0];
+      if(!modul) return null;
+      return modul;
+    });
+
+    const termModulsList = termModuls.map((modul) => {
+
+      const examInfo = modul.data.studienleistungen === null
+        ? ''
+        : moduleTools.resolveExamInfoSimple(modul.data.studienleistungen);
+
+      const status = modul.data.meta && modul.data.meta.status ? `is-${modul.data.meta.status}` : '';
+      
+      const vorleistung = modul.data.pvl === true ? "ja" : "nein";
+      const vorleistungModul = modul.data.pvl === true ? "begleitendes Praktikum" : "";
+      const vorleistungAddOnSum = modul.data.pvl === true ? 1 : 0;
+
+      const examSum = modul.data.studienleistungen === null
+        ? 'keine'
+        : moduleTools.getExamSum(modul.data.studienleistungen, modul.data.pvl) + vorleistungAddOnSum;
+
+      return `
+        <tr class="${status}">
+          <td>${row.semester.fachsemester}</td>
+          <td class="is-left"><a href="${ modul.url}">${modul.data.title}</a></td>
+          <td>-</td>
+          <td>${modulTypMap[modul.data.typ]}</td>
+          <td>-</td>
+          <td>${modul.data.kreditpunkte}</td>
+          <td>nein</td>
+          <td>-</td>
+          <td>-</td>
+          <td>${vorleistung}</td>
+          <td>${vorleistungModul}</td>
+          <td>-</td>
+          <td class="is-left">${examInfo}</td>
+          <td>${examSum}</td>
+          <td>-</td>
+          <td>${examSum}</td>
+        </tr>
+      `;
+    });
+
+    return termModulsList.join("\n");
+    
+  });
+
+return `
+  <div class="modulmatrix-wrap">
+    <table class="table-exams is-striped is-narrow ">
+      ${tableHeader}
+      <tbody>
+        ${tableBodyByTerm.join("\n")}
+      </tbody>
+    </table>
+  </div>
+`;
+
+};
+
+
 /* Tabelle der Module eines Studiengangs
 ############################################################################ */
 
@@ -487,12 +602,15 @@ exports.getModulMatrix = (obj) => {
         <!-- Modul -->
         <th class="module-name"><a href="${ modulItem.url}">${modul.title}</a></th>
         <td>${modul.typ === 'pm' ? check : ''}</td>
-        <td>${modul.kreditpunkte}</td>
         <td>${(modul.angebotImWs && modul.angebotImSs) ? "immer" : ""}${(modul.angebotImWs && !modul.angebotImSs) ? "WiSe" : ""}${(!modul.angebotImWs && modul.angebotImSs) ? "SoSe" : ""}</td>
         
         <!-- Prüfungen -->
-        <td>${getExams(modul)}</td>
-  
+        <!--td>${getExams(modul)}</td-->
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td>${modul.kreditpunkte}</td>
+
         <!-- Handlungsfelder -->
         <td>${checkImpactHandlungsfeld('DUX')}</td>
         <td>${checkImpactHandlungsfeld('DEV')}</td>
@@ -543,18 +661,23 @@ exports.getModulMatrix = (obj) => {
       <table class="table-modulmatrix is-narrow">
         <thead>
           <tr>
-            <th colspan=5>Modul</th>
+            <th colspan=8>Modul</th>
             <th colspan=5>Handlungsfelder</th>
             <th colspan=16>Zuordnung Kompetenzen</th>
             <th colspan=4>Zuordnung Studiengangkriterien</th>
+
           </tr>
           <tr>
             <!-- Modul -->
             <th class="module-name"></th>
             <th class="is-vertical"><div><span>Pflicht</span></div></th>
-            <th class="is-vertical"><div><span>ECTS</span></div></th>
             <th class="is-vertical"><div><span>Semester</span></div></th>
-            <th class="is-vertical"><div><span>Prüfungen</span></div></th>
+
+            <!--th class="is-vertical"><div><span>Prüfungen</span></div></th-->
+            <th></th>
+            <th></th>
+            <th></th>
+            <th class="is-vertical"><div><span>ECTS</span></div></th>
 
             <!-- Handlungsfelder -->
             <th class="is-vertical"><div><span>DUX</span></div></th>

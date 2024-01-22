@@ -18,7 +18,7 @@ infourl: https://ilias.th-koeln.de/ilias.php?ref_id=19830&cmdClass=ilrepositoryg
 pvl: true
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Klausurarbeit, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: fv
     zweitpruefer: ck
     datum: ws-1

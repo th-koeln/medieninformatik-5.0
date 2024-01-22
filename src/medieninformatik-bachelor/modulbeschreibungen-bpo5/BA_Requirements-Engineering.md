@@ -18,7 +18,7 @@ pvl: false
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1340996&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
-    art: Klausur
+    art: Klausurarbeit
     erstpruefer: il
     zweitpruefer: rgroten
     datum: 03.07.2023

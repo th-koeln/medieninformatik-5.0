@@ -17,7 +17,7 @@ veranstaltungsform: vor Ort
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Teamleistung:
-    art: Projektarbeit, Fachvortrag mit Diskussion
+    art: Projektarbeit und Referat
     erstpruefer: mbluemm
     zweitpruefer: cn
     datum: ende
@@ -29,7 +29,7 @@ besonderheiten:
 praesenzZeit: 40
 selbstStudium: 110
 angebotImWs: true
-angebotImSs: true
+angebotImSs: false
 weitereStudiengaenge:
 lehrmethoden:
   - Flippeed Classroom

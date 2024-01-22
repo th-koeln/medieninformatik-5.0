@@ -17,7 +17,7 @@ veranstaltungsform:
 infourl: https://ilias.th-koeln.de/ilias.php?ref_id=1664123&cmdClass=ilobjcoursegui&cmdNode=w4:l5&baseClass=ilrepositorygui&redirectSource=ilcourseregistrationgui&cmdMode=
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Klausurarbeit, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: wk
     zweitpruefer: aschmitter
     datum: ws-1

@@ -18,7 +18,7 @@ veranstaltungsform:
 parent:
 studienleistungen:
   Einzelleistung:
-    art: Präsentation und kritische Würdigung im seminaristischen Teil des Praktikums
+    art: Mündliche Prüfung
     erstpruefer: sk
     zweitpruefer: hls
     datum: vereinbarung

@@ -12,6 +12,7 @@ groups: ['Grundlagen', 'Vertiefung', 'Spezialisierung']
 maxCPS: 210
 showModuleList: true
 
+studyProgramme: 'bachelor'
 studienverlauf:
     - semester:
         label: "1. Semester"
