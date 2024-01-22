@@ -16,6 +16,7 @@ typ: tm
 veranstaltungsform: 
 parent: SC
 infourl: 
+angebotImSs: true
 studienleistungen:
   Einzelleistung:
     art: Projektarbeit
