@@ -6,6 +6,7 @@ tocs:
   - bachelor
   - bachelor-for-fakrat
   - bachelor-for-experts
+  - ordnungen
 ---
 
 - [Prüfungsordnung BPO 5 (Entwurf)](/downloads/bpo5-mi-bachelor-v2-cn.pdf)

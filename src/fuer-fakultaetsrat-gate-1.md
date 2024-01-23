@@ -8,7 +8,7 @@ inOverview:
   - home-stakeholder
 tocs:
   - boards  
-cardTitle: "Für Fakultätsrat"
+cardTitle: "Für Fakultätsrat I"
 teaserText: "Unterlagen und Infos für den Fakultätsrat: Umlaufbeschluss zur Freigabe der Unterlagen für die SK1"
 ---
 
