@@ -12,6 +12,7 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung 1 und 2, Datenbankensysteme, Kommunikationstechnik und Netze
 published: true
+pvl: true
 layout: modulbeschreibung.11ty.js
 typ: pm
 veranstaltungsform: Remote, teils hybrid

@@ -19,7 +19,7 @@ schwerpunkt: DEV
 typ: wpm
 studienleistungen:
   Einzelleistung:
-    art: schriftliche Ausarbeitung (50%) und mündliche Prüfung (50%)
+    art: schriftliche Ausarbeitung und mündliche Prüfung
     erstpruefer: viet
     zweitpruefer: cn
     datum: vereinbarung
