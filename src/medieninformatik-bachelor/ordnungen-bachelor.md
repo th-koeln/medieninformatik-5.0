@@ -9,6 +9,9 @@ tocs:
   - ordnungen
 ---
 
-- [Prüfungsordnung BPO 5 (Entwurf)](/downloads/bpo5-mi-bachelor-v2-cn.pdf)
-- [Praxissemesterordnung (Entwurf)](/downloads/praxissemesterordnung-mi-bachelor-v1.0.0-cn.pdf)
-- [Auslaufordnung BPO 4(Entwurf)](/downloads/bpo4-auslaufordnung-v0-cn.pdf)
+- [Prüfungsordnung BPO 5](/downloads/bpo5-mi-bachelor.pdf)
+- [Anhang 1 BPO 5: Studienverlaufspläne & Modulmatrix](/downloads/modulmatrix-mi-bachelor-2024-01-22.pdf)
+- [Anhang 2 BPO 5: Praxissemesterordnung](/downloads/praxissemesterordnung-mi-bachelor-v1.0.0-cn.pdf)
+- [Auslaufordnung BPO 4](/downloads/bpo4-auslaufordnung-v0-cn.pdf)
+- [Anhang Auslaufordnung BPO 4: Auslaufplanung/ Äquivalenzliste](/downloads/aequivalenzliste-bpo4-bpo5.pdf)
+

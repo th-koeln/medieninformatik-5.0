@@ -9,6 +9,6 @@ tocs:
   - ordnungen
 ---
 
-- [Prüfungsordnung MPO 5 (Entwurf)](/downloads/mpo5-mi-master.pdf)
-- [Auslaufordnung MPO 4 (Entwurf)](/downloads/mpo4-auslaufordnung.pdf)
-
+- [Prüfungsordnung MPO 5](/downloads/mpo5-mi-master.pdf)
+- [Anhang MPO 5: Studienverlaufspläne & Modulmatrix](/downloads/modulmatrix-mi-master-2024-01-22.pdf)
+- [Auslaufordnung MPO 4)](/downloads/mpo4-auslaufordnung.pdf)
