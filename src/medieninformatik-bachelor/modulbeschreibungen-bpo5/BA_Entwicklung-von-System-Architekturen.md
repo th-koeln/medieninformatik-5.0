@@ -14,7 +14,7 @@ empfohleneVoraussetzungen: Grundkenntnisse Algorithmen, Datenbanken und objektor
 published: true
 layout: modulbeschreibung.11ty.js
 typ: pm
-pvl: false
+pvl: true
 veranstaltungsform: 
 infourl: 
 studienleistungen:
