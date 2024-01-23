@@ -111,6 +111,8 @@ exports.getCurriculumVerlaufsplanExamTable = (obj) => {
     "pm": "Pflichtmodul",
     "wpf": "Wahlpflichtmodul",
     "wf": "Wahlmodul",
+    "wpm": "Wahlpflichtmodul",
+    "undefined": "Wahlmodul"
   };
 
   if(!studienverlauf) return '';

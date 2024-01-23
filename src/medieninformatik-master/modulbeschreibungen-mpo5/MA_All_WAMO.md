@@ -17,7 +17,7 @@ layout: modulbeschreibung.11ty.js
 kategorie: wahl
 hideSchwerpunktChildren: true
 hideSchwerpunktloseChildren: false
-typ: 
+typ: wf
 studienleistungen:
   Einzelleistung:
     art: siehe Modulbeschreibung des gewählten Moduls

@@ -17,7 +17,7 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Präsentation (30%), Projektarbeit (70%)
+    art: Projektarbeit
     erstpruefer: gh, mbluemm,
     zweitpruefer: gh, mbluemm, nkuhn
     datum: vereinbarung
