@@ -5,6 +5,7 @@ module.exports = {
 	},
 	render(data) {
     const { collection } = data;
+    const { studyProgramme } = data;
     const curriculumTools = require('./components/curriculumTools.11ty.js');
 
     const curriculumList = curriculumTools.getCurriculumList({
@@ -26,11 +27,22 @@ module.exports = {
       eleventy: this
     });
 
+    const curriculumVerlaufExamTable = curriculumTools.getCurriculumVerlaufsplanExamTable({
+      moduls: data.collections[collection],
+      terms: data.terms,
+      groups: data.groups,
+      maxCPS: data.maxCPS,
+      studienverlauf: data.studienverlauf,
+      data,
+      eleventy: this
+    });
+    
     const allModuls = curriculumTools.getAllModuls({
       moduls: data.collections[collection],
       data,
       eleventy: this
     });
+
 
     const curriculumVerlaufList = data.showModuleList && data.showModuleList === true
       ? `<section>${curriculumList}</section>` : '';
@@ -63,10 +75,14 @@ module.exports = {
           ${curriculumVerlaufList}
         </section>
 
-
         <section class="has-seperator" ${data.hideAllModules ? "hidden" : ""}>
           <h2>Alle Module</h2>
           ${allModuls}
+        </section>
+
+        <section class="has-seperator" ${data.hideDetailsFachsemester ? "hidden" : ""}>
+        <h2>Tabelle Prüfungslast</h2>
+          ${curriculumVerlaufExamTable}
         </section>
 
 			</main>

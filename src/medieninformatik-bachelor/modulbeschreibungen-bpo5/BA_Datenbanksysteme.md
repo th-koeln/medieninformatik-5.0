@@ -18,7 +18,7 @@ veranstaltungsform:
 infourl: https://ilu.th-koeln.de/goto.php?target=crs_71271&client_id=thkilu
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
+    art: Klausurarbeit, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung.
     erstpruefer: jschaible
     zweitpruefer: bb
     datum: ws-2

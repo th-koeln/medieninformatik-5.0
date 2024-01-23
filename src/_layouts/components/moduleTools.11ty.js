@@ -175,6 +175,28 @@ exports.resolveExamInfoSimple = (examInfo) => {
   return extractExamInfo(examInfo);
 };
 
+/* Summe der Prüfungsleistungen
+############################################################################ */
+
+exports.getExamSum = (examInfo) => {
+
+  if(!examInfo || examInfo === undefined) return 1;
+  
+  const extractExamInfo = (examInfo) => {
+
+    const einzelleistung = examInfo['Einzelleistung'] 
+      ? examInfo['Einzelleistung'].anzahl ? examInfo['Einzelleistung'].anzahl : 1
+      : 0;
+    const teamleistung = examInfo['Teamleistung'] 
+      ? examInfo['Teamleistung'].anzahl ? examInfo['Teamleistung'].anzahl : 1
+      : 0;
+
+    return einzelleistung + teamleistung;
+  };
+
+  return extractExamInfo(examInfo);
+};
+
 
 /* Häufigkeit des Angebots
 ############################################################################ */

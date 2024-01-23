@@ -17,7 +17,7 @@ veranstaltungsform: vor Ort
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Teamleistung:
-    art: Prozesstagebuch, Bericht oder Diary
+    art: Lernportfolio
     erstpruefer: cn
     zweitpruefer: viet
     datum: ende

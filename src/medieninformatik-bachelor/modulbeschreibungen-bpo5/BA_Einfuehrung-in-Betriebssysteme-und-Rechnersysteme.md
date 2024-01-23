@@ -13,7 +13,7 @@ empfohleneVoraussetzungen: keine
 published: true
 infourl: https://ilias.th-koeln.de/ilias.php?ref_id=21298&cmdClass=ilrepositorygui&cmdNode=w4&baseClass=ilrepositorygui 
 layout: modulbeschreibung.11ty.js
-typ: pm
+typ: wpf
 veranstaltungsform: 
 parent:
 studienleistungen:

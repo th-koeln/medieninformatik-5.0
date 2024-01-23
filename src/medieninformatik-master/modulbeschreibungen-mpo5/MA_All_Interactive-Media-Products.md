@@ -17,7 +17,7 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Wissenschaftliches Paper zu einer semesterbegleitenden Fallstudie
+    art: Hausarbeit
     art-key: paper-casestudy
     erstpruefer: 
     zweitpruefer: 

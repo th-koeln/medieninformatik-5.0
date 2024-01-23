@@ -17,7 +17,7 @@ veranstaltungsform: Remote, Projektwoche vor Ort
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1164711&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
-    art: Projektpräsentation(30%) und schriftliche Ausarbeitung(70%)
+    art: Projektarbeit
     erstpruefer: hk, nkuhn, cn, mbl
     zweitpruefer: uwm, vos, maa, simonschulte
     datum: ende

@@ -18,10 +18,15 @@ veranstaltungsform:
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: 
-    erstpruefer: 
-    zweitpruefer:
-    datum: 
+    art: Lernportfolio
+    erstpruefer: ck
+    zweitpruefer: mbluemm, uwm
+    datum: ende
+  Teamleistung:
+    art: Projektarbeit
+    erstpruefer: ck
+    zweitpruefer: mbluemm, uwm 
+    datum: ende
 meta:
   status: ok    
   authors: Christian Kohls

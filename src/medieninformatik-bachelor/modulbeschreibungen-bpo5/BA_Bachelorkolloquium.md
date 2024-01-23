@@ -16,7 +16,7 @@ layout: modulbeschreibung.11ty.js
 typ: pm
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung, Vortrag, Fachgespräch
+    art: Mündliche Prüfung
     erstpruefer: eingesetzterPruefer
     zweitpruefer: mas
     datum: antrag
