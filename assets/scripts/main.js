@@ -418,4 +418,6 @@ document.addEventListener("DOMContentLoaded", () => {
   addScrollToTop();
   addDynamicPageNavigation();
   addScrollSpy();
+
+  location.href="https://medieninformatik.pages.archi-lab.io/po5/reakkreditierung/";
 });
