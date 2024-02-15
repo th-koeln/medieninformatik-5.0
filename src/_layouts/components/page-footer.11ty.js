@@ -36,5 +36,16 @@ exports.getPageFooter = (eleventy, data) => {
     <div data-js-size-indicator-small></div>
     <div data-js-size-indicator-large></div>
 
+    <div class="modal-wrap">
+      <div class="modal-content">
+        <h2>Die Seite ist umgezogen…</h2>
+        <p>… und das Repo auch. Beides liegt jetzt innerhalb der TH Infrastruktur.</p>
+        <ul>
+          <li><a href="https://medieninformatik.pages.archi-lab.io/po5/reakkreditierung/">Website</a></li>
+          <li><a href="https://git.archi-lab.io/medieninformatik/po5/reakkreditierung">Repository</a></li>
+        </ul>
+      </div>
+    </div>
+
   `;
 };

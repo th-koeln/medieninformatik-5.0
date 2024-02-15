@@ -1,3 +1,5 @@
+ /* stylelint-disable */
+ 
 @import 'global/reset';
 @import 'global/fonts';
 @import 'global/icons';
@@ -27,6 +29,7 @@
 @import 'components/scroll-to-top';
 @import 'components/quotes';
 @import 'components/cards';
+@import 'components/dialog';
 
 @import 'layouts/content-blocks';
 @import 'layouts/article';
