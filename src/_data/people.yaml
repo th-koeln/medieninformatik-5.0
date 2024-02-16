@@ -333,6 +333,20 @@ sst:
     avatar: '/professoren/stumpf.png'
     personenseite: 'https://www.th-koeln.de/personen/siegfried.stumpf/'
 
+dschmitt:
+    id: dschmitt
+    status: prof
+    name: 'Prof. Dr. Daniela Schmitt (F04)'
+    personenseite: 'https://www.th-koeln.de/personen/daniela.schmitt/'
+    avatar: '/avatar.png'
+    mi: false 
+
+slschulte:
+    id: slschulte
+    status: wma
+    name: 'Simon Ludwig Schulte'
+    personenseite: 'https://www.th-koeln.de/personen/simon_ludwig.schulte/'
+
 
 mi:
     id: mi
