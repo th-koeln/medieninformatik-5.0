@@ -247,10 +247,63 @@ module.exports = function (eleventyConfig) {
     return allImages;
   });
 
+
+  function pushHinweis(modul, hinweis) {
+    
+    (modul.data.hinweise ??= []).push(hinweis);
+    (modul.data.meta ??= {}).status = "refactor"
+
+    console.error("checkModuleForMetaData:  " + modul.data.kuerzel + ": "+hinweis);
+  }
+
+  function checkModuleForMetaData(modul) {
+    
+    // ist das Modul einem Semester zugeordnet?
+    if (!(modul.data.angebotImWs || modul.data.angebotImSs)) {
+      pushHinweis(modul, "Das Modul hat kein Semester (WiSe oder SoSe)")
+    }
+
+    // hat das Modul eine Prüfung?
+    if (!(modul.data.studienleistungen?.Einzelleistung?.art) && !(modul.data.studienleistungen?. Teamleistung?.art)) {
+      pushHinweis(modul, "Das Modul hat keine Prüfung")
+    }
+
+    // hat das Modul die nötigen Studiengangskriterien?
+    if (modul.data.studiengangkriterien === undefined) {
+      pushHinweis(modul, "Keine Studiengangskriterien definiert");
+    } else {
+      
+      if (modul.data.studiengangkriterien.globalcitizenship === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »GlobalCitizenship« nicht definiert (muss 0 oder 1 sein)");
+      }
+    
+      if (modul.data.studiengangkriterien.internationalisierung === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »Internationalisierung« nicht definiert (muss 0 oder 1 sein)");
+      }
+
+      if (modul.data.studiengangkriterien.interdisziplinaritaet === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »Interdisziplinaritaet« nicht definiert (muss 0 oder 1 sein)");
+      }
+
+
+      if (modul.data.studiengangkriterien.transfer === undefined) {
+        pushHinweis(modul, "Studiengangskriterium »Transfer« nicht definiert (muss 0 oder 1 sein)");
+      }
+    
+    }
+
+    
+  }
+
+
   eleventyConfig.addCollection("allModuls", function (collection) {
     clearRequireCache();
     const bachelor = collection.getFilteredByGlob("./src/medieninformatik-bachelor/modulbeschreibungen-bpo5/*.md");
     const master = collection.getFilteredByGlob("./src/medieninformatik-master/modulbeschreibungen-mpo5/*.md");
+
+    bachelor.forEach(m => checkModuleForMetaData(m));
+    master.forEach(m => checkModuleForMetaData(m));
+
     return [...bachelor, ...master].sort((a, b) => {
       if (a.data.title > b.data.title) return 1;
       else if (a.data.title < b.data.title) return -1;
