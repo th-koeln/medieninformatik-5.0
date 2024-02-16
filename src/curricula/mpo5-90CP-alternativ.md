@@ -3,7 +3,8 @@ title: Studienverlaufsplan Master MPO5 mit 90 CP (alternativ)
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - master
+  - master-verlaufsplaene
+  - master-verlaufsplaene-alternativ
   - master-for-experts
   - master-for-fakrat
 collection: modulsMPO5

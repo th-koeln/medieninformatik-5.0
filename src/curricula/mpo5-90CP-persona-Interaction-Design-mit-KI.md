@@ -3,8 +3,9 @@ title: Berufsbild »Interaction Design mit Fokus auf Künstliche Intelligenz« (
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - master
+  - master-berufsbilder
   - persona
+  - persona-dux
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']

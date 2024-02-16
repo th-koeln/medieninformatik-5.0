@@ -5,7 +5,10 @@ module.exports = {
 	},
 	render(data) {
 		const utils = require('./components/utils.11ty.js');
-		
+		const printUrl = data.page.url.replace(/(.*)\//, "$1-print/");
+		const printLink = !data.page.url.match(/-print/) 
+		? `<a href="${printUrl}"><span class="icon">print</span> Druckversion</a>`
+		: "";
 		return `
 
 		<div class="content-wrap">
@@ -15,7 +18,7 @@ module.exports = {
 			<main>
 				<section class="cover">
 					<header>
-						<p class="owner">Fakultät für Informatik und Ingenieurwissenschaften</p>
+						<p class="owner">Technische Hochschule Köln<br/>Fakultät für Informatik und Ingenieurwissenschaften</p>
 						<h1 class="title">Modulhandbuch</h1>
 						<h2 class="subtitle">${data.name}</h2>
 						<p class="degree">${data.degree}</p>
@@ -31,6 +34,9 @@ module.exports = {
 				<section class="content has-seperator">
 					${utils.parseContent(this, data)}
 				</section>
+
+				${printLink}
+				
 			</main>
 		</div>
 		`;

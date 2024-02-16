@@ -2,6 +2,11 @@
 
 Nutzt [11ty](https://www.11ty.dev) für die strukturierte Ablage von Content.
 
+## Repo umgezogen
+Dieses Repo ist umgezogen:
+- [Website](https://medieninformatik.pages.archi-lab.io/po5/reakkreditierung/)
+- [Repo](https://medieninformatik.pages.archi-lab.io/po5/reakkreditierung/)
+
 ## Status von Dokumenten
 
 | Kürzel | Bedeutung | Was ist zu tun? |
@@ -15,7 +20,7 @@ Nutzt [11ty](https://www.11ty.dev) für die strukturierte Ablage von Content.
 
 ## Deployment
 
-Seit dem 07.12.2023 wird der `public` Branch deployt, da wir jetzt die URL an externe weiter gegeban haben und der Stand stabil sein muss. Wenn ihr Änderungen habt, benutzt bitte am Besten einen Pull Request.
+Seit dem 07.12.2023 wird der `public` Branch deployt, da wir jetzt die URL an externe weiter gegeben haben und der Stand stabil sein muss. Wenn ihr Änderungen habt, benutzt bitte am Besten einen Pull Request.
 
 ## Ordnerstruktur
 

@@ -1,6 +1,7 @@
 ---
 title: Sichere Softwareentwicklung verteilter, web-basierte Systeme
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: master
 kuerzel: SSW
 studiensemester: 2

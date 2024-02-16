@@ -34,12 +34,9 @@ Ihr Medieninformatik Entwicklungsteam
 
 ### Bachelor
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor-for-fakrat"></snippet>
-- Prüfungsordnung Bachelor (tbd)
-- Praxissemesterordnung Bachelor (tbd)
 
 ### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-fakrat"></snippet>
-- Prüfungsordnung Master (tbd)
 
 ---
 

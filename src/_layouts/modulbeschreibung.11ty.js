@@ -3,19 +3,27 @@ module.exports = {
 		layout: "default.11ty.js",
 		bodyClass: "modulbeschreibung",
 	},
-	render(data) {
+	render(data, context, givenData) {
 
+		const eleventy = context ? context : this;
+
+		// Für die Druckversion wird die Modulbeschreibung mit anderen Daten gerendert
+		const moduleData = givenData ? givenData.data : data;
+		
 		const moduleTools = require('./components/moduleTools.11ty');
 		const peopleTools = require('./components/peopleTools.11ty');
 		const curriculumTools = require('./components/curriculumTools.11ty');
 		const utils = require('./components/utils.11ty.js');
-		const eleventy = this;
+	
 		const translateStars = moduleTools.translateStars;
 		
-		const studyProgramme = data.modulniveau;
-		const pathToCompetenceMap = eleventy.getCompetencesToModuleMapPath(studyProgramme);
+		const urlPrefix = eleventy.urlPrefix();
+		const studyProgramme = moduleData.modulniveau;
+		const pathToCompetenceMap = eleventy.getCompetencesToModuleMapPath(studyProgramme) 
+			? `${urlPrefix}/${eleventy.getCompetencesToModuleMapPath(studyProgramme)}` : '';
 
-		data = moduleTools.addCompetences(data);
+		data = moduleTools.addCompetences(moduleData);
+		const idModul = eleventy.slugify(data.title);
 
 		const createRow = (label, value) => {
 			if(!value) return "";
@@ -77,7 +85,7 @@ module.exports = {
 						`;
 					});
 
-					const idBereich = this.slugify(key);
+					const idBereich = eleventy.slugify(key);
 
 					return `
 						<li id="${idBereich}">
@@ -91,7 +99,7 @@ module.exports = {
 
 				const handlungsfeldKuerzel = handlungsfelderMap.get(key);
 				const scoreCssClass = handlungsfeldKuerzel ? handlungsfeldKuerzel.toLowerCase() : '';
-				const idHandlungsfeld = this.slugify(key);
+				const idHandlungsfeld = eleventy.slugify(key);
 
 				return `
 					<div class="competence-block" id="${idHandlungsfeld}">
@@ -132,7 +140,7 @@ module.exports = {
 
 			const scoresTable = Object.entries(scoresHandlungsfelder).map(([key, values]) => {
 				const valuesList = Object.entries(values).map(([key, value]) => {
-					const idBereich = this.slugify(bereicheMapInverted[key]);
+					const idBereich = eleventy.slugify(bereicheMapInverted[key]);
 				
 					return `
 						<li>
@@ -182,9 +190,9 @@ module.exports = {
 							<div class="chart" 
 								data-chart='${modulkompetenzenData}' 
 								data-handlungsfelder='${handlungsfelderMapInverted}' 
-								data-target="competence-chart-erwerb"
+								data-target="competence-chart-erwerb-${idModul}"
 								data-direction="erwerb">
-								<canvas id="competence-chart-erwerb"></canvas>
+								<canvas id="competence-chart-erwerb-${idModul}"></canvas>
 							</div>
 						</div>
 						<div class="scores">
@@ -220,6 +228,8 @@ module.exports = {
 			? '' 
 			: peopleTools.resolvePerson(data.people, data.dozierende);
 
+		const lastChanges = data.page ? createRow("Letzte Aktualisierung", utils.getDate(data.page.date)) : '';
+
 		const coreData = `
 			<table class="core-data">
 				${createRow("Modulverantwortlich", modulverantwortlich)}
@@ -242,13 +252,13 @@ module.exports = {
 				${createRow("Selbststudium in Stunden", data.selbstStudium)}
 				${createRow("Lehrformen", data.lehrform)}
 				${createRow("Lehrmethoden", data.lehrmethoden)}
-				${createRow("Letzte Aktualisierung", utils.getDate(data.page.date))}
+				${lastChanges}
 			</table>
 		`;
 
-		const editUrl = `${data.settings.repoEditUrl}${data.page.inputPath.replace('./src/', 'src/')}`;
+		const editUrl = data.settings ? `${data.settings.repoEditUrl}${data.page.inputPath.replace('./src/', 'src/')}` : '';
 		const status = data.meta && data.meta.status ? `is-${data.meta.status}` : '';
-		const meta = utils.getContentMeta(this, data.meta);
+		const meta = utils.getContentMeta(eleventy, data.meta);
 
 		const modulkompetenzen = !data.kompetenzen || data.kompetenzen.all.length < 2 ? '' : getModulkompetenzen(data.kompetenzen);			
 		
@@ -267,8 +277,8 @@ module.exports = {
 					${data.content}
 				</section>
 
-				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module', this) : ''}
-				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module', this) : ''}
+				${data.kuerzel ? curriculumTools.getChildModulListBySchwerpunkt(data, 'Wählbare Module', eleventy) : ''}
+				${data.kuerzel ? curriculumTools.getChildModulList(data, 'Wählbare Module', eleventy) : ''}
 
 				${modulkompetenzen}
 			</main>

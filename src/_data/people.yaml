@@ -1,8 +1,12 @@
+
 nn:
     id: nn
     status: prof
-    name: 'tbd'
+    name: 'N.N. (tbd)'
     mi: true
+    personenseite: 'https://www.th-koeln.de/stellen/'    
+    avatar: '/avatar.png'
+
 il:
     id: il
     status: prof
@@ -19,10 +23,10 @@ moe:
     mi: true
 
 mza:
-    id: moe
+    id: mza
     status: prof
     name: 'Prof. Dr. Matthias Zapp'
-    avatar: '/professoren/zapp.png'
+    avatar: '/professoren/zapp.jpg'
     personenseite: 'https://www.th-koeln.de/personen/matthias.zapp/'
 
 fn:
@@ -135,8 +139,8 @@ bb:
     personenseite: 'https://www.th-koeln.de/personen/birgit.bertelsmeier/'
     mi: true
 
-dpeterson:
-    id: dpeterson
+dpetersen:
+    id: dpetersen
     status: wma
     name: 'David Petersen'
     avatar: '/wissmas/peterson.jpeg'

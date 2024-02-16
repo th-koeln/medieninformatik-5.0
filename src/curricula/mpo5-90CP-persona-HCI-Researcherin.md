@@ -3,8 +3,9 @@ title: Berufsbild »HCI Researcher*in für mobile und verteilte Systeme« (Maste
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - master
+  - master-berufsbilder
   - persona
+  - persona-dux
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']
@@ -23,7 +24,7 @@ studienverlauf:
             - "RIM" # Pflicht
             - "ID" # Schwerpunkt
             - "DM" # Wahl
-            - "VW2" # Wahl
+            - "WIVE" # Wahl
             - "UC" # Wahl
     - semester:
         label: "2. Semester"

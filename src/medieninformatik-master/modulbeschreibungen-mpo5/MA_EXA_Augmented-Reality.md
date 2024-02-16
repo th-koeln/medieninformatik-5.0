@@ -25,7 +25,7 @@ studienleistungen:
     zweitpruefer: hs
     datum: vereinbarung
 meta:
-  status: rfreview
+  status: ok
 
 studiengangkriterien:
   globalcitizenship: 0

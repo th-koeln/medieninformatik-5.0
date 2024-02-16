@@ -17,10 +17,11 @@ veranstaltungsform:
 parent:
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Ausarbeitung, Projektdokumentation, Seminarvortrag und Abstract zur Projektarbeit
+    art: Schriftliche Ausarbeitung bzw. Projektdokumentation sowie Seminarvortrag
     erstpruefer: eingesetzterPruefer
     zweitpruefer: mas
     datum: vereinbarung
+    anzahl: 2
 meta:
   status: ok
   authors: Christian, Viet

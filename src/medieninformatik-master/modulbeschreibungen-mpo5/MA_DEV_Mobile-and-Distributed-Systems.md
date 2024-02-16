@@ -13,7 +13,6 @@ angebotImSs: true
 layout: modulbeschreibung.11ty.js
 parent: WAMO-SP, WAMO
 schwerpunkt: DEV
-typ: pm
 kategorie: schwerpunkt
 
 studienleistungen:
@@ -23,7 +22,7 @@ studienleistungen:
     zweitpruefer: 
     datum: 
 meta:
-  status: rfreview     
+  status: ok
 
 studiengangkriterien:
   globalcitizenship: 0

@@ -8,7 +8,7 @@ inOverview:
   - home-stakeholder
 tocs:
   - boards  
-cardTitle: "Für Fakultätsrat"
+cardTitle: "Für Fakultätsrat I"
 teaserText: "Unterlagen und Infos für den Fakultätsrat: Umlaufbeschluss zur Freigabe der Unterlagen für die SK1"
 ---
 
@@ -27,18 +27,15 @@ Euer MI Entwicklungsteam
 03.12.2023
 
 ## Beschluss
-Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss, aus dem hervor geht, dass wir mit folgendem Material in die SK1 gehen können: 
+Vom Fakulätsrat brauchen wir nun einen Umlaufbeschluss: Beschluss des Fakultätsrats zur Freigabe der Studiengangdokumente einschließlich der Prüfungsordnungen, um mit dem folgenden Material in die SK1 gehen zu können:
 
 - [Kurzbericht für den Medieninformatik Bachelor und Master](../kurzbericht/)
 
 ### Bachelor
 <snippet type="toc" id="table-of-content-bachelor" search="bachelor-for-fakrat"></snippet>
-- Prüfungsordnung Bachelor (tbd)
-- Praxissemesterordnung Bachelor (tbd)
 
 ### Master
 <snippet type="toc" id="table-of-content-bachelor" search="master-for-fakrat"></snippet>
-- Prüfungsordnung Master (tbd)
 
 ---
 

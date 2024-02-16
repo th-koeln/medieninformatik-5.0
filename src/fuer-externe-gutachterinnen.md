@@ -22,7 +22,8 @@ vielen Dank, dass ihr uns bei dem Reakkreditierungsprozess unterstützt. Wir ste
 ## Auftrag
 Für die Durchführung der externen Begutachtung liegt eine Checkliste auf Deutsch und auf Englisch vor, welche die gesetzlichen Regelungen zur inhaltlichen Konzeption von Studiengängen umfasst. Diese Checkliste dient auch der Dokumentation des Ergebnisses der externen Begutachtung. Je nach Begutachtungsformat sind getroffene Aussagen der Gutachter\:innen im Sinne eines Ergebnisprotokolls festzuhalten. Hier finden Sie entsprechende [Protokoll-Vorlage](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/vorlage_protokoll_externe_begutachtung.docx). Darüber hinaus gibt es eine [Checkliste zu formalen Vorgaben](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/checkliste_interne_prufung.xlsx). Diese werden intern durch verschiedene Hochschulreferate und die SK1 geprüft. Beide Checklisten sollen den Fakultäten die Orientierung zu den im Rahmen des Bologna-Prozesses zu beachtenden Regelungen erleichtern. Hier gibt es eine umfassende [Beschreibung zum Prozess der Studiengangentwicklung](https://www.th-koeln.de/hochschule/studiengangsentwicklung_53556.php).
 
-**Bitte nutzt diese [Checkliste für externe Begutachtung](https://www.th-koeln.de/mam/downloads/deutsch/hochschule/profil/qualitaetsmanagement/checkliste_externe_begutachtung.xlsx).**
+* Bitte nutzt für den Bachelor diese [Checkliste für externe Begutachtung](/downloads/checkliste_externe_begutachtung-ba.xlsx)
+* Bitte nutzt für den Master diese [Checkliste für externe Begutachtung](/downloads/checkliste_externe_begutachtung-ma.xlsx)
 
 ## Material zur Begutachtung
 
@@ -42,15 +43,20 @@ Für die Durchführung der externen Begutachtung liegt eine Checkliste auf Deuts
 
 ## Hinweis zu Punkt 4 in der Checkliste: Adäquate Umsetzung – Ressourcen
 
-Hierzu wird die Anfrage zur «Bestätigung des Dekans über die für den Studienbetrieb der Medieninformatik Studiengänge hinreichenden personellen und sächlichen Ressourcen» derzeit noch vom Dekanat bearbeitet und liegt erst am 11.12.2023 vor.
+Hierzu liegt eine «Bestätigung des Dekans über die für den Studienbetrieb der Medieninformatik Studiengänge hinreichenden personellen und sächlichen Ressourcen» im Sciebo. Link hatten wir via Mail verschickt.
 
-In dieser Tabelle sind einige Zahlen zu [Änderungen in den Studiengängen](https://www.icloud.com/numbers/07aW6jS58amTeOHNAIV3KNe9w#aenderungen-studienverlaufsplan-bpo4-bpo5) zusammengefasst, aus denen hervor geht, dass die Studiengängen nun mit signifikant geringerem Workload seitens der Lehrenden und Mitarbeiter\*innen betrieben werden können. Da sich die räumliche Situation am Campus nicht verändert hat und die Studiengänge bislang auch hier betrieben wurden, ist eine angemessene Raumausstattung gegeben. Das können wir aber gerne noch mal im Gespräch oder beim (virtuellen) Rundgang erörtern. 😀
+## Weiteres Material
 
-Hier eine Zusammenfassung der Zahlen aus der Tabelle. Insgesamt können die Studiengänge mit den Maßnahmen der neuen Akkreditierung deutlich «günstiger» als zuvor betrieben werden, weil u.A.:
-- im Bachelor die Vertiefungsmodule aufgegeben wurden
-- im Bachelor eine größerer WPF Bereich installiert wurde, der Module des gesamten Lehrbereichs nutzt
-- der Master von 5 auf 3 Schwerpunkte reduziert wurde
-- im Master die Projekte jetzt offener konsruiert sind und somit mehr Synergien nutzbar sind
-- in den Master Schwerpunkten jetzt mehr Synergien genutzt werden (können)
+Ich hab eine Mail mit weiterem Material (Zahlen und Abschlussarbeiten) geschickt.
 
-Rückfragen zum Bachelor gerne an [Christian Noss](https://www.th-koeln.de/personen/christian.noss/). Rückfragen zum Master gerne an [Matthias Böhmer](https://www.th-koeln.de/personen/matthias.boehmer/).
+### Infos zu den Unterlagen im Sciebo:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HIlMpd2wygM?si=uds9Idmgjtwsv4bz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Praxisprojekte
+
+Hier gibt es eine [Übersicht über alle Praxisprojekte der letzten Jahre](https://th-koeln.github.io/mi-bachelor-praxisprojektseminar/alle-abschlussvortraege/) mit zugehöriger Teaserseite.
+
+### Kleiner Einblick in die Räumlichkeiten
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0YOUQbCbOgo?si=L-II6EJcDy-ihiiV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

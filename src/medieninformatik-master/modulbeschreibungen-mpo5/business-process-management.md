@@ -66,16 +66,13 @@ effort:
 
 ## Learning Outcome
 
-
 * After studying this course, students can analyse, re-design and automate business processes in domains. 
-
 * Students can achieve this outcome by:
     * understanding modern Business Process Management concepts & tools,
     * applying process analysis techniques & tools,
     * understanding principles and best practices for process (re-)design,
     * evaluating chances and risks of process automation and 
     * applying business process automation tools.
-
 * To digitalize business processes and hereby improve process efficiency and effectiveness in enterprises and public organizations.
 
 

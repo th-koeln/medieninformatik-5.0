@@ -17,7 +17,7 @@ veranstaltungsform:
 infourl: https://ilias.th-koeln.de/ilias.php?ref_id=1664123&cmdClass=ilobjcoursegui&cmdNode=w4:l5&baseClass=ilrepositorygui&redirectSource=ilcourseregistrationgui&cmdMode=
 studienleistungen:
   Einzelleistung:
-    art: Schriftliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
+    art: Klausurarbeit, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: wk
     zweitpruefer: aschmitter
     datum: ws-1
@@ -49,7 +49,7 @@ studiengangkriterien:
 
 - (WAS) Ziel des Kurses ist eine Einführung in die grundlegenden Begriffe, Methoden Techniken der Mathematik für die Informatik anhand der ausgewählten Teilgebiete.
 - (WOMIT) Die Studierenden erwerben die Fähigkeiten zur Analyse realer oder ge- planter Systeme, indem sie praktische Aufgabenstellungen aus dem Informatik-Umfeld in mathematische Strukturen abstrahieren und lernen.
-- (WOZUI) Die Studierenden erkennen die Anwendungsbezüge der Mathematik für die Informatik, z.B. die Bedeutung funktionaler Beziehungen für kontinuierliche Zusammenhänge, die lineare Algebra als Grundlage der grafischen Datenverarbeitung und die Analysis zur Verarbeitung von Signalen und zur Lösung von mathematischen Modellen.
+- (WOZU) Die Studierenden erkennen die Anwendungsbezüge der Mathematik für die Informatik, z.B. die Bedeutung funktionaler Beziehungen für kontinuierliche Zusammenhänge, die lineare Algebra als Grundlage der grafischen Datenverarbeitung und die Analysis zur Verarbeitung von Signalen und zur Lösung von mathematischen Modellen.
 
 Weitere Infos unter [http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm](http://www.gm.fh-koeln.de/~konen/Mathe1-WS/index.htm).
 

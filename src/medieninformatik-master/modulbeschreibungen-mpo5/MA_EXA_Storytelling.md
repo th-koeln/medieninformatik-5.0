@@ -24,7 +24,7 @@ studienleistungen:
     zweitpruefer: simonporten
     datum: vereinbarung
 meta:
-  status: rfreview     
+  status: ok     
   authors: Hans
   reviewers: Hans
 

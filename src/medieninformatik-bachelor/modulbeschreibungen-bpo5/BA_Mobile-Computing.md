@@ -1,7 +1,7 @@
 ---
 title: Mobile Computing
 modulverantwortlich: mboehmer
-dozierende: mboehmer, dpeterson
+dozierende: mboehmer, dpetersen
 modulniveau: bachelor
 kuerzel: MOCO
 date: Last Modified
@@ -18,12 +18,12 @@ pvl: false
 infourl: https://ilias.th-koeln.de/goto.php?target=crs_1340996&client_id=ILIAS_FH_Koeln
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung (30%)
+    art: Mündliche Prüfung
     erstpruefer: mboehmer
     zweitpruefer: dpetersen
     datum: 03.07.2023
   Teamleistung:
-    art: Projektarbeit (70%)
+    art: Projektarbeit
     erstpruefer: mboehmer
     zweitpruefer: dpetersen
     datum: ende

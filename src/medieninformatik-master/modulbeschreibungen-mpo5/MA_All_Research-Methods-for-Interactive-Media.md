@@ -1,7 +1,7 @@
 ---
-title: Research Methods and Statistics for Interactive Media
+title: Research Methods for Interactive Media
 modulverantwortlich: gh
-dozierende: mbluemm, gh, rgr
+dozierende: mbluemm, gh, rgroten
 modulniveau: master
 kuerzel: RIM
 angebotImWs: true
@@ -17,12 +17,12 @@ typ: pm
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Präsentation (30%), Projektarbeit (70%)
+    art: Projektarbeit
     erstpruefer: gh, mbluemm,
     zweitpruefer: gh, mbluemm, nkuhn
     datum: vereinbarung
 meta:
-  status: tbd   
+  status: ok   
   
 studiengangkriterien:
   globalcitizenship: 1
@@ -44,8 +44,6 @@ Die Studierenden sind in der Lage, die mit der Forschungsfrage einhergehenden th
 
 Die Studierenden kennen die verschiedenen Formen von Stichprobenziehungen und können anhand der Annahmen über die zugrundeliegende Population Entscheidungen über die Stichprobengenerierung treffen, um anhand konzeptioneller und praktischer Kritien angemessene Stichproben zu ziehen.
 
-> rgr: neuer Absatz, bitte prüfen
-> GeHa: done!
 Die Studierenden wählen die Methoden der quantitative Datenanalyse in Abhängigkeit von Forschungsfrage, Operatioanlisieurng und experimentellen Design. Deskriptive und Inferenzstatistik werden eingesetzt, um die Daten aus den Stichproben zu analysieren, hinsichtlich der Annahmen zu der Stichproben und Voraussetzung für die anzuwendenen statistischen Verfahren die Hypothesen zu prüfen. Die Studierenden sind in der Lage, geeignete statistische Verfahren nachzuvollziehen (Schwerpunkt parametrische Test wie t-Test und Varaianzanalyse), zu wählen und die Ergebnisse zu interpretieren. Die vermittelten Kenntnisse zu Statistik sind insbesondere im Kontext von "Data und Statistical Literacy" relevant.
 
 Die Studierenden kennen Methoden der quantitativen und qualitativen Datenanalyse, können diese anwenden und die so erziehlten Ergebnisse im Lichte eines methodenkritischen Diskurses reflektiert hinsichtlich Tragfähigkeit der Erkenntnisse und potentieller Limitationen kritisch diskutieren.
@@ -84,11 +82,7 @@ Gesamtaufwand 180 Stunden, davon
 - Bortz, J.; Döring, N.: „Forschungsmethoden und Evaluation für Human- und Sozialwissenschaftler“, Springer Heidelberg, Berlin, 2006
 - Lazar, J. Feng, J., Hochheiser, H.: “Research Methods in Human-Computer Interaction”, Wiley, 2009
 - Mey, G., Mruck, K.: “Handbuch Qualitative Forschung in der Psychologie", Springer, 2010
->rgr: hab Bücher hinzugefügt
 - A. Field: "How to Design and Report Experiments Taschenbuch", Sage Publications, 2002
 - A. Field: "An Adventure in Statistics: The Reality Enigma", Sage Publications, 2022
 - A. Reinhart: "Statistics Done Wrong", No Starch Press, 2015
 
-## Verwendung des Moduls in weiteren Studiengängen
-
-## Besonderheiten

@@ -151,9 +151,9 @@ table {
   position: relative;
   z-index: var(--z-level-front);
   min-width: 120ch;
+  background-color: var(--lighter);
   border-spacing: 0;
   line-height: var(--lh-tight);
-  background-color: var(--lighter);
   
   thead {
     position: sticky;
@@ -221,8 +221,105 @@ table {
 
   .is-checked{
     position: absolute;
-    inset: 0;
     background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
+    inset: 0;
+
+    &::before{
+      line-height: 2ch;
+    }
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--lighten);
+  }
+}
+
+/* Table Exams
+###########################################################################  */
+
+.table-exams {
+  position: relative;
+  z-index: var(--z-level-front);
+  min-width: 120ch;
+  background-color: var(--lighter);
+  border-spacing: 0;
+  line-height: var(--lh-tight);
+  
+  thead {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: var(--lightest);
+
+    * {
+      color: var(--darkest);
+      font-size: var(--s);
+    }
+
+    tr:last-child{
+      th{
+        border-bottom: solid var(--border-width-m) var(--mi-lila);
+      }
+    }
+
+  }
+
+  tbody{
+    z-index: 0;
+  }
+
+  th {
+    border-left: dotted var(--border-width-s) var(--dark);
+    vertical-align: top;
+  }
+
+  th, td{
+    border-top: solid var(--border-width-s) var(--darken);
+    font-size: var(--xs);
+    line-height: var(--lh-normal);
+
+    &:first-child{
+      border-left: none;
+    }
+  }
+
+  td {
+    position: relative;
+    height: 2em;
+    border-left: dotted var(--border-width-s) var(--dark);
+    text-align: center;
+
+    &.is-left{
+      text-align: left;
+    }
+  }
+
+  th.is-vertical {
+    position: relative;
+    width: 3ch;
+
+    /* Something you can count on */
+    height: 34ch;
+    white-space: nowrap;
+
+    & > div {
+      position: absolute;
+      bottom: 1ch;
+      left: 0;
+      width: 30px;
+      transform: rotate(-90deg);
+    }
+  }
+
+  th.module-name{
+    width: fit-content;
+    text-align: left;
+  }
+
+  .is-checked{
+    position: absolute;
+    background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
+    inset: 0;
 
     &::before{
       line-height: 2ch;

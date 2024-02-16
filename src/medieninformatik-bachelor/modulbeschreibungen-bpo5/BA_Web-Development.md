@@ -1,6 +1,7 @@
 ---
 title: Web Development
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: bachelor
 kuerzel: WD
 untertitel:
@@ -11,21 +12,17 @@ kreditpunkte: 5
 voraussetzungenNachPruefungsordnung: keine
 empfohleneVoraussetzungen: Einführung in die Medieninformatik, Algorithmen und Programmierung 1 und 2, Datenbankensysteme, Kommunikationstechnik und Netze
 published: true
+pvl: true
 layout: modulbeschreibung.11ty.js
 typ: pm
 veranstaltungsform: Remote, teils hybrid
 infourl: 
 studienleistungen:
   Einzelleistung:
-    art: Mündliche Prüfung
+    art: Mündliche Prüfung, sowie erfolgreiche Teilnahme am Praktikum als Prüfungsvorleistung
     erstpruefer: viet
     zweitpruefer: mfaske
     datum: vereinbarung
-  Teamleistung:
-    art: Projektarbeit
-    erstpruefer: viet
-    zweitpruefer: maa, nkuhn, mfaske
-    datum: ende
 meta:
   status: ok  
   authors: viet
@@ -46,9 +43,8 @@ studiengangkriterien:
   globalcitizenship: 0
   internationalisierung: 0
   interdisziplinaritaet: 0
-  transfer: 0  
+  transfer: 0
 ---
-
 ## Learning Outcome
 
 Veranstaltung führt in die Grundlagen der Entwicklung und Implementierungen von Webanwendungen und Webservices ein.
@@ -85,6 +81,7 @@ Im Workshop soll die Studierenden durch Übungen die Lehrinhalte aus dem Grundla
 ist die Implementierung und das Deployment einer Webanwendung für ein selbstgewältes Problemszenario, der eine signifikante Abnwendungslogik realisiert und seinerseits anwendungsbezogen einen externen REST-basierten Web Service einbindet.
 
 ## Literatur
+
 - Das vom W3C herausgegebene Dokument über die Architektur des Web
 - Tilkov et al.: REST und HTTP, dpunkt.verlag 2015
 - Tanenbaum et al.: Distributed Systems, Pearson 2007

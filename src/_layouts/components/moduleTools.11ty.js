@@ -148,6 +148,8 @@ exports.addCompetences = (data) => {
 
 exports.resolveExamInfoSimple = (examInfo) => {
 
+  if(!examInfo || examInfo === undefined) return false;
+  
   const formatExamItem = (examInfo, type) => {
     if(!examInfo[type]) return false;
     return `${examInfo[type].art}`;
@@ -168,6 +170,28 @@ exports.resolveExamInfoSimple = (examInfo) => {
     return `
       ${combined}
     `;
+  };
+
+  return extractExamInfo(examInfo);
+};
+
+/* Summe der Prüfungsleistungen
+############################################################################ */
+
+exports.getExamSum = (examInfo) => {
+
+  if(!examInfo || examInfo === undefined) return 1;
+  
+  const extractExamInfo = (examInfo) => {
+
+    const einzelleistung = examInfo['Einzelleistung'] 
+      ? examInfo['Einzelleistung'].anzahl ? examInfo['Einzelleistung'].anzahl : 1
+      : 0;
+    const teamleistung = examInfo['Teamleistung'] 
+      ? examInfo['Teamleistung'].anzahl ? examInfo['Teamleistung'].anzahl : 1
+      : 0;
+
+    return einzelleistung + teamleistung;
   };
 
   return extractExamInfo(examInfo);

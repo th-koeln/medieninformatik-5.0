@@ -1,6 +1,7 @@
 ---
 title: Fortgeschrittene Themen verteilter, web-basierter Systeme
 modulverantwortlich: viet
+dozierende: viet
 modulniveau: master
 kuerzel: FTW
 sprache: deutsch
@@ -18,7 +19,7 @@ schwerpunkt: DEV
 typ: wpm
 studienleistungen:
   Einzelleistung:
-    art: Fachgespräch (50%), Projektarbeit (50%)
+    art: schriftliche Ausarbeitung und mündliche Prüfung
     erstpruefer: viet
     zweitpruefer: cn
     datum: vereinbarung
@@ -32,7 +33,6 @@ studiengangkriterien:
   internationalisierung: 0
   interdisziplinaritaet: 0
   transfer: 0
-
 ---
 ## Kurzbeschreibung
 

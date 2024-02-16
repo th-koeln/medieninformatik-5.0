@@ -24,7 +24,7 @@ studienleistungen:
     erstpruefer: fn
     zweitpruefer: gh
 meta:
-  status: rfreview
+  status: ok
 
 studiengangkriterien:
   globalcitizenship: 0

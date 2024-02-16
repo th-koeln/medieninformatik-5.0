@@ -118,3 +118,4 @@ Lehrvideos, Folien in elektronischer Form, Fachartikel
 * Few, S.: Information Dashboard Design, O’Reilly 2006
 * Oehler, K.: Corporate Performance Management mit Business Intelligence Werkzeugen, Hanser 2006
 * Creelman, J. / Smart, A.: Risk-Based Performance Management: Integrating Strategy and Risk Management, Palgrave Macmillan 2013
+* Buckingham, M. / Gardner, K. / Gratton, L. / Cappelli, P.: HBR's 10 Must Reads on Performance Management (English Edition),  Harvard Business Review 2023

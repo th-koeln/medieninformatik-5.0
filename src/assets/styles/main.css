@@ -380,7 +380,7 @@ hr {
 /* Blockquote
 ############################################################################ */
 blockquote {
-  padding: var(--s) var(--s) var(--quat) var(--s);
+  padding: var(--s) var(--s) var(--s) var(--s);
   border-left: solid var(--border-width-m) var(--mi-lila);
   margin-bottom: var(--fluid-space-m);
   background-color: var(--darken);
@@ -452,10 +452,18 @@ blockquote {
   }
 
   @page {
-    margin: 2cm 1.5cm 1.5cm 3cm;
+    margin: 2cm 1.5cm 3cm;
   }
-  h1, h2 {
+  h1, h2, .modulbeschreibung.print header {
     page-break-before: always;
+  }
+
+  .competence-list {
+    display: none;
+  }
+
+  .icon {
+    display: none;
   }
 }
 /* Vertikal zentriert
@@ -890,9 +898,9 @@ table.is-narrow td {
   position: relative;
   z-index: var(--z-level-front);
   min-width: 120ch;
+  background-color: var(--lighter);
   border-spacing: 0;
   line-height: var(--lh-tight);
-  background-color: var(--lighter);
 }
 .table-modulmatrix thead {
   position: sticky;
@@ -945,13 +953,90 @@ table.is-narrow td {
 }
 .table-modulmatrix .is-checked {
   position: absolute;
-  inset: 0;
   background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
+  inset: 0;
 }
 .table-modulmatrix .is-checked::before {
   line-height: 2ch;
 }
 .table-modulmatrix tr:nth-child(even) {
+  background-color: var(--lighten);
+}
+
+/* Table Exams
+###########################################################################  */
+.table-exams {
+  position: relative;
+  z-index: var(--z-level-front);
+  min-width: 120ch;
+  background-color: var(--lighter);
+  border-spacing: 0;
+  line-height: var(--lh-tight);
+}
+.table-exams thead {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background-color: var(--lightest);
+}
+.table-exams thead * {
+  color: var(--darkest);
+  font-size: var(--s);
+}
+.table-exams thead tr:last-child th {
+  border-bottom: solid var(--border-width-m) var(--mi-lila);
+}
+.table-exams tbody {
+  z-index: 0;
+}
+.table-exams th {
+  border-left: dotted var(--border-width-s) var(--dark);
+  vertical-align: top;
+}
+.table-exams th, .table-exams td {
+  border-top: solid var(--border-width-s) var(--darken);
+  font-size: var(--xs);
+  line-height: var(--lh-normal);
+}
+.table-exams th:first-child, .table-exams td:first-child {
+  border-left: none;
+}
+.table-exams td {
+  position: relative;
+  height: 2em;
+  border-left: dotted var(--border-width-s) var(--dark);
+  text-align: center;
+}
+.table-exams td.is-left {
+  text-align: left;
+}
+.table-exams th.is-vertical {
+  position: relative;
+  width: 3ch;
+  /* Something you can count on */
+  height: 34ch;
+  white-space: nowrap;
+}
+.table-exams th.is-vertical > div {
+  position: absolute;
+  bottom: 1ch;
+  left: 0;
+  width: 30px;
+  transform: rotate(-90deg);
+}
+.table-exams th.module-name {
+  width: fit-content;
+  text-align: left;
+}
+.table-exams .is-checked {
+  position: absolute;
+  background-color: color-mix(in srgb, var(--mi-gruen), var(--lightest) 80%);
+  inset: 0;
+}
+.table-exams .is-checked::before {
+  line-height: 2ch;
+}
+.table-exams tr:nth-child(even) {
   background-color: var(--lighten);
 }
 
@@ -1678,7 +1763,7 @@ ul.content-card-overview.misc .content-card-item {
   display: block;
   background-color: var(--darken);
 }
-.modulbeschreibung .scores-and-charts .score h3 {
+.modulbeschreibung .scores-and-charts .score h3, .modulbeschreibung .scores-and-charts .score h5 {
   padding-top: 0;
   padding-bottom: var(--half);
   padding-left: var(--s);

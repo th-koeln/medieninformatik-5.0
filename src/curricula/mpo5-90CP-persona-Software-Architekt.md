@@ -3,8 +3,9 @@ title: Berufsbild »Software-Architekt*in mit Fokus auf interaktive, web-basiert
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - master
+  - master-berufsbilder
   - persona
+  - persona-dev
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']

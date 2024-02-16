@@ -3,8 +3,9 @@ title: Berufsbild »UX Designer*in mit Fokus auf die Auswirkungen der digitalen 
 layout: verlaufsplan.11ty.js
 inToc: false
 tocs:
-  - master
+  - master-berufsbilder
   - persona
+  - persona-dux
 collection: modulsMPO5
 terms: [1,2,3]
 groups: ['Pflicht', 'Schwerpunkt', 'Wahl', 'Abschluss']

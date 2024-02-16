@@ -1,6 +1,6 @@
 ---
 title: Process Mining
-kuerzek: PMI
+kuerzel: PMI
 
 modulverantwortlich: dz
 dozierende: dz

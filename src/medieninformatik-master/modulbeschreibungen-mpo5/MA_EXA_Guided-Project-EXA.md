@@ -18,7 +18,7 @@ layout: modulbeschreibung.11ty.js
 kategorie: schwerpunkt
 
 parent: GP-SP
-typ: pm
+
 studienleistungen:
   Einzelleistung:
     art: Semesterbegleitendes Projekt, dokumentiert als wissenschaftliches Papier / Präsentation
