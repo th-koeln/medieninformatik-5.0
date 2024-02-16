@@ -15,9 +15,9 @@ module.exports = {
       const status = item.data.meta && item.data.meta.status ? `is-${item.data.meta.status}` : '';
 
       return `
-        <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}" id="${this.slugify(item.data.title)}" data-js-scrollspy-section>
+        <section class="${status} ${item.data.class ? item.data.class : ''} ${item.data.level===1 ? 'has-seperator' : ''}">
           <div class="content">
-            <h${item.data.level + 1}>${item.data.title} 
+            <h${item.data.level + 1} id="${this.slugify(item.data.title)}">${item.data.title}
             ${utils.getOpenInNewWindowLink(item, data)}${utils.getEditLink(item, data)}</h${item.data.level + 1}>
             ${meta}
             ${item.content}
